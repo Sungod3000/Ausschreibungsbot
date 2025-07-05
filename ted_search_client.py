@@ -16,7 +16,7 @@ from datetime import datetime
 import time
 
 # ------------------ global rate limiter ------------------
-_MIN_API_INTERVAL = 0.1  # seconds – 10 requests/second (700/60 ≈ 11.6)
+_MIN_API_INTERVAL = 0.3   # seconds – ~3 requests/second
 _last_api_call = 0.0
 
 def _throttle_api() -> None:
@@ -123,6 +123,9 @@ def ted_search(
             if lang_filter:
                 results = [r for r in results if r.get('links', {}).get('pdf', {}).get(lang_filter)]
             all_results.extend(results)
+            # Stop if we've reached desired total limit
+            if len(all_results) >= limit:
+                return all_results[:limit]
             
             # Stop if no more results or reached max pages
             if not results:
