@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes - NL Nordwest</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Gradestraße 18</cbc:StreetName>
+                           <cbc:CityName>Hannover</cbc:CityName>
+                           <cbc:PostalZone>30163</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Vergabestelle</cbc:Name>
+                           <cbc:Telephone>+49 5112351050</cbc:Telephone>
+                           <cbc:ElectronicMail>Vergabe.nordwest@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.bundeskartellamt.de/DE/Vergaberecht/vergaberecht_node.html</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundeskartellamt - Vergabekammern des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>N.N.</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 22894990</cbc:Telephone>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10557</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt.-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30640964911</cbc:Telephone>
+                           <cbc:Telefax>+49 30403680811</cbc:Telefax>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10557</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt. ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30640964911</cbc:Telephone>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00359130-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">106/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-04+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">5aaaedf1-98f8-42ed-8eb9-4883524acef1</cbc:ID>
+   <cbc:ContractFolderID>3d6c2ccc-f4cc-4f2a-9fc1-16c52011edbc</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-03+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:53:37+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-03+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://vergabe.autobahn.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-other</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß §§ 123 oder 124  GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass die Verpflichtung zur Zahlung der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt wurde und insofern nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Auf gesondertes Verlangen: Vorlage einer Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, soweit Ihr Unternehmen beitragspflichtig ist.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass die Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgemäß erfüllt wurde und insofern nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Auf gesondertes Verlangen: Vorlage einer Unbedenklichkeitsbescheinigung des Finanzamtes, soweit das Finanzamt derartige Bescheinigungen ausstellt.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gem. § 21 Arbeitnehmer-Entsendegesetz, § 98c Aufenthaltsgesetz, § 19 Mindestlohngesetz, § 21 Schwarzarbeitsbekämpfungsgesetz und § 22 Lieferkettensorgfaltspflichtengesetz vorliegen (§ 124 (2) GWB). Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>4</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>4</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>NOW-2025-0152</cbc:ID>
+      <cbc:Name languageID="DEU">PWC-Reinigung AS Hannover 2025-2027 (4 Lose)</cbc:Name>
+      <cbc:Description languageID="DEU">A-2025-PWC, PWC-Reinigung AS Hannover 2025-2027 (4 Lose)</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Hinweis zur Geltung der Verordnung (EU) 2022/2560 über den Binnenmarkt verzerrende drittstaatliche Subventionen (nachfolgend: FSR):
+
+Sind die Bedingungen für die Meldung finanzieller Zuwendungen gemäß Artikel 28 Absätze 1 und 2 FSR erfüllt, so ist ein Bewerber/Bieter verpflichtet, alle drittstaatlichen finanziellen Zuwendungen nach Artikel 28 Absatz 1 Buchstabe b FSR zu melden. In allen anderen Fällen ist ein Bewerber/Bieter verpflichtet eine Erklärung abzugeben, in der er alle erhaltenen drittstaatlichen finanziellen Zuwendungen aufführt und zu bestätigen, dass die erhaltenen drittstaatlichen finanziellen Zuwendungen keiner Meldepflicht nach Artikel 28 Absatz 1 Buchstabe b FSR unterliegen. Für die Meldung bzw. Erklärung ist das den Vergabeunterlagen beigefügte Formular nach Anhang II der Durchführungsverordnung (EU) 2023/1441 zur Festlegung detaillierter Vorschriften für die Durchführung von Verfahren nach der Verordnung (EU) 2022/2560 (nachfolgend: Durchführungsverordnung) unter Beachtung der Vorgaben der FSR sowie der Durchführungsverordnung zu verwenden. Sofern ein Teilnahmewettbewerb durchgeführt wird, ist die Meldung oder Erklärung sowohl mit dem Teilnahmeantrag als auch (nochmals) mit dem Angebot einzureichen. Im Übrigen mit dem Angebot. 
+Auf die Gründe für die Ablehnung / den Ausschluss eines Teilnahmeantrags oder Angebots gemäß Art. 29 Abs. 3, Art. 29 Abs. 4 und Art. 31 Abs. 2 FSR wird hingewiesen.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90911200</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hannover</cbc:CityName>
+            <cbc:PostalZone>30163</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der Maßnahmen zur Qualitätssicherung des Unternehmens, die das Unternehmen während der Auftragsausführung anwendet
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Angaben über mindestens [3] geeignete Referenzen über früher ausgeführte Dienstleistungen der in den letzten höchstens [3] Jahren erbrachten wesentlichen Leistungen mit Angabe der Bezeichnung der Leistung, des Werts, des Liefer- bzw. Erbringungszeitraums sowie die Kontaktdaten des jeweiligen Auftraggebers.
+
+Als vergleichbare Leistungen werden anerkannt:
+* Reinigung von WC-Gebäuden auf Rastanlagen an Autobahnen oder Bundesstraßen.
+
+Auf gesondertes Verlangen einzureichen:
+
+Beschreibung der vergleichbaren Leistungen in den Referenzen, der Erfüllung der erforderlichen Mindestanforderungen sowie der ordnungsgemäßen Ausführung und des Ergebnisses.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der technischen Fachkräfte oder der technischen Stellen, die im Zusammenhang mit der Leistungserbringung eingesetzt werden sollen, mit Benennung von Namen der Personen mit Funktion und beruflicher Qualifikation.
+
+Auf gesondertes Verlangen einzureichen:
+
+Entsprechende Nachweise Nachweise in Form von Studiennachweisen oder sonstigen Bescheinigungen bzw. Angaben wie Berufserfahrung und ausgeübten Tätigkeiten zu den Personen.
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-no-mgmt</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Anzahl der beschäftigen Führungskräfte des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+- Angabe im Vordruck HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, welche Teile des Auftrags der Auftragnehmer als Unteraufträge zu vergeben beabsichtigt.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Ergänzung des Vordrucks HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, um die Namen der
+Nachunternehmen inkl. entsprechender Eignungsnachweise.
+
+- Verpflichtungserklärung anderer Unternehmen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Eigenerklärung über das Bestehen bzw. den Abschluss im Auftragsfall einer Berufs- oder Betriebshaftpflichtversicherung in bestimmter geeigneter Höhe.
+
+- Mindestanforderung: 
+* Berufshaft- oder Betriebshaftpflichtversicherung für Personenschäden in Höhe von mindestens 1.000.000,00 € und für sonstige Schäden (Sach- und Vermögensschäden) in Höhe von mindestens 500.000,00 €.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Zusicherung der Versicherung über den Abschluss bzw. die Erhöhung der Berufshaft- oder Betriebshaftpflichtversicherung im Auftragsfall bzw. einen entsprechenden Versicherungsnachweis.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil I:
+
+- Angabe über Ausschlussgründe gemäß § 42 VgV in Verbindung mit § 123 und §$ 124 GWB. Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber von den Bewerbern, welche zur Angebotsabgabe aufgefordert werden sollen bwz. von dem Bieter, dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Gewerbezentralregister gem. § 150a GewO beim Bundesamt für Justiz anfordern.
+
+- Angaben zur Zahlung von Steuern, Abgaben und Beiträgen
+zur gesetzlichen Sozialversicherung.
+
+Auf gesondertes Verlangen ist eine Unbedenklichkeitsbescheinigung der tarfilichen Sozialkasse und eine Unbedenklichkeitsbescheinigung des Finanzamtes vorzulegen.
+
+- Angabe zu Insolvenzverfahren und Liquidation.
+
+Auf Verlangen ist der rechtskräftig bestätigte Insolvenzplan vorzulegen.
+
+- Klarstellend wird ebenfalls auf die gesetzliche Regelung des Art. 5k VO (EU) Nr. 833-2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, hingewiesen.
+Die als Formular vorgegebene Eigenerklärung im Formblatt
+EIGENERKLAERUNG_BEZUG_RUSSLAND, mittels derer die
+Auftraggeber die Einhaltung der vorgenannten Vorschrift zu
+prüfen haben, ist abzugeben.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Verpflichtungserklärung im Rahmen der finanziellen oder
+wirtschaftlichen Eignungsleihe</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung über den durchschnittlichen Mindestjahresumsatz, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der geforderte durchschnittliche Mindestjahresumsatz beträgt 
+50.000,00 € brutto in den letzten 3 abgeschlosenen Geschäftsjahren. 
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Erklärung über den durchschnittlichen Mindestjahresumsatz in dem Tätigkeitsbereich des Auftrags bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Liefer- und Dienstleistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der durchschnittlich geforderte Mindestjahresumsatz in dem Tätigkeitsbereich dieses Auftrags beträgt 25.000,00 € brutto in den letzten 3 abgeschlossenen Geschäftsjahren.
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angaben in "Eigenerklärung zur Eignung" Teil II:
+
+- Eintragung in ein Berufsregister Ihres Sitzes oder Wohnsitzes.
+
+Auf gesondertes Verlagen sind Gewerbeanmeldung, Berufs-/
+Handelskammer oder anderweitige sonstige Nachweis
+vorzulegen.
+
+Benannte Nachweise und Erklärungen sind von einer
+Bietergemeinschaft insgesamt sowie auch von
+Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://
+amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer
+anderen für den öffentlichen Auftraggeber kostenfreien
+Datenbank innerhalb der EU registriert sind, können dies bei
+Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch
+Angabe der Registrierungsnummer und /oder des
+Zugangscodes angeben. Sofern vom Auftraggeber Nachweise
+gefordert werden, die nicht in den
+Präqualifizierungsdatenbanken enthalten sind, sind diese
+ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.autobahn.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1970c0c32eb-ebc9e664e8da0fd</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen richtet sich nach § 56 VgV. Bei ausländischen Bietern werden gleichwertige Nachweise verlangt: Vorzulegende Erklärungen / Nachweise bei der Angebotsabgabe: Angabe der Unternehmen bei Eignungsleihe im Verzeichnis der Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, auf gesondertes Verlangen: Verpflichtungserklärung im Rahmen der finanziellen oder wirtschaftlichen Eignungsleihe, Verpflichtungserklärung Leistungen anderer Unternehmer, Erklärung der Bieter-/Arbeitsgemeinschaft</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.autobahn.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">51</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Unzulässigkeit eines Nachprüfungsantrages nach Ablauf der Frist des § 160 Abs. 3 Nr. 4 GWB (15 Tage nach Eingang des Nichtabhilfebescheids auf eine Rüge) wird hingewiesen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://vergabe.autobahn.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="DEU">entfällt - ohne Bieter</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">AM Braunschweig Hafen</cbc:Name>
+         <cbc:Description languageID="DEU">Reinigung der unbewirtschafteten WC-Gebäude auf PWC-Anlagen im Zuständigkeitsbereich der AM BS Hafen:
+
+PWC - Anlage Röhrse (Nord) 
+-BAB A 2, km 194,300 in der Fahrtrichtung Dortmund 
+
+PWC - Anlage Röhrse (Süd) 
+-BAB A 2, km 194,500 in der Fahrtrichtung Berlin 
+
+PWC - Anlage Essehof (Nord) 
+-BAB A 2, km 159,600 in der Fahrtrichtung Dortmund  
+
+PWC - Anlage Essehof (Süd) 
+-BAB A 2, km 156,500 in der Fahrtrichtung Berlin   
+
+PWC - Anlage Uhry (Nord) 
+-BAB A 2, km 146,500 in der Fahrtrichtung Dortmund  
+
+PWC - Anlage Uhry (Süd)
+-BAB A 2, km 146,500 in der Fahrtrichtung Berlin 
+
+Die im Betrieb befindlichen WC-Gebäude sind zweimal täglich, auch an allen Sonn- und Feiertagen, zu reinigen. Die auszuführenden Reinigungsvorgänge beinhalten auch eine monatliche Grundreinigung, sowie die Reinigung der Fallrohre und die Entfernung von Graffitis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90911200</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hafenstr. 10</cbc:StreetName>
+               <cbc:CityName>Walle</cbc:CityName>
+               <cbc:PostalZone>38179</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE914</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2027-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der Maßnahmen zur Qualitätssicherung des Unternehmens, die das Unternehmen während der Auftragsausführung anwendet
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Angaben über mindestens [3] geeignete Referenzen über früher ausgeführte Dienstleistungen der in den letzten höchstens [3] Jahren erbrachten wesentlichen Leistungen mit Angabe der Bezeichnung der Leistung, des Werts, des Liefer- bzw. Erbringungszeitraums sowie die Kontaktdaten des jeweiligen Auftraggebers.
+
+Als vergleichbare Leistungen werden anerkannt:
+* Reinigung von WC-Gebäuden auf Rastanlagen an Autobahnen oder Bundesstraßen.
+
+Auf gesondertes Verlangen einzureichen:
+
+Beschreibung der vergleichbaren Leistungen in den Referenzen, der Erfüllung der erforderlichen Mindestanforderungen sowie der ordnungsgemäßen Ausführung und des Ergebnisses.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der technischen Fachkräfte oder der technischen Stellen, die im Zusammenhang mit der Leistungserbringung eingesetzt werden sollen, mit Benennung von Namen der Personen mit Funktion und beruflicher Qualifikation.
+
+Auf gesondertes Verlangen einzureichen:
+
+Entsprechende Nachweise Nachweise in Form von Studiennachweisen oder sonstigen Bescheinigungen bzw. Angaben wie Berufserfahrung und ausgeübten Tätigkeiten zu den Personen.
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-no-mgmt</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Anzahl der beschäftigen Führungskräfte des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+- Angabe im Vordruck HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, welche Teile des Auftrags der Auftragnehmer als Unteraufträge zu vergeben beabsichtigt.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Ergänzung des Vordrucks HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, um die Namen der
+Nachunternehmen inkl. entsprechender Eignungsnachweise.
+
+- Verpflichtungserklärung anderer Unternehmen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Eigenerklärung über das Bestehen bzw. den Abschluss im Auftragsfall einer Berufs- oder Betriebshaftpflichtversicherung in bestimmter geeigneter Höhe.
+
+- Mindestanforderung: 
+* Berufshaft- oder Betriebshaftpflichtversicherung für Personenschäden in Höhe von mindestens 1.000.000,00 € und für sonstige Schäden (Sach- und Vermögensschäden) in Höhe von mindestens 500.000,00 €.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Zusicherung der Versicherung über den Abschluss bzw. die Erhöhung der Berufshaft- oder Betriebshaftpflichtversicherung im Auftragsfall bzw. einen entsprechenden Versicherungsnachweis.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil I:
+
+- Angabe über Ausschlussgründe gemäß § 42 VgV in Verbindung mit § 123 und §$ 124 GWB. Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber von den Bewerbern, welche zur Angebotsabgabe aufgefordert werden sollen bwz. von dem Bieter, dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Gewerbezentralregister gem. § 150a GewO beim Bundesamt für Justiz anfordern.
+
+- Angaben zur Zahlung von Steuern, Abgaben und Beiträgen
+zur gesetzlichen Sozialversicherung.
+
+Auf gesondertes Verlangen ist eine Unbedenklichkeitsbescheinigung der tarfilichen Sozialkasse und eine Unbedenklichkeitsbescheinigung des Finanzamtes vorzulegen.
+
+- Angabe zu Insolvenzverfahren und Liquidation.
+
+Auf Verlangen ist der rechtskräftig bestätigte Insolvenzplan vorzulegen.
+
+- Klarstellend wird ebenfalls auf die gesetzliche Regelung des Art. 5k VO (EU) Nr. 833-2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, hingewiesen.
+Die als Formular vorgegebene Eigenerklärung im Formblatt
+EIGENERKLAERUNG_BEZUG_RUSSLAND, mittels derer die
+Auftraggeber die Einhaltung der vorgenannten Vorschrift zu
+prüfen haben, ist abzugeben.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Verpflichtungserklärung im Rahmen der finanziellen oder
+wirtschaftlichen Eignungsleihe</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung über den durchschnittlichen Mindestjahresumsatz, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der geforderte durchschnittliche Mindestjahresumsatz beträgt 
+50.000,00 € brutto in den letzten 3 abgeschlosenen Geschäftsjahren. 
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Erklärung über den durchschnittlichen Mindestjahresumsatz in dem Tätigkeitsbereich des Auftrags bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Liefer- und Dienstleistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der durchschnittlich geforderte Mindestjahresumsatz in dem Tätigkeitsbereich dieses Auftrags beträgt 25.000,00 € brutto in den letzten 3 abgeschlossenen Geschäftsjahren.
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angaben in "Eigenerklärung zur Eignung" Teil II:
+
+- Eintragung in ein Berufsregister Ihres Sitzes oder Wohnsitzes.
+
+Auf gesondertes Verlagen sind Gewerbeanmeldung, Berufs-/
+Handelskammer oder anderweitige sonstige Nachweis
+vorzulegen.
+
+Benannte Nachweise und Erklärungen sind von einer
+Bietergemeinschaft insgesamt sowie auch von
+Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://
+amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer
+anderen für den öffentlichen Auftraggeber kostenfreien
+Datenbank innerhalb der EU registriert sind, können dies bei
+Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch
+Angabe der Registrierungsnummer und /oder des
+Zugangscodes angeben. Sofern vom Auftraggeber Nachweise
+gefordert werden, die nicht in den
+Präqualifizierungsdatenbanken enthalten sind, sind diese
+ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.autobahn.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1970c0c32eb-ebc9e664e8da0fd</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen richtet sich nach § 56 VgV. Bei ausländischen Bietern werden gleichwertige Nachweise verlangt: Vorzulegende Erklärungen / Nachweise bei der Angebotsabgabe: Angabe der Unternehmen bei Eignungsleihe im Verzeichnis der Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, auf gesondertes Verlangen: Verpflichtungserklärung im Rahmen der finanziellen oder wirtschaftlichen Eignungsleihe, Verpflichtungserklärung Leistungen anderer Unternehmer, Erklärung der Bieter-/Arbeitsgemeinschaft</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.autobahn.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">51</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Unzulässigkeit eines Nachprüfungsantrages nach Ablauf der Frist des § 160 Abs. 3 Nr. 4 GWB (15 Tage nach Eingang des Nichtabhilfebescheids auf eine Rüge) wird hingewiesen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://vergabe.autobahn.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="DEU">entfällt - ohne Bieter</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">AM Braunschweig Rüningen</cbc:Name>
+         <cbc:Description languageID="DEU">Reinigung der unbewirtschafteten WC-Gebäude auf PWC-Anlagen im Zuständigkeitsbereich der AM BS Rüningen:
+
+PWC - Anlage Herzogsberge Nord 
+-BAB A 39, km 164,300 in der Fahrtrichtung Kassel (PWC Anlage mit Sitzbrillenreinigung) 
+
+PWC - Anlage Herzogsberge Süd 
+-BAB A 39, km 164,200 in der Fahrtrichtung Salzwedel (PWC Anlage mit Sitzbrillenreinigung)
+
+PWC - Anlage Werla 
+-BAB A 36, km 22,200 in der Fahrtrichtung Goslar 
+
+PWC - Anlage Ziegenberg 
+-BAB A 36, km 23,400 in der Fahrtrichtung Braunschweig
+
+Die im Betrieb befindlichen WC-Gebäude sind zweimal täglich, auch an allen Sonn- und Feiertagen, zu reinigen. Die auszuführenden Reinigungsvorgänge beinhalten auch eine monatliche Grundreinigung, sowie die Reinigung der Fallrohre und die Entfernung von Graffitis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90911200</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Westerbergstraße 85 - 87</cbc:StreetName>
+               <cbc:CityName>Braunschweig</cbc:CityName>
+               <cbc:PostalZone>38122</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2027-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der Maßnahmen zur Qualitätssicherung des Unternehmens, die das Unternehmen während der Auftragsausführung anwendet
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Angaben über mindestens [3] geeignete Referenzen über früher ausgeführte Dienstleistungen der in den letzten höchstens [3] Jahren erbrachten wesentlichen Leistungen mit Angabe der Bezeichnung der Leistung, des Werts, des Liefer- bzw. Erbringungszeitraums sowie die Kontaktdaten des jeweiligen Auftraggebers.
+
+Als vergleichbare Leistungen werden anerkannt:
+* Reinigung von WC-Gebäuden auf Rastanlagen an Autobahnen oder Bundesstraßen.
+
+Auf gesondertes Verlangen einzureichen:
+
+Beschreibung der vergleichbaren Leistungen in den Referenzen, der Erfüllung der erforderlichen Mindestanforderungen sowie der ordnungsgemäßen Ausführung und des Ergebnisses.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der technischen Fachkräfte oder der technischen Stellen, die im Zusammenhang mit der Leistungserbringung eingesetzt werden sollen, mit Benennung von Namen der Personen mit Funktion und beruflicher Qualifikation.
+
+Auf gesondertes Verlangen einzureichen:
+
+Entsprechende Nachweise Nachweise in Form von Studiennachweisen oder sonstigen Bescheinigungen bzw. Angaben wie Berufserfahrung und ausgeübten Tätigkeiten zu den Personen.
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-no-mgmt</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Anzahl der beschäftigen Führungskräfte des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+- Angabe im Vordruck HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, welche Teile des Auftrags der Auftragnehmer als Unteraufträge zu vergeben beabsichtigt.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Ergänzung des Vordrucks HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, um die Namen der
+Nachunternehmen inkl. entsprechender Eignungsnachweise.
+
+- Verpflichtungserklärung anderer Unternehmen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Eigenerklärung über das Bestehen bzw. den Abschluss im Auftragsfall einer Berufs- oder Betriebshaftpflichtversicherung in bestimmter geeigneter Höhe.
+
+- Mindestanforderung: 
+* Berufshaft- oder Betriebshaftpflichtversicherung für Personenschäden in Höhe von mindestens 1.000.000,00 € und für sonstige Schäden (Sach- und Vermögensschäden) in Höhe von mindestens 500.000,00 €.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Zusicherung der Versicherung über den Abschluss bzw. die Erhöhung der Berufshaft- oder Betriebshaftpflichtversicherung im Auftragsfall bzw. einen entsprechenden Versicherungsnachweis.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil I:
+
+- Angabe über Ausschlussgründe gemäß § 42 VgV in Verbindung mit § 123 und §$ 124 GWB. Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber von den Bewerbern, welche zur Angebotsabgabe aufgefordert werden sollen bwz. von dem Bieter, dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Gewerbezentralregister gem. § 150a GewO beim Bundesamt für Justiz anfordern.
+
+- Angaben zur Zahlung von Steuern, Abgaben und Beiträgen
+zur gesetzlichen Sozialversicherung.
+
+Auf gesondertes Verlangen ist eine Unbedenklichkeitsbescheinigung der tarfilichen Sozialkasse und eine Unbedenklichkeitsbescheinigung des Finanzamtes vorzulegen.
+
+- Angabe zu Insolvenzverfahren und Liquidation.
+
+Auf Verlangen ist der rechtskräftig bestätigte Insolvenzplan vorzulegen.
+
+- Klarstellend wird ebenfalls auf die gesetzliche Regelung des Art. 5k VO (EU) Nr. 833-2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, hingewiesen.
+Die als Formular vorgegebene Eigenerklärung im Formblatt
+EIGENERKLAERUNG_BEZUG_RUSSLAND, mittels derer die
+Auftraggeber die Einhaltung der vorgenannten Vorschrift zu
+prüfen haben, ist abzugeben.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Verpflichtungserklärung im Rahmen der finanziellen oder
+wirtschaftlichen Eignungsleihe</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung über den durchschnittlichen Mindestjahresumsatz, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der geforderte durchschnittliche Mindestjahresumsatz beträgt 
+50.000,00 € brutto in den letzten 3 abgeschlosenen Geschäftsjahren. 
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Erklärung über den durchschnittlichen Mindestjahresumsatz in dem Tätigkeitsbereich des Auftrags bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Liefer- und Dienstleistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der durchschnittlich geforderte Mindestjahresumsatz in dem Tätigkeitsbereich dieses Auftrags beträgt 25.000,00 € brutto in den letzten 3 abgeschlossenen Geschäftsjahren.
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angaben in "Eigenerklärung zur Eignung" Teil II:
+
+- Eintragung in ein Berufsregister Ihres Sitzes oder Wohnsitzes.
+
+Auf gesondertes Verlagen sind Gewerbeanmeldung, Berufs-/
+Handelskammer oder anderweitige sonstige Nachweis
+vorzulegen.
+
+Benannte Nachweise und Erklärungen sind von einer
+Bietergemeinschaft insgesamt sowie auch von
+Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://
+amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer
+anderen für den öffentlichen Auftraggeber kostenfreien
+Datenbank innerhalb der EU registriert sind, können dies bei
+Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch
+Angabe der Registrierungsnummer und /oder des
+Zugangscodes angeben. Sofern vom Auftraggeber Nachweise
+gefordert werden, die nicht in den
+Präqualifizierungsdatenbanken enthalten sind, sind diese
+ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.autobahn.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1970c0c32eb-ebc9e664e8da0fd</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen richtet sich nach § 56 VgV. Bei ausländischen Bietern werden gleichwertige Nachweise verlangt: Vorzulegende Erklärungen / Nachweise bei der Angebotsabgabe: Angabe der Unternehmen bei Eignungsleihe im Verzeichnis der Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, auf gesondertes Verlangen: Verpflichtungserklärung im Rahmen der finanziellen oder wirtschaftlichen Eignungsleihe, Verpflichtungserklärung Leistungen anderer Unternehmer, Erklärung der Bieter-/Arbeitsgemeinschaft</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.autobahn.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">51</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Unzulässigkeit eines Nachprüfungsantrages nach Ablauf der Frist des § 160 Abs. 3 Nr. 4 GWB (15 Tage nach Eingang des Nichtabhilfebescheids auf eine Rüge) wird hingewiesen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://vergabe.autobahn.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="DEU">entfällt - ohne Bieter</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">AM Hannover</cbc:Name>
+         <cbc:Description languageID="DEU">Reinigung der unbewirtschafteten WC-Gebäude auf PWC-Anlagen im Zuständigkeitsbereich der AM Hannover:
+
+PWC - Anlage Godshorn 
+-BAB A 2, km 228,100 in der Fahrtrichtung Dortmund 
+
+PWC - Anlage Vahrenheide 
+-BAB A 2, km 224,000 in der Fahrtrichtung Berlin 
+
+PWC Anlage Varrelheide (Nord) 
+-BAB A 2, km 219,300 in der Fahrtrichtung Dortmund 
+
+PWC Anlage Varrelheide (Süd) 
+-BAB A 2, km 219,300 in der Fahrtrichtung Dortmund 
+
+PWC - Anlage Lehrter See 
+-BAB A 2, in der Fahrtrichtung Dortmund (PWC Anlage mit Sitzbrillenreinigung) 
+
+PWC - Anlage Altwarmbüchener Moor 
+-BAB A 7, km 141,000 in der Fahrtrichtung Hamburg 
+
+PWC - Anlage Seckbruch 
+-BAB A 7, km 129,500 in der Fahrtrichtung Kassel 
+
+PWC - Anlage Springhorst 
+-BAB A 7, km 128,900 in der Fahrtrichtung Hamburg
+
+Die im Betrieb befindlichen WC-Gebäude sind zweimal täglich, auch an allen Sonn- und Feiertagen, zu reinigen. Die auszuführenden Reinigungsvorgänge beinhalten auch eine monatliche Grundreinigung, sowie die Reinigung der Fallrohre und die Entfernung von Graffitis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90911200</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Weiherfeldallee 71</cbc:StreetName>
+               <cbc:CityName>Langenhagen</cbc:CityName>
+               <cbc:PostalZone>30855</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2027-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der Maßnahmen zur Qualitätssicherung des Unternehmens, die das Unternehmen während der Auftragsausführung anwendet
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Angaben über mindestens [3] geeignete Referenzen über früher ausgeführte Dienstleistungen der in den letzten höchstens [3] Jahren erbrachten wesentlichen Leistungen mit Angabe der Bezeichnung der Leistung, des Werts, des Liefer- bzw. Erbringungszeitraums sowie die Kontaktdaten des jeweiligen Auftraggebers.
+
+Als vergleichbare Leistungen werden anerkannt:
+* Reinigung von WC-Gebäuden auf Rastanlagen an Autobahnen oder Bundesstraßen.
+
+Auf gesondertes Verlangen einzureichen:
+
+Beschreibung der vergleichbaren Leistungen in den Referenzen, der Erfüllung der erforderlichen Mindestanforderungen sowie der ordnungsgemäßen Ausführung und des Ergebnisses.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.
+Sofern vom Auftraggeber Referenzen gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind oder nicht den o. g. definierten Mindestanforderungen an vergleichbare Leistungen entsprechen, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Angabe der technischen Fachkräfte oder der technischen Stellen, die im Zusammenhang mit der Leistungserbringung eingesetzt werden sollen, mit Benennung von Namen der Personen mit Funktion und beruflicher Qualifikation.
+
+Auf gesondertes Verlangen einzureichen:
+
+Entsprechende Nachweise Nachweise in Form von Studiennachweisen oder sonstigen Bescheinigungen bzw. Angaben wie Berufserfahrung und ausgeübten Tätigkeiten zu den Personen.
+
+Benannte Angaben sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-no-mgmt</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung, aus der die durchschnittliche jährliche Anzahl der beschäftigen Führungskräfte des Unternehmens in den letzten drei Jahren ersichtlich ist.
+
+Auf gesondertes Verlangen sind entsprechende Nachweise einzureichen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+- Angabe im Vordruck HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, welche Teile des Auftrags der Auftragnehmer als Unteraufträge zu vergeben beabsichtigt.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Ergänzung des Vordrucks HVA L-StB Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, um die Namen der
+Nachunternehmen inkl. entsprechender Eignungsnachweise.
+
+- Verpflichtungserklärung anderer Unternehmen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Eigenerklärung über das Bestehen bzw. den Abschluss im Auftragsfall einer Berufs- oder Betriebshaftpflichtversicherung in bestimmter geeigneter Höhe.
+
+- Mindestanforderung: 
+* Berufshaft- oder Betriebshaftpflichtversicherung für Personenschäden in Höhe von mindestens 1.000.000,00 € und für sonstige Schäden (Sach- und Vermögensschäden) in Höhe von mindestens 500.000,00 €.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Zusicherung der Versicherung über den Abschluss bzw. die Erhöhung der Berufshaft- oder Betriebshaftpflichtversicherung im Auftragsfall bzw. einen entsprechenden Versicherungsnachweis.
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil I:
+
+- Angabe über Ausschlussgründe gemäß § 42 VgV in Verbindung mit § 123 und §$ 124 GWB. Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber von den Bewerbern, welche zur Angebotsabgabe aufgefordert werden sollen bwz. von dem Bieter, dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Gewerbezentralregister gem. § 150a GewO beim Bundesamt für Justiz anfordern.
+
+- Angaben zur Zahlung von Steuern, Abgaben und Beiträgen
+zur gesetzlichen Sozialversicherung.
+
+Auf gesondertes Verlangen ist eine Unbedenklichkeitsbescheinigung der tarfilichen Sozialkasse und eine Unbedenklichkeitsbescheinigung des Finanzamtes vorzulegen.
+
+- Angabe zu Insolvenzverfahren und Liquidation.
+
+Auf Verlangen ist der rechtskräftig bestätigte Insolvenzplan vorzulegen.
+
+- Klarstellend wird ebenfalls auf die gesetzliche Regelung des Art. 5k VO (EU) Nr. 833-2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, hingewiesen.
+Die als Formular vorgegebene Eigenerklärung im Formblatt
+EIGENERKLAERUNG_BEZUG_RUSSLAND, mittels derer die
+Auftraggeber die Einhaltung der vorgenannten Vorschrift zu
+prüfen haben, ist abzugeben.
+
+Auf gesondertes Verlangen einzureichen:
+
+- Verpflichtungserklärung im Rahmen der finanziellen oder
+wirtschaftlichen Eignungsleihe</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+- Erklärung über den durchschnittlichen Mindestjahresumsatz, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der geforderte durchschnittliche Mindestjahresumsatz beträgt 
+50.000,00 € brutto in den letzten 3 abgeschlosenen Geschäftsjahren. 
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angabe in "Eigenerklärung zur Eignung" Teil IV:
+
+Erklärung über den durchschnittlichen Mindestjahresumsatz in dem Tätigkeitsbereich des Auftrags bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Liefer- und Dienstleistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.
+
+-Mindestanforderung: 
+*Der durchschnittlich geforderte Mindestjahresumsatz in dem Tätigkeitsbereich dieses Auftrags beträgt 25.000,00 € brutto in den letzten 3 abgeschlossenen Geschäftsjahren.
+
+Auf gesondertes Verlangen einzureichen:
+
+Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen.
+
+Benannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+
+Angaben in "Eigenerklärung zur Eignung" Teil II:
+
+- Eintragung in ein Berufsregister Ihres Sitzes oder Wohnsitzes.
+
+Auf gesondertes Verlagen sind Gewerbeanmeldung, Berufs-/
+Handelskammer oder anderweitige sonstige Nachweis
+vorzulegen.
+
+Benannte Nachweise und Erklärungen sind von einer
+Bietergemeinschaft insgesamt sowie auch von
+Nachunternehmern für wesentliche Leistungen beizubringen.
+
+Präqualifizierte Unternehmen
+
+Unternehmen, die in den Präqualifizierungsdatenbanken https://
+amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer
+anderen für den öffentlichen Auftraggeber kostenfreien
+Datenbank innerhalb der EU registriert sind, können dies bei
+Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch
+Angabe der Registrierungsnummer und /oder des
+Zugangscodes angeben. Sofern vom Auftraggeber Nachweise
+gefordert werden, die nicht in den
+Präqualifizierungsdatenbanken enthalten sind, sind diese
+ergänzend einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.autobahn.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1970c0c32eb-ebc9e664e8da0fd</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen richtet sich nach § 56 VgV. Bei ausländischen Bietern werden gleichwertige Nachweise verlangt: Vorzulegende Erklärungen / Nachweise bei der Angebotsabgabe: Angabe der Unternehmen bei Eignungsleihe im Verzeichnis der Leistungen von Unterauftragnehmern bzw. anderen Unternehmen, auf gesondertes Verlangen: Verpflichtungserklärung im Rahmen der finanziellen oder wirtschaftlichen Eignungsleihe, Verpflichtungserklärung Leistungen anderer Unternehmer, Erklärung der Bieter-/Arbeitsgemeinschaft</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.autobahn.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">51</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Unzulässigkeit eines Nachprüfungsantrages nach Ablauf der Frist des § 160 Abs. 3 Nr. 4 GWB (15 Tage nach Eingang des Nichtabhilfebescheids auf eine Rüge) wird hingewiesen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://vergabe.autobahn.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-08+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-08+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="DEU">entfällt - ohne Bieter</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0004</cbc:ID>
+         <cbc:Name languageID="DEU">AM Lauenau</cbc:Name>
+         <cbc:Description languageID="DEU">Reinigung der unbewirtschafteten WC-Gebäude auf PWC-Anlagen im Zuständigkeitsbereich der AM Lauenau:
+
+PWC - Anlage Papenbrink (Nord) 
+-BAB A 2, km 282,300 in der Fahrtrichtung Dortmund 
+
+PWC - Anlage Papenbrink (Süd) 
+-BAB A 2, km 282,500 in der Fahrtrichtung Berlin 
+
+PWC - Anlage Bücketaler Knick Nord 
+-BAB A 2, km 250,100 in der Fahrtrichtung Dortmund 
+
+PWC - Anlage Bücketaler Knick Süd 
+-BAB A 2, km 250,100 in der Fahrtrichtung Berlin, Doppelmodul-Anlage (PWC Anlage mit Sitzbrillenreinigung)
+
+PWC Anlage Garbsen Nord 
+-BAB A 2, KM 237,400 in Fahrtrichtung Dortmund (PWC Anlage mit Sitzbrillenreini-
+gung) 
+
+PWC Anlage Schafstrift Süd BAB A 2, KM 262,700 in Fahrtrichtung Hannover (PWC Anlage mit Sitzbrillenreinigung)
+
+Die im Betrieb befindlichen WC-Gebäude sind zweimal täglich, auch an allen Sonn- und Feiertagen, zu reinigen. Die auszuführenden Reinigungsvorgänge beinhalten auch eine monatliche Grundreinigung, sowie die Reinigung der Fallrohre und die Entfernung von Graffitis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90911200</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Lauenauer Str. 18</cbc:StreetName>
+               <cbc:CityName>Apelern</cbc:CityName>
+               <cbc:PostalZone>31552</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE928</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2027-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

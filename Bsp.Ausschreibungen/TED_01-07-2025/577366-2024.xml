@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes - NL Nordwest</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Gradestraße 18</cbc:StreetName>
+                           <cbc:CityName>Hannover</cbc:CityName>
+                           <cbc:PostalZone>30163</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Vergabestelle</cbc:Name>
+                           <cbc:Telephone>08935816198</cbc:Telephone>
+                           <cbc:ElectronicMail>Vergabe.nordwest@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundeskartellamt - Vergabekammern des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>N.N.</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 22894990</cbc:Telephone>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10557</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt.-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30640960</cbc:Telephone>
+                           <cbc:Telefax>+49 30403680811</cbc:Telefax>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10557</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt.-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30640960</cbc:Telephone>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00577366-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">187/2024</efbc:GazetteID><efbc:PublicationDate>2024-09-25+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">181a9de7-dbc7-44a2-a26c-5d703f10c35e</cbc:ID>
+   <cbc:ContractFolderID>28f4db76-1981-41de-b875-996e8d89e029</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-09-24+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:00:31+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-09-24+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://vergabe.autobahn.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass die Verpflichtung zur Zahlung der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt wurde und insofern nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Auf gesondertes Verlangen: Vorlage einer Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, soweit Ihr Unternehmen beitragspflichtig ist.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass die Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgemäß erfüllt wurde und insofern nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Auf gesondertes Verlangen: Vorlage einer Unbedenklichkeitsbescheinigung des Finanzamtes, soweit das Finanzamt derartige Bescheinigungen ausstellt.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gem. § 21 Arbeitnehmer-Entsendegesetz, § 98c Aufenthaltsgesetz, § 19 Mindestlohngesetz, § 21 Schwarzarbeitsbekämpfungsgesetz und § 22 Lieferkettensorgfaltspflichtengesetz vorliegen (§ 124 (2) GWB). Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>NOW-2024-0216</cbc:ID>
+      <cbc:Name languageID="DEU">A7 Ersatzneubau 3 BW bei Niederaula - Umweltbaubegleitung</cbc:Name>
+      <cbc:Description languageID="DEU">Für den Ersatzneubau von 3 Brückenbauwerken, einer Retentionsbodenfilteranlage sowie einer erforderlichen Streckenverbreiterung und Anpassung im zuge der BAB A7 im Bereich der AS Niederaula wird eine Umweltbaubegleitung benötigt. Die Umweltbaubegleitung dient der Prävention und der Vermeidung von ökologischen und ökonomischen Schäden. Sie begleitet die Vorbereitung und Umsetzung der Bauarbeiten hinsichtlich umweltrelevanter Aspekte. Derzeit ist ein Baubeginn im 3. Quartal 2024 geplant. Die Umweltbaubegleitung wird vom 01.10.2024 bis zur Fertigstellung der Baumaßnahme (voraussichtlich bis Mitte 2029) benötigt.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Für die geforderten Angaben, Nachweise und Erklärungen sind die vom Auftraggeber vorgefertigten Vergabeunterlagen zu verwenden. Die Vergabeunterlagen fassen die gewünschten Informationen und Nachweise der Bekanntmachung zusammen .
+ 
+ Die Abgabe des Angebotes ist zwingend in seiner Form einzuhalten. Die geforderten Nachweise und gewünschten Erklärungen sind entsprechend der vorgegebenen Nummerierung der Anlagen zu den jeweiligen Kapiteln der
+ Angebotsunterlagen zu gliedern und zu sortieren. 
+ 
+ Die Nichtverwendung sowie die unvollständige Verwendung / Ausfüllung der vorbereiteten Angebotsunterlagen können zu einem Ausschluss aus dem Vergabeverfahren führen. 
+ Für die Angebotsauswahl werden nur die geforderten Unterlagen berücksichtigt, darüber hinaus gehende Informationsunterlagen sind nicht erwünscht.
+ 
+ Ein Verweis auf frühere Einreichung von Angeboten reicht nicht aus.
+ 
+ Kleinere Büroorganisationen und Berufsanfänger werden
+ besonders auf die Möglichkeit der Bildung von Bietergemeinschaften hingewiesen.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+ Eigenerklärung mit Angaben und Nachweisen,
+ - gem. Beschreibung der o. g. Ausschlussgründe
+ - dass sich das Unternehmen bei der Berufsgenossenschaft angemeldet hat.
+ - dass das Unternehmen zur Erbringung der Dienstleistung berechtigt ist und die Berufsqualifikation gem. § 75 (2), (3) VgV bzw. § 44 VgV besitzt.
+ Das Dokument " Eigenerklärung zur Eignung" ist zu verwenden.
+ Der Auftraggeber behält sich vor, die Vorlage von Bescheinigungen zur Berufsqualifikation zu verlangen.
+ 
+ Die im Formblatt EIGENERKLÄRUNG ZUR EIGNUNG geforderten Erklärungen sind von jedem Bewerber, Mitglied einer Bewerbergemeinschaft, eignungsverleihenden
+ Unterauftragnehmer und - soweit im Teilnahmewettbewerb bereits benannt - anderen Unterauftragnehmern abzugeben.
+ 
+ Klarstellend wird ebenfalls auf die gesetzliche Regelung des Art. 5k VO (EU) Nr. 833-2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, hingewiesen.
+ Die als Formular vorgegebene Eigenerklärung im Formblatt
+ EIGENERKLAERUNG_BEZUG_RUSSLAND, mittels derer die Auftraggeber die Einhaltung der vorgenannten Vorschrift zu prüfen haben, ist abzugeben.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot einzureichen:
+ 
+ Eigenerklärung mit Angaben und Nachweisen:
+ Das Dokument "Eigenerklärung zur Eignung " ist zu verwenden.
+ 
+Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre (2021,2022,2023), soweit es Leistungen betrifft, die mit dem Tätigkeitsbereich dieses Auftrags vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen. Es ist nur der Umsatz anzugeben, den der Bieter mit eigenem Personal (keine Unterauftragnehmer bzw. Nachunternehmer) erwirtschaftet. 
+ Mindeststandard:
+
+Der geforderte Mindestjahresumsatz in dem Tätigkeitsbereich dieses Auftrags beträgt im Durchschnitt 200.000.. €/a brutto in den letzten 3 abgeschlossenen Geschäftsjahren
+ 
+Mindeststandard: 
+Berufshaft- oder Betriebshaftpflichtversicherung für Personenschäden in Höhe von mindestens 3 Mio. € und für sonstige Schäden (Sach- und Vermögensschäden) in Höhe von mindestens 5 Mio. €
+ Es ist zu bestätigen, dass die Maximierung mindestens das 2-fache der genannten Deckungssummen pro Jahr beträgt.
+
+Sofern eine solche Versicherung in geforderter Höhe bereits besteht: Die Versicherungspolice (in Kopie) ist mit dem Angebot einzureichen. 
+Sofern eine solche Versicherung in geforderter Höhe noch nicht besteht: Auf gesondertes Verlangen der Vergabestelle ist die Zusicherung der Berufshaft- oder
+ Betriebshaftpflichtversicherung auf Abschluss oder auf Erhöhung der Versicherungssumme im Auftragsfall vorzulegen. 
+ 
+ Wird einer der o.g. Mindeststandards nicht erfüllt, erfolgt ein Ausschluss der Bewerbung wegen fehlender Eignung.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Mit dem Angebot  einzureichen:
+ 
+ Eigenerklärung mit Angaben und Nachweisen:
+ Das Dokument "Eigenerklärung zur Eignung" ist zu verwenden.
+ 
+(1) Leistungsfähigkeit der technischen Fachkräfte, die im Zusammenhang mit der Leistungserbringung eingesetzt werden sollen, inkl. berufliche Befähigung. 
+ 
+ Mindeststandard:
+Ein Projektleiter für die Umweltbaubegleitung mit folgenden Bedingungen: 
+ - Abgeschlossenes Studium/Ausbildung im Fachbereich Landschaftsbau oder gleichwertig 
+ -Mindestens drei Jahre Berufserfahrung im bereich der Umweltbaubegleitung (UBB)
+- Ausbildung/Weiterbilderung (Zertifikat) als Umweltbaubegleiter
+ 
+Entsprechende Nachweise in Form von Studiennachweisen oder sonstigen Bescheinigungen zum Nachweis der beruflichen Qualifikation sowie ein Lebenslauf zum Projektleiter sind auf einer gesonderten Anlage mit dem Angebot einzureichen .
+ 
+ (2) Ausführung von Leistungen in den letzten drei Jahren, die mit der zu vergebenden Leistung vergleichbar sind. 
+
+Mindeststandard: 
+ Der Bieter muss mindestens zwei vergleichbare Referenzprojekte vorlegen. Ein Referenzprojekt ist mit dem gegenständlichen Auftrag vergleichbar, wenn es eine Umweltbaubegleitung und eine mindestens einjährige Vertragslaufzeit zum Inhalt hat. 
+Das Referenzprojekt muss aus den letzten fünf Jahren sein, d.h. die Leistungen der Umweltbaubegleitung müssen zwischen dem 01.01.2019 und dem Ablauf der Angebotsfrist abgeschlossen sein. Laufende Projekte dürfen eingebracht werden, soweit sie zum Ablauf der Angebotsfrist mindestens seit einem Jahr begleitet werden. 
+ 
+ 
+(3) Angabe, welche Teile des Auftrags unter Umständen an Unterauftragnehmer vom Bewerber vergeben werden sollen.
+ 
+ Mindeststandard:
+ 
+ Der Bewerber ist nur dann geeignet, wenn die von ihm benannten Unterauftragnehmer den Mindeststandards für die übernommenen Leistungen genügen.
+ 
+ Wird einer der o.g. Mindeststandards nicht erfüllt, erfolgt ein Ausschluss der Bewerbung wegen fehlender Eignung.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.autobahn.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-190e049cacd-55770d262c5116ec</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen richtet sich nach § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Erfahrung des Projektleiters (persönliche Referenzen)</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Konzept der Projektabwicklung und Qualitätssicherung</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.autobahn.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">20</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://vergabe.autobahn.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-10-25+02:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-10-25+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="DEU">entfällt - ohne Bieter</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">A7 Ersatzneubau 3 BW bei Niederaula - Umweltbaubegleitung</cbc:Name>
+         <cbc:Description languageID="DEU">A7 Ersatzneubau 3 BW bei Niederaula - Umweltbaubegleitung
+
+Für den Ersatzneubau von drei Brückenbauwerken, einer Retentionsbodenfilteranlage sowie einer erforderlichen Streckenverbreiterung und Anpassung im Zuge der BAB A 7 im Bereich Niederaula wird eine Umweltbaubegleitung benötigt. Die Umweltbaubegleitung dient der Prävention und der Vermeidung von ökologischer und ökonomischer Schäden. Derzeit ist ein Baubeginn im 3. Quartal 2024 geplant. Die Umweltbaubegleitung wird ab dem 01.10.2024 voraussichtlich bis Mitte 2029 (31.05.2029) benötigt, wobei im ersten Bauabschnitt die Fahrtrichtung Würzburg und im zweiten Bauabschnitt ab voraussichtlich 2. Quartal 2027 dir Fahrtrichtung Kassel erneuert wird.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:selbst#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-11-15+01:00</cbc:StartDate>
+            <cbc:EndDate>2029-05-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

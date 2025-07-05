@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">DRV Bund Einkaufsmanagement</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Postfach</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10704</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>992-80003DRVB1-17</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 15157967701</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@drv-bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabeplattform der Deutschen Rentenversicherung Bund</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>www.Deutsche-Rentenversicherung-Bund.de/einkaufskoordination/NetServer</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10704</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>992-80003DRVB1- 17</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 15157967701</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@drv-bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundeskartellamt, Vergabekammer des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Str. 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>entfällt</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 22894990</cbc:Telephone>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00707833-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">226/2024</efbc:GazetteID><efbc:PublicationDate>2024-11-20+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">6da44461-2734-417c-9eb3-05f029cb3ff6</cbc:ID>
+   <cbc:ContractFolderID>b4b22ff8-9b41-4876-bf27-282fb94c1755</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-11-19+01:00</cbc:IssueDate>
+   <cbc:IssueTime>14:32:18+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-11-19+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Es gelten die zwingenden bzw. fakultativen Ausschlussgründe nach §§ 123 bis 126 GWB. Das Nichtvorliegen ist in der Regel durch Eigenerklärung zu belegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Unzulässige Interessenwahrnehmung nach § 108f des Strafgesetzbuches (§ 123 Abs. 1 Nr. 7 GWB).</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="DEU">Es werden zwei Lose ausgeschrieben und für jedes Los Verträge mit mehreren Vertragspartnern (Auftragnehmern) geschlossen:
+
+Los 1: Hotels Mitteldeutschland - bezuschlagt werden die Angebote von 2 Bietern.
+Los 2: Hotels Süddeutschland - bezuschlagt werden die Angebote von 2 Bietern.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>FV15-24-0496-29-03</cbc:ID>
+      <cbc:Name languageID="DEU">Hotelleistungen für Seminare in Mittel- und Süddeutschland</cbc:Name>
+      <cbc:Description languageID="DEU">Rahmenvereinbarung über Hotelleistungen für Seminare in Mittel- und Süddeutschland, trägerübergreifend und für die DRV Bund
+
+Los 1 Mitteldeutschland: Regionen Göttingen, Kassel, Erfurt und Fulda
+Los 2 Süddeutschland: Regionen Stuttgart, München, Fran</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">1.) Hinweise zur Abgabe von Angeboten
+
+Angebote müssen über das Bietercockpit der Deutschen
+Rentenversicherung
+Bund (https://www.deutsche-rentenversicherung-bund.de/
+einkaufskoordination/NetServer) ausgefüllt und eingereicht werden.
+
+Diese können
+- elektronisch mit fortgeschrittener Signatur
+- elektronisch mit qualifizierter Signatur
+- elektronisch ohne Signatur (Textform)
+abgegeben werden.
+
+Nur elektronisch, mit dem AI Bieterwerkzeug (Bietercockpit) auf
+der Vergabeplattform der Deutschen Rentenversicherung Bund,
+eingereichte Angebote werden gewertet.
+Das heißt, das Leistungsverzeichnis ist elektronisch
+auszufüllen.
+Eine für das Leistungsverzeichnis eingereichte PDF-Datei ist
+hierunter nicht zu verstehen und wird nicht gewertet.
+
+Für die Angebotsabgabe stehen Ihnen zwei Varianten zur
+Verfügung:
+
+1. Angebotsabgabe ohne Signatur:
+Die Abgabe eines elektronischen Angebotes ohne Signatur wird
+bezeichnet als Angebotsabgabe "elektronisch in Textform".
+Hierfür ist nach der Erstellung und Abgabe des Angebotes der
+Bearbeitungsschritt "Einfache elektronische Signatur" zu
+aktivieren. Für Angebote in Textform ist keine Signatur
+erforderlich.
+2. Angebotsabgabe mit fortgeschrittener bzw. qualifizierter
+Signatur:
+Für die Abgabe von elektronischen Angeboten benötigen Sie
+eine fortgeschrittene oder qualifizierte Signatur. Sie erhalten
+diese Signaturen (gegen ein Entgelt) bei einer Vielzahl von
+Anbietern. Bitte informieren Sie sich dazu im Internet. 
+Achten Sie bitte darauf, dass die Signatur für die "e- Vergabe"
+zugelassen ist. Die Bereitstellung einer Signatur durch den von
+Ihnen gewählten Anbieter sollte mit einer Lieferzeit von
+mindestens 2 Wochen kalkuliert werden.
+Für Testzwecke haben wir eine "Testausschreibung Betriebswirtschaftlicher Service mit Losen (DRV Bund)" auf unserer Vergabeplattform bereitgestellt. Bitte nutzen Sie diese vor Ihrer ersten elektronischen Angebotsabgabe.
+
+Bei technischen Problemen mit der Vergabesoftware wenden
+Sie sich bitte an unseren Servicebereich.
+Unsere Hotline-Nummer: 030 - 865 84776
+
+Telefonische Erreichbarkeit: Mo-Do von 08:00-15:00 Uhr und
+Fr. von 08:00-14:00 Uhr
+E-Mail: zeus-verbindungsstelle@drv-bund.de
+
+2.) Bieterfragen
+
+Bieterfragen sind ausschließlich schriftlich an die Vergabestelle
+über die Vergabeplattform bis zum 18.12.2024/12:00 Uhr einzureichen.
+Die Beantwortung erfolgt spätestens bis zum 23.12.2024.
+
+Später eingehende Bieterfragen können ggf. nicht bzw. nicht vor Ablauf der Angebotsfrist beantwortet werden. Die Angebotsfrist wird in diesem Fall nicht verlängert (vgl. § 20 Abs. 3 VgV).
+
+3.) Auf gesonderte Anforderung der Auftraggeberin sind folgende Unterlagen und Nachweise einzureichen:
+
+3.1 Bei Vermittlungsagenturen muss der Bieter eine vom Hotel unterschriebene und mit einem Stempel versehene Bestätigung darüber einreichen, dass der Bieter berechtigt ist, die Leistung anzubieten und das Hotel in der Lage ist, die angebotene Leistung zu erbringen.
+Diese Bestätigung ist Voraussetzung für eine Zuschlagserteilung an den Bieter.
+
+3.2 Weitere Unterlagen und Nachweise können auf Anforderung
+der Auftraggeberin nachgefordert werden:
+
+- Handelsregisterauszug des Bieters (nicht älter als 12 Monate)
+- Gewerbezentralregisterauszug GZR 4 für den Bieter (nicht
+älter als 12 Monate)
+- Unbedenklichkeitsbescheinigung des zuständigen
+Finanzamtes (bei nachgewiesener Nichtausstellung durch das
+Finanzamt ist auch eine Erklärung des Steuerberaters zulässig)
+(nicht älter als 12 Monate)
+- Nachweis der ordnungsgemäßen Zahlung der Sozialbeiträge
+(nicht älter als 12 Monate)
+- Bescheinigung der Berufsgenossenschaft über die
+ordnungsgemäße Zahlung der Beiträge (nicht älter als 12
+Monate)
+
+Die Einreichung einer ULV-Bescheinigung einer zur Ausstellung
+berechtigten Einrichtung (nicht älter als 12 Monate) kann
+alternativ zur Einreichung einiger der genannten Nachweise
+erfolgen. Dabei ist vom Bieter nachzuweisen, welche
+Eignungsnachweise durch die Bescheinigung ersetzt werden.
+Angaben zur Aktualität bzw. Gültigkeitsdauer der Nachweise
+beziehen sich auf den Zeitpunkt des Schlusstermins für die
+Abgabe der Angebote.
+
+Der Höchstwert des Vertrages liegt bei 11.020.590,00 EUR
+brutto, gem. Urteil EuGH v. 17.06.21 (Rs. C-23/20). Es handelt
+sich hier nicht um das geschätzte Auftragsvolumen.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efbc:FrameworkMaximumAmount currencyID="EUR">9261000.00</efbc:FrameworkMaximumAmount>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">55110000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">55120000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Deutsche Rentenversicherung Bund</cbc:StreetName>
+            <cbc:CityName>bundesweit</cbc:CityName>
+            <cbc:PostalZone>10704</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Die nachstehenden Angaben, Erklärungen und Nachweise sind von den Bietern bzw. jedem Mitglied der Bietergemeinschaft einzureichen. Ausländische Bieter/Bietergemeinschaften dürfen jeweils vergleichbare Nachweise vorlegen; mit dem Angebot ist ein Gleichwertigkeitsnachweis vorzulegen.
+
+1. Eigenerklärung zum Nichtvorliegen von Ausschlussgründen - im Falle einer Bietergemeinschaft ist für jedes Mitglied der Gemeinschaft vorzulegen. 
+
+2. Eigenerklärung Russland - im Falle einer
+Bietergemeinschaft ist für jedes Mitglied der Gemeinschaft vorzulegen.
+
+Auf gesonderte Anforderung der Auftraggeberin sind nachzureichen:
+
+1. Handelsregisterauszug des Bieters (nicht älter als 12 Monate)
+
+2.Gewerbezentralregisterauszug GZR 4 für den Bieter (nicht älter als 12 Monate)
+
+3. Unbedenklichkeitsbescheinigung des zuständigen Finanzamtes (bei nachgewiesener Nichtausstellung durch das Finanzamt ist auch eine Erklärung des Steuerberaters zulässig) (nicht älter als 12 Monate)
+
+4. Nachweis der ordnungsgemäßen Zahlung der Sozialbeiträge (nicht älter als 12 Monate)
+
+5. Bescheinigung der Berufsgenossenschaft über die ordnungsgemäße Zahlung der Beiträge (nicht älter als 12 Monate)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1924d81401c-2f7abbbb5e400f1f</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Der Bewerber/die Bewerbergemeinschaft hat mit dem Angebot folgende Unterlagen einzureichen:
+
+-Eigenerklärung des Bieters, im Falle einer
+Bewerbergemeinschaft für jedes Mitglied der Gemeinschaft
+- Eigenerklärung zur Umsetzung von Artikel 5k der
+Verordnung (EU) 2022/576 des Rates vom 8. April 2022 (Eigenerklärung Russland) 
+- Sollte es sich bei dem Bieter nicht um ein Hotel, sondern um eine Vermittlungsagentur handeln, muss zusätzlich zur unterschriebenen Eigenerklärung des Bieters auch eine vom angebotenen Hotel unterschriebene Eigenerklärung abgegeben werden.
+
+HINWEIS: Bei Bewerbungen auf mehrere Lose müssen alle
+geforderten Unterlagen pro Los abgegeben werden. D.h. auch
+u.U. identische Unterlagen müssen in jedes Los hochgeladen
+werden, auf das ein Angebot abgegeben wird.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">siehe Leistungsverzeichnis (Wertungsschema)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7002</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Nach § 160 Abs. 3 Satz 1 Nr. 4 GWB ist ein Nachprüfungsverfahren unzulässig, soweit mehr als 15 Kalendertage nach Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-01-08+01:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-01-08+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:01:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>22</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Hotelleistungen Mitteldeutschland</cbc:Name>
+         <cbc:Description languageID="DEU">Los 1 Mitteldeutschland: Regionen Göttingen, Kassel, Erfurt und Fulda
+
+Durchführung von Weiterbildungsveranstaltungen der Deutschen Rentenversicherung Bund in verschiedenen Formaten wie Seminare, Workshops und Tagungen mit unterschiedlichen Teilnehmendenzahlen. Geschätzte ca. 280 Veranstaltungen mit rund 3,5 Tagen und 15 Personen im Durchschnitt in der  Vertragslaufzeit.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Eine sehr gute Erreichbarkeit mit öffentlichen Verkehrsmitteln oder kostenlosem Shuttle-Service innerhalb von 40 Minuten vom jeweiligen Fern - bzw. Regionalbahnhof ist essenziell.
+
+Hausbesichtigung:
+Nach erfolgter Wertung werden die wirtschaftlichsten Angebote durch eine Besichtigung der angebotenen Häuser geprüft.
+Diese Prüfung bezieht sich sowohl auf die Erfüllung der in der Ausschreibung genannten Anforderungen, als auch auf die Einhaltung von voraussetzbaren Standards in Bezug auf Hygiene, Service und Unterbringungsbedingungen (z.B. Lärmbelästigungen, Küchengerüche o.ä.).
+Die Einhaltung solcher allgemein anerkannten Grundstandards ist Voraussetzung für 
+eine Zuschlagserteilung.
+
+HINWEIS: 
+Bei Bewerbungen auf mehrere Lose müssen alle
+geforderten Unterlagen pro Los abgegeben werden. D.h. auch
+u.U. identische Unterlagen müssen in jedes Los hochgeladen
+werden, auf das ein Angebot abgegeben wird.
+
+Zuschläge werden auf die Angebote der Ränge 1 und 2 erteilt.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">4630500.00</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55110000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55120000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Deutsche Rentenversicherung Bund</cbc:StreetName>
+               <cbc:CityName>bundesweit</cbc:CityName>
+               <cbc:PostalZone>10704</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2029-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Die nachstehenden Angaben, Erklärungen und Nachweise sind von den Bietern bzw. jedem Mitglied der Bietergemeinschaft einzureichen. Ausländische Bieter/Bietergemeinschaften dürfen jeweils vergleichbare Nachweise vorlegen; mit dem Angebot ist ein Gleichwertigkeitsnachweis vorzulegen.
+
+1. Eigenerklärung zum Nichtvorliegen von Ausschlussgründen - im Falle einer Bietergemeinschaft ist für jedes Mitglied der Gemeinschaft vorzulegen. 
+
+2. Eigenerklärung Russland - im Falle einer
+Bietergemeinschaft ist für jedes Mitglied der Gemeinschaft vorzulegen.
+
+Auf gesonderte Anforderung der Auftraggeberin sind nachzureichen:
+
+1. Handelsregisterauszug des Bieters (nicht älter als 12 Monate)
+
+2.Gewerbezentralregisterauszug GZR 4 für den Bieter (nicht älter als 12 Monate)
+
+3. Unbedenklichkeitsbescheinigung des zuständigen Finanzamtes (bei nachgewiesener Nichtausstellung durch das Finanzamt ist auch eine Erklärung des Steuerberaters zulässig) (nicht älter als 12 Monate)
+
+4. Nachweis der ordnungsgemäßen Zahlung der Sozialbeiträge (nicht älter als 12 Monate)
+
+5. Bescheinigung der Berufsgenossenschaft über die ordnungsgemäße Zahlung der Beiträge (nicht älter als 12 Monate)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1924d81401c-2f7abbbb5e400f1f</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Der Bewerber/die Bewerbergemeinschaft hat mit dem Angebot folgende Unterlagen einzureichen:
+
+-Eigenerklärung des Bieters, im Falle einer
+Bewerbergemeinschaft für jedes Mitglied der Gemeinschaft
+- Eigenerklärung zur Umsetzung von Artikel 5k der
+Verordnung (EU) 2022/576 des Rates vom 8. April 2022 (Eigenerklärung Russland) 
+- Sollte es sich bei dem Bieter nicht um ein Hotel, sondern um eine Vermittlungsagentur handeln, muss zusätzlich zur unterschriebenen Eigenerklärung des Bieters auch eine vom angebotenen Hotel unterschriebene Eigenerklärung abgegeben werden.
+
+HINWEIS: Bei Bewerbungen auf mehrere Lose müssen alle
+geforderten Unterlagen pro Los abgegeben werden. D.h. auch
+u.U. identische Unterlagen müssen in jedes Los hochgeladen
+werden, auf das ein Angebot abgegeben wird.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">siehe Leistungsverzeichnis (Wertungsschema)</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7002</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Nach § 160 Abs. 3 Satz 1 Nr. 4 GWB ist ein Nachprüfungsverfahren unzulässig, soweit mehr als 15 Kalendertage nach Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-01-08+01:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-01-08+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:01:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>22</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Hotelleistungen Süddeutschland</cbc:Name>
+         <cbc:Description languageID="DEU">Los 2 Süddeutschland: Regionen München, Stuttgart, Heidelberg, Karlsruhe, 
+Frankfurt am Main und Darmstadt 
+
+Durchführung von Weiterbildungsveranstaltungen der Deutschen Rentenversicherung Bund in verschiedenen Formaten wie Seminare, Workshops und Tagungen mit unterschiedlichen Teilnehmendenzahlen. Geschätzte ca. 280 Veranstaltungen mit rund 3,5 Tagen und 15 Personen im Durchschnitt in der  Vertragslaufzeit.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Eine sehr gute Erreichbarkeit mit öffentlichen Verkehrsmitteln oder kostenlosem Shuttle-Service innerhalb von 40 Minuten vom jeweiligen Fern - bzw. Regionalbahnhof ist essenziell.
+
+Hausbesichtigung:
+Nach erfolgter Wertung werden die wirtschaftlichsten Angebote durch eine Besichtigung der angebotenen Häuser geprüft.
+Diese Prüfung bezieht sich sowohl auf die Erfüllung der in der Ausschreibung genannten Anforderungen, als auch auf die Einhaltung von voraussetzbaren Standards in Bezug auf Hygiene, Service und Unterbringungsbedingungen (z.B. Lärmbelästigungen, Küchengerüche o.ä.).
+Die Einhaltung solcher allgemein anerkannten Grundstandards ist Voraussetzung für 
+eine Zuschlagserteilung.
+
+HINWEIS: 
+Bei Bewerbungen auf mehrere Lose müssen alle
+geforderten Unterlagen pro Los abgegeben werden. D.h. auch
+u.U. identische Unterlagen müssen in jedes Los hochgeladen
+werden, auf das ein Angebot abgegeben wird.
+
+Zuschläge werden auf die Angebote der Ränge 1 und 2 erteilt.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">4630500.00</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55110000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55120000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Deutsche Rentenversicherung Bund</cbc:StreetName>
+               <cbc:CityName>bundesweit</cbc:CityName>
+               <cbc:PostalZone>10704</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2026-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2029-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

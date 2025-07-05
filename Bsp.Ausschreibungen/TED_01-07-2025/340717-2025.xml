@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							<efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.uni-frankfurt.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Der Kanzler der Johann Wolfgang Goethe-Universität, Bereich Finanzen und Controlling, Einkaufsmanagement</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Theodor-W.-Adorno-Platz 1</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60323</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE114110511</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Einkaufsmanagement</cbc:Name>
+									<cbc:Telephone>+49 69-79819852</cbc:Telephone>
+									<cbc:Telefax>+49 69-79876317165</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@dlist.server.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.uni-marburg.de/de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Philipps-Universität Marburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Biegenstraße 10</cbc:StreetName>
+									<cbc:CityName>Marburg</cbc:CityName>
+									<cbc:PostalZone>35037</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE724</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE112590692</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6421-2820</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@dlist.server.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.uni-kassel.de/uni/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Universität Kassel</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Mönchebergstraße 19</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34109</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE113057055</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 561-8040</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@dlist.server.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.uni-giessen.de/de/index</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Justus-Liebig-Universität Gießen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Ludwigstraße 23</cbc:StreetName>
+									<cbc:CityName>Gießen</cbc:CityName>
+									<cbc:PostalZone>35390</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE721</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE112591322</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 641-990</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@dlist.server.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.thm.de/site/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Technische Hochschule Mittelhessen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Wiesenstraße 14</cbc:StreetName>
+									<cbc:CityName>Gießen</cbc:CityName>
+									<cbc:PostalZone>35390</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE721</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE813885934</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 641-3090</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@dlist.server.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.hs-geisenheim.de/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hochschule Geisenheim University</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Von-Lade-Str. 1</cbc:StreetName>
+									<cbc:CityName>Geisenheim</cbc:CityName>
+									<cbc:PostalZone>65366</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE71D</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE113823585</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6722-5020</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@dlist.server.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.frankfurt-university.de/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0007</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Frankfurt University of Applied Sciences</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Nibelungenplatz 1</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60318</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE114110370</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 69-15332462</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@dlist.server.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0008</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Dienstgebäude: Wilhelminenstraße 1-3; Fristenbriefkasten: Luisenplatz 2</cbc:StreetName>
+									<cbc:CityName>Darmstadt</cbc:CityName>
+									<cbc:PostalZone>64283</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE711</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>06-22630029-17</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 615112-6603</cbc:Telephone>
+									<cbc:Telefax>+49 615112-5816</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0009</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00340717-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">101/2025</efbc:GazetteID><efbc:PublicationDate>2025-05-27+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">08f2cab3-dc0a-4cfe-8a63-bbb34f54a449</cbc:ID>
+	<cbc:ContractFolderID>ddee6f67-9492-4352-8a8e-9205dcbf9c72</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-05-23+02:00</cbc:IssueDate>
+	<cbc:IssueTime>18:07:07+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-05-23+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0009</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0002</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0003</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0004</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0005</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0006</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0007</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+		<cbc:RecurringProcurementDescription languageID="DEU">siehe Vergabeunterlage</cbc:RecurringProcurementDescription>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>CrossBorderLaw</cbc:ID>
+			<cbc:DocumentDescription languageID="DEU">Die Goethe-Universität Frankfurt führt das Europaweite Vergabeverfahren federführend, für insgesamt 7 hessische Hochschulen durch. Es gilt (sofern im "EU-Oberschwellenbereich" einschlägig) das nationale Beschaffungsrecht des Landes Hessen.</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang bei der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig (§ 160 Abs. 3 Nr.4 GWB). Der Auftraggeber weist ausdrücklich auf die Rügeobliegenheiten der Unternehmen sowie auf die Präklusionsregelungen gemäß § 160 Abs. 3 Satz 1 Nr. 1 bis Nr. 4 GWB hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin: Ein Nachprüfungsantrag ist gemäß § 160 Abs. 3 GWB unzulässig, soweit: 1) Der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4) Mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+		<cac:LotDistribution>
+			<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+			<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+		</cac:LotDistribution>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<ext:UBLExtensions>
+			<ext:UBLExtension>
+				<ext:ExtensionContent>
+					<efext:EformsExtension>
+						<efbc:AccessToolName>Die Kommunikation von Bewerbern/ Bietern und der Vergabestelle in diesem Vergabeverfahren erfolgt ausschließlich über das Deutsche Vergabeportal (DTVP), über die in dieser Bekanntmachung angegebene URL.</efbc:AccessToolName>
+					</efext:EformsExtension>
+				</ext:ExtensionContent>
+			</ext:UBLExtension>
+		</ext:UBLExtensions>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YMY5Z6A</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">9.40.40 VgV EM1-HHS-02-24</cbc:ID>
+		<cbc:Name languageID="DEU">Lieferung von Flaschengasen und Heliumprodukten an 7 hessische Hochschulen</cbc:Name>
+		<cbc:Description languageID="DEU">Ziel des Vergabeverfahrens ist der Abschluss eines Rahmenvertrages zur Deckung des Bedarfs der in dieser Vergabe zusammengeschlossenen, 7 Hochschulen des Landes Hessen, an technischen Gasen (mit Ausnahme von Heliumprodukten) in Gasflaschen, verschiedener Art und Reinheit = Flaschengase (Los 1), bzw. an flüssigem Heliums in Dewaren/ Kannen und gasförmigem Helium in Gasflaschen = Heliumprodukte (Los 2). Zudem ist, wenn auch in geringen Mengen, auch Trockeneis Teil der in Los 1 (Flaschengase) ausgeschriebenen Lieferleistung.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4YMY5Z6A
+
+
+Aufgrund der besonderen Methodik des Einzelabrufs von Heliumprodukten (Los2), in Form von "Abruf-Miniwettbewerben", wird der Auftraggeber das Vergabeverfahren zu Los2 dann aufheben, wenn für Los2 nur ein zu wertendes Angebot vorgelegt werden sollte. Nähere Informationen hierzu sind der Vergabeunterlage zu entnehmen.</cbc:Note>
+		<cac:RequestedTenderTotal>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:FrameworkMaximumAmount currencyID="EUR">4300000.00</efbc:FrameworkMaximumAmount>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">4300000.00</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">24110000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">24111300</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Der v.g. Erfüllungsort gilt für Anlieferungen an die Johann Wolfgang- Goethe-Universität und untergliedert sich in weitere Erfüllungsorte für diesen Auftraggeber. Die weiteren Erfüllungsorte (der 6 weiteren teilnehmenden, hessischen Hochschulen) sind der Vergabeunterlage zu entnehmen.</cbc:Description>
+			<cac:Address>
+				<cbc:StreetName>Max-von-Laue-Str. 9</cbc:StreetName>
+				<cbc:CityName>Frankfurt am Main</cbc:CityName>
+				<cbc:PostalZone>60438</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-supply</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Es sind mindestens zwei Referenzen pro angebotenem Los (wurden in Referenzaufträgen Leistungen beider Lose der ausgeschriebenen Art erbracht, wird die entsprechende Referenz, als eine der geforderten Referenzen für beide Lose, anerkannt) bei mindestens zwei verschiedenen Auftraggebern (die geforderte Anzahl versteht sich hier Losübergreifend) zur Ausführung vergleichbarer** Lieferleistungen aus den letzten 3 Geschäftsjahren.  ** Als vergleichbare Leistungen im v.g. Sinne werden (pro Einzelreferenz) betrachtet: Für die Lieferung technischer Gase in Flaschen und Trockeneis (Los 1): Lieferung von mindestens 1.500 Flaschen pro Jahr, min. 50 verschiedener Gasarten, bzw. Gasgemische und/ oder Gase mit unterschiedlichen Reinheitsgraden, ohne gasförmige Heliumprodukte (pro Referenzauftrag) an einen Auftraggeber mit mindestens 5 dezentralen Anlieferstellen (eine Trockeneislieferung muss lediglich Bestandteil des jeweiligen Referenzauftrags zu Los 1 gewesen sein - jedoch keine Vorgabe bezüglich Mindestliefermenge und einer Lieferung an verschiedene Anlieferstellen, erfüllen).   Für die Lieferung flüssigen Heliums in Dewaren/ Kannen, und gasförmigen Heliums in Flaschen (Los 2): Lieferung von mindestens 40 Dewaren/ Kannen (bezogen auf 100 Liter-Kannen) flüssigen Heliums und mindestens 50 Flaschen gasförmiger Heliumprodukte pro Jahr (pro Referenzauftrag) an einen Auftraggeber mit mindestens 5 dezentralen Anlieferstellen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sche-qu-cert-indep</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis (Scan) über die Zertifizierung eines gültigen Qualitätsmanagementsystems nach DIN EN ISO 9001:2008 ff. oder gleichwertiges zertifiziertes QM-System</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Anzugeben sind die Gesamtumsätze des Unternehmens sowie die Umsätze mit Leistungen, welche mit der zu vergebenden Liefer- und/ oder Dienstleistung vergleichbar sind - unter Einschluss des Anteils von gemeinsam mit anderen Unternehmen ausgeführten Leistungen - in den letzten drei abgeschlossenen Geschäftsjahren. Aufgrund der Dimension der Beschaffung ist eine ausreichende wirtschaftliche Leistungsfähigkeit des Bieters nur dann zu unterstellen, wenn - unabhängig von den weiteren, in der Auftragsbekanntmachung, bzw. den Vergabeunterlagen des AG genannten Anforderungen - das Unternehmen des Bieters mit Liefer- und/ oder Dienstleistungen, welche mit den in diesem Verfahren ausgeschriebenen Leistungen vergleichbar sind, einen jährlichen Mindestumsatz: 1. Aus dem Geschäftsbereich Lieferung technischer Gase in Flaschen/ Trockeneis (Los 1) von: 670.000,- Euro netto*, erreicht hat. 2. Aus dem Geschäftsbereich Lieferung flüssigen Heliums in Dewaren/ Kannen und gasförmigen Heliums in Flaschen (Los 2) von: 310.000,- Euro netto*, erreicht hat. Bei einer Angebotsabgabe für beide Lose müssen die vorgegebenen Mindestumsätze für jedes einzelne Los erreicht worden sein (keine Umsatzkumulation, über die Lose hinweg). Sofern die Anforderung für eines der angebotenen Lose nicht erfüllt worden sein sollte, wird das Angebot für dieses Los von der weiteren Angebotswertung ausgeschlossen. * Die v.g. Werte betragen weniger als das zweifache des geschätzten Auftragswertes für das jeweilige Los, pro Jahr</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Das Unternehmen unterhält eine Betriebshaftpflichtversicherung mit den nachfolgend genannten Mindest-Deckungssummen, bzw. verpflichtet sich, nach Zuschlagserteilung und vor Erbringung der Leistungen, eine Betriebshaftpflichtversicherung mit den nachfolgend genannten Mindest-Deckungssummen, abzuschließen. Der Versicherungsschutz wird uneingeschränkt und in voller Höhe für den gesamten Auftragszeitraum vorgehalten. Die Versicherungssumme steht 2-fach maximiert p. a. zur Verfügung. Mindest-Deckungssummen: Personenschäden - mind. 1,5 Mio. EUR Sachschäden - je Schadenfall mind. 1 Mio. EUR Vermögensschäden - je Schadenfall mind. 100.000 EUR</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Dem Angebot ist ein aktueller (nicht älter als 90 Tage zum Zeitpunkt des Ablaufs der Angebotsfrist) Handelsregisterauszug als Kopie, oder ein gleichwertiger Nachweis des jeweiligen Herkunftslandes, beizufügen. Sofern eine Nichteintragung vorliegt, ist diese zu begründen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung zur logistischen Sicherstellung der Leistungserbringung, bei Entfernung &gt; 100 Km zu den Lieferorten,</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">- Eigenerklärung Unternehmensdarstellung: anzugeben sind Name Rechtsform, sowie Hauptsitz und Größe des Unternehmens sowie die Anzahl der Mitarbeitenden,  - Eigenerklärung zur Präqualifikation des Unternehmens, - Eigenerklärung zu Ausschlussgründen gemäß §§123 GWB und 124 GWB,  - Eigenerklärung zur Einhaltung des AGG, - Eigenerklärung zur Entrichtung von Steuern und Sozialversicherungsabgaben, - Eigenerklärung Entrichtung der Beiträge zur Berufsgenossenschaft,  - Eigenerklärung zur Zahlung des Tariflohns im Rahmen der Vertragsausführung, - Eigenerklärung zu Eintragungen im Wettbewerbsregister,  - Eigenerklärung zu den EU-Russlandsanktionen, - Eigenerklärung zum Lieferkettensorgfaltspflichtengesetz (LkSG), - Eigenerklärung zu Bietergemeinschaft, Unterauftragnehmer, Eignungsleihe.  Bei Bietergemeinschaften ist zusätzlich einzureichen:  - Formblatt 4.2 EU- Bietergemeinschaftserklärung Mehrfachbewerbungen von Unternehmen als Bieter und als Mitglied einer Bietergemeinschaft sind ausgeschlossen. Bei Bietergemeinschaften sind die geforderten Nachweise - soweit einschlägig - grundsätzlich von allen Mitgliedern der Gemeinschaft einzureichen.  Beim Einsatz von Unterauftragnehmern /Eignungsleihe ist zusätzlich einzureichen:  - Formblatt 4.1 EU Erklärung Ausschlussgründe für Unteraufträge und Eignungsleihe,  - Formblatt 4.3 EU Erklärung Unteraufträge/Eignungsleihe,  - Formblatt 4.4 EU Verpflichtungserklärung anderer Unternehmen.  Alle in dieser Bekanntmachung oder den Vergabeunterlagen geforderten Nachweise sind entsprechend der einschlägigen Bestimmungen des Herkunftslandes zu erbringen. Nachweise in anderer Sprache als in Deutsch, sind mit einer einfachen deutschen Übersetzung einzureichen. Sofern nichts Anderes beschrieben ist, dürfen die Nachweise nicht älter als 6 Monate sein. Geforderte Eignungsnachweise (gem. §§ 122 ff. GWB, §§ 42 ff. VgV), die in Form anerkannter Präqualifikationsnachweise (u.a. HPQR) vorliegen, werden zugelassen und anerkannt, wenn die Präqualifikationsnachweise in Form und Inhalt den geforderten Eignungsnachweisen entsprechen. Der Auftraggeber behält sich vor, entsprechende Nachweise zu den Aussagen des Bieters, vor Auftragsvergabe von diesem einzufordern. Der Bieter hat solche unverzüglich, nach Maßgabe der Ausschreibungsunterlagen, beim Auftraggeber vorzulegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+			<cbc:RecurringProcurementDescription languageID="DEU">siehe Vergabeunterlage</cbc:RecurringProcurementDescription>
+			<cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4YMY5Z6A/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Sofern Nachforderungen nach §56VgV zulässig sind, wird die Vergabestelle die Bieter zur Nachreichung der Unterlagen auffordern.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>61.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Gesamtpreis Flaschen</cbc:Name>
+						<cbc:Description languageID="DEU">Gesamtpreis Flaschen aus Los1 (inkl. aller Nebenkosten, jedoch ohne Flaschenmiete)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>12.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Flaschenmiete aus dem Austauschmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Austauschmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>12.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Flaschenmiete aus dem Zeitmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Zeitmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Integrale Flaschenmiete</cbc:Name>
+						<cbc:Description languageID="DEU">Integrale Flaschenmiete im Rahmen der Dauermiete</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Behältermiete (Trockeneis)</cbc:Name>
+						<cbc:Description languageID="DEU">Behältermiete (Trockeneis) pro Tag</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Lieferfrist</cbc:Name>
+						<cbc:Description languageID="DEU">Lieferfrist kürzer als 48 Stunden</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>55.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Preis pro 100Liter Dewar/Kanne</cbc:Name>
+						<cbc:Description languageID="DEU">Preis pro 100Liter Dewar/Kanne (inkl. aller Nebenkosten, jedoch ohne Dewar/ Kannenmiete und Einkühlung)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Gesamtpreis Flaschen</cbc:Name>
+						<cbc:Description languageID="DEU">Gesamtpreis Flaschen aus Los2 (inkl. aller Nebenkosten, jedoch ohne Flaschenmiete)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Dewar-/ Kannenmiete (100 Liter) pro Tag</cbc:Name>
+						<cbc:Description languageID="DEU">Dewar-/ Kannenmiete (100 Liter) pro Tag</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Verweildauer von Dewaren/ Kannen</cbc:Name>
+						<cbc:Description languageID="DEU">Verweildauer von Dewaren/ Kannen (100 Liter), ohne Kühlungsmaßnahmen, beim Auftraggeber</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Kosten der Einkühlung von Dewaren/ Kannen (100 Liter) durch den Auftragnehmer</cbc:Name>
+						<cbc:Description languageID="DEU">Kosten der Einkühlung von Dewaren/ Kannen (100 Liter) durch den Auftragnehmer</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Flaschenmiete aus dem Austauschmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Austauschmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Flaschenmiete aus dem Zeitmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Zeitmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Integrale Flaschenmiete</cbc:Name>
+						<cbc:Description languageID="DEU">Integrale Flaschenmiete im Rahmen der Dauermiete</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>10.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Lieferfrist</cbc:Name>
+						<cbc:Description languageID="DEU">Lieferfrist kürzer als 3 Werktage</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YMY5Z6A</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">52</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang bei der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig (§ 160 Abs. 3 Nr.4 GWB). Der Auftraggeber weist ausdrücklich auf die Rügeobliegenheiten der Unternehmen sowie auf die Präklusionsregelungen gemäß § 160 Abs. 3 Satz 1 Nr. 1 bis Nr. 4 GWB hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin: Ein Nachprüfungsantrag ist gemäß § 160 Abs. 3 GWB unzulässig, soweit: 1) Der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4) Mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+				<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:AccessToolName>Die Kommunikation von Bewerbern/ Bietern und der Vergabestelle in diesem Vergabeverfahren erfolgt ausschließlich über das Deutsche Vergabeportal (DTVP), über die in dieser Bekanntmachung angegebene URL.</efbc:AccessToolName>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YMY5Z6A</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2025-07-01+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-11+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2025-07-01+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+				<cbc:Description languageID="DEU">Die Öffnung der Angebote wird von mindestens zwei Vertretern des öffentlichen Arbeitgebers gemeinsam, unverzüglich nach Ablauf der Angebotsfrist, ausschließlich in elektronischer Form über das deutsche Vergabeportal (DTVP), durchgeführt. Bieter sind nicht zugelassen.</cbc:Description>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="DEU">DTVP</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>4</cbc:MaximumOperatorQuantity>
+				<cbc:Justification languageID="DEU">Die Vertragslaufzeit (inkl. Verlängerungsoption) von insgesamt mehr als 4 Jahren ist darin begründet, dass in diesem speziellen Leistungsbereich, ein Wechsel des Auftragnehmers einen sehr hohen Aufwand, sowohl für den Auftragnehmer, als auch den jeweiligen Auftraggeber erfordert. So sind Kenntnisse über alle Standorte/ Anlieferstellen und -wege, aller am Rahmenvertrag teilnehmenden Hochschulen, zu vermitteln, bzw. zu erlangen, die eingebrachten, vom jeweiligen Auftragnehmer zu stellenden Gasflaschen regelmäßig zu prüfen und, am Vertragsende, bzw. im festgelegten Nachfolgezeitraum, komplett auszutauschen (hier sind insbesondere die gesetzlichen Prüf- und Abschreibungszyklen bzw. -Zeiträume zu berücksichtigen). Schließlich steht der hohe Initialaufwand und -invest des Auftragnehmers, zum jeweils projektbezogenen Aufbau eines ausreichenden Gasflaschenbestandes, einer Beteiligung am Wettbewerb um einen Rahmenvertrag kürzerer Laufzeit, entgegen. So wäre bei einer kürzeren Vertragslaufzeit mit einer massiven Einschränkung des ohnehin sehr kleinen Anbietermarktes, bzw. einem überproportionalen Niederschlag der hohen Initial- und Investitionskosten, auf die Produktpreise zu rechnen. Hinsichtlich der Lieferung von Heliumprodukten, ist eine belastbare Planungsgrundlage zur Bestimmung der voraussichtlichen Abnahmemengen für die Anbieter unerlässlich und be-stimmt deshalb maßgeblich deren Beteiligung am Wettbewerb. Aufgrund der vorgesehenen besonderen Vertragskonstellation zum Bezug der Heliumproduk-te (Abruf-Miniwettbewerbe) muss deshalb eine fehlende Planungssicherheit der Anbieter, bezüglich der bei Ihnen tatsächlich abgenommenen Gesamtmengen, durch einen längeren Vertragszeitraum (potentiellen Abnahmezeitraum) kompensiert werden, um die Teilnahme am Wettbewerb für die potentiellen Anbieter dennoch attraktiv zu gestalten. Zudem steht zu erwarten, dass der recht kleine Markt an potentiellen Lieferanten für Heliumprodukte, bereits über den Vertragsabschluss mit maximal 3 (Rahmen-)Vertragspartnern, vollständig abgebildet ist, d.h. keinem potentiellen Anbieter ein Nachteil durch einen, über 4 Jahre hinausgehenden Vertragszeitraum, entstehen wird.</cbc:Justification>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">1</cbc:ID>
+			<cbc:Name languageID="DEU">Lieferung von Flaschengasen</cbc:Name>
+			<cbc:Description languageID="DEU">Vorhaltung der Produkte/ Lieferbereitschaft und Bezugsmethodik - Details siehe Vergabeunterlage</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">siehe Vergabeunterlage</cbc:Note>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:RequestedTenderTotal>
+				<cbc:EstimatedOverallContractAmount currencyID="EUR">2940000.00</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">24110000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Der v.g. Erfüllungsort gilt für Anlieferungen an die Johann Wolfgang- Goethe-Universität und untergliedert sich in weitere Erfüllungsorte für diesen Auftraggeber. Die weiteren Erfüllungsorte (der 6 weiteren teilnehmenden, hessischen Hochschulen) sind der Vergabeunterlage zu entnehmen.</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Max-von-Laue-Str. 9</cbc:StreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60438</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">72</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Neben den im Produkt- und Preisblatt-Los 1, bzw. im Produkt- und Preisblatt-Los 2 (Teil B der Vergabeunterlage) genannten Produkten, sind die Hochschulen berechtigt weitere Produkte, aus dem Sortiment des jeweiligen Auftragnehmers, zu bestellen. Für die Bestellung, Lieferung und Berechnung auch dieser Produkte, gilt mit Ausnahme der Lieferfristen und Preisbindung, dieser Rahmenvertrag. Den Auftraggebern ist, auf Anforderung, eine entsprechende, aktuelle Produktpreisliste, über das Produktsortiment des Auftragnehmers vorzulegen, die die Einhaltung der v.g. Bestell-, Liefer- und Rechnungsbedingungen, berücksichtigt. Eine Abnahmeverpflichtung für Produkte dieses, zusätzlichen Sortiments, seitens der Auftraggeber, besteht nicht.</cbc:OptionsDescription>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-supply</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Es sind mindestens zwei Referenzen pro angebotenem Los (wurden in Referenzaufträgen Leistungen beider Lose der ausgeschriebenen Art erbracht, wird die entsprechende Referenz, als eine der geforderten Referenzen für beide Lose, anerkannt) bei mindestens zwei verschiedenen Auftraggebern (die geforderte Anzahl versteht sich hier Losübergreifend) zur Ausführung vergleichbarer** Lieferleistungen aus den letzten 3 Geschäftsjahren.  ** Als vergleichbare Leistungen im v.g. Sinne werden (pro Einzelreferenz) betrachtet: Für die Lieferung technischer Gase in Flaschen und Trockeneis (Los 1): Lieferung von mindestens 1.500 Flaschen pro Jahr, min. 50 verschiedener Gasarten, bzw. Gasgemische und/ oder Gase mit unterschiedlichen Reinheitsgraden, ohne gasförmige Heliumprodukte (pro Referenzauftrag) an einen Auftraggeber mit mindestens 5 dezentralen Anlieferstellen (eine Trockeneislieferung muss lediglich Bestandteil des jeweiligen Referenzauftrags zu Los 1 gewesen sein - jedoch keine Vorgabe bezüglich Mindestliefermenge und einer Lieferung an verschiedene Anlieferstellen, erfüllen).   Für die Lieferung flüssigen Heliums in Dewaren/ Kannen, und gasförmigen Heliums in Flaschen (Los 2): Lieferung von mindestens 40 Dewaren/ Kannen (bezogen auf 100 Liter-Kannen) flüssigen Heliums und mindestens 50 Flaschen gasförmiger Heliumprodukte pro Jahr (pro Referenzauftrag) an einen Auftraggeber mit mindestens 5 dezentralen Anlieferstellen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-sche-qu-cert-indep</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis (Scan) über die Zertifizierung eines gültigen Qualitätsmanagementsystems nach DIN EN ISO 9001:2008 ff. oder gleichwertiges zertifiziertes QM-System</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Anzugeben sind die Gesamtumsätze des Unternehmens sowie die Umsätze mit Leistungen, welche mit der zu vergebenden Liefer- und/ oder Dienstleistung vergleichbar sind - unter Einschluss des Anteils von gemeinsam mit anderen Unternehmen ausgeführten Leistungen - in den letzten drei abgeschlossenen Geschäftsjahren. Aufgrund der Dimension der Beschaffung ist eine ausreichende wirtschaftliche Leistungsfähigkeit des Bieters nur dann zu unterstellen, wenn - unabhängig von den weiteren, in der Auftragsbekanntmachung, bzw. den Vergabeunterlagen des AG genannten Anforderungen - das Unternehmen des Bieters mit Liefer- und/ oder Dienstleistungen, welche mit den in diesem Verfahren ausgeschriebenen Leistungen vergleichbar sind, einen jährlichen Mindestumsatz: 1. Aus dem Geschäftsbereich Lieferung technischer Gase in Flaschen/ Trockeneis (Los 1) von: 670.000,- Euro netto*, erreicht hat. 2. Aus dem Geschäftsbereich Lieferung flüssigen Heliums in Dewaren/ Kannen und gasförmigen Heliums in Flaschen (Los 2) von: 310.000,- Euro netto*, erreicht hat. Bei einer Angebotsabgabe für beide Lose müssen die vorgegebenen Mindestumsätze für jedes einzelne Los erreicht worden sein (keine Umsatzkumulation, über die Lose hinweg). Sofern die Anforderung für eines der angebotenen Lose nicht erfüllt worden sein sollte, wird das Angebot für dieses Los von der weiteren Angebotswertung ausgeschlossen. * Die v.g. Werte betragen weniger als das zweifache des geschätzten Auftragswertes für das jeweilige Los, pro Jahr</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Das Unternehmen unterhält eine Betriebshaftpflichtversicherung mit den nachfolgend genannten Mindest-Deckungssummen, bzw. verpflichtet sich, nach Zuschlagserteilung und vor Erbringung der Leistungen, eine Betriebshaftpflichtversicherung mit den nachfolgend genannten Mindest-Deckungssummen, abzuschließen. Der Versicherungsschutz wird uneingeschränkt und in voller Höhe für den gesamten Auftragszeitraum vorgehalten. Die Versicherungssumme steht 2-fach maximiert p. a. zur Verfügung. Mindest-Deckungssummen: Personenschäden - mind. 1,5 Mio. EUR Sachschäden - je Schadenfall mind. 1 Mio. EUR Vermögensschäden - je Schadenfall mind. 100.000 EUR</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Dem Angebot ist ein aktueller (nicht älter als 90 Tage zum Zeitpunkt des Ablaufs der Angebotsfrist) Handelsregisterauszug als Kopie, oder ein gleichwertiger Nachweis des jeweiligen Herkunftslandes, beizufügen. Sofern eine Nichteintragung vorliegt, ist diese zu begründen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-mgmt-qual</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung zur logistischen Sicherstellung der Leistungserbringung, bei Entfernung &gt; 100 Km zu den Lieferorten,</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">- Eigenerklärung Unternehmensdarstellung: anzugeben sind Name Rechtsform, sowie Hauptsitz und Größe des Unternehmens sowie die Anzahl der Mitarbeitenden,  - Eigenerklärung zur Präqualifikation des Unternehmens, - Eigenerklärung zu Ausschlussgründen gemäß §§123 GWB und 124 GWB,  - Eigenerklärung zur Einhaltung des AGG, - Eigenerklärung zur Entrichtung von Steuern und Sozialversicherungsabgaben, - Eigenerklärung Entrichtung der Beiträge zur Berufsgenossenschaft,  - Eigenerklärung zur Zahlung des Tariflohns im Rahmen der Vertragsausführung, - Eigenerklärung zu Eintragungen im Wettbewerbsregister,  - Eigenerklärung zu den EU-Russlandsanktionen, - Eigenerklärung zum Lieferkettensorgfaltspflichtengesetz (LkSG), - Eigenerklärung zu Bietergemeinschaft, Unterauftragnehmer, Eignungsleihe.  Bei Bietergemeinschaften ist zusätzlich einzureichen:  - Formblatt 4.2 EU- Bietergemeinschaftserklärung Mehrfachbewerbungen von Unternehmen als Bieter und als Mitglied einer Bietergemeinschaft sind ausgeschlossen. Bei Bietergemeinschaften sind die geforderten Nachweise - soweit einschlägig - grundsätzlich von allen Mitgliedern der Gemeinschaft einzureichen.  Beim Einsatz von Unterauftragnehmern /Eignungsleihe ist zusätzlich einzureichen:  - Formblatt 4.1 EU Erklärung Ausschlussgründe für Unteraufträge und Eignungsleihe,  - Formblatt 4.3 EU Erklärung Unteraufträge/Eignungsleihe,  - Formblatt 4.4 EU Verpflichtungserklärung anderer Unternehmen.  Alle in dieser Bekanntmachung oder den Vergabeunterlagen geforderten Nachweise sind entsprechend der einschlägigen Bestimmungen des Herkunftslandes zu erbringen. Nachweise in anderer Sprache als in Deutsch, sind mit einer einfachen deutschen Übersetzung einzureichen. Sofern nichts Anderes beschrieben ist, dürfen die Nachweise nicht älter als 6 Monate sein. Geforderte Eignungsnachweise (gem. §§ 122 ff. GWB, §§ 42 ff. VgV), die in Form anerkannter Präqualifikationsnachweise (u.a. HPQR) vorliegen, werden zugelassen und anerkannt, wenn die Präqualifikationsnachweise in Form und Inhalt den geforderten Eignungsnachweisen entsprechen. Der Auftraggeber behält sich vor, entsprechende Nachweise zu den Aussagen des Bieters, vor Auftragsvergabe von diesem einzufordern. Der Bieter hat solche unverzüglich, nach Maßgabe der Ausschreibungsunterlagen, beim Auftraggeber vorzulegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+			<cbc:RecurringProcurementDescription languageID="DEU">siehe Vergabeunterlage</cbc:RecurringProcurementDescription>
+			<cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4YMY5Z6A/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Sofern Nachforderungen nach §56VgV zulässig sind, wird die Vergabestelle die Bieter zur Nachreichung der Unterlagen auffordern.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>61.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Gesamtpreis Flaschen</cbc:Name>
+						<cbc:Description languageID="DEU">Gesamtpreis Flaschen aus Los1 (inkl. aller Nebenkosten, jedoch ohne Flaschenmiete)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>12.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Flaschenmiete aus dem Austauschmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Austauschmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>12.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Flaschenmiete aus dem Zeitmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Zeitmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Integrale Flaschenmiete</cbc:Name>
+						<cbc:Description languageID="DEU">Integrale Flaschenmiete im Rahmen der Dauermiete</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Behältermiete (Trockeneis)</cbc:Name>
+						<cbc:Description languageID="DEU">Behältermiete (Trockeneis) pro Tag</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los1 - Lieferfrist</cbc:Name>
+						<cbc:Description languageID="DEU">Lieferfrist kürzer als 48 Stunden</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>55.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Preis pro 100Liter Dewar/Kanne</cbc:Name>
+						<cbc:Description languageID="DEU">Preis pro 100Liter Dewar/Kanne (inkl. aller Nebenkosten, jedoch ohne Dewar/ Kannenmiete und Einkühlung)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Gesamtpreis Flaschen</cbc:Name>
+						<cbc:Description languageID="DEU">Gesamtpreis Flaschen aus Los2 (inkl. aller Nebenkosten, jedoch ohne Flaschenmiete)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Dewar-/ Kannenmiete (100 Liter) pro Tag</cbc:Name>
+						<cbc:Description languageID="DEU">Dewar-/ Kannenmiete (100 Liter) pro Tag</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Verweildauer von Dewaren/ Kannen</cbc:Name>
+						<cbc:Description languageID="DEU">Verweildauer von Dewaren/ Kannen (100 Liter), ohne Kühlungsmaßnahmen, beim Auftraggeber</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Kosten der Einkühlung von Dewaren/ Kannen (100 Liter) durch den Auftragnehmer</cbc:Name>
+						<cbc:Description languageID="DEU">Kosten der Einkühlung von Dewaren/ Kannen (100 Liter) durch den Auftragnehmer</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Flaschenmiete aus dem Austauschmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Austauschmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Flaschenmiete aus dem Zeitmietmodell</cbc:Name>
+						<cbc:Description languageID="DEU">Flaschenmiete aus dem Zeitmietmodell</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Integrale Flaschenmiete</cbc:Name>
+						<cbc:Description languageID="DEU">Integrale Flaschenmiete im Rahmen der Dauermiete</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-unit</efbc:ParameterCode>
+											<efbc:ParameterNumeric>10.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Los2 - Lieferfrist</cbc:Name>
+						<cbc:Description languageID="DEU">Lieferfrist kürzer als 3 Werktage</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YMY5Z6A</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">52</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang bei der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig (§ 160 Abs. 3 Nr.4 GWB). Der Auftraggeber weist ausdrücklich auf die Rügeobliegenheiten der Unternehmen sowie auf die Präklusionsregelungen gemäß § 160 Abs. 3 Satz 1 Nr. 1 bis Nr. 4 GWB hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin: Ein Nachprüfungsantrag ist gemäß § 160 Abs. 3 GWB unzulässig, soweit: 1) Der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4) Mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+				<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:AccessToolName>Die Kommunikation von Bewerbern/ Bietern und der Vergabestelle in diesem Vergabeverfahren erfolgt ausschließlich über das Deutsche Vergabeportal (DTVP), über die in dieser Bekanntmachung angegebene URL.</efbc:AccessToolName>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YMY5Z6A</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2025-07-01+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-06-11+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2025-07-01+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+				<cbc:Description languageID="DEU">Die Öffnung der Angebote wird von mindestens zwei Vertretern des öffentlichen Arbeitgebers gemeinsam, unverzüglich nach Ablauf der Angebotsfrist, ausschließlich in elektronischer Form über das deutsche Vergabeportal (DTVP), durchgeführt. Bieter sind nicht zugelassen.</cbc:Description>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="DEU">DTVP</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>4</cbc:MaximumOperatorQuantity>
+				<cbc:Justification languageID="DEU">Die Vertragslaufzeit (inkl. Verlängerungsoption) von insgesamt mehr als 4 Jahren ist darin begründet, dass in diesem speziellen Leistungsbereich, ein Wechsel des Auftragnehmers einen sehr hohen Aufwand, sowohl für den Auftragnehmer, als auch den jeweiligen Auftraggeber erfordert. So sind Kenntnisse über alle Standorte/ Anlieferstellen und -wege, aller am Rahmenvertrag teilnehmenden Hochschulen, zu vermitteln, bzw. zu erlangen, die eingebrachten, vom jeweiligen Auftragnehmer zu stellenden Gasflaschen regelmäßig zu prüfen und, am Vertragsende, bzw. im festgelegten Nachfolgezeitraum, komplett auszutauschen (hier sind insbesondere die gesetzlichen Prüf- und Abschreibungszyklen bzw. -Zeiträume zu berücksichtigen). Schließlich steht der hohe Initialaufwand und -invest des Auftragnehmers, zum jeweils projektbezogenen Aufbau eines ausreichenden Gasflaschenbestandes, einer Beteiligung am Wettbewerb um einen Rahmenvertrag kürzerer Laufzeit, entgegen. So wäre bei einer kürzeren Vertragslaufzeit mit einer massiven Einschränkung des ohnehin sehr kleinen Anbietermarktes, bzw. einem überproportionalen Niederschlag der hohen Initial- und Investitionskosten, auf die Produktpreise zu rechnen. Hinsichtlich der Lieferung von Heliumprodukten, ist eine belastbare Planungsgrundlage zur Bestimmung der voraussichtlichen Abnahmemengen für die Anbieter unerlässlich und be-stimmt deshalb maßgeblich deren Beteiligung am Wettbewerb. Aufgrund der vorgesehenen besonderen Vertragskonstellation zum Bezug der Heliumproduk-te (Abruf-Miniwettbewerbe) muss deshalb eine fehlende Planungssicherheit der Anbieter, bezüglich der bei Ihnen tatsächlich abgenommenen Gesamtmengen, durch einen längeren Vertragszeitraum (potentiellen Abnahmezeitraum) kompensiert werden, um die Teilnahme am Wettbewerb für die potentiellen Anbieter dennoch attraktiv zu gestalten. Zudem steht zu erwarten, dass der recht kleine Markt an potentiellen Lieferanten für Heliumprodukte, bereits über den Vertragsabschluss mit maximal 3 (Rahmen-)Vertragspartnern, vollständig abgebildet ist, d.h. keinem potentiellen Anbieter ein Nachteil durch einen, über 4 Jahre hinausgehenden Vertragszeitraum, entstehen wird.</cbc:Justification>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2</cbc:ID>
+			<cbc:Name languageID="DEU">Lieferung von Heliumprodukten</cbc:Name>
+			<cbc:Description languageID="DEU">Vorhaltung der Produkte/ Lieferbereitschaft und Bezugsmethodik - Details siehe Vergabeunterlage</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">siehe Vergabeunterlage</cbc:Note>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:RequestedTenderTotal>
+				<cbc:EstimatedOverallContractAmount currencyID="EUR">1360000.00</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">24110000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">24111300</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Der v.g. Erfüllungsort gilt für Anlieferungen an die Johann Wolfgang- Goethe-Universität und untergliedert sich in weitere Erfüllungsorte für diesen Auftraggeber. Die weiteren Erfüllungsorte (der 6 weiteren teilnehmenden, hessischen Hochschulen) sind der Vergabeunterlage zu entnehmen.</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Max-von-Laue-Str. 9</cbc:StreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60438</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">72</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Neben den im Produkt- und Preisblatt-Los 1, bzw. im Produkt- und Preisblatt-Los 2 (Teil B der Vergabeunterlage) genannten Produkten, sind die Hochschulen berechtigt weitere Produkte, aus dem Sortiment des jeweiligen Auftragnehmers, zu bestellen. Für die Bestellung, Lieferung und Berechnung auch dieser Produkte, gilt mit Ausnahme der Lieferfristen und Preisbindung, dieser Rahmenvertrag. Den Auftraggebern ist, auf Anforderung, eine entsprechende, aktuelle Produktpreisliste, über das Produktsortiment des Auftragnehmers vorzulegen, die die Einhaltung der v.g. Bestell-, Liefer- und Rechnungsbedingungen, berücksichtigt. Eine Abnahmeverpflichtung für Produkte dieses, zusätzlichen Sortiments, seitens der Auftraggeber, besteht nicht.</cbc:OptionsDescription>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

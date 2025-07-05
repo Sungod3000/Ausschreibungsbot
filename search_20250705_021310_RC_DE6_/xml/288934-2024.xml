@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">DAK-Gesundheit</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Nagelsweg 27- 31</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>20097</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE48698890</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 402364855-1709</cbc:Telephone>
+									<cbc:Telefax>+49 4033470-900200</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@dak.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Bundes beim Bundeskartellamt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemombler Str. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>000</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 22894990</cbc:Telephone>
+									<cbc:ElectronicMail>poststelle@bundeskartellamt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Bundes beim Bundeskartellamt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemombler Str. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>000</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 22894990</cbc:Telephone>
+									<cbc:ElectronicMail>poststelle@bundeskartellamt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00288934-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">95/2024</efbc:GazetteID><efbc:PublicationDate>2024-05-16Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">078603a5-f4c1-46e0-8909-2efca8bc3467</cbc:ID>
+	<cbc:ContractFolderID>95c182ec-ee5f-424b-a5b1-8de037858a8d</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-05-15+02:00</cbc:IssueDate>
+	<cbc:IssueTime>06:10:50+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-05-15+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YM5HKKE</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Hinweis: Der erste Zuschlag in diesem Verfahren wird frühestens 10 Kalendertage nach Veröffentlichung der EU-Bekanntmachung im Amtsblatt erteilt.  Zuständige Stelle für Rechtsbehelfs-/Nachprüfungsverfahren: Vergabekammer des Bundes beim Bundeskartellamt Villemombler Str. 76 53123 Bonn oder das jeweils örtlich zuständige Sozialgericht  (s. § 57 SGG und Ziff. VI.3).</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Es handelt sich um ein Open-House-Verfahren für ein Original.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YM5HKKE</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">1004351 - Piribedil, ATC N04BC08 (OBO)</cbc:ID>
+		<cbc:Name languageID="DEU">Abschluss einer nicht-exklusiven Rabattvereinbarung nach § 130a Absatz 8 SGB V zum Wirkstoff Piribedil, ATC N04BC08 (OBO) für die Zeit 01.07.2024 - 30.06.2025 (ein Jahr Verlängerungsoption)</cbc:Name>
+		<cbc:Description languageID="DEU">§ 130a Absatz 8 SGB V ermöglicht den Krankenkassen und pharmazeutischen Unternehmen, Rahmenrabattverträge über die zu Lasten der gesetzlichen Krankenkassen abzugebenden Arzneimittel zuschließen. In Hinblick auf die dafür einschlägigen gesetzlichen Vorschriften zur Vergabe öffentlicher Aufträge, findet ein regelmäßiger Prozess wirkstoffbezogener, förmlicher Vergabeverfahren nach den Regularien des 4. Teils des GWB durch die DAK-Gesundheit statt. Für vom Bieter näher in der Anlage 2 zum Vertrag zu benennende Arzneimittel zu dem o. g. Wirkstoff, Piribedil, ATC N04BC08, beabsichtigt die DAK-Gesundheit, bis zum Inkrafttreten neuer Arzneimittelrabattverträge mit möglichst allen interessierten pharmazeutischen Unternehmen Arzneimittelrabattverträge abzuschließen. Ein Rabattvertrag i.R.d. Zulassungsmodells zu dem o. g. Wirkstoff tritt erstmals am 01.07.2024 in Kraft und endet am 30.06.2025 (plus ein Jahr Verlängerungsoption). Er endet unabhängig davon automatisch mit Inkrafttreten des Exklusivvertrages.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4YM5HKKE
+
+
+Die Vergabeunterlagen können im notwendigen Einzelfall auch per E-Mail bei der unter I.1. genannten Kontaktstelle abgefordert werden. Die Vergabeunterlagen werden sodann per E-Mail verschickt. Fragen und Hinweise zu den Vergabeunterlagen sind auf elektronischem Wege (mittels der Bieterkommunikation über das Vergabeportal dtvp.de) oder in notwendigen Einzelfällen per E-Mail oder schriftlich (mittels Telefax oder Brief) an die unter I.1. genannte Kontaktstelle zu richten. Sie sind in deutscher Sprache zu formulieren. Antworten werden allen Unternehmern, welche die Vergabeunterlagen mittels einer Registrierung angefordert haben, in anonymisierter Form zugänglich gemacht. Dabei werden die Antworten den Unternehmern im Wege der Bieterkommunikation über das Vergabeportal dtvp.de zur Verfügung gestellt. Unternehmen, welche die Vergabeunterlagen ohne Registrierung heruntergeladen haben, haben in eigener Verantwortung die weitere Kommunikation zu verfolgen und sich dazu ggf. an die o.g. Kontaktstelle zu wenden.  Das Angebot ist in Textform als elektronisches Angebot per E-Mail bei openhouse@dak.de einzureichen. Die Einreichung des Angebotes per Post ist in diesem Verfahren nicht vorgesehen.   Bei der vorliegenden Veröffentlichung handelt es sich nicht um die Vergabe eines öffentlichen Auftrags im Sinne der Vergabekoordinierungsrichtlinie 2014/24/EU des Europäischen Parlaments und des Rates bzw. des Vergaberechts. Um ein weitestgehendes Maß an Transparenz für die beabsichtigten Vertragsabschlüsse zu gewährleisten, erfolgt die Veröffentlichung im Supplement zum Amtsblatt der Europäischen Union. In Ermangelung eines entsprechenden Veröffentlichungsformulars wird die Auftragsbekanntmachung genutzt. Die daraus resultierenden begrifflichen Vorgaben, wie bspw. die Verfahrensbezeichnung "Offenes Verfahren", sind einzig der Nutzung dieses Bekanntmachungsformulars und der Veröffentlichungsplattform geschuldet. Eine weitere Bedeutung, insbesondere eine Unterwerfung untervergaberechtliche Regelungen, soweit sie nicht aus rechtlichen Gründen verpflichtend sind, ist damit nicht verbunden.</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:RequestedTenderTotal>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">1.00</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">33600000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung des Unternehmens, dass keines der Ausschlusskriterien gemäß §§ 123 und 124 GWB vorliegt. Dazu ist das Angebotsschreiben mit dem Angebot einzureichen (die Erklärung erfolgt durch Einreichung des Angebotsschreibens).</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4YM5HKKE/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die angegebene Frist für die Angebotsöffnung ist nicht zu beachten und musste aus systemischen Gründen mit dem angegebenen Datum eingegeben werden. Faktisch gibt es keine Angebotsöffnung, da der Bieter kein eigenes Angebot abgibt, sondern den Vertrag jederzeit beitreten kann. Für die Fristwahrung ist ein elektronischer Eingang der vollständigen Unterlagen PER E-MAIL an die E-Mail Adresse openhouse@dak.de ausreichend. Spätere Beitritte sind jederzeit möglich. Um während der Laufzeit des Vertrages zum 1. des Folgemonats beitreten zu können, müssen die o.g. Unterlagen, unabhängig vom gewünschten Beitritt, der DAK-G bis zum 5. Kalendertag des jeweiligen Vormonats vorliegen. Auch hierbei kommt es auf den rechtzeitigen Zugang per E-Mail bei der DAK-G an. Beispiel: Der vom Bieter gewünschte Beitritt soll zum 01.07.20xx (Folgemonat) erfolgen, die Unterlagen müssten hierfür bis zum 05.06.20xx (Vormonat) vorliegen. Weitere Informationen entnehmen Sie bitte dem Anschreiben. Hinweis: Die Veröffentlichung erfolgt hier unter Verwendung des Formulars für Offene Verfahren. Wie bereits deutlich gemacht, handelt es sich hier um ein solches nicht - die Bekanntmachung musste aus technischen Gründen verwendet werden, da es kein für Zulassungsverfahren passendes Formular gibt.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Eigenerklärung darüber, dass für diejenigen Arzneimittel, für die der Bieter ein Angebot im Rahmen dieses Verfahrens abgibt, eine arzneimittelrechtliche Zulassung besteht und dass der Bieter zum Vertrieb berechtigt ist. Dazu ist das Angebotsschreiben mit dem Angebot einzureichen (die Erklärung erfolgt durch Einreichung des Angebotsschreibens).</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YM5HKKE</cbc:EndpointID>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Hinweis: Der erste Zuschlag in diesem Verfahren wird frühestens 10 Kalendertage nach Veröffentlichung der EU-Bekanntmachung im Amtsblatt erteilt.  Zuständige Stelle für Rechtsbehelfs-/Nachprüfungsverfahren: Vergabekammer des Bundes beim Bundeskartellamt Villemombler Str. 76 53123 Bonn oder das jeweils örtlich zuständige Sozialgericht  (s. § 57 SGG und Ziff. VI.3).</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YM5HKKE</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2026-05-05+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2026-04-30+02:00</cbc:EndDate>
+				<cbc:EndTime>00:00:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2026-05-05+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>12:01:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">1004351 - Piribedil, ATC N04BC08 (OBO)</cbc:ID>
+			<cbc:Name languageID="DEU">Abschluss einer nicht-exklusiven Rabattvereinbarung nach § 130a Absatz 8 SGB V zum Wirkstoff Piribedil, ATC N04BC08 (OBO) für die Zeit 01.07.2024 - 30.06.2025 (ein Jahr Verlängerungsoption)</cbc:Name>
+			<cbc:Description languageID="DEU">Die DAK-Gesundheit geht davon aus, dass dieses Verfahren auf Grund einer fehlenden Auswahlentscheidung und mithin der diskriminierungsfreien Zugangsmöglichkeit aller pharmazeutischen Unternehmen nicht in den Anwendungsbereich des Kartellvergaberechts fällt. Er endet unabhängig davon automatisch mit Inkrafttreten des Exklusivvertrages zu Piribedil, ATC N04BC08, in Folge eines förmlichen Vergabeverfahrens nach den Regularien des 4. Teils des GWB mit einem oder mehreren Vertragspartnern. Um der Vielfalt der potentiellen Vertragspartner im Rahmen des Zulassungsmodells gerecht zu werden, wird jedem pharmazeutischen Unternehmen während der Vertragslaufzeit der Abschluss eines Rahmenvertrags zu jeder Zeit und zu den gleichen Bedingungen ermöglicht. Die hierzu erforderlichen Vertragsunterlagen stehen über das Online-Portal www.dtvp.de/center unter dem unter 5.1.11. genannten Link zum Download zur Verfügung.  Voraussetzungen für den Abschluss, bzw. den späteren Beitritt zu den erstmals am 01.07.2024 in Kraft tretenden Verträgen ist die vollständige und rechtzeitige Übersendung folgender Unterlagen (erhältlich zum Download unter dem unter 5.1.11. genannten Link) an die nachstehende Abteilung bei der DAK-Gesundheit:  1. Angebotsschreiben 2. Anerkennung der vertraglichen Maßgaben der DAK-Gesundheit, insbesondere auch der vorgegebenen Rabatte durch Einreichung des mit Namen oder Firmenstempel versehenen Vertrages durch den Interessenten an der vorgesehenen Stelle. 3. Die ausgefüllten Anlagen 1 und 2 zum Vertrag. Der Interessent hat hier die Arzneimittel zu dem o.g. Wirkstoff einzutragen, welche Vertragsgegenstand werden sollen.  Die Unterlagen sind PER E-Mail einzureichen bei:  openhouse@dak.de  DAK-Gesundheit Fachbereich Arzneimittel (0038 00) Nagelsweg 27-31 20097 Hamburg  Die Anlage 2 ist ausdrücklich als Exceldatei an die E-Mail-Adresse openhouse@dak.de zuschicken.   Verträge im Rahmen dieses Modells und zum o.g. Wirkstoff werden erstmalig mit Wirkung zum 01.07.2024 abgeschlossen und enden am 30.06.2025 bzw. bei Ziehung der Verlängerungsoption am 30.06.2026. Interessenten, die zu diesem Termin Vertragspartner werden wollen, haben die o.g., einzureichenden Unterlagen bis zum 5. des Vormonats PER E-MAIL einzureichen.   Das Angebot ist in Textform als elektronisches Angebot PER E-MAIL bei openhouse@dak.de einzureichen. Die Einreichung des Angebotes per Post ist in diesem Verfahren nicht vorgesehen.  Bitte reichen Sie das Angebot NICHT über das Deutsche Vergabeportal ein. Für die Fristwahrung ist ein elektronischer Eingang der vollständigen Unterlagen PER E-MAIL an die E-Mail-Adresse openhouse@dak.de ausreichend.   Spätere Beitritte sind jederzeit möglich. Um während der Laufzeit des Vertrages zum 1. oder 15. des Folgemonats beitreten zu können, müssen die o.g. Unterlagen, unabhängig vom gewünschten Beitritt, der DAK-Gesundheit bis zum 5. des Vormonats vorliegen. Auch hierbei kommt es auf den rechtzeitigen Zugang per E-Mail bei der DAK-G an. Beispiel: Der vom Bieter gewünschte Beitritt soll zum 15.07. (Folgemonat) erfolgen, die Unterlagen müssten hierfür bis zum 05.06. (Vormonat) vorliegen.  Hinweis: Die Veröffentlichung erfolgt hier unter Verwendung des Formulars für Offene Verfahren. Wie bereits deutlich gemacht, handelt es sich hier um ein solches nicht - die Bekanntmachung musste aus technischen Gründen verwendet werden, da es kein für Zulassungsverfahren passendes Formular gibt.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">33600000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

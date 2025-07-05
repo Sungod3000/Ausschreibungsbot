@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:Changes>
+                  <efbc:ChangedNoticeIdentifier>70d20a35-d18b-4234-b155-fe0136a8627a-01</efbc:ChangedNoticeIdentifier>
+                  <efac:Change>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                  </efac:Change>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="change-corrig-justification">update-add</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="DEU">Die Formulierung von Ziffer 2.12 der Ergänzung zur Angebotsaufforderung sowie den Zusätzlichen Informationen der Bekanntmachung hinsichtlich des einzureichenden Qualitätsmanagement-Systems wurde konkretisiert.</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:Changes>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Land Hessen, vertreten durch das Hessische Competence Center -Zentrale Beschaffung-</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65203</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 212 133 546</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611 7038 4012</cbc:Telephone>
+                           <cbc:Telefax>+49 611 32 76 38 412</cbc:Telefax>
+                           <cbc:ElectronicMail>beschaffung@hcc.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 812 056 745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151 126603</cbc:Telephone>
+                           <cbc:Telefax>+49 611 327 648534</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00231707-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">71/2025</efbc:GazetteID><efbc:PublicationDate>2025-04-10+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">776dfa9e-1065-4d4f-8d2e-7a7ff224de5a</cbc:ID>
+   <cbc:ContractFolderID>dcb0e286-f080-47a2-acdb-30b020ac4391</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-04-08+02:00</cbc:IssueDate>
+   <cbc:IssueTime>15:44:57+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-04-08+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-other</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zu Russland-Sanktionen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>7</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>7</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0437-2025-0077</cbc:ID>
+      <cbc:Name languageID="DEU">Medizinische Versorgung an mehreren Standorten der Erstaufnahmeeinrichtung des Landes Hessen</cbc:Name>
+      <cbc:Description languageID="DEU">Medizinische Versorgung der Flüchtlinge an mehreren Standorten der Erstaufnahmeeinrichtung des Landes Hessen (EAEH) - aufgeteilt auf 7 Lose</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Die Vergabeunterlagen werden ausschließlich elektronisch über die Vergabeplattform des Landes Hessen (www.vergabe.hessen.de) zur Verfügung gestellt.
+In diesem Vergabeverfahren ist ausschließlich die Abgabe elektronischer Angebote in Textform nach § 126b BGB zugelassen. Sie müssen nicht mit einer elektronischen Signatur nach dem Vertrauensdienstgesetz (VDG) versehen sein.
+Die Abgabe von Angeboten in Papierform ist ausgeschlossen. Voraussetzung für die Abgabe eines elektronischen Angebots ist die Registrierung auf der Vergabeplattform des Landes Hessen. Das Angebot ist elektronisch über die Vergabeplattform des Landes Hessen mittels der dort bereitgestellten Softwarekomponente "AI Bietercockpit" zu übermitteln und muss dort bis zum Ende der festgelegten Angebotsfrist hinterlegt sein.
+
+Folgende Unterlagen sind einzureichen:
+- Verpflichtungserklärung Tariftreue/Mindestlohn
+
+- Eigenerklärung bezüglich wettbewerbsbeschränkender Absprachen, Sozialabgaben, Berufsgenossenschaft, Haftpfichtversicherung, Nachweis der Sozialversicherung und Arbeitnehmerschutzvorschriften (insb. Jugendarbeitsschutzgesetz)
+
+- Eigenerklärung über die Eintragung im Berufs- oder Handelsregister, Vereinsregister oder das Nichtbestehen einer solchen Pflicht
+
+- Bankerklärung, Auskunft der Creditreform oder einer vergleichbaren Auskunftsstelle zur finanziellen und wirtschaftlichen Leistungsfähigkeit des Bieters
+
+- Gültiger Nachweis eines Qualitätsmanagements durch ein Zertifikat nach DIN EN ISO 9001 für die Bereiche akutmedizinische Notfallversorgung und Krankentransport in der jeweils gültigen Fassung, jedoch mindestens DIN EN ISO 9001:2015, oder eine vergleichbare Zertifizierung (z.B. DIN EN 15224), die die vorbenannten Bereiche ebenso beinhaltet
+
+Der Auftragnehmer (AN) verpflichtet sich mit der Beauftragung der Leistung dem AG zu ermöglichen, alle zur Leistungserfüllung vorgesehenen Personen jederzeit einer Zuverlässigkeitsüberprüfung (ZÜP) unterziehen zu können. Der AN darf daher nur solche Personen einsetzen, die in eine ZÜP durch das Hessische Landeskriminalamt eingewilligt haben und bei denen nach der Überprüfung keine polizeilichen Erkenntnisse vorliegen, die deren Zuverlässigkeit in Frage stellen.
+Zusätzlich verpflichtet sich der AN zur Vertraulichkeit und zur Einhaltung der datenschutzrechtlichen Anforderungen nach der DatenschutzGrundverordnung (DSGVO).</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:Region>anyw-cou</cbc:Region>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es ist eine Liste mit mindestens einer geeigneten Referenz über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen einzureichen, welche die einschlägige Erfahrung mit vergleichbaren Aufträgen und deren Umsetzung in der Praxis zeigt.
+Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen, sodass ein Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung gezogen werden kann. Die Art des zu vergebenden Auftrags umfasst die medizinische Versorgung von Flüchtlingen.
+Ein vergleichbarer Umfang der Referenzen mit der zu vergebenden Leistung ist gegeben, wenn mindestens 500 Flüchtlinge je bebotenem Los medizinisch versorgt wurden. Die Referenz muss für eine Vergleichbarkeit mit der zu vergebenden Leistung für einen Zeitraum von mindestens sechs Monaten innerhalb der letzten drei Jahre erbracht worden sein.
+
+In dem Fall, dass mehr als ein Los beboten wird, muss die nachgewiesene Anzahl der medizinisch zu versorgenden Flüchtlinge aller Referenzen insgesamt mindestens der geforderten Anzahl der medizinisch zu versorgenden Flüchtlinge aller bebotenen Lose entsprechen. Das bedeutet, dass die oben vorgegebene Anzahl der 500 mindestens medizinisch zu versorgenden Flüchtlinge für die jeweils bebotenen Lose aufsummiert werden muss.
+Der Umfang von mindestens 500 Flüchtlingen je bebotenem Los kann auch durch Aufsummierung mehrerer Referenzen erreicht werden, sofern die Leistungen für die Dauer von mindestens sechs Monaten im selben Zeitraum erbracht wurden. Im Fall einer Bietergemeinschaft kann die Aufsummierung zur Erreichung des Umfangs durch die Berücksichtigung von Referenzen der einzelnen Mitglieder der Bietergemeinschaft erfolgen.
+
+Pro Referenz sind folgende Angaben zu machen:
+• Art der Leistung,
+• Umfang der Leistung,
+• Empfänger (öffentliche und/oder private Empfänger) der Leistung,
+• Ansprechpartner, Telefon, E-Mail-Adresse für eventuelle Nachfragen,
+• Erbringungszeitraum.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-19541d7b4e2-10205733916d0268</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Gesamtpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">50</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-24+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-24+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Medizinische Versorgung der Flüchtlinge Standort Darmstadt (Starkenburgkaserne)</cbc:Name>
+         <cbc:Description languageID="DEU">Vertragsgegenstand ist der Abschluss eines Vertrages über die medizinische Versorgung von bis zu 600 Flüchtlingen am Standort Darmstadt (Starkenburgkaserne) der Erstaufnahmeeinrichtung des Landes Hessen.
+Die Belegung wird durch die aktuelle Flüchtlingssituation sowie weltpolitische Entscheidungen beeinflusst und kann daher nicht belastbar prognostiziert werden. Nach Zuschlagserteilung ist die Auftragnehmerin bzw. der Auftragnehmer deshalb verpflichtet, die aktuellen Belegungszahlen beim Auftraggeber zu erfragen. Die vorangestellten Belegzahlen stellen eine Prognose dar und bestimmen weder eine Mindestabrufmenge, noch einen Höchstbedarf. 
+
+Zum Leistungsumfang gehört u.a.:
+- Die Bereitstellung von Personal, welches die Qualifikation als medizinisches Fachpersonal nachweisen kann, entsprechend einer bestimmten Staffelung (je nach Belegungszahl) zur medizinischen Versorgung der in dem Standort untergebrachten Flüchtlinge.
+Das medizinische Fachpersonal muss eine abgeschlossene Ausbildung zur bzw. zum medizinischen Fachangestellten oder eine mindestens gleichwertige medizinische Ausbildung nachweisen.
+Das Tätigkeitsfeld des medizinischen Fachpersonals umfasst insbesondere: Patientenannahme, -registrierung und -betreuung, Vorbereitung von Untersuchungs- und Sprechzimmern, Verwaltung von Arznei-, Heil- und Hilfsmitteln, Durchführung von Blutentnahmen, Assistenz bei ärztlichen Untersuchungen, eigenständige Verwaltungstätigkeiten wie Pflege von Patientenakten, Organisation von weiteren Untersuchungsterminen. 
+
+- Sicherstellung der notfallmedizinischen Versorgung (notfallmedizinische Behandlungen und First-Responder-Tätigkeiten) täglich an 24 Stunden. Hierfür sind jeweils zwei Sanitätskräfte als medizinisches Fachpersonal im Schichtbetrieb einzusetzen (ausgebildete Rettungssanitäterinnen bzw. Rettungssanitäter, Rettungsassistentinnen bzw. Rettungsassistenten, Notfallsanitäterinnen bzw. Notfallsanitäter, Rettungshelferinnen bzw. Rettungshelfer, medizinische Fachangestellte oder examinierte Gesundheits- und Krankenpflegerinnen bzw. examinierte Gesundheits- und Krankenpfleger). Die Sanitätskräfte unterstützen darüber hinaus das medizinische Fachpersonal bei der ambulanten medizinischen Versorgung, insbesondere bei der Mitarbeit im Anmeldebereich (Sichtung von Patienten, Dokumentation), Medikamentenausgabe nach ärztlicher Anweisung; Assistenz im Behandlungszimmer bei Bedarf. Die Sanitätskräfte sollen über gute bis sehr gute regionale Kenntnisse verfügen, da dies für eine adäquate Notfallversorgung im Zusammenspiel mit der jeweiligen Leitstelle notwendig ist.
+
+- Bereitstellung von Ärzten für ambulante Untersuchungen und Behandlungen der im Standort untergebrachten Flüchtlinge. Die Sprechstunden sollen montags - freitags zwischen 8:00 Uhr und 16:30 Uhr stattfinden. Die eingesetzte Ärztin bzw. der eingesetzte Arzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde nachweisen können.
+
+Die Einsatzstunden können individuell und nach Bedarf mit dem Auftraggeber vereinbart werden. Die Einsatzstunden sind mit einer Vorlaufzeit von 14 Tagen mit dem Auftraggeber zu vereinbaren. Der Bedarf an Wochenstunden wird ebenfalls mit einer Vorlaufzeit von 14 Tagen durch den Auftraggeber mitgeteilt. 
+Urlaub bzw. Krankheit des Arztes müssen rechtzeitig angezeigt werden und eine Vertretung, die ebenfalls die untenstehende Qualifikation nachweisen kann, gestellt werden.
+
+Weiteres siehe Leistungsbeschreibung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Erstaufnahmeeinrichtung Darmstadt Starkenburgkaserne, Michaelisstraße 35</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64293</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die der Auftragnehmerin bzw. dem Auftragnehmer spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss: Zum 01.07.2029 und zum 01.07.2030 um jeweils ein weiteres Jahr, d. h. längstens bis zum 30.06.2031. Die maximale Vertragslaufzeit beträgt sechs Jahre.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es ist eine Liste mit mindestens einer geeigneten Referenz über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen einzureichen, welche die einschlägige Erfahrung mit vergleichbaren Aufträgen und deren Umsetzung in der Praxis zeigt.
+Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen, sodass ein Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung gezogen werden kann. Die Art des zu vergebenden Auftrags umfasst die medizinische Versorgung von Flüchtlingen.
+Ein vergleichbarer Umfang der Referenzen mit der zu vergebenden Leistung ist gegeben, wenn mindestens 500 Flüchtlinge je bebotenem Los medizinisch versorgt wurden. Die Referenz muss für eine Vergleichbarkeit mit der zu vergebenden Leistung für einen Zeitraum von mindestens sechs Monaten innerhalb der letzten drei Jahre erbracht worden sein.
+
+In dem Fall, dass mehr als ein Los beboten wird, muss die nachgewiesene Anzahl der medizinisch zu versorgenden Flüchtlinge aller Referenzen insgesamt mindestens der geforderten Anzahl der medizinisch zu versorgenden Flüchtlinge aller bebotenen Lose entsprechen. Das bedeutet, dass die oben vorgegebene Anzahl der 500 mindestens medizinisch zu versorgenden Flüchtlinge für die jeweils bebotenen Lose aufsummiert werden muss.
+Der Umfang von mindestens 500 Flüchtlingen je bebotenem Los kann auch durch Aufsummierung mehrerer Referenzen erreicht werden, sofern die Leistungen für die Dauer von mindestens sechs Monaten im selben Zeitraum erbracht wurden. Im Fall einer Bietergemeinschaft kann die Aufsummierung zur Erreichung des Umfangs durch die Berücksichtigung von Referenzen der einzelnen Mitglieder der Bietergemeinschaft erfolgen.
+
+Pro Referenz sind folgende Angaben zu machen:
+• Art der Leistung,
+• Umfang der Leistung,
+• Empfänger (öffentliche und/oder private Empfänger) der Leistung,
+• Ansprechpartner, Telefon, E-Mail-Adresse für eventuelle Nachfragen,
+• Erbringungszeitraum.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-19541d7b4e2-10205733916d0268</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Gesamtpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">50</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-24+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-24+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Medizinische Versorgung der Flüchtlinge Standort Fuldatal Rothwesten</cbc:Name>
+         <cbc:Description languageID="DEU">Vertragsgegenstand ist der Abschluss eines Vertrages über die medizinische Versorgung von bis zu 600 Flüchtlingen am Standort Fuldatal Rothwesten der Erstaufnahmeeinrichtung des Landes Hessen.
+Die Belegung wird durch die aktuelle Flüchtlingssituation sowie weltpolitische Entscheidungen beeinflusst und kann daher nicht belastbar prognostiziert werden. Nach Zuschlagserteilung ist die Auftragnehmerin bzw. der Auftragnehmer deshalb verpflichtet, die aktuellen Belegungszahlen beim Auftraggeber zu erfragen. Die vorangestellten Belegzahlen stellen eine Prognose dar und bestimmen weder eine Mindestabrufmenge, noch einen Höchstbedarf. 
+
+Zum Leistungsumfang gehört u.a.:
+- Die Bereitstellung von Personal, welches die Qualifikation als medizinisches Fachpersonal nachweisen kann, entsprechend einer bestimmten Staffelung (je nach Belegungszahl) zur medizinischen Versorgung der in dem Standort untergebrachten Flüchtlinge.
+Das medizinische Fachpersonal muss eine abgeschlossene Ausbildung zur bzw. zum medizinischen Fachangestellten oder eine mindestens gleichwertige medizinische Ausbildung nachweisen.
+Das Tätigkeitsfeld des medizinischen Fachpersonals umfasst insbesondere: Patientenannahme, -registrierung und -betreuung, Vorbereitung von Untersuchungs- und Sprechzimmern, Verwaltung von Arznei-, Heil- und Hilfsmitteln, Durchführung von Blutentnahmen, Assistenz bei ärztlichen Untersuchungen, eigenständige Verwaltungstätigkeiten wie Pflege von Patientenakten, Organisation von weiteren Untersuchungsterminen. 
+
+- Sicherstellung der notfallmedizinischen Versorgung (notfallmedizinische Behandlungen und First-Responder-Tätigkeiten) täglich an 24 Stunden. Hierfür sind jeweils zwei Sanitätskräfte als medizinisches Fachpersonal im Schichtbetrieb einzusetzen (ausgebildete Rettungssanitäterinnen bzw. Rettungssanitäter, Rettungsassistentinnen bzw. Rettungsassistenten, Notfallsanitäterinnen bzw. Notfallsanitäter, Rettungshelferinnen bzw. Rettungshelfer, medizinische Fachangestellte oder examinierte Gesundheits- und Krankenpflegerinnen bzw. examinierte Gesundheits- und Krankenpfleger). Die Sanitätskräfte unterstützen darüber hinaus das medizinische Fachpersonal bei der ambulanten medizinischen Versorgung, insbesondere bei der Mitarbeit im Anmeldebereich (Sichtung von Patienten, Dokumentation), Medikamentenausgabe nach ärztlicher Anweisung; Assistenz im Behandlungszimmer bei Bedarf. Die Sanitätskräfte sollen über gute bis sehr gute regionale Kenntnisse verfügen, da dies für eine adäquate Notfallversorgung im Zusammenspiel mit der jeweiligen Leitstelle notwendig ist.
+
+- Bereitstellung von Ärzten für ambulante Untersuchungen und Behandlungen der im Standort untergebrachten Flüchtlinge. Die Sprechstunden sollen montags - freitags zwischen 8:00 Uhr und 16:30 Uhr stattfinden. Die eingesetzte Ärztin bzw. der eingesetzte Arzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde nachweisen können.
+
+Zusätzlich ist eine ambulante kinderärztliche Sprechstunde einzurichten:
+Das Tätigkeitsfeld des Kinderarztes umfasst die Durchführung einer pädiatrischen Sprechstunde, inklusive der nach dem Hessischen Kindergesundheitsschutz-Gesetz vorgeschriebenen U-Untersuchungen, mit einer Einsatzzeit von bis zu vier Wochenstunden (Mo-Fr. von 8:00 Uhr bis 16:30 Uhr), unabhängig von der Höhe der Belegung.
+Die eingesetzte Kinderärztin bzw. der eingesetzte Kinderarzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde sowie die Qualifikation als Fachärztin bzw. Facharzt für Kinder- und Jugendmedizin (Pädiatrie) nachweisen können.
+
+Die Einsatzstunden können individuell und nach Bedarf mit dem Auftraggeber vereinbart werden. Die Einsatzstunden sind mit einer Vorlaufzeit von 14 Tagen mit dem Auftraggeber zu vereinbaren. Der Bedarf an Wochenstunden wird ebenfalls mit einer Vorlaufzeit von 14 Tagen durch den Auftraggeber mitgeteilt. 
+Urlaub bzw. Krankheit des Arztes müssen rechtzeitig angezeigt werden und eine Vertretung, die ebenfalls die untenstehende Qualifikation nachweisen kann, gestellt werden.
+
+Weiteres siehe Leistungsbeschreibung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Erstaufnahmeeinrichtung Fuldatal Rothwesten, Fritz- Erler-Kaserne, Ikarusweg 1</cbc:StreetName>
+               <cbc:CityName>Fuldatal</cbc:CityName>
+               <cbc:PostalZone>34233</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die der Auftragnehmerin bzw. dem Auftragnehmer spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss: Zum 01.07.2029 und zum 01.07.2030 um jeweils ein weiteres Jahr, d. h. längstens bis zum 30.06.2031. Die maximale Vertragslaufzeit beträgt sechs Jahre.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es ist eine Liste mit mindestens einer geeigneten Referenz über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen einzureichen, welche die einschlägige Erfahrung mit vergleichbaren Aufträgen und deren Umsetzung in der Praxis zeigt.
+Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen, sodass ein Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung gezogen werden kann. Die Art des zu vergebenden Auftrags umfasst die medizinische Versorgung von Flüchtlingen.
+Ein vergleichbarer Umfang der Referenzen mit der zu vergebenden Leistung ist gegeben, wenn mindestens 500 Flüchtlinge je bebotenem Los medizinisch versorgt wurden. Die Referenz muss für eine Vergleichbarkeit mit der zu vergebenden Leistung für einen Zeitraum von mindestens sechs Monaten innerhalb der letzten drei Jahre erbracht worden sein.
+
+In dem Fall, dass mehr als ein Los beboten wird, muss die nachgewiesene Anzahl der medizinisch zu versorgenden Flüchtlinge aller Referenzen insgesamt mindestens der geforderten Anzahl der medizinisch zu versorgenden Flüchtlinge aller bebotenen Lose entsprechen. Das bedeutet, dass die oben vorgegebene Anzahl der 500 mindestens medizinisch zu versorgenden Flüchtlinge für die jeweils bebotenen Lose aufsummiert werden muss.
+Der Umfang von mindestens 500 Flüchtlingen je bebotenem Los kann auch durch Aufsummierung mehrerer Referenzen erreicht werden, sofern die Leistungen für die Dauer von mindestens sechs Monaten im selben Zeitraum erbracht wurden. Im Fall einer Bietergemeinschaft kann die Aufsummierung zur Erreichung des Umfangs durch die Berücksichtigung von Referenzen der einzelnen Mitglieder der Bietergemeinschaft erfolgen.
+
+Pro Referenz sind folgende Angaben zu machen:
+• Art der Leistung,
+• Umfang der Leistung,
+• Empfänger (öffentliche und/oder private Empfänger) der Leistung,
+• Ansprechpartner, Telefon, E-Mail-Adresse für eventuelle Nachfragen,
+• Erbringungszeitraum.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-19541d7b4e2-10205733916d0268</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Gesamtpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">50</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-24+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-24+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">Med. Versorgung Standort Darmstadt (Kelley Barracks) + Außenstelle Flughafen-FFM</cbc:Name>
+         <cbc:Description languageID="DEU">Vertragsgegenstand ist der Abschluss eines Vertrages über die medizinische Versorgung von bis zu 950 Flüchtlingen am Standort Darmstadt (Kelley Barracks) und bis zu 100 Flüchtlingen für die Außenstelle Frankfurt-Flughafen der Erstaufnahmeeinrichtung des Landes Hessen.
+Die Belegung wird durch die aktuelle Flüchtlingssituation sowie weltpolitische Entscheidungen beeinflusst und kann daher nicht belastbar prognostiziert werden. Nach Zuschlagserteilung ist die Auftragnehmerin bzw. der Auftragnehmer deshalb verpflichtet, die aktuellen Belegungszahlen beim Auftraggeber zu erfragen. Die vorangestellten Belegzahlen stellen eine Prognose dar und bestimmen weder eine Mindestabrufmenge, noch einen Höchstbedarf. 
+
+Zum Leistungsumfang für den Standort Darmstadt (Kelley Baracks) gehört: 
+- Die Bereitstellung von Personal, welches die Qualifikation als medizinisches Fachpersonal nachweisen kann, entsprechend einer bestimmten Staffelung (je nach Belegungszahl) zur medizinischen Versorgung der in dem Standort untergebrachten Flüchtlinge.
+Das medizinische Fachpersonal muss eine abgeschlossene Ausbildung zur bzw. zum medizinischen Fachangestellten oder eine mindestens gleichwertige medizinische Ausbildung nachweisen.
+Das Tätigkeitsfeld des medizinischen Fachpersonals umfasst insbesondere: Patientenannahme, -registrierung und -betreuung, Vorbereitung von Untersuchungs- und Sprechzimmern, Verwaltung von Arznei-, Heil- und Hilfsmitteln, Durchführung von Blutentnahmen, Assistenz bei ärztlichen Untersuchungen, eigenständige Verwaltungstätigkeiten wie Pflege von Patientenakten, Organisation von weiteren Untersuchungsterminen. 
+- Sicherstellung der notfallmedizinischen Versorgung (notfallmedizinische Behandlungen und First-Responder-Tätigkeiten) täglich an 24 Stunden. Hierfür sind jeweils zwei Sanitätskräfte als medizinisches Fachpersonal im Schichtbetrieb einzusetzen (ausgebildete Rettungssanitäterinnen bzw. Rettungssanitäter, Rettungsassistentinnen bzw. Rettungsassistenten, Notfallsanitäterinnen bzw. Notfallsanitäter, Rettungshelferinnen bzw. Rettungshelfer, medizinische Fachangestellte oder examinierte Gesundheits- und Krankenpflegerinnen bzw. examinierte Gesundheits- und Krankenpfleger). Die Sanitätskräfte unterstützen darüber hinaus das medizinische Fachpersonal bei der ambulanten medizinischen Versorgung, insbesondere bei der Mitarbeit im Anmeldebereich (Sichtung von Patienten, Dokumentation), Medikamentenausgabe nach ärztlicher Anweisung; Assistenz im Behandlungszimmer bei Bedarf. Die Sanitätskräfte sollen über gute bis sehr gute regionale Kenntnisse verfügen, da dies für eine adäquate Notfallversorgung im Zusammenspiel mit der jeweiligen Leitstelle notwendig ist.
+- Bereitstellung von Ärzten für ambulante Untersuchungen und Behandlungen der im Standort untergebrachten Flüchtlinge. Die Sprechstunden sollen montags - freitags zwischen 8:00 Uhr und 16:30 Uhr stattfinden. Die eingesetzte Ärztin bzw. der eingesetzte Arzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde nachweisen können.
+- Zusätzlich ist eine ambulante kinderärztliche Sprechstunde einzurichten:
+Das Tätigkeitsfeld des Kinderarztes umfasst die Durchführung einer pädiatrischen Sprechstunde, inklusive der nach dem Hessischen Kindergesundheitsschutz-Gesetz vorgeschriebenen U-Untersuchungen, mit einer Einsatzzeit von bis zu vier Wochenstunden (Mo-Fr. von 8:00 Uhr bis 16:30 Uhr), unabhängig von der Höhe der Belegung.
+Die eingesetzte Kinderärztin bzw. der eingesetzte Kinderarzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde sowie die Qualifikation als Fachärztin bzw. Facharzt für Kinder- und Jugendmedizin (Pädiatrie) nachweisen können.
+
+Zum Leistungsumfang für die Außenstelle Frankfurt-Flughafen gehört:
+Die Bereitstellung eines Arztes für ambulante Untersuchungen und Behandlungen.
+Das Tätigkeitsfeld des Arztes umfasst die Durchführung einer Sprechstunde, inklusive der Erstaufnahmeuntersuchung von Flüchtlingen an der Außenstelle Frankfurt-Flughafen mit einer Einsatzzeit von bis zu sechs Stunden am Tag (Mo. - Fr. von von 8:00 Uhr bis 17:00 Uhr ), unabhängig von der Höhe der Belegung. 
+Die Leistung beinhaltet die Erstuntersuchung von Flüchtlingen gemäß § 62 Asylverfahrensgesetz unter Berücksichtigung von Infektionskrankheiten und damit zusammenhängende Verwaltungstätigkeiten, insbesondere der Ausschluss infektiöser Erkrankungen (inkl. Abstrichentnahme), Anamnese, Diagnostik und Dokumentation des Gesundheitszustandes, Veranlassung und Durchführung notwendiger weiterer Diagnostik (inkl. Blutentnahme), Medikamentenversorgung und Therapie, Impfberatung und Impfung sowie Notfall- und Wundversorgung. Der eingesetzte Arzt muss über gute PC-Kenntnisse verfügen und der deutschen Sprache mächtig sein. Die Leistung beinhaltet zudem die Dokumentation medizinischer Patientendaten in der elektronischen Datenbank während der Erstuntersuchung von Flüchtlingen.
+
+Die Einsatzstunden können individuell und nach Bedarf mit dem Auftraggeber vereinbart werden. Die Einsatzstunden sind mit einer Vorlaufzeit von 14 Tagen mit dem Auftraggeber zu vereinbaren. Der Bedarf an Wochenstunden wird ebenfalls mit einer Vorlaufzeit von 14 Tagen durch den Auftraggeber mitgeteilt. 
+Urlaub bzw. Krankheit des Arztes müssen rechtzeitig angezeigt werden und eine Vertretung, die ebenfalls die untenstehende Qualifikation nachweisen kann, gestellt werden.
+Weiteres siehe Leistungsbeschreibung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Erstaufnahmeeinrichtung Darmstadt (Kelley Barracks), Eschollbrücker Str. 47</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64295</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die der Auftragnehmerin bzw. dem Auftragnehmer spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss: Zum 01.07.2029 und zum 01.07.2030 um jeweils ein weiteres Jahr, d. h. längstens bis zum 30.06.2031. Die maximale Vertragslaufzeit beträgt sechs Jahre.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es ist eine Liste mit mindestens einer geeigneten Referenz über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen einzureichen, welche die einschlägige Erfahrung mit vergleichbaren Aufträgen und deren Umsetzung in der Praxis zeigt.
+Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen, sodass ein Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung gezogen werden kann. Die Art des zu vergebenden Auftrags umfasst die medizinische Versorgung von Flüchtlingen.
+Ein vergleichbarer Umfang der Referenzen mit der zu vergebenden Leistung ist gegeben, wenn mindestens 500 Flüchtlinge je bebotenem Los medizinisch versorgt wurden. Die Referenz muss für eine Vergleichbarkeit mit der zu vergebenden Leistung für einen Zeitraum von mindestens sechs Monaten innerhalb der letzten drei Jahre erbracht worden sein.
+
+In dem Fall, dass mehr als ein Los beboten wird, muss die nachgewiesene Anzahl der medizinisch zu versorgenden Flüchtlinge aller Referenzen insgesamt mindestens der geforderten Anzahl der medizinisch zu versorgenden Flüchtlinge aller bebotenen Lose entsprechen. Das bedeutet, dass die oben vorgegebene Anzahl der 500 mindestens medizinisch zu versorgenden Flüchtlinge für die jeweils bebotenen Lose aufsummiert werden muss.
+Der Umfang von mindestens 500 Flüchtlingen je bebotenem Los kann auch durch Aufsummierung mehrerer Referenzen erreicht werden, sofern die Leistungen für die Dauer von mindestens sechs Monaten im selben Zeitraum erbracht wurden. Im Fall einer Bietergemeinschaft kann die Aufsummierung zur Erreichung des Umfangs durch die Berücksichtigung von Referenzen der einzelnen Mitglieder der Bietergemeinschaft erfolgen.
+
+Pro Referenz sind folgende Angaben zu machen:
+• Art der Leistung,
+• Umfang der Leistung,
+• Empfänger (öffentliche und/oder private Empfänger) der Leistung,
+• Ansprechpartner, Telefon, E-Mail-Adresse für eventuelle Nachfragen,
+• Erbringungszeitraum.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-19541d7b4e2-10205733916d0268</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Gesamtpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">50</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-24+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-24+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0004</cbc:ID>
+         <cbc:Name languageID="DEU">Medizinische Versorgung der Flüchtlinge Standort Friedberg</cbc:Name>
+         <cbc:Description languageID="DEU">Vertragsgegenstand ist der Abschluss eines Vertrages über die medizinische Versorgung von bis zu 2200 Flüchtlingen am Standort Friedberg für die Außenstelle Frankfurt-Flughafen der Erstaufnahmeeinrichtung des Landes Hessen.
+Die Belegung wird durch die aktuelle Flüchtlingssituation sowie weltpolitische Entscheidungen beeinflusst und kann daher nicht belastbar prognostiziert werden. Nach Zuschlagserteilung ist die Auftragnehmerin bzw. der Auftragnehmer deshalb verpflichtet, die aktuellen Belegungszahlen beim Auftraggeber zu erfragen. Die vorangestellten Belegzahlen stellen eine Prognose dar und bestimmen weder eine Mindestabrufmenge, noch einen Höchstbedarf. 
+
+Zum Leistungsumfang gehört u.a.:
+- Die Bereitstellung von Personal, welches die Qualifikation als medizinisches Fachpersonal nachweisen kann, entsprechend einer bestimmten Staffelung (je nach Belegungszahl) zur medizinischen Versorgung der in dem Standort untergebrachten Flüchtlinge.
+Das medizinische Fachpersonal muss eine abgeschlossene Ausbildung zur bzw. zum medizinischen Fachangestellten oder eine mindestens gleichwertige medizinische Ausbildung nachweisen.
+Das Tätigkeitsfeld des medizinischen Fachpersonals umfasst insbesondere: Patientenannahme, -registrierung und -betreuung, Vorbereitung von Untersuchungs- und Sprechzimmern, Verwaltung von Arznei-, Heil- und Hilfsmitteln, Durchführung von Blutentnahmen, Assistenz bei ärztlichen Untersuchungen, eigenständige Verwaltungstätigkeiten wie Pflege von Patientenakten, Organisation von weiteren Untersuchungsterminen. 
+
+- Sicherstellung der notfallmedizinischen Versorgung (notfallmedizinische Behandlungen und First-Responder-Tätigkeiten) täglich an 24 Stunden. Hierfür sind jeweils zwei Sanitätskräfte als medizinisches Fachpersonal im Schichtbetrieb einzusetzen (ausgebildete Rettungssanitäterinnen bzw. Rettungssanitäter, Rettungsassistentinnen bzw. Rettungsassistenten, Notfallsanitäterinnen bzw. Notfallsanitäter, Rettungshelferinnen bzw. Rettungshelfer, medizinische Fachangestellte oder examinierte Gesundheits- und Krankenpflegerinnen bzw. examinierte Gesundheits- und Krankenpfleger). Die Sanitätskräfte unterstützen darüber hinaus das medizinische Fachpersonal bei der ambulanten medizinischen Versorgung, insbesondere bei der Mitarbeit im Anmeldebereich (Sichtung von Patienten, Dokumentation), Medikamentenausgabe nach ärztlicher Anweisung; Assistenz im Behandlungszimmer bei Bedarf. Die Sanitätskräfte sollen über gute bis sehr gute regionale Kenntnisse verfügen, da dies für eine adäquate Notfallversorgung im Zusammenspiel mit der jeweiligen Leitstelle notwendig ist.
+
+- Bereitstellung von Ärzten für ambulante Untersuchungen und Behandlungen der im Standort untergebrachten Flüchtlinge. Die Sprechstunden sollen montags - freitags zwischen 8:00 Uhr und 16:30 Uhr stattfinden. Die eingesetzte Ärztin bzw. der eingesetzte Arzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde nachweisen können.
+
+- Zusätzlich ist eine ambulante kinderärztliche Sprechstunde einzurichten:
+Das Tätigkeitsfeld des Kinderarztes umfasst die Durchführung einer pädiatrischen Sprechstunde, inklusive der nach dem Hessischen Kindergesundheitsschutz-Gesetz vorgeschriebenen U-Untersuchungen, mit einer Einsatzzeit von bis zu vier Wochenstunden (Mo-Fr. von 8:00 Uhr bis 16:30 Uhr), unabhängig von der Höhe der Belegung.
+Die eingesetzte Kinderärztin bzw. der eingesetzte Kinderarzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde sowie die Qualifikation als Fachärztin bzw. Facharzt für Kinder- und Jugendmedizin (Pädiatrie) nachweisen können.
+
+Die Einsatzstunden können individuell und nach Bedarf mit dem Auftraggeber vereinbart werden. Die Einsatzstunden sind mit einer Vorlaufzeit von 14 Tagen mit dem Auftraggeber zu vereinbaren. Der Bedarf an Wochenstunden wird ebenfalls mit einer Vorlaufzeit von 14 Tagen durch den Auftraggeber mitgeteilt. 
+Urlaub bzw. Krankheit des Arztes müssen rechtzeitig angezeigt werden und eine Vertretung, die ebenfalls die untenstehende Qualifikation nachweisen kann, gestellt werden.
+Weiteres siehe Leistungsbeschreibung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Erstaufnahmeeinrichtung Friedberg, Am Dachspfad 32</cbc:StreetName>
+               <cbc:CityName>Friedberg (Hessen)</cbc:CityName>
+               <cbc:PostalZone>61169</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-08-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-07-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die der Auftragnehmerin bzw. dem Auftragnehmer spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss: Zum 01.08.2029 und zum 01.08.2030 um jeweils ein weiteres Jahr, d. h. längstens bis zum 31.07.2031. Die maximale Vertragslaufzeit beträgt sechs Jahre.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es ist eine Liste mit mindestens einer geeigneten Referenz über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen einzureichen, welche die einschlägige Erfahrung mit vergleichbaren Aufträgen und deren Umsetzung in der Praxis zeigt.
+Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen, sodass ein Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung gezogen werden kann. Die Art des zu vergebenden Auftrags umfasst die medizinische Versorgung von Flüchtlingen.
+Ein vergleichbarer Umfang der Referenzen mit der zu vergebenden Leistung ist gegeben, wenn mindestens 500 Flüchtlinge je bebotenem Los medizinisch versorgt wurden. Die Referenz muss für eine Vergleichbarkeit mit der zu vergebenden Leistung für einen Zeitraum von mindestens sechs Monaten innerhalb der letzten drei Jahre erbracht worden sein.
+
+In dem Fall, dass mehr als ein Los beboten wird, muss die nachgewiesene Anzahl der medizinisch zu versorgenden Flüchtlinge aller Referenzen insgesamt mindestens der geforderten Anzahl der medizinisch zu versorgenden Flüchtlinge aller bebotenen Lose entsprechen. Das bedeutet, dass die oben vorgegebene Anzahl der 500 mindestens medizinisch zu versorgenden Flüchtlinge für die jeweils bebotenen Lose aufsummiert werden muss.
+Der Umfang von mindestens 500 Flüchtlingen je bebotenem Los kann auch durch Aufsummierung mehrerer Referenzen erreicht werden, sofern die Leistungen für die Dauer von mindestens sechs Monaten im selben Zeitraum erbracht wurden. Im Fall einer Bietergemeinschaft kann die Aufsummierung zur Erreichung des Umfangs durch die Berücksichtigung von Referenzen der einzelnen Mitglieder der Bietergemeinschaft erfolgen.
+
+Pro Referenz sind folgende Angaben zu machen:
+• Art der Leistung,
+• Umfang der Leistung,
+• Empfänger (öffentliche und/oder private Empfänger) der Leistung,
+• Ansprechpartner, Telefon, E-Mail-Adresse für eventuelle Nachfragen,
+• Erbringungszeitraum.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-19541d7b4e2-10205733916d0268</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Gesamtpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">50</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-24+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-24+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0005</cbc:ID>
+         <cbc:Name languageID="DEU">Medizinische Versorgung der Flüchtlinge Standort Gießen</cbc:Name>
+         <cbc:Description languageID="DEU">Vertragsgegenstand ist der Abschluss eines Vertrages über die medizinische Versorgung von bis zu 5000 Flüchtlingen am Standort Gießen der Erstaufnahmeeinrichtung des Landes Hessen.
+Die Belegung wird durch die aktuelle Flüchtlingssituation sowie weltpolitische Entscheidungen beeinflusst und kann daher nicht belastbar prognostiziert werden. Nach Zuschlagserteilung ist die Auftragnehmerin bzw. der Auftragnehmer deshalb verpflichtet, die aktuellen Belegungszahlen beim Auftraggeber zu erfragen. Die vorangestellten Belegzahlen stellen eine Prognose dar und bestimmen weder eine Mindestabrufmenge, noch einen Höchstbedarf. 
+
+Zum Leistungsumfang gehört u.a.:
+- Die Bereitstellung von Personal, welches die Qualifikation als medizinisches Fachpersonal nachweisen kann, entsprechend einer bestimmten Staffelung (je nach Belegungszahl) zur medizinischen Versorgung der in dem Standort untergebrachten Flüchtlinge.
+Das medizinische Fachpersonal muss eine abgeschlossene Ausbildung zur bzw. zum medizinischen Fachangestellten oder eine mindestens gleichwertige medizinische Ausbildung nachweisen.
+Das Tätigkeitsfeld des medizinischen Fachpersonals umfasst insbesondere: Patientenannahme, -registrierung und -betreuung, Vorbereitung von Untersuchungs- und Sprechzimmern, Verwaltung von Arznei-, Heil- und Hilfsmitteln, Durchführung von Blutentnahmen, Assistenz bei ärztlichen Untersuchungen, eigenständige Verwaltungstätigkeiten wie Pflege von Patientenakten, Organisation von weiteren Untersuchungsterminen.
+
+- Sicherstellung der notfallmedizinischen Versorgung (notfallmedizinische Behandlungen und First-Responder-Tätigkeiten) täglich an 24 Stunden. Hierfür sind jeweils zwei Sanitätskräfte als medizinisches Fachpersonal im Schichtbetrieb einzusetzen (ausgebildete Rettungssanitäterinnen bzw. Rettungssanitäter, Rettungsassistentinnen bzw. Rettungsassistenten, Notfallsanitäterinnen bzw. Notfallsanitäter, Rettungshelferinnen bzw. Rettungshelfer, medizinische Fachangestellte oder examinierte Gesundheits- und Krankenpflegerinnen bzw. examinierte Gesundheits- und Krankenpfleger). Die Sanitätskräfte unterstützen darüber hinaus das medizinische Fachpersonal bei der ambulanten medizinischen Versorgung, insbesondere bei der Mitarbeit im Anmeldebereich (Sichtung von Patienten, Dokumentation), Medikamentenausgabe nach ärztlicher Anweisung; Assistenz im Behandlungszimmer bei Bedarf. Die Sanitätskräfte sollen über gute bis sehr gute regionale Kenntnisse verfügen, da dies für eine adäquate Notfallversorgung im Zusammenspiel mit der jeweiligen Leitstelle notwendig ist.
+
+- Bereitstellung von Ärzten für ambulante Untersuchungen und Behandlungen der im Standort untergebrachten Flüchtlinge. Die Sprechstunden sollen montags - freitags zwischen 8:00 Uhr und 16:30 Uhr stattfinden. Die eingesetzte Ärztin bzw. der eingesetzte Arzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde nachweisen können.
+
+- Zusätzlich ist eine ambulante kinderärztliche Sprechstunde einzurichten:
+Das Tätigkeitsfeld des Kinderarztes umfasst die Durchführung einer pädiatrischen Sprechstunde, inklusive der nach dem Hessischen Kindergesundheitsschutz-Gesetz vorgeschriebenen U-Untersuchungen, mit einer Einsatzzeit von bis zu sechs Wochenstunden (Mo-Fr. von 8:00 Uhr bis 16:30 Uhr), unabhängig von der Höhe der Belegung.
+Die eingesetzte Kinderärztin bzw. der eingesetzte Kinderarzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde sowie die Qualifikation als Fachärztin bzw. Facharzt für Kinder- und Jugendmedizin (Pädiatrie) nachweisen können.
+
+Die Einsatzstunden können individuell und nach Bedarf mit dem Auftraggeber vereinbart werden. Die Einsatzstunden sind mit einer Vorlaufzeit von 14 Tagen mit dem Auftraggeber zu vereinbaren. Der Bedarf an Wochenstunden wird ebenfalls mit einer Vorlaufzeit von 14 Tagen durch den Auftraggeber mitgeteilt. 
+Urlaub bzw. Krankheit des Arztes müssen rechtzeitig angezeigt werden und eine Vertretung, die ebenfalls die untenstehende Qualifikation nachweisen kann, gestellt werden.
+Weiteres siehe Leistungsbeschreibung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Erstaufnahmeeinrichtung Gießen, Rödgener Straße 91</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-11-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2029-10-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die der Auftragnehmerin bzw. dem Auftragnehmer spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss: Zum 01.11.2029 und zum 01.11.2030 um jeweils ein weiteres Jahr, d. h. längstens bis zum 31.10.2031. Die maximale Vertragslaufzeit beträgt sechs Jahre.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0006</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es ist eine Liste mit mindestens einer geeigneten Referenz über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen einzureichen, welche die einschlägige Erfahrung mit vergleichbaren Aufträgen und deren Umsetzung in der Praxis zeigt.
+Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen, sodass ein Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung gezogen werden kann. Die Art des zu vergebenden Auftrags umfasst die medizinische Versorgung von Flüchtlingen.
+Ein vergleichbarer Umfang der Referenzen mit der zu vergebenden Leistung ist gegeben, wenn mindestens 500 Flüchtlinge je bebotenem Los medizinisch versorgt wurden. Die Referenz muss für eine Vergleichbarkeit mit der zu vergebenden Leistung für einen Zeitraum von mindestens sechs Monaten innerhalb der letzten drei Jahre erbracht worden sein.
+
+In dem Fall, dass mehr als ein Los beboten wird, muss die nachgewiesene Anzahl der medizinisch zu versorgenden Flüchtlinge aller Referenzen insgesamt mindestens der geforderten Anzahl der medizinisch zu versorgenden Flüchtlinge aller bebotenen Lose entsprechen. Das bedeutet, dass die oben vorgegebene Anzahl der 500 mindestens medizinisch zu versorgenden Flüchtlinge für die jeweils bebotenen Lose aufsummiert werden muss.
+Der Umfang von mindestens 500 Flüchtlingen je bebotenem Los kann auch durch Aufsummierung mehrerer Referenzen erreicht werden, sofern die Leistungen für die Dauer von mindestens sechs Monaten im selben Zeitraum erbracht wurden. Im Fall einer Bietergemeinschaft kann die Aufsummierung zur Erreichung des Umfangs durch die Berücksichtigung von Referenzen der einzelnen Mitglieder der Bietergemeinschaft erfolgen.
+
+Pro Referenz sind folgende Angaben zu machen:
+• Art der Leistung,
+• Umfang der Leistung,
+• Empfänger (öffentliche und/oder private Empfänger) der Leistung,
+• Ansprechpartner, Telefon, E-Mail-Adresse für eventuelle Nachfragen,
+• Erbringungszeitraum.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-19541d7b4e2-10205733916d0268</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Gesamtpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">50</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-24+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-24+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0006</cbc:ID>
+         <cbc:Name languageID="DEU">Medizinische Versorgung der Flüchtlinge Standort Neustadt</cbc:Name>
+         <cbc:Description languageID="DEU">Vertragsgegenstand ist der Abschluss eines Vertrages über die medizinische Versorgung von bis zu 1300 Flüchtlingen am Standort Neustadt der Erstaufnahmeeinrichtung des Landes Hessen.
+Die Belegung wird durch die aktuelle Flüchtlingssituation sowie weltpolitische Entscheidungen beeinflusst und kann daher nicht belastbar prognostiziert werden. Nach Zuschlagserteilung ist die Auftragnehmerin bzw. der Auftragnehmer deshalb verpflichtet, die aktuellen Belegungszahlen beim Auftraggeber zu erfragen. Die vorangestellten Belegzahlen stellen eine Prognose dar und bestimmen weder eine Mindestabrufmenge, noch einen Höchstbedarf. 
+
+Zum Leistungsumfang gehört u.a.:
+- Die Bereitstellung von Personal, welches die Qualifikation als medizinisches Fachpersonal nachweisen kann, entsprechend einer bestimmten Staffelung (je nach Belegungszahl) zur medizinischen Versorgung der in dem Standort untergebrachten Flüchtlinge.
+Das medizinische Fachpersonal muss eine abgeschlossene Ausbildung zur bzw. zum medizinischen Fachangestellten oder eine mindestens gleichwertige medizinische Ausbildung nachweisen.
+Das Tätigkeitsfeld des medizinischen Fachpersonals umfasst insbesondere: Patientenannahme, -registrierung und -betreuung, Vorbereitung von Untersuchungs- und Sprechzimmern, Verwaltung von Arznei-, Heil- und Hilfsmitteln, Durchführung von Blutentnahmen, Assistenz bei ärztlichen Untersuchungen, eigenständige Verwaltungstätigkeiten wie Pflege von Patientenakten, Organisation von weiteren Untersuchungsterminen. 
+
+- Sicherstellung der notfallmedizinischen Versorgung (notfallmedizinische Behandlungen und First-Responder-Tätigkeiten) täglich an 24 Stunden. Hierfür sind jeweils zwei Sanitätskräfte als medizinisches Fachpersonal im Schichtbetrieb einzusetzen (ausgebildete Rettungssanitäterinnen bzw. Rettungssanitäter, Rettungsassistentinnen bzw. Rettungsassistenten, Notfallsanitäterinnen bzw. Notfallsanitäter, Rettungshelferinnen bzw. Rettungshelfer, medizinische Fachangestellte oder examinierte Gesundheits- und Krankenpflegerinnen bzw. examinierte Gesundheits- und Krankenpfleger). Die Sanitätskräfte unterstützen darüber hinaus das medizinische Fachpersonal bei der ambulanten medizinischen Versorgung, insbesondere bei der Mitarbeit im Anmeldebereich (Sichtung von Patienten, Dokumentation), Medikamentenausgabe nach ärztlicher Anweisung; Assistenz im Behandlungszimmer bei Bedarf. Die Sanitätskräfte sollen über gute bis sehr gute regionale Kenntnisse verfügen, da dies für eine adäquate Notfallversorgung im Zusammenspiel mit der jeweiligen Leitstelle notwendig ist.
+
+- Bereitstellung von Ärzten für ambulante Untersuchungen und Behandlungen der im Standort untergebrachten Flüchtlinge. Die Sprechstunden sollen montags - freitags zwischen 8:00 Uhr und 16:30 Uhr stattfinden. Die eingesetzte Ärztin bzw. der eingesetzte Arzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde nachweisen können.
+
+Die Einsatzstunden können individuell und nach Bedarf mit dem Auftraggeber vereinbart werden. Die Einsatzstunden sind mit einer Vorlaufzeit von 14 Tagen mit dem Auftraggeber zu vereinbaren. Der Bedarf an Wochenstunden wird ebenfalls mit einer Vorlaufzeit von 14 Tagen durch den Auftraggeber mitgeteilt. 
+Urlaub bzw. Krankheit des Arztes müssen rechtzeitig angezeigt werden und eine Vertretung, die ebenfalls die untenstehende Qualifikation nachweisen kann, gestellt werden.
+
+Weiteres siehe Leistungsbeschreibung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Erstaufnahmeeinrichtung Neustadt, Niederkleiner Straße 21</cbc:StreetName>
+               <cbc:CityName>Neustadt (Hessen)</cbc:CityName>
+               <cbc:PostalZone>35279</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-11-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2029-10-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die der Auftragnehmerin bzw. dem Auftragnehmer spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss: Zum 01.11.2029 und zum 01.11.2030 um jeweils ein weiteres Jahr, d. h. längstens bis zum 31.10.2031. Die maximale Vertragslaufzeit beträgt sechs Jahre.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0007</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es ist eine Liste mit mindestens einer geeigneten Referenz über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen einzureichen, welche die einschlägige Erfahrung mit vergleichbaren Aufträgen und deren Umsetzung in der Praxis zeigt.
+Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen, sodass ein Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung gezogen werden kann. Die Art des zu vergebenden Auftrags umfasst die medizinische Versorgung von Flüchtlingen.
+Ein vergleichbarer Umfang der Referenzen mit der zu vergebenden Leistung ist gegeben, wenn mindestens 500 Flüchtlinge je bebotenem Los medizinisch versorgt wurden. Die Referenz muss für eine Vergleichbarkeit mit der zu vergebenden Leistung für einen Zeitraum von mindestens sechs Monaten innerhalb der letzten drei Jahre erbracht worden sein.
+
+In dem Fall, dass mehr als ein Los beboten wird, muss die nachgewiesene Anzahl der medizinisch zu versorgenden Flüchtlinge aller Referenzen insgesamt mindestens der geforderten Anzahl der medizinisch zu versorgenden Flüchtlinge aller bebotenen Lose entsprechen. Das bedeutet, dass die oben vorgegebene Anzahl der 500 mindestens medizinisch zu versorgenden Flüchtlinge für die jeweils bebotenen Lose aufsummiert werden muss.
+Der Umfang von mindestens 500 Flüchtlingen je bebotenem Los kann auch durch Aufsummierung mehrerer Referenzen erreicht werden, sofern die Leistungen für die Dauer von mindestens sechs Monaten im selben Zeitraum erbracht wurden. Im Fall einer Bietergemeinschaft kann die Aufsummierung zur Erreichung des Umfangs durch die Berücksichtigung von Referenzen der einzelnen Mitglieder der Bietergemeinschaft erfolgen.
+
+Pro Referenz sind folgende Angaben zu machen:
+• Art der Leistung,
+• Umfang der Leistung,
+• Empfänger (öffentliche und/oder private Empfänger) der Leistung,
+• Ansprechpartner, Telefon, E-Mail-Adresse für eventuelle Nachfragen,
+• Erbringungszeitraum.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-19541d7b4e2-10205733916d0268</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Gesamtpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">50</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-24+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-24+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0007</cbc:ID>
+         <cbc:Name languageID="DEU">Medizinische Versorgung der Flüchtlinge Standort Alsfeld</cbc:Name>
+         <cbc:Description languageID="DEU">Vertragsgegenstand ist der Abschluss eines Vertrages über die medizinische Versorgung von bis zu 700 Flüchtlingen am Standort Alsfeld der Erstaufnahmeeinrichtung des Landes Hessen.
+Die Belegung wird durch die aktuelle Flüchtlingssituation sowie weltpolitische Entscheidungen beeinflusst und kann daher nicht belastbar prognostiziert werden. Nach Zuschlagserteilung ist die Auftragnehmerin bzw. der Auftragnehmer deshalb verpflichtet, die aktuellen Belegungszahlen beim Auftraggeber zu erfragen. Die vorangestellten Belegzahlen stellen eine Prognose dar und bestimmen weder eine Mindestabrufmenge, noch einen Höchstbedarf. 
+
+Zum Leistungsumfang gehört u.a.:
+- Die Bereitstellung von Personal, welches die Qualifikation als medizinisches Fachpersonal nachweisen kann, entsprechend einer bestimmten Staffelung (je nach Belegungszahl) zur medizinischen Versorgung der in dem Standort untergebrachten Flüchtlinge.
+Das medizinische Fachpersonal muss eine abgeschlossene Ausbildung zur bzw. zum medizinischen Fachangestellten oder eine mindestens gleichwertige medizinische Ausbildung nachweisen.
+Das Tätigkeitsfeld des medizinischen Fachpersonals umfasst insbesondere: Patientenannahme, -registrierung und -betreuung, Vorbereitung von Untersuchungs- und Sprechzimmern, Verwaltung von Arznei-, Heil- und Hilfsmitteln, Durchführung von Blutentnahmen, Assistenz bei ärztlichen Untersuchungen, eigenständige Verwaltungstätigkeiten wie Pflege von Patientenakten, Organisation von weiteren Untersuchungsterminen. 
+
+- Sicherstellung der notfallmedizinischen Versorgung (notfallmedizinische Behandlungen und First-Responder-Tätigkeiten) täglich an 24 Stunden. Hierfür sind jeweils zwei Sanitätskräfte als medizinisches Fachpersonal im Schichtbetrieb einzusetzen (ausgebildete Rettungssanitäterinnen bzw. Rettungssanitäter, Rettungsassistentinnen bzw. Rettungsassistenten, Notfallsanitäterinnen bzw. Notfallsanitäter, Rettungshelferinnen bzw. Rettungshelfer, medizinische Fachangestellte oder examinierte Gesundheits- und Krankenpflegerinnen bzw. examinierte Gesundheits- und Krankenpfleger). Die Sanitätskräfte unterstützen darüber hinaus das medizinische Fachpersonal bei der ambulanten medizinischen Versorgung, insbesondere bei der Mitarbeit im Anmeldebereich (Sichtung von Patienten, Dokumentation), Medikamentenausgabe nach ärztlicher Anweisung; Assistenz im Behandlungszimmer bei Bedarf. Die Sanitätskräfte sollen über gute bis sehr gute regionale Kenntnisse verfügen, da dies für eine adäquate Notfallversorgung im Zusammenspiel mit der jeweiligen Leitstelle notwendig ist.
+
+- Bereitstellung von Ärzten für ambulante Untersuchungen und Behandlungen der im Standort untergebrachten Flüchtlinge. Die Sprechstunden sollen montags - freitags zwischen 8:00 Uhr und 16:30 Uhr stattfinden. Die eingesetzte Ärztin bzw. der eingesetzte Arzt muss über eine Zulassung zur Berufsausübung verfügen und dies durch eine in Deutschland anerkannte Approbationsurkunde nachweisen können.
+
+Die Einsatzstunden können individuell und nach Bedarf mit dem Auftraggeber vereinbart werden. Die Einsatzstunden sind mit einer Vorlaufzeit von 14 Tagen mit dem Auftraggeber zu vereinbaren. Der Bedarf an Wochenstunden wird ebenfalls mit einer Vorlaufzeit von 14 Tagen durch den Auftraggeber mitgeteilt. 
+Urlaub bzw. Krankheit des Arztes müssen rechtzeitig angezeigt werden und eine Vertretung, die ebenfalls die untenstehende Qualifikation nachweisen kann, gestellt werden.
+
+Weiteres siehe Leistungsbeschreibung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">85140000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Erstaufnahmeeinrichtung Alsfeld, An der Hessenhalle</cbc:StreetName>
+               <cbc:CityName>Alsfeld</cbc:CityName>
+               <cbc:PostalZone>36304</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-12-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2029-11-30+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die der Auftragnehmerin bzw. dem Auftragnehmer spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss: Zum 01.12.2029 und zum 01.12.2030 um jeweils ein weiteres Jahr, d. h. längstens bis zum 30.11.2031. Die maximale Vertragslaufzeit beträgt sechs Jahre.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

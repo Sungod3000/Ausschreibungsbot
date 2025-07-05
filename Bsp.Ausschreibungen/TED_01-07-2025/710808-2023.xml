@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Magistrat der Stadt Kirchhain</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Am Markt 1</cbc:StreetName>
+                           <cbc:CityName>Kirchhain</cbc:CityName>
+                           <cbc:PostalZone>35274</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>-</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>06422 8080</cbc:Telephone>
+                           <cbc:ElectronicMail>magistrat@kirchhain.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Heussen Rechtsanwaltsgesellschaft mbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Frankfurt am Main</cbc:CityName>
+                           <cbc:PostalZone>60327</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>-</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6915242120</cbc:Telephone>
+                           <cbc:ElectronicMail>sarina.schaeffer-teichert@heussen-law.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3; Fristenbriefkasten: Luisenplatz 2</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>-</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151126603</cbc:Telephone>
+                           <cbc:Telefax>+49 6151125816</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammern des Landes Hessen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>-</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151-126603</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00710808-2023</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">225/2023</efbc:GazetteID><efbc:PublicationDate>2023-11-22Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">a08df443-ca93-4fb1-9ddf-8ee52eb7543f</cbc:ID>
+   <cbc:ContractFolderID>8e93590b-cc0f-4749-b8d5-0b89b7955522</cbc:ContractFolderID>
+   <cbc:IssueDate>2023-11-20+01:00</cbc:IssueDate>
+   <cbc:IssueTime>18:28:29+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Darüber hinaus gelten sämtliche in den Vergabeunterlagen genannten Ausschlussgründe, insbesondere die gesetzlichen Ausschlussgründe nach §§ 123 bis 126 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>HEUSSEN-2023-0067</cbc:ID>
+      <cbc:Name languageID="DEU">Kirchhain: Mittagsverpflegung für die städtischen Kindertageseinrichtungen</cbc:Name>
+      <cbc:Description languageID="DEU">Der Magistrat der Stadt Kirchhain sucht einen zuverlässigen Betreiber, der in den insgesamt 8 städtischen Kindertageseinrichtungen (davon 7 Einrichtungen in der Kernstadt und 1 Einrichtung im Stadtteil Niederwald) ein warmes und verzehrfertiges Mittagsessensangebot (Cook &amp; Hold) für die Kinder bereitstellt.  
+
+Die Mindestvertragslaufzeit beträgt 24 Monate. Der Vertrag verlängert sich zweimal 
+automatisch um weitere 12 Monate bis zu einer maximalen Vertragslaufzeit von 48 Monaten, wenn er nicht spätestens sechs Monaten vor Ablauf der Mindestvertragslaufzeit bzw. vor Ablauf des ersten Verlängerungszeitraums schriftlich gekündigt wird. Die Laufzeit des Vertrages beginnt mit Zuschlagserteilung, frühestens jedoch am 01.02.2024.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">55524000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">55500000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Kindertagesstätte "Im Brand", Chemnitzer Str. 8</cbc:StreetName>
+            <cbc:CityName>Kirchhain</cbc:CityName>
+            <cbc:PostalZone>35274</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Kindertagesstätte "Alsfelder Straße", Drosselweg 41a</cbc:StreetName>
+            <cbc:CityName>Kirchhain</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Krippe "Alsfelder Straße, Drosselweg 41</cbc:StreetName>
+            <cbc:CityName>Kirchhain</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Kindertagesstätte "Auf der Röthe", Röthestraße 6</cbc:StreetName>
+            <cbc:CityName>Kirchhain</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Kindertagesstätte "Am Steinweg", Steinweg 2</cbc:StreetName>
+            <cbc:CityName>Kirchhain</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Kindertagesstätte "Am Hallenbad", Am Hallenbad 1</cbc:StreetName>
+            <cbc:CityName>Kirchhain</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Krabbelstube "Sonnenkinder",  Am Schwimmbad 34</cbc:StreetName>
+            <cbc:CityName>Kirchhain</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Kindergarten "Bärenhöhle",  An der Rosenhecke 2</cbc:StreetName>
+            <cbc:CityName>Kirchhain-Niederwald</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Nachweis der Gewerbeanmeldung/-erlaubnis. 
+- Bei juristischen Personen zusätzlich: Vorlage eines Handelsregisterauszugs, nicht älter als drei Monate bei Abgabe des Angebots. Hieraus muss hervorgehen, dass der Aussteller der Erklärung (Person des Erklärenden) für das Unternehmen vertretungsberechtigt ist und die auftragsgegenständlichen Leistungen zu dem satzungsgemäßen Geschäftszweck gehören. Wird ein Handelsregisterauszug vorgelegt, der älter als drei Monate bei Abgabe des Angebots 
+ist, versichert der Bieter mit der Abgabe seines Angebots, dass keine Änderungen an den Eintragungen im Handelsregister erfolgt sind.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Mindestanforderung: Eigenerklärung über das Bestehen einer Betriebshaftpflichtversicherung mit einer Deckungssumme je Schadensfall von mind. 2.500.000 EUR für Personenschäden, 1.000.000 EUR für Sach- und Vermögensschäden sowie Umweltschäden und 250.000 EUR für sonstige Schäden, jeweils zweifach maximiert im Versicherungsjahr mit Benennung der Versicherungsgesellschaft. Soweit die aktuellen Deckungssummen niedriger als die vorgenannten Summen sind, muss mit dem Angebot eine Eigenerklärung über die Erhöhung auf die geforderten Deckungssummen im Zuschlagsfall eingereicht werden 
+
+- Nachweis einer Unbedenklichkeitsbescheinigung der Berufsgenossenschaft</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Mindestanforderung: Angabe von mindestens zwei Aufträgen, die die Herstellung und Belieferung von täglichen Essen im Cook &amp; Hold in Kinderbetreuungseinrichtungen zum Gegenstand hatten. Die Leistungen müssen in den letzten drei Jahren erbracht worden sein. Der aktive Leistungszeitraum der jeweiligen Referenz muss mindestens 12 Monate umfassen.
+ 
+- Mindestanforderung: Eigenerklärung zur Einhaltung der DGE-Qualitätsstandards und der Richtlinien der Lebensmittel-Informationsverordnung (LMIV) und der Lebensmittelzusatzstoff-Durchführungsverordnung (LMZDV)
+
+- Mindestanforderung an Bestellsystem: Eine An- und Abbestellung aufgrund von Krankheit und zwingenden Gründen muss mindestens bis zu zwei Tagen vorher möglich sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18bed716a76-5efa4f1b7a41d9</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">keine</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">- unterzeichnete Eigenerklärung Sanktionen Russland
+- unterzeichnete Verpflichtungserklärung zu Tariftreue und Mindestentgelt bei öffentli
+chen Aufträgen nach dem Hessischen Vergabe- und Tariftreuegesetz (§ 4 HVTG)</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">abwechslungsreiche/zielgruppengerechte Speiseplangestaltung</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Wareneinsatz (gesunde, regionale und saisonale Produkte sowie Bioprodukte)</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Warmhaltezeiten</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.had.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2023-12-21+01:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2023-12-21+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:03:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Kirchhain: Mittagsverpflegung für die städtischen Kindertageseinrichtungen</cbc:Name>
+         <cbc:Description languageID="DEU">Tägliche Mittagsverpflegung (Montag bis Freitag) von bis zu 350 Kindergartenkindern U3/Ü3. Die Mahlzeiten werden extern durch den Auftragnehmer am Tag der Lieferung (des Verzehrs) frisch gekocht, zu vereinbarten Zeiten zur jeweiligen Einrichtung transportiert und in die entsprechenden Räumlichkeiten gebracht bzw. an das Personal übergeben. Einsatz bzw.Auswahl von saisonalen und regionalen Lebensmitteln mit Auswahlmöglichkeiten sind 
+Voraussetzung. Täglich 3 Menüs zur Auswahl inkl. 1 vegetarischen/muslimischen Menü. Die Möglichkeit zur Bestellung von speziellen Allergie-Essen muss bestehen.  
+
+Die Lieferung der bis zu 350 Essen hat täglich montags bis freitags zu erfolgen. An Feiertagen, Brückentage sowie an Schließtagen (bis zu 30 Tage) erfolgt keine Lieferung.   
+
+Die Gegenleistung bemisst sich nach den tatsächlichen Anmeldungen zum Mittagessen.
+
+Lieferorte, Anlieferzeiten, geschätzte Anzahl der Speisen:
+1. Kindertagesstätte "Im Brand"  
+z.Zt. bis zu 65 Essen 
+Anlieferzeit 11:20Uhr  
+• Anlieferungsort: Chemnitzer Str. 8, 35274 Kirchhain (Erdgeschoss)  
+
+2. Kindertagesstätte "Alsfelder Straße" 
+z.Zt. bis zu 50 Essen 
+Anlieferzeit 11:30 Uhr  
+• Anlieferungsort: Drosselweg 41a, 35274 Kirchhain (Erdgeschoss)  
+
+3. Krippe "Alsfelder Straße"  
+z.Zt. bis zu 12 Essen U3 
+Anlieferzeit 11:00 Uhr 
+• Anlieferungsort: Drosselweg 41, 35274 Kirchhain (Erdgeschoss)  
+
+4. Kindertagesstätte "Auf der Röthe"  
+z.Zt. bis zu 60 Essen, davon bis zu 8 Essen U3 
+Anlieferzeit 12:00 Uhr 
+• Anlieferungsort: Röthestraße 6, 35274 Kirchhain (Erdgeschoss)  
+ 
+5. Kindertagesstätte "Am Steinweg"  
+z.Zt. bis zu 30 Essen, davon bis zu 5 Essen U3 
+Anlieferzeit 11:30 Uhr 
+• Anlieferungsort: Steinweg 2, 35274 Kirchhain (Erdgeschoss)  
+
+Ab 01.04.2024 wird die Kindertagesstätte "Am Steinweg" eine Außenstelle 
+haben, die separat beliefert werden muss. 
+
+Ab 01.04.2024 ergibt sich daher folgende Änderung:  
+
+5a. Kindertagesstätte "Am Steinweg"  
+bis zu 20 Essen, davon bis zu 5 Essen U3 
+Anlieferzeit 11:30 Uhr 
+• Anlieferungsort: Steinweg 2, 35274 Kirchhain (Erdgeschoss)  
+
+ 5b. "Natur Kita" 
+bis zu 10 Ü3-Essen 
+Anlieferzeit 11:30 Uhr 
+• Anlieferungsort: Kasseler Str., Abzweigung zum Wohra-Sandfang, 35274 Kirchhain 
+(Erdgeschoss)  
+
+6. Kindertagesstätte "Am Hallenbad"  
+z.Zt. bis zu 80 Essen 
+Anlieferzeit 11.00 Uhr 
+• Anlieferungsort: Am Hallenbad 1, 35274 Kirchhain (Erdgeschoss)  
+
+7. Krabbelstube "Sonnenkinder"  
+z.Zt. bis zu 50 Essen U3 
+Anlieferzeit 11:00 Uhr 
+• Anlieferungsort: Am Schwimmbad 34, 35274 Kirchhain (Erdgeschoss)  
+
+8. Kindergarten "Bärenhöhle"  
+z.Zt. bis zu 25 Essen, davon bis zu 5 Essen U3 
+Anlieferzeit 11:00 Uhr 
+• Anlieferungsort: An der Rosenhecke 2, 35274 Kirchhain-Niederwald (Erdgeschoss)</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:selbst#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55524000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">55500000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Kindertagesstätte "Im Brand", Chemnitzer Str. 8</cbc:StreetName>
+               <cbc:CityName>Kirchhain</cbc:CityName>
+               <cbc:PostalZone>35274</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Kindertagesstätte "Alsfelder Straße", Drosselweg 41a</cbc:StreetName>
+               <cbc:CityName>Kirchhain</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Krippe "Alsfelder Straße, Drosselweg 41</cbc:StreetName>
+               <cbc:CityName>Kirchhain</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Kindertagesstätte "Auf der Röthe", Röthestraße 6</cbc:StreetName>
+               <cbc:CityName>Kirchhain</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Kindertagesstätte "Am Steinweg", Steinweg 2</cbc:StreetName>
+               <cbc:CityName>Kirchhain</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Kindertagesstätte "Am Hallenbad", Am Hallenbad 1</cbc:StreetName>
+               <cbc:CityName>Kirchhain</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Krabbelstube "Sonnenkinder",  Am Schwimmbad 34</cbc:StreetName>
+               <cbc:CityName>Kirchhain</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Kindergarten "Bärenhöhle",  An der Rosenhecke 2</cbc:StreetName>
+               <cbc:CityName>Kirchhain-Niederwald</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-02-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2028-01-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

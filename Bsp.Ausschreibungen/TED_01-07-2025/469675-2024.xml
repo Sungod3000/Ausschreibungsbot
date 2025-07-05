@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Land Hessen, vertreten durch das Hessische Competence Center -Zentrale Beschaffung-</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65203</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 212 133 546</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611 7038 4012</cbc:Telephone>
+                           <cbc:Telefax>+49 611 32 76 38 412</cbc:Telefax>
+                           <cbc:ElectronicMail>beschaffung@hcc.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 812 056 745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151 126603</cbc:Telephone>
+                           <cbc:Telefax>0611 327 648534</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00469675-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">151/2024</efbc:GazetteID><efbc:PublicationDate>2024-08-05+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">6d9869a8-087a-433b-8288-dd40816ed180</cbc:ID>
+   <cbc:ContractFolderID>52cb00b8-3c7a-4c64-b25c-71c17519f08f</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-08-02+02:00</cbc:IssueDate>
+   <cbc:IssueTime>09:18:27+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-08-02+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zu Russland-Sanktionen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0437-2024-0264</cbc:ID>
+      <cbc:Name languageID="DEU"> RV chemisch-analytische Messprogramme</cbc:Name>
+      <cbc:Description languageID="DEU">Das Hessische Landesamt für Naturschutz, Umwelt und Geologie (HLNUG) beabsichtigt einen Auftrag zur Durchführung von chemisch-analytischen Messprogrammen zu vergeben.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Mit dem Angebot sind folgende Unterlagen einzureichen:
+-Nachweis der Akkreditierung des Labors nach DIN EN ISO/IEC 17025 in dem hier benötigten Prüfbereich Lose 1 und 2
+-Nachweis der gültigen Bekanntgabe als Messstelle nach § 29b BImSchG in Hessen Lose 1 und 2
+-Angabe der verwendeten Analysegeräte (Firma, Model)  Lose 1 und 2
+-Abgabe eines allgemeinen Qualitätssicherungskonzept sowie Darlegung der möglichen Störkomponenten und Beschreibung, wie diese bzw. deren Auswirkungen in der Analyse minimiert werden sollen)  Lose 1 und 2
+
+Speziell für Los 1:
+-Bestätigung über die Einhaltung der in der DIN EN 14902 und DIN EN 15549 als Mindestgrenzen genannten Nachweisgrenzen und Angabe der möglichen Nachweisgrenzen vom Bieter
+-Ablaufplan mit folgenden Angaben:
+•Sicherheits- und Qualitätssicherungsmaßnahmen beim Filtertransport
+•Arbeitsablauf im Wägeraum inkl. Beschreibung der Umgebungsbedingungen
+•Beschreibung des Aufschlusses (inklusive Behandlung des Filters - Filterteilung etc.) und der Analyse der Filter auf die zu messenden Metalle
+•Beschreibung des Aufschlusses (inklusive Behandlung des Filters - Filterteilung etc.) und der Analyse der Filter auf die zu messenden PAK
+•Beschreibung der Aufbewahrung der Rückstellproben
+•Einheit der Rohwerte und Beschreibung der Umrechnung auf die Konzentration (µg/m³ bzw. ng/m³) der geforderten Komponenten
+-Offenlegung des Prozesses einer regelmäßigen Überprüfung/Verifizierung des Weges von der Probe bis zur Berechnung und Angabe des berichteten Endergebnisses (Konzentration in der Außenluft).
+
+Speziell für Los 2:
+-Bestätigung über die Einhaltung der hier angegeben Nachweisgrenzen als Mindestgrenzen und Angabe der möglichen Nachweisgrenzen vom Bieter
+-Ablaufplan mit folgenden Angaben:
+•Vorgehensweise bei der Probenahme und beim Probentransport
+•Vorgehensweise bei der Trockenrückstandsbestimmung inkl. Wägung
+•Beschreibung des Aufschlusses, der Herstellung der Mischproben und der Analyse der Proben auf die zu messenden Metalle
+•Beschreibung der Aufbewahrung der Rückstellproben
+•Einheit der Rohwerte und Beschreibung der Umrechnung auf die geforderte Konzentration (mg/m²d bzw. μg/m²d) der geforderten Komponenten
+-Offenlegung des Prozesses einer regelmäßigen Überprüfung/Verifizierung des Weges von der Probe bis zur Berechnung und Angabe des berichteten Endergebnisses (Depositionsra-te).</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71900000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+            <cbc:CityName>Wiesbaden </cbc:CityName>
+            <cbc:PostalZone>65203</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34117</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wetzlar</cbc:CityName>
+            <cbc:PostalZone>35576</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Fulda</cbc:CityName>
+            <cbc:PostalZone>36043</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Fulda</cbc:CityName>
+            <cbc:PostalZone>36037</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Schmitten</cbc:CityName>
+            <cbc:PostalZone>61389</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>60385</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Raunheim</cbc:CityName>
+            <cbc:PostalZone>65479</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wiesbaden</cbc:CityName>
+            <cbc:PostalZone>65185</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Heppenheim</cbc:CityName>
+            <cbc:PostalZone>64646</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>65929</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>60529</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>65934</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>60326</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>60327</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>60594</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Frankfurt am Main</cbc:CityName>
+            <cbc:PostalZone>60314</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Offenbach</cbc:CityName>
+            <cbc:PostalZone>63075</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Offenbach</cbc:CityName>
+            <cbc:PostalZone>63071</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hanau</cbc:CityName>
+            <cbc:PostalZone>63456</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hanau</cbc:CityName>
+            <cbc:PostalZone>63454</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hanau</cbc:CityName>
+            <cbc:PostalZone>63450</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hanau</cbc:CityName>
+            <cbc:PostalZone>63457</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hanau</cbc:CityName>
+            <cbc:PostalZone>63452</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hainburg</cbc:CityName>
+            <cbc:PostalZone>63512</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Großkrotzenburg</cbc:CityName>
+            <cbc:PostalZone>63538</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34127</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34121</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34123</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34125</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wiesbaden</cbc:CityName>
+            <cbc:PostalZone>65203</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wiesbaden</cbc:CityName>
+            <cbc:PostalZone>55256</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wiesbaden</cbc:CityName>
+            <cbc:PostalZone>65205</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wiesbaden</cbc:CityName>
+            <cbc:PostalZone>55252</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wiesbaden</cbc:CityName>
+            <cbc:PostalZone>65187</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wetzlar</cbc:CityName>
+            <cbc:PostalZone>35576</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wetzlar</cbc:CityName>
+            <cbc:PostalZone>35586</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Gießen</cbc:CityName>
+            <cbc:PostalZone>35578</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Gießen</cbc:CityName>
+            <cbc:PostalZone>35394</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Mücke</cbc:CityName>
+            <cbc:PostalZone>35325</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Vogelsbergkreis</cbc:CityName>
+            <cbc:PostalZone>35325</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Ulrichstein</cbc:CityName>
+            <cbc:PostalZone>35327</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Feldtal</cbc:CityName>
+            <cbc:PostalZone>35325</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Weiterstadt</cbc:CityName>
+            <cbc:PostalZone>64331</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Mühltal</cbc:CityName>
+            <cbc:PostalZone>64367</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Stadtallendorf</cbc:CityName>
+            <cbc:PostalZone>35260</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- eine Liste mit mindestens 3 Referenzprojekten über vergleichbare erbrachte Leistungen und Erfahrungen in Mess- und Analyseprogrammen aus den letzten drei Jahren mit folgenden Angaben: Art und Umfang, Erbringungszeitpunkt, Angabe des Werts, öffentlicher oder privater Empfänger mit den jeweiligen Kontaktdaten (eine Referenzangabe ist dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entspricht).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1902fc18760-238e3d22357857dd</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des §
+56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-09-03+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-09-03+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Inhaltsstoffe im Feinstaub (PM10)</cbc:Name>
+         <cbc:Description languageID="DEU">Probenahme und Analyse</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71900000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>65203</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34117</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wetzlar</cbc:CityName>
+               <cbc:PostalZone>35576</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Fulda</cbc:CityName>
+               <cbc:PostalZone>36043</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Fulda</cbc:CityName>
+               <cbc:PostalZone>36037</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Schmitten</cbc:CityName>
+               <cbc:PostalZone>61389</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>60385</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Raunheim</cbc:CityName>
+               <cbc:PostalZone>65479</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>65185</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Heppenheim</cbc:CityName>
+               <cbc:PostalZone>64646</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2028-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- eine Liste mit mindestens 3 Referenzprojekten über vergleichbare erbrachte Leistungen und Erfahrungen in Mess- und Analyseprogrammen aus den letzten drei Jahren mit folgenden Angaben: Art und Umfang, Erbringungszeitpunkt, Angabe des Werts, öffentlicher oder privater Empfänger mit den jeweiligen Kontaktdaten (eine Referenzangabe ist dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entspricht).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1902fc18760-238e3d22357857dd</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des §
+56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-09-03+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-09-03+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Metalle im Staubniederschlag</cbc:Name>
+         <cbc:Description languageID="DEU">Probenahme und Analyse</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71900000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>65203</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>65929</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>60529</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>65934</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>60326</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>60327</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>60594</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Frankfurt am Main</cbc:CityName>
+               <cbc:PostalZone>60314</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Offenbach</cbc:CityName>
+               <cbc:PostalZone>63075</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Offenbach</cbc:CityName>
+               <cbc:PostalZone>63071</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hanau</cbc:CityName>
+               <cbc:PostalZone>63456</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hanau</cbc:CityName>
+               <cbc:PostalZone>63454</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hanau</cbc:CityName>
+               <cbc:PostalZone>63450</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hanau</cbc:CityName>
+               <cbc:PostalZone>63457</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hanau</cbc:CityName>
+               <cbc:PostalZone>63452</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hanau</cbc:CityName>
+               <cbc:PostalZone>63512</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hainburg</cbc:CityName>
+               <cbc:PostalZone>63512</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Großkrotzenburg</cbc:CityName>
+               <cbc:PostalZone>63538</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34127</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34121</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34123</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34125</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>65203</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>55256</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>65205</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>55252</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>65187</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wetzlar</cbc:CityName>
+               <cbc:PostalZone>35576</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wetzlar</cbc:CityName>
+               <cbc:PostalZone>35586</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35578</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Mücke</cbc:CityName>
+               <cbc:PostalZone>35325</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Vogelsbergkreis</cbc:CityName>
+               <cbc:PostalZone>35325</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Ulrichstein</cbc:CityName>
+               <cbc:PostalZone>35327</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Feldtal</cbc:CityName>
+               <cbc:PostalZone>35325</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Weiterstadt</cbc:CityName>
+               <cbc:PostalZone>64331</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Mühltal</cbc:CityName>
+               <cbc:PostalZone>64367</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadtallendorf</cbc:CityName>
+               <cbc:PostalZone>35260</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2028-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

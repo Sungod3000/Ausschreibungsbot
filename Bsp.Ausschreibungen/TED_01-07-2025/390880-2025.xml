@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <efac:FieldsPrivacy>
+                     <efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
+                     <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                  </efac:FieldsPrivacy>
+                  <cbc:TotalAmount currencyID="EUR">-1</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <efac:FieldsPrivacy>
+                        <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+                        <cbc:ReasonCode listName="non-publication-justification">eo-int</cbc:ReasonCode>
+                     </efac:FieldsPrivacy>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">-1</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-06-16+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Landkreis Mansfeld-Südharz</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rudolf-Breitscheid-Straße 20/22</cbc:StreetName>
+                           <cbc:CityName>Sangerhausen</cbc:CityName>
+                           <cbc:PostalZone>06526</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE0A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>15087000052</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 3464535-2235</cbc:Telephone>
+                           <cbc:Telefax>+49 3464535-2290</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabestelle@lkmsh.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer beim Landesverwaltungsamt Sachsen-Anhalt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Ernst-Kamieth-Straße 2</cbc:StreetName>
+                           <cbc:CityName>Halle (Saale)</cbc:CityName>
+                           <cbc:PostalZone>06108</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>15087000053</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 3455141529</cbc:Telephone>
+                           <cbc:ElectronicMail>poststelle@lvwa.sachsen-anhalt.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Landkreis Mansfeld-Südharz, Zentrale Ausschreibungsstelle</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Sangerhausen</cbc:CityName>
+                           <cbc:PostalZone>06526</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEE0A</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>034755352234</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:ElectronicMail>vergabestelle@lkmsh.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">EHS beratende Ingenieure für Bauwesen GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Leuschnerstraße 77</cbc:StreetName>
+                           <cbc:CityName>Kassel</cbc:CityName>
+                           <cbc:PostalZone>34134</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811806052</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 561950880</cbc:Telephone>
+                           <cbc:Telefax>+49 5619508899</cbc:Telefax>
+                           <cbc:ElectronicMail>ausschreibung@ehs-ingenieure.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00390880-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">114/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-17+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">810182f1-05ce-4edb-9cdf-0144b94dc3d7</cbc:ID>
+   <cbc:ContractFolderID>1a1e788a-841d-4a6b-b73e-f643e118fb9a</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-06-16+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:47:12+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-06-16+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cbc:TerminatedIndicator>false</cbc:TerminatedIndicator>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>04/AnBahn/M005841675/25</cbc:ID>
+      <cbc:Name languageID="DEU">Anschlussbahn Hettstedt - Bauwerksplanung Brücken 7 und 8</cbc:Name>
+      <cbc:Description languageID="DEU">Anschlussbahn Hettstedt 
+Los 4 - Planungsleistung Bauwerksplanung (Ingenieurbauwerk) - Brücken 7 und 8</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Der Bieter hat mit seinem Angebot folgende Erklärungen einzureichen und Informationen zu beachten:
+- Eigenerklärung EU-Sanktionspaket
+- Eigenerklärung Nachunternehmereinsatz gem. TVergG LSA
+- Eigenerklärung Tariftreue/Mindeststundenentgelt/Entgeltgleichheit gem. TVergG LSA
+- Bewerbererklärung gem. RdErl. MW
+- Erklärung Bieter-/Arbeitsgemeinschaft), sofern zutreffend
+- Verzeichnis der Unterauftragnehmer), sofern zutreffend
+V.g. Unterlagen sind ggf. auch vom Nachunternehmer bzw. ggf. von jedem Mitglied der Bieter-/Arbeitsgemeinschaft (falls zutreffend) vorzulegen. Alle Dokumente sind in den Vergabeunterlagen enthalten.
+- Liste der Projektverantwortlichen
+
+Insbesondere müssen dem Angebot beigefügt sein:
+Angebotsschreiben, Leistungsbeschreibungen,
+ausgefülltes Honorarblatt, Honorarübersicht 
+
+Eine Übersicht bzw. Auflistung der einzureichenden Unterlagen (mit dem Angebot und auf gesondertes Verlagen der Vergabestelle) ist in den Vergabeunterlagen enthalten, sihe Formblatt "Aufforderung Angebotsabgabe".
+
+Die Vergabestelle wird für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Gewerbezentralregister Bundesamt für Justiz (§ 150a GewO) und/oder aus dem Wettbewerbsregister Bundeskartellamt (§ 6 WRegG) anfordern. Ausländische Bieter haben gleichwertige Bescheinigungen ihres Herkunftslandes vorzulegen.
+
+Die komplette Kommunikation im Vergabeverfahren ist nur
+elektronisch zulässig.
+
+Die Beantwortung von Bieterfragen durch die Vergabestelle präzisiert - falls erforderlich - die Vergabeunterlagen. Die Bieter haben die anonymisierten veröffentlichten Antworten auf die Bieterfragen bei der Angebotserstellung zu berücksichtigen.
+
+Eventuelle Bieteranfragen sind möglichst bis spätestens 6 Kalendertage
+vor Ablauf der Angebotsfrist zu stellen.
+
+Alle Unterlagen, das Angebot, die Kommunikation sind in deutscher Sprache zu erstellen und zu führen.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hettstedt</cbc:CityName>
+            <cbc:PostalZone>06333</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEE0A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preislich und wirtschaftlich günstigstes Angebot</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">- Fristablauf</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Anschlussbahn Hettstedt - Bauwerksplanung Brücken 7 und 8</cbc:Name>
+         <cbc:Description languageID="DEU">Der Auftraggeber überträgt dem Auftragnehmer die
+
+• Objektplanung Ingenieurbauwerk gemäß HOAI Teil 3, Abschnitt 3, § 41 ff., Leistungsphase 1-4, optional 5-7
+• Fachplanung Tragwerksplanung gemäß HOAI, Teil 4, Abschnitt 1, § 49 ff., Leistungsphase 2-4, optional 5-6
+• Besondere Leistung
+
+
+für die in der Leistungsbeschreibung genauer beschriebenen
+
+Bauwerke 7 und 8
+
+ aus der Gesamtmaßnahme
+
+zur Ertüchtigung und Ausbau der schienengebundenen Infrastruktur des Industriegebietes Hettstedt / Großörner sowie die Anbindung an das überregionale Schienennetz (kurz: Anschlussbahn Hettstedt).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Die Möglichkeit der Nachforderung fehlender und die Annahme nachgereichter Erklärungen und Nachweise oder sonstiger geforderter Unterlagen gem. § 56 (2) VgV behält sich die Vergabestelle vor.</cbc:Note>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-06-10+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Stufenweise Beauftragung
+
+a) Die Beauftragung erfolgt stufenweise. Dem Auftraggeber steht hinsichtlich des beauftragten Leistungsumfangs ein freies Optionsrecht zu. Die Ausübung des Optionsrechts erfolgt schriftlich.
+
+b) Der Auftraggeber beauftragt den Auftragnehmer zunächst mit den Leistungen der
+Leistungsphasen 1 bis 4 nach HOAI.
+
+Darüber hinaus ist der Auftraggeber berechtigt, den Auftragnehmer ganz oder auch in Teilen oder zeitlich gestaffelt mit weiteren Leistungen der Leistungsphasen
+5 bis 7 zu beauftragen. Der Auftraggeber wird den Auftragnehmer acht Wochen vor Abruf weiterer Leistungen über den Abruf informieren. Der Auftragnehmer ist zur Übernahme dieser Leistungen verpflichtet, sobald der Auftraggeber dies durch einseitige schriftliche Erklärung gegenüber dem Auftragnehmer verlangt. Der Auftragnehmer wird den Zugang einer solchen Erklärung aus Beweisgründen umgehend schriftlich bestätigen. Einen Rechtsanspruch auf Beauftragung der optionalen Leistungen hat der Auftragnehmer nicht.
+
+c) Im vorliegenden Fall handelt es sich um ein fördermittelabhängiges Projekt. Da der Auftraggeber auf die Dauer der Bearbeitung des Fördermittelantrages keinen Einfluss hat, sind sich der Auftraggeber und der Auftragnehmer einig, den möglichen Zeitraum für die Abrufung der nächsten Leistungsstufe auf 6 Monate zu verlängern.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

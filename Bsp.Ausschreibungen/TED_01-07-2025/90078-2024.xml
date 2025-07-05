@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Kasseler Verkehrs-Gesellschaft AG</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Königstor 3-13</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34117</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>De 811 216 145</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 2114174910</cbc:Telephone>
+									<cbc:ElectronicMail>vergabe@wr-legal.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Wilhelminenstraße 1-3, Fristenbriefkasten: Luisenplatz 2</cbc:StreetName>
+									<cbc:CityName>Darmstadt</cbc:CityName>
+									<cbc:PostalZone>64283</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE711</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 812 056 745</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6151126603</cbc:Telephone>
+									<cbc:Telefax>+49 611327648534</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00090078-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">31/2024</efbc:GazetteID><efbc:PublicationDate>2024-02-13Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">32b9421c-3080-4923-ac6d-645d980905c2</cbc:ID>
+	<cbc:ContractFolderID>c3f96fac-452b-4610-a925-99d5a0fbf45f</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-02-09+01:00</cbc:IssueDate>
+	<cbc:IssueTime>15:53:05+01:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-02-09+01:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="entity-activity">urttb</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>sektvo</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:PaymentTerms>
+			<cbc:Note languageID="DEU">Gemäß Vergabeunterlagen</cbc:Note>
+		</cac:PaymentTerms>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4D54HBLK</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Die KVG weist darauf hin, dass ein Nachprüfungsantrag nur zulässig ist, soweit 1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber der Vergabestelle innerhalb von spätestens 10 Kalendertagen gerügt hat, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber der Vergabestelle gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, spätestens bis zum Ablauf der in der EU-Bekanntmachung genannten Teilnahmefrist oder der in den Vergabeunterlagen jeweils benannten Frist zur Abgabe der Angebote gegenüber der Vergabestelle gerügt werden, 4. der Antrag auf Einleitung eines Nachprüfungsverfahrens innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, gestellt wird. Weitere Einzelheiten können § 160 GWB entnommen werden.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D54HBLK</cbc:AccessToolsURI>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+		<cac:FrameworkAgreement>
+			<cbc:MaximumOperatorQuantity>3</cbc:MaximumOperatorQuantity>
+		</cac:FrameworkAgreement>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">WRL01</cbc:ID>
+		<cbc:Name languageID="DEU">Rahmenvereinbarung über Unfall- und sonstige Instandsetzungsleistungen für Straßenbahnfahrzeuge</cbc:Name>
+		<cbc:Description languageID="DEU">Gegenstand dieses Vergabeverfahrens ist die Vergabe einer Rahmenvereinbarung über Unfall- und sonstige Instandsetzungsleistungen für Straßenbahnfahrzeuge.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="eforms-contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4D54HBLK</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:RequestedTenderTotal>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:FrameworkMaximumAmount currencyID="EUR">20000000.00</efbc:FrameworkMaximumAmount>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">50224000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:AdditionalStreetName>Wilhelmshöher Allee 346</cbc:AdditionalStreetName>
+				<cbc:CityName>Kassel</cbc:CityName>
+				<cbc:PostalZone>34131</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2024-06-01+02:00</cbc:StartDate>
+			<cbc:EndDate>2032-05-31+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Zuverlässigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Die Zuverlässigkeit des Bieters muss vorliegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Description languageID="DEU">- Betriebshaftpflichtversicherung mit Deckungssummen für Personen- und Sachschäden in Höhe von mindestens 5 Mio. Euro und für Vermögensschäden von mindestens 3 Mio. Euro muss vorliegen bzw. alternativ die Bereitschaft, die bestehende Betriebshaftpflichtversicherung gemäß der vorstehenden Vorgaben im Auftragsfall aufzustocken</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Description languageID="DEU">- Zertifizierung für klebetechnische Arbeiten nach DIN 6701 (Kleben von Schienenfahrzeugen und -fahrzeugteilen) oder DIN EN 17460 (Kleben von Schienenfahrzeugen und deren Komponenten) oder gleichwertig; - Zertifizierung für schweißtechnische Arbeiten nach DIN EN 15085-2 (Schweißen von Schienenfahrzeugen und -fahrzeugteilen) oder gleichwertig; - Mindestens 3 Referenzen für Unfallinstandsetzungsleistungen von Straßenbahnwagen mit einem Auftragswert von mindestens jeweils 300.000 EUR (netto) mit Fertigstellung / Abnahme im Zeitraum 2019 bis März 2024.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>sektvo</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4D54HBLK/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Gemäß Vergabeunterlagen</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter.</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die Nachforderung von Erklärungen und Nachweisen unter Fristsetzung steht im Ermessen der KVG. Die KVG wird ihr Ermessen unter Beachtung des Gleichbehandlungsgrundsatzes diskriminierungsfrei ausüben. Die KVG weist hierfür auf § 51 SektVO hin.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Gemäß Vergabeunterlagen</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+											<efbc:ParameterNumeric>25.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Konzept zur Kostensicherheit</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird die Darstellung des Verständnisses der Kostenrisiken des Bieters für die Unfallinstandsetzung eines Straßenbahnfahrzeugs und der daraus abgeleiteten Strategie für eine hohe Kostensicherheit</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+											<efbc:ParameterNumeric>35.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Konzept zur Terminsicherheit</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird die Darstellung des Bieters zur Einhaltung der Fristen / Termine / Meilensteine von der Abholung des jeweiligen Straßenbahnfahrzeuges bis zum Rücktransport zur KVG</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Konzept zur Qualitätssicherung</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird die Darstellung der Qualitätssicherung des Bieters bei der Durchführung seiner Unfallinstandsetzungsleistungen</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4D54HBLK</cbc:EndpointID>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die KVG weist darauf hin, dass ein Nachprüfungsantrag nur zulässig ist, soweit 1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber der Vergabestelle innerhalb von spätestens 10 Kalendertagen gerügt hat, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber der Vergabestelle gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, spätestens bis zum Ablauf der in der EU-Bekanntmachung genannten Teilnahmefrist oder der in den Vergabeunterlagen jeweils benannten Frist zur Abgabe der Angebote gegenüber der Vergabestelle gerügt werden, 4. der Antrag auf Einleitung eines Nachprüfungsverfahrens innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, gestellt wird. Weitere Einzelheiten können § 160 GWB entnommen werden.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D54HBLK</cbc:AccessToolsURI>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2024-03-13+01:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-03-01+01:00</cbc:EndDate>
+				<cbc:EndTime>00:00:00+01:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>3</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">WRL01</cbc:ID>
+			<cbc:Name languageID="DEU">Rahmenvereinbarung über Unfall- und sonstige Instandsetzungsleistungen für Straßenbahnfahrzeuge</cbc:Name>
+			<cbc:Description languageID="DEU">Die Kasseler Verkehrs-Gesellschaft Aktiengesellschaft (KVG) ist ein Unternehmen der kommunalen KVV-Gruppe (KVV: Kasseler Verkehrs- und Versorgungs-GmbH). In Kassel und dem Umland bringt die KVG täglich mehr als 120.000 Fahrgäste mit Bus, Straßenbahn und RegioTrams an ihr Ziel.   Die KVG bewegt umweltschonend und übernimmt dabei seit vielen Jahren eine führende Rolle. Bereits seit 2007 fahren alle Bahnen mit 100 Prozent Ökostrom, 2010 wurde der komplette Busverkehr klimaneutral gestellt. Seit 2012 ist die gesamte KVG ein klimaneutrales Unternehmen. 2019 folgte der nächste große Schritt: Seitdem fahren alle Straßenbahnen überwiegend mit regional erzeugtem Windstrom, die weitere benötigte Energie stammt aus norwegischer Wasserkraft. Damit agiert die KVG als Teil des Umweltkonzerns KVV und hier vor allem deren Tochter Städtische Werke AG.   Gegenstand dieses Vergabeverfahrens ist die Vergabe einer Rahmenvereinbarung über Unfall- und sonstigen Instandsetzungsleistungen von Straßenbahnfahrzeugen. Ziel ist es, eine effiziente, zügige und flexible Instandsetzung insbesondere von verunfallten Straßenbahnfahrzeugen über die gesamte Rahmenvereinbarungslaufzeit zu gewährleisten. Die Rahmenvereinbarung soll mit 3 Unternehmen geschlossen werden.  Die Einzelheiten sind insbesondere der Leistungsbeschreibung, der Rahmenvereinbarung über Unfall- und sonstige Instandsetzungsleistungen sowie dem Einzelvertrag über Unfall- und sonstige Instandsetzungsleistungen zu entnehmen.    Die KVG behält sich vor, die Rahmenvereinbarung bereits auf der Grundlage der verbindlichen Erstangebote zu vergeben.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">Die KVG schließt mit 3 Unternehmen diese Rahmenvereinbarung. Die Besonderheit bei Rahmenvereinbarungen ist, dass das genaue Auftragsvolumen sowie die detaillierten, spezifischen Leistungsbeschreibungen der Einzelaufträge bei Zuschlagserteilung noch nicht feststehen.    Die Rahmenvereinbarung bildet somit das Grundgerüst, aus dem später die Einzelaufträge bei Bedarf abgerufen werden. Wann genau welcher Einzelauftrag beauftragt wird, steht daher im Vorfeld noch nicht verbindlich fest. Dies gilt ebenso für den genauen Leistungsumfang sowie die konkreten Straßenbahnfahrzeuge, die die KVG instandsetzen lassen muss. Die Rahmenvereinbarungspartner haben keinen Anspruch auf die Beauftragung mit allen Einzelaufträgen, insbesondere weder auf ein Mindestauftragsvolumen noch auf alle Einzelaufträge über Unfall- und sonstige Instandsetzungen von Straßenbahnfahrzeugen in der genannten Höchstmenge. Die KVG behält sich zudem vor, Leistungen außerhalb der Rahmenvereinbarung zu vergeben. Den Rahmenvereinbarungspartner steht somit kein Anspruch auf sämtliche möglichen Einzelaufträge, die Gegenstand dieses Vergabeverfahrens sind, zu.   Fragen der Bewerber sind ausnahmslos schriftlich und spätestens bis zum 01.03.2024 über die elektronische Vergabeplattform einzureichen. Die KVG wird ergänzende und berichtigende Angaben in einem Fragen- und Antwortenkatalog zusammenfassen und diesen auf der elektronischen Vergabeplattform veröffentlichen. Die letzte Aktualisierung des Fragen- und Antwortenkatalogs erfolgt voraussichtlich bis zum 05.03.2024, 20:00 Uhr. Die Bewerber sind verpflichtet, den Fragen- und Antwortenkatalog regelmäßig zu prüfen und die sich hieraus ergebenden Anforderungen im Teilnahmewettbewerb zu berücksichtigen.  Die KVG stellt potenziellen Bewerbern für den Teilnahmewettbewerb die Anlage A elektronisch zur Verfügung. Die Anlage A enthält für den Teilnahmewettbewerb Ausschlusskriterien, die zwingend einzuhalten sind.</cbc:Note>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">50224000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:AdditionalStreetName>Wilhelmshöher Allee 346</cbc:AdditionalStreetName>
+					<cbc:CityName>Kassel</cbc:CityName>
+					<cbc:PostalZone>34131</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-06-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2032-05-31+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

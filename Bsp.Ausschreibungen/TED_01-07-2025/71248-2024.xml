@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:Changes>
+                  <efbc:ChangedNoticeIdentifier>4b1ebbdf-9534-4737-b84a-c1111e265d90-01</efbc:ChangedNoticeIdentifier>
+                  <efac:Change>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>LOT-0001</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>LOT-0002</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>LOT-0003</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>LOT-0004</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                  </efac:Change>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="change-corrig-justification">cor-pub</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="DEU">Korrektur - Veröffentlichung</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:Changes>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Land Hessen, vertreten durch das Hessische Competence Center -Zentrale Beschaffung-</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65203</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE212133546</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611-70384012</cbc:Telephone>
+                           <cbc:Telefax>+49 611-327638412</cbc:Telefax>
+                           <cbc:ElectronicMail>beschaffung@hcc.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE812056745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151-126603</cbc:Telephone>
+                           <cbc:Telefax>+49 611-327648534</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00071248-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">24/2024</efbc:GazetteID><efbc:PublicationDate>2024-02-02Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">20970212-83b1-4feb-a108-074d8ea10b5c</cbc:ID>
+   <cbc:ContractFolderID>ed9754b7-9de6-4579-b93b-50c309d37de9</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-02-01+01:00</cbc:IssueDate>
+   <cbc:IssueTime>14:37:46+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-02-01+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zu Russland-Sanktionen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>4</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>4</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0437-2023-0370</cbc:ID>
+      <cbc:Name languageID="DEU">Umsetzung der Maßnahme Klimabildungslandschaften gestalten des Klimaplans Hessen</cbc:Name>
+      <cbc:Description languageID="DEU">Umsetzung der Maßnahme "Klimabildungslandschaften gestalten" des Klimaplans Hessen</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Neben den verlangten Nachweisen sind folgende Unterlagen mit dem Angebot
+einzureichen:
+-Erklärung zu Russland-Sanktionen (siehe Vordruck "Erklaerung_RUS_Sanktionen.pdf"); bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+- Leistungsbeschreibung
+Der Bieter hat dem Angebot die Leistungsbeschreibung (blanko) beizufügen, um - unter Ausschluss eigener Vertrags- und Lieferbedingungen - die Bedingungen der Leistungserbringung anzuerkennen.
+-Konzept und schriftliche Präsentation (je bebotenem Los)
+Der Bieter hat unter Berücksichtigung der Inhalte der Leistungsbeschreibung ein Konzept zur Etablierung einer regionalen BNE-Bildungslandschaft mit dem Themenschwerpunkt Klimaschutz und Klimawandel, einer sogenannten Klimabildungslandschaft (KBL), zu erstellen. Dabei ist die geplante Ausdehnung der Gebietskulisse sowie der Sitz der Koordinierungsstelle innerhalb der Gebietskulisse zu benennen. Auftragsbezogen ist darzulegen, wie das vom Bieter eingesetzte Personal die konzeptionellen Überlegungen über die gesamte Projektlaufzeit realisiert. Dabei muss auf die in der Leistungsbeschreibung aufgeführten Teilleistungen eingegangen werden:
+1. Vernetzung bestehender Projekte (vgl. Auflistung unter 2.1 der Leistungsbeschreibung), Zusammenarbeit mit den BNE-Netzwerken und weiteren Akteuren
+2. Zusätzliche Akquise und Vernetzung von Akteuren aus Bildung, Kommunen, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz-Fachleuten
+3. Prozessbegleitung vor Ort, Mitgliedermanagement und Maßnahmen zur Qualitätsentwicklung
+4. Maßnahmen zur Öffentlichkeitsarbeit
+5. Konzeption und Umsetzung einer begleitenden quantitativen und qualitativen Evaluation der durchgeführten Maßnahmen inklusive Dokumentation
+6. Abstimmung und Kommunikation
+7. Dokumentation
+Zusätzlich zu den Teilleistungen ist ein Zeitplan pro Jahr und über den gesamten Projektzeitraum anzufertigen. Das Konzept ist textlich mit dem Angebot einzureichen. Eine Aufwandsentschädigung wird für das Konzept nicht gewährt.
+Der Bieter hat das Konzept in einem gesonderten Termin im Hessischen Ministerium für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz zu präsentieren. Zu diesem Termin wird kurzfristig eingeladen. Im Rahmen der Präsentation wird eine Erläuterung des mit dem Angebot vorzulegenden Konzepts erwartet. Die Präsentation darf keine über das Angebot hinausgehenden Inhalte enthalten. Sie ist daher bereits mit dem Angebot in textlicher Form (schriftliche Ausarbeitung der Präsentation) beizufügen. Für die Präsentation ist eine Dauer von 30 Minuten angesetzt. Die Präsentation und die sich anschließende Fragerunde mit dem Auftraggeber sollen insgesamt die Dauer von 60 Minuten nicht überschreiten. Die Präsentation hat durch diejenigen Personen zu erfolgen, welche für die Leistungsausführung beim jeweiligen Bieter im Fall einer Zuschlagserteilung vorgesehen sind. Über das Angebot inkl. Präsentation wird beiderseitiges Stillschweigen vereinbart.
+Das Konzept und dessen Präsentation sind nicht nur wesentliche Bestandteile des Angebotes, sondern im Rahmen der Ermittlung des wirtschaftlichsten Angebotes des Zuschlagskriteriums "Qualität des Konzeptes" Bestandteile der Angebotswertung. Da das Konzept und dessen Präsentation die Wirtschaftlichkeitsbewertung betrifft, ist das schriftliche Konzept und die Präsentation beides zwingend mit dem Angebot einzureichen; Nachforderungen sind ausgeschlossen.
+
+---Fortsetzung unter Eignung zur Berufsausübung---</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">80400000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE71A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE71B</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE723</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE733</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE737</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">---Fortsetzung zusätzliche Informationen---
+-Budgetplan (je Los)
+Der Bieter hat eine auf das Konzept und den Zeitplan abgestimmte Budgetübersicht aufgeschlüsselt nach den einzelnen Teilleistungen für die Haushaltsjahre 2024 bis 2027 einzureichen. Die Preisangaben sind getrennt nach Personal- und Sachkosten halbjährlich pro Teilleistung anzugeben.
+Je Klimabildungslandschaft (KBL) und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL. Ein Überschreiten des maximalen Finanzrahmens führt zum Ausschluss vom Verfahren. Im Einzelnen stellt sich der max. Finanzrahmen wie folgt dar:
+• Los 1 (Südhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 2 (Mittelhessen West), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 3 (Mittelhessen Ost), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 4 (Nordhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+
+-Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals (je Los)
+Der Bieter hat je bebotenem Los die für die Leistungsausführung einzusetzen Personen, inklusive Projektleitung und Stellvertretung zu benennen und vorzustellen. Insbesondere sind zu folgenden Punkten detaillierte Angaben erforderlich:
+• Benennung der Projektleitung und Vertretung
+• Darstellung der Organisation der Vertretung
+• Benennung der fachlichen Projektmitarbeiter
+• Schilderung der fachlichen Qualifikation und Erfahrungen der Projektleitung bzw. Vertretung sowie der fachlichen Projektmitarbeiter. Dabei sind folgende Daten anzugeben: Name, Funktion im Team, Berufserfahrung in Jahren, Qualifikation, Erfahrungen inkl. Nachweise und Referenzen auf dem Gebiet BNE.
+Für die Auftragsausführung dürfen nur Personen eingesetzt werden, bei denen folgende Qualifikationen und Erfahrungen (Mindestanforderungen) vorliegen:
+•Hochschulabschluss einer geeigneten Fachrichtung (Umwelt- /Naturwissenschaften, Nachhaltigkeitsmanagement, Regionalentwicklung oder vergleichbar)
+•nachgewiesene pädagogische Qualifikation (Kenntnisse und/oder Berufserfahrung)
+•Kenntnisse und Erfahrungen aus den Bereichen Bildung für nachhaltige Entwicklung, Klimaschutz, Klimawandel und Klimawandelanpassung
+•Erfahrungen in der Zusammenarbeit mit kommunalen Akteuren aus Bildung, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz
+•Erfahrung in der Konzeption und Umsetzung von Projekten und Veranstaltungen in komplexen Organisationen und Netzwerken
+•Erfahrung mit Beteiligungsformaten und ihrer prozessorientierten Umsetzung
+•Erfahrung in der Moderation von Multi-Akteurs-Partnerschaften
+•Erfahrungen im Konfliktmanagement
+•Erfahrung in der Akquise/Antragsstellung von Fördermitteln
+•Fähigkeit, Impulse zu setzen und durchsetzen
+Da die Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals bei der Ermittlung des wirtschaftlichsten Angebotes im Rahmen des Zuschlagskriteriums "Organisation, Qualifikation und Erfahrung des einzusetzenden Personals" herangezogen wird (siehe hierzu auch Ziffer 6.2 der Ergänzung zur Angebotsaufforderung), ist eine Nachforderung oder nachträgliche Vervollständigung der Angaben/Mitarbeiterprofile ausgeschlossen.
+
+---Ende zusätzliche Informationen---</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Kurzdarstellung des Unternehmens / des Bewerbers (Organisationsstruktur, Leistungsspektrum, Schwerpunkt der Geschäftstätigkeit, Rechtsform, Gründungsjahr)
+Bei Bewerber-/Bietergemeinschaften ist diese von jedem Mitglied anzugeben.
+
+-Erklärung zur Eignung Liefer-/Dienstleistungen (u.a. Vorliegen von Ausschlussgründen nach § 123 und 124 GWB, Insolvenzverfahren (siehe Vordruck "Erklaerung_Eignung.pdf"); bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+
+- Nachweis der Kontinuität am Markt/finanzielle Leistungsfähigkeit 
+Der Bewerber muss für die vergangenen drei abgeschlossenen Geschäftsjahre jeweils einen Gesamtumsatz in Höhe von mindestens 100.000 Euro p.a. nachweisen können. Die Bewerbung mehrerer Interessenten als Bietergemeinschaft, welche in Summe den geforderten Gesamtumsatz p.a. erfüllt, ist zulässig. 
+
+-Formfreie Erklärung, dass mindestens ein qualifizierter Mitarbeiter gemäß Mindestanforderungen (siehe Mindestanforderungen an das einzusetzende Personal) während der gesamten Projektlaufzeit werktags (Mo-Fr) zur Verfügung steht, um jederzeit die Koordinierung der KBL sicherzustellen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Referenzen (siehe Vordruck)
+Der Bewerber hat zum Nachweis der fachlichen Eignung eine Liste mit geeigneten Referenzen über die in den letzten 5 Jahren (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) erbrachten wesentlichen Leistungen mit folgenden Angaben einzureichen:
+•Art der Leistung
+•Umfang
+•Empfänger (öffentliche und/oder private Empfänger) der Leistung
+•Ansprechpartner, Telefon, E-Mail-Adresse
+•Erbringungszeitpunkt
+•Wert
+
+Referenzen sind dann geeignet, wenn aus ihnen nachfolgende Erfahrungsfelder/Kenntnisse erkennbar sind:
+Bildung für nachhaltige Entwicklung (BNE)
+Darstellung der Kenntnisse hessischer, nationaler und internationaler Referenzrahmen und -dokumente zu BNE, Nachhaltiger Entwicklung und Klimaschutz
+Darstellung der Kenntnisse der Strukturen formaler und non-formaler BNE sowie der Qualitätsstandards in Hessen. Dies gilt insbesondere für die regionalen Netzwerke "Bildung für nachhaltige Entwicklung", die als Ausgangspunkt für die Initialisierung der Klimabildungslandschaften vorgesehen sind. Für die vorgesehenen Gebietskulissen einer Klimabildungslandschaft sind, jeweils umfassende Kenntnisse über ein einzelnes BNE-Netzwerk sowie Akteure, Projekte, Themen und sonstige Rahmenbedingungen der betreffenden Region nachzuweisen.
+Educational Governance
+Netzwerkarbeit inklusive Projektsteuerung und Schnittstellenmanagement 
+Management komplexer Projekte in der Zusammenarbeit mit öffentlichen Auftraggebern 
+Kenntnisse der lokalen Spezifika der potentiellen Gebietskulisse einer KBL als Voraussetzung einer angemessenen Potential- und Kompetenzanalyse der Bildungsanbieter und weiterer Akteursgruppen
+Konzeption und Umsetzung innovativer (Klimabildungs-)Projekte in der non-formalen Bildung 
+Öffentlichkeitsarbeit, Ansprache unterschiedlicher Zielgruppen und Gestaltung verschiedener Medien, auch Social Media 
+Qualitätsmanagement und Evaluation
+
+Hinweise:
+Um die Kenntnisse/Erfahrungen in allen vorgenannten Bereichen nachzuweisen, müssen entsprechende Referenzen vorgelegt werden. Dabei kann der Nachweis sowohl durch eine einzige Referenz, die alle Bereiche abdeckt, als auch durch mehrere Referenzen, die in Summe alle Bereiche abdecken, erbracht werden. In jedem Fall ist anzugeben, welche Erfahrungen/Kenntnisse mit der Referenz jeweils abgedeckt werden sollen.
+
+Die obenstehenden Angaben können auch ohne Verwendung des beiliegenden Vordruckes auf einer eigenen Anlage des Bieters gemacht werden.
+
+Um einen ausreichenden Wettbewerb sicherzustellen, wird darauf hingewiesen, dass Referenzen berücksichtigt werden, die nicht länger als 5 Jahre (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) zurückliegen.
+
+Erfolgt die Angebotsabgabe in Form einer Bietergemeinschaft, sind von jedem Mitglied der Bietergemeinschaft Referenzen für den Leistungsteil vorzulegen, den das jeweilige Mitglied ausführen wird
+
+Hinweis zur Selektion bei Bewerberüberhang:
+Je Los werden maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, zur Angebotsabgabe aufgefordert.
+
+Die Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber für Stufe zwei (Aufforderung zur Angebotsabgabe im Rahmen des Verhandlungsverfahren) erfolgt wie im Folgenden dargestellt: 
+Die fristgerecht eingehenden Teilnahmeanträge werden vom Auftraggeber anhand der nachfolgenden objektiven Kriterien für die Auswahl der begrenzten Zahl von Bewerbern wie folgt geprüft:
+1. Prüfung auf Vorliegen der abgefragten Nachweise und Erklärungen,
+2. Prüfung von Ausschlussgründen und Einhaltung der Mindestanforderungen,
+Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber anhand der vorgelegten Referenzen und deren Vergleichbarkeit zum vorliegenden Projekt. 
+
+Dabei wird eine Referenz als umso vergleichbarer beurteilt, je stärker sich diese und das vorliegende Projekt ähneln. 
+Der Bewerber ist daher gehalten, sich auf Referenzen mit möglichst hoher Aussagekraft zu stützen. Sofern Erfolgsnachweise vorhanden sind, sollen diese der Referenz beigefügt werden. Die Menge an Referenzen hat - für sich genommen - noch keine Aussagekraft auf die Auswahlkriterien. Die maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, werden zur Angebotsabgabe aufgefordert.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18a882d2b30-3fd38230c45b5c98</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich daraufhingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität des Konzeptes</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Oraganisation, Qualifikation und Erfahrung des einzusetzenden Personals</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-02-29+01:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-02-08+01:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Gebietskulisse Südhessen (Regierungsbezirk Darmstadt)</cbc:Name>
+         <cbc:Description languageID="DEU">Einrichtung von Klimabildungslandschaften (KBL)
+Die KBL werden in Hessen regional in Gebietskulissen wie folgt verteilt:
+Los 1: Eine KBL in Südhessen (Regierungsbezirk Darmstadt)
+Los 2: Eine KBL in Mittelhessen West (Landkreis Limburg-Weilburg, Lahn-Dill-Kreis,  Landkreis Marburg-Biedenkopf und Landkreis Gießen)
+Los 3: Eine KBL in Mittehlhessen Ost (Landkreis Fulda und Vogelsbergkreis)
+Los 4: Eine KBL in Nordhessen (Regierungsbezirk Kassel abzüglich Landkreis Fulda)
+
+Für jede KBL ist eine Koordinierungsstelle einzurichten. Sie vernetzt - unter Einbeziehung der Akteure der vorhandenen BNE-Netzwerke - die Projekte miteinander und bringt sie in ein Wechselspiel auf regionaler oder kommunaler Ebene.
+Zusätzlich umfasst das Aufgabenspektrum der Koordinierungsstellen die Akquise und Vernetzung weiterer Akteure aus Bildung, Kommunen, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz. Außerdem sind lokal angepasste Projekte für die außerschulische und informelle Bildung zu entwickeln. Wichtiger Bestandteil der Aufgaben der Koordinierungsstellen ist zudem die Prozessbegleitung vor Ort inkl. Qualitätsmanagement, die Organisation von Fortbildungen, eine zielgruppenspezifische Öffentlichkeitsarbeit, die Evaluation und Dokumentation der durchgeführten Maßnahmen.
+
+Je KBL und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL.
+
+Der Entwurf des Abschlussberichts ist bis spätestens zum 30.11.2027, die endgültige printfähige Fassung bis zum 30.06.2028 vorzulegen.
+
+Das Vergabeverfahren steht unter dem ausdrücklichen Vorbehalt der Bewilligung der Haushaltsmittel (auflösende Bedingung).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:freelance#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80400000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE71A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE71B</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-06-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Es handelt sich hierbei um vorbehaltliche Termine. Die
+Vertragslaufzeit beginnt unmittelbar nach Zuschlagserteilung.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">---Fortsetzung zusätzliche Informationen---
+-Budgetplan (je Los)
+Der Bieter hat eine auf das Konzept und den Zeitplan abgestimmte Budgetübersicht aufgeschlüsselt nach den einzelnen Teilleistungen für die Haushaltsjahre 2024 bis 2027 einzureichen. Die Preisangaben sind getrennt nach Personal- und Sachkosten halbjährlich pro Teilleistung anzugeben.
+Je Klimabildungslandschaft (KBL) und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL. Ein Überschreiten des maximalen Finanzrahmens führt zum Ausschluss vom Verfahren. Im Einzelnen stellt sich der max. Finanzrahmen wie folgt dar:
+• Los 1 (Südhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 2 (Mittelhessen West), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 3 (Mittelhessen Ost), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 4 (Nordhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+
+-Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals (je Los)
+Der Bieter hat je bebotenem Los die für die Leistungsausführung einzusetzen Personen, inklusive Projektleitung und Stellvertretung zu benennen und vorzustellen. Insbesondere sind zu folgenden Punkten detaillierte Angaben erforderlich:
+• Benennung der Projektleitung und Vertretung
+• Darstellung der Organisation der Vertretung
+• Benennung der fachlichen Projektmitarbeiter
+• Schilderung der fachlichen Qualifikation und Erfahrungen der Projektleitung bzw. Vertretung sowie der fachlichen Projektmitarbeiter. Dabei sind folgende Daten anzugeben: Name, Funktion im Team, Berufserfahrung in Jahren, Qualifikation, Erfahrungen inkl. Nachweise und Referenzen auf dem Gebiet BNE.
+Für die Auftragsausführung dürfen nur Personen eingesetzt werden, bei denen folgende Qualifikationen und Erfahrungen (Mindestanforderungen) vorliegen:
+•Hochschulabschluss einer geeigneten Fachrichtung (Umwelt- /Naturwissenschaften, Nachhaltigkeitsmanagement, Regionalentwicklung oder vergleichbar)
+•nachgewiesene pädagogische Qualifikation (Kenntnisse und/oder Berufserfahrung)
+•Kenntnisse und Erfahrungen aus den Bereichen Bildung für nachhaltige Entwicklung, Klimaschutz, Klimawandel und Klimawandelanpassung
+•Erfahrungen in der Zusammenarbeit mit kommunalen Akteuren aus Bildung, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz
+•Erfahrung in der Konzeption und Umsetzung von Projekten und Veranstaltungen in komplexen Organisationen und Netzwerken
+•Erfahrung mit Beteiligungsformaten und ihrer prozessorientierten Umsetzung
+•Erfahrung in der Moderation von Multi-Akteurs-Partnerschaften
+•Erfahrungen im Konfliktmanagement
+•Erfahrung in der Akquise/Antragsstellung von Fördermitteln
+•Fähigkeit, Impulse zu setzen und durchsetzen
+Da die Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals bei der Ermittlung des wirtschaftlichsten Angebotes im Rahmen des Zuschlagskriteriums "Organisation, Qualifikation und Erfahrung des einzusetzenden Personals" herangezogen wird (siehe hierzu auch Ziffer 6.2 der Ergänzung zur Angebotsaufforderung), ist eine Nachforderung oder nachträgliche Vervollständigung der Angaben/Mitarbeiterprofile ausgeschlossen.
+
+---Ende zusätzliche Informationen---</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Kurzdarstellung des Unternehmens / des Bewerbers (Organisationsstruktur, Leistungsspektrum, Schwerpunkt der Geschäftstätigkeit, Rechtsform, Gründungsjahr)
+Bei Bewerber-/Bietergemeinschaften ist diese von jedem Mitglied anzugeben.
+
+-Erklärung zur Eignung Liefer-/Dienstleistungen (u.a. Vorliegen von Ausschlussgründen nach § 123 und 124 GWB, Insolvenzverfahren (siehe Vordruck "Erklaerung_Eignung.pdf"); bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+
+- Nachweis der Kontinuität am Markt/finanzielle Leistungsfähigkeit 
+Der Bewerber muss für die vergangenen drei abgeschlossenen Geschäftsjahre jeweils einen Gesamtumsatz in Höhe von mindestens 100.000 Euro p.a. nachweisen können. Die Bewerbung mehrerer Interessenten als Bietergemeinschaft, welche in Summe den geforderten Gesamtumsatz p.a. erfüllt, ist zulässig. 
+
+-Formfreie Erklärung, dass mindestens ein qualifizierter Mitarbeiter gemäß Mindestanforderungen (siehe Mindestanforderungen an das einzusetzende Personal) während der gesamten Projektlaufzeit werktags (Mo-Fr) zur Verfügung steht, um jederzeit die Koordinierung der KBL sicherzustellen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Referenzen (siehe Vordruck)
+Der Bewerber hat zum Nachweis der fachlichen Eignung eine Liste mit geeigneten Referenzen über die in den letzten 5 Jahren (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) erbrachten wesentlichen Leistungen mit folgenden Angaben einzureichen:
+•Art der Leistung
+•Umfang
+•Empfänger (öffentliche und/oder private Empfänger) der Leistung
+•Ansprechpartner, Telefon, E-Mail-Adresse
+•Erbringungszeitpunkt
+•Wert
+
+Referenzen sind dann geeignet, wenn aus ihnen nachfolgende Erfahrungsfelder/Kenntnisse erkennbar sind:
+Bildung für nachhaltige Entwicklung (BNE)
+Darstellung der Kenntnisse hessischer, nationaler und internationaler Referenzrahmen und -dokumente zu BNE, Nachhaltiger Entwicklung und Klimaschutz
+Darstellung der Kenntnisse der Strukturen formaler und non-formaler BNE sowie der Qualitätsstandards in Hessen. Dies gilt insbesondere für die regionalen Netzwerke "Bildung für nachhaltige Entwicklung", die als Ausgangspunkt für die Initialisierung der Klimabildungslandschaften vorgesehen sind. Für die vorgesehenen Gebietskulissen einer Klimabildungslandschaft sind, jeweils umfassende Kenntnisse über ein einzelnes BNE-Netzwerk sowie Akteure, Projekte, Themen und sonstige Rahmenbedingungen der betreffenden Region nachzuweisen.
+Educational Governance
+Netzwerkarbeit inklusive Projektsteuerung und Schnittstellenmanagement 
+Management komplexer Projekte in der Zusammenarbeit mit öffentlichen Auftraggebern 
+Kenntnisse der lokalen Spezifika der potentiellen Gebietskulisse einer KBL als Voraussetzung einer angemessenen Potential- und Kompetenzanalyse der Bildungsanbieter und weiterer Akteursgruppen
+Konzeption und Umsetzung innovativer (Klimabildungs-)Projekte in der non-formalen Bildung 
+Öffentlichkeitsarbeit, Ansprache unterschiedlicher Zielgruppen und Gestaltung verschiedener Medien, auch Social Media 
+Qualitätsmanagement und Evaluation
+
+Hinweise:
+Um die Kenntnisse/Erfahrungen in allen vorgenannten Bereichen nachzuweisen, müssen entsprechende Referenzen vorgelegt werden. Dabei kann der Nachweis sowohl durch eine einzige Referenz, die alle Bereiche abdeckt, als auch durch mehrere Referenzen, die in Summe alle Bereiche abdecken, erbracht werden. In jedem Fall ist anzugeben, welche Erfahrungen/Kenntnisse mit der Referenz jeweils abgedeckt werden sollen.
+
+Die obenstehenden Angaben können auch ohne Verwendung des beiliegenden Vordruckes auf einer eigenen Anlage des Bieters gemacht werden.
+
+Um einen ausreichenden Wettbewerb sicherzustellen, wird darauf hingewiesen, dass Referenzen berücksichtigt werden, die nicht länger als 5 Jahre (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) zurückliegen.
+
+Erfolgt die Angebotsabgabe in Form einer Bietergemeinschaft, sind von jedem Mitglied der Bietergemeinschaft Referenzen für den Leistungsteil vorzulegen, den das jeweilige Mitglied ausführen wird
+
+Hinweis zur Selektion bei Bewerberüberhang:
+Je Los werden maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, zur Angebotsabgabe aufgefordert.
+
+Die Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber für Stufe zwei (Aufforderung zur Angebotsabgabe im Rahmen des Verhandlungsverfahren) erfolgt wie im Folgenden dargestellt: 
+Die fristgerecht eingehenden Teilnahmeanträge werden vom Auftraggeber anhand der nachfolgenden objektiven Kriterien für die Auswahl der begrenzten Zahl von Bewerbern wie folgt geprüft:
+1. Prüfung auf Vorliegen der abgefragten Nachweise und Erklärungen,
+2. Prüfung von Ausschlussgründen und Einhaltung der Mindestanforderungen,
+Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber anhand der vorgelegten Referenzen und deren Vergleichbarkeit zum vorliegenden Projekt. 
+
+Dabei wird eine Referenz als umso vergleichbarer beurteilt, je stärker sich diese und das vorliegende Projekt ähneln. 
+Der Bewerber ist daher gehalten, sich auf Referenzen mit möglichst hoher Aussagekraft zu stützen. Sofern Erfolgsnachweise vorhanden sind, sollen diese der Referenz beigefügt werden. Die Menge an Referenzen hat - für sich genommen - noch keine Aussagekraft auf die Auswahlkriterien. Die maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, werden zur Angebotsabgabe aufgefordert.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18a882d2b30-3fd38230c45b5c98</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich daraufhingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität des Konzeptes</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Organisation, Qualifikation und Erfahrung des einzusetzenden Personals</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-02-29+01:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-02-08+01:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Gebietskulisse Mittelhessen West</cbc:Name>
+         <cbc:Description languageID="DEU">Einrichtung von Klimabildungslandschaften (KBL)
+Die KBL werden in Hessen regional in Gebietskulissen wie folgt verteilt:
+Los 1: Eine KBL in Südhessen (Regierungsbezirk Darmstadt)
+Los 2: Eine KBL in Mittelhessen West (Landkreis Limburg-Weilburg, Lahn-Dill-Kreis,  Landkreis Marburg-Biedenkopf und Landkreis Gießen)
+Los 3: Eine KBL in Mittehlhessen Ost (Landkreis Fulda und Vogelsbergkreis)
+Los 4: Eine KBL in Nordhessen (Regierungsbezirk Kassel abzüglich Landkreis Fulda)
+
+Für jede KBL ist eine Koordinierungsstelle einzurichten. Sie vernetzt - unter Einbeziehung der Akteure der vorhandenen BNE-Netzwerke - die Projekte miteinander und bringt sie in ein Wechselspiel auf regionaler oder kommunaler Ebene.
+Zusätzlich umfasst das Aufgabenspektrum der Koordinierungsstellen die Akquise und Vernetzung weiterer Akteure aus Bildung, Kommunen, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz. Außerdem sind lokal angepasste Projekte für die außerschulische und informelle Bildung zu entwickeln. Wichtiger Bestandteil der Aufgaben der Koordinierungsstellen ist zudem die Prozessbegleitung vor Ort inkl. Qualitätsmanagement, die Organisation von Fortbildungen, eine zielgruppenspezifische Öffentlichkeitsarbeit, die Evaluation und Dokumentation der durchgeführten Maßnahmen.
+
+Je KBL und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL.
+
+Der Entwurf des Abschlussberichts ist bis spätestens zum 30.11.2027, die endgültige printfähige Fassung bis zum 30.06.2028 vorzulegen.
+
+Das Vergabeverfahren steht unter dem ausdrücklichen Vorbehalt der Bewilligung der Haushaltsmittel (auflösende Bedingung).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:freelance#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80400000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE723</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-06-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Es handelt sich hierbei um vorbehaltliche Termine. Die
+Vertragslaufzeit beginnt unmittelbar nach Zuschlagserteilung.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">---Fortsetzung zusätzliche Informationen---
+-Budgetplan (je Los)
+Der Bieter hat eine auf das Konzept und den Zeitplan abgestimmte Budgetübersicht aufgeschlüsselt nach den einzelnen Teilleistungen für die Haushaltsjahre 2024 bis 2027 einzureichen. Die Preisangaben sind getrennt nach Personal- und Sachkosten halbjährlich pro Teilleistung anzugeben.
+Je Klimabildungslandschaft (KBL) und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL. Ein Überschreiten des maximalen Finanzrahmens führt zum Ausschluss vom Verfahren. Im Einzelnen stellt sich der max. Finanzrahmen wie folgt dar:
+• Los 1 (Südhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 2 (Mittelhessen West), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 3 (Mittelhessen Ost), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 4 (Nordhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+
+-Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals (je Los)
+Der Bieter hat je bebotenem Los die für die Leistungsausführung einzusetzen Personen, inklusive Projektleitung und Stellvertretung zu benennen und vorzustellen. Insbesondere sind zu folgenden Punkten detaillierte Angaben erforderlich:
+• Benennung der Projektleitung und Vertretung
+• Darstellung der Organisation der Vertretung
+• Benennung der fachlichen Projektmitarbeiter
+• Schilderung der fachlichen Qualifikation und Erfahrungen der Projektleitung bzw. Vertretung sowie der fachlichen Projektmitarbeiter. Dabei sind folgende Daten anzugeben: Name, Funktion im Team, Berufserfahrung in Jahren, Qualifikation, Erfahrungen inkl. Nachweise und Referenzen auf dem Gebiet BNE.
+Für die Auftragsausführung dürfen nur Personen eingesetzt werden, bei denen folgende Qualifikationen und Erfahrungen (Mindestanforderungen) vorliegen:
+•Hochschulabschluss einer geeigneten Fachrichtung (Umwelt- /Naturwissenschaften, Nachhaltigkeitsmanagement, Regionalentwicklung oder vergleichbar)
+•nachgewiesene pädagogische Qualifikation (Kenntnisse und/oder Berufserfahrung)
+•Kenntnisse und Erfahrungen aus den Bereichen Bildung für nachhaltige Entwicklung, Klimaschutz, Klimawandel und Klimawandelanpassung
+•Erfahrungen in der Zusammenarbeit mit kommunalen Akteuren aus Bildung, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz
+•Erfahrung in der Konzeption und Umsetzung von Projekten und Veranstaltungen in komplexen Organisationen und Netzwerken
+•Erfahrung mit Beteiligungsformaten und ihrer prozessorientierten Umsetzung
+•Erfahrung in der Moderation von Multi-Akteurs-Partnerschaften
+•Erfahrungen im Konfliktmanagement
+•Erfahrung in der Akquise/Antragsstellung von Fördermitteln
+•Fähigkeit, Impulse zu setzen und durchsetzen
+Da die Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals bei der Ermittlung des wirtschaftlichsten Angebotes im Rahmen des Zuschlagskriteriums "Organisation, Qualifikation und Erfahrung des einzusetzenden Personals" herangezogen wird (siehe hierzu auch Ziffer 6.2 der Ergänzung zur Angebotsaufforderung), ist eine Nachforderung oder nachträgliche Vervollständigung der Angaben/Mitarbeiterprofile ausgeschlossen.
+
+---Ende zusätzliche Informationen---</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Kurzdarstellung des Unternehmens / des Bewerbers (Organisationsstruktur, Leistungsspektrum, Schwerpunkt der Geschäftstätigkeit, Rechtsform, Gründungsjahr)
+Bei Bewerber-/Bietergemeinschaften ist diese von jedem Mitglied anzugeben.
+
+-Erklärung zur Eignung Liefer-/Dienstleistungen (u.a. Vorliegen von Ausschlussgründen nach § 123 und 124 GWB, Insolvenzverfahren (siehe Vordruck "Erklaerung_Eignung.pdf"); bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+
+- Nachweis der Kontinuität am Markt/finanzielle Leistungsfähigkeit 
+Der Bewerber muss für die vergangenen drei abgeschlossenen Geschäftsjahre jeweils einen Gesamtumsatz in Höhe von mindestens 100.000 Euro p.a. nachweisen können. Die Bewerbung mehrerer Interessenten als Bietergemeinschaft, welche in Summe den geforderten Gesamtumsatz p.a. erfüllt, ist zulässig. 
+
+-Formfreie Erklärung, dass mindestens ein qualifizierter Mitarbeiter gemäß Mindestanforderungen (siehe Mindestanforderungen an das einzusetzende Personal) während der gesamten Projektlaufzeit werktags (Mo-Fr) zur Verfügung steht, um jederzeit die Koordinierung der KBL sicherzustellen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Referenzen (siehe Vordruck)
+Der Bewerber hat zum Nachweis der fachlichen Eignung eine Liste mit geeigneten Referenzen über die in den letzten 5 Jahren (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) erbrachten wesentlichen Leistungen mit folgenden Angaben einzureichen:
+•Art der Leistung
+•Umfang
+•Empfänger (öffentliche und/oder private Empfänger) der Leistung
+•Ansprechpartner, Telefon, E-Mail-Adresse
+•Erbringungszeitpunkt
+•Wert
+
+Referenzen sind dann geeignet, wenn aus ihnen nachfolgende Erfahrungsfelder/Kenntnisse erkennbar sind:
+Bildung für nachhaltige Entwicklung (BNE)
+Darstellung der Kenntnisse hessischer, nationaler und internationaler Referenzrahmen und -dokumente zu BNE, Nachhaltiger Entwicklung und Klimaschutz
+Darstellung der Kenntnisse der Strukturen formaler und non-formaler BNE sowie der Qualitätsstandards in Hessen. Dies gilt insbesondere für die regionalen Netzwerke "Bildung für nachhaltige Entwicklung", die als Ausgangspunkt für die Initialisierung der Klimabildungslandschaften vorgesehen sind. Für die vorgesehenen Gebietskulissen einer Klimabildungslandschaft sind, jeweils umfassende Kenntnisse über ein einzelnes BNE-Netzwerk sowie Akteure, Projekte, Themen und sonstige Rahmenbedingungen der betreffenden Region nachzuweisen.
+Educational Governance
+Netzwerkarbeit inklusive Projektsteuerung und Schnittstellenmanagement 
+Management komplexer Projekte in der Zusammenarbeit mit öffentlichen Auftraggebern 
+Kenntnisse der lokalen Spezifika der potentiellen Gebietskulisse einer KBL als Voraussetzung einer angemessenen Potential- und Kompetenzanalyse der Bildungsanbieter und weiterer Akteursgruppen
+Konzeption und Umsetzung innovativer (Klimabildungs-)Projekte in der non-formalen Bildung 
+Öffentlichkeitsarbeit, Ansprache unterschiedlicher Zielgruppen und Gestaltung verschiedener Medien, auch Social Media 
+Qualitätsmanagement und Evaluation
+
+Hinweise:
+Um die Kenntnisse/Erfahrungen in allen vorgenannten Bereichen nachzuweisen, müssen entsprechende Referenzen vorgelegt werden. Dabei kann der Nachweis sowohl durch eine einzige Referenz, die alle Bereiche abdeckt, als auch durch mehrere Referenzen, die in Summe alle Bereiche abdecken, erbracht werden. In jedem Fall ist anzugeben, welche Erfahrungen/Kenntnisse mit der Referenz jeweils abgedeckt werden sollen.
+
+Die obenstehenden Angaben können auch ohne Verwendung des beiliegenden Vordruckes auf einer eigenen Anlage des Bieters gemacht werden.
+
+Um einen ausreichenden Wettbewerb sicherzustellen, wird darauf hingewiesen, dass Referenzen berücksichtigt werden, die nicht länger als 5 Jahre (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) zurückliegen.
+
+Erfolgt die Angebotsabgabe in Form einer Bietergemeinschaft, sind von jedem Mitglied der Bietergemeinschaft Referenzen für den Leistungsteil vorzulegen, den das jeweilige Mitglied ausführen wird
+
+Hinweis zur Selektion bei Bewerberüberhang:
+Je Los werden maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, zur Angebotsabgabe aufgefordert.
+
+Die Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber für Stufe zwei (Aufforderung zur Angebotsabgabe im Rahmen des Verhandlungsverfahren) erfolgt wie im Folgenden dargestellt: 
+Die fristgerecht eingehenden Teilnahmeanträge werden vom Auftraggeber anhand der nachfolgenden objektiven Kriterien für die Auswahl der begrenzten Zahl von Bewerbern wie folgt geprüft:
+1. Prüfung auf Vorliegen der abgefragten Nachweise und Erklärungen,
+2. Prüfung von Ausschlussgründen und Einhaltung der Mindestanforderungen,
+Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber anhand der vorgelegten Referenzen und deren Vergleichbarkeit zum vorliegenden Projekt. 
+
+Dabei wird eine Referenz als umso vergleichbarer beurteilt, je stärker sich diese und das vorliegende Projekt ähneln. 
+Der Bewerber ist daher gehalten, sich auf Referenzen mit möglichst hoher Aussagekraft zu stützen. Sofern Erfolgsnachweise vorhanden sind, sollen diese der Referenz beigefügt werden. Die Menge an Referenzen hat - für sich genommen - noch keine Aussagekraft auf die Auswahlkriterien. Die maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, werden zur Angebotsabgabe aufgefordert.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18a882d2b30-3fd38230c45b5c98</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich daraufhingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität des Konzeptes</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Organisation, Qualifikation und Erfahrung des einzusetzenden Personals</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-02-29+01:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-02-08+01:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">Gebietskulisse Mittelhessen Ost</cbc:Name>
+         <cbc:Description languageID="DEU">Einrichtung von Klimabildungslandschaften (KBL)
+Die KBL werden in Hessen regional in Gebietskulissen wie folgt verteilt:
+Los 1: Eine KBL in Südhessen (Regierungsbezirk Darmstadt)
+Los 2: Eine KBL in Mittelhessen West (Landkreis Limburg-Weilburg, Lahn-Dill-Kreis,  Landkreis Marburg-Biedenkopf und Landkreis Gießen)
+Los 3: Eine KBL in Mittehlhessen Ost (Landkreis Fulda und Vogelsbergkreis)
+Los 4: Eine KBL in Nordhessen (Regierungsbezirk Kassel abzüglich Landkreis Fulda)
+
+Für jede KBL ist eine Koordinierungsstelle einzurichten. Sie vernetzt - unter Einbeziehung der Akteure der vorhandenen BNE-Netzwerke - die Projekte miteinander und bringt sie in ein Wechselspiel auf regionaler oder kommunaler Ebene.
+Zusätzlich umfasst das Aufgabenspektrum der Koordinierungsstellen die Akquise und Vernetzung weiterer Akteure aus Bildung, Kommunen, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz. Außerdem sind lokal angepasste Projekte für die außerschulische und informelle Bildung zu entwickeln. Wichtiger Bestandteil der Aufgaben der Koordinierungsstellen ist zudem die Prozessbegleitung vor Ort inkl. Qualitätsmanagement, die Organisation von Fortbildungen, eine zielgruppenspezifische Öffentlichkeitsarbeit, die Evaluation und Dokumentation der durchgeführten Maßnahmen.
+
+Je KBL und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL.
+
+Der Entwurf des Abschlussberichts ist bis spätestens zum 30.11.2027, die endgültige printfähige Fassung bis zum 30.06.2028 vorzulegen.
+
+Das Vergabeverfahren steht unter dem ausdrücklichen Vorbehalt der Bewilligung der Haushaltsmittel (auflösende Bedingung).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:freelance#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80400000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-06-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Es handelt sich hierbei um vorbehaltliche Termine. Die
+Vertragslaufzeit beginnt unmittelbar nach Zuschlagserteilung.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">---Fortsetzung zusätzliche Informationen---
+-Budgetplan (je Los)
+Der Bieter hat eine auf das Konzept und den Zeitplan abgestimmte Budgetübersicht aufgeschlüsselt nach den einzelnen Teilleistungen für die Haushaltsjahre 2024 bis 2027 einzureichen. Die Preisangaben sind getrennt nach Personal- und Sachkosten halbjährlich pro Teilleistung anzugeben.
+Je Klimabildungslandschaft (KBL) und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL. Ein Überschreiten des maximalen Finanzrahmens führt zum Ausschluss vom Verfahren. Im Einzelnen stellt sich der max. Finanzrahmen wie folgt dar:
+• Los 1 (Südhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 2 (Mittelhessen West), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 3 (Mittelhessen Ost), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+• Los 4 (Nordhessen), 1 KBL: 100.000,00 Euro (brutto) pro Jahr für eine KBL
+
+-Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals (je Los)
+Der Bieter hat je bebotenem Los die für die Leistungsausführung einzusetzen Personen, inklusive Projektleitung und Stellvertretung zu benennen und vorzustellen. Insbesondere sind zu folgenden Punkten detaillierte Angaben erforderlich:
+• Benennung der Projektleitung und Vertretung
+• Darstellung der Organisation der Vertretung
+• Benennung der fachlichen Projektmitarbeiter
+• Schilderung der fachlichen Qualifikation und Erfahrungen der Projektleitung bzw. Vertretung sowie der fachlichen Projektmitarbeiter. Dabei sind folgende Daten anzugeben: Name, Funktion im Team, Berufserfahrung in Jahren, Qualifikation, Erfahrungen inkl. Nachweise und Referenzen auf dem Gebiet BNE.
+Für die Auftragsausführung dürfen nur Personen eingesetzt werden, bei denen folgende Qualifikationen und Erfahrungen (Mindestanforderungen) vorliegen:
+•Hochschulabschluss einer geeigneten Fachrichtung (Umwelt- /Naturwissenschaften, Nachhaltigkeitsmanagement, Regionalentwicklung oder vergleichbar)
+•nachgewiesene pädagogische Qualifikation (Kenntnisse und/oder Berufserfahrung)
+•Kenntnisse und Erfahrungen aus den Bereichen Bildung für nachhaltige Entwicklung, Klimaschutz, Klimawandel und Klimawandelanpassung
+•Erfahrungen in der Zusammenarbeit mit kommunalen Akteuren aus Bildung, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz
+•Erfahrung in der Konzeption und Umsetzung von Projekten und Veranstaltungen in komplexen Organisationen und Netzwerken
+•Erfahrung mit Beteiligungsformaten und ihrer prozessorientierten Umsetzung
+•Erfahrung in der Moderation von Multi-Akteurs-Partnerschaften
+•Erfahrungen im Konfliktmanagement
+•Erfahrung in der Akquise/Antragsstellung von Fördermitteln
+•Fähigkeit, Impulse zu setzen und durchsetzen
+Da die Benennung und Vorstellung des mit der Leistungsausführung betrauten Personals bei der Ermittlung des wirtschaftlichsten Angebotes im Rahmen des Zuschlagskriteriums "Organisation, Qualifikation und Erfahrung des einzusetzenden Personals" herangezogen wird (siehe hierzu auch Ziffer 6.2 der Ergänzung zur Angebotsaufforderung), ist eine Nachforderung oder nachträgliche Vervollständigung der Angaben/Mitarbeiterprofile ausgeschlossen.
+
+---Ende zusätzliche Informationen---</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Kurzdarstellung des Unternehmens / des Bewerbers (Organisationsstruktur, Leistungsspektrum, Schwerpunkt der Geschäftstätigkeit, Rechtsform, Gründungsjahr)
+Bei Bewerber-/Bietergemeinschaften ist diese von jedem Mitglied anzugeben.
+
+-Erklärung zur Eignung Liefer-/Dienstleistungen (u.a. Vorliegen von Ausschlussgründen nach § 123 und 124 GWB, Insolvenzverfahren (siehe Vordruck "Erklaerung_Eignung.pdf"); bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+
+- Nachweis der Kontinuität am Markt/finanzielle Leistungsfähigkeit 
+Der Bewerber muss für die vergangenen drei abgeschlossenen Geschäftsjahre jeweils einen Gesamtumsatz in Höhe von mindestens 100.000 Euro p.a. nachweisen können. Die Bewerbung mehrerer Interessenten als Bietergemeinschaft, welche in Summe den geforderten Gesamtumsatz p.a. erfüllt, ist zulässig. 
+
+-Formfreie Erklärung, dass mindestens ein qualifizierter Mitarbeiter gemäß Mindestanforderungen (siehe Mindestanforderungen an das einzusetzende Personal) während der gesamten Projektlaufzeit werktags (Mo-Fr) zur Verfügung steht, um jederzeit die Koordinierung der KBL sicherzustellen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgenden Unterlagen sind mit dem Teilnahmewettbwerb
+einzureichen:
+-Referenzen (siehe Vordruck)
+Der Bewerber hat zum Nachweis der fachlichen Eignung eine Liste mit geeigneten Referenzen über die in den letzten 5 Jahren (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) erbrachten wesentlichen Leistungen mit folgenden Angaben einzureichen:
+•Art der Leistung
+•Umfang
+•Empfänger (öffentliche und/oder private Empfänger) der Leistung
+•Ansprechpartner, Telefon, E-Mail-Adresse
+•Erbringungszeitpunkt
+•Wert
+
+Referenzen sind dann geeignet, wenn aus ihnen nachfolgende Erfahrungsfelder/Kenntnisse erkennbar sind:
+Bildung für nachhaltige Entwicklung (BNE)
+Darstellung der Kenntnisse hessischer, nationaler und internationaler Referenzrahmen und -dokumente zu BNE, Nachhaltiger Entwicklung und Klimaschutz
+Darstellung der Kenntnisse der Strukturen formaler und non-formaler BNE sowie der Qualitätsstandards in Hessen. Dies gilt insbesondere für die regionalen Netzwerke "Bildung für nachhaltige Entwicklung", die als Ausgangspunkt für die Initialisierung der Klimabildungslandschaften vorgesehen sind. Für die vorgesehenen Gebietskulissen einer Klimabildungslandschaft sind, jeweils umfassende Kenntnisse über ein einzelnes BNE-Netzwerk sowie Akteure, Projekte, Themen und sonstige Rahmenbedingungen der betreffenden Region nachzuweisen.
+Educational Governance
+Netzwerkarbeit inklusive Projektsteuerung und Schnittstellenmanagement 
+Management komplexer Projekte in der Zusammenarbeit mit öffentlichen Auftraggebern 
+Kenntnisse der lokalen Spezifika der potentiellen Gebietskulisse einer KBL als Voraussetzung einer angemessenen Potential- und Kompetenzanalyse der Bildungsanbieter und weiterer Akteursgruppen
+Konzeption und Umsetzung innovativer (Klimabildungs-)Projekte in der non-formalen Bildung 
+Öffentlichkeitsarbeit, Ansprache unterschiedlicher Zielgruppen und Gestaltung verschiedener Medien, auch Social Media 
+Qualitätsmanagement und Evaluation
+
+Hinweise:
+Um die Kenntnisse/Erfahrungen in allen vorgenannten Bereichen nachzuweisen, müssen entsprechende Referenzen vorgelegt werden. Dabei kann der Nachweis sowohl durch eine einzige Referenz, die alle Bereiche abdeckt, als auch durch mehrere Referenzen, die in Summe alle Bereiche abdecken, erbracht werden. In jedem Fall ist anzugeben, welche Erfahrungen/Kenntnisse mit der Referenz jeweils abgedeckt werden sollen.
+
+Die obenstehenden Angaben können auch ohne Verwendung des beiliegenden Vordruckes auf einer eigenen Anlage des Bieters gemacht werden.
+
+Um einen ausreichenden Wettbewerb sicherzustellen, wird darauf hingewiesen, dass Referenzen berücksichtigt werden, die nicht länger als 5 Jahre (d.h. am 01.01.2019 laufende oder danach begonnene Projekte) zurückliegen.
+
+Erfolgt die Angebotsabgabe in Form einer Bietergemeinschaft, sind von jedem Mitglied der Bietergemeinschaft Referenzen für den Leistungsteil vorzulegen, den das jeweilige Mitglied ausführen wird
+
+Hinweis zur Selektion bei Bewerberüberhang:
+Je Los werden maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, zur Angebotsabgabe aufgefordert.
+
+Die Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber für Stufe zwei (Aufforderung zur Angebotsabgabe im Rahmen des Verhandlungsverfahren) erfolgt wie im Folgenden dargestellt: 
+Die fristgerecht eingehenden Teilnahmeanträge werden vom Auftraggeber anhand der nachfolgenden objektiven Kriterien für die Auswahl der begrenzten Zahl von Bewerbern wie folgt geprüft:
+1. Prüfung auf Vorliegen der abgefragten Nachweise und Erklärungen,
+2. Prüfung von Ausschlussgründen und Einhaltung der Mindestanforderungen,
+Auswahl der nach Einschätzung des Auftraggebers am besten geeigneten Bewerber anhand der vorgelegten Referenzen und deren Vergleichbarkeit zum vorliegenden Projekt. 
+
+Dabei wird eine Referenz als umso vergleichbarer beurteilt, je stärker sich diese und das vorliegende Projekt ähneln. 
+Der Bewerber ist daher gehalten, sich auf Referenzen mit möglichst hoher Aussagekraft zu stützen. Sofern Erfolgsnachweise vorhanden sind, sollen diese der Referenz beigefügt werden. Die Menge an Referenzen hat - für sich genommen - noch keine Aussagekraft auf die Auswahlkriterien. Die maximal drei Bewerber, die aus Sicht des Auftraggebers im Hinblick auf die ausgeschriebene Leistung unter Einbezug der obigen Ausführungen die qualitativ höchste Beurteilung erfahren, werden zur Angebotsabgabe aufgefordert.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18a882d2b30-3fd38230c45b5c98</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich daraufhingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität des Konzeptes</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Organisation, Qualifikation und Erfahrung des einzusetzenden Personals</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-02-29+01:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-02-08+01:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0004</cbc:ID>
+         <cbc:Name languageID="DEU">Gebietskulisse Nordhessen (Regierungsbezirk Kassel abzüglich Landkreis Fulda)</cbc:Name>
+         <cbc:Description languageID="DEU">Einrichtung von Klimabildungslandschaften (KBL)
+Die KBL werden in Hessen regional in Gebietskulissen wie folgt verteilt:
+Los 1: Eine KBL in Südhessen (Regierungsbezirk Darmstadt)
+Los 2: Eine KBL in Mittelhessen West (Landkreis Limburg-Weilburg, Lahn-Dill-Kreis,  Landkreis Marburg-Biedenkopf und Landkreis Gießen)
+Los 3: Eine KBL in Mittehlhessen Ost (Landkreis Fulda und Vogelsbergkreis)
+Los 4: Eine KBL in Nordhessen (Regierungsbezirk Kassel abzüglich Landkreis Fulda)
+
+Für jede KBL ist eine Koordinierungsstelle einzurichten. Sie vernetzt - unter Einbeziehung der Akteure der vorhandenen BNE-Netzwerke - die Projekte miteinander und bringt sie in ein Wechselspiel auf regionaler oder kommunaler Ebene.
+Zusätzlich umfasst das Aufgabenspektrum der Koordinierungsstellen die Akquise und Vernetzung weiterer Akteure aus Bildung, Kommunen, Verwaltung, Wirtschaft, Zivilgesellschaft und Klimaschutz. Außerdem sind lokal angepasste Projekte für die außerschulische und informelle Bildung zu entwickeln. Wichtiger Bestandteil der Aufgaben der Koordinierungsstellen ist zudem die Prozessbegleitung vor Ort inkl. Qualitätsmanagement, die Organisation von Fortbildungen, eine zielgruppenspezifische Öffentlichkeitsarbeit, die Evaluation und Dokumentation der durchgeführten Maßnahmen.
+
+Je KBL und Vertragsjahr steht ein maximaler Finanzrahmen von 100.000,00 Euro (brutto) zur Verfügung; ausgehend von 4 Vertragsjahren demnach 400.000 EUR (brutto) je KBL.
+
+Der Entwurf des Abschlussberichts ist bis spätestens zum 30.11.2027, die endgültige printfähige Fassung bis zum 30.06.2028 vorzulegen.
+
+Das Vergabeverfahren steht unter dem ausdrücklichen Vorbehalt der Bewilligung der Haushaltsmittel (auflösende Bedingung).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:freelance#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80400000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE733</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE737</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-06-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Es handelt sich hierbei um vorbehaltliche Termine. Die
+Vertragslaufzeit beginnt unmittelbar nach Zuschlagserteilung.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

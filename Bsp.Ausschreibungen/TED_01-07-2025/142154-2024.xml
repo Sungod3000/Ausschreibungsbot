@@ -1,0 +1,2089 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.arbeitsagentur.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundesagentur für Arbeit, Regionales Einkaufszentrum Südwest</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Saonestr. 2-4</cbc:StreetName>
+                           <cbc:CityName>Frankfurt/Main</cbc:CityName>
+                           <cbc:PostalZone>60528</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811458858</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 69-6670-527</cbc:Telephone>
+                           <cbc:Telefax>+49 69-6670-303</cbc:Telefax>
+                           <cbc:ElectronicMail>REZ-Suedwest@arbeitsagentur.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundeskartellamt, Vergabekammern des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Str. 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>---</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 228 9499-0</cbc:Telephone>
+                           <cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.Bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00142154-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">49/2024</efbc:GazetteID><efbc:PublicationDate>2024-03-08Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">dbba9d37-7785-4a0a-b3e4-ab72eca8122e</cbc:ID>
+   <cbc:ContractFolderID>21a89667-744e-408f-9b4c-4c453e2e8c9e</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-03-07+01:00</cbc:IssueDate>
+   <cbc:IssueTime>07:53:33+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-03-07+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="DEU">Für Arbeitsmarktdienstleistungen werden die regulären Verfahrensarten der Richtlinie 2014/24/EU angewendet (siehe§ 130 Abs. 1 GWB). Die Zuschlagskriterien und deren Gewichtung sind den Vergabeunterlagen zu entnehmen. Der Zuschlag wird auf das wirtschaftlichste Angebot erteilt. Grundlage dafür ist die Bewertung, ob und inwieweit das Angebot die in den Dateien A_Wertungshinweise und A_Bewertungsmatrix der Vergabeunterlagen vorgegebenen Zuschlagskriterien erfüllt. Das wirtschaftlichste Angebot bestimmt sich nach dem besten Preis-Leistungs-Verhältnis.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>401-24-BvBReha-30052</cbc:ID>
+      <cbc:Name languageID="DEU">REZ SW BvBReha</cbc:Name>
+      <cbc:Description languageID="DEU">Konzeption und Durchführung von Berufsvorbereitende Bildungsmaßnahmen für Menschen mit besonderem Förderbedarf nach § 117 Abs. 1 S.1 Nr. 1b i. V. m. §§ 51 und 53 SGB III für ca. 253 Plätze im Bezirk des Regionalen Einkaufszentrum Südwest</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden. Höchstmenge der Rahmenvereinbarung:  253 Plätze (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Maßnahmeorte im Bezirk des REZ Südwest</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEZZZ</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 32 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Frankfurt am Main</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 16 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Kassel</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 24 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Offenbach</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0004</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 12 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Idar-Oberstein</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DEB15</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-26+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-25+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0005</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 8 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Landau in der Pfalz</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DEB33</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0006</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0006</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 11 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Neuwied</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DEB18</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0007</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0007</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 30 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Aalen</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE11D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Heidenheim</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE11C</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Schwäbisch-Gmünd</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE11D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Ellwangen</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE11D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Ruppertshofen</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE11D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-16+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-15+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0008</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0008</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 40 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Esslingen</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE113</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-08-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0009</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0009</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 12 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Rastatt</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE124</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0010</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0010</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 12 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Bad Säckingen</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE13A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-26+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-25+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0011</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0011</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 22 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Ludwigsburg oder Stadt Asperg oder Stadt Kornwestheim oder Stadt Bietigheim Bissingen</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE115</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0012</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0012</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 24 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Pforzheim</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE129</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0013</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt II
+II.12: Zusicherung des Bieters/des bevollmächtigten Mitgliedsder BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV SGB II). Verpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß §5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls spätestens zum Maßnahmebeginn verfügen werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">D.2.pdf (Unternehmensangaben und Eigenerklärungen)
+Abschnitt IV
+Bestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden.
+Abschnitt V: Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt.
+D.3.pdf (Erklärung zu Referenzleistungen)
+Angabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. Nachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.
+D.4.pdf (Eigenerklärung zur Server- und Softwarelösung) mit Angaben zum Provider</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=611500</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nach Maßgabe des § 56 VgV können durch die Bieter fehlende, unvollständige oder fehlerhafte unternehmensbezogene Unterlagen nachgereicht, vervollständigt oder korrigiert, oder fehlende oder unvollständige leistungsbezogene Unterlagen nachgereicht oder vervollständigt werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Die Angabe "Elektronische Rechnungsstellung: erforderlich" ist in dieser Veröffentlichung aus technischen Gründen nicht korrekt abgebildet. Richtigerweise ist eine elektronische Rechnungsstellung nicht erforderlich.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich zu stellen und an das Bundeskartellamt, Vergabekammern des Bundes zu richten.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-10+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0013</cbc:ID>
+         <cbc:Name languageID="DEU">401-24-BvBReha-30052</cbc:Name>
+         <cbc:Description languageID="DEU">REZ SW BvBReha</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Das Leistungsverzeichnis/Losblatt enthält den/die am Vertrag beteiligten Bedarfsträger (Agentur für Arbeit bzw. Jobcenter). Nach Maßgabe von § 18 des Vertrages kann die Leistung durch weitere Bedarfsträger (Agentur für Arbeit bzw. Jobcenter als sog. Dritte) genutzt werden.
+Höchstmenge der Rahmenvereinbarung: 10 Gesamtplatzzahl (zzgl. der vertraglichen Flexibilisierungsmöglichkeiten in Höhe von 30 %)
+Ergänzender Hinweis zu 5.1.6 (Anforderungen): Die Namen und die beruflichen Qualifikationen des zur Auftragsausführung eingesetzten Personals anzugeben, ist nicht erforderlich für die Angebotsabgabe.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">80000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Stadt Ulm</cbc:CityName>
+               <cbc:CountrySubentityCode listName="nuts">DE144</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-09-23+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-09-22+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag enthält Verlängerungsmöglichkeiten.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

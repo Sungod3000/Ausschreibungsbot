@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.dtvp.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Massaquoipassage 1</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22305</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>993-8002610800-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Beschaffung und Nachhaltigkeit</cbc:Name>
+									<cbc:Telephone>+49 405146-1585</cbc:Telephone>
+									<cbc:Telefax>+49 405146-2395</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@vbg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Massaquoipassage 1</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22305</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>993-8002610800-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Beschaffung und Nachhaltigkeit</cbc:Name>
+									<cbc:Telephone>+49 405146-1585</cbc:Telephone>
+									<cbc:Telefax>+49 405146-2395</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@vbg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Deutsches Vergabeportal "www.dtvp.de"  (Bietertool im Projektraum zur Ausschreibung)</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>elektronisch über www.dtvp.de</cbc:StreetName>
+									<cbc:CityName>Berlin</cbc:CityName>
+									<cbc:PostalZone>10969</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE300</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>993-8002610800-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 405146-1585</cbc:Telephone>
+									<cbc:ElectronicMail>info@dtvp.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00733676-2023</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">233/2023</efbc:GazetteID><efbc:PublicationDate>2023-12-04Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">d90c5498-5064-40e4-b52e-27faa565f365</cbc:ID>
+	<cbc:ContractFolderID>fa0bbd81-a67b-42ea-9acb-9847d87c5483</cbc:ContractFolderID>
+	<cbc:IssueDate>2023-12-01+01:00</cbc:IssueDate>
+	<cbc:IssueTime>14:15:53+01:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cbc:BuyerProfileURI>http://www.dtvp.de</cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:PaymentTerms>
+			<cbc:Note languageID="DEU">siehe Vergabe- und Vertragsunterlagen, ZVB und VOL/B</cbc:Note>
+		</cac:PaymentTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXSUYYDY10CJL533</cbc:EndpointID>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0006</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:TenderValidityPeriod>
+			<cbc:DurationMeasure unitCode="DAYS">74</cbc:DurationMeasure>
+		</cac:TenderValidityPeriod>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Fristen für die Einlegung von Rechtsbehelfen und Rügen ergeben sich aus § 160 Abs. 3 GWB.
+Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Regelungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB):
+§ 134, Informations- und Wartepflicht,
+§ 135, Unwirksamkeit,
+§ 160, Einleitung, Antrag.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+			<cac:MediationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:MediationParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXSUYYDY10CJL533</cbc:AccessToolsURI>
+		<cac:TenderSubmissionDeadlinePeriod>
+			<cbc:EndDate>2024-01-11+01:00</cbc:EndDate>
+			<cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+		</cac:TenderSubmissionDeadlinePeriod>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:Name languageID="DEU">Dienstleistungen für Personal- und Eignungsdiagnostik</cbc:Name>
+		<cbc:Description languageID="DEU">Gegenstand der Ausschreibung ist der Abschluss eines Vertrages mit einem Anbieter, der eine umfassende fachlich kompetente Beratung und Unterstützung auf dem Fachgebiet der Personal- und Eignungsdiagnostik leistet.
+
+Näheres ist den Vergabeunterlagen, vor allem der Leistungsbeschreibung, zu entnehmen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXSUYYDY10CJL533
+
+
+Das Vergabeverfahren (VV) wird elektr. in der webbasierten E-Vergabeplattform (Deutsches Vergabeportal) durchgeführt und ist unter folgender URL erreichbar: www.dtvp.de.
+
+Die elektr. Teilnahme am VV sowie die Registrierung für die E-Vergabeplattform sind für Bieter vollständig kostenfrei. Die von der Vergabestelle übermittelten Infos werden entweder direkt in der bzw. über die Oberfläche der E-Vergabeplattform bzw. dem virtuellen Projektraum zum VV oder innerhalb der Plattform bzw. virtuellen Projekträume als Datei-Downloads bereitgestellt.
+
+Zur Nutzung der E-Vergabeplattform bis zur Abgabe elektr. Teilnahmeanträge/Angebote sind ein aktueller Internet-Browser sowie ein Internetzugang erforderlich. Hierbei werden ausschließl.HTML- und Javascript-konforme Standardtechnologien und keinerlei Add-Ons/Plugins oder sonstige ggf. (sicherheits-)kritische Technologien verwendet. Aktuell sind folgende Internet-Browser zur Nutzung freigegeben:
+- Microsoft Internet Explorer bzw. Microsoft Edge in der jeweils aktuellen Version;
+- Mozilla Firefox in der jeweils aktuellen Version;
+- Google Chrome in der jeweils aktuellen Version;
+- Apple Safari ab Version 5.
+
+Für die Abgabe elektr. Angebote/Teilnahmeanträge wird innerhalb der E-Vergabeplattform ein kostenfreies Bietertool bereitgestellt. Das Bietertool ist eine Desktop-Anwendung, welche auf Ihrem Computer installiert werden muss. Die Dateien zur Installation des Bietertools werden im entsprechenden Projektraum des VV für das entsprechende Betriebssystem zum Download angeboten. Installationsroutinen stehen für Linux-, Mac-OS- und Windows-Betriebssysteme (64 und 32 Bit) zur Verfügung. Das Bietertool ist zudem ein "Multi-Plattform-Bieter-Client", sodass mit einer Installation des Bietertools am VV auf allen E-Vergabeplattformen auf Basis der cosinex Technologie Vergabemarktplatz teilgenommen werden kann.
+
+Die Infos über die eigentlichen VV werden über so genannte Projektdateien in das Bietertool transportiert. Sie laden die Projektdateien (Dateiendung: cbx) aus dem entsprechenden Projektraum herunter und führen diese aus, wodurch das Bietertool gestartet wird und die entsprechenden Infos zum VV von der Vergabeplattform heruntergeladen werden. Die lokale Installation des Bietertools stellt eine Ende-zu-Ende Verschlüsselung der elektr. Angebote und Teilnahmeanträge zwischen dem Computer des Bieters und der Öffnung der Angebote und Teilnahmeanträge auf Seiten der Vergabestelle sind sicher.
+
+Für die elektr.  Angebotsabgabe sind unterschiedliche Signaturniveaus technisch möglich. Zugelassene Formen der Angebotsabgabe/zulässige Signaturniveau:
+- qualifizierte elektronische Signatur;
+- fortgeschrittene elektronische Signatur;
+- Textform (§ 126b BGB).
+
+Im Fall der Abgabe in Textform genügt die Angabe Ihres Vor- und Nachnamens bei der Registrierung/Anmeldung zu dieser Vergabe auf dem DTVP.
+
+Der vollständige Eingang übermittelter elektr. Angebote/Teilnahmeanträge wird mit einem qualifiz. / einem einfachen elektr. Zeitstempel dokumentiert. Ein Zugriff der Vergabestelle auf die eingereichten Teilnahmeanträge/Angebot vor Ablauf der jeweiligen Frist für den Antrag auf Teilnahme/Angebotsfrist ist nicht möglich.
+
+Die Kommunikation zwischen der AG und den Bewerbern/Bietern ist ausschl. über den Projektraum des VV auf der Vergabeplattform möglich.
+Wir weisen darauf hin, dass nur zuverlässige Unternehmen den Zuschlag erhalten können (etwa keine Ausschlussgr. nach § 123, § 124, § 125 GWB vorliegen).
+
+Hinweise zum Einsatz von Bewerber-/Bietergemeinschaften und Unterauftragnehmern entnehmen Sie der Aufforderung zum Teilnahmewettbewerb/zur Angebotsabgabe. Rechtsform der Bewerbergemeinschaft, an die der Auftrag vergeben wird: Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter.
+
+Die nach Prüfung und Wertung des Teilnahmeanträge besten 5 Bewerber werden zur Abgabe eines Angebots aufgefordert. Bei Gleichstand der im Teilnahmewettbewerb erreichten Kennzahl, entscheidet das Los.
+
+Weitere Informationen sind den Teilnahme-/Vergabeunterlagen zu entnehmen.
+
+
+</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">79635000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">79632000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Massaquoipassage 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:PostalZone>22305</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2024-04-01+02:00</cbc:StartDate>
+			<cbc:EndDate>2026-03-31+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:OptionsDescription languageID="DEU">Sonstige Optionen ergeben sich aus den Vergabeunterlagen.</cbc:OptionsDescription>
+			<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+			<cac:Renewal>
+				<cac:Period>
+					<cbc:Description languageID="DEU">Der Vertrag wird über eine 24 Monate, beginnend ab 01.04.2024 mit einmaliger automatischer Verlängerungsoption um 24 Monate bis längstens zum 31.03.2028 ausgeschrieben. Näheres ist der Leistungsbeschreibung und dem Vertrag zu entnehmen.</cbc:Description>
+				</cac:Period>
+			</cac:Renewal>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Berufs-/Betriebshaftpflichtversicherung (mit dem Teilnahmeantrag mittels Dritterklärung vorzulegen): Der Bewerber/das geschäftsführende Mitglied der Bewerbergemeinschaft erklärt, dass im Auftragsfall eine Berufs-/Betriebshaftpflichtversicherung in Höhe von mindestens 500.000 EUR für Personen- und Sachschäden je Schadensfall und das Doppelte pro Jahr besteht oder abgeschlossen wird.
+
+Die Versicherung hat sich auch auf die persönliche Haftpflicht der Personen, deren er sich zur Erfüllung seiner Verpflichtungen aus dieser Rahmenvereinbarung bedient, insoweit zu erstrecken, als diese Personen Schäden in Ausführung ihrer Tätigkeiten verursachen.
+
+Der Versicherungsschutz ist mit dem Teilnahmeantrag nachzuweisen.
+- ggf. Anlage/Angaben zur wirtschaftlichen Verknüpfung (mit dem Teilnahmeantrag mittels Eigenerklärung vorzulegen)
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Sonstiges</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - ggf. Bewerbergemeinschaftserklärung (mit dem Teilnahmeantrag vorzulegen)
+- ggf. Erklärung Eignungsleihe (mit dem Teilnahmeantrag vorzulegen)
+- ggf. Erklärung Unterauftragnehmer (mit dem Teilnahmeantrag vorzulegen)
+- ggf. Verpflichtungserklärung Eignungsleihe (mit dem Angebot vorzulegen)
+- ggf. Verpflichtungserklärung Unterauftragnehmer (mit dem Angebot vorzulegen)
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Berufs- oder Handelsregisterauszug (mit dem Teilnahmeantrag mittels Dritterklärung vorzulegen): Der Bewerber / das geschäftsführende Mitglied der Bewerbergemeinschaft reicht einen
+aktuellen Auszug (Kopie) aus dem Berufs- oder Handelsregister, soweit er dort eingetragen ist, oder einen vergleichbaren Nachweis der Existenz des Unternehmens ein.
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Mind. 3 Referenzen (mit dem Teilnahmeantrag mittels Eigenerklärung vorzulegen): Der Bewerber/ das geschäftsführende Mitglied der Bewerbergemeinschaft reicht mindestens drei geeignete Referenzen (aus den letzten 3 Jahren) im Hinblick auf die Vergleichbarkeit zum hier ausgeschriebenen Leistungsgegenstand ein.
+Diese müssen beinhalten:
+
+- Kurze Beschreibung der erbrachten Leistungen im Bereich Personal- und Eignungsdiagnostik
+- Name, Adresse der Auftraggeberin/des Auftraggebers sowie Benennung einer Ansprechperson bei der Auftraggeberin/beim Auftraggeber mit Telefonnummer
+- Angaben zu Umfang der erbrachten Leistung
+- Zeitraum der erbrachten Leistung
+
+Es sind nur Referenzprojekte anzugeben, an denen das für die Auftragsdurchführung vorgesehene Personal beteiligt war.
+
+- Technische und Organisatorische Maßnahmen zum Datenschutz (mit dem Teilnahmeantrag mittels Eigenerklärung vorzulegen): Der Bewerber/das geschäftsführende Mitglied der Bewerbergemeinschaft reicht eine Dokumentation der technischen und organisatorischen Maßnahmen zum Datenschutz seines Unternehmens ein.
+- Angaben zu Erfahrungen im Bereich Personal- und Eignungsdiagnostik (mit dem Teilnahmeantrag mittels Eigenerklärung vorzulegen): B. Berufserfahrung (im Bereich der Personaldiagnostik; Anzahl in Jahren)
+
+Der Bewerber/ das Mitglied der Bewerbergemeinschaft macht Angaben zur Berufserfahrung (in Jahren), des für die Auftragsdurchführung vorgesehenen Personals im Bereich der Personaldiagnostik.
+
+Wertung:
+
+Die eingereichten Unterlagen weisen eine Berufserfahrung des vorgesehenen Personals von mehr als 10 Jahren auf. 10 Punkte
+
+Die eingereichten Unterlagen weisen eine Berufserfahrung des vorgesehenen Personals von mehr als 5 Jahren und weniger als 10 Jahren auf. 
+5 Punkte
+
+Die eingereichten Unterlagen weisen eine Berufserfahrung des vorgesehenen Personals von weniger als 5 Jahren auf. 0 Punkte
+- Angaben zu - Erfahrungen und Verwendung der gängigen Testverfahren ((BIP/FüMo/LMI etc.) (mit dem Teilnahmeantrag mittels Eigenerklärung vorzulegen): C. Erfahrungen und Verwendung von gängigen Testverfahren (BIP/FüMo/LMI etc.).
+Der Bewerber/ das geschäftsführende Mitglied der Bewerbergemeinschaft macht innerhalb der Referenzbeschreibungen Angaben zu den im Unternehmen verwendeten Testverfahren.
+
+Wertung:
+
+Die eingereichten Referenzen lassen eine kontinuierliche praktische Verwendung der Testverfahren aus der Hogrefe Testzentrale erkennen. Umfangreiche Erfahrungen im Einsatz und der Auswertung dieser Testverfahren sind erkennbar. 10 Punkte
+
+Die eingereichten Referenzen lassen die praktische Verwendung von Testverfahren erkennen. Erfahrungen im Einsatz und der Auswertung sind erkennbar 5 Punkte
+
+Die eingereichten Referenzen lassen den Einsatz von selbstkonzipierten Testverfahren erkennen. Erfahrungen im Einsatz und in der Auswertung sind erkennbar. Die Verwendung der gängigsten Testverfahren ist nicht klar nachgewiesen. 0 Punkte
+
+- Angaben zum wissenschaftlichen Bezug der personaldiagnostischen Arbeit (mit dem Teilnahmeantrag mittels Eigenerklärung vorzulegen): D. wissenschaftlicher Bezug der personaldiagnostischen Arbeit
+
+Der Bewerber/ das geschäftsführende Mitglied der Bewerbergemeinschaft macht, innerhalb eines eigenständig zu erstellenden Dokumentes, Angaben zu Aktivitäten und Publikationen mit Bezug zur Personaldiagnostik.
+
+Wertung:
+
+Die eingereichten Unterlagen lassen eine aktive Forschung und Publikation des Anbieters erkennen. Die Forschungsinhalte haben einen hohen Bezug zum hier ausgeschrieben Leistungsgegenstand. Die letzte Veröffentlichung erfolgte innerhalb der letzten drei Jahre. 6 - 10 Punkte
+
+Die eingereichten Unterlagen lassen eine aktive Forschung ohne Publikation erkennen. Die Forschungsinhalte haben einen Bezug zum hier ausgeschriebenen Leistungsgegenstand. Die letzte Publikation des Anbieters liegt mehr als 3 Jahre zurück.
+1 - 5 Punkte
+
+Die eingereichten Unterlagen lassen Forschungsansätze erkennen, die bisher nicht weitergeführt wurden. 0 Punkte
+- Angaben zu Erfahrungen des Unternehmens (mit dem Teilnahmeantrag mittels Eigenerklärung vorzulegen): A. Referenzen der letzten drei Jahre (Der Bewerber/ das geschäftsführende Mitglied der Bewerbergemeinschaft reicht mindestens drei geeignete Referenzen im Hinblick auf die Vergleichbarkeit zum hier ausgeschriebenen Leistungsgegenstand ein. Diese müssen beinhalten: Kurze Beschreibung der zu vergleichenden Leistung, Angaben des Wertes, Angaben des Leistungs- bzw. Erbringungszeitpunktes, Angaben des öffentlichen oder privaten Empfängers)
+
+Wertung:
+
+Die eingereichten Referenzen beinhalten Aufträge aus dem öffentlichen Dienst und aus dem Bereich der Unfallversicherungsträger im Hinblick auf die Vergleichbarkeit zum hier ausgeschriebenen Leistungsgegenstand. 6 - 10 Punkte
+
+Die eingereichten Referenzen beinhalten Aufträge aus dem öffentlichen Dienst und dem Bereich der Versicherung im Hinblick auf die Vergleichbarkeit zum hier ausgeschriebenen Leistungsgegenstand. 1- 5 Punkte
+
+Keine der eingereichten Referenzen beinhaltet Aufträge aus dem öffentlichen Dienst. Die eingereichten Referenzen beinhalten Aufträge von Unternehmen mit weniger als 2 TSD Beschäftigten im Hinblick auf die Vergleichbarkeit zum hier ausgeschriebenen Leistungsgegenstand. 0 Punkte
+</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">A Referenzen der letzten drei Jahre</cbc:Name>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">B Berufserfahrung</cbc:Name>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">C Erfahrungen und Verwendung von gängigen Testverfahren (BIP/FüMo/LMI etc.)</cbc:Name>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">D wissenschaftlicher Bezug der personaldiagnostischen Arbeit</cbc:Name>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXSUYYDY10CJL533/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">siehe Vergabe- und Vertragsunterlagen, ZVB und VOL/B</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">im Rahmen des vergaberechtlich zulässigen gemäß § 56 VgV.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Eigenerklärung Sanktionen 5k (mit dem Teilnahmeantrag vorzulegen)
+- Erklärung Ausschlussgründe (mit dem Teilnahmeantrag vorzulegen)
+- Formblatt Eignungskriterien inkl. aller Angaben und Erklärungen (mit dem Teilnahmeantrag vorzulegen)
+- Preisblatt (mit dem Angebot vorzulegen)
+- Vertrag (mit dem Angebot vorzulegen)
+- Teilnahmeantrag (mit dem Teilnahmeantrag vorzulegen)
+- Vereinbarung zur Auftragsverarbeitung (mit dem Angebot vorzulegen)
+- Verpflichtung auf das Daten- und Sozialgeheimnis VOR Vertragsschluss (mit dem Teilnahmeantrag vorzulegen)
+- Verpflichtung auf das Daten- und Sozialgeheimnis zum Vertragsschluss (mit dem Angebot vorzulegen)
+- Konzept Auswahlverfahren (mit dem Angebot mittels Eigenerklärung vorzulegen)
+- Schulungskonzept (mit dem Angebot mittels Eigenerklärung vorzulegen)</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>18.0000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Konzept Auswahlverfahren</cbc:Name>
+						<cbc:Description languageID="DEU">Bewertet wird die konkrete Umsetzung des Konzeptes der Durchführung eines Auswahlverfahrens anhand der in der Leistungsbeschreibung genannten Anforderungen. Stellen Sie Ihre Herangehensweise in einem Grobkonzept dar, aus dem ersichtlich wird, wie Sie die konkrete Aufgabenstellung durchführen würden . Gehen Sie hierbei insbesondere darauf ein, welche Testverfahren im Rahmen der beruflichen Eignungsdiagnostik verwendet und welche fachpraktische Übungen (beispielhaft) ausgewählt und umgesetzt werden.
+
+-Das vorgelegte Konzept ist sowohl methodisch als auch fachlich fundiert und zeigt eine hervorragende Umsetzung der  in den Vergabeunterlagen beschriebenen Anforderungen. Der Einsatz der verwendeten Testverfahren zeugt von hoher Professionalität und die ausgewählten Fachpraktischen (Beispiel-)Übungen entsprechen sehr gut den erforderlichen Kompetenzen. 6-10 Punkte
+
+-Das vorgelegte Konzept ist vollständig und zeigt eine gute Umsetzung der in den Vergabeunterlagen beschriebenen Anforderungen. Der Einsatz der verwendeten Testverfahren zeugt von umfangreichem Verständnis der Thematik und die ausgewählten Fachpraktischen (Beispiel-)Übungen entsprechen gut den erforderlichen Kompetenzen. 1-5 Punkte
+
+-Das vorgelegte Konzept ist lückenhaft. Es zeigt keine gute Umsetzung. Es wird nicht oder nur unzureichend auf die in der Leistungsbeschreibung enthaltenen Informationen eingegangen. Der Einsatz der verwendeten Testverfahren ist rudimentär und die ausgewählten Fachpraktischen (Beispiel-)Übungen entsprechen nur grundlegend den erforderlichen Kompetenzen. 0 Punkte</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>18.0000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Schulungskonzept</cbc:Name>
+						<cbc:Description languageID="DEU">Bewertet wird die konkrete Umsetzung des Konzeptes einer Schulung anhand der in der Leistungsbeschreibung genannten Anforderungen. Stellen Sie Ihre Herangehensweise in einem Grobkonzept dar, aus dem ersichtlich wird, wie Sie die konkrete Aufgabenstellung durchführen würden. (Benennung möglicher Seminarinhalte)
+
+-Das vorgelegte Konzept ist sowohl methodisch als auch fachlich fundiert und zeigt eine intensive Beschäftigung der Bieterin mit der Thematik Durchführung von Schulungen. Das Konzept enthält sinnvolle Annahmen in Bezug auf die Mitarbeitenden der Auftraggeberin und ihre Aufgaben. Der Anbieter kann mit sehr gutem personaldiagnostischen Wissen im Rahmen des Seminars Input zum aktuellen wissenschaftlichen Stand und zu der Bedeutung von Auswahlverfahren im eignungsdiagnostischen Prozess geben. 6-10 Punkte
+
+-Das vorgelegte Konzept ist vollständig und zeigt eine gute Umsetzung der in den Vergabeunterlagen beschriebenen Anforderungen. Der Bieter kann mit gutem personaldiagnostischen Wissen im Rahmen des Seminars Input zum aktuellen wissenschaftlichen Stand und zu der Bedeutung von Auswahlverfahren im eignungsdiagnostischen Prozess geben. 1-5 Punkte
+
+-Das vorgelegte Konzept ist lückenhaft und zeigt keine nennenswerte Transferleistung. Es wird nicht oder nur unzureichend auf die in der Leistungsbeschreibung enthaltenen Informationen eingegangen. Der Bieter kann mit personaldiagnostischen Wissen im Rahmen des Seminars Input zum wissenschaftlichen Stand und zu der Bedeutung von Auswahlverfahren im eignungsdiagnostischen Prozess geben. 0 Punkte</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>24.0000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Bieterpräsentation</cbc:Name>
+						<cbc:Description languageID="DEU">Die in der Bieterpräsentation gezeigten Präsentationen werden der VBG digital zur Verfügung gestellt.
+Bewertet wird die Bieterpräsentation hinsichtlich Organisation, Kompetenzen und Auftritt als Team (siehe Information zur Bieterpräsentation).
+
+-Der Bieter/das Team bietet eine überzeugende Präsentation, bei der die Motivation, die Organisation/Strukturiertheit, die Kompetenzen und das Aufgabenverständnis überdurchschnittlich deutlich werden. Die Darstellung der Umsetzung der ausgeschriebenen Leistung wird erschöpfend und in eigenen Worten verständlich vorgetragen. Die mit dem Angebot eingereichten Präsentationsunterlagen (Konzepte: Auswahlverfahren und Schulung) werden hervorragend vorgetragen. Der Bieter präsentiert ein sehr gutes Verständnis für Personal - und Eignungsdiagnostik und passgenauen Diagnostikmaßnahmen. 6- 10 Punkte
+
+-Der Bieter/das Team bietet eine Präsentation, bei der die Motivation, die Organisation/Strukturiertheit, die Kompetenzen und das Aufgabenverständnis deutlich werden. Die Darstellung der Umsetzung der ausgeschriebenen Leistung wird gut und verständlich vorgetragen. Die mit dem Angebot eingereichten Präsentationsunterlagen (Konzepte: Auswahlverfahren und Schulung) werden verständlich vorgetragen. Der Bieter präsentiert ein gutes Verständnis für Personal - und Eignungsdiagnostik und geeignete Diagnostikmaßnahmen. 1- 5 Punkte
+
+-Der Bieter/das Team bietet eine Präsentation, bei der die Motivation, die Organisation/Strukturiertheit, die Kompetenzen und das Aufgabenverständnis nicht ausreichend deutlich werden. Die Darstellung der Umsetzung der ausgeschriebenen Leistung wird wenig verständlich und/ oder lückenhaft vorgetragen. Die mit dem Angebot eingereichten Präsentationsunterlagen (Konzepte: Auswahlverfahren und Schulung) werden unverständlich und/oder lückenhaft und/oder gar nicht vorgetragen. Die dargestellte Herangehensweise erscheint nicht geeignet, um für die Auftraggeberin sachgerecht und fachlich qualitativ hochwertig zu beraten. 0 Punkte</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXSUYYDY10CJL533</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0006</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAYS">74</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Fristen für die Einlegung von Rechtsbehelfen und Rügen ergeben sich aus § 160 Abs. 3 GWB.
+Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Regelungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB):
+§ 134, Informations- und Wartepflicht,
+§ 135, Unwirksamkeit,
+§ 160, Einleitung, Antrag.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXSUYYDY10CJL533</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-01-11+01:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>5</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">#1</cbc:ID>
+			<cbc:Name languageID="DEU">Dienstleistungen für Personal- und Eignungsdiagnostik</cbc:Name>
+			<cbc:Description languageID="DEU">Die VBG greift bei Auswahlverfahren für Anwärter und Anwärterinnen auf die Ausbildung zur Aufsichtsperson, bei der Besetzung von Führungskräften im höheren Dienst sowie bei speziellen Anfragen von Fachbereichen auf personaldiagnostische Beratung und Verfahren zurück.
+
+Es soll ein Vertrag über eine Mindestvertragslaufzeit von 24 Monaten mit der Option auf Verlängerung um weitere 24 Monate, bis zu einer Maximallaufzeit von 48 Monaten geschlossen werden.
+
+Die Schwerpunkte der Tätigkeit liegen in der Durchführung von Auswahlverfahren, bei Beratungsdienstleistungen zur Personaldiagnostik sowie Durchführung von Schulungen zu Personaldiagnostischen Themen.
+
+Nähere Informationen sind aus den Vergabeunterlagen - insbesondere der Leistungsbeschreibung - zu entnehmen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">79635000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">79632000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Massaquoipassage 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:PostalZone>22305</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-04-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2026-03-31+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Der Vertrag wird über eine 24 Monate, beginnend ab 01.04.2024 mit einmaliger automatischer Verlängerungsoption um 24 Monate bis längstens zum 31.03.2028 ausgeschrieben. Näheres ist der Leistungsbeschreibung und dem Vertrag zu entnehmen.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

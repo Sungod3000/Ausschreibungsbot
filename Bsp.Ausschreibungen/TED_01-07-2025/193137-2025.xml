@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:ContractModification>
+                  <efbc:ChangedNoticeIdentifier>492395-2021</efbc:ChangedNoticeIdentifier>
+                  <efac:Change>
+                     <efbc:ChangeDescription languageID="DEU">Probesanierung Teilstück Fassade zum Erhalt der Bestandsfassade statt Neuplanung der Fassade</efbc:ChangeDescription>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                  </efac:Change>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="modification-justification">mod-cir</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="DEU">§132 (2) Nr. 3 GWB</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:ContractModification>
+               <efac:NoticeResult>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">601165.81</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2024-11-13+01:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">38</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Landesbetrieb Bau und Immobilien Hessen, Niederlassung Mitte Zentrale Vergabe</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Dieselstraße 1-7</cbc:StreetName>
+                           <cbc:CityName>Bad Nauheim</cbc:CityName>
+                           <cbc:PostalZone>61231</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>06-25930435-74</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>0000</cbc:Telephone>
+                           <cbc:Telefax>+49 6032-8862-111</cbc:Telefax>
+                           <cbc:ElectronicMail>info.fbt@lbih.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen bei dem Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Fristenbriefkasten: Luisenplatz 2</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>06-25930435-74</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151-12-0</cbc:Telephone>
+                           <cbc:Telefax>+49 6151-12-6347</cbc:Telefax>
+                           <cbc:ElectronicMail>info.fbt@lbih.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Karampour + Meyer Architekten PartmbB</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Leipziger Str. 99</cbc:StreetName>
+                           <cbc:CityName>Kassel</cbc:CityName>
+                           <cbc:PostalZone>34123</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE203366903</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 56170151570</cbc:Telephone>
+                           <cbc:Telefax>+49 56170151599</cbc:Telefax>
+                           <cbc:ElectronicMail>office@km-architekten.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00193137-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">60/2025</efbc:GazetteID><efbc:PublicationDate>2025-03-26+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">e4f47daf-1081-4152-ac81-d928dec91194</cbc:ID>
+   <cbc:ContractFolderID>4426cbec-c22a-4cb7-86dc-4aee0904626a</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-03-25+01:00</cbc:IssueDate>
+   <cbc:IssueTime>08:19:13+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-03-25+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="cont-modif">can-modif</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0454-2021-0877</cbc:ID>
+      <cbc:Name languageID="DEU">Objektplanung</cbc:Name>
+      <cbc:Description languageID="DEU">Objektplanung;</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen:
+Zur Abgabe der notwendigen Eigenerklärungen sind zwingend die vorgegebenen
+Vordrucke zu verwenden. Als vorläufigen Beleg der Eignung und des Nichtvorliegens vonAusschlussgründen akzeptiert der öffentliche Auftraggeber auch die Vorlage einer EinheitlichenEuropäischen Eigenerklärung (EEE).
+Die ausgefüllten Unterlagen sind wie folgt einzureichen:
+1) Die Teilnahmeanträge sind frist- und formgerecht ausschließlich elektonisch über dieVergabeplattform des Landes Hessen (http://vergabe.hessen.de) zu übermitteln. Es genügt dieTextform nach § 126b BGB mit Angabe des Namens der natürlichen Person, die die Erklärungabgibt.
+2) Eingereichte Bewerbungsunterlagen verbleiben beim Auftraggeber und werden nur aufAnforderung zurückgegeben.
+3) Im Falle von Bewerbergemeinschaften, Eignungsleihen durch andere Unternehmen (gem. § 47VgV) und Unterauftragnehmern (gem. § 36 VgV) sind die Formblätter "Bewerbungsbogen" inkl.der geforderten Anlagen und Nachweise von jedem Unternehmen einzeln einzureichen (EU 734).
+4) Im Falle von Bewerbergemeinschaften ist mit dem Teilnahmeantrag eine von allen Mitgliedernunterzeichnete Erklärung der Bewerbergemeinschaft einzureichen (EU 740).
+5) Im Falle von Unternehmen nach § 47 VgV (Eignungsleihe) und/oder im Falle von Unternehmennach § 36 VgV (Unterauftragnehmer) ist mit dem Teilnahmeantrag Art und Umfang derTeilleistungen zu benennen, für welche sich der Bewerber der Kapazitäten anderer Unternehmenbedienen wird (EU 741). Weiterhin ist eine Verpflichtungserklärung der anderen Unternehmennachzuweisen, dass dem Bewerber die erforderlichen Kapazitäten zur Verfügung stehen (EU742).
+6) Der Landesbetrieb Bau und Immobilien Hessen (LBIH) als Zentrale Vergabestelle im Sinne des Gesetzes gegen Wettbewerbsbeschränkung, ist bei europaweiten Ausschreibungen seit 18. April 2017 zur elektronischen Kommunikation verpflichtet.
+Dies bedeutet insbesondere, dass Angebote in offenen Verfahren, nicht offenen Verfahren oder inVerhandlungsverfahren nur elektronisch in Textform über die Vergabeplattform des LandesHessen eingereicht werden können.
+Eine Angebotsabgabe per E-Mail entspricht diesen Anforderungen nicht!
+Angebote, die nicht elektronisch in Textform über die elektronische Vergabeplattform des LandesHessen abgegeben werden, müssen vom Verfahren ausgeschlossen und dürfen bei der Vergabenicht berücksichtigt werden.
+Interessenten, die an Verfahren im Bereich oberhalb der EU-Schwellenwerte teilnehmen wollen,registrieren sich bitte auf der Vergabeplattform Hessen.
+Dort können Sie sich die Vergabeunterlagen zur Ansicht in Ihren persönlichen
+Bereich herunterladen.
+Zur Angebotsabgabe müssen Sie die Vergabeunterlagen im Bietercockpit öffnen, dort bearbeitenund so das erstellte Angebot über das Bietercockpit digital abgeben.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Menzelstr. 13</cbc:StreetName>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34121</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Bewerbergemeinschaften (z.B. Arbeitsgemeinschaften) natürlicher und juristischer Personen sind ebenfalls teilnahmeberechtigt, wenn jedes Mitglied der Bewerbergemeinschaft teilnahmeberechtigt ist.
+Mit der Bewerbung ist eine Erklärung über die Rechtsform, den bevollmächtigten Vertreter sowie über die gesamtschuldnerische Haftung aller Mitglieder vorzulegen.
+Bietergemeinschaften müssen sämtliche geforderten Nachweise für alle Mitglieder der Bietergemeinschaft vorlegen.
+Die Leistungsabgrenzung innerhalb der Bietergemeinschaft ist darzustellen</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Objektplanung</cbc:Name>
+         <cbc:Description languageID="DEU">Objektplanung Gebäude, Planungsleistungen gem. HOAI für die Durchführung der Energetischen Sanierung an der Kunsthochschule der Universität Kassel.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Menzelstr. 13</cbc:StreetName>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34121</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2021-09-27+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-01-30+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Mit Abschluss des Vertrages wird die Leistungsphase 2, 3 beauftragt. Die Leistungsphasen 4 - 9  sollen optional beauftragt werden, vorbehaltlich des Vorliegens der Haushaltsmittel. Ein Rechtsanspruch auf die Übertragung aller Leistungsphasen besteht nicht</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

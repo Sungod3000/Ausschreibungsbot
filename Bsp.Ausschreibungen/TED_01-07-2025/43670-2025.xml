@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Augustinerstraße 38</cbc:StreetName>
+									<cbc:CityName>Erfurt</cbc:CityName>
+									<cbc:PostalZone>99084</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEG01</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE256878834</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Geschäftsbereich Personal und Services, Zentrale Vergabestelle</cbc:Name>
+									<cbc:Telephone>+49 80010590-80071</cbc:Telephone>
+									<cbc:Telefax>+49 8001059002-116</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">BKK Landesverband Mitte</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Hannover</cbc:CityName>
+									<cbc:PostalZone>30173</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE929</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>IK: 101722005</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">IKK classic</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Dresden</cbc:CityName>
+									<cbc:PostalZone>01099</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DED21</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 283627786</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Knappschaft, Regionaldirektionen Chemnitz und Frankfurt/Main</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Chemnitz</cbc:CityName>
+									<cbc:PostalZone>09117</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DED41</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 124089627</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG) als Landwirtschaftliche Krankenkasse, Kassel</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34131</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 264833463</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Verband der Ersatzkassen e. V. (vdek), vertreten durch die Leiterin der vdek-Landesvertretung Sachsen und den Leiter der vdek-Landesvertretung Thüringen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Berlin</cbc:CityName>
+									<cbc:PostalZone>10963</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE300</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 2762059541</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0007</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Techniker Krankenkasse</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22305</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 811313100</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0008</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">BARMER GEK</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Wuppertal</cbc:CityName>
+									<cbc:PostalZone>42266</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA1A</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 121009029</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0009</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">DAK-Gesundheit</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>20097</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE811462382</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0010</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Kaufmännische Krankenkasse - KKH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Hannover</cbc:CityName>
+									<cbc:PostalZone>30625</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE929</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 811554035</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0011</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">HEK - Hanseatische Krankenkasse</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22041</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE811581812</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0012</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Handelskrankenkasse (hkk)</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Bremen</cbc:CityName>
+									<cbc:PostalZone>28195</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE501</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 812164907</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4980010590-80071</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@plus.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0013</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Die Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53113</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>keine Angabe</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0014</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00043670-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">15/2025</efbc:GazetteID><efbc:PublicationDate>2025-01-22+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">3343daf5-8023-401c-b8dd-755b7681fe26</cbc:ID>
+	<cbc:ContractFolderID>a3c10d6a-658b-4fb4-96b5-2175d44719d8</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-01-21+01:00</cbc:IssueDate>
+	<cbc:IssueTime>09:32:29+01:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-01-21+01:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0014</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0002</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0003</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0004</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0005</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0006</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0007</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0008</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0009</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0010</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0011</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0012</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>CrossBorderLaw</cbc:ID>
+			<cbc:DocumentDescription languageID="DEU">Vorliegend handelt es sich um ein Open-House-Verfahren und damit nicht um die Vergabe eines öffentlichen Auftrages im Sinne der Vergaberichtlinie bzw. des Vergaberechts.</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Bestimmungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB): "§ 134 Informations- und Wartepflicht. (1) Öffentliche Auftraggeber haben die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. (2) Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf zehn Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. (3) Die Informationspflicht entfällt in Fällen, in denen das Verhandlungsverfahren ohne Teilnahmewettbewerb wegen besonderer Dringlichkeit gerechtfertigt ist.... § 135 Unwirksamkeit. (1) Ein öffentlicher Auftrag ist von Anfang an unwirksam, wenn der öffentliche Auftraggeber 1. gegen § 134 verstoßen hat... § 160 Einleitung, Antrag. (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat (der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt); 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden; 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden; 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind... § 168 Entscheidung der Vergabekammer. (1) Die Vergabekammer entscheidet, ob der Antragsteller in seinen Rechten verletzt ist und trifft die geeigneten Maßnahmen, um eine Rechtsverletzung zu beseitigen und eine Schädigung der betroffenen Interessen zu verhindern. Sie ist an die Anträge nicht gebunden und kann auch unabhängig davon auf die Rechtmäßigkeit des Vergabeverfahrens einwirken. (2) Ein wirksam erteilter Zuschlag kann nicht aufgehoben werden..."</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0013</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YRY5M3U</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+		<cac:FrameworkAgreement>
+			<cbc:MaximumOperatorQuantity>999</cbc:MaximumOperatorQuantity>
+		</cac:FrameworkAgreement>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">6/2025-OH</cbc:ID>
+		<cbc:Name languageID="DEU">Abschluss nicht-exklusiver Rabattvereinbarungen im Rahmen eines sog. Open-House-Modells zu diversen Röntgenkontrastmitteln (ATC-Code nach WHO: V08)</cbc:Name>
+		<cbc:Description languageID="DEU">Gegenstand dieser Veröffentlichung ist der Abschluss von Rabattvereinbarungen für folgende Röntgenkontrastmittel (ATC-Code nach WHO: V08): - Los 1 Amidotrizoesäure bis 30ml - Los 2 Amidotrizoesäure über 30ml - Los 3 Ioxitalaminsäure - Los 4 Iohexol - Los 5 Iopamidol - Los 6 Iopromid - Los 7 Ioversol - Los 8 Iodixanol - Los 9 Iomeprol 350mg - Los 10 Iomeprol 400mg - Los 11 Iobitridol - Los 12 Bariumsulfat - Los 13 Gadotersäure - Los 14 Gadoteridol - Los 15 Gadobensäure - Los 16 Gadobutrol - Los 17 Gadoxetsäure - Los 18 Gadopiclenol  Der Vertragsabschluss erfolgt (losbezogen) im Rahmen eines sog. Open-House-Modells, d. h. ein Vertragsabschluss steht innerhalb des Teilnahmezeitraums allen interessierten pharmazeutischen Unternehmen/Großhändlern/Apotheken offen, sofern diese die Teilnahmevoraussetzungen erfüllen und akzeptieren. Dies hat zur Folge, dass individuelle Vertragsverhandlungen nicht geführt werden und eine (Liefer-)Exklusivität nicht gegeben ist. Es wird darauf hingewiesen, dass die Abnahmemenge unbekannt ist; Mindestabnahmemengen werden dementsprechend nicht garantiert.  Interessierte können die Teilnahmeunterlagen über den Projektraum des Deutschen Vergabeportals (DTVP) herunterladen. Dazu ist zunächst ein Antrag auf Zugang zum Projektraum erforderlich. Nach erfolgter Freischaltung durch die Auftraggeberin kann anschließend auf die Teilnahmeunterlagen zugegriffen werden. Die einzureichenden Unterlagen ergeben sich aus den im Projektraum hinterlegten Dokumenten "Anschreiben" und "Erläuterungen der Vertragsbedingungen".   Die Kommunikation, einschließlich der Übermittlung der Teilnahmeunterlagen, erfolgt elektronisch über das Vergabeportal DTVP; Einzelheiten hierzu sind den zuvor genannten Dokumenten zu entnehmen. Etwaige anderslautende Angaben in der Auftragsbekanntmachung sind technischen Gründen geschuldet und beanspruchen keine Verbindlichkeit.  Die Teilnahmeunterlagen sind vollständig bis zum jeweiligen 15. eines Monats (Eingangsfrist) einzureichen. Es kommt auf den Zugang bei der AOK PLUS an. Fällt der 15. eines Monats auf einen Sonnabend, Sonntag oder bundesweit gesetzlichen Feiertag, so tritt an die Stelle eines solchen Tages der nächste Werktag. Bei späterem Eingang (nach dem 15. eines Monats) werden die eingereichten Teilnahmeunterlagen zum 15. des darauffolgenden Monats berücksichtigt.  Teilnahmeunterlagen können erstmals bis zum 17. Februar 2025 eingereicht werden.   Die Rabattvereinbarung endet unabhängig vom Datum des Vertragsschlusses spätestens zum 31.03.2027.  Die Auftraggeberin behält sich vor, das Open-House-Verfahren (ggf. losbezogen) vorzeitig zu beenden, insbesondere im Falle des Abschlusses exklusiver Rabattvereinbarungen; in diesem Fall enden die bereits geschlossenen Rabattvereinbarungen nach Maßgabe der vertraglichen Bestimmungen. Den Erfahrungen nach treten exklusive Rabattvereinbarungen in der Regel 8 bis 12 Monate nach der Veröffentlichung der entsprechenden Auftragsbekanntmachung im Supplement zum Amtsblatt der Europäischen Union in Kraft.  Weiter Informationen entnehmen Sie bitte den Teilnahmeunterlagen, insbesondere dem Dokument "Erläuterungen der Vertragsbedingungen".</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4YRY5M3U
+
+
+Bei der vorliegenden Veröffentlichung handelt es sich nicht um die Vergabe eines öffentlichen Auftrags im Sinne der Vergaberichtlinie (2014/24/EU) bzw. des Vergaberechts. Um ein weitest gehendes Maß an Transparenz für die beabsichtigten Vertragsschlüsse zu gewährleisten, erfolgt die Veröffentlichung im Supplement zum Amtsblatt der Europäischen Union. In Ermangelung eines entsprechenden Veröffentlichungsformulars wird die Auftragsbekanntmachung genutzt. Die daraus resultierenden Vorgaben ("Pflichtfelder"), wie bspw. die Verfahrensbezeichnung "offenes Verfahren" und "Zuschlagskriterien" sind einzig der Nutzung dieses Bekanntmachungsformulars und der Veröffentlichungsplattform geschuldet. Eine weitere Bedeutung, insbesondere eine Unterwerfung unter vergaberechtliche Regelungen, soweit sie nicht aus rechtlichen Gründen verpflichtend sind, ist damit nicht verbunden. Bei der geplanten Höchstzahl an Beteiligten an der Rahmenvereinbarung handelt es sich ebenfalls um ein Pflichtfeld. Die gemachte Angabe ist allein der Nutzung dieses Formulars geschuldet.</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">33600000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Bundesrepublik Deutschland; Freistaat Sachsen und Freistaat Thüringen</cbc:Description>
+			<cac:Address>
+				<cbc:StreetName>Sternplatz 7</cbc:StreetName>
+				<cbc:CityName>Dresden</cbc:CityName>
+				<cbc:PostalZone>01067</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DED21</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2025-04-01+02:00</cbc:StartDate>
+			<cbc:EndDate>2027-03-31+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eigenerklärung zum Nichtvorliegen von Ausschlussgründen im Sinne der §§ 123, 124 GWB</cbc:Name>
+								<cbc:Description languageID="DEU">Zur Prüfung des Nichtvorliegens von zwingenden oder fakultativen Aus-schlussgründen im Sinne der §§ 123, 124 GWB ist die Anlage "Eigenerklärung zum Nichtvorliegen von Ausschlussgründen" mit den Teilnahmeunterlagen ausgefüllt einzureichen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eigenerklärung im Zusammenhang mit den Russland-Sanktionen der EU (betrifft: Art. 5k der Verordnung (EU) 2022/576)</cbc:Name>
+								<cbc:Description languageID="DEU">Mit EU-Verordnung Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 wurden umfangreiche Sanktionen gegen Russland normiert. Unter anderem besteht nach Art. 5k dieser Verordnung für öffentliche Auftraggeber bei Aufträgen oberhalb der EU-Schwellenwerte ein Zuschlags- und ein Vertragserfüllungsverbot. Danach dürfen keine öffentlichen Aufträge an Personen oder Unternehmen vergeben werden, die einen Bezug zu Russland aufweisen. Unter Verwendung der Anlage "Eigenerklärung Russlandsanktionen"  hat der Bieter daher zu erklären, dass weder er noch ein am Auftrag beteiligtes Unternehmen einen Bezug zu Russland im Sinne der o.g. Vorschrift aufweist.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>CrossBorderLaw</cbc:ID>
+				<cbc:DocumentDescription languageID="DEU">Vorliegend handelt es sich um ein Open-House-Verfahren und damit nicht um die Vergabe eines öffentlichen Auftrages im Sinne der Vergaberichtlinie bzw. des Vergaberechts.</cbc:DocumentDescription>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4YRY5M3U/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die AOK PLUS behält sich vor die pharmazeutischen Unternehmer/Großhändler/Apotheken unter Einhaltung der Grundsätze der Transparenz und der Gleichbehandlung aufzufordern, fehlende, unvollständige oder fehlerhafte Unterlagen (insbesondere Erklärungen, Angaben und Nachweise) nachzureichen, zu vervollständigen oder zu korrigieren (Nachforderung). Die Unterlagen sind nach Aufforderung durch die AOK PLUS innerhalb einer nach dem Kalender bestimmten Frist vorzulegen. Werden die nachgeforderten Unterlagen nicht innerhalb der Frist vorgelegt, kann der Teilnahmeantrag ausgeschlossen oder erst zur nächsten Einreichungsfrist berücksichtigt werden.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Das Vertragsangebot richtet sich ausschließlich an - pharmazeutische Unternehmer gemäß § 4 Abs. 18 AMG, - Großhändler gem. §§ 4 Abs. 22 und § 52a AMG sowie - öffentliche Apotheken als Auftragnehmer.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Bestimmungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB): "§ 134 Informations- und Wartepflicht. (1) Öffentliche Auftraggeber haben die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. (2) Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf zehn Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. (3) Die Informationspflicht entfällt in Fällen, in denen das Verhandlungsverfahren ohne Teilnahmewettbewerb wegen besonderer Dringlichkeit gerechtfertigt ist.... § 135 Unwirksamkeit. (1) Ein öffentlicher Auftrag ist von Anfang an unwirksam, wenn der öffentliche Auftraggeber 1. gegen § 134 verstoßen hat... § 160 Einleitung, Antrag. (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat (der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt); 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden; 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden; 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind... § 168 Entscheidung der Vergabekammer. (1) Die Vergabekammer entscheidet, ob der Antragsteller in seinen Rechten verletzt ist und trifft die geeigneten Maßnahmen, um eine Rechtsverletzung zu beseitigen und eine Schädigung der betroffenen Interessen zu verhindern. Sie ist an die Anträge nicht gebunden und kann auch unabhängig davon auf die Rechtmäßigkeit des Vergabeverfahrens einwirken. (2) Ein wirksam erteilter Zuschlag kann nicht aufgehoben werden..."</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0013</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">not-allowed</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YRY5M3U</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2027-03-31+02:00</cbc:EndDate>
+				<cbc:EndTime>23:58:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:ProcessJustification>
+				<cbc:ProcessReasonCode listName="no-esubmission-justification">tdf-non-av</cbc:ProcessReasonCode>
+				<cbc:Description languageID="DEU">Die Teilnahmeunterlagen sind der Auftraggeberin über die Kommunikationsfunktion des Vergabeportals zu übersenden. Die Angabe "postalischer Versand" in der Auftragsbekanntmachung ist allein technischen Gründen geschuldet.</cbc:Description>
+			</cac:ProcessJustification>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2027-03-31+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>23:59:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>999</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">6/2025-OH</cbc:ID>
+			<cbc:Name languageID="DEU">Abschluss nicht-exklusiver Rabattvereinbarungen im Rahmen eines sog. Open-House-Modells zu diversen Röntgenkontrastmitteln (ATC-Code nach WHO: V08)</cbc:Name>
+			<cbc:Description languageID="DEU">Siehe Kurzbeschreibung</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">33600000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Bundesrepublik Deutschland; Freistaat Sachsen und Freistaat Thüringen</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>Sternplatz 7</cbc:StreetName>
+					<cbc:CityName>Dresden</cbc:CityName>
+					<cbc:PostalZone>01067</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DED21</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-04-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2027-03-31+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

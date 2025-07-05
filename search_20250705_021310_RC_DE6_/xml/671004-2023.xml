@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+						<efac:Organization>
+							<efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">DAK-Gesundheit</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Nagelsweg 27-31</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>20097</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>101560000</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>000</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle10@dak.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">DAK-Gesundheit</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Nagelsweg 27-31</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>20097</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>101560000</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>000</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle10@dak.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villmombler Str. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>keine Angabe</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>000</cbc:Telephone>
+									<cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">DAK-Gesundheit</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Nagelsweg 27-31</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>20097</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>101560000</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>000</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle10@dak.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00671004-2023</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">212/2023</efbc:GazetteID><efbc:PublicationDate>2023-11-03Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">57e91c62-ff64-4834-9073-c31a5990d190</cbc:ID>
+	<cbc:ContractFolderID>4fe44ee1-5339-4405-b1a8-bb238f400659</cbc:ContractFolderID>
+	<cbc:IssueDate>2023-11-01+01:00</cbc:IssueDate>
+	<cbc:IssueTime>13:23:54+01:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXS0YRXY104468KB</cbc:EndpointID>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0004</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:TenderValidityPeriod>
+			<cbc:DurationMeasure unitCode="DAYS">59</cbc:DurationMeasure>
+		</cac:TenderValidityPeriod>
+		<cac:AppealTerms>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+		<cac:LotDistribution>
+			<cbc:MaximumLotsAwardedNumeric>1</cbc:MaximumLotsAwardedNumeric>
+			<cbc:MaximumLotsSubmittedNumeric>1</cbc:MaximumLotsSubmittedNumeric>
+		</cac:LotDistribution>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXS0YRXY104468KB</cbc:AccessToolsURI>
+		<cac:TenderSubmissionDeadlinePeriod>
+			<cbc:EndDate>2023-12-04+01:00</cbc:EndDate>
+			<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+		</cac:TenderSubmissionDeadlinePeriod>
+		<cac:OpenTenderEvent>
+			<cbc:OccurrenceDate>2023-12-04+01:00</cbc:OccurrenceDate>
+			<cbc:OccurrenceTime>12:00:00+01:00</cbc:OccurrenceTime>
+		</cac:OpenTenderEvent>
+		<cac:OpenTenderEvent>
+			<cbc:OccurrenceDate>2023-12-04+01:00</cbc:OccurrenceDate>
+			<cbc:OccurrenceTime>12:00:00+01:00</cbc:OccurrenceTime>
+		</cac:OpenTenderEvent>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:Name languageID="DEU">"Produktion und Versand von kurzfristigen, auflagestarken Mailings  ("ad-hoc-Mailings") Los1 und Produktionsbackup Druck-, Kuvertier- und Versanddienstleistungen von Postsendungen " Los 2</cbc:Name>
+		<cbc:Description languageID="DEU">Los 1
+Es sind alle Bestandteile eines Mailings (Anschreiben, ggf. Responseelement, ggf. Versandhülle, ggf. Flyer etc.) vom Druck bis zum portooptimierten Versand und eines evtl. Controllings zu erstellen. Optional sind Kreativleistungen zur textlichen und grafischen Aufbereitung im Corporate Design der DAK-Gesundheit ebenfalls bereitzustellen. 
+Die Entwicklung, Begleitung, Steuerung, Optimierung und die Kontrolle der einzelnen Prozessschritte, die durch die evtl. Kreativleistung und die Umsetzung bis hin zur Aussendung entstehen, sind erforderlich.
+Daneben kann es zu weiteren Aufgaben für den Auftragnehmer kommen, bei denen es sich um typische Druck- und Lettershopleistungen handelt. Die Konditionen hierfür werden im Einzelfall mit der DAK-Gesundheit abgestimmt.
+Die DAK-Gesundheit behält sich vor, Teilleistungen zu verändern, entfallen zu lassen oder aufgrund von gesetzlichen Veränderungen und Vorgaben diesen Vertrag zu beenden.
+Die Größenordnung je Aussendung (zzgl. evtl. der Responseabwicklung i.H.v. ca. 3% des Auftragsvolumens) ist nicht bekannt. Das geschätztes Auftragsvolumen: bis zu 4 Mailings pro Jahr mit einer Auflage von bis zu 2.000.000.
+
+Los 2
+Die DAK-Gesundheit verfügt über ein Outputmanagementsystem, so dass sich der Gesamt-prozess an einer typischen Abwicklung einer Mailingproduktion orientiert.
+Die Ansteuerung der Produktionsdrucksysteme erfolgt über Canon-Prisma-Production V 5.n Server. Die Produktionsdaten für die Produktionsaufträge von Postsendungen (PAPS) werden in einer komplexen Systemumgebung in den Modi PCL5, AFPDS, PS und PDF-VT erzeugt. Die gesamten Datenflüsse und die Druckproduktion werden über M/Text (M/OMS) der Firma kühn &amp; weyh gesteuert.
+Die Produktionsdaten der Produktionsaufträge von Postsendungen (PAPS) auf dem Canon-Prisma-Production V 5.n Server (Spooler) müssen dort vom Dienstleister des Produktionsbackups abgeholt werden. Alternativ können die Daten im Datenaus-tauschverfahren durch den IT-Dienstleister der DAK-Gesundheit (Aktuell: Bitmarck) dem Dienstleister des Produktionsbackups übermittelt werden
+Die Konzeption der Leistungsbeschreibung ist auf eine vollständige White-Paper-Produktion ausgelegt. Hierbei ist das Druckverfahren (Einzelblatt oder Endlos; Inkjet oder Laser) dem Dienstleister des Produktionsbackups grundsätzlich freigestellt.
+Das Endformat ist ausnahmslos DIN A4 und der Dokumentenaufbau überwiegend für den Duplexdruck ausgelegt, Simplexdruck ist bei einzelnen Dokumenten möglich. Da typischerweise unterschiedliche Dokumente innerhalb eines Mailingprojekts vorkommen, muss der Dienstleister des Produktionsbackups auch im Mixplexbetrieb drucken und aus-schließlich die bedruckten Seiten abrechnen können.
+Neben dem personalisierten Druck sind diverse Beilagen zu produzieren und den Sendungen beizufügen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS0YRXY104468KB
+
+
+Unabhängig von dieser Ausschreibung würden wir uns freuen, wenn wir Ihnen und Ihren Beschäftigten unser Leistungs- bzw. Serviceangebot vermitteln dürften. Sofern Sie hieran Interesse haben, senden Sie uns bitte die anliegende Erklärung "Freiwillige Einverständniserklärung Vertrieb" zu. 
+
+WICHTIG! Die Entscheidung, ob Sie uns die Möglichkeit der Information hinsichtlich unseres Leistungs- bzw. Serviceangebotes geben möchten, hat keinerlei Auswirkung auf die Ausschreibung, d. h. auch wenn Sie uns die Erklärung "Freiwillige Einverständniserklärung Serviceangebot" nicht übermitteln, wird Ihr Angebot, wie jedes andere Angebot, geprüft und gewertet!</cbc:Note>
+		<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">79800000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">79810000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">79824000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2024-01-01+01:00</cbc:StartDate>
+			<cbc:EndDate>2027-12-31+01:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Branchenübliche Betriebshaftpflichtversicherung eines europäischen Versicherungsinstitutes mit einer Deckungssumme in Höhe von mind. 2.000.000,- EUR pro Jahr sowohl für Personen- als auch Sachschäden und mit einer angemessenen Deckung von Vermögensschäden verfüge(n), welche auch Haftpflichtansprüche wegen Vermögensschäden in Folge einer Verletzung datenschutz-rechtlicher Bestimmungen sowie Haftpflichtansprüche, die dadurch entstehen, dass Daten gelöscht, unbrauchbar gemacht oder verändert werden (Datenverlust) umfasst (der Datenverlust ist mit einem Sublimit in Höhe von mind. 1.000.000,- EUR pro Jahr abgedeckt)  
+Alternativ
+im Fall der Auftragserteilung eine branchenübliche Betriebshaftpflichtversicherung bei einem europäischen Versicherungsinstitut mit einer Deckungssumme in Höhe von mind. 2.000.000,- Euro pro Jahr sowohl für Personen- als auch Sachschäden und mit einer angemessenen Deckung von Vermögensschäden, die auch Haftpflichtansprüche wegen Vermögensschäden infolge einer Verletzung datenschutzrechtlicher Bestimmungen und Haftpflichtansprüche wegen Datenverlust umfassen, unverzüglich abzuschließen. Der Fall des Datenverlustes wird mit einem Sublimit in Höhe von mind. 1.000.000,- Euro abgedeckt sein.
+
+Bei Beteiligung als Bietergemeinschaft ist die "Eigenerklärung Pflichten" vollständig ausgefüllt mit dem Angebot vorzulegen.
+
+Bietergemeinschaften können grundsätzlich nur bis zu der Angebotsabgabe neu oder umgebildet werden. Jede beabsichtigte oder vorgenommene Veränderung der Zusammensetzung einer Bietergemeinschaft (Eintritt, Austritt oder Austausch von Mitgliedern) während der laufenden Angebotsbearbeitungsphase bis zur Erteilung des Zuschlags muss dem Auftraggeber gegenüber unverzüglich schriftlich angezeigt und begründet werden. Die Um- oder Neubildung einer Bietergemeinschaft nach Angebotsabgabe kann nach obergerichtlicher Rechtsprechung unzulässig sein und führt dann zu der Nichtberücksichtigung der Gemeinschaft bzw. ihres Angebots.
+
+
+Beruft sich der Bieter darauf, Teile der Leistung von Nachunternehmern ausführen zu lassen, muss er seinem Angebot ein Verzeichnis beifügen, in dem die durch den Nachunternehmer auszuführende Leistung bezeichnet ist ("Eigenerklärung Pflichten"). Angaben zu Adresse, etc. des vorgesehenen Nachunternehmers sind nicht zu machen. Vielmehr sind Inhalt sowie die Art der durch den Nachunternehmer auszuführenden Leistung zu bezeichnen. Dabei reicht die Angabe eines Oberbegriffes aus.
+
+Der Auftraggeber behält sich vor, nach Angebotsabgabe, die für den Zuschlag vorgesehenen Bieter mit Fristsetzung aufzufordern, Verpflichtungserklärungen etwaiger Nachunternehmer für die im Angebot bezeichneten Leistungsbereiche ("Eigenerklärung Pflichten") vorzulegen
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Anlagenkonvolut Datenschutz gemäß Vorlage
+Unternehmensdarstellung
+Auszug Beruf- oder Handelsregister nicht älter als 6 Monate
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Eigenerklärung: Grundeignung  (mit dem Angebot mittels Eigenerklärung vorzulegen)
+- Eigenerklärung: Pflichten gemäß Vorlage (mit dem Angebot mittels Eigenerklärung vorzulegen).
+Zur Beurteilung der Fachkunde und Leistungsfähigkeit des Bewerbers sind 3 Referenzen einzureichen. Die Referenzprojekte müssen in Art und Umfang mit dem Auftragsgegenstand vergleichbar sein.
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">nyk</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXS0YRXY104468KB/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+-  Angebotsschreiben (mit dem Angebot mittels Eigenerklärung vorzulegen)
+- Anlagenkonvolut Datenschutz (mit dem Angebot vorzulegen)
+- Eigenerklärung: Grundeignung (mit dem Angebot mittels Eigenerklärung vorzulegen)
+- Eigenerklärung: Pflichten (mit dem Angebot mittels Eigenerklärung vorzulegen)
+- Preisblatt (mit dem Angebot vorzulegen)
+- Rahmenvertrag (mit dem Angebot vorzulegen)
+- Eigenerklärung Art 5k Sanktionen (mit dem Angebot vorzulegen)
+- Kreditorenanlage (mit dem Angebot vorzulegen)
+- Vereinbarung  Paragraph 80SGBX Art.28DS-GVO (AVV) (mit dem Angebot vorzulegen)
+- TOMs (siehe Vereinbarung Paragraph 80SGBX Art.28DS-GVO (AVV)) (mit dem Angebot vorzulegen)
+- Los 1 Kalkulation siehe Vertrag Paragraph 3 Abs 2 a) (mit dem Angebot vorzulegen)
+- Auszug Beruf- oder Handelsregister (siehe Eigenerklärung Grundeignung) (mit dem Angebot vorzulegen)
+- Unternehmensdarstellung (siehe Eigenerklärung Grundeignung) (mit dem Angebot vorzulegen)
+</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXS0YRXY104468KB</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0004</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAYS">59</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsAwardedNumeric>1</cbc:MaximumLotsAwardedNumeric>
+				<cbc:MaximumLotsSubmittedNumeric>1</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXS0YRXY104468KB</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2023-12-04+01:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2023-12-04+01:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>12:00:00+01:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2023-12-04+01:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>12:00:00+01:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2</cbc:ID>
+			<cbc:Name languageID="DEU">Produktionsbackup</cbc:Name>
+			<cbc:Description languageID="DEU">Los 1
+Es sind alle Bestandteile eines Mailings (Anschreiben, ggf. Responseelement, ggf. Versandhülle, ggf. Flyer etc.) vom Druck bis zum portooptimierten Versand und eines evtl. Controllings zu erstellen. Optional sind Kreativleistungen zur textlichen und grafischen Aufbereitung im Corporate Design der DAK-Gesundheit ebenfalls bereitzustellen. 
+Die Entwicklung, Begleitung, Steuerung, Optimierung und die Kontrolle der einzelnen Prozessschritte, die durch die evtl. Kreativleistung und die Umsetzung bis hin zur Aussendung entstehen, sind erforderlich.
+Daneben kann es zu weiteren Aufgaben für den Auftragnehmer kommen, bei denen es sich um typische Druck- und Lettershopleistungen handelt. Die Konditionen hierfür werden im Einzelfall mit der DAK-Gesundheit abgestimmt.
+Die DAK-Gesundheit behält sich vor, Teilleistungen zu verändern, entfallen zu lassen oder aufgrund von gesetzlichen Veränderungen und Vorgaben diesen Vertrag zu beenden.
+Die Größenordnung je Aussendung (zzgl. evtl. der Responseabwicklung i.H.v. ca. 3% des Auftragsvolumens) ist nicht bekannt. Das geschätztes Auftragsvolumen: bis zu 4 Mailings pro Jahr mit einer Auflage von bis zu 2.000.000.
+
+Los 2
+Die DAK-Gesundheit verfügt über ein Outputmanagementsystem, so dass sich der Gesamt-prozess an einer typischen Abwicklung einer Mailingproduktion orientiert.
+Die Ansteuerung der Produktionsdrucksysteme erfolgt über Canon-Prisma-Production V 5.n Server. Die Produktionsdaten für die Produktionsaufträge von Postsendungen (PAPS) werden in einer komplexen Systemumgebung in den Modi PCL5, AFPDS, PS und PDF-VT erzeugt. Die gesamten Datenflüsse und die Druckproduktion werden über M/Text (M/OMS) der Firma kühn &amp; weyh gesteuert.
+Die Produktionsdaten der Produktionsaufträge von Postsendungen (PAPS) auf dem Canon-Prisma-Production V 5.n Server (Spooler) müssen dort vom Dienstleister des Produktionsbackups abgeholt werden. Alternativ können die Daten im Datenaus-tauschverfahren durch den IT-Dienstleister der DAK-Gesundheit (Aktuell: Bitmarck) dem Dienstleister des Produktionsbackups übermittelt werden
+Die Konzeption der Leistungsbeschreibung ist auf eine vollständige White-Paper-Produktion ausgelegt. Hierbei ist das Druckverfahren (Einzelblatt oder Endlos; Inkjet oder Laser) dem Dienstleister des Produktionsbackups grundsätzlich freigestellt.
+Das Endformat ist ausnahmslos DIN A4 und der Dokumentenaufbau überwiegend für den Duplexdruck ausgelegt, Simplexdruck ist bei einzelnen Dokumenten möglich. Da typischerweise unterschiedliche Dokumente innerhalb eines Mailingprojekts vorkommen, muss der Dienstleister des Produktionsbackups auch im Mixplexbetrieb drucken und aus-schließlich die bedruckten Seiten abrechnen können.
+Neben dem personalisierten Druck sind diverse Beilagen zu produzieren und den Sendungen beizufügen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders geeignet für:selbst#</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">79800000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">79810000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">79824000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-01-01+01:00</cbc:StartDate>
+				<cbc:EndDate>2027-12-31+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.igdb.de</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">IG Dreieich Bahn GmbH</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Im Steingrund 3</cbc:StreetName>
+                                    <cbc:CityName>Dreieich</cbc:CityName>
+                                    <cbc:PostalZone>63303</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Amtsgericht Offenbach am Main, HRB 34244</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+49610350670</cbc:Telephone>
+                                    <cbc:ElectronicMail>ausschreibung@igdb.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.nvv.de/</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Verkehrsverbund und Fördergesellschaft Nordhessen mbH </cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Rainer-Dierichs-Platz 1</cbc:StreetName>
+                                    <cbc:CityName>Kassel</cbc:CityName>
+                                    <cbc:PostalZone>34117</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Amtsgericht Kassel, HRB 5592</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone> +49561709490</cbc:Telephone>
+                                    <cbc:ElectronicMail>info@nvv.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                                    <cbc:CityName>Darmstadt</cbc:CityName>
+                                    <cbc:PostalZone>64283</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>06-22630029-17</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+496151126603</cbc:Telephone>
+                                    <cbc:Telefax>+49611327648534</cbc:Telefax>
+                                    <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    </efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00042643-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">15/2024</efbc:GazetteID><efbc:PublicationDate>2024-01-22Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">6f2ae4e0-f8b7-4614-93c3-4e0524a02896</cbc:ID>
+    <cbc:ContractFolderID>f5da472d-1f79-4b08-ad05-e52b61019ba1</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-01-19+01:00</cbc:IssueDate>
+    <cbc:IssueTime>14:42:17.131+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RequestedPublicationDate>2024-01-21+01:00</cbc:RequestedPublicationDate>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID>ORG-0002</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:ServiceProviderParty>
+                <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:Party>
+            </cac:ServiceProviderParty>
+        <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:ProcurementLegislationDocumentReference>
+            <cbc:ID>vgv</cbc:ID>
+        </cac:ProcurementLegislationDocumentReference>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Angebote, die zwingende Ausschlussgründe gem. § 123 GWB, § 57 Abs. 1 VgV oder § 7 Abs. 3 HVTG , sowie § 18 Abs. 2, 3 HVTG erfüllen,
+werden ausgeschlossen. Angebote, die fakultative Ausschlussgründe gem. § 124 GWB erfüllen, können ausgeschlossen werden; auf ergänzende Regelungen zum Ausschluss in den Vergabeunterlagen wird verwiesen.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+        <cac:LotDistribution>
+            <cbc:MaximumLotsAwardedNumeric>3</cbc:MaximumLotsAwardedNumeric>
+            <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+        </cac:LotDistribution>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <ext:UBLExtensions>
+            <ext:UBLExtension>
+                <ext:ExtensionContent>
+                    <efext:EformsExtension>
+                        <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                    </efext:EformsExtension>
+                </ext:ExtensionContent>
+            </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:NoticeDocumentReference>
+            <cbc:ID>708902-2023</cbc:ID>
+        </cac:NoticeDocumentReference>
+        <cac:NoticeDocumentReference>
+            <cbc:ID>709147-2023</cbc:ID>
+        </cac:NoticeDocumentReference>
+        <cac:NoticeDocumentReference>
+            <cbc:ID>708124-2023</cbc:ID>
+        </cac:NoticeDocumentReference>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">Linienbündel „405: Schwalm-Ost“,  „407: Bad Zwesten / Borken“, „412: Schwalm West“</cbc:Name>
+        <cbc:Description languageID="DEU">Die Leistungen werden als Dienstleistungsauftrag im Rahmen eines Offenen Verfahrens nach der Verordnung über die Vergabe öffentlicher Aufträge (Vergabeverordnung – VgV) vergeben und umfassen öffentliche Nahverkehrsleistungen (Bus- und AST-Verkehr) auf dem Gebiet des Schwalm-Eder-Kreises sowie angrenzende Kreise. Los 1: Linienbündel „405: Schwalm-Ost“, Los 2: Linienbündel „407: Bad Zwesten/ Borken“ und Los 3: Linienbündel „412: Schwalm-West“</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="DEU">- Angebotsabgabe: Bitte überprüfen Sie beim Hochladebericht, dass Ihr Angebot erfolgreich hochgeladen wurde und ob die angegebene Dateigröße Ihren hochgeladenen Dateien entspricht,
+- Zur Anwendung des Hessischen Präqualifikationsregisters (HPQR) siehe „Aufforderung zur Angebotsabgabe und Bewerbungsbedingungen“ der Vergabeunterlagen,
+- Sofern ein Bieter aus gewichtigen Gründen nicht in der Lage ist, eine der genannten Nachweise und Erklärungen (unternehmensbezogene Unterlagen) vorzulegen, so hat er dies unter Angabe der Gründe der Vergabestelle vor der in Ziffer 5 der „Aufforderung zur Angebotsabgabe und Bewerbungsbedingungen“ genannten Frist für Fragen zu den Vergabeunterlagen mitzuteilen,
+- Fragen zu den Vergabeunterlagen sind über die Vergabeplattform https://www.subreport.de/E65125922 zu stellen,
+- Eignungsleihe (siehe Vergabeunterlagen),
+- Falls zutreffend: eine Erklärung der Bieter- / Arbeitsgemeinschaft (detaillierte Anforderungen an die zuerteilende Erklärung siehe Anlage D zum Angebotsschreiben; der Vordruck ist zu verwenden),
+- Falls zutreffend: Angabe der Anzahl der kalkulierten Fahrzeuge sowie die verbindliche Umlaufplanung,
+- Die Verpflichtungserklärung „Tariftreue und Mindestlohn bei öffentlichen Aufträgen unter Berücksichtigung der Vorgaben des Hessischen Vergabe- und Tariftreuegesetz (HVTG) vom 12. Juli 2021, GVBl. S. 338“ ist zwingend auszufüllen und hochzuladen (detaillierte Anforderungen an die zu erteilende Erklärung siehe Anlage C zum „Angebotsschreiben“; der Vordruck ist zu verwenden),
+- Die Eigenerklärung „Bezug zu Russland“ ist zwingend auszufüllen und hochzuladen (detaillierte Anforderungen an die zu erteilende Erklärung, siehe Anlage F zum Angebotsschreiben; der Vordruck ist zu verwenden).
+</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60140000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+                                <cbc:Description languageID="DEU">Nachweis der Eintragung in das Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bieter ansässig ist, sofern der Bieter in das Berufs- oder Handelsregister eingetragen ist. Für den Fall der Nichteintragung: die Vorlage einer Gewerbeanmeldung (für ausländische Bieter: oder vergleichbar). Der Nachweis muss mindestens die vertretungsberechtigten Personen ausweisen, vgl. § 44 Abs. 1 VgV.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung in Steuersachen des zuständigen Finanzamtes </cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung in Steuersachen des zuständigen Finanzamtes (für ausländische Bieter: oder vergleichbar). Die Bescheinigung muss Angaben zu den steuerlichen Verhältnissen und den steuerlichen Erklärungspflichten enthalten [die Bescheinigung muss zum Zeitpunkt der Angebotsabgabe gültig sein]. Falls auf der Bescheinigung keine Gültigkeitsdauer angegeben sein sollte, darf das Ausstellungsdatum in Bezug zum Datum der Angebotsabgabe nicht länger als 3 Monate zurückliegen, d.h. nicht älter als Stichtag: 11.12.2023.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung der Kommune des Unternehmenssitzes über die steuerliche Zuverlässigkeit </cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung der Kommune des Unternehmenssitzes über die steuerliche Zuverlässigkeit (für ausländische Bieter: oder vergleichbar) [die Bescheinigung muss zum Zeitpunkt der Angebotsabgabe gültig sein]. Sofern an die Kommune des Unternehmenssitzes keine Steuer entrichtet werden, sondern an die Kommunen der jeweiligen Betriebsstätten, ist dies der Vergabestelle bis zum Ablauf der Angebotsfrist entsprechend mitzuteilen und zu erläutern. 
+Ferner hat der Bieter zusätzlich die Bescheinigung der steuerlichen Zuverlässigkeit der betroffenen Kommune vorzulegen, in der die Betriebsstätte, die den vertragsgegenständlichen Verkehr erbringen soll, ansässig ist. Bei Ergebnisabführungsverträgen / Organschaften ist hinsichtlich des Drittunternehmens entsprechend zu verfahren.
+Falls auf der Bescheinigung keine Gültigkeitsdauer angegeben sein sollte, darf das Ausstellungsdatum in Bezug zum Datum der Angebotsabgabe nicht länger als 3 Monate zurückliegen, d.h. nicht älter als Stichtag: 11.12.2023. (Die „Bescheinigung der Kommune des Betriebssitzes über die steuerliche Zuverlässigkeit …“ soll die ordnungsgemäße Entrichtung der Gewerbesteuer bestätigen. Wird die Gewerbesteuer nicht durch die Gemeinde erhoben, sondern durch andere Behörden (z.B. Finanzamt), so muss die zuständige Behörde die diesbezügliche steuerliche Bescheinigung erteilen. Sollte der Bieter von der Gewerbesteuer befreit sein, so muss ein unabhängiger Steuerberater oder Wirtschaftsprüfer die Befreiung von der Gewerbesteuer bestätigen. Eine gesonderte Bescheinigung der zuständigen Behörde ist in diesem Fall nicht erforderlich.)
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Angabe von im „Rollgeschäft“ erbrachten Busverkehrsleistungen (Referenzen)</cbc:Name>
+                                <cbc:Description languageID="DEU">Angabe von im „Rollgeschäft“ erbrachten Busverkehrsleistungen (keine Rufbus-/ AST-/ ALF-/ Fernbus-/ Schienenersatz-/ Bedarfs-/ Mietbus-/ Berufs-/ Markt-/ Theater-/ Flughafenvorfeld-/ Reise-Verkehre, auch keine Werks-/ Freigestellte Schüler-Verkehre) im öffentlichen Linienverkehr mit Kraftfahrzeugen (falls in Deutsch-land erbracht: gem. § 42 PBefG; nicht: gem. §§ 42a, 43-49 PBefG; Verkehrsleis-tungen gem. §§ 42a, 43-49 PBefG werden nicht berücksichtigt) seit Gründung des Unternehmens, höchstens jedoch seit Beginn (01.01.) der letzten drei vollen Kalenderjahre vor dem in Ziffer 7 der Aufforderung zur Angebotsabgabe und Bewerbungsbedingungen genannten Termin zur Angebotsabgabe.
+Es ist mindestens eine vergleichbare, erbrachte Verkehrsleistung gefordert. Es steht den Bietern frei, eine größere Anzahl von Referenzen anzugeben. 
+Die angegebenen Referenzleistungen müssen geeignet sein, einen tragfähigen Rückschluss auf die Leistungsfähigkeit des Unternehmens in Bezug auf den zu vergebenden Auftrag zu ermöglichen, d.h. auf erbrachte Leistungen im „Rollgeschäft“. Die Referenzleistungen müssen nicht mit der ausschreibungsgegenständlichen Leistung identisch sein, sie sollten jedoch mit den Anforderungen an die zu erbringende Leistung vergleichbar sein (vergleichbar hoher Schwierigkeitsgrad). Neben der Angabe von Busverkehrsleistungen als Konzessionsinhaber (auch als Teil einer Bietergemeinschaft) ist auch die Angabe von Leistungen als Unterauftragnehmer zulässig.
+1. Mindestanforderungen an die Vorgabe „Angabe im „Rollgeschäft“ erbrachte Busverkehrsleistungen […]“:
+a) Die vorgelegte Referenz muss von dem Unternehmen erbracht worden sein, welches das Angebot abgibt. Erfolgt die Leistungserbringung der Referenzleistung bei einer GbR, GmbH, KG, OHG, etc. von den „Gesellschaftern“ des Unternehmens (z.B. Gesellschafter A stellt das Fahrpersonal, Gesellschafter B stellt die Fahrzeuge, Gesellschafter C führt alle administrativen und technischen Tätigkeiten durch), wird die Referenz mit ihrem Erklärungsgehalt als zulässig gewertet.
+b) Kann das Unternehmen (auch Bietergemeinschaften) keine entsprechenden Referenzleistungen nachweisen, so besteht die Möglichkeit einer Eignungsleihe. 
+2. Mindestanforderungen an die Vorgabe „vergleichbar hoher Schwierigkeitsgrad einer Referenz“:
+Los 1:
+Die Vergleichbarkeit gilt als erfüllt, wenn Referenzen als Haupt- oder Unterauftragnehmer einzeln oder in Summe einen Umfang von mindestens 429.000 Nutzwagenkilometer p.a. bei gleichzeitigem Einsatz von mindestens 9 Kraftomnibussen aufweisen. Die Referenzen müssen im o.g. Referenzzeitraum (2021, 2022, 2023) jeweils für mindestens 12 Monate erbracht worden sein. 
+
+Abgabe von Angeboten für mehrere Lose: 
+Wird auf mehrere Lose ein Angebot abgegeben, gilt die Vergleichbarkeit als erfüllt, wenn die vorgelegten Referenzen mindestens die Summe der aufaddierten geforderten Referenz-Kilometer p.a. des Loses mit der höchsten geforderten Referenz-Kilometer-Anzahl zu 100% sowie jedes weiteren Loses zu 50% und der aufaddierten geforderten Referenz-Kraftomnibusse des Loses mit der höchsten Referenz-Kraftomnibus-Anzahl zu 100% und jedes weiteren Loses zu 50% aufweisen. 
+Bei Vorlage mehrerer Referenzen (max. 4) werden diese kumulativ betrachtet. Detaillierte Anforderung an die zu erteilenden Angaben siehe Anlage E zum Angebotsschreiben; der Vordruck ist zu verwenden).
+
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung der „fachlichen Eignung für den Personenkraftverkehr mit Kraftomnibussen“</cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung der „fachlichen Eignung für den Personenkraftverkehr mit Kraftomnibussen“, nicht: Verkehr mit Taxen und Mietwagen. D.h. Nachweis der fachlichen Eignung i.S.d. Art. 3 Abs. 1 lit. d) VO (EG) Nr. 1071/2009 sowie § 13 Abs. 1 Nr. 3 PBefG i.V.m. § 3 Abs. 1 PBZugV: Kenntnisse, die zur ordnungsgemäßen Führung eines Straßenpersonenverkehrsunternehmens erforderlich sind, und zwar auf den jeweiligen Sachgebieten, die im Anhang I Teil I der VO (EG) Nr. 1071/2009 in der jeweils geltenden Fassung aufgeführt sind, nachgewiesen nach dem Muster des Anhangs III der VO (EG) Nr. 1071/2009 in der jeweils geltenden Fassung. 
+In Deutschland:
+Kopie einer Bescheinigung der zuständigen Industrie- und Handelskammer (IHK) über die fachliche Eignung gem. §§ 3, 4, 6, 7 PBZugV (§ 3 „Fachliche Eignung“, § 4 „Fachkundeprüfung“, § 6 „Gleichwertige Abschlussprüfungen“, § 7 „Anerkennung leitender Tätigkeit“).
+Der Nachweis der fachlichen Eignung muss vom Unternehmer selbst oder einer zur Führung der Geschäfte bestellten Person erbracht werden.
+Für den Fall einer Eignungsleihe kann der Nachweis durch ein anderes Unternehmen erbracht werden, wenn dies die Leistung erbringt, für die der Nachweis benötigt wird.
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eignungsleihe</cbc:Name>
+                                <cbc:Description languageID="DEU">Eignungsleihe:
+Falls ein Bieter im Hinblick auf die erforderliche wirtschaftliche und finanzielle sowie die technische und berufliche Leistungsfähigkeit die Kapazitäten anderer Unternehmen in Anspruch nehmen möchte, hat er nachzuweisen, dass ihm die für die Erbringung des Verkehrsvertrages nebst Anlagen erforderlichen Mittel dieser Unternehmen tatsächlich zur Verfügung stehen werden. Hierzu hat er eine Verpflichtungserklärung dieser Unternehmen vorzulegen. Diese Möglichkeit besteht unabhängig von der Rechtsnatur der zwischen dem Bieter und den anderen Unternehmen bestehenden Verbindungen. Das andere Unternehmen muss die Verpflichtungserklärung in Form einer verbindlichen Zusage abgeben, die der Vergabestelle bis zum Ablauf der Angebotsfrist vorzulegen ist. Die Verpflichtungserklärung wird als Anlage zum Verkehrsvertrag aufgenommen und ist während der Vertragslaufzeit als Teil der Leistung des Auftragnehmers durch das eignungsleihende Unternehmen zu erbringen.
+Die Verpflichtungserklärung muss Aussagen beinhalten, dass das Know-How, ggf. notwendige technischen Geräte und Einrichtungen sowie die notwendigen personellen Kapazitäten des anderen Unternehmens dem Bieter über die gesamte Vertragslaufzeit für den vertragsgegenständlichen Verkehr uneingeschränkt zur Verfügung stehen. Die Verpflichtungserklärung ist auch notwendig, sofern es sich bei dem anderen Unternehmen um ein Unternehmen handelt, dass mit dem Bieter in einem Konzern verbunden ist. 
+Für den Fall einer Eignungsleihe hinsichtlich des Nachweises „Angabe von erbrachten Busverkehrsleistungen“ hat das andere Unternehmen eine Kopie der Anlage E zum Angebotsschreiben zu verwenden.
+Nimmt ein Bieter die Kapazitäten eines anderen Unternehmens im Hinblick auf die erforderliche wirtschaftliche und finanzielle Leistungsfähigkeit in Anspruch, so wird eine gemeinsame Haftung des Bieters und des anderen Unternehmens für die Auftragsausführung entsprechend dem Umfang der Eignungsleihe verlangt und ist durch eine Eigenerklärung zu erklären. Die Eigenerklärung zur Haftung wird als Anlage zum Verkehrsvertrag aufgenommen.
+Die Anforderungen gelten für Einzelbieter und Bietergemeinschaften gleichermaßen.
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">HVTG-Erklärung</cbc:Name>
+                                <cbc:Description languageID="DEU">Verpflichtungserklärungen für öffentliche Aufträge über Verkehrsdienstleistungen im Personennahverkehr nach dem HVTG (detaillierte Anforderungen an die zu erteilende Erklärung siehe Anlage C zum Angebotsschreiben; der Vordruck ist zu verwenden),</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Erklärung der Bieter- / Arbeitsgemeinschaft </cbc:Name>
+                                <cbc:Description languageID="DEU">Falls zutreffend: 
+eine Erklärung der Bieter- / Arbeitsgemeinschaft (detaillierte Anforderungen an die zu erteilende Erklärung, insbesondere hinsichtlich der Verpflichtungserklärungen der Mitglieder der Bietergemeinschaft, siehe Anlage D zum Angebotsschreiben; der Vordruck ist zu verwenden). 
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eigenerklärung „Bezug zu Russland“</cbc:Name>
+                                <cbc:Description languageID="DEU">Eigenerklärung „Bezug zu Russland“ (detaillierte Anforderungen an die zu erteilende Erklärung siehe Anlage F zum „Angebotsschreiben“; der Vordruck ist zu verwenden)</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+                                <efac:StrategicProcurementInformation>
+                                    <efbc:ProcurementCategoryCode listName="cvd-contract-type">pass-tran-serv</efbc:ProcurementCategoryCode>
+                                </efac:StrategicProcurementInformation>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+                <cbc:Description languageID="DEU">Zur Sicherung der Leistungspflicht und des lückenlosen Weiterbetriebs im Falle einer Betriebsaufnahme durch Dritte sowie zur Durchsetzung aller bestehenden und künftigen, auch bedingten und befristeten Ansprüche des Auftraggebers aus dem Verkehrsvertrag einschließlich nachvertraglicher Abwicklungspflichten muss der jeweils erfolgreiche Bieter (Gewinner der Ausschreibung) Sicherheitsleistungen in Höhe von 5 v. H. des Netto-Gesamt-Auftragswertes des jeweiligen Busverkehrs (vgl. Ziffer 1 der Anlage B1-B3 zum Angebotsschreiben „Preisblatt“) eines durchschnittlichen Kalenderjahres (Berechnungsgrundlage: Planungsstand zum Zeitpunkt der Angebotsabgabe) bereit stellen. 
+Die Sicherheitsleistung ist durch Bürgschaft eines in der Europäischen Union oder in einem Staat, der Vertragspartei des Abkommens über den Europäischen Wirtschaftsraum oder Mitglied des WTO-Dienstleistungsabkommens (GATS) ist, zugelassenen Kreditinstituts oder Kreditversicherers zu erbringen. Die Sicherheitsleistung ist durch eine schriftliche, unbedingte und unbefristete selbstschuldnerische Bankbürgschaft unter Verzicht der Einrede der Anfechtung, Aufrechenbarkeit oder Vorausklage zu erbringen und hat deutschem Recht zu unterliegen.
+Die Sicherheitsleistung ist spätestens 14 Kalendertage nach der durch den Auftraggeber erfolgten Vertragszeichnung zu erbringen.
+Die Rückgabe der Sicherheitsleistung erfolgt nach Entfallen des Sicherungszwecks. Dieser umfasst insbesondere die vertragsgemäße Ausführung der Leistung sowie die Durchsetzung finanzieller Ansprüche des Auftraggebers einschließlich nachvertraglicher Abwicklungspflichten. Hierunter fällt insbesondere die Sicherstellung eines Ersatzverkehrs, falls der Auftragnehmer die vertraglich vereinbarte Verkehrsleistung nicht mehr erbringen kann. Der Sicherungszweck entfällt nach Abwicklung der letzten Zahlungen nach Beendigung des Verkehrsvertrages. 
+</cbc:Description>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E65125922</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E65125922</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">§ 56 VgV</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E65125922</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="DAY">61</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2024-03-11+01:00</cbc:EndDate>
+                <cbc:EndTime>10:00:00.000+01:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2024-03-11+01:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>10:05:00.000+01:00</cbc:OccurrenceTime>
+                <cbc:Description languageID="DEU">Bieter dürfen bei der Öffnung der Angebote gem. § 55 Abs. 2 VgV nicht anwesend sein. </cbc:Description>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>E65125922 Los 1</cbc:ID>
+            <cbc:Name languageID="DEU">Los 1: Linienbündel „405: Schwalm-Ost“</cbc:Name>
+            <cbc:Description languageID="DEU">Linie 470: Bad Hersfeld – Kirchheim – Oberaula – Neukirchen – Schwalmstadt
+Linie 471: Kirchheim – Oberaula – Neukirchen – Schwalmstadt
+Linie 472: Schwalmstadt – Willingshausen – Schrecksbach - Neukirchen
+Linie 473: Neukirchen – Ottrau – Oberaula
+Linie 474: Schwarzenborn – Neukirchen – Willingshausen
+Linie 475: Neukirchen – Frielendorf – Schwalmstadt
+Linie 476: (Schwarzenborn -) Neukirchen – Willingshausen – Schwalmstadt – Frielendorf
+Linie 477: Oberaula – Ottrau – Alsfeld
+Linie 478: Neukirchen – Oberaula
+Linie 479: Neukirchen – Ottrau
+Linie 481: Schwalmstadt – Willingshausen – Schrecksbach
+Linie 482: Oberaula – Ottrau – Neukirchen
+Linie 483: Gemeindeverkehr Willingshausen
+Linie 484: Schrecksbach – Willingshausen – Neukirchen – Schwalmstadt
+Die Linie 470 bildet als regionale Linie das Rückgrat des Linienbündels als Ost-West Verbindung zwischen Bad Hersfeld und Schwalmstadt. In Neukirchen schließt die Linie 472 daran an, genauso wie an die Linien 473 und 474. Dabei dient die Linie 472, teilweise auch als AST-Verkehr, zur Sicherstellung der Anbindung der Gemeinden Willingshausen und Schrecksbach an Schwalmstadt und Neukirchen. Hierzu gibt es weiter Anschlüsse zur X39 in Schrecksbach sowie in Treysa an den Schienenverkehr. Im Fahrplan sind Schulfahrten integriert zu Schulen entlang der bedienten Strecke. Eine weitere an die Linie 470 angeschlossene Linie ist die Linie 473. Auch hier wird der Knoten in Neukirchen als Anschlussmöglichkeit zu weiteren Linien genutzt und zusätzlich ein weiterer Anschluss mit der Linie 470 in Oberaula gewährleistet. Vor allem werden durch diese Linie die Anbindungen der Gemeinde Ottrau an die Gemeinden Neukirchen und Oberaula gewährleistet. Integrierte Schulfahrten sichern den Schülerverkehr von Schulen der Bedienstrecke. Die Linie wird teilweise als AST-Linie gefahren. Im Knoten Neukirchen schließt weiterhin die Linie 474 an, deren Hauptaufgabe die Anbindung von Schwarzenborn an Neukirchen ist. In Loshausen dient die X39 als ein weiterer Anschluss. Auch diese Linie weist integriert Schulfahrten in ihrem Fahrplan auf und wird teilweise als AST gefahren. Linie 475 ist eigentlich eine AST-Linie, die jedoch Schulfahrten integriert hat, die mit einem Bus durchgeführt werden. Insgesamt gewährleistet die Linie die Anbindung der Ortsteile von Frielendorf, Neukirchen und Schwalmstadt an Neukirchen und Schwalmstadt sowie an den Schienenverkehr in Treysa. Die reinen Schullinien 471, 476, 477, 478, 479, 483 und 484 sichern den Schülerverkehr während der Schulzeiten im Bediengebiet ab. Ergänzend zum regulären Linienverkehr werden die reinen AST-Linien 481 und 482 eingesetzt, um Lücken im Netz fahrgastfreundlich zu schließen. 
+Die Leistungen im Busverkehr können ab Betriebsstart fahrplanmäßig mit 27 Fahrzeu-gen (12 Standard-Solobusse Kategorie A, 13 Standard-Solobusse Kategorie B, 2 Standard-Gelenkbus Kategorie B; vgl. Anlage zum Verkehrsvertrag „Unverbindliche Umlaufplanung“) und in einem durchschnittlichen Kalenderjahr gem. Ziffer 1.3 der Anlage A zum Angebotsschreiben „Vorgaben und Hinweise zur Angebotskalkulation“ mit ge-rundeten 1.292.414 Nkm (Nutzwagenkilometern) sowie gerundeten 35.852 Fahrplanstunden p.a. erbracht werden.
+Die Leistungen im AST-Verkehr können ab Betriebsstart mit 4 Fahrzeugen (Van) und geschätzten 69.500 Besetztkilometern p.a. erbracht werden.
+</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60140000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-12-15+01:00</cbc:StartDate>
+                <cbc:EndDate>2034-12-09+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+                                <cbc:Description languageID="DEU">Nachweis der Eintragung in das Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bieter ansässig ist, sofern der Bieter in das Berufs- oder Handelsregister eingetragen ist. Für den Fall der Nichteintragung: die Vorlage einer Gewerbeanmeldung (für ausländische Bieter: oder vergleichbar). Der Nachweis muss mindestens die vertretungsberechtigten Personen ausweisen, vgl. § 44 Abs. 1 VgV.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung in Steuersachen des zuständigen Finanzamtes </cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung in Steuersachen des zuständigen Finanzamtes (für ausländische Bieter: oder vergleichbar). Die Bescheinigung muss Angaben zu den steuerlichen Verhältnissen und den steuerlichen Erklärungspflichten enthalten [die Bescheinigung muss zum Zeitpunkt der Angebotsabgabe gültig sein]. Falls auf der Bescheinigung keine Gültigkeitsdauer angegeben sein sollte, darf das Ausstellungsdatum in Bezug zum Datum der Angebotsabgabe nicht länger als 3 Monate zurückliegen, d.h. nicht älter als Stichtag: 11.12.2023.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung der Kommune des Unternehmenssitzes über die steuerliche Zuverlässigkeit </cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung der Kommune des Unternehmenssitzes über die steuerliche Zuverlässigkeit (für ausländische Bieter: oder vergleichbar) [die Bescheinigung muss zum Zeitpunkt der Angebotsabgabe gültig sein]. Sofern an die Kommune des Unternehmenssitzes keine Steuer entrichtet werden, sondern an die Kommunen der jeweiligen Betriebsstätten, ist dies der Vergabestelle bis zum Ablauf der Angebotsfrist entsprechend mitzuteilen und zu erläutern. 
+Ferner hat der Bieter zusätzlich die Bescheinigung der steuerlichen Zuverlässigkeit der betroffenen Kommune vorzulegen, in der die Betriebsstätte, die den vertragsgegenständlichen Verkehr erbringen soll, ansässig ist. Bei Ergebnisabführungsverträgen / Organschaften ist hinsichtlich des Drittunternehmens entsprechend zu verfahren.
+Falls auf der Bescheinigung keine Gültigkeitsdauer angegeben sein sollte, darf das Ausstellungsdatum in Bezug zum Datum der Angebotsabgabe nicht länger als 3 Monate zurückliegen, d.h. nicht älter als Stichtag: 11.12.2023. (Die „Bescheinigung der Kommune des Betriebssitzes über die steuerliche Zuverlässigkeit …“ soll die ordnungsgemäße Entrichtung der Gewerbesteuer bestätigen. Wird die Gewerbesteuer nicht durch die Gemeinde erhoben, sondern durch andere Behörden (z.B. Finanzamt), so muss die zuständige Behörde die diesbezügliche steuerliche Bescheinigung erteilen. Sollte der Bieter von der Gewerbesteuer befreit sein, so muss ein unabhängiger Steuerberater oder Wirtschaftsprüfer die Befreiung von der Gewerbesteuer bestätigen. Eine gesonderte Bescheinigung der zuständigen Behörde ist in diesem Fall nicht erforderlich.)
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Angabe von im „Rollgeschäft“ erbrachten Busverkehrsleistungen (Referenzen)</cbc:Name>
+                                <cbc:Description languageID="DEU">Angabe von im „Rollgeschäft“ erbrachten Busverkehrsleistungen (keine Rufbus-/ AST-/ ALF-/ Fernbus-/ Schienenersatz-/ Bedarfs-/ Mietbus-/ Berufs-/ Markt-/ Theater-/ Flughafenvorfeld-/ Reise-Verkehre, auch keine Werks-/ Freigestellte Schüler-Verkehre) im öffentlichen Linienverkehr mit Kraftfahrzeugen (falls in Deutsch-land erbracht: gem. § 42 PBefG; nicht: gem. §§ 42a, 43-49 PBefG; Verkehrsleis-tungen gem. §§ 42a, 43-49 PBefG werden nicht berücksichtigt) seit Gründung des Unternehmens, höchstens jedoch seit Beginn (01.01.) der letzten drei vollen Kalenderjahre vor dem in Ziffer 7 der Aufforderung zur Angebotsabgabe und Bewerbungsbedingungen genannten Termin zur Angebotsabgabe.
+Es ist mindestens eine vergleichbare, erbrachte Verkehrsleistung gefordert. Es steht den Bietern frei, eine größere Anzahl von Referenzen anzugeben. 
+Die angegebenen Referenzleistungen müssen geeignet sein, einen tragfähigen Rückschluss auf die Leistungsfähigkeit des Unternehmens in Bezug auf den zu vergebenden Auftrag zu ermöglichen, d.h. auf erbrachte Leistungen im „Rollgeschäft“. Die Referenzleistungen müssen nicht mit der ausschreibungsgegenständlichen Leistung identisch sein, sie sollten jedoch mit den Anforderungen an die zu erbringende Leistung vergleichbar sein (vergleichbar hoher Schwierigkeitsgrad). Neben der Angabe von Busverkehrsleistungen als Konzessionsinhaber (auch als Teil einer Bietergemeinschaft) ist auch die Angabe von Leistungen als Unterauftragnehmer zulässig.
+1. Mindestanforderungen an die Vorgabe „Angabe im „Rollgeschäft“ erbrachte Busverkehrsleistungen […]“:
+a) Die vorgelegte Referenz muss von dem Unternehmen erbracht worden sein, welches das Angebot abgibt. Erfolgt die Leistungserbringung der Referenzleistung bei einer GbR, GmbH, KG, OHG, etc. von den „Gesellschaftern“ des Unternehmens (z.B. Gesellschafter A stellt das Fahrpersonal, Gesellschafter B stellt die Fahrzeuge, Gesellschafter C führt alle administrativen und technischen Tätigkeiten durch), wird die Referenz mit ihrem Erklärungsgehalt als zulässig gewertet.
+b) Kann das Unternehmen (auch Bietergemeinschaften) keine entsprechenden Referenzleistungen nachweisen, so besteht die Möglichkeit einer Eignungsleihe. 
+2. Mindestanforderungen an die Vorgabe „vergleichbar hoher Schwierigkeitsgrad einer Referenz“:
+Los 2:
+Die Vergleichbarkeit gilt als erfüllt, wenn Referenzen als Haupt- oder Unterauftragnehmer einzeln oder in Summe einen Umfang von mindestens 312.000 Nutzwagenkilometer p.a. bei gleichzeitigem Einsatz von mindestens 8 Kraftomnibussen aufweisen. Die Referenzen müssen im o.g. Referenzzeitraum (2021, 2022, 2023) jeweils für mindestens 12 Monate erbracht worden sein. 
+
+Abgabe von Angeboten für mehrere Lose: 
+Wird auf mehrere Lose ein Angebot abgegeben, gilt die Vergleichbarkeit als erfüllt, wenn die vorgelegten Referenzen mindestens die Summe der aufaddierten geforderten Referenz-Kilometer p.a. des Loses mit der höchsten geforderten Referenz-Kilometer-Anzahl zu 100% sowie jedes weiteren Loses zu 50% und der aufaddierten geforderten Referenz-Kraftomnibusse des Loses mit der höchsten Referenz-Kraftomnibus-Anzahl zu 100% und jedes weiteren Loses zu 50% aufweisen. 
+Bei Vorlage mehrerer Referenzen (max. 4) werden diese kumulativ betrachtet. Detaillierte Anforderung an die zu erteilenden Angaben siehe Anlage E zum Angebotsschreiben; der Vordruck ist zu verwenden).
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung der „fachlichen Eignung für den Personenkraftverkehr mit Kraftomnibussen“</cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung der „fachlichen Eignung für den Personenkraftverkehr mit Kraftomnibussen“, nicht: Verkehr mit Taxen und Mietwagen. D.h. Nachweis der fachlichen Eignung i.S.d. Art. 3 Abs. 1 lit. d) VO (EG) Nr. 1071/2009 sowie § 13 Abs. 1 Nr. 3 PBefG i.V.m. § 3 Abs. 1 PBZugV: Kenntnisse, die zur ordnungsgemäßen Führung eines Straßenpersonenverkehrsunternehmens erforderlich sind, und zwar auf den jeweiligen Sachgebieten, die im Anhang I Teil I der VO (EG) Nr. 1071/2009 in der jeweils geltenden Fassung aufgeführt sind, nachgewiesen nach dem Muster des Anhangs III der VO (EG) Nr. 1071/2009 in der jeweils geltenden Fassung. 
+In Deutschland:
+Kopie einer Bescheinigung der zuständigen Industrie- und Handelskammer (IHK) über die fachliche Eignung gem. §§ 3, 4, 6, 7 PBZugV (§ 3 „Fachliche Eignung“, § 4 „Fachkundeprüfung“, § 6 „Gleichwertige Abschlussprüfungen“, § 7 „Anerkennung leitender Tätigkeit“).
+Der Nachweis der fachlichen Eignung muss vom Unternehmer selbst oder einer zur Führung der Geschäfte bestellten Person erbracht werden.
+Für den Fall einer Eignungsleihe kann der Nachweis durch ein anderes Unternehmen erbracht werden, wenn dies die Leistung erbringt, für die der Nachweis benötigt wird.
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eignungsleihe</cbc:Name>
+                                <cbc:Description languageID="DEU">Eignungsleihe:
+Falls ein Bieter im Hinblick auf die erforderliche wirtschaftliche und finanzielle sowie die technische und berufliche Leistungsfähigkeit die Kapazitäten anderer Unternehmen in Anspruch nehmen möchte, hat er nachzuweisen, dass ihm die für die Erbringung des Verkehrsvertrages nebst Anlagen erforderlichen Mittel dieser Unternehmen tatsächlich zur Verfügung stehen werden. Hierzu hat er eine Verpflichtungserklärung dieser Unternehmen vorzulegen. Diese Möglichkeit besteht unabhängig von der Rechtsnatur der zwischen dem Bieter und den anderen Unternehmen bestehenden Verbindungen. Das andere Unternehmen muss die Verpflichtungserklärung in Form einer verbindlichen Zusage abgeben, die der Vergabestelle bis zum Ablauf der Angebotsfrist vorzulegen ist. Die Verpflichtungserklärung wird als Anlage zum Verkehrsvertrag aufgenommen und ist während der Vertragslaufzeit als Teil der Leistung des Auftragnehmers durch das eignungsleihende Unternehmen zu erbringen.
+Die Verpflichtungserklärung muss Aussagen beinhalten, dass das Know-How, ggf. notwendige technischen Geräte und Einrichtungen sowie die notwendigen personellen Kapazitäten des anderen Unternehmens dem Bieter über die gesamte Vertragslaufzeit für den vertragsgegenständlichen Verkehr uneingeschränkt zur Verfügung stehen. Die Verpflichtungserklärung ist auch notwendig, sofern es sich bei dem anderen Unternehmen um ein Unternehmen handelt, dass mit dem Bieter in einem Konzern verbunden ist. 
+Für den Fall einer Eignungsleihe hinsichtlich des Nachweises „Angabe von erbrachten Busverkehrsleistungen“ hat das andere Unternehmen eine Kopie der Anlage E zum Angebotsschreiben zu verwenden.
+Nimmt ein Bieter die Kapazitäten eines anderen Unternehmens im Hinblick auf die erforderliche wirtschaftliche und finanzielle Leistungsfähigkeit in Anspruch, so wird eine gemeinsame Haftung des Bieters und des anderen Unternehmens für die Auftragsausführung entsprechend dem Umfang der Eignungsleihe verlangt und ist durch eine Eigenerklärung zu erklären. Die Eigenerklärung zur Haftung wird als Anlage zum Verkehrsvertrag aufgenommen.
+Die Anforderungen gelten für Einzelbieter und Bietergemeinschaften gleichermaßen.
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">HVTG-Erklärung</cbc:Name>
+                                <cbc:Description languageID="DEU">Verpflichtungserklärungen für öffentliche Aufträge über Verkehrsdienstleistungen im Personennahverkehr nach dem HVTG (detaillierte Anforderungen an die zu erteilende Erklärung siehe Anlage C zum Angebotsschreiben; der Vordruck ist zu verwenden),</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Erklärung der Bieter- / Arbeitsgemeinschaft</cbc:Name>
+                                <cbc:Description languageID="DEU">Falls zutreffend: 
+eine Erklärung der Bieter- / Arbeitsgemeinschaft (detaillierte Anforderungen an die zu erteilende Erklärung, insbesondere hinsichtlich der Verpflichtungserklärungen der Mitglieder der Bietergemeinschaft, siehe Anlage D zum Angebotsschreiben; der Vordruck ist zu verwenden). 
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eigenerklärung „Bezug zu Russland“ </cbc:Name>
+                                <cbc:Description languageID="DEU">Eigenerklärung „Bezug zu Russland“ (detaillierte Anforderungen an die zu erteilende Erklärung siehe Anlage F zum „Angebotsschreiben“; der Vordruck ist zu verwenden)</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+                                <efac:StrategicProcurementInformation>
+                                    <efbc:ProcurementCategoryCode listName="cvd-contract-type">pass-tran-serv</efbc:ProcurementCategoryCode>
+                                </efac:StrategicProcurementInformation>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+                <cbc:Description languageID="DEU">Zur Sicherung der Leistungspflicht und des lückenlosen Weiterbetriebs im Falle einer Betriebsaufnahme durch Dritte sowie zur Durchsetzung aller bestehenden und künftigen, auch bedingten und befristeten Ansprüche des Auftraggebers aus dem Verkehrsvertrag einschließlich nachvertraglicher Abwicklungspflichten muss der jeweils erfolgreiche Bieter (Gewinner der Ausschreibung) Sicherheitsleistungen in Höhe von 5 v. H. des Netto-Gesamt-Auftragswertes des jeweiligen Busverkehrs (vgl. Ziffer 1 der Anlage B1-B3 zum Angebotsschreiben „Preisblatt“) eines durchschnittlichen Kalenderjahres (Berechnungsgrundlage: Planungsstand zum Zeitpunkt der Angebotsabgabe) bereit stellen. 
+Die Sicherheitsleistung ist durch Bürgschaft eines in der Europäischen Union oder in einem Staat, der Vertragspartei des Abkommens über den Europäischen Wirtschaftsraum oder Mitglied des WTO-Dienstleistungsabkommens (GATS) ist, zugelassenen Kreditinstituts oder Kreditversicherers zu erbringen. Die Sicherheitsleistung ist durch eine schriftliche, unbedingte und unbefristete selbstschuldnerische Bankbürgschaft unter Verzicht der Einrede der Anfechtung, Aufrechenbarkeit oder Vorausklage zu erbringen und hat deutschem Recht zu unterliegen.
+Die Sicherheitsleistung ist spätestens 14 Kalendertage nach der durch den Auftraggeber erfolgten Vertragszeichnung zu erbringen.
+Die Rückgabe der Sicherheitsleistung erfolgt nach Entfallen des Sicherungszwecks. Dieser umfasst insbesondere die vertragsgemäße Ausführung der Leistung sowie die Durchsetzung finanzieller Ansprüche des Auftraggebers einschließlich nachvertraglicher Abwicklungspflichten. Hierunter fällt insbesondere die Sicherstellung eines Ersatzverkehrs, falls der Auftragnehmer die vertraglich vereinbarte Verkehrsleistung nicht mehr erbringen kann. Der Sicherungszweck entfällt nach Abwicklung der letzten Zahlungen nach Beendigung des Verkehrsvertrages. 
+</cbc:Description>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E65125922</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E65125922</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">§ 56 VgV</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E65125922</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="DAY">61</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2024-03-11+01:00</cbc:EndDate>
+                <cbc:EndTime>10:00:00.000+01:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2024-03-11+01:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>10:05:00.000+01:00</cbc:OccurrenceTime>
+                <cbc:Description languageID="DEU">Bieter dürfen bei der Öffnung der Angebote gem. § 55 Abs. 2 VgV nicht anwesend sein. </cbc:Description>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>E65125922 Los 2</cbc:ID>
+            <cbc:Name languageID="DEU">Los 2: Linienbündel „407: Bad Zwesten/ Borken“</cbc:Name>
+            <cbc:Description languageID="DEU">Linie 407: Borken/Fritzlar/Bad Wildungen – Bad Zwesten
+Linie 408: (Borken/) Bad Wildungen – Wenzigerode – Bad Zwesten
+Linie 409: Borken – Frielendorf – Homberg (Efze)
+Linie 410: Homberg – Borken – Bad Zwesten – Bad Wildungen
+Linie 411: Bad Zwesten – Jesberg – Neuental – Borken
+Linie 413: Borken – Fritzlar
+Linie 415: Borken – Nassenerfurth – Stolzenbach
+Linie 416: Jesberg – Neuental – Frielendorf
+Linie 417: Zimmersrode – Neuenhain – Waltersbrück
+Linie 418: Siebertshausen – Frielendorf – Lembach – Verna
+Linie 419: Borken – Neuental – Verna
+
+Die Linien 410 und 413 stellen mit einem vertakteten Busangebot die Grundbedienung in diesem Linienbündel dar, wobei in zeitlichen Randlagen und am Wochenende beide Linien als AST gefahren werden. Aufgabe der Linie 410 ist die Verbindung der Kreisstadt Homberg (Efze) mit dem Mittelzentrum Borken sowie kreisgrenzenübergreifend mit dem Mittelzentrum Bad Wildungen; hinzu kommen einzelne integrierte schulbezogene Fahrten zu den Schulen in Borken, Bad Zwesten, Bad Wildungen sowie Homberg (Efze). Des Weiteren werden Anschlüsse in Borken mit dem RE98/RE30 nach Kassel sowie mit Linie 413 nach Fritzlar und ein Anschluss in Bad Zwesten mit der Linie 460 nach Jesberg, Gilserberg und Rauschenberg-Josbach gewährleistet. Ergänzend leistet die Linie 413 die Anbindung an die Mittelzentren Borken und Fritzlar. Hinzu kommen ein-zelne integrierte schulbezogene Fahrten zu Schulen in Borken und Fritzlar. In Fritzlar werden Anschlüsse mit Linie 500 nach Bad Wildungen und Kassel eingehalten, sowie in Kleinenglis mit der 460 nach Bad Zwesten, Jesberg, Gilserberg und Rauschenberg-Josbach. 
+Die reinen Schullinien 407, 409, 411, 418 und 419 sichern den Schülerverkehr während der Schulzeiten im Bediengebiet ab. Ergänzend zum regulären Linienverkehr werden die reinen AST-Linien 408, 416 und 417 eingesetzt, um Lücken im Netz fahrgastfreundlich zu schließen. 
+Die Leistungen im Busverkehr können ab Betriebsstart fahrplanmäßig mit 23 Fahrzeugen (9 Standard-Solobusse Kategorie A, 13 Standard-Solobusse Kategorie B, 1 Standard-Gelenkbus Kategorie B; vgl. Anlage zum Verkehrsvertrag „Unverbindliche Umlaufplanung“) und in einem durchschnittlichen Kalenderjahr gem. Ziffer 1.3 der Anlage A zum Angebotsschreiben „Vorgaben und Hinweise zur Angebotskalkulation“ mit ge-rundeten 936.016 Nkm (Nutzwagenkilometern) sowie gerundeten 28.471 Fahrplanstunden p.a. erbracht werden.
+Die Leistungen im AST-Verkehr können ab Betriebsstart mit 4 Fahrzeugen (Van) und geschätzten 69.500 Besetztkilometern p.a. erbracht werden.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60140000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-12-15+01:00</cbc:StartDate>
+                <cbc:EndDate>2034-12-09+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+                                <cbc:Description languageID="DEU">Nachweis der Eintragung in das Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bieter ansässig ist, sofern der Bieter in das Berufs- oder Handelsregister eingetragen ist. Für den Fall der Nichteintragung: die Vorlage einer Gewerbeanmeldung (für ausländische Bieter: oder vergleichbar). Der Nachweis muss mindestens die vertretungsberechtigten Personen ausweisen, vgl. § 44 Abs. 1 VgV.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung in Steuersachen des zuständigen Finanzamtes</cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung in Steuersachen des zuständigen Finanzamtes (für ausländische Bieter: oder vergleichbar). Die Bescheinigung muss Angaben zu den steuerlichen Verhältnissen und den steuerlichen Erklärungspflichten enthalten [die Bescheinigung muss zum Zeitpunkt der Angebotsabgabe gültig sein]. Falls auf der Bescheinigung keine Gültigkeitsdauer angegeben sein sollte, darf das Ausstellungsdatum in Bezug zum Datum der Angebotsabgabe nicht länger als 3 Monate zurückliegen, d.h. nicht älter als Stichtag: 11.12.2023.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung der Kommune des Unternehmenssitzes über die steuerliche Zuverlässigkeit </cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung der Kommune des Unternehmenssitzes über die steuerliche Zuverlässigkeit (für ausländische Bieter: oder vergleichbar) [die Bescheinigung muss zum Zeitpunkt der Angebotsabgabe gültig sein]. Sofern an die Kommune des Unternehmenssitzes keine Steuer entrichtet werden, sondern an die Kommunen der jeweiligen Betriebsstätten, ist dies der Vergabestelle bis zum Ablauf der Angebotsfrist entsprechend mitzuteilen und zu erläutern. 
+Ferner hat der Bieter zusätzlich die Bescheinigung der steuerlichen Zuverlässigkeit der betroffenen Kommune vorzulegen, in der die Betriebsstätte, die den vertragsgegenständlichen Verkehr erbringen soll, ansässig ist. Bei Ergebnisabführungsverträgen / Organschaften ist hinsichtlich des Drittunternehmens entsprechend zu verfahren.
+Falls auf der Bescheinigung keine Gültigkeitsdauer angegeben sein sollte, darf das Ausstellungsdatum in Bezug zum Datum der Angebotsabgabe nicht länger als 3 Monate zurückliegen, d.h. nicht älter als Stichtag: 11.12.2023. (Die „Bescheinigung der Kommune des Betriebssitzes über die steuerliche Zuverlässigkeit …“ soll die ordnungsgemäße Entrichtung der Gewerbesteuer bestätigen. Wird die Gewerbesteuer nicht durch die Gemeinde erhoben, sondern durch andere Behörden (z.B. Finanzamt), so muss die zuständige Behörde die diesbezügliche steuerliche Bescheinigung erteilen. Sollte der Bieter von der Gewerbesteuer befreit sein, so muss ein unabhängiger Steuerberater oder Wirtschaftsprüfer die Befreiung von der Gewerbesteuer bestätigen. Eine gesonderte Bescheinigung der zuständigen Behörde ist in diesem Fall nicht erforderlich.)
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Angabe von im „Rollgeschäft“ erbrachten Busverkehrsleistungen (Referenzen)</cbc:Name>
+                                <cbc:Description languageID="DEU">Angabe von im „Rollgeschäft“ erbrachten Busverkehrsleistungen (keine Rufbus-/ AST-/ ALF-/ Fernbus-/ Schienenersatz-/ Bedarfs-/ Mietbus-/ Berufs-/ Markt-/ Theater-/ Flughafenvorfeld-/ Reise-Verkehre, auch keine Werks-/ Freigestellte Schüler-Verkehre) im öffentlichen Linienverkehr mit Kraftfahrzeugen (falls in Deutsch-land erbracht: gem. § 42 PBefG; nicht: gem. §§ 42a, 43-49 PBefG; Verkehrsleis-tungen gem. §§ 42a, 43-49 PBefG werden nicht berücksichtigt) seit Gründung des Unternehmens, höchstens jedoch seit Beginn (01.01.) der letzten drei vollen Kalenderjahre vor dem in Ziffer 7 der Aufforderung zur Angebotsabgabe und Bewerbungsbedingungen genannten Termin zur Angebotsabgabe.
+Es ist mindestens eine vergleichbare, erbrachte Verkehrsleistung gefordert. Es steht den Bietern frei, eine größere Anzahl von Referenzen anzugeben. 
+Die angegebenen Referenzleistungen müssen geeignet sein, einen tragfähigen Rückschluss auf die Leistungsfähigkeit des Unternehmens in Bezug auf den zu vergebenden Auftrag zu ermöglichen, d.h. auf erbrachte Leistungen im „Rollgeschäft“. Die Referenzleistungen müssen nicht mit der ausschreibungsgegenständlichen Leistung identisch sein, sie sollten jedoch mit den Anforderungen an die zu erbringende Leistung vergleichbar sein (vergleichbar hoher Schwierigkeitsgrad). Neben der Angabe von Busverkehrsleistungen als Konzessionsinhaber (auch als Teil einer Bietergemeinschaft) ist auch die Angabe von Leistungen als Unterauftragnehmer zulässig.
+1. Mindestanforderungen an die Vorgabe „Angabe im „Rollgeschäft“ erbrachte Busverkehrsleistungen […]“:
+a) Die vorgelegte Referenz muss von dem Unternehmen erbracht worden sein, welches das Angebot abgibt. Erfolgt die Leistungserbringung der Referenzleistung bei einer GbR, GmbH, KG, OHG, etc. von den „Gesellschaftern“ des Unternehmens (z.B. Gesellschafter A stellt das Fahrpersonal, Gesellschafter B stellt die Fahrzeuge, Gesellschafter C führt alle administrativen und technischen Tätigkeiten durch), wird die Referenz mit ihrem Erklärungsgehalt als zulässig gewertet.
+b) Kann das Unternehmen (auch Bietergemeinschaften) keine entsprechenden Referenzleistungen nachweisen, so besteht die Möglichkeit einer Eignungsleihe. 
+2. Mindestanforderungen an die Vorgabe „vergleichbar hoher Schwierigkeitsgrad einer Referenz“:
+Los 3:
+Die Vergleichbarkeit gilt als erfüllt, wenn Referenzen als Haupt- oder Unterauftragnehmer einzeln oder in Summe einen Umfang von mindestens 249.000 Nutzwagenkilometer p.a. bei gleichzeitigem Einsatz von mindestens 4 Kraftomnibussen aufweisen. Die Referenzen müssen im o.g. Referenzzeitraum (2021, 2022, 2023) jeweils für mindestens 12 Monate erbracht worden sein. 
+
+Abgabe von Angeboten für mehrere Lose: 
+Wird auf mehrere Lose ein Angebot abgegeben, gilt die Vergleichbarkeit als erfüllt, wenn die vorgelegten Referenzen mindestens die Summe der aufad-dierten geforderten Referenz-Kilometer p.a. des Loses mit der höchsten geforderten Referenz-Kilometer-Anzahl zu 100% sowie jedes weiteren Loses zu 50% und der aufaddierten geforderten Referenz-Kraftomnibusse des Loses mit der höchsten Referenz-Kraftomnibus-Anzahl zu 100% und jedes weiteren Loses zu 50% aufweisen. 
+Bei Vorlage mehrerer Referenzen (max. 4) werden diese kumulativ betrachtet. Detaillierte Anforderung an die zu erteilenden Angaben siehe Anlage E zum Angebotsschreiben; der Vordruck ist zu verwenden).
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Bescheinigung der „fachlichen Eignung für den Personenkraftverkehr mit Kraftomnibussen“</cbc:Name>
+                                <cbc:Description languageID="DEU">Bescheinigung der „fachlichen Eignung für den Personenkraftverkehr mit Kraftomnibussen“, nicht: Verkehr mit Taxen und Mietwagen. D.h. Nachweis der fachlichen Eignung i.S.d. Art. 3 Abs. 1 lit. d) VO (EG) Nr. 1071/2009 sowie § 13 Abs. 1 Nr. 3 PBefG i.V.m. § 3 Abs. 1 PBZugV: Kenntnisse, die zur ordnungsgemäßen Führung eines Straßenpersonenverkehrsunternehmens erforderlich sind, und zwar auf den jeweiligen Sachgebieten, die im Anhang I Teil I der VO (EG) Nr. 1071/2009 in der jeweils geltenden Fassung aufgeführt sind, nachgewiesen nach dem Muster des Anhangs III der VO (EG) Nr. 1071/2009 in der jeweils geltenden Fassung. 
+In Deutschland:
+Kopie einer Bescheinigung der zuständigen Industrie- und Handelskammer (IHK) über die fachliche Eignung gem. §§ 3, 4, 6, 7 PBZugV (§ 3 „Fachliche Eignung“, § 4 „Fachkundeprüfung“, § 6 „Gleichwertige Abschlussprüfungen“, § 7 „Anerkennung leitender Tätigkeit“).
+Der Nachweis der fachlichen Eignung muss vom Unternehmer selbst oder einer zur Führung der Geschäfte bestellten Person erbracht werden.
+Für den Fall einer Eignungsleihe kann der Nachweis durch ein anderes Unternehmen erbracht werden, wenn dies die Leistung erbringt, für die der Nachweis benötigt wird.
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eignungsleihe</cbc:Name>
+                                <cbc:Description languageID="DEU">Eignungsleihe:
+Falls ein Bieter im Hinblick auf die erforderliche wirtschaftliche und finanzielle sowie die technische und berufliche Leistungsfähigkeit die Kapazitäten anderer Unternehmen in Anspruch nehmen möchte, hat er nachzuweisen, dass ihm die für die Erbringung des Verkehrsvertrages nebst Anlagen erforderlichen Mittel dieser Unternehmen tatsächlich zur Verfügung stehen werden. Hierzu hat er eine Verpflichtungserklärung dieser Unternehmen vorzulegen. Diese Möglichkeit besteht unabhängig von der Rechtsnatur der zwischen dem Bieter und den anderen Unternehmen bestehenden Verbindungen. Das andere Unternehmen muss die Verpflichtungserklärung in Form einer verbindlichen Zusage abgeben, die der Vergabestelle bis zum Ablauf der Angebotsfrist vorzulegen ist. Die Verpflichtungserklärung wird als Anlage zum Verkehrsvertrag aufgenommen und ist während der Vertragslaufzeit als Teil der Leistung des Auftragnehmers durch das eignungsleihende Unternehmen zu erbringen.
+Die Verpflichtungserklärung muss Aussagen beinhalten, dass das Know-How, ggf. notwendige technischen Geräte und Einrichtungen sowie die notwendigen personellen Kapazitäten des anderen Unternehmens dem Bieter über die gesamte Vertragslaufzeit für den vertragsgegenständlichen Verkehr uneingeschränkt zur Verfügung stehen. Die Verpflichtungserklärung ist auch notwendig, sofern es sich bei dem anderen Unternehmen um ein Unternehmen handelt, dass mit dem Bieter in einem Konzern verbunden ist. 
+Für den Fall einer Eignungsleihe hinsichtlich des Nachweises „Angabe von erbrachten Busverkehrsleistungen“ hat das andere Unternehmen eine Kopie der Anlage E zum Angebotsschreiben zu verwenden.
+Nimmt ein Bieter die Kapazitäten eines anderen Unternehmens im Hinblick auf die erforderliche wirtschaftliche und finanzielle Leistungsfähigkeit in Anspruch, so wird eine gemeinsame Haftung des Bieters und des anderen Unternehmens für die Auftragsausführung entsprechend dem Umfang der Eignungsleihe verlangt und ist durch eine Eigenerklärung zu erklären. Die Eigenerklärung zur Haftung wird als Anlage zum Verkehrsvertrag aufgenommen.
+Die Anforderungen gelten für Einzelbieter und Bietergemeinschaften gleichermaßen.
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">HVTG-Erklärung</cbc:Name>
+                                <cbc:Description languageID="DEU">Verpflichtungserklärungen für öffentliche Aufträge über Verkehrsdienstleistungen im Personennahverkehr nach dem HVTG (detaillierte Anforderungen an die zu erteilende Erklärung siehe Anlage C zum Angebotsschreiben; der Vordruck ist zu verwenden),</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Erklärung der Bieter- / Arbeitsgemeinschaft</cbc:Name>
+                                <cbc:Description languageID="DEU">Falls zutreffend: 
+eine Erklärung der Bieter- / Arbeitsgemeinschaft (detaillierte Anforderungen an die zu erteilende Erklärung, insbesondere hinsichtlich der Verpflichtungserklärungen der Mitglieder der Bietergemeinschaft, siehe Anlage D zum Angebotsschreiben; der Vordruck ist zu verwenden). 
+</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eigenerklärung „Bezug zu Russland“</cbc:Name>
+                                <cbc:Description languageID="DEU">Eigenerklärung „Bezug zu Russland“ (detaillierte Anforderungen an die zu erteilende Erklärung siehe Anlage F zum „Angebotsschreiben“; der Vordruck ist zu verwenden)</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+                                <efac:StrategicProcurementInformation>
+                                    <efbc:ProcurementCategoryCode listName="cvd-contract-type">pass-tran-serv</efbc:ProcurementCategoryCode>
+                                </efac:StrategicProcurementInformation>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+                <cbc:Description languageID="DEU">Zur Sicherung der Leistungspflicht und des lückenlosen Weiterbetriebs im Falle einer Betriebsaufnahme durch Dritte sowie zur Durchsetzung aller bestehenden und künftigen, auch bedingten und befristeten Ansprüche des Auftraggebers aus dem Verkehrsvertrag einschließlich nachvertraglicher Abwicklungspflichten muss der jeweils erfolgreiche Bieter (Gewinner der Ausschreibung) Sicherheitsleistungen in Höhe von 5 v. H. des Netto-Gesamt-Auftragswertes des jeweiligen Busverkehrs (vgl. Ziffer 1 der Anlage B1-B3 zum Angebotsschreiben „Preisblatt“) eines durchschnittlichen Kalenderjahres (Berechnungsgrundlage: Planungsstand zum Zeitpunkt der Angebotsabgabe) bereit stellen. 
+Die Sicherheitsleistung ist durch Bürgschaft eines in der Europäischen Union oder in einem Staat, der Vertragspartei des Abkommens über den Europäischen Wirtschaftsraum oder Mitglied des WTO-Dienstleistungsabkommens (GATS) ist, zugelassenen Kreditinstituts oder Kreditversicherers zu erbringen. Die Sicherheitsleistung ist durch eine schriftliche, unbedingte und unbefristete selbstschuldnerische Bankbürgschaft unter Verzicht der Einrede der Anfechtung, Aufrechenbarkeit oder Vorausklage zu erbringen und hat deutschem Recht zu unterliegen.
+Die Sicherheitsleistung ist spätestens 14 Kalendertage nach der durch den Auftraggeber erfolgten Vertragszeichnung zu erbringen.
+Die Rückgabe der Sicherheitsleistung erfolgt nach Entfallen des Sicherungszwecks. Dieser umfasst insbesondere die vertragsgemäße Ausführung der Leistung sowie die Durchsetzung finanzieller Ansprüche des Auftraggebers einschließlich nachvertraglicher Abwicklungspflichten. Hierunter fällt insbesondere die Sicherstellung eines Ersatzverkehrs, falls der Auftragnehmer die vertraglich vereinbarte Verkehrsleistung nicht mehr erbringen kann. Der Sicherungszweck entfällt nach Abwicklung der letzten Zahlungen nach Beendigung des Verkehrsvertrages. 
+</cbc:Description>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E65125922</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E65125922</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">§ 56 VgV</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E65125922</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="DAY">61</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2024-03-11+01:00</cbc:EndDate>
+                <cbc:EndTime>10:00:00.000+01:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2024-03-11+01:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>10:05:00.000+01:00</cbc:OccurrenceTime>
+                <cbc:Description languageID="DEU">Bieter dürfen bei der Öffnung der Angebote gem. § 55 Abs. 2 VgV nicht anwesend sein. </cbc:Description>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>E65125922 Los 3</cbc:ID>
+            <cbc:Name languageID="DEU">Los 3: Linienbündel „412: Schwalm-West“</cbc:Name>
+            <cbc:Description languageID="DEU">Linie 460: Rauschenberg-Josbach – Gilserberg – Jesberg – Bad Zwesten – Kleinenglis
+Linie 461: Schwalmstadt – Gilserberg – Jesberg
+Linie 462: Schwalmstadt – Jesberg
+Linie 463: Gilserberg-Lischeid – Schwalmstadt
+Linie 464: Gemeindeverkehr Gilserberg
+Linie 465: Schwalmstadt - Gilserberg
+Linie 466: Schwalmstadt - Frielendorf
+Linie 460 ist eine regionale Linie entlang der B3, fungiert also als eine landkreisübergreifende Verbindung zwischen dem Schwalm-Eder-Kreis und dem Landkreis Marburg-Biedenkopf. Anschlüsse zu anderen Linien finden in Rauschenberg-Josbach mit Linie MR-72 in Richtung Marburg Hbf, in Bad Zwesten mit Linie 410 in Richtung Bad Wildungen, in Jesberg mit Linien 461 und 462 sowie in Kleinenglis mit Linie 413 nach Fritzlar statt. Die Funktion der Linie 461 ist die Verbindung von Gilserberg und Schwalmstadt sowie deren jeweiligen Ortsteile an die Kernstadt. Des Weiteren sind Schulfahrten zu Schulen im Bediengebiet in den Fahrplan der Linie integriert. Die Linie 462 dagegen sichert die Verbindung zwischen Jesberg und Schwalmstadt, sowie der Ortsteile von Schwalmstadt an die Kernstadt. Auch Schulen in Schwalmstadt werden im Rahmen von Schulfahrten mit eingebunden. 
+Die reinen Schullinien 463 und 464 sichern den Schülerverkehr während der Schulzeiten im Bediengebiet ab. Ergänzend zum regulären Linienverkehr werden die reinen AST-Linien 465 und 466 eingesetzt, um Lücken im Netz fahrgastfreundlich zu schließen. 
+Die Leistungen im Busverkehr können ab Betriebsstart fahrplanmäßig mit 12 Fahrzeugen (6 Standard-Solobusse Kategorie A, 6 Standard-Solobusse Kategorie B; vgl. Anlage zum Verkehrsvertrag „Unverbindliche Umlaufplanung“) und in einem durchschnittlichen Kalenderjahr gem. Ziffer 1.3 der Anlage A zum Angebotsschreiben „Vorgaben und Hinweise zur Angebotskalkulation“ mit gerundeten 746.426 Nkm (Nutzwagenkilometern) sowie gerundeten 21.277 Fahrplanstunden p.a. erbracht werden.
+Die Leistungen im AST-Verkehr können ab Betriebsstart mit 3 Fahrzeugen (Van) und geschätzten 57.300 Besetztkilometern p.a. erbracht werden.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60140000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

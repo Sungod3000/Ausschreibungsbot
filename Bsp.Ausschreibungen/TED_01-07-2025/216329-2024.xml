@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:Changes>
+                  <efbc:ChangedNoticeIdentifier>e062e8af-6807-48d7-a408-997330d8d01b-01</efbc:ChangedNoticeIdentifier>
+                  <efac:Change>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>ORG-7004</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                  </efac:Change>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="change-corrig-justification">update-add</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="DEU">Eine Anpassung der Vergabeunterlagen ist notwendig, vgl. Ziffer 2.3.12 in der Ergänzung zur Angebotsaufforderung (Version 2).
+
+Weitere Änderungen an den Vergabeunterlagen wurden nicht vorgenommen.</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:Changes>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Land Hessen, vertreten durch das Hessische Competence Center -Zentrale Beschaffung-</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65203</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 212 133 546</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611 7038 574</cbc:Telephone>
+                           <cbc:Telefax>+49 611 32 76 38 412</cbc:Telefax>
+                           <cbc:ElectronicMail>beschaffung@hcc.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 812 056 745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151 126603</cbc:Telephone>
+                           <cbc:Telefax>+49 611 327 648534</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00216329-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">73/2024</efbc:GazetteID><efbc:PublicationDate>2024-04-12Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">cd0948c7-5f3a-4880-b3ba-7db532318628</cbc:ID>
+   <cbc:ContractFolderID>465c03e1-daa8-474c-a855-dd3c5252dd4a</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-04-11+02:00</cbc:IssueDate>
+   <cbc:IssueTime>11:38:41+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-04-11+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Beschreibung: Bestätigung des Nichtvorliegens des Ausschlussgrundesdurch Abgabe einer entsprechenden Eigenerklärung (FormularEigenerklärung zu Russland-Sanktionen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>3</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0437-2024-0148</cbc:ID>
+      <cbc:Name languageID="DEU">RV Hygiene-, Reinigungsartikel und sonstige Ausstattungsmaterialien für HEAE (EBP)</cbc:Name>
+      <cbc:Description languageID="DEU">Rahmenvereinbarung zur Lieferung von Hygiene-, Reinigungsartikeln und sonstigen Ausstattungsmaterialien für HEAE (EBP)</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Die Vergabeunterlagen werden ausschließlich elektronisch zur Verfügung gestellt und können von der Vergabeplattform des Landes Hessen unter www.vergabe.hessen.de kostenfrei heruntergeladen werden.
+
+Die Angebote sind ausschließlich elektronisch über vergabe.hessen.de einzureichen - eine Abgabe via E-Mail genügt nicht!
+
+Mit dem Angebot sind folgende Unterlagen einzureichen:
+-Leistungsbeschreibung (Lose 1-3)
+-Eigenerklärung zur Eignung der angebotenen Produkte (Lose 1-3)
+-Nachweis einer bestehenden Berufshaftpflichtversicherung mit folgenden 
+Deckungssummen (Lose 1-3):
+- 3 Mio. € für Personenschäden
+- 500.000 € für sonstige Schäden (Sach- und Vermögensschäden)
+
+Der Nachweis kann durch Vorlage einer Kopie des Versicherungsscheins, durch Vorlage eines Bestätigungsschreibens der Versicherungsgesellschaft oder durch Abgabe einer Eigenerklärung über das Bestehen der Betriebshaftpflichtversicherung und ihre Laufzeit geführt werden. Im Falle der Abgabe einer Eigenerklärung ist der Nachweis unverzüglich nach Zuschlagserteilung durch Vorlage des Versicherungsscheins zu erbringen.
+Bei Unterschreitung der geforderten Deckungssummen ist eine Erklärung des Versicherers beizufügen, mit der dieser zusichert, dass im Auftragsfall der Versicherungsschutz auf die geforderten Deckungssummen erhöht werden kann.
+
+Die nachstehenden Unterlagen  sind direkt beim Regierungspräsidium Gießen einzureichen:
+-Muster Lose 2 und 3
+Für die Artikel 
+•des Loses 2 (mit Ausnahme der Positionen 2.7 bis 2.13 und 2.18 bis 2.21) sowie 
+•der Positionen 3.4, 3.6, 3.7, 3.8 und 3.9 des Loses 3 
+sind zwecks Überprüfung der Einhaltung der Mindestanforderungen Muster einzureichen.
+
+Werden die Muster bis spätestens zum Ende der Angebotsfrist (06.05.2024) nicht vorgelegt, führt dies zum Ausschluss des Bieters von dem weiteren Verfahren. Eine Nachforderung der Muster erfolgt nicht.
+
+Die Muster sind mit der Vergabe- und Positionsnummer des Leistungsverzeichnis-ses sowie dem Firmennamen des Bieters zu kennzeichnen. Sie müssen im Hinblick auf ihre Beschaffenheit (Verarbeitung, Qualität und Farbe) den jeweiligen Angaben des Leistungsverzeichnisses entsprechen.
+
+Die nicht berücksichtigten Muster können innerhalb von 6 Wochen nach der Zuschlagserteilung beim Auftraggeber abgeholt werden. Die Muster des bezuschlagten Angebots verbleiben beim Auftraggeber
+
+-Produktdatenblätter Lose 1 und 2
+Zum Nachweis der geforderten produktspezifischen Merkmale sind für die folgenden Produkte zusätzlich Produktdatenblätter einzureichen:
+•Produkte des Loses 1, mit Ausnahme der Positionen 1.3, 1.6 und 1.11
+•Produkte des Loses 2, Positionen 2.13, 2.19, 2.20 und 2.21
+
+Diese Produktdatenblätter haben auszuweisen:
+•Inhaltsstoffangabe
+•Einstufung gem. (EG)
+•Entsorgungshinweis zur Verpackung
+•Einsatzbereich
+•Produkteigenschaften
+•Anwendungshinweise
+
+Zertifikat "Blauer Engel" oder die Zertifizierung mit dem EU-Ecolabel (als gleichwertig e
+Alternative) für die Positionen 2.12, 2.13, 2.19, 2.20 und 2.21 (Los 2)
+
+Die Muster, Produktdatenblätter und Zertifizierungen sind in einem verschlossenen, äußerlich mit der Vergabenummer gekennzeichneten Karton an folgende Adresse kostenfrei zu übersenden:
+
+Regierungspräsidium Gießen 
+z.Hd. Ricardo Kießling 
+Stolzenmorgen 34
+Geb. 5
+35394 Gießen
+
+Verstößt der AN schuldhaft gegen seine vertragliche Verpflichtung, die jeweils abgerufenen Verbrauchsmaterialien/ Einzellieferungen spätestens 14 Tage nach Bestellung im Lagerraum des AG verfügbar zu machen, behält sich der AG vor, eine Vertragsstrafe pro vollendetem Werktag in Höhe von 0,2 % der Auftragssumme der ausstehenden Lieferung zu erheben. Bei einer Teilleistung der ausstehenden Lieferung behält sich der AG vor, eine Vertragsstrafe pro vollendetem Werktag in Höhe von 0,2 % der Auftragssumme des nicht geleisteten Anteils der Gesamtlieferung zu erheben.
+Die Summe aller Vertragsstrafen wird pro Vertragsjahr auf jeweils fünf von Hundert der jeweiligen Nettoabrechnungssumme des jeweiligen Vertragsjahres begrenzt.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">33700000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Stolzenmorgen 40</cbc:StreetName>
+            <cbc:CityName>Gießen</cbc:CityName>
+            <cbc:PostalZone>35394</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Rödgener Straße 91</cbc:StreetName>
+            <cbc:CityName>Gießen</cbc:CityName>
+            <cbc:PostalZone>35394</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Orleshäuser Straße 26</cbc:StreetName>
+            <cbc:CityName>Büdingen</cbc:CityName>
+            <cbc:PostalZone>63654</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederkleiner Straße 21</cbc:StreetName>
+            <cbc:CityName>Neustadt</cbc:CityName>
+            <cbc:PostalZone>35279</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Cargo City Süd, Geb. 587a</cbc:StreetName>
+            <cbc:CityName>Frankfurt a.M.</cbc:CityName>
+            <cbc:PostalZone>60549</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Fritz-Monka-Straße 5</cbc:StreetName>
+            <cbc:CityName>Bad Arolsen</cbc:CityName>
+            <cbc:PostalZone>34554</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Am Dachspfad 32</cbc:StreetName>
+            <cbc:CityName>Friedberg</cbc:CityName>
+            <cbc:PostalZone>61169</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Ikarusweg 5</cbc:StreetName>
+            <cbc:CityName>Fuldatal</cbc:CityName>
+            <cbc:PostalZone>34233</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Eschollbrückerstraße 45</cbc:StreetName>
+            <cbc:CityName>Darmstadt</cbc:CityName>
+            <cbc:PostalZone>64295</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Michaelisstraße 35</cbc:StreetName>
+            <cbc:CityName>Darmstadt</cbc:CityName>
+            <cbc:PostalZone>64293</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Stolzenmorgen 86</cbc:StreetName>
+            <cbc:CityName>Gießen</cbc:CityName>
+            <cbc:PostalZone>35394</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>An der Hessenhalle 5</cbc:StreetName>
+            <cbc:CityName>Alsfeld</cbc:CityName>
+            <cbc:PostalZone>36304</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- eine Liste mit geeigneten Referenzen der in den letzten drei Jahren erbrachten wesentlichen Leistungen mit folgenden Angaben: Art und Umfang, Erbringungszeitpunkt, Angabe des Werts, öffentlicher oder privater Empfänger mit den jeweiligen Kontaktdaten (Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen.)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e51a75127-3204ca6c69e83ef1</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-05-06+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-05-06+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:Justification languageID="DEU">Es besteht die zweimalige Option, den Vertrag jeweils um ein weiteres Jahr, also zunächst bis zum 30.06.2027 bzw. längstens bis zum 30.06.2028 zu verlängern. Der Vertrag ist unter Wahrung einer Kündigungsfrist von drei Monaten von beiden Seiten zum Ende des 24. Monats, danach zum Ende des 36. Monats ordentlich kündbar. Ansonsten verlängert sich der Vertrag stillschweigend längstens bis zum Ende des 48. Monats. Die maximale Vertragslaufzeit beträgt vier Jahre.</cbc:Justification>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Hygieneartikel</cbc:Name>
+         <cbc:Description languageID="DEU">Lieferung von Hygieneartikeln</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">1340218.00</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33700000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Stolzenmorgen 40</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Rödgener Straße 91</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Orleshäuser Straße 26</cbc:StreetName>
+               <cbc:CityName>Büdingen</cbc:CityName>
+               <cbc:PostalZone>63654</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederkleiner Straße 21</cbc:StreetName>
+               <cbc:CityName>Neustadt</cbc:CityName>
+               <cbc:PostalZone>35279</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Cargo City Süd, Geb. 587a</cbc:StreetName>
+               <cbc:CityName>Frankfurt a.M.</cbc:CityName>
+               <cbc:PostalZone>60549</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Fritz-Monka-Straße 5</cbc:StreetName>
+               <cbc:CityName>Bad Arolsen</cbc:CityName>
+               <cbc:PostalZone>34554</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Am Dachspfad 32</cbc:StreetName>
+               <cbc:CityName>Friedberg</cbc:CityName>
+               <cbc:PostalZone>61169</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Ikarusweg 5</cbc:StreetName>
+               <cbc:CityName>Fuldatal</cbc:CityName>
+               <cbc:PostalZone>34233</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Eschollbrückerstraße 45</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64295</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Michaelisstraße 35</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64293</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Stolzenmorgen 86</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>An der Hessenhalle 5</cbc:StreetName>
+               <cbc:CityName>Alsfeld</cbc:CityName>
+               <cbc:PostalZone>36304</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- eine Liste mit geeigneten Referenzen der in den letzten drei Jahren erbrachten wesentlichen Leistungen mit folgenden Angaben: Art und Umfang, Erbringungszeitpunkt, Angabe des Werts, öffentlicher oder privater Empfänger mit den jeweiligen Kontaktdaten (Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen.)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e51a75127-3204ca6c69e83ef1</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-05-06+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-05-06+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:Justification languageID="DEU">Es besteht die zweimalige Option, den Vertrag jeweils um ein weiteres Jahr, also zunächst bis zum 30.06.2027 bzw. längstens bis zum 30.06.2028 zu verlängern. Der Vertrag ist unter Wahrung einer Kündigungsfrist von drei Monaten von beiden Seiten zum Ende des 24. Monats, danach zum Ende des 36. Monats ordentlich kündbar. Ansonsten verlängert sich der Vertrag stillschweigend längstens bis zum Ende des 48. Monats. Die maximale Vertragslaufzeit beträgt vier Jahre.</cbc:Justification>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Reinigungsartikel</cbc:Name>
+         <cbc:Description languageID="DEU">Lieferung von Reinigungsartikeln</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">552985.40</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33700000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Stolzenmorgen 40</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Rödgener Straße 91</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Orleshäuser Straße 26</cbc:StreetName>
+               <cbc:CityName>Büdingen</cbc:CityName>
+               <cbc:PostalZone>63654</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederkleiner Straße 21</cbc:StreetName>
+               <cbc:CityName>Neustadt</cbc:CityName>
+               <cbc:PostalZone>35279</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Cargo City Süd, Geb. 587a</cbc:StreetName>
+               <cbc:CityName>Frankfurt a.M.</cbc:CityName>
+               <cbc:PostalZone>60549</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Fritz-Monka-Straße 5</cbc:StreetName>
+               <cbc:CityName>Bad Arolsen</cbc:CityName>
+               <cbc:PostalZone>34554</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Am Dachspfad 32</cbc:StreetName>
+               <cbc:CityName>Friedberg</cbc:CityName>
+               <cbc:PostalZone>61169</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Ikarusweg 5</cbc:StreetName>
+               <cbc:CityName>Fuldatal</cbc:CityName>
+               <cbc:PostalZone>34233</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Eschollbrückerstraße 45</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64295</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Michaelisstraße 35</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64293</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Stolzenmorgen 86</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>An der Hessenhalle 5</cbc:StreetName>
+               <cbc:CityName>Alsfeld</cbc:CityName>
+               <cbc:PostalZone>36304</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- eine Liste mit geeigneten Referenzen der in den letzten drei Jahren erbrachten wesentlichen Leistungen mit folgenden Angaben: Art und Umfang, Erbringungszeitpunkt, Angabe des Werts, öffentlicher oder privater Empfänger mit den jeweiligen Kontaktdaten (Referenzen sind dann geeignet, wenn diese in Art und Umfang dem hier zu vergebenden Auftrag entsprechen.)</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e51a75127-3204ca6c69e83ef1</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-05-06+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-05-06+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:Justification languageID="DEU">Es besteht die zweimalige Option, den Vertrag jeweils um ein weiteres Jahr, also zunächst bis zum 30.06.2027 bzw. längstens bis zum 30.06.2028 zu verlängern. Der Vertrag ist unter Wahrung einer Kündigungsfrist von drei Monaten von beiden Seiten zum Ende des 24. Monats, danach zum Ende des 36. Monats ordentlich kündbar. Ansonsten verlängert sich der Vertrag stillschweigend längstens bis zum Ende des 48. Monats. Die maximale Vertragslaufzeit beträgt vier Jahre.</cbc:Justification>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">Sonstige Ausstattungsmaterialien (Kleinküchenartikel)</cbc:Name>
+         <cbc:Description languageID="DEU">Lieferung von Reinigungsartikeln sonstigen Ausstattungsmaterialien</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efbc:FrameworkMaximumAmount currencyID="EUR">1266881.00</efbc:FrameworkMaximumAmount>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">33700000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Stolzenmorgen 40</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Rödgener Straße 91</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Orleshäuser Straße 26</cbc:StreetName>
+               <cbc:CityName>Büdingen</cbc:CityName>
+               <cbc:PostalZone>63654</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederkleiner Straße 21</cbc:StreetName>
+               <cbc:CityName>Neustadt</cbc:CityName>
+               <cbc:PostalZone>35279</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Cargo City Süd, Geb. 587a</cbc:StreetName>
+               <cbc:CityName>Frankfurt a.M.</cbc:CityName>
+               <cbc:PostalZone>60549</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Fritz-Monka-Straße 5</cbc:StreetName>
+               <cbc:CityName>Bad Arolsen</cbc:CityName>
+               <cbc:PostalZone>34554</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Am Dachspfad 32</cbc:StreetName>
+               <cbc:CityName>Friedberg</cbc:CityName>
+               <cbc:PostalZone>61169</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Ikarusweg 5</cbc:StreetName>
+               <cbc:CityName>Fuldatal</cbc:CityName>
+               <cbc:PostalZone>34233</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Eschollbrückerstraße 45</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64295</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Michaelisstraße 35</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64293</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Stolzenmorgen 86</cbc:StreetName>
+               <cbc:CityName>Gießen</cbc:CityName>
+               <cbc:PostalZone>35394</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>An der Hessenhalle 5</cbc:StreetName>
+               <cbc:CityName>Alsfeld</cbc:CityName>
+               <cbc:PostalZone>36304</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

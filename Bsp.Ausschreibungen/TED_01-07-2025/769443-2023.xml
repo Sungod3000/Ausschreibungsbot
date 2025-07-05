@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Hessen Mobil, Straßen- und Verkehrsmanagement, Kassel</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Leuschnerstraße 73</cbc:StreetName>
+                           <cbc:CityName>Kassel</cbc:CityName>
+                           <cbc:PostalZone>34134</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811700237</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 561 7667-0</cbc:Telephone>
+                           <cbc:Telefax>+49 561 7667-151</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabe.kassel@mobil.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim RP Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE812056745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151 126603</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Hessen Mobil, Straßen- und Verkehrsmanagement, Zentrale</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelmstraße 10</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65185</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811700237</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611 366-0</cbc:Telephone>
+                           <cbc:Telefax>+49 611 366-3435</cbc:Telefax>
+                           <cbc:ElectronicMail>post@mobil.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00769443-2023</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">244/2023</efbc:GazetteID><efbc:PublicationDate>2023-12-19Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">bf3eede8-6b18-4253-958c-5f222b966311</cbc:ID>
+   <cbc:ContractFolderID>55df3968-264e-40b4-9bf2-d81f7f535152</cbc:ContractFolderID>
+   <cbc:IssueDate>2023-12-18+01:00</cbc:IssueDate>
+   <cbc:IssueTime>11:36:48+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2023-12-18+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://vergabe.hessen.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>3</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0522-2023-0101</cbc:ID>
+      <cbc:Name languageID="DEU">Abfallbehälterleerung und Parkplatzreinigung im Zuge von B,L,K</cbc:Name>
+      <cbc:Description languageID="DEU">Abfallbehälterleerung und Abfallsammlung auf Parkplätzen im Zuge von Bundes-
+Landes und Kreisstraßen in den Meistereibezirken der Landkreise Kassel, Schwalm-Eder und Waldeck-Frankenberg</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">insbesondere Nennung der Stelle an die sich der Bewerber oder Bieter zur Nachprüfung behaupteter Verstöße gegen Vergabebestimmungen wenden kann
+Vergabekammer: Vergabekammer des Landes Hessen beim RP Darmstadt, Wilhelminenstraße 1-3, 64283 Darmstadt
+Nachprüfungsstelle: Hessen Mobil - Straßen- und Verkehrsmanagement Zentrale, Wilhelmstraße 10, 65185 Wiesbaden</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90510000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen: 
+
+-Angaben, ob ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren eröffnet oder die Eröffnung beantragt worden ist oder der Antrag mangels Masse abgelehnt wurde oder ein Insolvenzplan rechtskräftig bestätigt wurde,
+-ob sich das Unternehmen in der Liquidation befindet,
+-dass die Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt wurde,
+-dass sich das Unternehmen bei der Berufsgenossenschaft angemeldet hat,
+-dass nachweislich keine schweren Verfehlungen begangen wurden, die die Zuverlässigkeit als Bewerber in Frage stellen (bezüglich der schweren Verfehlungen wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister gem. § 6 WRegG beim Bundeskartellamt anfordern).
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt sind nach Aufforderung eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkassen und eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft / des zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorzulegen (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen: 
+
+- Nachweis entsprechender Berufshaftpflichtversicherungsdeckung, 
+- Erklärung über den Gesamtumsatz des Unternehmens sowie den Umsatz bezüglich der besonderen Leistungsart, die Gegenstand der Vergabe ist, jeweils bezogen auf die letzten drei Geschäftsjahre.
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, bezüglich des Gesamtumsatzes eine Bestätigung eines vereidigten Wirtschaftsprüfers/ Steuerberaters oder einen entsprechend testierten Jahresabschluss oder eine entsprechend testierte Gewinn- und Verlustrechnung zu verlangen (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen:
+
+Nachweis der Eignung durch:
+- Liste der wesentlichen in den letzten Jahren erbrachten Leistungen mit Angabe des Rechnungswertes, der Leistungszeit sowie der öffentlichen oder privaten Auftraggeber
+- Angabe der Zahl, der in den letzten drei abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal
+- die Eintragung in das Berufsregister ihres Sitzes oder Wohnsitzes.
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, zu den benannten Referenzen je eine schriftliche Bestätigung des Auftraggebers, dass die Leistungen auftragsgemäß erbracht wurden, zu verlangen (gilt auch für andere Unternehmer).
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, folgende Unterlagen zu verlangen: Gewerbeanmeldung, Handelsregisterauszug, Eintragung in die Handwerksrolle oder bei der Industrie- und Handelskammer (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">nyk</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18c3f29c625-29511c6320b4a4fa</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-01-23+01:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-01-23+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:01:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Abfallbehälterleerung und Parkplatzreinigung LKK</cbc:Name>
+         <cbc:Description languageID="DEU">Abfallentsorgung auf Parkplätzen der Straßenmeistereien Oberweser, Espenau, Wolfhagen: Die Leistung des Loses 1 umfasst die zweimalige Leerung pro Woche von ca. 22 Abfallbehältern (240 l) und die zweimalige wöchentliche Absammlung der Abfälle von 24 Parkplätzen. Die Abfälle sind einer Entsorgung zuzuführen.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90510000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-04-02+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-03-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen: 
+
+-Angaben, ob ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren eröffnet oder die Eröffnung beantragt worden ist oder der Antrag mangels Masse abgelehnt wurde oder ein Insolvenzplan rechtskräftig bestätigt wurde,
+-ob sich das Unternehmen in der Liquidation befindet,
+-dass die Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt wurde,
+-dass sich das Unternehmen bei der Berufsgenossenschaft angemeldet hat,
+-dass nachweislich keine schweren Verfehlungen begangen wurden, die die Zuverlässigkeit als Bewerber in Frage stellen (bezüglich der schweren Verfehlungen wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister gem. § 6 WRegG beim Bundeskartellamt anfordern).
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt sind nach Aufforderung eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkassen und eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft / des zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorzulegen (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen: 
+
+- Nachweis entsprechender Berufshaftpflichtversicherungsdeckung, 
+- Erklärung über den Gesamtumsatz des Unternehmens sowie den Umsatz bezüglich der besonderen Leistungsart, die Gegenstand der Vergabe ist, jeweils bezogen auf die letzten drei Geschäftsjahre.
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, bezüglich des Gesamtumsatzes eine Bestätigung eines vereidigten Wirtschaftsprüfers/ Steuerberaters oder einen entsprechend testierten Jahresabschluss oder eine entsprechend testierte Gewinn- und Verlustrechnung zu verlangen (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen:
+
+Nachweis der Eignung durch:
+- Liste der wesentlichen in den letzten Jahren erbrachten Leistungen mit Angabe des Rechnungswertes, der Leistungszeit sowie der öffentlichen oder privaten Auftraggeber
+- Angabe der Zahl, der in den letzten drei abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal
+- die Eintragung in das Berufsregister ihres Sitzes oder Wohnsitzes.
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, zu den benannten Referenzen je eine schriftliche Bestätigung des Auftraggebers, dass die Leistungen auftragsgemäß erbracht wurden, zu verlangen (gilt auch für andere Unternehmer).
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, folgende Unterlagen zu verlangen: Gewerbeanmeldung, Handelsregisterauszug, Eintragung in die Handwerksrolle oder bei der Industrie- und Handelskammer (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">nyk</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18c3f29c625-29511c6320b4a4fa</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-01-23+01:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-01-23+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:01:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Abfallbehälterleerung und Parkplatzreinigung SEK</cbc:Name>
+         <cbc:Description languageID="DEU">Abfallentsorgung auf Parkplätzen der Straßenmeistereien Melsungen, Borken, Schwalmstadt: Die Leistung des Loses 2 umfasst die zweimalige Leerung pro Woche von ca. 42 Abfallbehältern (240 l) und die zweimalige wöchentliche Absammlung der Abfälle von 39 Parkplätzen und 2 Parkbuchten. Die Abfälle sind einer Entsorgung zuzuführen</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90510000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-04-02+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-03-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen: 
+
+-Angaben, ob ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren eröffnet oder die Eröffnung beantragt worden ist oder der Antrag mangels Masse abgelehnt wurde oder ein Insolvenzplan rechtskräftig bestätigt wurde,
+-ob sich das Unternehmen in der Liquidation befindet,
+-dass die Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt wurde,
+-dass sich das Unternehmen bei der Berufsgenossenschaft angemeldet hat,
+-dass nachweislich keine schweren Verfehlungen begangen wurden, die die Zuverlässigkeit als Bewerber in Frage stellen (bezüglich der schweren Verfehlungen wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister gem. § 6 WRegG beim Bundeskartellamt anfordern).
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt sind nach Aufforderung eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkassen und eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft / des zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorzulegen (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen: 
+
+- Nachweis entsprechender Berufshaftpflichtversicherungsdeckung, 
+- Erklärung über den Gesamtumsatz des Unternehmens sowie den Umsatz bezüglich der besonderen Leistungsart, die Gegenstand der Vergabe ist, jeweils bezogen auf die letzten drei Geschäftsjahre.
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, bezüglich des Gesamtumsatzes eine Bestätigung eines vereidigten Wirtschaftsprüfers/ Steuerberaters oder einen entsprechend testierten Jahresabschluss oder eine entsprechend testierte Gewinn- und Verlustrechnung zu verlangen (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen:
+
+Nachweis der Eignung durch:
+- Liste der wesentlichen in den letzten Jahren erbrachten Leistungen mit Angabe des Rechnungswertes, der Leistungszeit sowie der öffentlichen oder privaten Auftraggeber
+- Angabe der Zahl, der in den letzten drei abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal
+- die Eintragung in das Berufsregister ihres Sitzes oder Wohnsitzes.
+
+Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Bei Einsatz von anderen Unternehmern sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Präqualifizierte andere Unternehmen führen den Nachweis durch den Eintrag im Amtlichen Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) und ggf. ergänzt durch geforderte auftragsspezifische Einzelnachweise.
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, zu den benannten Referenzen je eine schriftliche Bestätigung des Auftraggebers, dass die Leistungen auftragsgemäß erbracht wurden, zu verlangen (gilt auch für andere Unternehmer).
+Falls das Angebot in die engere Wahl kommt, behält sich der AG vor, folgende Unterlagen zu verlangen: Gewerbeanmeldung, Handelsregisterauszug, Eintragung in die Handwerksrolle oder bei der Industrie- und Handelskammer (gilt auch für andere Unternehmer).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">nyk</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18c3f29c625-29511c6320b4a4fa</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-01-23+01:00</cbc:EndDate>
+            <cbc:EndTime>11:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-01-23+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:01:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">Abfallbehälterleerung und Parkplatzreinigung WaFB</cbc:Name>
+         <cbc:Description languageID="DEU">Abfallentsorgung auf Parkplätzen der Straßenmeisterei Bad Arolsen, Bad Wildungen,
+Frankenberg und Korbach. Die Leistung umfasst die einmalige bzw. zweimalige Leerung pro Woche von ca. 77 Abfallbehältern (240 l) und die einmalige bzw. zweimalige wöchentliche Absammlung der Abfälle von 51 Parkplätzen. Die Abfälle sind einer Entsorgung zuzuführen.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90510000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-04-02+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-03-31+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

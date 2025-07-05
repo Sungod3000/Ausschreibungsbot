@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.mdc-berlin.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Max-Delbrück-Centrum für Molekulare Medizin in der Helmholtz-Gemeinschaft</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Robert-Rössle-Straße 10</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>13125</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>993-802044-44</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Abteilung Einkauf, Zentrale Vergabestelle Bau und Technik</cbc:Name>
+                           <cbc:Telephone>+49 3094062226</cbc:Telephone>
+                           <cbc:Telefax>+49 3094063842</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabestellebau@mdc-berlin.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Bundes beim Bundeskartellamt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53123</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:022894990</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 22894990</cbc:Telephone>
+                           <cbc:Telefax>+49 2289499163</cbc:Telefax>
+                           <cbc:ElectronicMail>info@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Bundes beim Bundeskartellamt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53123</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:022894990</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 22894990</cbc:Telephone>
+                           <cbc:Telefax>+49 2289499163</cbc:Telefax>
+                           <cbc:ElectronicMail>info@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00773107-2023</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">245/2023</efbc:GazetteID><efbc:PublicationDate>2023-12-20Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">01786bff-cd7d-44a9-8024-22dabcac7878</cbc:ID>
+   <cbc:ContractFolderID>390a296d-257f-4ad0-8cc1-eb9954ccac1b</cbc:ContractFolderID>
+   <cbc:IssueDate>2023-12-19+01:00</cbc:IssueDate>
+   <cbc:IssueTime>09:02:34+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2023-12-19+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Gesetz gegen Wettbewerbsbeschränkungen (GWB)
+Zwingende Ausschlussgründe § 123 (1) 1.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 123 (1) 1.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 123 (1) 2. und 3.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 123 (1) 4. und 5.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 123 (1) 6., 7., 8. und 9.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 123 (1) 10.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 123 (4) 1.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 123 (4) 1.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Gesetz gegen Wettbewerbsbeschränkungen (GWB)
+Fakultative Ausschlussgründe § 124 (1) 1.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 1.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 1.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 2.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 2.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 2.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 2.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 2.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 2.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 3.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 4.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 5.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 6.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 7.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (1) 8. und 9.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">GWB § 124 (2): § 21 des Arbeitnehmer-
+Entsendegesetzes, § 98c des Aufenthaltsgesetzes, §
+19 des Mindestlohngesetzes, § 21 des
+Schwarzarbeitsbekämpfungsgesetzes und § 22 des
+Lieferkettensorgfaltspflichtengesetzes vom 16. Juli
+2021 (BGBl. I S. 2959) bleiben unberührt.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>EK-Bau-2023-0043</cbc:ID>
+      <cbc:Name languageID="DEU">U31.1, Nachhaltige Sanierung MDH/Tragwerksplanung gem. HOAI §51</cbc:Name>
+      <cbc:Description languageID="DEU">U31.1, Nachhaltige Sanierung MDH/Tragwerksplanung gem. HOAI §51</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">(1) Die insb. in Ziff. 5.1.9 geforderten Erklärungen und Angaben werden im Rahmen der zu verwendenden Formblätter (Teilnahmeantrag [interaktive PDF-Datei] und Eigenerklärung zum Nichtvorliegen von Ausschlussgründen [Formular VHB 124 LD] sowie - sofern zutreffend - Bewerbergemeinschaftserklärung [VHB 234], Erklärungen für Nachunternehmer [VHB 236]) präzisiert und abgefordert und sind nicht separat zu erklären/abzugeben. Die Formblätter sind in deutscher Sprache vollständig auszufüllen. Eine Unterschrift ist bei elektronischer Bewerbung nicht erforderlich, der Name des Erklärenden/der bevollmächtigten Person sowie der Name des Unternehmens ist jedoch zwingend anzugeben. Im Falle einer Bewerbergemeinschaft sind die Angaben für das sich bewerbende Team als Ganzes vorzunehmen. Je Bewerbung ist nur ein Teilnahmeantrag zugelassen. Der bevollmächtigte Vertreter füllt den Teilnahmeantrag aus. Die Bewerbungsunterlagen sind elektronisch unter Nutzung des sog. Bietertools auf der Vergabeplattform bis zu der in Ziff. 5.1.12 genannten Frist einzureichen, ansonsten wird der Bewerber/die Bewerbergemeinschaft zwingend ausgeschlossen. Die Nichtvorlage bzw. die Vorlage nicht vollständiger Unterlagen, Erklärungen und Nachweise - auch auf Nachforderung gemäß VgV §56 [2] - hat den zwingenden Ausschluss vom weiteren Verfahren zur Folge. Eine Nachforderung bei fehlerhaften Referenznachweisen ist über den Umfang der Liste in Pkt. 5.1 des Teilnahmeantrages hinaus nicht vorgesehen. Die Bewerbungsunterlagen verbleiben beim Auftraggeber. Ein Anspruch auf Kostenerstattung besteht nicht. 
+(2) Sofern der Bewerber eine Einheitliche Europäische Eigenerklärung einreichen möchte, muss er sicherstellen, dass die EEE sämtliche zuvor genannten Angaben/Erklärungen/Nachweise enthält. Die EEE muss nicht verwendet werden, wenn der Teilnahmeantrag inkl. Anlagen vollständig ausgefüllt eingereicht wird. 
+(3) Unter der in Ziff. 5.1.11 genannten Adresse können alle Vergabeunterlagen (Formblätter [s.o.] inkl. Bewertungsmatrix Stufe 1 sowie Zuschlagskriterien/Bewertungsmatrix Stufe 2 und die in Ziff. 5.1.1 "Optionen" aufgeführten Unterlagen) sowie Änderungen/ Ergänzungen zur Bekanntmachung u.ä. wie auch die weiteren Auskünfte abgerufen werden. Bewerber sind verpflichtet, sich eigenständig die Informationen dort zu verschaffen. 
+(4) Rückfragen werden nur zugelassen und beantwortet, wenn sie so rechtzeitig eingehen, dass der Auftraggeber 6 Tage vor Ablauf der Bewerbungsfrist die zusätzlichen Auskünfte erteilen kann (VgV § 20 [3], Unterabsatz 1). Die Kommunikation erfolgt nur über die Internetplattform des Bauherrn. 
+(5) Hinweis zu Ziff. 5.1.10 Zuschlagskriterien: Die Angebotsinhalte zu den nichtpreislichen Angebotsbestandteilen werden nicht verhandelt. Die für die nichtpreisliche Bewertung relevanten Angebotsbestandteile sind mit dem Erstangebot vorzulegen und werden auf dieser Grundlage unter Berücksichtigung einer vorgesehenen Präsentation (s.a. Hinweise in der Bewertungsmatrix) bewertet. Je Kriterium werden 0, 1, 3 oder 5 Punkte vergeben (näheres siehe Vergabeunterlagen). Es können insg. maximal 320 Punkte erreicht werden. Bewertung Honorarangebote: Die einzelnen Honorarangebote werden jeweils mit max. 5 Punkten bewertet. 5 Punkte erhält das Angebot mit dem niedrigsten Preis, 0 Punkte erhalten Angebote mit dem 1,75-fachen oder mehr als dem 1,75-fachen des niedrigsten Preises. Die Punktzahl errechnet sich im Übrigen dann wie folgt: 0 + 5 x (niedrigster Preis x 1,75 - Preis) / (niedrigster Preis x 1,75 - niedrigster Preis). 
+(6) Der Bauherr beabsichtigt, i.R. der Verhandlung (Zuschlagsverfahren) die Frist für die Einlieferung der finalen Honorarangebote im Einvernehmen mit den Bietern auf 10 Tage festzulegen. Der Auftraggeber behält sich vor, den Zuschlag gemäß VgV §17 (11) auf der Grundlage der Erstangebote zu erteilen. 
+(7) Mit Teilnahme an dem Vergabeverfahren erklärt sich der Bewerber einverstanden, dass sämtliche, auch personenbezogene, vom Bewerber zur Verfügung gestellte Daten im Rahmen des Vergabeverfahrens gespeichert und verarbeitet werden. Er erklärt ferner, dass die Zustimmung hierzu von den betreffenden Personen vorliegt. Die Daten werden ausschließlich für dieses Vergabeverfahren verwendet. Für weitere Informationen zum Datenschutz bitte an die in Ziff. 1.1 genannte Kontaktstelle wenden.
+
+Auswahlkriterien
+Objektive Kriterien für die Auswahl der begrenzten Zahl von Bewerbern: 
+(1)	Die fristgerechte Vorlage der geforderten Nachweise, Erklärungen und der vollständig ausgefüllte Teilnahmeantrag gemäß Ziffer 5.1.9.
+(2)	Die Beschränkung der Zahl der Bewerber, die zur Angebotsabgabe aufgefordert werden erfolgt auf Grundlage der zum Nachweis der Eignung gemachten Angaben, vorgelegten Erklärungen und Unterlagen mit einem Schwerpunkt bei den Referenzprojekten. Die maximal erreichbare Punktzahl beträgt 655 Punkte (Finanzielle und wirtschaftliche Leistungsfähigkeit: rd. 19,85 %; Technische und berufliche Leistungsfähigkeit: rd. 80,15 %). 
+Wertung im Einzelnen (max. Punktzahl bei): 1.1 Nettojahresumsatz (EURO) im Leistungsbild Tragwerksplanung i.S. HOAI 2021 §51 im Mittel der letzten drei Geschäftsjahre (2021, 2022, 2023 [ggf. als Prognose]): größer/gleich 0,2 Mio. €; 2.1.1 Anzahl (Vollzeitäquivalent) der  Ingenieure (inkl. Führungskräfte)  im Leistungsbild Tragwerksplanung i.S. HOAI 2021 §51 im Mittel der letzten 3 Jahre  (2021, 2022, 2023): größer/gleich 4; 2.2.1-2.2.6 Referenzprojekte übergeordnet: 2.2.1 öffentlicher Auftrag im Sinne GWB §103; 
+2.2.2 Bauwerkskosten (Summe Kosten KGr 300-400 nach DIN 276) in EURO netto: größer/gleich 7,0 Mio. €; 2.2.3 Bruttogrundfläche BGF: größer/gleich 7.000 qm; 2.2.4 Bearbeitete Leistungsphasen im Sinne HOAI 2021 §51: 6 LPh; 2.2. Honorarzone(n) im Sinne HOAI 2021 §52: größer/gleich III; 2.2.6 Art der Baumaßnahme im Sinne HOAI §2: Umbau- und/oder Modernisierungsmaßnahme; 2.2.7-2.2.17 Zusätzliche Angaben (je Leistung/ Projektmerkmal geht max. ein Referenzprojekt positiv in die Wertung ein): 2.2.7 Planungsleistungen für Laborneu- und/oder -umbauten; 2.2.8 Planungsleistungen unter Anwendung einer BNB-Zertifizierung o.vgl. Bewertungssystem für Nachhaltiges Bauen; 2.2.9 Bauen im Bestand: Planungsleistungen für Bestandsobjekt mit Tragsystem vgl. zum Bausystem "SK-Berlin"; 2.2.10 Planung für Gebäude mit skelettartiger Grundstruktur; 2.2.11 Komplexe Schlitz- und Durchbruchsplanung, wie zum Beispiel in Laborgebäuden, Kliniken u.ä.; 2.2.12 Bauen im Bestand: statisch relevante Teilabbruchmaßnahmen innerhalb des Bestandes; 2.2.13 Bauen im Bestand: kostenoptimierte, tragwerksplanerische Kompensation von Eingriffen in die vorhandene Bausubstanz; 2.2.14 Nachweise zum konstruktiven Brandschutz; 2.2.15 Ingenieurtechnische Kontrolle der Ausführung des Tragwerks auf Übereinstimmung mit den geprüften statischen Unterlagen; 2.2.16 Realisierung von Umbau-/Modernisierungsmaßnahmen bei laufendem Betrieb mit Gewährleistung sämtlicher (sicherheits-) technischer Belange (z.B. Statik, Brandschutz, Heizung, Lüftung, Elektro, Sanitär); 2.2.17 abschnittsweise Realisierung von Baumaßnahmen innerhalb eines Bestandsobjektes.
+Detaillierte Angaben zur Bewertung können der "Bewertungsmatrix Stufe 1 - Teilnahmewettbewerb" im Anhang zum Teilnahmeantrag (s. Vergabeunterlagen - Dokument "Teilnahmeantrag") entnommen werden.
+(3)	Eine Beschränkung der Zahl der Bewerber, die zur Angebotsabgabe aufgefordert werden erfolgt nur, wenn mehr als drei Bewerber die Mindestanforderungen erfüllen. In diesem Fall ist die Rangfolge der erreichten Punkte für die Auswahl maßgebend. Bei Punktegleichstand entscheidet das Los. (§75 [6] VgV).
+
+Anhand der Kriterien werden die Bewerber ausgewählt, die zur zweiten Phase des Verfahrens eingeladen werden sollen
+Informationen über die zweite Phase eines zweiphasigen Verfahrens:
+Mindestzahl der zur zweiten Phase des Verfahrens einzuladenden Bewerber: ............. (&gt;&gt;&gt;&gt; entfällt!)
+Höchstzahl der zur zweiten Phase des Verfahrens einzuladenden Bewerber: ...........(&gt;&gt;&gt;&gt; entfällt!)
+
+Genau: 3
+
+Der Erwerber behält sich das Recht vor, den Auftrag aufgrund der ursprünglichen Angebote ohne weitere Verhandlungen zu vergeben</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71327000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Robert-Rössle-Straße 10</cbc:StreetName>
+            <cbc:CityName>Berlin</cbc:CityName>
+            <cbc:PostalZone>13125</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgende aktuelle Nachweise/Erklärungen des Bewerbers - bei Bewerbergemeinschaften von allen Mitgliedern - sind zwingend gefordert; bei Nichtvorlage/-abgabe oder unvollständiger Abgabe mit der Bewerbung - auch auf Nachforderung gemäß VgV §56 (2) - wird der Bewerber ausgeschlossen: 
+(1) Eigenerklärungen/Auflagen: 
+a) 	Soweit der Bewerber eintragungspflichtig ist: Auszug aus dem Handelsregister oder dem vergleichbaren Register des Heimatlandes des Bewerbers sowie Eigenerklärung (Teilnahmeantrag Pkt. 2) des Bewerbers, dass der Auszug den aktuellen Eintragungsstand wiedergibt. 
+b) 	Eigenerklärung (Teilnahmeantrag Pkt. 2), dass er im Auftragsfall die Versicherung gemäß Ziff. 5.1.9 "Wirtschaftliche und finanzielle Leistungsfähigkeit" für die gesamte Vertragslaufzeit zur Verfügung stellt. 
+c) 	Eigenerklärung, dass keine Ausschlussgründe gemäß Gesetz gegen Wettbewerbsbeschränkungen (GWB) §123 und §124 vorliegen (Eigenerklärung zur Eignung - Formular VHB 124 LD). 
+d) 	Eigenerklärung (Teilnahmeantrag Punkt 3) zu wirtschaftlichen Verknüpfungen. 
+e) 	Eigenerklärung zur Beruflichen Befähigung (Teilnahmeantrag Punkt 6) gemäß Unterpunkt 3 dieses Abschnitts.
+f) 	Beruft sich der Bewerber/ die Bewerbergemeinschaft zur Begründung seiner/ihrer Eignung auf die Kapazitäten anderer Unternehmen (Nachunternehmer), sind die betreffenden Nachunternehmer zu benennen (Teilnahmeantrag Punkt 1), die Verpflichtungserklärungen der betreffenden Nachunternehmer nach §47 (1) VgV (Formular VHB 236) sowie Erklärungen gemäß §§123 und 124 GWB über das Nichtzutreffen möglicher Ausschlussgründe (Formular VHB 124 LD) für die betreffenden Nachunternehmer vorzulegen. Anderenfalls sind die unter dieser Ziffer geforderten Erklärungen und Nachweise für Nachunternehmer erst auf Verlangen des Auftraggebers vorzulegen. 
+g) 	Eigenerklärung (Sonderformular Russland-Embargo) zu einem etwaigen Russlandbezug. 
+
+(2) Rechtsform der Bietergemeinschaft, an die der Auftrag vergeben wird: Bewerbergemeinschaften sind vor Angebotsabgabe nicht verpflichtet, eine bestimmte Rechtsform anzunehmen. Bewerbergemeinschaften haben mit ihrer Bewerbung eine von allen Mitgliedern unterzeichnete Erklärung (Bewerbergemeinschaftserklärung) unter zwingender Verwendung des für die Abgabe einer Bewerbung abzurufenden Formblattes (Erklärung der Bieter-/Bewerbergemeinschaft Formular VHB 234) abzugeben, 
+- 	in der die Bildung einer Arbeitsgemeinschaft im Auftragsfall erklärt ist, 
+- 	in der alle Mitglieder aufgeführt sind und der für die Durchführung des Vertrages bevollmächtigte Vertreter bezeichnet ist, 
+- 	mit einer Erklärung, dass der bevollmächtigte Vertreter die Mitglieder gegenüber dem Auftraggeber rechtsverbindlich vertritt, 
+- 	in der erklärt wird, dass alle Mitglieder als Gesamtschuldner haften. 
+Mehrfachbeteiligungen, d.h. parallele Beteiligung als Einzelbieter und gleichzeitig als Gesellschafter einer Bietergemeinschaft sowie als Bieter und gleichzeitig als Nachunternehmer eines Bieters / einer Bietergemeinschaft, führen - wegen der damit verbundenen drohenden Verletzung des Geheimwettbewerbs - zum Ausschluss, sofern die betroffenen Unternehmen nicht nachweisen, dass die Angebote völlig unabhängig voneinander erstellt wurden.
+
+(3) Besonderer Berufsstand: Die Erbringung der Dienstleistung ist einem besonderen Berufsstand vorbehalten: VgV §75 (1-3) in Verbindung mit VgV §44: Teilnahmeberechtigt sind Ingenieure:
+1) Natürliche Personen werden zugelassen, wenn sie nach den Gesetzen der Länder berechtigt sind, die Berufsbezeichnung Ingenieur zu tragen oder wenn sie berechtigt sind, in der Bundesrepublik Deutschland als Ingenieur tätig zu werden.
+2) Juristische Personen werden zugelassen, wenn sie für die Durchführung der Aufgabe einen verantwortlichen Berufsangehörigen gemäß dem vorstehenden Absatz benennen.
+3) Bei Bewerbergemeinschaften muss jedes Mitglied die Anforderungen erfüllen, die an natürliche und/oder juristische Personen gestellt werden.
+Eine Eigenerklärung gemäß vorstehenden Festlegungen erfolgt im Teilnahmeantrag (s. Pkt. 6).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">(1) Umsatz: Eigenerklärung (Teilnahmeantrag Punkt 4.1) zum Netto-Jahresumsatz in den letzten drei abgeschlossenen Geschäftsjahren (2021, 2022, 2023 [ggf. als Prognose]) im Leistungsbild Tragwerksplanung im Sinne HOAI 2021 §51 gesamt. 
+Im Falle der Einschaltung eines Nachunternehmers darf der Umsatz des Nachunternehmers nur entsprechend seines Anteils am Gesamtauftrag angegeben werden, wenn der Nachunternehmer diesen Umsatz mit vergleichbaren Leistungen erzielt hat [Kriterium "Eignung zur Berufsausübung" - Pkt. (1) - Unterpunkt f, sind zu beachten].
+(2) Geforderte Kautionen/Sicherheiten: Der Auftragnehmer hat im Auftragsfall eine Berufshaftpflichtversicherung nachzuweisen und für die gesamte Dauer des Vertrages aufrechtzuerhalten. Eine Erklärung, dass diese im Auftragsfall abgeschlossen wird, ist erforderlich (Teilnahmeantrag Punkt 2). Bei Arbeitsgemeinschaften muss der Versicherungsschutz für  alle Mitglieder in voller Höhe bestehen oder gegebenenfalls eine projektbezogene Versicherung abgeschlossen werden. Die Gesamtleistung für alle Versicherungsfälle eines Versicherungsjahres muss mindestens das 2-fache der Deckungssumme betragen. 
+Folgende Mindestanforderungen sind zu erfüllen; Bewerbungen, die diese Mindestanforderungen nicht erfüllen, werden vom weiteren Vergabeverfahren zwingend ausgeschlossen: 
+Zu (1): Netto-Jahresumsatz im Mittel der letzten drei abgeschlossenen Geschäftsjahre (2021, 2022, 2023 [ggf. als Prognose]) im Leistungsbild Tragwerksplanung im Sinne HOAI 2021 §51: Mindestanforderung: mind. 100.000,00 EUR netto pro Jahr im Durchschnitt.
+Zu (2): Berufshaftpflicht mit einer Deckungssumme von mindestens 3,0 Millionen EURO je Schadensfall für Personenschäden sowie 5,0 Millionen EURO für sonstige Schäden je Auftragnehmer (Bewerber/Mitglied der Bewerbergemeinschaft).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zur personellen Ausstattung / Angaben zur Leistungserbringung.
+
+(1) Darstellung (Teilnahmeantrag Abschnitt 4.2) der Anzahl (Vollzeitäquivalent) der in den letzten drei Jahren (2021, 2022, 2023) jahresdurchschnittlich beschäftigten Ingenieure (Dr.-Ing., Dipl.-Ing. bzw. Bachelor/Master oder gleichwertiger Abschluss) im Leistungsbild Tragwerksplanung im Sinne HOAI 2021 §51 gesamt / mit Berufserfahrung größer/gleich 5 Jahre.
+Im Falle der Einschaltung eines Nachunternehmers können nur die Mitarbeiter des Nachunternehmers hinzugerechnet werden, die für den entsprechenden Leistungsanteil eingesetzt wurden. 
+Folgende Mindestanforderungen sind zu erfüllen; Bewerbungen, die diese Mindestanforderungen nicht erfüllen, werden vom weiteren Vergabeverfahren zwingend ausgeschlossen: Anzahl (Vollzeitäquivalent) der jahresdurchschnittlich beschäftigten Ingenieure [Dr.-Ing., Dipl.-Ing. bzw. Bachelor/Master oder gleichwertiger Abschluss] im Leistungsbild Tragwerksplanung im Sinne HOAI 2021 §51 im Durchschnitt der letzten 3 Jahre: mind. 2 pro Jahr im Durchschnitt, davon mind. 1 pro Jahr im Durchschnitt mit Berufserfahrung größer/gleich 5 Jahre.
+(2) Darstellung (Teilnahmeantrag Punkt 1), welche Leistungen mit dem eigenen Büro und welche gegebenenfalls durch Nachunternehmer erbracht werden sowie deren Benennung. 
+
+Angaben zu mit der Bauaufgabe und der ausgeschriebenen Leistung vergleichbaren Referenzprojekten.
+
+(3) Für das in Ziffer 5.1 aufgeführte Leistungsbild sind aus einer Referenzliste (Teilnahmeantrag Pkt. 5.1) mindestens 2 und maximal 3 mit der Bauaufgabe vergleichbare Referenzprojekte detailliert vorzustellen (Teilnahmeantrag Abschnitt 5.2), die anhand der Auswertungsmatrix bewertet werden. Für die Wertungsfähigkeit müssen jeweils folgende Unterangaben vollständig getätigt werden: 
+- Bezeichnung und Ort/Land des Bauvorhabens;
+- Auftraggeber (Name/Kontaktdaten; der Bauherr behält sich vor, Erkundigungen einzuholen);
+- Auftragnehmer;
+- Datum Fertigstellung der rohbaurelevanten Arbeiten;
+- Bauwerkskosten (Summe Kosten KGr 300-400 nach DIN 276) in Euro netto; 
+- Bruttogrundfläche BGF in qm;
+- Bearbeitete Leistungsphasen i.S. HOAI 2021 §51
+- Art der Baumaßnahme i.S. HOAI 2021 §2 (Umbau- und/oder Modernisierungsmaßnahme / Neubau- und/oder Erweiterungsbaumaßnahme / Andere).
+Für die Bewertung der fachlichen Eignung können, sofern zutreffend, außerdem zusätzliche Angaben zu ausgewählten Leistungen/ Projektmerkmalen in den mind. 2 und max. 3 Referenzprojekten (siehe Teilnahmeantrag Pkt. 5.2.1 - 5.2.3) erfolgen (nicht zwingend in Bezug auf die Wertungsfähigkeit des Teilnahmeantrags/der Referenzprojekte). Es geht je Leistung/Projektmerkmal maximal ein Projekt in die Wertung ein.
+Die Referenzen müssen auf je maximal 2 DIN-A4-Seiten (einseitig) in Form von Texten, Plänen, Fotos oder Skizzen weiterführend dargestellt werden. Bei Nichtvorlage wird/werden die Referenz/en nicht gewertet.
+Die Angaben zu den Referenzprojekten (Teilnahmeantrag Pkt. 5) sind von der Bewerbergemeinschaft  insgesamt (inklusive Nachunternehmer, sofern zutreffend) zu machen.
+Folgende Mindestanforderungen sind zu erfüllen; Bewerbungen, die diese Mindestanforderungen nicht erfüllen, werden vom weiteren Vergabeverfahren zwingend ausgeschlossen:
+Mindestanforderungen, damit die Eignung zuerkannt werden kann: Gewertet werden nur Referenzprojekte (mindestens 2 und maximal 3), welche die folgenden Bedingungen erfüllen:
+1.	Fertigstellung der rohbaurelevanten Arbeiten im Zeitraum 01/2016 bis 12/2023;
+2.	Bauwerkskosten (Summe Kosten KGr 300-400 nach DIN 276): mindestens 6,0 Mio. Euro netto pro Projekt.
+Mit diesen Referenzprojekten (mindestens 2 und maximal 3) sind zusätzlich folgende Mindestanforderungen zu erfüllen:
+a)	mindestens ein Referenzprojekt mit der Zuordnung "Öffentlicher Auftrag im Sinne GWB §103";
+b)	mindestens ein Referenzprojekt mit der Zuordnung Umbau- und/oder Modernisierungsmaßnahme im Sinne HOAI §2;
+c)	mindestens ein Referenzprojekt, bei dem die Grundleistungen der Leistungsphasen 1 bis 6 im Sinne HOAI 2021 §51 durchgängig erbracht wurden;
+d)	mindestens ein Referenzprojekt mit Honorarzone im Sinne HOAI 2021 §52 größer/gleich 3. 
+Diese vier weiteren Mindestanforderungen müssen in einem oder mehreren Referenzprojekten (maximal 3) erfüllt sein, die Kombination dabei ist beliebig.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Direktlink auf Dokument mit Eignungskriterien (URL): https://vergabekooperation.berlin/NetServer/SelectionCriteria/54321-Tender-18c6d2a273f-8be3a2e2645bf46</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabekooperation.berlin/NetServer/</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">siehe Unterlagen</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">(1) Örtliche Präsenz während der Planungs- und Bauzeit in engen Intervallen gemäß Erfordernis; personelle Kontinuität bezüglich der Präsenz vor Ort. 
+(2) Gesetze/Verordnungen/Verwaltungsvorschriften sowie ergänzende Vorschriften und Regeln des Bundes und des Landes Berlin (u.a. RBBau, LHO / VV-BHO, RZBau, VHB, BauO Bln). 
+(3) Bürgerliches Gesetzbuch (BGB).
+(4) Vertrag inkl. Anlagen.
+(5) Im Falle der Einladung zur Verhandlung vorzulegende Erklärungen (s. Ziffer 5.1.1).
+(6) Berufshaftpflichtversicherung gem. Ziff. 5.1.9 "Wirtschaftliche und finanzielle Leistungsfähigkeit".
+(7)  Einschätzung AG bzgl. Honorarzone (HOAI §56): AGr 4, 5 und 6: HZ II Basissatz (bei Anlagen, die abweichenden Honorarzonen zuzuordnen sind, soll das Berechnungsverfahren gem. HOAI §56 [4] Anwendung finden); Zuschlag für Instandhaltung/-setzung gem. HOAI §12: entfällt; Umbauzuschlag gem. HOAI §56: max. 50%; Stundensätze größer 90/70/55 € (AN/Mitarbeiter/techn. MA) bedürfen einer Begründung.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>22.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Personaleinsatzkonzept (nach näherer Maßgabe der Vergabeunterlagen [Hyperlink siehe 5.1.11], hier: Dokument "Zuschlagskriterien")</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>17.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Strukturelle Herangehensweise (siehe oben)</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>31.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Herangehensweise an komplexe fachtechnische Aufgabenstellungen (siehe oben)</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabekooperation.berlin/NetServer/</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">2</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-02-14+01:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-01-24+01:00</cbc:EndDate>
+            <cbc:EndTime>13:00:00+01:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">U31.1, Nachhaltige Sanierung MDH/Tragwerksplanung gem. HOAI §51</cbc:Name>
+         <cbc:Description languageID="DEU">Sanierung Max-Delbrück-Haus (MDH bzw. Haus 31.1) - Vergabe der Tragwerksplanung gemäß HOAI §51. 
+Grundlage bilden insb. eine Machbarkeitsstudie sowie ein Konzept zur Grund- und Energetischen Sanierung aus 2022.
+Die maßgeblichen Ausarbeitungen sind Bestandteil der Vergabeunterlagen, zum einen als Grundlage der weiteren Planung, zum anderen zum Zwecke des Ausgleichs eines Informationsvorsprungs, da nicht auszuschließen ist, dass sich z.B. die Ersteller der Machbarkeitsstudie in diesem Verfahren bewerben.
+Das Vorhaben wird zu wesentlichen Teilen aus Zuwendungsmitteln des Bundes (90%) und des Landes (10%) sowie aus Drittmitteln finanziert. Es handelt sich um eine Zuwendungsmaßnahme i.S. §44 BHO nach RZBau; das BBR ist mit Prüf- bzw. Kontrolltätigkeiten betraut
+Das MDH ist das größte Forschungsgebäude auf dem Campus Berlin-Buch des Max-Delbrück-Center (NUF 10.700 qm), "Herzstück" der wissenschaftlichen Forschung am MDC mit rd. 50% der wissenschaftlichen Arbeitsgruppen. Das Haus ist Teil des Gebäudekomplexes 31 (31.1, 31.2, externe Technikzentrale 31.3). Es wurde 1980 in Betrieb genommen, in den 90er Jahren ein erstes Mal saniert. Das Gebäude wurde als funktionaler Stahlbetonfertigteilbau im 7,20 m-Raster nach dem System "SK Berlin" errichtet und weißt daher generell einen hohen Wiederholungsgrad in der Konstruktion auf.
+Die Investitionsgüter (Laborausstattung, Ausbau) haben ihre Lebensdauer überschritten. Mit dem Hauptanteil an Laborfläche ist das Gebäude zudem der größte Energieverbraucher des MDC. Daher soll das Haus 2024-2031 schrittweise saniert, dabei eine Reduktion des Energieverbrauchs um bis zu 65% erreicht werden. 
+Da die größte Herausforderung bei der Sanierung der hohe Energiebedarf ist (insb. Raumlufttechnik), wurde eine Machbarkeitsstudie beauftragt, um ein innovatives Konzept für einen neuen Laborstandard zu entwickeln und eine Senkung der CO2-Emissionen und Energiekosten zu erreichen. Ziel ist durch Anpassung der raumstrukturellen Organisation und der Workflows sowie Optimierung der Strömungstechnik im Labor den Luftwechsel so weit zu senken, dass das Gebäude langfristig mit erneuerbaren Energien versorgt werden kann. 2024-2028 ist die Umsetzung der 1. Teilbaumaßnahme mit den Bauabschnitten A1.1 und A1.2 sowie A2 vorgesehen. Im 1. BA soll auf einer Teilfläche A1.1 ein Demonstrator-Labor vorzeitig errichtet werden. Die Erkenntnisse sollen für die weiteren Bauabschnitte genutzt werden. 
+Die zu vergebenden Planungsleistungen betreffen: 
+- Grundsanierung (Erneuerung Dachabdichtung/extensive Begrünung, Labormöbel etc.); 
+- Energetische Sanierung (u.a. Umbau RLT- Anlagen, Installation Photovoltaik); 
+- Erneuerung IT-/Elektronetz; 
+- Raumstrukturelle Optimierungen. 
+
+Die geplanten Maßnahmen zeichnen sich zusammenfassend wie folgt aus: 1. Art: Bauen im Bestand (Sanierung / partieller Umbau); 2. BGF A1 und A2: rd. 14.000 qm; 3. Geschätzte Bauwerkskosten A1 und A2 netto (KGr 300-400 nach DIN 276): rd. 26,2 Mio. EUR (KGr 300: 9,1 Mio. EUR / KGr 400: 17,1 Mio. EUR [inkl. Labortechnik]). 
+ 
+Die beabsichtigte Vergabe umfasst die Leistungen der Tragwerksplanung gem. HOAI §51. Nur ein Teil der geplanten Baumaßnahmen werden die tragende Konstruktion betreffen. Speziell betroffen sind voraussichtlich: 
+-	Planungsleistungen im Zusammenhang mit der Zentralisierung vorhandener Einzelschächte im Zuge der raumstrukturellen Anpassungen: punktuelle Eingriffe in die vorhandenen Deckenplatten. Im Zuge der Planung des "Demonstrators" wurden hierzu bereits Varianten untersucht - so sollen gemäß aktuellem Planungsstand in dieser Einheit zwei Zentralschächte und damit vorhandene Durchbruchszonen in zwei Installationsdeckenplatten vergrößert werden. Sofern erforderlich, müssen ggf. vereinzelt auch horizontale Durchbrüche in Trägern und tragenden Wänden gesetzt werden.
+-	Planungsleistungen im Zusammenhang mit der Schaffung von Kommunikationszonen im Bereich der den zwei Treppen vorgelagerten Risalite: Eingriffe in die vorhandene Deckenstruktur.
+-	Planungsleistungen im Zusammenhang mit der Dachsanierung: Rückbau Dachaufbau bis auf die Abdichtung rund Neuaufbau.; Teile des Daches sollen extensiv begrünt und mit Photovoltaikanlage ausgestattet werden. 
+Gegenstand des Verfahrens ist die Vergabe der Tragwerksplanung gem. HOAI §51 für die 1. Teilmaßnahme (BA A1 und A2): Grundleistungen LPh 1-9 (soweit erforderlich [s.a. Vertrag]) sowie ausgewählte Besondere Leistungen. Für den BA A1.1 (Demonstrator-Labor) werden nur die LPh 5-9 beauftragt, da hierfür bereits eine Planung bis einschließlich LPh 4 separat vergeben wurde. Die Vergabe erfolgt stufenweise (s.a. 5.1.1 "Optionen").
+Die Leistungsstufe 1 beinhaltet die Grundlagenermittlung und Vorplanung (LPh 1-2) für die Gesamtmaßnahme bestehend aus der 1. Teilmaßnahme mit den Abschnitten A1.2 und A2 (d.h. ohne Bereich A.1.1 - Demonstrator) sowie der 2. Teilmaßnahme mit den Abschnitten A3 und A4 - mit insgesamt ca. 21.800 qm BGF und geschätzten Kosten (KGr 300-400 nach DIN 276 gesamt) von rd. 34,4 Mio. EUR netto. Die Leistungsstufe 2 (LPh 3-4 der Planer) beinhaltet die 1. Teilmaßnahme mit den Abschnitten A1.2 und A2 (ohne A1.1 - Demonstrator) mit geschätzten Kosten (KGr 300-400 nach DIN 276 gesamt) von rd. 24,66 Mio. EUR netto. Ab Leistungsstufe 3 ist die 1. Teilmaßnahme insgesamt [Abschnitte A1 und A2], d.h. inkl. Bereich Demonstrator, Gegenstand der beabsichtigten Beauftragung.
+Optionale Leistungen: s. Ziffer 5.1.1 "Optionen".
+Im Ergebnis sollen funktional und technisch sowie energetisch optimierte Gebäudeteile zur Verfügung stehen, welche über lange Jahre einen wirtschaftlichen und ressourcenschonenden Betrieb ermöglichen.
+Voraussichtlicher Zeitrahmen: 1. Beauftragung: 04 /2024; 2. Realisierung vorgezogene Maßnahme A1.1: 07/2024 bis 01/2025; 3. Realisierung restliche 1. Teilmaßnahme: 04/2026 bis 12/2028; 4. Projektabschluss: im Nachgang.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">(1)	Die Vergabe erfolgt stufenweise ohne Rechtsanspruch auf die Beauftragung aller Leistungsstufen. Mit Vertragsschluss sollen die Leistungsstufe 1 (LPh 1-2 gem. HOAI §51 für die Gesamtmaßnahme) und Leistungsstufe 2 (LPh 3-4 gem. HOAI §51 für die 1. Teilmaßnahme) beauftragt werden. Der Demonstrator (A1.1) ist jeweils ausgeschlossen.
+Die weiteren Stufen werden bei Fortsetzung der Planung und Ausführung der Baumaßnahme(n) / Zurverfügungstellung der Finanzmittel einzeln oder im Ganzen, ggf. auch teilbereichs-/teilleistungsbezogen, schriftlich beauftragt. Aus der stufenweisen Beauftragung bzw. Nichtbeauftragung der weiteren Stufen ergibt sich kein Anspruch für den Auftragnehmer auf eine höhere bzw. zusätzliche Vergütung. Wesentliche Voraussetzungen für die weitere Beauftragung sind insb. die Einhaltung der Kosten und Termine, die vorhandenen oder sich ggf. ändernden Finanzierungsgrundlagen.
+(2)	Vergabe Besonderer Leistungen, sofern und soweit diese erforderlich werden (z.B. Nachweise der Standsicherheit für Fassadenverkleidungen).
+(3)	In der 2. Stufe des Verfahrens werden den zur Teilnahme an der Stufe 2 des Verfahrens ausgewählten Unternehmen weitere Unterlagen zur Verfügung gestellt, u.a.: Formblatt für Honorarangebote, Bestandsunterlagen zum Tragwerk (Schalplan Regelgeschoss, Nomenklatur und Detail Installationsdeckenplatten) sowie folgende Voruntersuchungen/-planungen: 1. Max-Delbrück-Haus - Studie zur Nachhaltigen Sanierung (Erchinger Wurfbaum Architektur, D+S Architekten, Bauphysik @ Integrierte Planung , IGZ - Ingenieurgesellschaft Zimmermann für Gebäude- und Labortechnik mbH, Ingenieurbüro Armin Kausch, PPI Peil &amp; Partner Ingenieure, 04/2014); 2. Studie "Thesen" zu raumstrukturellen Eingriffen in Haus 31.1 - Neuorganisation Schächte und Schaffung von Atrien im Treppenhausbereich (Müller-Werther-Finke Architekten, Berlin 01/2023); 3. Erläuterungsbericht Tragwerksplanung zur Aufstockung für Büroflächen in Haus 31.1 (Dierks, Babilon und Voigt Ingenieurbüro für Tragwerksplanung, Berlin 11/2017).
+Neben einem Honorarangebot und einem Konzept zu den nichtpreislichen Zuschlagskriterien sind in der 2. Stufe des Verfahrens weitere Unterlagen/Erklärungen vorzulegen (u.a. Angaben für die Abfrage beim Wettbewerbsregister sowie ggf. - soweit nicht bereits mit dem Teilnahmeantrag erfolgt - Erklärungen für Unterauftragnehmer). 
+(4)	Folgende Unterlagen sind bereits mit der Bekanntmachung im Internet abrufbar: Vertragsentwurf inkl. ausgewählter Anlagen (1. AVBs, 2. spezifische Leistungspflichten, 3. Merkblatt Feststellungsbescheinigung, 6. Ergebnisprotokoll Koordinierungsgespräch Zuwendungsmaßnahme 02/2023 inkl. Präsentation zum Konzept der Maßnahme, 7. Rahmenterminplan [Stand 04/2023], 8. Lageplan [09/2022], 9. Vertiefende Machbarkeitsstudie [Verf.: Eurolabors AG, Kassel 09/2022]).
+Eine Kenntnis ist für das Bewerbungsverfahren nicht erforderlich.  
+
+Die unter Ziffer 5.1.3 angegebene Vertragslaufzeit ist als Zirka-Angabe zu verstehen; Angabe ohne LPh 9 / Gewährleistungszeit, Verwendungsnachweis. 
+Der Auftraggeber wird für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, eine Anfrage beim Wettbewerbsregister (Bundeskartellamt) durchführen.
+
+Informationen über die Überprüfungsfristen: Mit der Abgabe eines Angebotes unterliegt der Bieter/die Bieterin den Bestimmungen über nicht berücksichtigte Angebote gemäß §62 VgV. Vergaberechtsverstöße sind vom Antragsteller eines Nachprüfungsverfahrens vor der Vergabekammer gegenüber der Vergabestelle zu rügen. Ansonsten gilt gemäß §160 (3) GWB, dass ein Nachprüfungsantrag unzulässig ist, soweit: 
+1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat, 
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. §160 (3) Satz 1 GWB gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach §135 (1) Nr. 2 GWB. §134 (1) S. 2 GWB bleibt unberührt. 
+Gemäß §135 (2) GWB kann eine Unwirksamkeit eines Vertrages nur festgestellt werden, wenn sie im Nachprüfungsverfahren innerhalb von 30 Kalendertagen ab Kenntnis des Verstoßes, jedoch nicht später als sechs Monate nach Vertragsschluss geltend gemacht worden ist. Hat der Auftraggeber die Auftragsvergabe im Amtsblatt der Europäischen Union bekannt gemacht, endet die Frist zur Geltendmachung der Unwirksamkeit 30 Kalendertage nach Veröffentlichung der Bekanntmachung der Auftragsvergabe im Amtsblatt der Europäischen Union.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71327000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Robert-Rössle-Straße 10</cbc:StreetName>
+               <cbc:CityName>Berlin</cbc:CityName>
+               <cbc:PostalZone>13125</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-04-29+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-12-29+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

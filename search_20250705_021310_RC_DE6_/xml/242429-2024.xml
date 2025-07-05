@@ -1,0 +1,1960 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.dtvp.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Massaquoipassage 1</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22305</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>993-8002610800-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Beschaffung und Nachhaltigkeit</cbc:Name>
+									<cbc:Telephone>+49 405146-1585</cbc:Telephone>
+									<cbc:Telefax>+49 405146-2395</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@vbg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Massaquoipassage 1</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22305</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>993-8002610800-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Beschaffung und Nachhaltigkeit</cbc:Name>
+									<cbc:Telephone>+49 405146-1585</cbc:Telephone>
+									<cbc:Telefax>+49 405146-2395</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@vbg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Deutsches Vergabeportal "www.dtvp.de"  (Bietertool im Projektraum zur Ausschreibung)</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>elektronisch über www.dtvp.de</cbc:StreetName>
+									<cbc:CityName>Berlin</cbc:CityName>
+									<cbc:PostalZone>10969</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE300</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRB 158449 B</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 30-374343-800</cbc:Telephone>
+									<cbc:ElectronicMail>info@dtvp.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00242429-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">81/2024</efbc:GazetteID><efbc:PublicationDate>2024-04-24Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">11faa488-b614-41fb-b548-11fe0d858504</cbc:ID>
+	<cbc:ContractFolderID>74b6599e-5993-4239-9daa-1d5fdf605d6b</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-04-23+02:00</cbc:IssueDate>
+	<cbc:IssueTime>11:35:39+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-04-23+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cbc:BuyerProfileURI>http://www.dtvp.de</cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:PaymentTerms>
+			<cbc:Note languageID="DEU">Vertrag, ZVB der VBG, VOL/B</cbc:Note>
+		</cac:PaymentTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXSUYYDY1AKKPKMV</cbc:EndpointID>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0006</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:TenderValidityPeriod>
+			<cbc:DurationMeasure unitCode="DAYS">32</cbc:DurationMeasure>
+		</cac:TenderValidityPeriod>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Fristen für die Einlegung von Rechtsbehelfen und Rügen ergeben sich aus § 160 Abs. 3 GWB. 
+
+Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Regelungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB):
+§ 134, Informations- und Wartepflicht,
+§ 135, Unwirksamkeit,
+§ 160, Einleitung, Antrag.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+			<cac:MediationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:MediationParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXSUYYDY1AKKPKMV</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">VBG/2024/01/6003</cbc:ID>
+		<cbc:Name languageID="DEU">Lieferung von LED Stehleuchten</cbc:Name>
+		<cbc:Description languageID="DEU">Gegenstand der Ausschreibung ist der Abschluss eines Vertrags über die bundesweite Lieferung von 776 Stück LED Stehleuchten an ausgewählte Bedarfsstellen der VBG sowie der Berufsgenossenschaft für Gesundheitsdienst und Wohlfahrtspflege (BGW) (für das gemeinsame Präventionszentrum "PREVIER"). Der hier ausgeschriebene Vertrag soll Neu- und Ersatzbeschaffungen für die nächsten 4 Jahre sicherstellen. Die Abrufe erfolgen sukzessiv.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXSUYYDY1AKKPKMV
+
+
+Das Vergabeverfahren wird elektronisch in der vollständig webbasierten E-Vergabeplattform (Deutsches Vergabeportal)   durchgeführt und ist unter folgender URL im Internet erreichbar: www.dtvp.de. Die elektronische Teilnahme an Vergabeverfahren sowie die Registrierung für die E-Vergabeplattform sind für Bieter vollständig kostenfrei.
+
+Die von der Vergabestelle übermittelten Informationen werden entweder direkt in der bzw. über die Oberfläche der E-Vergabeplattform bzw. dem virtuellen Projektraum zum Vergabeverfahren (z.B. Bekanntmachungen, Kommunikationsnachrichten) oder innerhalb der Plattform bzw. virtuellen Projekträume als Datei-Downloads bereitgestellt (Vergabeunterlagen oder Anhänge zu Kommunikationsnachrichten).
+
+Zur Nutzung der E-Vergabeplattform bis zur Abgabe elektronischer Teilnahmeanträge und Angebote sind lediglich ein aktueller Internet-Browser sowie ein Internetzugang erforderlich. Hierbei werden ausschließlich HTML- und Javascript-konforme Standardtechnologien und keinerlei Add-Ons/Plugins oder sonstige ggf. (sicherheits-)kritische Technologien verwendet.
+Aktuell sind folgende Internet-Browser zur Nutzung freigegeben:
+
+·         Microsoft Internet Explorer bzw. Microsoft Edge in der jeweils aktuellen Version
+·         Mozilla Firefox in der jeweils aktuellen Version
+·         Google Chrome in der jeweils aktuellen Version
+·         Apple Safari ab Version 5
+
+Für die Abgabe elektronischer Angebote, Teilnahmeanträge, Interessenbekundungen und Interessenbestätigungen wird innerhalb der E-Vergabeplattform ein kostenfreies Bietertool bereitgestellt. Das Bietertool ist eine Desktop-Anwendung, welche auf Ihrem Computer installiert werden muss. Die Dateien zur Installation des Bietertools werden im entsprechenden Projektraum des Vergabeverfahrens für das entsprechende Betriebssystem zum Download angeboten. Installationsroutinen stehen für Linux-, Mac-OS- und Windows-Betriebssysteme (64 und 32 Bit) zur Verfügung. I.d.R. sind für die Installation keine administrativen Rechte erforderlich.
+
+Das Bietertool ist zudem ein "Multi-Plattform-Bieter-Client", sodass mit einer Installation des Bietertools an Vergabeverfahren auf allen E-Vergabeplattformen auf Basis der cosinex Technologie Vergabemarktplatz teilgenommen werden kann.
+
+Die Informationen über die eigentlichen Vergabeverfahren werden über so genannte Projektdateien in das Bietertool transportiert. Sie laden die Projektdateien (Dateiendung: cbx) aus dem entsprechenden Projektraum herunter und führen diese aus, wodurch das Bietertool gestartet wird und die entsprechenden Informationen zum Vergabeverfahren von der Vergabeplattform heruntergeladen werden. 
+
+Die lokale Installation des Bietertools stellt eine Ende-zu-Ende Verschlüsselung der elektronischen Angebote und Teilnahmeanträge zwischen dem Computer des Bieters und der Öffnung der Angebote und Teilnahmeanträge auf Seiten der Vergabestelle sicher. 
+
+Für die elektronische Angebotsabgabe sind unterschiedliche Signaturniveaus technisch möglich. Die zugelassene Form der Angebotsabgabe bzw. das zulässige Signaturniveau (qualifizierte elektronische und/oder fortgeschrittene elektronische Signatur und/oder Textform nach § 126b BGB) für das konkrete Vergabeverfahren entnehmen Sie bitte der Bekanntmachung bzw. den Vergabeunterlagen zur Ausschreibung. Im Fall der elektronischen Textform genügt im Regelfall die Angabe Ihres Vor- und Nachnamens, empfohlen werden zudem Angaben zum Unternehmen (Kontaktinformationen) für das Sie das Angebot abgeben.
+
+Der vollständige Eingang übermittelter elektronischer Angebote, Teilnahmeanträge, Interessenbekundungen und Interessenbestätigungen wird (je nach E-Vergabeplattform) mit einem qualifizierten oder einem einfachen elektronischen Zeitstempel dokumentiert. 
+
+Weitere Informationen sind den Vergabeunterlagen zu entnehmen. Weitere Informationen sowie Support zum Vergabemarktplatz und dem Bietertool erhalten Sie unter folgendem Link: https://support.cosinex.de/unternehmen/. 
+
+Hinweise zum Einsatz von Bietergemeinschaften und Unterauftragnehmer entnehmen Sie der Aufforderung zur Angebotsabgabe.
+
+Folgende sonstige Unterlagen sind ggf. mit dem Angebot ausgefüllt und unterzeichnet einzureichen:
+- - Ggf. Bietergemeinschaftserklärung,
+- - Ggf. Erklärung zum Einsatz von UAN,
+- - Ggf. Erklärung zur Eignungsleihe,
+- - Ggf. Verpflichtungserklärung UAN,
+- - Ggf. Verpflichtungserklärung zur Eignungsleihe
+
+Rechtsform der Bietergemeinschaft, an die der Auftrag vergeben wird: Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter.
+</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">31521200</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">31521000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Drosselstraße 29</cbc:AdditionalStreetName>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:PostalZone>22305</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung München</cbc:StreetName>
+				<cbc:AdditionalStreetName>Barthstraße 20</cbc:AdditionalStreetName>
+				<cbc:CityName>München</cbc:CityName>
+				<cbc:PostalZone>80339</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Ludwigsburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Martin-Luther-Str. 79</cbc:AdditionalStreetName>
+				<cbc:CityName>Ludwigsburg</cbc:CityName>
+				<cbc:PostalZone>71636</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE115</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Dresden</cbc:StreetName>
+				<cbc:AdditionalStreetName>Wiener Platz 6</cbc:AdditionalStreetName>
+				<cbc:CityName>Dresden</cbc:CityName>
+				<cbc:PostalZone>01069</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DED21</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Duisburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Düsseldorfer Landstraße 401</cbc:AdditionalStreetName>
+				<cbc:CityName>Duisburg</cbc:CityName>
+				<cbc:PostalZone>47259</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA12</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Hamburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Sachsenstraße 18</cbc:AdditionalStreetName>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:PostalZone>20097</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Akademie Hamburg (PREVIER)</cbc:StreetName>
+				<cbc:AdditionalStreetName>Kirchenpauerstraße 28</cbc:AdditionalStreetName>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:PostalZone>20457</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Bielefeld</cbc:StreetName>
+				<cbc:AdditionalStreetName>Nikolaus-Dürkopp-Str. 8</cbc:AdditionalStreetName>
+				<cbc:CityName>Bielefeld</cbc:CityName>
+				<cbc:PostalZone>33602</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA41</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Berlin</cbc:StreetName>
+				<cbc:AdditionalStreetName>Markgrafenstr. 18</cbc:AdditionalStreetName>
+				<cbc:CityName>Berlin</cbc:CityName>
+				<cbc:PostalZone>10969</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Erfurt</cbc:StreetName>
+				<cbc:AdditionalStreetName>Koenbergkstr. 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Erfurt</cbc:CityName>
+				<cbc:PostalZone>99084</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEG01</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Mainz</cbc:StreetName>
+				<cbc:AdditionalStreetName>Isaac-Fulda-Allee 3</cbc:AdditionalStreetName>
+				<cbc:CityName>Mainz</cbc:CityName>
+				<cbc:PostalZone>55124</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEB35</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Bergisch Gladbach</cbc:StreetName>
+				<cbc:AdditionalStreetName>Kölner Str. 20</cbc:AdditionalStreetName>
+				<cbc:CityName>Bergisch Gladbach</cbc:CityName>
+				<cbc:PostalZone>51429</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA2B</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Bezirksverwaltung Würzburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Riemenschneiderstr. 2</cbc:AdditionalStreetName>
+				<cbc:CityName>Würzburg</cbc:CityName>
+				<cbc:PostalZone>97072</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE263</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Akademie Dresden</cbc:StreetName>
+				<cbc:AdditionalStreetName>Königsbrücker Landstraße 4c</cbc:AdditionalStreetName>
+				<cbc:CityName>Dresden</cbc:CityName>
+				<cbc:PostalZone>01109</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DED21</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Akademie Gevelinghausen</cbc:StreetName>
+				<cbc:AdditionalStreetName>Schloßstrasse 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Olsberg</cbc:CityName>
+				<cbc:PostalZone>59939</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEA57</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Akademie Lautrach</cbc:StreetName>
+				<cbc:AdditionalStreetName>Schloßstrasse 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Lautrach</cbc:CityName>
+				<cbc:PostalZone>87763</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE27C</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Akademie Ludwigsburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Martin-Luther-Straße 79</cbc:AdditionalStreetName>
+				<cbc:CityName>Ludwigsburg</cbc:CityName>
+				<cbc:PostalZone>71636</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE115</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Akademie Mainz</cbc:StreetName>
+				<cbc:AdditionalStreetName>Isaac-Fulda-Allee 22</cbc:AdditionalStreetName>
+				<cbc:CityName>Mainz</cbc:CityName>
+				<cbc:PostalZone>55124</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEB35</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Akademie Storkau</cbc:StreetName>
+				<cbc:AdditionalStreetName>Im Park 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Tangermünde / OT Storkau</cbc:CityName>
+				<cbc:PostalZone>39590</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DEE0D</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>VBG Akademie Untermerzbach</cbc:StreetName>
+				<cbc:AdditionalStreetName>Schlossweg 2</cbc:AdditionalStreetName>
+				<cbc:CityName>Untermerzbach</cbc:CityName>
+				<cbc:PostalZone>96190</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE267</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+			<cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+   - Nachweis Berufs-/Betriebshaftpflichtversicherung (mit dem Angebot mittels Dritterklärung vorzulegen): Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft verfügt über eine bestehende Berufs- oder Betriebshaftpflichtversicherung oder vergleichbare Versicherung aus einem Mitgliedstaat der EU und hält den Versicherungsschutz während der Dauer des Vertrages mit mindestens folgenden Deckungssummen pro Schadensfall aufrecht:
+- Betriebshaftpflicht Sachschäden: 2.000.000 EUR
+- Betriebshaftpflicht Personenschäden: 2.000.000 EUR
+- Betriebshaftpflicht: Vermögensschäden: mind. 300.000 EUR
+Die Versicherung hat sich auch auf die persönliche Haftpflicht der Personen, deren er sich zur Erfüllung seiner Verpflichtungen aus diesem Vertrag bedient, insoweit zu erstrecken, als diese Personen Schäden in Ausführung ihrer Tätigkeiten verursachen.
+Sollte der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft über eine Berufs-oder Betriebshaftpflichtversicherung verfügen, die nicht die geforderten Deckungssummen enthält, erklärt der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft, dass die Deckungssummen im Auftragsfalle zum Vertragsbeginn entsprechend erhöht werden.
+
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+   - Nachweis Berufs- oder Handelsregisterauszug (mit dem Angebot mittels Dritterklärung vorzulegen): Der Bieter / das geschäftsführende Mitglied der Bietergemeinschaft reicht einen aktuellen Auszug (Kopie) aus dem Berufs- oder Handelsregister, soweit er dort eingetragen ist, oder einen vergleichbaren Nachweis der Existenz des Unternehmens ein.
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Mindestens 2 Referenzen (mit dem Angebot vorzulegen): Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft weist mindestens zwei Referenzen in Form einer Eigenerklärung über die Erbringung von Leistungen nach, die der ausgeschriebenen Leistung entsprechen. (bezogen auf die letzten höchstens drei Jahre)
+
+Es sind folgende Angaben erforderlich:
+
+- Kurze Beschreibung der Leistung
+- Angabe des Werts
+- Angabe des Erbringungszeitpunkts
+- Angabe des öffentlichen oder privaten Empfängers
+
+Hinweis der Auftraggeberin:
+Es sind nach Art und Umfang mit den hier zur Vergabe anstehenden Leistungen vergleichbare Leistungen nachzuweisen.
+
+Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft stimmt der Nachfrage beim Referenzgeber zu.
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXSUYYDY1AKKPKMV/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Vertrag, ZVB der VBG, VOL/B</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Eignungsrelevante Unterlagen, Angaben und Erklärungen</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Angebotsformblatt (mit dem Angebot vorzulegen)
+- Preisblatt (mit dem Angebot vorzulegen)
+- Eigenerklärung Sanktionen 5k (mit dem Angebot vorzulegen)
+- Eignungskriterien inkl. aller Angaben und Erklärungen (mit dem Angebot vorzulegen)
+- Erklärung Ausschlussgründe (mit dem Angebot vorzulegen)
+- Produktdatenblätter des angebotenen Artikels (mit dem Angebot vorzulegen): Produktdatenblätter der angebotenen LED Stehleuchte gemäß Leistungskatalog.
+- Verpflichtung auf das Daten- und Sozialgeheimnis (mit dem Angebot vorzulegen)
+- Vertrag (mit dem Angebot vorzulegen)
+- Leistungskatalog (mit dem Angebot vorzulegen): Der Leistungskatalog ist auszufüllen um alle Kriterien werten zu können:
+
+- ENEC Kennzeichnung und Prüfung gem. DIN EN 60598-1
+
+- Prüfung der Standsicherheit DIN EN 60950 (mit dem Angebot vorzulegen): Prüfung der Standsicherheit nachzuweisen (z.B. gem. DIN EN 60950 oder vgl.) 
+</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>55.00</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Aufstellung der Stehleuchte freistehend mit Standfuß</cbc:Name>
+						<cbc:Description languageID="DEU">Die Aufstellung der Stehleuchte muss freistehend mit Standfuß erfolgen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Das Betriebsgerät in Leuchte integriert</cbc:Name>
+						<cbc:Description languageID="DEU">Das Betriebsgerät muss in die Leuchte integriert sein</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Standfuß, Standrohr und Leuchtengehäuse sind aus Metall.</cbc:Name>
+						<cbc:Description languageID="DEU">Standfuß, Standrohr und Leuchtengehäuse sind aus Metall.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Höhe des Leuchtenkopfes mind. 2,2m</cbc:Name>
+						<cbc:Description languageID="DEU">Um eine entsprechende Ausleuchtung auch bei Arbeiten in der Stehposition des Nutzers sicherzustellen, muss die Höhe des Leuchtenkopfes mind. 2,2m betragen; gemessen von OKFF bis zur UK des Leuchtenkopfes.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Höhe des Standfußes der Stehleuchte max 12mm</cbc:Name>
+						<cbc:Description languageID="DEU">Um eine Platzierung der Stehleuchte unterhalb des Fußauslegers der Büroarbeitstische zu ermöglichen, darf die Höhe des Standfußes der Stehleuchte 12mm nicht überschreiten einschl. möglicher Gleitelemente an der Unterseite. Die Breite des Standfußes darf 0,5m nicht überschreiten.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Bedienelement im Leuchtenmast untergebracht</cbc:Name>
+						<cbc:Description languageID="DEU">Um den Anforderungen der Barrierefreiheit zu entsprechen, ist das Bedienelement im Leuchtenmast untergebracht, in einer Höhe von 0,85m; gemessen von OKFF bis zur UK des Bedienelementes.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Gehäusefarbe der Stehleuchte aluminiumfarbig</cbc:Name>
+						<cbc:Description languageID="DEU">Die Gehäusefarbe der Stehleuchte (Standfuß, Standrohr und Leuchtengehäuse) ist aluminiumfarbig (Silberaluminium, Weißaluminium ohne spez. RAL-Vorgabe) sein. Das angebotene Produkt muss formal und funktional aufeinander abgestimmt sein (Design-Identität für Maße, Formen, Farben und Materialien)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">elektrischer Anschluss über eine 3m lange Zuleitung mit einem Winkel-Schuko-Stecker.</cbc:Name>
+						<cbc:Description languageID="DEU">Standardmäßig erfolgt der elektrische Anschluss über eine 3m lange schwarze Zuleitung mit einem Winkel-Schuko-Stecker.
+Alternativ können auch 5m lange Zuleitungen bei der Bestellung vorgegeben werden.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Defekte LED-Leuchtmittel sind separat austauschbar</cbc:Name>
+						<cbc:Description languageID="DEU">Defekte LED-Leuchtmittel sind separat austauschbar, d.h. bei einem Defekt muss nicht der komplette Leuchtenkopf ausgewechselt werden.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Produkt muss allen sonstigen einschlägigen Vorschriften entsprechen</cbc:Name>
+						<cbc:Description languageID="DEU">Neben den explizit geforderten Prüfungen muss das angebotene Produkt auch allen sonstigen einschlägigen Vorschriften entsprechen (Gesetze, Normen, berufsgenossenschaftliche Regelungen).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Betriebsmodi manuell und Präsenzsteuerung und Dimmung</cbc:Name>
+						<cbc:Description languageID="DEU">Betriebsmodus:                                                      -manuelles Ein-/Ausschalten per Schalter am                  Bedienelement;                                                      -Ein-/Ausschalten mittels Präsenzsteuerung, Reaktionszeit wählbar;
+-tageslichtabhängige Helligkeitssteuerung;
+-Möglichkeit der individuellen manuellen Dimmung per Bedienelement, getrennt nach direktem und indirektem Lichtanteil;</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Präsenz- und Helligkeitssensor im Leuchtenkopf integriert.</cbc:Name>
+						<cbc:Description languageID="DEU">Präsenz- und Helligkeitssensor sind im Leuchtenkopf integriert.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Leuchtmittel: LED</cbc:Name>
+						<cbc:Description languageID="DEU">Leuchtmittel: LED</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Lichtfarbe: 4000K</cbc:Name>
+						<cbc:Description languageID="DEU">Lichtfarbe: 4000K</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Farbwiedergabe: Ra &gt; 80</cbc:Name>
+						<cbc:Description languageID="DEU">Farbwiedergabe: Ra &gt; 80</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Leuchtenlebensdauer 50.000 Std (L70/B50)</cbc:Name>
+						<cbc:Description languageID="DEU">Leuchtenlebensdauer 50.000 Std (L70/B50)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>4.5000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Leuchtenlebensdauer 50.000 Std.(L80/B10).</cbc:Name>
+						<cbc:Description languageID="DEU">Leuchtenlebensdauer (Leuchtmittel und Betriebsgerät):  mindestens 50.000 Std (L70/B50).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Leuchtenlichtausbeute: mindestens 120 lm/W</cbc:Name>
+						<cbc:Description languageID="DEU">Leuchtenlichtausbeute: mindestens 120 lm/W</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Gesamt-Leuchtenlichtstrom: mindestens 13.000 lm</cbc:Name>
+						<cbc:Description languageID="DEU">Gesamt-Leuchtenlichtstrom: mindestens 13.000 lm</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Verteilung des Leuchtenlichtstromes in Direkt- und Indirektanteil</cbc:Name>
+						<cbc:Description languageID="DEU">Die Verteilung des Leuchtenlichtstromes in Direkt- und Indirektanteil muss sich zwischen 50%/50% und 10%/90% befinden (Direkt / Indirekt).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Lichtverteilung indirekt: kugelförmig oder breitstrahlend.</cbc:Name>
+						<cbc:Description languageID="DEU">Lichtverteilung indirekt:                                 kugelförmig oder breitstrahlend.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Lichtverteilung direkt: mikroprismatische Abdeckung oder vergleichbar.</cbc:Name>
+						<cbc:Description languageID="DEU">Lichtverteilung direkt: mikroprismatische Abdeckung oder vergleichbar.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">UGR: &lt; 19 für alle relevanten Anordnungen.</cbc:Name>
+						<cbc:Description languageID="DEU">UGR: &lt; 19 für alle relevanten Anordnungen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Leistungsaufnahme max. 120 W</cbc:Name>
+						<cbc:Description languageID="DEU">Leistungsaufnahme max. 120 W</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Die Sicherheit der Stehleuchte ist durch eine ENEC Kennzeichnung zu belegen.</cbc:Name>
+						<cbc:Description languageID="DEU">Die Sicherheit der Stehleuchte ist durch eine ENEC Kennzeichnung zu belegen.
+Das Zertifikat über eine Prüfung gem. DIN EN 60598-1 (oder vgl.) ist beizufügen.
+Im Zweifel ist der zugehörige Prüfbericht vorzulegen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Prüfung der Standsicherheit ist nachzuweisen (z.B. gem. DIN EN 60950 oder vgl.)</cbc:Name>
+						<cbc:Description languageID="DEU">Wegen der vom allgemeinen Standard abweichenden Höhe des Leuchtenkopfes ist eine Prüfung der Standsicherheit nachzuweisen (z.B. gem. DIN EN 60950 oder vgl.)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">keine Gefährdungen durch nicht ausreichend gerundete Ecken und Kanten</cbc:Name>
+						<cbc:Description languageID="DEU">Alle Komponenten der Stehleuchte (Standfuß, Leuchtenmast mit integriertem Bedienfeld, Leuchtenkopf) sind so zu gestalten, dass sich für die Nutzer keine Gefährdungen durch nicht ausreichend gerundete Ecken und Kanten, durch Grate, etc. ergeben.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">BGVA3-Prüfung und entsprechende Kennzeichnung</cbc:Name>
+						<cbc:Description languageID="DEU">Jede Leuchte wird einer BGVA3-Prüfung unterzogen und entsprechend gekennzeichnet (verdeckt).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">qualifiziertes Verkaufspersonal</cbc:Name>
+						<cbc:Description languageID="DEU">Für Verkaufsgespräche und ggf. Nachberatungen muss qualifiziertes Verkaufspersonal vorgehalten werden</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Ersatzteilverfügbarkeit mindestens bis zu 10 Jahre ab Lieferdatum</cbc:Name>
+						<cbc:Description languageID="DEU">Die Ersatzteilverfügbarkeit muss mindestens bis zu 10 Jahre ab Lieferdatum gewährleistet sein.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Montage/Demontage auch durch geschultes hauseigenes Personal mittels Steck- oder Schraubverbindungen möglich</cbc:Name>
+						<cbc:Description languageID="DEU">Die angebotenen Produkte müssen auch durch hauseigenes (geschultes) Personal schnell und kostengünstig ohne Spezialwerkzeug montiert bzw. demontiert werden können. Die Montage muss ausschließlich mittels Steck- oder Schraubverbindungen vorzunehmen sein.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Bereitstellung eines qualifizierten Kundendienstes, auch für kleine und Nachaufträge</cbc:Name>
+						<cbc:Description languageID="DEU">Der Auftragnehmer garantiert die Bereitstellung eines qualifizierten Kundendienstes, auch für kleine und Nachaufträge</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Dauer zwischen Bestellungeingang und Lieferung bei Nachbestellungen darf maximal 30 Arbeitstage betragen</cbc:Name>
+						<cbc:Description languageID="DEU">Die maximale Dauer zwischen Bestellungeingang und Lieferung bei Nachbestellungen darf maximal 30 Arbeitstage betragen</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">qualifizierte und verständliche Bedienungsanleitungen</cbc:Name>
+						<cbc:Description languageID="DEU">Der Auftragnehmer wird für alle von ihm gelieferten Produkte qualifizierte und verständliche Bedienungsanleitungen bereit stellen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Servicetechniker im Störungsfall Innerhalb von 2 Arbeitstagen</cbc:Name>
+						<cbc:Description languageID="DEU">Innerhalb von 2 Arbeitstagen muss ein Servicetechniker im Störungsfall bzw. auf Anforderung vor Ort sein können.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Servicetechniker im Störungsfall</cbc:Name>
+						<cbc:Description languageID="DEU">Der Servicetechniker ist im Störungsfall bzw. auf Anforderung innerhalb 1 Arbeitstages vor Ort</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Erreichbarkeit des Kundenservice von Mo bis Fr von 9 -17 Uhr</cbc:Name>
+						<cbc:Description languageID="DEU">Die Erreichbarkeit des Kundenservice ist mindestens von Mo bis Fr von 9 -17 Uhr gegeben</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Produkte sortenrein und in den Materialien trennbar</cbc:Name>
+						<cbc:Description languageID="DEU">Alle angebotenen Produkte sind sortenrein und in den Materialien trennbar, sowie Lackierungen, Beschichtungen und Verleimungen emissionsfrei?</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Rücknahme nach Nutzungszeit</cbc:Name>
+						<cbc:Description languageID="DEU">Der Bieter ist bereit, nach der Nutzungszeit die Stehleuchten zurückzunehmen, um sie wieder in den Rohstoffkreislauf einfügen zu können</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.2500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Umwelt-Produktdeklaration (Environmental Product Declaration, EPD) ist beigelegt.</cbc:Name>
+						<cbc:Description languageID="DEU">Ein Umwelt-Produktdeklaration (Environmental Product Declaration, EPD) wird für das angebotene Produkt dem Angebot beigelegt.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>6.7500</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Produkt ist C2C-zertifiziert</cbc:Name>
+						<cbc:Description languageID="DEU">Das angebotene Produkt ist C2C-zertifiziert (Cradle to Cradle) Das Zertifikat ist dem Angebot beizufügen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Vollgarantie auf alle Teile inklusive aller Kosten (auch Arbeits- und Fahrtkosten) für 24 Monate</cbc:Name>
+						<cbc:Description languageID="DEU">Es muss mindestens eine Vollgarantie auf alle Teile inklusive aller Kosten (auch Arbeits- und Fahrtkosten) für 24 Monate  enthalten sein.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>13.5000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Garantieverlängerung über 24 Monate hinaus</cbc:Name>
+						<cbc:Description languageID="DEU">Nach Ablauf der geforderten 24 Pflichtmonate wird die Vollgarantie auf alle Teile inklusive aller Kosten (auch Arbeits- und Fahrtkosten) um weitere Monate verlängert: Hier Zahl der Monate angeben:</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Nachliefergarantie 10 Jahre</cbc:Name>
+						<cbc:Description languageID="DEU">Es besteht eine Nachliefergarantie auf die angebotene LED Stehleuchte inklusive Ersatzteile von mindestens 10 Jahren ab erster Lieferung.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXSUYYDY1AKKPKMV</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0006</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAYS">32</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Fristen für die Einlegung von Rechtsbehelfen und Rügen ergeben sich aus § 160 Abs. 3 GWB. 
+
+Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Regelungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB):
+§ 134, Informations- und Wartepflicht,
+§ 135, Unwirksamkeit,
+§ 160, Einleitung, Antrag.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXSUYYDY1AKKPKMV</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-05-24+02:00</cbc:EndDate>
+				<cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-05-10+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-05-24+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>11:00:00+02:00</cbc:OccurrenceTime>
+				<cbc:Description languageID="DEU">nur Mitarbeiter/-innen der VBG - Vergabestelle</cbc:Description>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="DEU">VBG Hauptverwaltung, Vergabestelle.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">VBG/2024/01/6003</cbc:ID>
+			<cbc:Name languageID="DEU">Lieferung von LED Stehleuchten</cbc:Name>
+			<cbc:Description languageID="DEU">Lieferung von 776 LED Stehleuchten mit Mindesthöhe des Leuchtenkopfes von 2,2 Metern an gie bundesweiten Bedarfsstellen der VBG sowie der Berufsgenossenschaft für Gesundheitsdienst und Wohlfahrtspflege (BGW) (für das gemeinsame Präventionszentrum "PREVIER") gemäß Standortliste-Lieferanschriften. 
+Dabei strebt die VBG ausdrücklich eine nachhaltige Beschaffungsmaßnahme an. Der hier ausgeschriebene Vertrag soll Neu- und Ersatzbeschaffungen für die nächsten 4 Jahre sicherstellen.
+Die Abrufe erfolgen sukzessiv.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Die Ersatzteilverfügbarkeit muss mindestens bis zu 10 Jahre ab Lieferdatum gewährleistet sein. - Verpackungen: Die Lieferung des Leistungsgegenstandes erfolgt verpackungssparend, nur mit der erforderlichen Umverpackung, die einen Schutz der Artikel beim Transport und der Anlieferung gewährleistet. Die Produkte sind nach Möglichkeit so zu verpacken, dass ein Ausgasen flüchtiger Bestandteile nach der Herstellung ermöglicht wird. Verpackungen müssen leicht nach einzelnen Materialien trennbar und gemäß Verpackungsverordnung gekennzeichnet sein. Die Materialien müssen recyclingfähig sein. Es dürfen keine zellstoffhaltigen Verpackungen verwendet werden, deren Rohstoff aus tropischen Regenwäldern bzw. Urwäldern stammt oder durch illegalen Einschlag gewonnen wurde. Polyvinylchlorid (PVC) darf nicht verwendet werden. - Transport: Die für die Auftragsausführung eingesetzten Fahrzeuge müssen mindestens die Anforderungen der Euro-Norm 5 erfüllen. Eine Anlieferung mit Fahrzeugen, die die Anforderungen der Euro-Norm 6 erfüllen ist wünschenswert.</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">circ-econ</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">inn-pur</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">prod-innov</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">soc-obj</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Zahlung von Tarif- oder Mindestlohn</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="social-objective">work-cond</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">31521200</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">31521000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Drosselstraße 29</cbc:AdditionalStreetName>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:PostalZone>22305</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung München</cbc:StreetName>
+					<cbc:AdditionalStreetName>Barthstraße 20</cbc:AdditionalStreetName>
+					<cbc:CityName>München</cbc:CityName>
+					<cbc:PostalZone>80339</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Ludwigsburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Martin-Luther-Str. 79</cbc:AdditionalStreetName>
+					<cbc:CityName>Ludwigsburg</cbc:CityName>
+					<cbc:PostalZone>71636</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE115</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Dresden</cbc:StreetName>
+					<cbc:AdditionalStreetName>Wiener Platz 6</cbc:AdditionalStreetName>
+					<cbc:CityName>Dresden</cbc:CityName>
+					<cbc:PostalZone>01069</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DED21</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Duisburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Düsseldorfer Landstraße 401</cbc:AdditionalStreetName>
+					<cbc:CityName>Duisburg</cbc:CityName>
+					<cbc:PostalZone>47259</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA12</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Hamburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Sachsenstraße 18</cbc:AdditionalStreetName>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:PostalZone>20097</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Akademie Hamburg (PREVIER)</cbc:StreetName>
+					<cbc:AdditionalStreetName>Kirchenpauerstraße 28</cbc:AdditionalStreetName>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:PostalZone>20457</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Bielefeld</cbc:StreetName>
+					<cbc:AdditionalStreetName>Nikolaus-Dürkopp-Str. 8</cbc:AdditionalStreetName>
+					<cbc:CityName>Bielefeld</cbc:CityName>
+					<cbc:PostalZone>33602</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA41</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Berlin</cbc:StreetName>
+					<cbc:AdditionalStreetName>Markgrafenstr. 18</cbc:AdditionalStreetName>
+					<cbc:CityName>Berlin</cbc:CityName>
+					<cbc:PostalZone>10969</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Erfurt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Koenbergkstr. 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Erfurt</cbc:CityName>
+					<cbc:PostalZone>99084</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEG01</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Mainz</cbc:StreetName>
+					<cbc:AdditionalStreetName>Isaac-Fulda-Allee 3</cbc:AdditionalStreetName>
+					<cbc:CityName>Mainz</cbc:CityName>
+					<cbc:PostalZone>55124</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEB35</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Bergisch Gladbach</cbc:StreetName>
+					<cbc:AdditionalStreetName>Kölner Str. 20</cbc:AdditionalStreetName>
+					<cbc:CityName>Bergisch Gladbach</cbc:CityName>
+					<cbc:PostalZone>51429</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA2B</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Bezirksverwaltung Würzburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Riemenschneiderstr. 2</cbc:AdditionalStreetName>
+					<cbc:CityName>Würzburg</cbc:CityName>
+					<cbc:PostalZone>97072</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE263</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Akademie Dresden</cbc:StreetName>
+					<cbc:AdditionalStreetName>Königsbrücker Landstraße 4c</cbc:AdditionalStreetName>
+					<cbc:CityName>Dresden</cbc:CityName>
+					<cbc:PostalZone>01109</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DED21</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Akademie Gevelinghausen</cbc:StreetName>
+					<cbc:AdditionalStreetName>Schloßstrasse 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Olsberg</cbc:CityName>
+					<cbc:PostalZone>59939</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEA57</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Akademie Lautrach</cbc:StreetName>
+					<cbc:AdditionalStreetName>Schloßstrasse 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Lautrach</cbc:CityName>
+					<cbc:PostalZone>87763</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE27C</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Akademie Ludwigsburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Martin-Luther-Straße 79</cbc:AdditionalStreetName>
+					<cbc:CityName>Ludwigsburg</cbc:CityName>
+					<cbc:PostalZone>71636</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE115</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Akademie Mainz</cbc:StreetName>
+					<cbc:AdditionalStreetName>Isaac-Fulda-Allee 22</cbc:AdditionalStreetName>
+					<cbc:CityName>Mainz</cbc:CityName>
+					<cbc:PostalZone>55124</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEB35</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Akademie Storkau</cbc:StreetName>
+					<cbc:AdditionalStreetName>Im Park 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Tangermünde / OT Storkau</cbc:CityName>
+					<cbc:PostalZone>39590</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DEE0D</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>VBG Akademie Untermerzbach</cbc:StreetName>
+					<cbc:AdditionalStreetName>Schlossweg 2</cbc:AdditionalStreetName>
+					<cbc:CityName>Untermerzbach</cbc:CityName>
+					<cbc:PostalZone>96190</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE267</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

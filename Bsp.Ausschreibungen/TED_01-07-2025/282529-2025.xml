@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.rechnungshof.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Der Präsident des Hessischen Rechnungshofs - Überörtliche Prüfung kommunaler Körperschaften</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Eschollbrücker Str. 27</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64295</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>06-20200985-24</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Herr Thiel</cbc:Name>
+                           <cbc:Telephone>+49 6151-381249</cbc:Telephone>
+                           <cbc:Telefax>+49 6151-381255</cbc:Telefax>
+                           <cbc:ElectronicMail>poststelle@uepkk.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammern des Landes Hessen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:06151126603</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151-126603</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00282529-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">85/2025</efbc:GazetteID><efbc:PublicationDate>2025-05-02+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">1cec3a85-006e-4f1a-a91e-23e00891779a</cbc:ID>
+   <cbc:ContractFolderID>d88964c0-0d37-496f-b900-adb44b82c9e3</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-04-30+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:58:36+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-04-30+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Es gelten die gesetzlichen Ausschlussvoraussetzungen nach §§ 123 bis 126 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>0985 UEP1 13 020 2025 00004</cbc:ID>
+      <cbc:Name languageID="DEU">260. Vergleichende Prüfung Haushaltsstruktur 2026: Regionalverbände II bei 2 hessischen Körperschaften</cbc:Name>
+      <cbc:Description languageID="DEU">Der Auftrag wird zu einem Festpreis von 252.000 EUR einschließlich gesetzlicher Umsatzsteuer in der jeweils geltenden Höhe und aller Nebenkosten vergeben. Auf die Vergleichende Prüfung entfallen 210.000 EUR, Zahlung in fünf Raten und auf den Gesamtbericht (Schlussrechnung) 42.000 EUR.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Dem Teilnahmeantrag ist eine Eigenerklärung (siehe Vordruck,
+bei Nachunternehmer auch Vordruck Eigenerklärung "Nachunternehmer") beizufügen, dass keine Ausschlussgründe gemäß § 123 GWB vorliegen sowie eine Eigenerklärung, dass keine Ausschlussgründe nach § 124 GWB vorliegen (Anlagen
+2.1 und/oder 2.2). Falls fakultative Ausschlussgründe vorliegen, sind diese detailliert im Teilnahmeantrag aufzuführen.
+
+Mit dem Teilnahmeantrag wird eine Erklärung zur Unbefangenheit - Anlage Ziffer 3 - (Vordruck "Erklärung / Versicherung") gefordert. Eine Unbefangenheit muss bei beiden Körperschaften vorliegen (§ 12 HRHG analog).
+
+Es wird um Beachtung der Bewerbungsbedingungen für die Vergabe von Leistungen gebeten (siehe Formblatt, Anlage 1).
+
+Es wird um Angabe einer verbindlichen E-Mail-Adresse gebeten.
+
+Stehen den geforderten Angaben und Formalitäten rechtliche Gründe entgegen, hat der Bewerber diese ausdrücklich zu benennen. Sein Schweigen geht zu seinen Lasten im Sinne fehlender Angaben und Formalitäten.
+
+Informationen über den Ablauf des weiteren Verfahrens entnehmen Sie bitte folgenden Vergabeunterlagen, die elektronisch zur Verfügung stehen (AnlagenTeilnahmewettbewerbsunterlagen), jedoch nicht für den Teilnahmeantrag erforderlich sind: Angebotsaufforderung mit Anlagen.
+
+Bei Aufforderung zur Angebotsabgabe wird eine Verpflichtungserklärung nach § 5 Abs. 1 HVTG (Anlage 5.1) gefordert. Diese bezieht sich jedoch nicht auf Beschäftigte, die bei einem Bieter oder Nachunternehmer im EU-Ausland beschäftigt sind und die Leistungen im EU-Ausland erbringen.
+
+Es wird darauf hingewiesen, dass der Auftraggeber vor Zuschlagserteilung eine Auskunft aus dem Wettbewerbsregister anfordern wird. Zusätzlich wird vor Aufforderung zur Abgabe eines Angebotes eine Abfrage von Eintragungen in das Informationsverzeichnis bei der Informationsstelle nach § 17 HVTG durchgeführt.
+
+Der Auftraggeber behält sich vor, die Ausschreibung ganz oder teilweise aufzuheben.
+
+Die Ausschreibung steht unter dem Vorbehalt des Landeshaushalts 2026 und 2027.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">211764.00</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79210000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Darmstadt</cbc:CityName>
+            <cbc:PostalZone>64295</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Kommunale Körperschaften im Bundesland Hessen</cbc:StreetName>
+            <cbc:CityName>Darmstadt</cbc:CityName>
+            <cbc:PostalZone>64295</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Wirtschaftsprüfer, Wirtschaftsprüfungsgesellschaften oder andere geeignete Dritte nach § 5 Abs. 1 Satz 4 ÜPKKG. Ist der Bewerber zu einer solchen Eintragung nicht verpflichtet, ist dies durch eine entsprechende formlose Eigenerklärung nachzuweisen. Die erforderliche Zulassung/Eintragung (Wirtschaftsprüfer, Wirtschaftsprüfungsgesellschaft, Berufs- oder Handelsregister) ist durch Kopie nachzuweisen.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Verbindliche Erklärung einer Versicherungsgesellschaft zum Abschluss einer Berufshaftpflichtversicherung für Vermögensschäden in Höhe von 1.700.000 € (vgl. § 45 Abs. 4 Nr. 2 VgV)
+oder
+Nachweis einer Berufshaftpflichtversicherung für Vermögensschäden in Höhe von 1.700.000 € durch aktuellen Versicherungsschein (vgl. § 45 Abs. 4 Nr. 2 VgV).
+Anforderungen, die für die Auswahl bewertet werden:
+
+• Eigenerklärung über Gesamtumsatz und Umsatz in dem Tätigkeitsbereich der öffentlichen Finanzkontrolle insbesondere des Auftrags oder vergleichbare Tätigkeitsbereiche in den letzten drei Geschäftsjahren, sofern entsprechende Angaben verfügbar sind (vgl. §§ 45 Abs. 4 Nr. 4, 45 Abs.5 VgV (Bewertungsfaktor 1). Es wird darauf hingewiesen, dass bei einem Jahresumsatz von mindestens 500.000 € im Tätigkeitsbereich der öffentlichen Finanzkontrolle die volle Punktzahl erreicht wird.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">• Angabe, welche Teile des Auftrags unter Umständen als Unteraufträge zu vergeben beabsichtigt ist und Nennung der Unterauftragnehmer (vgl. §§ 36, 46 Abs. 3 Nr. 10 VgV).
+
+Anforderungen, die für die Auswahl bewertet werden:
+
+• Referenzliste (siehe Vordruck) mit wesentlichen erbrachten vergleichbaren Leistungen in den letzten drei Jahren (vgl. § 46 Abs. 3 Nr. 1 VgV mit folgenden Eigenerklärungen (Bewertungsfaktor 2): Art der Leistung, Umfang, Empfänger (öffentliche und/oder private), Ansprechpartner/E-Mail, Erbringungszeitpunkt, Wert. Es wird darauf hingewiesen, dass auch einschlägige Referenzen berücksichtigt werden können, die mehr als drei Jahre zurückliegen (vgl. § 46 Abs. 3 Nr. 1).
+
+• Name, berufliche Qualifikation und Erfahrung der gesamtverantwortlichen Person (gilt auch für die Bewerbergemeinschaft) (vgl. §§ 46 Abs. 1, 46 Abs. 3 Nr. 2, 46 Abs. 3 Nr. 6 VgV, Bewertungsfaktor 3).
+
+• Namen, berufliche Qualifikation und Erfahrung (gilt auch für die Bewerbergemeinschaft) der Projektleiter, der stellvertretenden Projektleiter sowie des Qualitätsmanagers (vgl. §§ 46 Abs. 1, 46 Abs. 3 Nr. 2, 46 Abs. 3 Nr. 6 VgV, Bewertungsfaktor 5).
+
+• Namen, berufliche Qualifikation, Erfahrung und geplanter Aufgabenbereich der anderen Personen, die die Leistung erbringen sollen (gilt auch für die Bewerbergemeinschaft) (vgl.
+§§ 46 Abs. 1, 46 Abs. 3 Nr. 2, 46 Abs. 3 Nr. 6 VgV,
+Bewertungsfaktor 4). Ausgenommen hiervon sind die Prüfungsassistenten, diese müssen erst im Verhandlungsverfahren benannt werden und werden daher für die Auswahl nicht bewertet.
+
+• Beschreibung der Maßnahmen zur Qualitätssicherung (vgl. §§ 46 Abs. 1, 46 Abs. 3 Nr. 3 VgV, Bewertungsfaktor 2).
+
+• Eigenerklärung zur durchschnittlichen jährlichen Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren (vgl. § 46 Abs. 3 Nr. 8 VgV, Bewertungsfaktor 1).
+
+Geforderte Eignungsnachweise (gem. §§ 122 ff. GWB, §§ 42 ff. VgV), die in Form anerkannter Präqualifikationsnachweise (u.a. HPQR) vorliegen, werden zugelassen und anerkannt, wenn die Präqualifikationsnachweise in Form und Inhalt den geforderten Eignungsnachweisen entsprechen.</cbc:Description>
+                        <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">par-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1963892626a-7a3b4a431f6339f8</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Objektive Kriterien für die Auswahl der begrenzten Zahl von Bewerbern:
+Bepunktung der Vollständigkeit der geforderten Erklärungen/ Nachweise (Bewertungsfaktor 2) sowie vorstehende Angaben zur Leistungsfähigkeit in einer Skala 0 bis 5 multipliziert mit dem angegebenen Bewertungsfaktor.
+Bei Bewerbergemeinschaften sind die Nachweise jeweils für jeden Teilnehmer der Gemeinschaft getrennt beizufügen.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Öffentlich bestellte Wirtschaftsprüfer, Wirtschaftsprüfungsgesellschaften sowie andere geeignete Dritte nach § 5 Abs. 1 Satz 4 ÜPKKG.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>50.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Kreative Ausfüllung des Prüfungsthemas</cbc:Name>
+                  <cbc:Description languageID="DEU">siehe Anlagen</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Prüfungsorganisation</cbc:Name>
+                  <cbc:Description languageID="DEU">siehe Anlagen</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Prüfungsqualität</cbc:Name>
+                  <cbc:Description languageID="DEU">siehe Anlagen</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>0.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Festpreis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.had.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ist ein Bewerber der Auffassung, dass der Auftraggeber die Bestimmungen über das Vergabeverfahren nicht einhält oder eingehalten hat, kann er bei der im folgenden genannten Vergabekammer ein Nachprüfungsverfahren beantragen. Ein Antrag ist unzulässig, (§ 160 Abs. 3 Nr. 1 GWB) wenn der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat oder (§ 160 Abs. 3 Nr. 2 GWB) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden oder (§ 160 Abs. 3 Nr. 3 GWB) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung gegenüber dem Auftraggeber gerügt werden oder (§ 160 Abs. 3 Nr. 4 GWB) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Ein Nachprüfungsantrag ist zudem unzulässig, soweit der Antrag erst nach Zuschlagserteilung gestellt wird (§ 168 Abs. 2 Satz 1 GWB). Die Zuschlagserteilung ist möglich 10 Tage nach Absendung der Bekanntgabe der Vergabeentscheidung per Fax oder auf elektronischem Weg bzw. 15 Tage nach Absendung der Bekanntgabe der Vergabeentscheidung per Post (§ 134 Abs. 2 GWB). Des Weiteren wird auf die in § 135 Abs. 2 GWB genannten Fristen verwiesen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2025-06-30+02:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2025-06-02+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">260. Vergleichende Prüfung Haushaltsstruktur 2026: Regionalverbände II bei 2 hessischen Körperschaften</cbc:Name>
+         <cbc:Description languageID="DEU">Die 260. Vergleichende Prüfung "Haushaltstruktur 2026: Regionalverbände II" richtet sich nach dem Gesetz zur Regelung der überörtlichen Prüfung kommunaler Körperschaften in Hessen (ÜPKKG) vom 22. Dezember 1993 (GVBl. I S.708).
+
+Der Auftragnehmer wird die Aufgabenwahrnehmung nach den Maßstäben der Rechtmäßigkeit, Sachgerechtheit und Wirtschaftlichkeit untersuchen und vergleichend bewerten.
+
+Aufbauend auf den aus den Unterlagen der Körperschaften gewonnenen Erkenntnissen hat er Sachverhalte darzustellen, Analysen zu treffen und Bewertungen abzuleiten. Er prüft dabei insbesondere die rechtlichen Grundlagen, den Aufgabenumfang (auch freiwillige Leistungen), die Intensität und Ordnungsmäßigkeit der Aufgabenerfüllung, die Berechnung und Erhebung der Verbandsumlage, das Beteiligungsmanagement sowie die Möglichkeiten zur Steigerung der Effektivität und Effizienz unter besonderer Berücksichtigung der Organisation (Verwaltung, Personal, Steuerung und Gremien) und der Digitalisierung.
+
+Der Auftragnehmer wird die Vermögens-, Finanz- und Ertragslage der Körperschaften für jedes Jahr des Prüfungszeitraums untersuchen, eine Analyse der Haushaltsstrukturen vornehmen sowie Feststellungen zur Haushaltsstabilität treffen, die formale Behandlung der Jahresabschlüsse prüfen, die Risikovorbeugung zur Vermeidung doloser Handlungen untersuchen und die Nachschau vornehmen.
+
+Aus den Prüfungsfeststellungen sind Empfehlungen abzuleiten und Ergebnisverbesserungspotenziale darzustellen.
+
+Einzelheiten und weitere Prüfungsinhalte ergeben sich aus dem Angebot, dem Prüfungshandbuch sowie dem Merkblatt.
+
+Prüfungsgegenstand: Regionalverband FrankfurtRheinMain und Zweckverband Raum Kassel.
+
+Prüfungszeitraum ist die Zeit vom 01.01.2021 bis zum 31.12.2025.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">211764.00</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79210000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64295</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Kommunale Körperschaften im Bundesland Hessen</cbc:StreetName>
+               <cbc:CityName>Darmstadt</cbc:CityName>
+               <cbc:PostalZone>64295</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-12-15+01:00</cbc:StartDate>
+            <cbc:EndDate>2027-12-30+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Auftragnehmer legt dem Auftraggeber nach Abschluss der
+örtlichen Erhebungen die Vorläufigen Prüfungsfeststellungen für beide Körperschaften vor. Diese enthalten alle Sachverhalte, Grunddaten und Bewertungen der Vergleichenden Prüfung.
+Nach Vorlage dieser Prüfungsfeststellungen entscheidet der Auftraggeber innerhalb einer Frist von drei Monaten, ob das Prüfungsziel erreicht und die Prüfung fortgesetzt wird (Option), und teilt dem Auftragnehmer die Entscheidung schriftlich mit.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                            <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                            <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                            <efac:Company>
+                                <cbc:WebsiteURI>http://www.bg-verkehr.de</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation, vertreten durch die Geschäftsführung</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Ottenser Hauptstr. 54</cbc:StreetName>
+                                    <cbc:CityName>Hamburg</cbc:CityName>
+                                    <cbc:PostalZone>22765</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Berichtseinheit-ID 00004400</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Name>Stabsbereich Revision und Vergabe</cbc:Name>
+                                    <cbc:Telephone>+49403980-1159</cbc:Telephone>
+                                    <cbc:ElectronicMail>vergabestelle@bg-verkehr.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Vergabekammer des Bundes beim Bundeskartellamt</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+                                    <cbc:CityName>Bonn</cbc:CityName>
+                                    <cbc:PostalZone>53113</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>+49228-9499-0</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+49228-9499-0</cbc:Telephone>
+                                    <cbc:Telefax>+49228-9499-163</cbc:Telefax>
+                                    <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00081504-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">28/2024</efbc:GazetteID><efbc:PublicationDate>2024-02-08Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">c1795bed-644d-47d3-8da4-a19e108f42aa</cbc:ID>
+    <cbc:ContractFolderID>08baea6c-3373-4612-a974-b901c3650f75</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-02-06+01:00</cbc:IssueDate>
+    <cbc:IssueTime>15:44:18.683+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RequestedPublicationDate>2024-02-08+01:00</cbc:RequestedPublicationDate>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:ProcurementLegislationDocumentReference>
+            <cbc:ID>vgv</cbc:ID>
+        </cac:ProcurementLegislationDocumentReference>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Abweichend von dem voranstehenden Grund gelten die Ausschlussgründe gemäß §§ 123, 124 und 125 GWB. Hierzu sind folgende Unterlagen einzureichen: - Eigenerklärung zum Nichtvorliegen zwingender Ausschlussgründe nach § 123 GWB (Vordruck, Anlage C.6 Eigenerklärung 123 GWB); - Eigenerklärung zum Nichtvorliegen fakultativer Ausschlussgründe nach § 124 GWB (Vordruck, Anlage C.7 Eigenerklärung 124 GWB). </cbc:Description>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:ID>2023-0098</cbc:ID>
+        <cbc:Name languageID="DEU">Druck und Versandvorbereitung des Mitgliedermagazins der BG Verkehr</cbc:Name>
+        <cbc:Description languageID="DEU">Druck und Versandvorbereitung des Mitgliedermagazins der BG Verkehr, das viermal jährlich in 6 Branchenausgaben erscheint. 
+Es wird ausdrücklich darauf hingewiesen, dass der Versand nicht Gegenstand dieser Ausschreibung ist.
+</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="DEU">Zudem sind folgende Unterlagen einzureichen: 
+1. Erklärung bzgl. Art. 5 k der Verordnung (EU) Nr. 2022/576 (Eigenerklärung Russland, Vordruck, Anlage C.11) 
+2. Verpflichtungserklärung zur Einhaltung rechtlicher Verpflichtungen (Vordruck, Anlage C.10) 
+3. Der Vertrag (Anlage C.9.1) ist unterzeichnet mit Angebotsabgabe einzureichen. Der Vertrag ist auszudrucken, zu unterschreiben, einzuscannen und mit dem Angebot einzureichen. 
+4. Unterzeichnete und vollständig ausgefüllte Vereinbarung zur Auftragsverarbeitung i. S. d. § 80 SGB X bzw. Art. 28 DSGVO einschließlich der
+vollständig ausgefüllten Checkliste technisch-organisatorische Maßnahmen (Vordruck, Anlage C.9.2).
+Siehe hierzu auch Anlage D.1 "Liste der verlangten Nachweise".</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">22000000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="DEU">DE600 für Besprechungen</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">A.1) Erklärung zum Nichtvorliegen zwingender Ausschlussgründe nach § 123 GWB (Vordruck, Anlage C.6) 
+A.2) Erklärung zum Nichtvorliegen fakultativer Ausschlussgründe nach § 124 GWB (Vordruck, Anlage C.7)</cbc:Name>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">A.3) Gesamtumsatz (netto) des Unternehmens 
+A.4) Nachweis einer Betriebshaftpflichtversicherung</cbc:Name>
+                                <cbc:Description languageID="DEU">A.3) Geben Sie den Gesamtumsatz (netto) des Unternehmens für die letzten drei abgeschlossenen Geschäftsjahre an sowie der Umsätze (netto), die auf Leistungen entfallen, die mit dem vorliegend ausgeschriebenen Leistungen vergleichbar sind - jeweils nach Geschäftsjahr aufgeschlüsselt. A.4) Nachweis einer Betriebshaftpflichtversicherung einer Versicherungsgesellschaft mit Sitz in der EU mit Deckungssummen für Personenschäden von jeweils mindestens EURO 1.000.000 und für Sachschäden von jeweils mindestens EURO 500.000. Der Nachweis hat
+mit dem Angebot entweder durch Vorlage der Kopie des Versicherungsscheins oder durch eine Bestätigung des Versicherungsgebers
+(Versicherer oder Versicherungsvermittler) zu erfolgen. Für den Fall, dass eine Versicherung mit den genannten Deckungssummen nicht vorliegt, ist mit dem Angebot eine rechtsverbindliche Erklärung des Versicherungsgebers abzugeben, das im Auftragsfall mit dem Versicherungsnehmer eine Versicherung mit den geforderten Mindestdeckungssummen geschlossen wird. Nach Auftragserteilung muss der Versicherungsschein (Kopie) nachgereicht werden. Bei Bietergemeinschaften ist von jeden Mitglied der Bietergemeinschaft eine Versicherung zu den o.g. Bedingungen beizubringen.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">A.5) Referenzen</cbc:Name>
+                                <cbc:Description languageID="DEU">A.5) Referenzen: Benennen Sie mindestens drei mit dem Ausschreibungsgegenstand vergleichbare Referenzobjekte. Die fachlichen
+Referenzen dürfen nicht länger als drei Jahre zurückliegen. Nennen und beschreiben Sie bitte die Referenzprojekte jeweils mit folgenden Angaben: 
+o Name und Anschrift des Auftraggebers sowie Benennung eines Ansprechpartners beim Auftraggeber mit Telefonnummer und E-Mail-Adresse; 
+o Bezeichnung des Referenzobjektes 
+- mit aussagekräftiger Kurzbeschreibung; 
+- Angabe zur Leistungszeit; 
+- Angabe, ob die Leistungen als vollständige Eigenleistung, mit Nachunternehmern oder in Kooperation mit anderen Firmen erbracht wurden und ggf. mit Angabe des Eigenleistungsanteils. Bitte beachten Sie, dass die Angaben zu den Referenzen vollständig sind.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                                <efac:StrategicProcurementInformation>
+                                    <efbc:ProcurementCategoryCode listName="cvd-contract-type">oth-serv-contr</efbc:ProcurementCategoryCode>
+                                </efac:StrategicProcurementInformation>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+            <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+                <cbc:Description languageID="DEU">Betriebshaftpflichtversicherung:
+Nachweis einer Betriebshaftpflichtversicherung einer Versicherungsgesellschaft mit Sitz in der EU mit Deckungssummen für Personenschäden von jeweils mindestens EURO 1.000.000 und für Sachschäden von jeweils mindestens EURO 500.000. Der Nachweis hat mit dem Angebot entweder durch Vorlage der Kopie des Versicherungsscheins oder durch eine Bestätigung des Versicherungsgebers
+(Versicherer oder Versicherungsvermittler) zu erfolgen. Für den Fall, dass eine Versicherung mit den genannten Deckungssummen nicht vorliegt, ist mit dem Angebot eine rechtsverbindliche Erklärung des Versicherungsgebers abzugeben, das im Auftragsfall mit dem Versicherungsnehmer eine Versicherung mit den geforderten Mindestdeckungssummen geschlossen wird. Nach Auftragserteilung muss der Versicherungsschein (Kopie) nachgereicht werden. Bei Bietergemeinschaften ist von jeden Mitglied der Bietergemeinschaft eine Versicherung zu den o.g. Bedingungen beizubringen.
+</cbc:Description>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E69668921</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E69668921</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">Die Nachforderungen von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Der Preis ist nicht das einzige Zuschlagskriterium. Alle Kriterien sind nur in den Vergabeunterlagen, insbesondere Teil A Bewerbungsbedingungen aufgeführt.</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E69668921</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Der Antrag auf Einleitung eines Nachprüfungsverfahrens ist nur zulässig, wenn er innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Auftraggeberin, einer Rüge nicht abhelfen zu wollen, bei der zuständigen Vergabekammer eingereicht wird (vgl. § 160 Abs. 3 Nr. 4 GWB).
+</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+            <cac:SecurityClearanceTerm>
+                <cbc:Code listName="required">false</cbc:Code>
+            </cac:SecurityClearanceTerm>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2024-03-12+01:00</cbc:EndDate>
+                <cbc:EndTime>12:00:00.000+01:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:InvitationSubmissionPeriod>
+                <cbc:StartDate>2024-02-06+01:00</cbc:StartDate>
+            </cac:InvitationSubmissionPeriod>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2024-03-12+01:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>12:00:00.000+01:00</cbc:OccurrenceTime>
+                <cbc:Description languageID="DEU">1. Die Vorlage eines Papiermusters des angebotenen Papiers einschließlich des Nachweises seiner PEFC-Zertifizierung oder eines vergleichbaren Zertifikats und zusätzlich ein Druckstück mit diesem Papier ist erforderlich. Diese vorzulegenden Muster sind getrennt vom Angebot rechtzeitig bis zum Ablauf der Angebotsfrist an folgende Anschrift: BG Verkehr, Stabsbereich Revision und Vergabe, Ottenser Hauptstraße 54 in 22765 Hamburg zu senden. Die Muster müssen jedoch zum Angebot gehörig gekennzeichnet sein. 
+2. Die Vergabeunterlagen sind über das elektronische Vergabeinformationssystem subreport ELViS kostenlos abzurufen unter der Adresse www.subreport-Elvis.de/E69668921. Eine elektronische Angebotsabgabe ist zwingend vorgeschrieben.
+3. Die geforderten Angaben und Erklärungen sind in der Anlage D.1 "Liste der verlangten Nachweise" der Vergabeunterlagen aufgeführten Reihenfolge abzugeben. Für die Angaben sind soweit vorgesehen die unter www.subreport-elvis.de/E69668921 hinterlegten Vordrucke zu verwenden.
+4. Sämtliche in der Bekanntmachung und den Vergabeunterlagen geforderten Nachweise, Erklärungen und sonstige Unterlagen sind bis zum Ablauf der Angebotsfrist bei der Auftraggeberin einzureichen.
+5. Rechtsform der Bietergemeinschaft, an die der Auftrag vergeben wird (falls zutreffend):
+Die Bietergemeinschaft hat mit ihrem Angebot eine von allen Mitgliedern unterzeichnete Erklärung abzugeben,
+-	in der die Bildung einer Bietergemeinschaft erklärt ist,
+-	in der die Bildung einer Arbeitsgemeinschaft im Auftragsfall erklärt wird,
+-	in der alle Mitglieder aufgeführt sind u. der für die Durchführung des Vertrages bevollmächtigte Vertreter bezeichnet wird,
+-	in der bestätigt wird, dass dieser Vertreter gegenüber die Auftraggeberin alle Mitglieder - auch im Vergabeverfahren - rechtsverbindlich vertritt und
+-	dass alle Mitglieder für die Erfüllung sämtlicher vertraglicher und außervertraglicher Verpflichtungen als Gesamtschuldner haften und
+-	in der eine Kontonummer bei einem näher bezeichneten Kreditinstitut angegeben ist, auf die sämtliche Zahlungen der Auftraggeberin mit befreiender Wirkung für alle am Vertrag Beteiligten geleistet werden können. Eine entsprechende Erklärung ist in dem Vordruck Teil C Anlage C.2 "Erklärung d. Bietergemeinschaft" vorformuliert.
+6. Wird von der Möglichkeit Gebrauch gemacht, Nachunternehmer vorzusehen, so ist der Nachunternehmeranteil im Angebot inhaltlich zu bezeichnen. Auf gesondertes Verlangen der Auftraggeberin ist der jeweilige Nachunternehmer namentlich zu benennen sowie eine entsprechende Verfügbarkeitserklärung des Nachunternehmers einzureichen. Als Nachunternehmer gelten auch verbundene Unternehmen oder sonstige Dritte.
+7. Soweit ein Bieter / eine Bietergemeinschaft zum Nachweis der Eignung andere Unternehmen in Anspruch nimmt (sog. Eignungsleihe), wird auf die Anforderungen in § 47 VgV hingewiesen. Die Auftraggeberin wird - soweit relevant - von der Möglichkeit des § 47 Abs. 3 VgV Gebrauch machen.
+8. Es wird darauf hingewiesen, dass nur die geforderten Unterlagen berücksichtigt werden und darüber hinausgehende Unterlagen nicht erwünscht sind.
+9. Bei ausländischen Bietern genügen gleichwertige Bescheinigungen des Herkunftslandes. Bei Dokumenten in andere Sprachen sind beglaubigte Übersetzungen ins Deutsche beizufügen.
+10. Nachfragen werden nur beantwortet, wenn sie schriftlich bis spätestens 7 Tage vor Ablauf der Angebotsfrist an die unter Ziffer 8.1 ORG-001 genannte Kontaktstelle gestellt werden. Die Beantwortung gestellter Fragen erfolgt ebenfalls ausschließlich schriftlich. Die rechtzeitig eingegangenen Fragen werden gesammelt und gemäß § 20 Abs. 3 Nr. 1 VgV spätestens 6 Tage vor Ablauf der Angebotsfrist in Form eines Fragen- und Antwortenkatalogs beantwortet. Aus Gründen der Gleichbehandlung und zur Einhaltung der Transparenz wird der Fragen- und Antwortenkatalog allen Bietern in anonymisierter Form über das elektronische Vergabeinformationssystem subreport ELViS unter der Adresse www.subreport-elvis.de/E69668921 zur Verfügung gestellt. Sie müssen sich selbst regelmäßig über den Stand des Verfahrens informieren. Die Fragen und Antworten werden zum Bestandteil der Vergabeunterlagen.
+11. Die Vergabeunterlagen werden nicht zurückgesendet und verbleiben bei der Auftraggeberin.
+</cbc:Description>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>2023-0098</cbc:ID>
+            <cbc:Name languageID="DEU"> Druck und Versandvorbereitung des Mitgliedermagazins der BG Verkehr</cbc:Name>
+            <cbc:Description languageID="DEU">Die BG Verkehr gibt ein Mitgliedermagazin heraus, das viermal jährlich erscheint mit je 6 Branchenausgaben und jeweils 32 Seiten. Die Seitenzahl kann sich für die Gesamtauflage oder einzelne Branchenausgaben auf 24 Seiten reduzieren. Die Gesamtauflage beträgt ca. 280.000 Exemplare, Abweichungen hiervon sind i.H.v. 5 % mehr oder weniger zu berücksichtigen. Die Ausgaben der jeweiligen Branchen unterscheiden sich in der Auflagenhöhe. Das Magazin umfasst Artikel aus dem Bereich der Gesetzlichen Unfallversicherung mit einem Schwerpunkt im Bereich der Prävention. Alle Branchenausgaben erscheinen im Format DIN A4. Titel, Inhaltsverzeichnis und ein Teil der Inhaltsseiten der Branchenausgaben variieren. Bundesspezifische Rechtsvorschriften (insbesondere der Sozialdatenschutz und die datenschutzrechtlichen Regelungen der DSGVO) müssen beachtet werden. Detaillierte Angaben zum Leistungsgegenstand entnehmen Sie bitte Teil B Vertragsunterlagen. Gegenstand dieser Ausschreibung sind Druck einschließlich Versandvorbereitung. Es wird ausdrücklich darauf hingewiesen, dass der Versand nicht Gegenstand dieser Ausschreibung ist. </cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+                <cbc:ProcurementType languageID="DEU">Forderung, dass das Papier aus nachhaltig bewirtschafteten Wäldern stammt und damit über ein PEFC oder vergleichbares Zertifikat verfügt. </cbc:ProcurementType>
+            </cac:ProcurementAdditionalType>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">22000000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">DE600 für Besprechungen</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+                <cbc:EndDate>2025-12-31+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="DEU">siehe unter Ziffer 5.1.4</cbc:OptionsDescription>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="DEU">Der Vertrag wird zunächst für einen Zeitraum bis 31.12.2025 geschlossen. Der Vertrag verlängert sich automatisch jeweils um ein Jahr bis
+maximal 31.12.2028, sofern er nicht von einer der beiden Vertragsparteien mit einer Frist von 6 Monaten jeweils zum 31.12. eines Jahres schriftlich gekündigt wird. Eine Kündigung ist frühestens zum 31.12.2025 möglich.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

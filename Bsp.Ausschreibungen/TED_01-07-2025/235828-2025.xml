@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Gemeindevorstand der Gemeinde Cölbe</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kasseler Straße 88</cbc:StreetName>
+                           <cbc:CityName>Cölbe</cbc:CityName>
+                           <cbc:PostalZone>35091</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:06421985018</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6421985018</cbc:Telephone>
+                           <cbc:ElectronicMail>wagner@coelbe.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">HEUSSEN Rechtsanwaltsgesellschaft mbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Frankfurt am Main</cbc:CityName>
+                           <cbc:PostalZone>60327</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 812 44 9916</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6915242120</cbc:Telephone>
+                           <cbc:ElectronicMail>tanja.turner@heussen-law.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Dienstgebäude: Wilhelminenstraße 1-3; Fristenbriefkasten: Luisenplatz 2</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:06151126603</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151-126603</cbc:Telephone>
+                           <cbc:Telefax>+49 6151125816</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00235828-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">72/2025</efbc:GazetteID><efbc:PublicationDate>2025-04-11+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">5f8659d4-df81-49c8-a23a-82c729691ab6</cbc:ID>
+   <cbc:ContractFolderID>0142f398-8327-4ae6-b309-4fc6afa3f779</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-04-10+02:00</cbc:IssueDate>
+   <cbc:IssueTime>10:05:54+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-04-10+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>CÖL - HEUSSEN-2025-0026</cbc:ID>
+      <cbc:Name languageID="DEU">Planung der Technischen Ausrüstung, Anlagengruppen 1-3</cbc:Name>
+      <cbc:Description languageID="DEU">TA-Planung Anlagengruppen 1-3 für den Umbau und die Erweiterung des Feuerwehrgerätehauses in Schönstadt</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">1.Die Bieter sind verpflichtet, die von der Auftraggeberin zur Verfügung gestellten Formblätter für die Abgabedes Angebots zu verwenden. Werden die Formblätter nicht verwendet, erfolgt ein Ausschluss aus dem Vergabeverfahren. Darüber hinaus müssen die Bieter das von der Vergabeplattform zur Verfügung gestellte Angebotsschreiben ausfüllen, d.h. zumindest das von ihnen angebotene Honorar eintragen, damit die Vergabeplattform das Vorliegen eines Angebots automatisch erkennt.
+
+2.  Fragen zu der Angebotsphase können bis spätestens 07.05.2025, 14:00 Uhr gestellt werden. 
+
+3. Die gesamte Kommunikation während des Vergabeverfahrens erfolgt über die Vergabeplattform. Telefonische Auskünfte werden nicht erteilt.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71321200</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71321300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71321400</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Cölbe</cbc:CityName>
+            <cbc:PostalZone>35091</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">•Eigenerklärung des Bieters, dass keine Ausschlussgründe nach §§ 123, 124 GWB vorliegen
+• Eigenerklärung des Bieters über den Eintrag in die Ingenieurliste oder Vorlage der Diplomurkunde
+• Bei juristischen Personen: Vorlage eines Handels-/Partnerschaftsregisterauszugs, nicht älter als drei Monate bei Abgabe des Angebots. Hieraus muss hervorgehen, dass der Aussteller der Erklärung (Person des Erklärenden) für das Unternehmen vertretungsberechtigt ist und die auftragsgegenständlichen Leistungen zu dem satzungsgemäßen Geschäftszweck gehören. Wird ein Handels-/Partnerschaftsregisterauszug vorgelegt, der älter als drei Monate bei Abgabe des Angebots ist, versichert der Bieter mit der Abgabe seines Angebots, dass keine Änderungen an den Eintragungen im Handels-/Partnerschaftsregister erfolgt sind.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">1. Eigenerklärung über das Bestehen einer Berufshaftpflichtversicherung mit einer Deckungssumme von mind. 2.000.000- € für Personenschäden und 1.000.000.- € für Vermögens- und sonstige Schäden sowie Umwelthaftung und Umweltschadengesetz, jeweils zweifach maximiert im Versicherungsjahr mit Benennung der Versicherungsgesellschaft oder alternativ eine Versicherungsbestätigung, dass im Falle der Zuschlagserteilung eine entsprechende Versicherung mit den geforderten Deckungssummen zugesagt wird. 
+
+2. Eigenerklärung zum Umsatz der letzten drei abgeschlossenen Geschäftsjahre in der Planung der Technischen Gebäudeausrüstung, Anlagengruppen 1 bis 3 (2021, 2022 und 2023 in Euro netto).
+
+Mindestanforderungen: Der Umsatz der letzten drei Jahre muss in den Anlagengruppen 1-3 mindestens 100.000.- € netto im Mittel betragen haben. Bei neu (ab dem Jahr 2022) gegründeten Büros muss der Umsatz des letzten Geschäftsjahrs (2024) mindestens 75.000.- € netto betragen haben.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">1. Eigenerklärung zur Anzahl der Mitarbeiter/innen der letzten drei Jahre im Jahresdurchschnitt, aufgeteilt nach Führungskräften und weiteren technischen Mitarbeitern/innen.
+
+Mindestanforderungen: 
+Das sich bewerbende Büro muss mindestens 3 Mitarbeiter Fachrichtung Technische Gebäudeausrüstung, Anlagengruppen 1-3 (nicht kaufmännische Mitarbeiter, Sekretariat o.ä.) einschließlich des Büroinhabers beschäftigen. Hierbei sind Doppelnennungen nicht zulässig, z.B. dürfen Führungskräfte nicht nochmals bei Dipl.-Ing./ Arch. aufgeführt werden und Dipl.-Ing/ Arch. nicht erneut bei sonstigen technischen Mitarbeitern.
+
+2. Vorlage von Referenzen aus den letzten fünf Jahren bezogen auf TA-Planungen der Anlagengruppen 1-3, die in Bezug auf Art und Umfang mit der zu vergebenden Leistung vergleichbar sind. Als vergleichbar werden Referenzen angesehen, die die Planung der Technischen Ausrüstung von Einrichtungen für die öffentliche Sicherheit und Ordnung (z.B. Feuerwehrgerätehäuser, Feuerwehrdienstgebäude, Polizeidienstgebäude, Rettungswachen) oder sonstigen öffentlichen Einrichtungen (Schulen, KITAs, Verwaltungsgebäude) beinhalten. 
+
+Mindestanforderungen: Es müssen mindestens zwei in Art und Umfang vergleichbare Referenzen genannt werden, bei denen in den Anlagengruppen 1-3 mindestens die LP 3 - 8 bearbeitet wurden und bei denen die LP 8 abgeschlossen ist oder unmittelbar (in längstens drei Monaten bei Abgabe des Angebots) vor dem Abschluss steht. Der Abschluss der LP 8 (Übergabe des Objekts) darf nicht länger als fünf Jahre zurückliegen, d.h. Abschluss der LP 8 frühestens im Frühjahr 2020.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1961952476d-115e659de43f1cc5</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Bieter sind verpflichtet, die von der Auftraggeberin zur Verfügung gestellten Formblätter - sofern erforderlich - vollständig auszufüllen und für die Abgabe des Teilnahmeantrags bzw. Angebots zu verwenden. Werden die Formblätter nicht verwendet, erfolgt ein Ausschluss aus dem Vergabeverfahren, ohne dass die Möglichkeit eines Nachreichens eingeräumt wird.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Projektleiter, Beruflicher Werdegang, Erfahrung und Referenzen</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualität</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>15.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Stellvertretender Projektleiter, Beruflicher Werdegang, Erfahrung und Referenzen</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualität</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Bauleiter/Objektüberwacher, Beruflicher Werdegang, Erfahrung und Referenzen</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualität</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Konzept zur Projektorganisation</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualität</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>35.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Honorar</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.had.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig. (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-05-14+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Planung der Technischen Ausrüstung, Anlagengruppen 1-3</cbc:Name>
+         <cbc:Description languageID="DEU">Das vorhandene Feuerwehrhaus der Freiwilligen Feuerwehr Cölbe-Schönstadt am Standort "Am Bürgerhaus 9" ist als nicht bedarfsgerecht anzusehen und kann die zukünftigen Anforderungen gemäß der aktuellen Bedarfs- und Entwicklungsplanung für die Freiwilligen Feuerwehren der Gemeinde Cölbe nicht mehr erfüllen. Es entspricht nicht den aktuellen Anforderungen der Unfallverhütungsvorschriften und dem aktuellen Stand der Technik.
+ 
+Aufgrund der engen Platzverhältnisse (bspw. Doppelbelegung der Einsatzspinde, schmale Laufwege, unzureichende Verkehrswegbreite bei dem vorhandenen Einsatzfahrzeug, fehlende Stellfläche) ist die Sicherheit für die Einsatzkräfte nicht mehr gewährleistet. Eine Abgasabsauganlage als technische Schutzmaßnahme nach TRGS 554 fehlt vollständig. Insbesondere die Möglichkeit zum Ablegen kontaminierter Einsatzkleidung und eine Wasch- und Duschmöglichkeit (Schwarz-/Weiß-Trennung) nach Feuerwehreinsätzen steht nicht zur Verfügung.
+
+Darüber hinaus sind keine bzw. nur unzureichende Lagerflächen zur Ver- und Entsorgung vorhanden, ein Alarmhof sowie eine Übungsfläche im Außenbereich sind nicht verfügbar. Die Anzahl der PKW-Stellplätze für die Einsatzkräfte im Alarmfall sind als nicht ausreichend zu bezeichnen. Äußerst problematisch zu bewerten ist auch der gegenwärtig vorhandene Stellplatz für das Einsatzfahrzeug, welcher in Höhe, Breite und Tiefe zu gering dimensioniert ist und bereits in der Vergangenheit vom technischen Prüfdienst bemängelt wurde.  
+
+Unter diesen Gesichtspunkten ist der hierfür notwendige Raumbedarf (Schulungsbereich, Umkleidebereich, Sanitärbereich, Stellplatz etc.) zu schaffen.
+
+Das derzeitige Feuerwehrhaus befindet sich im süd-östlichen Teil des ebenfalls mit einem Bürgerhaus bebauten Grundstücks "Am Bürgerhaus 7/9", welches im Jahr 1970 in Massivbauweise als Garage errichtet und im Jahr 1986 mit einem Erweiterungsbau als Feuerwehrhaus versehen wurde.
+
+Im Rahmen einer Machbarkeitsstudie wurden im Jahr 2021 Überlegungen angestellt, das bestehende Gerätehaus den erforderlichen Maßnahmen anzupassen. Von den beauftragten Fachplanern wurde empfohlen, den gesamten Gebäudekomplex am selben Standort umzubauen und zu erweitern, um damit ein den heutigen Anforderungen entsprechendes, bedarfsgerechtes und funktionales Feuerwehrgerätehaus nach DIN 14092 zu errichten. Durch leichte Hanglage des Grundstücks und die geplante Erweiterung in nördlicher Richtung erfolgt der Erweiterungsbau in zweigeschossiger Bauweise.  
+
+Der in der vorgenannten Machbarkeitsstudie dargestellte Planungsentwurf erfolgte unter Ausnutzung sämtlicher zur Verfügung stehender Flächen, die unter Einhaltung von Abständen zu den Nachbargrundstücken und -gebäuden möglich ist. Entsprechend der aktuellen Planung soll das bestehende Gebäude im Erdgeschoss um zwei Einstellplätze sowie einen Lager-, Heizungs-/Technik- und Werkstattraum erweitert werden. Der vorhandene Gebäudetrakt wird für die Unterbringung der Umkleide- und Sanitärräume sowie einer Schleuse und eines Trockenraumes umgebaut. In einem räumlich vom Feuerwehrhaus abgetrennten Bereich soll in dem ehemaligen Fahrzeugstand ein Feuerwehroldtimer untergestellt werden.  
+
+Im einem neuen Obergeschoss werden die Räumlichkeiten für den Schulungs-/Multifunktionsraum, Lehrmittel/Stuhllager, Abstellraum Jugendfeuerwehr, Büro für die örtlich technische Einsatzleitung, Teeküche und WC untergebracht. 
+
+Die Bodenplatte der neuen Fahrzeughalle mit 2 Einstellplätzen soll aus geschliffenem Beton mit sehr robuster Oberfläche (z. B. für Kettenbereifung gem. Wetterlage) hergestellt werden. Die Fassadenfront der Fahrzeugstände soll als transparente Glas-Stahl-Konstruktion mit Sektionaltoren ausgeführt werden. Die Pultdachkonstruktion besteht aus einem wärmegedämmten Stahltrapezblechdach, das die Aufnahme einer PV-Dachanlage ermöglichen soll.  
+
+Zwischen den Fahrzeugständen und dem Umkleidebereich wird eine Schleuse zur "Schwarz-Weiß Trennung" vorgesehen. Im Erdgeschoss ist auch der Hauptzugang zum Gebäude vorgesehen. Dieser kann von den Alarmparkplätzen durch einen direkten Zugang erreicht werden. Das Obergeschoss erhält zum direkten Erreichen der dort untergebrachten Räumlichkeiten einen Nebeneingang.
+
+Die Auftraggeberin beabsichtigt, die Planung der Technischen Ausrüstung, Anlagengruppen 1 -3, Leistungsphasen 1-9 des § 55 HOAI zu vergeben. Es werden dabei die Grundleistungen aus dem Katalog der Anlage 15 mit den gültigen Honorarsätzen beauftragt. Die Überlegungen der Machbarkeitsstudie sind umzusetzen. Im Zuge der Planung sind alle aktuell gültigen Regelwerke zu beachten, insbesondere die mit Wirkung zum 01.06.2024 veröffentlichte neue DIN-Normenreihe 14092 Feuerwehrhäuser.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, Es sind folgende Unterkriterien vorgesehen: 
+
+1. Honorar
+Unterkriterien:
+• Höhe des Honorars, Wichtung: 30
+• Höhe der Stundensätze, Wichtung: 5
+
+2. Qualifikation des vorgesehenen Projektleiters
+Unterkriterien: 
+• beruflicher Werdegang und Qualifikation, Wichtung 9 
+• persönliche Referenzen, Wichtung 11
+
+3. Qualifikation des vorgesehenen stellv. Projektleiters			Unterkriterien: 
+• beruflicher Werdegang und Qualifikation, Wichtung 7 
+• persönliche Referenzen, Wichtung 8
+
+4. Qualifikation des vorgesehenen Bauleiters/Objektüberwachers
+Unterkriterien: 
+• beruflicher Werdegang und Qualifikation, Wichtung 9 
+• persönliche Referenzen, Wichtung 11
+
+5. Projektkonzept:
+• Besetzung des Projektteams, Verfügbarkeit, Wichtung 4
+• Abstimmung mit AG und Externen, Wichtung 3
+• interne Organisation und Erreichbarkeit, Wichtung 3</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71321200</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71321300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71321400</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Cölbe</cbc:CityName>
+               <cbc:PostalZone>35091</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-08-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-12-29+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Die Beauftragung erfolgt stufenweise. 
+
+Als erste Stufe sollen die Leistungsphasen 1-4, als zweite Stufe die Leistungsphasen 5-7 und als dritte Stufe die Leistungsphasen 8 und 9 vergeben werden. 
+Mit dem Zuschlag überträgt die Auftraggeberin dem Auftragnehmer die erste Stufe. Es bleibt der Auftraggeberin vorbehalten, den Auftragnehmer stufenweise mit der Erbringung weiterer Leistungsphasen zu beauftragen, wobei kein Rechtsanspruch des Auftragnehmers auf die Beauftragung weiterer, über die erste Stufe hinausgehender Stufen besteht. 
+
+Als Besondere Leistung wird das 
+- Mitwirken beim Erstellen des Verwendungsnachweises im Rahmen der Förderung
+ beauftragt.
+
+Sich aus der Planung ergebende etwaige Änderungs- oder Wiederholungsleistungen sind Gegenstand des Auftrags.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

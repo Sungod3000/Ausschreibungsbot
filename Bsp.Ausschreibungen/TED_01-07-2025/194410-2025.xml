@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:Changes>
+                        <efbc:ChangedNoticeIdentifier>99dba977-1844-4190-bb3b-b36273f43aea-01</efbc:ChangedNoticeIdentifier>
+                        <efac:ChangeReason>
+                            <cbc:ReasonCode listName="change-corrig-justification">update-add</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="DEU">Verschiebung der Betriebsaufnahme auf den Fahrplanwechsel im Dezember 2030 (15.12.2030) sowie der Angebotsfrist auf den 31.07.2025</efbc:ReasonDescription>
+                        </efac:ChangeReason>
+                    </efac:Changes>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                            <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                            <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://beg.bahnland-bayern.de/de/</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Bayerische Eisenbahngesellschaft mbH (BEG)</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Boschetsrieder Str. 69</cbc:StreetName>
+                                    <cbc:CityName>München</cbc:CityName>
+                                    <cbc:PostalZone>81379</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Berichtseinheit-ID 00003196</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>000</cbc:Telephone>
+                                    <cbc:ElectronicMail>ausschreibung@bahnland-bayern.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                            <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                            <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Rhein-Main-Verkehrsverbund GmbH (RMV)</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Alte Bleiche 7</cbc:StreetName>
+                                    <cbc:CityName>Hofheim am Taunus</cbc:CityName>
+                                    <cbc:PostalZone>65719</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE71A</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>USt.-IdNr.: DE 113847810</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>000</cbc:Telephone>
+                                    <cbc:ElectronicMail>2030-RVMF@rmv.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                            <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                            <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.regierung.oberbayern.bayern.de/behoerde/mittelinstanz/vergabekammer/</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Vergabekammer Südbayern bei der Regierung von Oberbayern</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Maximilianstraße 39</cbc:StreetName>
+                                    <cbc:CityName>München</cbc:CityName>
+                                    <cbc:PostalZone>80534</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>nicht bekannt</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>08921762411</cbc:Telephone>
+                                    <cbc:ElectronicMail>vergabekammer.suedbayern@reg-ob.bayern.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00194410-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">60/2025</efbc:GazetteID><efbc:PublicationDate>2025-03-26+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">917764b6-93a5-4542-a9e0-928834a7fb47</cbc:ID>
+    <cbc:ContractFolderID>fd63efed-a456-4bfe-9a53-d5c49d4777e8</cbc:ContractFolderID>
+    <cbc:IssueDate>2025-03-24+01:00</cbc:IssueDate>
+    <cbc:IssueTime>09:16:31.945+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RequestedPublicationDate>2025-03-26+01:00</cbc:RequestedPublicationDate>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+    </cac:ContractingParty>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID>ORG-0002</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:ProcurementLegislationDocumentReference>
+            <cbc:ID>vgv</cbc:ID>
+            <cbc:DocumentDescription languageID="DEU">Die VgV (Vergabeverordnung) ist eine Rechtsverordnung, die die Beschaffung von Liefer- und Dienstleistungen von öffentlichen Auftraggebern regelt.</cbc:DocumentDescription>
+        </cac:ProcurementLegislationDocumentReference>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Der Bewerber hat mit seinem Angebot eine Eigenerklärung darüber abzugeben, ob für ihn Ausschlussgründe nach § 21 des Arbeitnehmer-Entsendegesetzes, nach § 98c des Aufenthaltsgesetzes, nach § 19 des Mindestlohngesetzes oder nach den §§ 123 und § 124 GWB vorliegen. Bei
+Angeboten von Bewerbergemeinschaften muss eine solche Eigenerklärung von jedem Mitglied der Bewerbergemeinschaft abgegeben werden. Bewerber oder Mitglieder einer Bewerbergemeinschaft, bei denen Ausschlussgründe nach den §§ 123, 124 GWB vorliegen, haben außerdem eine Erklärung darüber abzugeben, ob – und wenn ja, welche – Maßnahmen zur Selbstreinigung nach § 125 GWB der jeweilige Bewerber bzw. das jeweilige Mitglied der Bewerbergemeinschaft ergriffen hat. Für diese Erklärung ist das Formblatt F (vgl. Anlage F zu diesem Verfahrensbrief) auszufüllen. Beruft sich ein Bewerber zum Nachweis seiner wirtschaftlichen und finanziellen oder technischen und beruflichen Leistungsfähigkeit auf einen Dritten, ist dieses Formblatt auch bezogen auf den Dritten auszufüllen und dem Angebot beizufügen. Nachweis der Nichtbeauftragung russischer Unternehmen Nach Art. 5 k) VO (EU) 2022/576 ist die Vergabe von öffentlichen Aufträgen an Unternehmen, die ihren Sitz in Russland haben oder einen anderweitigen dort genannten Bezug zu Russland aufweisen, angesichts der Handlungen Russlands, die die Lage in der Ukraine
+destabilisieren, seit dem 09.04.2022 verboten. Die Bieter haben daher diesbezüglich die „Eigenerklärung zu einem Bezug zu Russland nach Art. 5 k)
+VO (EU) 2022/576“ mit dem Angebot abzugeben (Anlage G zu diesem Verfahrensbrief). Angebote von Bietern, die einen in Art. 5 k) VO (EU) 2022/576 genannten Bezug zu Russland aufweisen, werden vom Vergabeverfahren ausgeschlossen. Beruft sich ein Bewerber zum Nachweis seiner wirtschaftlichen und finanziellen oder technischen und beruflichen Leistungsfähigkeit auf einen Dritten, ist dieses Formblatt auch bezogen auf den Dritten auszufüllen und dem Angebot beizufügen.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+        <cac:LotDistribution>
+            <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+            <cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+        </cac:LotDistribution>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <ext:UBLExtensions>
+            <ext:UBLExtension>
+                <ext:ExtensionContent>
+                    <efext:EformsExtension>
+                        <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                    </efext:EformsExtension>
+                </ext:ExtensionContent>
+            </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:NoticeDocumentReference>
+            <cbc:ID>169117-2023</cbc:ID>
+        </cac:NoticeDocumentReference>
+        <cac:ProcessJustification>
+            <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">Regionalverkehr Mainfranken (RVMF)</cbc:Name>
+        <cbc:Description languageID="DEU">Öffentlicher Dienstleistungsauftrag im Schienenpersonennahverkehr im Sinne des Art. 5 Abs. 1 der VO (EG) Nr. 1370/2007. Betrieb eines Regionalverkehrs im Umfang von ca. 4,18 Mio. Millionen Zugkilometern pro Jahr (Los 1) bzw. ca. 3,08 Mio. Zugkilometern pro Jahr (Los 2) auf den folgenden Linien: 
+
+Los 1 (Expressverkehr):
+RE 10 Würzburg Hbf – Neustadt (Aisch) – Nürnberg Hbf,
+RE 54 Frankfurt (Main) Hbf – Würzburg Hbf – Bamberg,
+RE 55 Frankfurt (Main) Hbf – Würzburg Hbf,
+RE 55 Sa+S Einzelleistungen Frankfurt (Main) Hbf – Schweinfurt Hbf – Bamberg (via Werntalbahn).
+
+Los 2 (Regio-S-Bahn):
+
+RS 1 Marktbreit – Würzburg Hbf – Gemünden (Main) – Jossa – Flieden,
+RS 2 Bamberg – Würzburg Hbf,
+RS 4 Kitzingen – Würzburg Hbf,
+RS 11 Gemünden (Main) – Würzburg Hbf,
+RB 79 Gemünden (Main) – Aschaffenburg Hbf.
+
+Betriebsaufnahme ist zum Fahrplanwechsel im Dezember 2030 (15.12.2030).
+
+Die Laufzeit der Verträge in beiden Losen beträgt demnach jeweils 12 Jahre mit einer dreijährigen Verlängerungsoption.
+
+Es werden Angebote mit Neu- und Gebrauchtfahrzeugen zugelassen. Die in beiden Losen jeweils abzuschließenden Verkehrsdurchführungsverträge (VDVs) werden auf bayerischer Seite als Nettovertrag mit zweijähriger Bruttoanlaufphase und auf hessischer Seite als Bruttovertrag ausgestaltet. Die VDVs enthält detaillierte Vorgaben zur Qualität der zu erbringenden Leistungen. Für die Erbringung der Verkehrsleistungen im Los 1 sind Gebrauchtfahrzeuge ab Baujahr 2015 und Neufahrzeuge zugelassen. Für die Erbringung der Verkehrsleistungen im Los 2 sind Gebrauchtfahrzeuge ab Baujahr 2008 und Neufahrzeuge zugelassen.
+
+Es wird eine Kapitaldienstgarantie zur Finanzierung von Neufahrzeugen angeboten. Die Verkehrsleistungen werden im Rahmen eines
+wettbewerblichen Vergabeverfahrens nach den Bestimmungen des 4. Teils des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) sowie der Verordnung über die Vergabe öffentlicher Aufträge (VgV) vergeben.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="DEU">Für die in Hessen zu erbringenden Verkehrsleistungen gilt Folgendes: Der Bieter unterliegt der Tariftreuepflicht gemäß § 8 des Hessischen Vergabe- und Tariftreuegesetzes (HVTG). Der Bieter legt mit seinem Angebot die Verpflichtungserklärung nach § 8 Absatz 1 HVTG gemäß Anlage I vor (vgl. § 5 Absatz 1 HVTG). Für den Fall des Einsatzes von Unterauftrag-/ Nach- bzw. Subunternehmer (UAN) oder Verleihunternehmen legt der Bieter zusätzlich mit seinem Angebot die Verpflichtungserklärungen gemäß Anlage I seiner UAN und Verleihunternehmen vor, soweit diese bereits bei Angebotsabgabe bekannt sind (vgl. § 6 Absatz 2 HVTG). Soweit der Bieter zum Nachweis seiner Leistungsfähigkeit gemäß Kapitel VII Nr. 2 und 3 die Kapazitäten eines UAN oder Verleihunternehmens in Anspruch nimmt (Eignungsleihe), hat der Bieter die Tariftreueerklärung des UAN oder Verleihunternehmens gemäß Anlage I bereits mit Angebotsabgabe vorzulegen (vgl. § 6 Absatz 2 HVTG). Die anzuwendenden Tarifverträge und deren entgeltrelevanten Bestandteile sind in den Abschnitten 1 bis 3 "Tarifverträge für den Verkehr auf Schiene (SPNV)" im Staatsanzeiger für das Land Hessen und in der Hessischen Ausschreibungsdatenbank unter http://staatsanzeiger-hessen.de und http://www.had.de/vergabestellen-tarifvertraege.html veröffentlicht. Einzelheiten sind in den Vergabeunterlagen geregelt. </cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">60210000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:Description languageID="DEU">Erfüllung von Verkehrsleistungen innerhalb der bayerischen Regierungsbezirke Oberfranken, Mittelfranken und Unterfranken sowie innerhalb der hessischen Regierungsbezirke Darmstadt und Kassel.</cbc:Description>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">DE263</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in einem Berufs- oder Handelsregister</cbc:Name>
+                                <cbc:Description languageID="DEU">Der künftige Auftragnehmer muss zum Zeitpunkt der Betriebsaufnahme als Eisenbahnverkehrsunternehmen gemäß § 6 des Allgemeinen Eisenbahngesetzes (AEG) zugelassen sein oder belegen, dass diese Zulassung nach § 6f AEG nicht benötigt wird. Der künftige Auftragnehmer muss darüber hinaus über eine Sicherheitsbescheinigung nach § 7a AEG verfügen. Die Bieter haben deshalb mit ihrem Angebot eine zum Zeitpunkt der Abgabe des Angebots gültige Zulassung als Eisenbahnverkehrsunternehmen in der Bundesrepublik Deutschland gemäß § 6 AEG oder einen Beleg dafür, dass diese Zulassung nach § 6f AEG nicht erforderlich ist, sowie eine zum Zeitpunkt der Abgabe des Angebots gültige Sicherheitsbescheinigung nach § 7a Abs. 1 oder Abs. 4 AEG vorzulegen. Alternativ kann der Bieter im Angebot darstellen, wie die Zulassung als Eisenbahnverkehrsunternehmen samt erforderlicher Erlangung der Sicherheitsbescheinigung bis zur Betriebsaufnahme erlangt werden wird.
+Soll bzw. sollen im Falle einer Angebotsabgabe durch eine Bietergemeinschaft nur ein Mitglied bzw. nicht alle Mitglieder der
+Bietergemeinschaft für die Durchführung der fahrplanmäßigen Verkehrsleistungen zuständig sein, müssen die vorstehend genannten
+Unterlagen nur für dasjenige Mitglied / diejenigen Mitglieder vorgelegt werden, das / die für die Durchführung der fahrplanmäßigen
+Verkehrsleistungen zuständig sein soll / sollen. Des Weiteren haben die Bieter einen aktuellen Berufs- oder Handelsregisterauszug nach Maßgabe
+der Rechtsvorschriften des Staates vorzulegen, in dem der Bieter niedergelassen ist. Der Berufs- oder Handelsregisterauszug darf nicht vor
+dem 31.01.2025 datiert sein. Eine Kopie des „Aktuellen Abdrucks“ (AD), der aus dem gemeinsamen Registerportal der Länder unter
+www.handelsregister.de heruntergeladen werden kann, ist ausreichend.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit (1/2)</cbc:Name>
+                                <cbc:Description languageID="DEU">Die wirtschaftliche und finanzielle Leistungsfähigkeit ist als gewährleistet anzusehen, wenn nach der Einschätzung des Auftraggebers anzunehmen ist, dass der Bieter über die erforderlichen wirtschaftlichen und finanziellen Kapazitäten für seine laufenden finanziellen Verpflichtungen unter Einschluss derjenigen aus dem hiesigen Auftrag verfügt und ggf. auftretende Vorlaufkosten und Anlaufverluste aufgefangen werden können. Beruft sich ein Bieter zum Beleg seiner wirtschaftlichen und finanziellen Leistungsfähigkeit auf diejenige eines Dritten, so hat der Bieter die wirtschaftliche und finanzielle Leistungsfähigkeit dieses Dritten durch Vorlage der nachfolgend dargestellten Dokumente mit dem Angebot nachzuweisen. Darüber hinaus
+ist dem Angebot eine gegenüber dem Bieter abgegebene Verpflichtungserklärung des Dritten beizufügen, aus der hervorgeht, dass
+dem Bieter tatsächlich die für den Auftrag erforderlichen Mittel des Dritten zur Verfügung stehen werden. Die Verpflichtungserklärung darf für die
+Dauer des ausgeschriebenen Vertrages von dem Dritten nicht einseitig widerrufen werden können. Dies muss dem Wortlaut der Verpflichtungserklärung zu entnehmen sein. Eine Verpflichtung, dem Bieter über die im Rahmen der Eignungsleihe zur Verfügung gestellten
+Mittel hinaus weitere finanzielle Mittel zukommen zu lassen, muss der Dritte nicht eingehen. Zudem hat sich der Dritte zu Gunsten des
+Auftraggebers in einer gesonderten und ebenfalls nicht widerruflichen Verpflichtungserklärung zu einer gesamtschuldnerischen Haftung für die
+Auftragsausführung gemeinsam mit dem Bieter in dem Umfang bereit zu erklären, in dem er dem Bieter die für den Auftrag erforderlichen Mittel zur
+Verfügung stellt. Der Umfang der bereitgestellten Mittel ist in der Erklärung anzugeben. Auch diese Erklärung ist dem Angebot beizufügen.
+
+Mit Blick auf die sogleich unter den Ziffern a) und b) aufgestellten Mindestanforderungen an die wirtschaftliche und finanzielle Leistungsfähigkeit ist es ausreichend, wenn der Dritte über den sogleich unter Ziffer a) dargestellten Mindestjahresumsatz verfügt und das beim Bieter vorhandene positive Eigenkapital zu Zeitwerten gemeinsam mit den vom Dritten bereitgestellten Mitteln den unter Ziffer b) der nachfolgend aufgestellten Anforderungen verlangten Wert erreicht. Für die in den beiden vorstehenden Absätzen genannten Verpflichtungserklärungen des Dritten ist das Formblatt FB D1 (vgl. Anlage D.1 zu diesem Anschreiben) zu verwenden. Bei der Beurteilung der wirtschaftlichen und finanziellen Leistungsfähigkeit einer Bietergemeinschaft ist es ausreichend, wenn die Anforderungen in der Summe der Bietergemeinschaftsmitglieder erfüllt werden. Die in diesem Abschnitt genannten Eigenerklärungen dürfen nicht vor dem 31.01.2025 datieren. Die Bieter haben zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit folgende Anforderungen zu erfüllen: 
+
+a) einen Mindestjahresumsatz i. H. v. 95 Mio. EUR im Geschäftsjahr 2024 und 
+b) ein positives Eigenkapital zu Zeitwerten, also unter Berücksichtigung etwaiger im Vermögen des Bieters vorhandener stiller Reserven i. H. v. mindestens 6,5 Mio. EUR zum Ende des Geschäftsjahres 2024. Soweit im Geschäftsjahr 2024 ein Verlust des Bieters ausgewiesen wurde, erhöht sich das geforderte Eigenkapital um den Betrag dieses Verlustes, es sei denn der Bieter weist nach, dass der Verlust durch den Gesellschafter oder durch Gewinne im laufenden Geschäftsjahr ausgeglichen wurde. Die Bieter haben zum Beleg, dass sie die aufgestellten Anforderungen erfüllen, die folgenden Unterlagen vorzulegen: 
+
+Grundfall:
+1. eine Eigenerklärung über den Umsatz des Bieters im Geschäftsjahr 2024;
+2. den Jahresabschluss (Bilanz, Gewinn- und Verlustrechnung, Anhang,
+Lagebericht, Erläuterungsteil, soweit vorhanden) für das Geschäftsjahr
+2024, falls und soweit deren Veröffentlichung in dem Staat, in dem der
+Bieter niedergelassen ist, gesetzlich vorgeschrieben ist; 3. ggf. eine
+Eigenerklärung über die Art und die Höhe der im Vermögen des Bieters
+zum Zeitpunkt des Abschlusses des Geschäftsjahres 2024 vorhandenen
+stillen Reserven, falls das buchmäßige Eigenkapital den oben unter lit. b)
+geforderten Mindestbetrag des Eigenkapitals nicht erreicht; 4. ggf. eine
+Eigenerklärung des Bieters, dass ein im Geschäftsjahr 2024 ausgewiesener
+Verlust des Bieters durch den / die Gesellschafter des Bieters oder durch
+Gewinne im laufenden Geschäftsjahr ausgeglichen wurde. 
+
+zu den Alternativen bzw. der Ergänzung für alle Fälle: 
+vgl. Abschnitt Wirtschaftliche und finanzielle Leistungsfähigkeit (2/2)</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit (2/2)</cbc:Name>
+                                <cbc:Description languageID="DEU">Fortsetzung Eignungskriterium wirtschaftliche und finanzielle Leistungsfähigkeit: 
+
+Alternative 1: Soweit für das Geschäftsjahr 2024 kein Jahresabschluss erstellt wird oder ein Bieter den Jahresabschluss ganz oder teilweise nicht vorlegen und sich zur Begründung darauf berufen möchte, dass dessen Veröffentlichung nicht gesetzlich vorgeschrieben ist, hat der Bieter eine
+dies darstellende Eigenerklärung abzugeben. In diesem Fall hat der Bieter die in den oben unter „Grundfall“ in den Ziffern 1), 3), 4) und 5) genannten Unterlagen – soweit zutreffend – vorzulegen. Anstelle der oben in Ziffer 2) genannten Unterlage hat der Bieter eine Einnahmen-Überschussrechnung für das Geschäftsjahr 2024 mit der Angabe des Ergebnisses des Unternehmens sowie eine Vermögensübersicht vorzulegen, die folgende Angaben enthalten muss: 
+• sämtliches Vermögen und Verbindlichkeiten bilanziert und bewertet gem. §§ 238
+bis 289a HGB; 
+• Eigenkapital zu Buchwerten; 
+• Beschreibung und Erläuterung zu den in der Vermögensübersicht dargestellten Positionen und Angaben entsprechend §§ 284 bis 288 HGB. 
+
+Alternative 2: Ist der Jahresabschluss des Bieters über das Geschäftsjahr 2024 zum Zeitpunkt der Abgabe des Angebots noch nicht erstellt und festgestellt oder sind die Vermögensübersicht und die Einnahmen-Überschussrechnung – jeweils soweit nach den obigen Ausführungen
+vorzulegen – noch nicht erstellt, hat der Bieter dies in einer Eigenerklärung mitzuteilen. Sodann hat der Bieter die in den oben unter „Grundfall“ in den
+Ziffern 1), 3), 4) und 5) genannten Unterlagen – soweit zutreffend – vorzulegen. Anstelle der oben in Ziffer 2) genannten Unterlage hat der Bieter folgende Unterlagen abzugeben: 
+
+• den Jahresabschluss (siehe oben, Ziffer 2) oder die Einnahmen-Überschussrechnung und die Vermögensübersicht – soweit nach den
+obigen Ausführungen vorzulegen – für das Geschäftsjahr 2023; 
+• eine Betriebswirtschaftliche Auswertung (BWA) in der die Umsatzerlöse und die betrieblichen Aufwendungen und das vorläufige Jahresergebnis für das Geschäftsjahr 2024 (ggf. vor Jahresabschlussbuchungen) angegeben sind, sowie 
+• eine Eigenerklärung über das vorläufige Eigenkapital (zu Buchwerten) zum Abschluss des Geschäftsjahres 2023 unter Berücksichtigung des vorläufigen Jahresergebnisses sowie der im Geschäftsjahr 2023 getätigten Einlagen, Gewinnausschüttungen und sonstigen Entnahmen. 
+
+Ergänzung für alle Fälle (auch für den Grundfall): Soweit sich aus den nach den obigen Anforderungen vorzulegenden Unterlagen ein den tatsächlichen Verhältnissen entsprechendes Bild der Vermögens-, Finanz- und Ertragslage des Bieters für das Geschäftsjahr 2024 nicht ergibt, sind die zur Beschreibung der tatsächlichen Verhältnisse erforderlichen zusätzlichen Angaben im Wege einer Eigenerklärung abzugeben.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+                                <cbc:Description languageID="DEU">Der Bieter gilt als technisch und beruflich leistungsfähig, wenn anzunehmen ist, dass er über die speziellen Sachkenntnisse verfügt,
+die zur Durchführung der hiesigen Leistungen im SPNV erforderlich sind. Hierzu ist es erforderlich, dass der Bieter über Personal verfügt, das über
+Erfahrung in verantwortlicher Position in der Planung und Organisation mindestens eines SPNV-Angebots mit einem Leistungsvolumen von
+mindestens 3 Mio. Zugkm pro Jahr verfügt. Von Erfahrung in verantwortlicher Position wird bei solchen Personen ausgegangen, die über
+einen Hochschulabschluss und/oder eine Qualifikation als Eisenbahnbetriebsleiter und/oder eine vergleichbare Qualifikation verfügen.
+Die Planung und Organisation eines SPNV-Angebots muss mindestens die Tätigkeitsbereiche Personalakquise, Beschaffung von Fahrzeugen,
+Sicherstellung von Wartung und Instandhaltung der einzusetzenden Fahrzeuge, Betriebsplanung, Bestellung der jeweils erforderlichen
+Eisenbahninfrastruktur sowie Tarif, Vertrieb und Erlösmanagement und deren Abrechnung umfassen. Es ist nicht erforderlich, dass die Erfahrung in
+diesen Tätigkeitsbereichen durch eine einzelne Person erlangt wurde, sondern es ist ausreichend, wenn die Erfahrung in diesen
+Tätigkeitsbereichen in Summe bei verschiedenen Personen vorhanden ist. Die Verfügbarkeit von Personal, das über Erfahrung als Betriebspersonal
+(Triebfahrzeugführer, Zugbegleiter, Rangierpersonal) und als Disponenten verfügt, ist für die technische und berufliche Leistungsfähigkeit des Bieters
+nicht erforderlich. Die Bieter haben zum Beleg ihrer technischen und beruflichen Leistungsfähigkeit mit dem Angebot folgende Unterlagen
+vorzulegen: - Angabe der Fachkräfte, die im Rahmen der Planung und Organisation der zu erbringenden Leistungen eingesetzt werden sollen und
+über die o.g. erforderliche Erfahrung in verantwortlicher Position in der Planung und Organisation mindestens eines SPNV-Angebots mit einem
+Leistungsvolumen von mindestens 3 Mio. Zugkm pro Jahr verfügen. Aus dieser Angabe muss die jeweilige Qualifikation dieser Fachkräfte sowie
+eine Beschreibung der jeweiligen individuellen Erfahrungen dieser Fachkräfte in den o.g. Tätigkeitsbereichen hervorgehen: 
+
+- Angabe von Referenzen über mindestens ein SPNV-Angebot mit einem Leistungsvolumen von mindestens 3 Mio. Zugkm pro Jahr aus den Jahren
+2022, 2023 oder 2024, in denen die vorstehend genannten Fachkräfte in verantwortlicher Position in einem der o.g. Tätigkeitsbereiche mitgewirkt
+haben. Aus dieser Angabe muss das jeweilige SPNV-Angebot, dessen Umfang in Zugkm pro Jahr und der Tätigkeitsbereich hervorgehen, in dem
+die jeweilige Person in verantwortlicher Position mitgewirkt hat. 
+
+Beruft sich ein Bieter zum Beleg seiner technischen und beruflichen Leistungsfähigkeit auf diejenige eines Dritten, so hat der Bieter die technische und berufliche Leistungsfähigkeit dieses Dritten durch Vorlage der vorstehend genannten Unterlagen mit dem Angebot nachzuweisen. Der Bieter hat zudem nachzuweisen, dass für den Dritten kein Ausschlussgrund nach § 19 MiLoG, § 21 A-EntG, § 98c Aufenthaltsgesetz, § 21 SchwarzArbG und § 22 LkSG sowie gemäß §§ 123, 124 GWB vorliegt. Darüber hinaus ist dem Angebot eine Verpflichtungserklärung des Dritten beizufügen, aus der hervorgeht, dem Bieter die für den Auftrag erforderlichen Mittel tatsächlich zur Verfügung stehen werden. Die Verpflichtungserklärung darf für die Dauer des ausgeschriebenen Vertrages von dem Dritten nicht einseitig widerrufen werden können. Dies muss dem Wortlaut der Verpflichtungserklärung zu entnehmen sein. Für die Verpflichtungserklärungen des Dritten ist das Formblatt FB D2 (vgl.
+Anlage D.2 zu diesem Anschreiben) zu verwenden. Sodann muss das Personal des Dritten, das im Angebot des Bieters benannt worden ist und
+über die zum Nachweis der technischen und beruflichen Leistungsfähigkeit erforderliche Erfahrung in der Planung und Organisation mindestens eines
+SPNV-Angebots verfügt, gemäß § 47 Abs. 1 Satz 3 VgV die Planung und Organisation der hiesigen Leistungen in verantwortlicher Position
+erbringen. Bei der Beurteilung der technischen und beruflichen Leistungsfähigkeit einer Bietergemeinschaft ist es ausreichend, wenn die
+Anforderungen in der Summe der Bietergemeinschaftsmitglieder erfüllt werden. Die technische und berufliche Leistungsfähigkeit eines Mitglieds /
+einzelner Mitglieder der Bietergemeinschaft reicht / reichen zur Annahme der Eignung der Bietergemeinschaft allerdings nur aus, wenn dieses
+Mitglied / diese Mitglieder nach der internen Arbeitsverteilung der Bietergemeinschaft für die Durchführung der fahrplanmäßigen
+Verkehrsleistungen zuständig sein soll / sollen. Dies ist mit dem Angebot darzulegen, wenn entsprechende Nachweise nur für ein Mitglied / einzelne
+Mitglieder der Bietergemeinschaft vorgelegt werden.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E77615894</cbc:ID>
+                <cbc:DocumentTypeCode listName="communication-justification">sen-info</cbc:DocumentTypeCode>
+                <cbc:DocumentType>restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E77615894</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">Eine Nachforderung von Unterlagen nach Fristablauf ist nach § 56 VgV möglich.</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E77615894</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Auf die Zulässigkeitsvoraussetzungen eines Nachprüfungsantrages zur Vergabekammer gemäß §§ 160 GWB wird hingewiesen, namentlich auf die Regelung des § 160 Abs. 3 GWB, die folgenden Wortlaut hat: „(3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung genannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrages nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.“</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2025-07-31+02:00</cbc:EndDate>
+                <cbc:EndTime>12:00:00.000+02:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:NoticeDocumentReference>
+                <cbc:ID>169117-2023</cbc:ID>
+            </cac:NoticeDocumentReference>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-31+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>13:00:00.000+02:00</cbc:OccurrenceTime>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>E77615894</cbc:ID>
+            <cbc:Name languageID="DEU">Los 1 (Expressverkehr)</cbc:Name>
+            <cbc:Description languageID="DEU">Betrieb eines Regionalverkehrs im Umfang von ca. 4,1 Millionen Zugkilometern pro Jahr auf den folgenden Linien: 
+
+RE 10 Würzburg Hbf – Neustadt (Aisch) – Nürnberg Hbf,
+RE 54 Frankfurt (Main) Hbf – Würzburg Hbf – Bamberg,
+RE 55 Frankfurt (Main) Hbf – Würzburg Hbf,
+RE 55 Sa+S Einzelleistungen Frankfurt (Main) Hbf – Schweinfurt Hbf – Bamberg (via Werntalbahn).
+
+Betriebsaufnahme ist zum Fahrplanwechsel im Dezember 2030 (15.12.2030). Die Laufzeit des Vertrags beträgt 12 Jahre mit einer dreijährigen Verlängerungsoption. Es werden Angebote mit Neu- und Gebrauchtfahrzeugen zugelassen. Der abzuschließende Verkehrsdurchführungsvertrag
+wird auf bayerischer Seite als Nettovertrag mit zweijähriger Bruttoanlaufphase und auf hessischer Seite als Bruttovertrag ausgestaltet. Der Verkehrsdurchführungsvertrag enthält detaillierte Vorgaben zur Qualität der zu erbringenden Leistungen. Für die Erbringung der Verkehrsleistungen im Los 1 sind Gebrauchtfahrzeuge ab Baujahr 2015 und Neufahrzeuge zugelassen. 
+
+Es wird eine Kapitaldienstgarantie zur Finanzierung von Neufahrzeugen angeboten. Die Verkehrsleistungen werden im Rahmen eines wettbewerblichen Vergabeverfahrens nach den Bestimmungen des 4. Teils des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) sowie der Verordnung über die Vergabe öffentlicher Aufträge (VgV) vergeben.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60210000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">Erfüllungsorte entlang der Haltepunkte der oben genannten Linien des Regionalverkehrs in den bayerischen Regierungsbezirken Oberfranken, Mittelfranken und Unterfranken sowie den hessischen Regierungsbezirken Darmstadt und Kassel.</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE263</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2030-12-15+01:00</cbc:StartDate>
+                <cbc:EndDate>2042-12-13+01:00</cbc:EndDate>
+                <cbc:DurationMeasure unitCode="YEAR">12</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="DEU">Leistungsänderungen im Fahrplanangebot. Nähere Einzelheiten sind den Vergabeunterlagen zu entnehmen.</cbc:OptionsDescription>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="DEU">Sollte der Vertrag nicht mindestens 18 Monate vor Ende seiner Laufzeit von den Auftraggebern gekündigt werden, verlängert er sich um drei weitere Jahre.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in einem Berufs- oder Handelsregister</cbc:Name>
+                                <cbc:Description languageID="DEU">Der künftige Auftragnehmer muss zum Zeitpunkt der Betriebsaufnahme als Eisenbahnverkehrsunternehmen gemäß § 6 des Allgemeinen Eisenbahngesetzes (AEG) zugelassen sein oder belegen, dass diese Zulassung nach § 6f AEG nicht benötigt wird. Der künftige Auftragnehmer muss darüber hinaus über eine Sicherheitsbescheinigung nach § 7a AEG verfügen. Die Bieter haben deshalb mit ihrem Angebot eine zum Zeitpunkt der Abgabe des Angebots gültige Zulassung als Eisenbahnverkehrsunternehmen in der Bundesrepublik Deutschland gemäß § 6 AEG oder einen Beleg dafür, dass diese Zulassung nach § 6f AEG nicht erforderlich ist, sowie eine zum Zeitpunkt der Abgabe des Angebots gültige Sicherheitsbescheinigung nach § 7a Abs. 1 oder Abs. 4 AEG vorzulegen. Alternativ kann der Bieter im Angebot darstellen, wie die Zulassung als Eisenbahnverkehrsunternehmen samt erforderlicher Erlangung der Sicherheitsbescheinigung bis zur Betriebsaufnahme erlangt werden wird.
+Soll bzw. sollen im Falle einer Angebotsabgabe durch eine Bietergemeinschaft nur ein Mitglied bzw. nicht alle Mitglieder der
+Bietergemeinschaft für die Durchführung der fahrplanmäßigen Verkehrsleistungen zuständig sein, müssen die vorstehend genannten
+Unterlagen nur für dasjenige Mitglied / diejenigen Mitglieder vorgelegt werden, das / die für die Durchführung der fahrplanmäßigen
+Verkehrsleistungen zuständig sein soll / sollen. Des Weiteren haben die Bieter einen aktuellen Berufs- oder Handelsregisterauszug nach Maßgabe
+der Rechtsvorschriften des Staates vorzulegen, in dem der Bieter niedergelassen ist. Der Berufs- oder Handelsregisterauszug darf nicht vor
+dem 31.01.2025 datiert sein. Eine Kopie des „Aktuellen Abdrucks“ (AD), der aus dem gemeinsamen Registerportal der Länder unter
+www.handelsregister.de heruntergeladen werden kann, ist ausreichend.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit (1/2)</cbc:Name>
+                                <cbc:Description languageID="DEU">Die wirtschaftliche und finanzielle Leistungsfähigkeit ist als gewährleistet anzusehen, wenn nach der Einschätzung des Auftraggebers anzunehmen ist, dass der Bieter über die erforderlichen wirtschaftlichen und finanziellen Kapazitäten für seine laufenden finanziellen Verpflichtungen unter Einschluss derjenigen aus dem hiesigen Auftrag verfügt und ggf. auftretende Vorlaufkosten und Anlaufverluste aufgefangen werden können. Beruft sich ein Bieter zum Beleg seiner wirtschaftlichen und finanziellen Leistungsfähigkeit auf diejenige eines Dritten, so hat der Bieter die wirtschaftliche und finanzielle Leistungsfähigkeit dieses Dritten durch Vorlage der nachfolgend dargestellten Dokumente mit dem Angebot nachzuweisen. Darüber hinaus
+ist dem Angebot eine gegenüber dem Bieter abgegebene Verpflichtungserklärung des Dritten beizufügen, aus der hervorgeht, dass
+dem Bieter tatsächlich die für den Auftrag erforderlichen Mittel des Dritten zur Verfügung stehen werden. Die Verpflichtungserklärung darf für die
+Dauer des ausgeschriebenen Vertrages von dem Dritten nicht einseitig widerrufen werden können. Dies muss dem Wortlaut der Verpflichtungserklärung zu entnehmen sein. Eine Verpflichtung, dem Bieter über die im Rahmen der Eignungsleihe zur Verfügung gestellten
+Mittel hinaus weitere finanzielle Mittel zukommen zu lassen, muss der Dritte nicht eingehen. Zudem hat sich der Dritte zu Gunsten des
+Auftraggebers in einer gesonderten und ebenfalls nicht widerruflichen Verpflichtungserklärung zu einer gesamtschuldnerischen Haftung für die
+Auftragsausführung gemeinsam mit dem Bieter in dem Umfang bereit zu erklären, in dem er dem Bieter die für den Auftrag erforderlichen Mittel zur
+Verfügung stellt. Der Umfang der bereitgestellten Mittel ist in der Erklärung anzugeben. Auch diese Erklärung ist dem Angebot beizufügen.
+
+Mit Blick auf die sogleich unter den Ziffern a) und b) aufgestellten Mindestanforderungen an die wirtschaftliche und finanzielle Leistungsfähigkeit ist es ausreichend, wenn der Dritte über den sogleich unter Ziffer a) dargestellten Mindestjahresumsatz verfügt und das beim Bieter vorhandene positive Eigenkapital zu Zeitwerten gemeinsam mit den vom Dritten bereitgestellten Mitteln den unter Ziffer b) der nachfolgend aufgestellten Anforderungen verlangten Wert erreicht. Für die in den beiden vorstehenden Absätzen genannten Verpflichtungserklärungen des Dritten ist das Formblatt FB D1 (vgl. Anlage D.1 zu diesem Anschreiben) zu verwenden. Bei der Beurteilung der wirtschaftlichen und finanziellen Leistungsfähigkeit einer Bietergemeinschaft ist es ausreichend, wenn die Anforderungen in der Summe der Bietergemeinschaftsmitglieder erfüllt werden. Die in diesem Abschnitt genannten Eigenerklärungen dürfen nicht vor dem 31.01.2025 datieren. Die Bieter haben zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit folgende Anforderungen zu erfüllen: 
+
+a) einen Mindestjahresumsatz i. H. v. 55 Mio. EUR im Geschäftsjahr 2024 und 
+b) ein positives Eigenkapital zu Zeitwerten, also unter Berücksichtigung etwaiger im Vermögen des Bieters vorhandener stiller Reserven i. H. v. mindestens 6,5 Mio. EUR zum Ende des Geschäftsjahres 2024. Soweit im Geschäftsjahr 2024 ein Verlust des Bieters ausgewiesen wurde, erhöht sich das geforderte Eigenkapital um den Betrag dieses Verlustes, es sei denn der Bieter weist nach, dass der Verlust durch den Gesellschafter oder durch Gewinne im laufenden Geschäftsjahr ausgeglichen wurde. Die Bieter haben zum Beleg, dass sie die aufgestellten Anforderungen erfüllen, die folgenden Unterlagen vorzulegen: 
+
+Grundfall:
+1. eine Eigenerklärung über den Umsatz des Bieters im Geschäftsjahr 2024;
+2. den Jahresabschluss (Bilanz, Gewinn- und Verlustrechnung, Anhang,
+Lagebericht, Erläuterungsteil, soweit vorhanden) für das Geschäftsjahr
+2024, falls und soweit deren Veröffentlichung in dem Staat, in dem der
+Bieter niedergelassen ist, gesetzlich vorgeschrieben ist; 3. ggf. eine
+Eigenerklärung über die Art und die Höhe der im Vermögen des Bieters
+zum Zeitpunkt des Abschlusses des Geschäftsjahres 2024 vorhandenen
+stillen Reserven, falls das buchmäßige Eigenkapital den oben unter lit. b)
+geforderten Mindestbetrag des Eigenkapitals nicht erreicht; 4. ggf. eine
+Eigenerklärung des Bieters, dass ein im Geschäftsjahr 2024 ausgewiesener
+Verlust des Bieters durch den / die Gesellschafter des Bieters oder durch
+Gewinne im laufenden Geschäftsjahr ausgeglichen wurde. 
+
+zu den Alternativen bzw. der Ergänzung für alle Fälle: 
+vgl. Abschnitt Wirtschaftliche und finanzielle Leistungsfähigkeit (2/2)</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit (2/2)</cbc:Name>
+                                <cbc:Description languageID="DEU">Fortsetzung Eignungskriterium wirtschaftliche und finanzielle Leistungsfähigkeit: 
+
+Alternative 1: Soweit für das Geschäftsjahr 2024 kein Jahresabschluss erstellt wird oder ein Bieter den Jahresabschluss ganz oder teilweise nicht vorlegen und sich zur Begründung darauf berufen möchte, dass dessen Veröffentlichung nicht gesetzlich vorgeschrieben ist, hat der Bieter eine
+dies darstellende Eigenerklärung abzugeben. In diesem Fall hat der Bieter die in den oben unter „Grundfall“ in den Ziffern 1), 3), 4) und 5) genannten Unterlagen – soweit zutreffend – vorzulegen. Anstelle der oben in Ziffer 2) genannten Unterlage hat der Bieter eine Einnahmen-Überschussrechnung für das Geschäftsjahr 2024 mit der Angabe des Ergebnisses des Unternehmens sowie eine Vermögensübersicht vorzulegen, die folgende Angaben enthalten muss: 
+• sämtliches Vermögen und Verbindlichkeiten bilanziert und bewertet gem. §§ 238
+bis 289a HGB; 
+• Eigenkapital zu Buchwerten; 
+• Beschreibung und Erläuterung zu den in der Vermögensübersicht dargestellten Positionen und Angaben entsprechend §§ 284 bis 288 HGB. 
+
+Alternative 2: Ist der Jahresabschluss des Bieters über das Geschäftsjahr 2024 zum Zeitpunkt der Abgabe des Angebots noch nicht erstellt und festgestellt oder sind die Vermögensübersicht und die Einnahmen-Überschussrechnung – jeweils soweit nach den obigen Ausführungen
+vorzulegen – noch nicht erstellt, hat der Bieter dies in einer Eigenerklärung mitzuteilen. Sodann hat der Bieter die in den oben unter „Grundfall“ in den
+Ziffern 1), 3), 4) und 5) genannten Unterlagen – soweit zutreffend – vorzulegen. Anstelle der oben in Ziffer 2) genannten Unterlage hat der Bieter folgende Unterlagen abzugeben: 
+
+• den Jahresabschluss (siehe oben, Ziffer 2) oder die Einnahmen-Überschussrechnung und die Vermögensübersicht – soweit nach den
+obigen Ausführungen vorzulegen – für das Geschäftsjahr 2023; 
+• eine Betriebswirtschaftliche Auswertung (BWA) in der die Umsatzerlöse und die betrieblichen Aufwendungen und das vorläufige Jahresergebnis für das Geschäftsjahr 2024 (ggf. vor Jahresabschlussbuchungen) angegeben sind, sowie 
+• eine Eigenerklärung über das vorläufige Eigenkapital (zu Buchwerten) zum Abschluss des Geschäftsjahres 2023 unter Berücksichtigung des vorläufigen Jahresergebnisses sowie der im Geschäftsjahr 2023 getätigten Einlagen, Gewinnausschüttungen und sonstigen Entnahmen. 
+
+Ergänzung für alle Fälle (auch für den Grundfall): Soweit sich aus den nach den obigen Anforderungen vorzulegenden Unterlagen ein den tatsächlichen Verhältnissen entsprechendes Bild der Vermögens-, Finanz- und Ertragslage des Bieters für das Geschäftsjahr 2024 nicht ergibt, sind die zur Beschreibung der tatsächlichen Verhältnisse erforderlichen zusätzlichen Angaben im Wege einer Eigenerklärung abzugeben.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+                                <cbc:Description languageID="DEU">Der Bieter gilt als technisch und beruflich leistungsfähig, wenn anzunehmen ist, dass er über die speziellen Sachkenntnisse verfügt,
+die zur Durchführung der hiesigen Leistungen im SPNV erforderlich sind. Hierzu ist es erforderlich, dass der Bieter über Personal verfügt, das über
+Erfahrung in verantwortlicher Position in der Planung und Organisation mindestens eines SPNV-Angebots mit einem Leistungsvolumen von
+mindestens 3 Mio. Zugkm pro Jahr verfügt. Von Erfahrung in verantwortlicher Position wird bei solchen Personen ausgegangen, die über
+einen Hochschulabschluss und/oder eine Qualifikation als Eisenbahnbetriebsleiter und/oder eine vergleichbare Qualifikation verfügen.
+Die Planung und Organisation eines SPNV-Angebots muss mindestens die Tätigkeitsbereiche Personalakquise, Beschaffung von Fahrzeugen,
+Sicherstellung von Wartung und Instandhaltung der einzusetzenden Fahrzeuge, Betriebsplanung, Bestellung der jeweils erforderlichen
+Eisenbahninfrastruktur sowie Tarif, Vertrieb und Erlösmanagement und deren Abrechnung umfassen. Es ist nicht erforderlich, dass die Erfahrung in
+diesen Tätigkeitsbereichen durch eine einzelne Person erlangt wurde, sondern es ist ausreichend, wenn die Erfahrung in diesen
+Tätigkeitsbereichen in Summe bei verschiedenen Personen vorhanden ist. Die Verfügbarkeit von Personal, das über Erfahrung als Betriebspersonal
+(Triebfahrzeugführer, Zugbegleiter, Rangierpersonal) und als Disponenten verfügt, ist für die technische und berufliche Leistungsfähigkeit des Bieters
+nicht erforderlich. Die Bieter haben zum Beleg ihrer technischen und beruflichen Leistungsfähigkeit mit dem Angebot folgende Unterlagen
+vorzulegen: - Angabe der Fachkräfte, die im Rahmen der Planung und Organisation der zu erbringenden Leistungen eingesetzt werden sollen und
+über die o.g. erforderliche Erfahrung in verantwortlicher Position in der Planung und Organisation mindestens eines SPNV-Angebots mit einem
+Leistungsvolumen von mindestens 3 Mio. Zugkm pro Jahr verfügen. Aus dieser Angabe muss die jeweilige Qualifikation dieser Fachkräfte sowie
+eine Beschreibung der jeweiligen individuellen Erfahrungen dieser Fachkräfte in den o.g. Tätigkeitsbereichen hervorgehen: 
+
+- Angabe von Referenzen über mindestens ein SPNV-Angebot mit einem Leistungsvolumen von mindestens 3 Mio. Zugkm pro Jahr aus den Jahren
+2022, 2023 oder 2024, in denen die vorstehend genannten Fachkräfte in verantwortlicher Position in einem der o.g. Tätigkeitsbereiche mitgewirkt
+haben. Aus dieser Angabe muss das jeweilige SPNV-Angebot, dessen Umfang in Zugkm pro Jahr und der Tätigkeitsbereich hervorgehen, in dem
+die jeweilige Person in verantwortlicher Position mitgewirkt hat. 
+
+Beruft sich ein Bieter zum Beleg seiner technischen und beruflichen Leistungsfähigkeit auf diejenige eines Dritten, so hat der Bieter die technische und berufliche Leistungsfähigkeit dieses Dritten durch Vorlage der vorstehend genannten Unterlagen mit dem Angebot nachzuweisen. Der Bieter hat zudem nachzuweisen, dass für den Dritten kein Ausschlussgrund nach § 19 MiLoG, § 21 A-EntG, § 98c Aufenthaltsgesetz, § 21 SchwarzArbG und § 22 LkSG sowie gemäß §§ 123, 124 GWB vorliegt. Darüber hinaus ist dem Angebot eine Verpflichtungserklärung des Dritten beizufügen, aus der hervorgeht, dem Bieter die für den Auftrag erforderlichen Mittel tatsächlich zur Verfügung stehen werden. Die Verpflichtungserklärung darf für die Dauer des ausgeschriebenen Vertrages von dem Dritten nicht einseitig widerrufen werden können. Dies muss dem Wortlaut der Verpflichtungserklärung zu entnehmen sein. Für die Verpflichtungserklärungen des Dritten ist das Formblatt FB D2 (vgl.
+Anlage D.2 zu diesem Anschreiben) zu verwenden. Sodann muss das Personal des Dritten, das im Angebot des Bieters benannt worden ist und
+über die zum Nachweis der technischen und beruflichen Leistungsfähigkeit erforderliche Erfahrung in der Planung und Organisation mindestens eines
+SPNV-Angebots verfügt, gemäß § 47 Abs. 1 Satz 3 VgV die Planung und Organisation der hiesigen Leistungen in verantwortlicher Position
+erbringen. Bei der Beurteilung der technischen und beruflichen Leistungsfähigkeit einer Bietergemeinschaft ist es ausreichend, wenn die
+Anforderungen in der Summe der Bietergemeinschaftsmitglieder erfüllt werden. Die technische und berufliche Leistungsfähigkeit eines Mitglieds /
+einzelner Mitglieder der Bietergemeinschaft reicht / reichen zur Annahme der Eignung der Bietergemeinschaft allerdings nur aus, wenn dieses
+Mitglied / diese Mitglieder nach der internen Arbeitsverteilung der Bietergemeinschaft für die Durchführung der fahrplanmäßigen
+Verkehrsleistungen zuständig sein soll / sollen. Dies ist mit dem Angebot darzulegen, wenn entsprechende Nachweise nur für ein Mitglied / einzelne
+Mitglieder der Bietergemeinschaft vorgelegt werden.</cbc:Description>
+                                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>https://www.subreport.de/E77615894</cbc:ID>
+                <cbc:DocumentTypeCode listName="communication-justification">sen-info</cbc:DocumentTypeCode>
+                <cbc:DocumentType>restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E77615894</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">Eine Nachforderung von Unterlagen nach Fristablauf ist nach § 56 VgV möglich.</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E77615894</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Auf die Zulässigkeitsvoraussetzungen eines Nachprüfungsantrages zur Vergabekammer gemäß §§ 160 GWB wird hingewiesen, namentlich auf die Regelung des § 160 Abs. 3 GWB, die folgenden Wortlaut hat: 
+
+„(3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des
+Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung genannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrages nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.“</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2025-07-31+02:00</cbc:EndDate>
+                <cbc:EndTime>12:00:00.000+01:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:NoticeDocumentReference>
+                <cbc:ID>169117-2023</cbc:ID>
+            </cac:NoticeDocumentReference>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2025-07-31+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>13:00:00.000+02:00</cbc:OccurrenceTime>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>E77615894</cbc:ID>
+            <cbc:Name languageID="DEU">Los 2 (Regio-S-Bahn)</cbc:Name>
+            <cbc:Description languageID="DEU">Betrieb eines Regionalverkehrs im Umfang von ca. 3,1 Millionen Zugkilometern pro Jahr auf den folgenden Linien: 
+
+RS 1 Marktbreit – Würzburg Hbf – Gemünden (Main) – Jossa – Flieden,
+RS 2 Bamberg – Würzburg Hbf,
+RS 4 Kitzingen – Würzburg Hbf,
+RS 11 Gemünden (Main) – Würzburg Hbf,
+RB 79 Gemünden (Main) – Aschaffenburg Hbf.
+
+Betriebsaufnahme ist zum Fahrplanwechsel im Dezember 2030 (15.12.2030). Die Laufzeit des Vertrags beträgt 12 Jahre mit einer dreijährigen Verlängerungsoption. Es werden Angebote mit Neu- und Gebrauchtfahrzeugen zugelassen. Der abzuschließende Verkehrsdurchführungsvertrag
+wird auf bayerischer Seite als Nettovertrag mit zweijähriger Bruttoanlaufphase und auf hessischer Seite als Bruttovertrag ausgestaltet. Der Verkehrsdurchführungsvertrag enthält detaillierte Vorgaben zur Qualität der zu erbringenden Leistungen. Für die Erbringung der Verkehrsleistungen im Los 2 sind Gebrauchtfahrzeuge ab Baujahr 2008 und Neufahrzeuge zugelassen.
+
+Es wird eine Kapitaldienstgarantie zur Finanzierung von Neufahrzeugen angeboten. Die Verkehrsleistungen werden im Rahmen eines wettbewerblichen Vergabeverfahrens nach den Bestimmungen des 4. Teils des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) sowie der Verordnung über die Vergabe öffentlicher Aufträge (VgV) vergeben.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">60210000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cbc:Description languageID="DEU">Erfüllungsorte entlang der Haltepunkte der oben genannten Linien des Regionalverkehrs in den bayerischen Regierungsbezirken Oberfranken, Mittelfranken und Unterfranken sowie den hessischen Regierungsbezirken Darmstadt und Kassel.</cbc:Description>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE263</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2030-12-15+01:00</cbc:StartDate>
+                <cbc:EndDate>2042-12-13+01:00</cbc:EndDate>
+                <cbc:DurationMeasure unitCode="YEAR">12</cbc:DurationMeasure>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="DEU">Leistungsänderungen im Fahrplanangebot. Nähere Einzelheiten sind den Vergabeunterlagen zu entnehmen.</cbc:OptionsDescription>
+                <cac:Renewal>
+                    <cac:Period>
+                        <cbc:Description languageID="DEU">Sollte der Vertrag nicht mindestens 18 Monate vor Ende seiner Laufzeit von den Auftraggebern gekündigt werden, verlängert er sich um drei weitere Jahre.</cbc:Description>
+                    </cac:Period>
+                </cac:Renewal>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

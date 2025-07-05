@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.dtvp.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Massaquoipassage 1</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22305</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>993-8002610800-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Beschaffung und Nachhaltigkeit</cbc:Name>
+									<cbc:Telephone>+49 405146-1585</cbc:Telephone>
+									<cbc:Telefax>+49 405146-2395</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@vbg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Massaquoipassage 1</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22305</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>993-8002610800-34</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Beschaffung und Nachhaltigkeit</cbc:Name>
+									<cbc:Telephone>+49 405146-1585</cbc:Telephone>
+									<cbc:Telefax>+49 405146-2395</cbc:Telefax>
+									<cbc:ElectronicMail>vergabestelle@vbg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>---</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 228-9499-0</cbc:Telephone>
+									<cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+									<cbc:ElectronicMail>mail@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Deutsches Vergabeportal "www.dtvp.de"  (Bietertool im Projektraum zur Ausschreibung)</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>elektronisch über www.dtvp.de</cbc:StreetName>
+									<cbc:CityName>Berlin</cbc:CityName>
+									<cbc:PostalZone>10969</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE300</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRB 158449 B</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 30-374343-800</cbc:Telephone>
+									<cbc:ElectronicMail>info@dtvp.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00332253-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">108/2024</efbc:GazetteID><efbc:PublicationDate>2024-06-05Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">bfb41da5-287a-442b-8e64-30a91a54e31b</cbc:ID>
+	<cbc:ContractFolderID>5a3137c0-7b9e-4e7f-b090-14aeed7f2d92</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-06-04+02:00</cbc:IssueDate>
+	<cbc:IssueTime>00:01:49+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-06-04+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cbc:BuyerProfileURI>http://www.dtvp.de</cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:PaymentTerms>
+			<cbc:Note languageID="DEU">Vertrag, Erklärung Sanktion 5k, ZVB der VBG, VOL/B</cbc:Note>
+		</cac:PaymentTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXSUYYDY1KZ8D47P</cbc:EndpointID>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0006</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:TenderValidityPeriod>
+			<cbc:DurationMeasure unitCode="DAYS">32</cbc:DurationMeasure>
+		</cac:TenderValidityPeriod>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Fristen für die Einlegung von Rechtsbehelfen und Rügen ergeben sich aus § 160 Abs. 3 GWB.
+Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Regelungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB):
+§ 134, Informations- und Wartepflicht,
+§ 135, Unwirksamkeit,
+§ 160, Einleitung, Antrag.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+			<cac:MediationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:MediationParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXSUYYDY1KZ8D47P</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">VBG/2024/02/6041</cbc:ID>
+		<cbc:Name languageID="DEU">Reinigung von Außenglasflächen und Fassadenelementen eines Verwaltungsgebäudes der VBG Hauptverwaltung (Hamburg-Barmbek) mit Industrie- bzw. Fassadenkletterer</cbc:Name>
+		<cbc:Description languageID="DEU">Die Ausschreibung umfasst die Reinigung der Außenglasflächen und Fassadenelementen eines Verwaltungsgebäudes der VBG Haupterwaltung (Hamburg-Barmbek) mit Industrie- bzw. Fassadenkletterer, Massaquoipassage 1 in 22305 Hamburg für 24 Monate ab 01.02.2025 mit einer einmaligen Verlängerungsoption um weitere 24 Monate ab dem 01.02.2027. Es sollen pro Jahr 3 Vollreinigungen erfolgen, d.h. eine im Frühjahr, eine im Sommer und eine im Herbst. Die Gesamtglasfläche incl. Rahmen beträgt ca. 5.042 m2. - Glasaußenflächen der Lochfenster (Prallscheiben und der mittleren Fensterflügel). - Glasaußenflächen der Pfosten-Riegel-Fassaden Im Bereich der erdgeschossigen Nutzung Einzelhandel, Gastronomie, Nebeneingänge und dem Haupteingang. Die zu reinigenden Flächen sind Außenglasflächen vom EG-14.OG, Reinigung der VBG-Logos. Reinigung des Lichtbandes mit Logos im EG, Reinigung der Unterschläge, Reinigung der Aluminiumelemente im Türbereich zum Müllaufzug und Lüftungsgitter, Reinigung der allen Oberflächen der Dachaufbauten, Reparaturarbeiten an der Fassade. Die Grundlage für die Abrechnung und den hier angegebenen Flächen, sowohl für die Glasflächenreinigung als auch die Rahmenreinigung, ist die Fensterfläche, berechnet aus der lichten Bauweite von Putzkante zu Putzkante. Die Fensterrahmenreinigung ist die Reinigung äußeren Fensterrahmen inklusive der Fensterfalze sowie der äußeren Fensterbänke mit dem Ziel optisch sauberer, trockener, staubfreier, schlieren freier und wasserfleckenfreier Flächen. Bei den Reingiungsgeräten und Reinigungsmittel verfolgt die VBG die Reinigungsform, die nachweislich die Umwelt am wenigsten belastet. Daher ist nach dem heutigen Stand der Technik die Reinigung der Außenverglasung durch Reversosmose-System (Umkehrosmose) mittels Waschbürste verpflichtend. Weitere Informationen sind den Vergabeunterlagen - insbesondere der Leistungsbeschreibung - zu entnehmen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXSUYYDY1KZ8D47P
+
+
+Das Vergabeverfahren (VV) wird elektronisch in der vollständig webbasierten E-Vergabeplattform (Deutsches Vergabeportal)   durchgeführt und ist unter folgender URL im Internet erreichbar: www.dtvp.de. Die elektronische Teilnahme an VV sowie die Registrierung für die E-Vergabeplattform sind für Bieter vollständig kostenfrei.
+
+Die von der Vergabestelle übermittelten Informationen werden entweder direkt in der bzw. über die Oberfläche der E-Vergabeplattform bzw. dem virtuellen Projektraum zum VV (z.B. Bekanntmachungen, Kommunikationsnachrichten) oder innerhalb der Plattform bzw. virtuellen Projekträume als Datei-Downloads bereitgestellt (Vergabeunterlagen oder Anhänge zu Kommunikationsnachrichten).
+
+Zur Nutzung der E-Vergabeplattform bis zur Abgabe elektronischer Teilnahmeanträge/Angebote sind ein aktueller Internet-Browser sowie ein Internetzugang erforderlich. Hierbei werden ausschließlich HTML- und Javascript-konforme Standardtechnologien und keine Add-Ons/Plugins oder sonstige ggf. (sicherheits-)kritische Technologien verwendet.
+Aktuell sind folgende Internet-Browser zur Nutzung freigegeben:
+· Microsoft Internet Explorer bzw. Microsoft Edge in der jeweils aktuellen Version
+· Mozilla Firefox in der jeweils aktuellen Version
+· Google Chrome in der jeweils aktuellen Version
+· Apple Safari ab Version 5.
+
+Für die Abgabe elektronischer Angebote, Teilnahmeanträge, Interessenbekundungen und Interessenbestätigungen wird innerhalb der E-Vergabeplattform ein kostenfreies Bietertool bereitgestellt. Das Bietertool ist eine Desktop-Anwendung, welche auf Ihrem Computer installiert werden muss. Die Dateien zur Installation des Bietertools werden im entsprechenden Projektraum des VV für das entsprechende Betriebssystem zum Download angeboten. Installationsroutinen stehen für Linux-, Mac-OS- und Windows-Betriebssysteme (64 und 32 Bit) zur Verfügung. I.d.R. sind für die Installation keine administrativen Rechte erforderlich.
+
+Das Bietertool ist zudem ein "Multi-Plattform-Bieter-Client", sodass mit einer Installation des Bietertools an VV auf allen E-Vergabeplattformen auf Basis der cosinex Technologie Vergabemarktplatz teilgenommen werden kann.
+Die Informationen über die eigentlichen VV werden über sogenannte Projektdateien in das Bietertool transportiert. Sie laden die Projektdateien (Dateiendung: cbx) aus dem entsprechenden Projektraum herunter und führen diese aus, wodurch das Bietertool gestartet wird und die entsprechenden Informationen zum VV von der Vergabeplattform heruntergeladen werden.
+
+Die lokale Installation des Bietertools stellt eine Ende-zu-Ende Verschlüsselung der elektronischen Angebote/Teilnahmeanträge zwischen dem Computer des Bieters und der Öffnung der Angebote/Teilnahmeanträge auf Seiten der Vergabestelle sicher.
+
+Für die elektronische Angebotsabgabe sind unterschiedliche Signaturniveaus technisch möglich. Die zugelassene Form der Angebotsabgabe bzw. das zulässige Signaturniveau (qualifizierte elektronische und/oder fortgeschrittene elektronische Signatur und/oder Textform nach § 126b BGB) für das konkrete Vergabeverfahren entnehmen Sie bitte der Bekanntmachung bzw. den Vergabeunterlagen zur Ausschreibung. Im Fall der elektronischen Textform genügt im Regelfall die Angabe Ihres Vor- und Nachnamens, empfohlen werden zudem Angaben zum Unternehmen (Kontaktinformationen) für das Sie den Teilnahmeantrag / das Angebot abgeben.
+
+Der vollständige Eingang übermittelter elektronischer Angebote, Teilnahmeanträge, Interessenbekundungen und Interessenbestätigungen wird (je nach E-Vergabeplattform) mit einem qualifizierten oder einem einfachen elektronischen Zeitstempel dokumentiert.
+
+Die Kommunikation zwischen der AG und den Bietern ist ausschließlich über den Projektraum des VV auf der Vergabeplattform möglich.
+Weitere Informationen sowie Support zum Vergabemarktplatz und dem Bietertool erhalten Sie unter folgendem Link: https://support.cosinex.de/unternehmen/.
+
+Wir weisen darauf hin, dass nur zuverlässige Unternehmen den Zuschlag erhalten können (etwa keine Ausschlussgründe nach § 123, § 124 GWB vorliegen) und (die nicht wegen einer Nichtabgabe der Eigenerklärung zur Umsetzung von Artikel 5ki Absatz 3 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 als ungeeigneet vom weiteren Verfahren ausgeschlossen wurden.).
+
+Rechtsform der Bietergemeinschaft, an die der Auftrag vergeben wird: Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter.
+
+Weitere Informationen sind den Vergabeunterlagen zu entnehmen.
+
+Weitere Informationen sowie Support zum Vergabemarktplatz und dem Bietertool erhalten Sie unter folgendem Link: https://support.cosinex.de/unternehmen/.
+
+Hinweise zum Einsatz von Bietergemeinschaften und Unterauftragnehmer entnehmen Sie der Aufforderung zur Angebotsabgabe.
+
+</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">90911300</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Massaquoipassage 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:PostalZone>22305</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2025-02-01+01:00</cbc:StartDate>
+			<cbc:EndDate>2027-01-31+01:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+			<cac:Renewal>
+				<cac:Period>
+					<cbc:Description languageID="DEU">Sollte nicht sechs Monate vor Ablauf der Regelaufzeit (01.02.2025 bis 31.01.2027) der Vertrag schriftlich gekündigt werden, verlängert er sich automatisch um weitere 2 Jahre (Verlängerungsoption).
+
+Eine Vertragsverlängerung über den 31.01.2029 hinaus ist grundsätzlich ausgeschlossen, es sei denn, es treten unvorhergesehene Ereignisse ein, die eine weitere, kurzfristige Vertragsverlängerung bedingen, wie z. B. die Aufhebung einer für diesen Leistungsgegenstand durchgeführte neue Ausschreibung.</cbc:Description>
+				</cac:Period>
+			</cac:Renewal>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Berufs-/Betriebshaftpflichtversicherung (mit dem Angebot mittels Dritterklärung vorzulegen): Der Bieter/das Mitglied der Bietergemeinschaft verfügt über eine bestehende Betriebshaftpflichtversicherung oder vergleichbare Versicherung aus einem Mitgliedstaat der EU mit zu diesem Leistungsgegenstand üblichen Deckungssummen. Der Versicherungsschutz bleibt über die gesamte der Laufzeit des Vertrages bestehen.
+Die Versicherung hat sich auch auf die persönliche Haftpflicht der Personen, deren er sich zur Erfüllung seiner Verpflichtungen aus diesem Vertrag bedient, insoweit zu erstrecken, als diese Personen Schäden in Ausführung ihrer Tätigkeiten verursachen.
+Der Versicherungsschutz ist während der gesamten Laufzeit aufrecht zu erhalten. Zum Nachweis fügt der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft die Kopie einer Versicherungsbestätigung bei
+oder
+der Bieter / das geschäftsführende Mitglied der Bietergemeinschaft erklärt in Form einer Eigener-klärung, dass im Auftragsfall eine im Rahmen und Umfang marktübliche Berufs-/Betriebshaftpflichtversicherung oder vergleichbare Versicherung aus einem Mitgliedstaat der EU mit zu diesem Leistungsgegenstand üblichen Deckungssummen abgeschlossen wird und der Ver-sicherungsschutz während der Laufzeit des Vertrages bestehen bleibt.
+- Angaben "Wirtschaftliche Verknüpfung" (mit dem Angebot vorzulegen): Der Bieter/das Mitglied der Bietergemeinschaft ist:
+- Einzelunternehmer ohne jede gesellschaftsrechtliche Verflechtung mit anderen Unternehmen und ohne Beteiligung an anderen Unternehmen.
+- Konzernunternehmen (wenn zutreffend aussagekräftige Angaben in einer Anlage machen).
+- In anderer Weise mit anderen Unternehmen wirtschaftlich verknüpft (wenn zutreffend aussagekräftige Angaben in einer Anlage machen).
+
+Im Falle der Konzernzugehörigkeit oder einer sonstigen wirtschaftlichen Verknüpfung mit anderen Unternehmen ist hierzu in einer Anlage eine aussagekräftige Angabe zu machen.
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Sonstiges</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Ggf. Verpflichtungserklärung_UAN (mit dem Angebot vorzulegen): Erläuterung Unterauftragnehmer/in:
+Ein/e Unterauftragnehmer/in ist eine rechtlich selbständige natürliche oder juristische Person. Er oder sie führt, von Ihnen als Hauptauftragnehmer/in beauftragt, auf Ihre Rechnung und in keinem Auftragsverhältnis zur VBG stehend, bestimmte Teile des Auftrags, mithin einen Teil der in der Leistungsbeschreibung oder im Leistungsverzeichnis festgelegten Leistungen, selbstständig.
+- Ggf. Verpflichtungserklärung zur Eignungsleihe (mit dem Angebot mittels Eigenerklärung vorzulegen): Dieser Vordruck ist nur zu verwenden, sofern sich der Bieter bzw. die Bietergemeinschaft zum Nachweis der Leistungsfähigkeit externer Ressourcen (Kapazitäten) bedienen muss. Mit der nachstehenden Verpflichtungserklärung ist nachzuweisen, dass dem Bieter bzw. der Bietergemeinschaft die erforderlichen Mittel (Ressourcen/Kapazitäten) bei der Erfüllung des Auftrags tatsächlich zur Verfügung stehen.
+- Ggf. Erklärung zur Eigungsleihe (mit dem Angebot vorzulegen): Dieser Vordruck ist nur zu verwenden, sofern sich der Bieter bzw. die Bietergemeinschaft zum Nachweis der Leistungsfähigkeit externen Ressourcen (Kapazitäten) bedienen muss.
+- Ggf. Erklärung zum Einsatz von UAN (mit dem Angebot vorzulegen): Erläuterung Unterauftragnehmer/in:
+Ein/e Unterauftragnehmer/in ist eine rechtlich selbständige natürliche oder juristische Person. Er oder sie führt, von Ihnen als Hauptauftragnehmer/in beauftragt, auf Ihre Rechnung und in keinem Auftragsverhältnis zur VBG stehend, bestimmte Teile des Auftrags, mithin einen Teil der in der Leistungsbeschreibung oder im Leistungsverzeichnis festgelegten Leistungen, selbstständig aus. Mir/uns ist bekannt, dass im Fall der Auftragserteilung die Leistungen grundsätzlich im eigenen Unternehmen zu erbringen ist. Unterauftragnehmer(innen) dürfen nur nach vorheriger Zustimmung der Auftraggeberin in die Erbringung der Leistung einbezogen werden. Ich/wir benennen folgende Einsatzbereiche (Leistungsteile), die ich/wir durch Unterauftragnehmer(innen) erbringen lassen wollen.
+- Ggf. Bietergemeinschaftserklärung (mit dem Angebot vorzulegen): Angabe der Mitglieder einer Bietergemeinschaft die sich im Fall der Auftragsvergabe zu einer Arbeitsgemeinschaft zusammenschließen.
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Auszug aus dem Handelsregister bzw. Berufsregister oder ein vergleichbarer Nachweis (mit dem Angebot mittels Dritterklärung vorzulegen): Der Bieter / das geschäftsführende Mitglied der Bietergemeinschaft reicht einen aktuellen Auszug (Kopie) aus dem Berufs- oder Handelsregister, soweit er dort eingetragen ist, oder einen vergleichbaren Nachweis der Existenz des Unternehmens ein.
+</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+ - Angabe zu Unternehmen, Ansprechperson nebst Stellvertretung: Benennung des zuständigen, koordinierenden Ansprechperson nebst Stellvertreters für die Durchführung des Auftrages mit E-Mail, Telefon- und Faxnummer.
+- Nachweis Arbeitsschutzmanagementsystem nach der Zertifizierung nach DIN EN ISO 45001:2023: Der Bieter / das geschäftsführende Mitglied der Bietergemeinschaft weist durch geeignete Unterlagen nach, dass die Erfüllung der Anforderungen an ein Arbeitsschutzmanagementsystem nach DIN EN ISO 45001:2023 oder vergleichbar erfüllt sind.
+- Nachweis Qualitätsmanagementsystem (DIN EN ISO 9001:2015: Der Bieter / das geschäftsführende Mitglied der Bietergemeinschaft weist durch geeignete Unterlagen nach, dass die Erfüllung der Anforderungen an ein Qualitätsmanagementsystem nach der DIN EN ISO 9001:2015 oder vergleichbar erfüllt sind.
+- Nachweis Umweltmanagementsystem (DIN EN ISO 14001:2015: Der Bieter / das geschäftsführende Mitglied der Bietergemeinschaft weist durch geeignete Unterla-gen nach, dass die Erfüllung der Anforderungen an ein Umweltmanagementsystem nach der DIN EN ISO 14001:2015 oder vergleichbar erfüllt sind.
+- Nachweis - Höhenarbeiters nach FISAT Level 1: Der Bieter / das Mitglied der Bietergemeinschaft weist durch geeignete Unterlage, die zum Zeitpunkt des Ablaufs der Angebotsfrist nicht älter als 1 Jahr ist, nach, dass die Erfüllung der Anforderung jedes einzelnen Höhenarbeiters nach FISAT Level 1, vertikales Zugangsverfahren (Fach- und Interessenverband für seilunterstützte Arbeitstechniken e.V.) erfüllt ist.
+- Nachweis - Aufsichtführender Höhenarbeiters nach FISAT Level 3: Der Bieter / das Mitglied der Bietergemeinschaft weist durch geeignete Unterlage, die zum Zeitpunkt des Ablaufs der Angebotsfrist nicht älter als 1 Jahr ist, nach, dass die Erfüllung der Anforderung des Aufsichtführender Höhenarbeiters nach FISAT Level 3 (Fach- und Interes-senverband für seilunterstützte Arbeitstechniken e.V.) erfüllt ist.
+- Erklärung Interessenkonflikt: Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft erklärt, dass im Falle der Zuschlagserteilung während der Ausführung des öffentlichen Auftrags keine die Unabhängigkeit gefährdende Geschäftsbeziehung zur Verwaltungs-Berufsgenossenschaft besteht und / bzw. insbesondere kein Interessenkonflikt zu erwarten ist?  
+- Erklärung über technische Fachkräfte oder technische Stellen: Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft verfügt während der gesamten Vertragslaufzeit über ausreichend qualifizierte technische Fachkräfte oder technische Stellen, die im Zusammenhang mit der Leistungserbringung eingesetzt werden sollen?
+- Erklärung zum Tarif- oder Mindestlohn: Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft erklärt, dass seine Mitarbeitenden mindestens nach Tarif- oder Mindestlohn entlohnt werden?
+- Erklärung zur Gewerbepraxis: Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft verfügt über
+eine Gewerbepraxis von über drei Jahren?  
+- Erklärung zur Osmose-Anlage: Der Bieter / das Mitglied der Bietergemeinschaft verfügt für die Ausführung des Auftrags über eine Osmose-Anlage?
+- Erklärung zur jährlichen Prüfung von Material und Geräte: Der Bieter/das Mitglied der Bietergemeinschaft stellt für sein gesamtes Material und alle Geräte sicher, dass eine jährliche Überprüfung und Beurteilung von persönlichen Absturzschutzausrüstungen durch eine sachkundige Person nach DGUV-Grundsatz 312-906 erfolgt?
+- Erklärung zur regelmäßiger  Ersthelferausbildung: Der Bieter / das Mitglied der Bietergemeinschaft stellt für jeden seiner Mitarbeiter/Mitarbeiterinnen eine regelmäßige Ersthelferausbildung nach § 26 DGUV Vorschrift 1 sicher?
+- Erklärung über arbeitsmedizinische  Untersuchung zu Arbeiten mit Absturzgefahr (ehemals G 41 Untersuchung): Der Bieter / das Mitglied der Bietergemeinschaft stellt für jeden seiner
+Mitarbeiter/Mitarbeiterinnen eine Eignung durch eine arbeitsmedizinische 
+Untersuchung zu Arbeiten mit Absturzgefahr (ehemals G 41 Untersuchung) sicher?
+- Erklärung zur Wiederholungsunterweisung für Höhenarbeiter (mit dem Angebot vorzulegen): Der Bieter / das Mitglied der Bietergemeinschaft stellt für jeden seiner
+Höhenarbeiter eine Wiederholungsunterweisung, die nicht älter als ein
+Jahr ist, durch einen akkreditierten Zertifizierer sicher? 
+- Erklärung zu technischen Geräte und Ausrüstungen (mit dem Angebot vorzulegen): Der Bieter/das Mitglied der Bietergemeinschaft verfügt für die Ausführung des Auftrags über eine erforderliche Ausstattung von technischen Geräten und technischen Ausrüstungen? 
+ Alle aufgelisteten ja/nein-Felder stellen ebenfalls die Mindestanforderungen an die technische bzw. berufliche Leistungsfähigkeit dar. Sollte eine dieser Anforderungen mit Nein-Eintragung seitens des Bieters versehen werden, führt dies zum Ausschluss vom Vergabeverfahren.
+- Nachweis von mind. 3 Referenzen (mit dem Angebot mittels Eigenerklärung vorzulegen): Der Bieter/ das Mitglied der Bietergemeinschaft reicht mindestens drei geeignete Referenzen der letzten höchstens drei Jahre über mit dem hier ausgeschriebenen Leistungsgegenstand (Außen-glasflächen u. Fassadenelementen mit Industrie- bzw. Fassadenkletterer) vergleichbare Leistungen in einer gesonderten Anlage ein.
+Die Darstellung der Referenzen soll mit folgendem Inhalt und folgender Struktur erfolgen:
+- Bezeichnung des Referenzkunden/der Referenzkundin 
+- Name und Adresse der Auftraggeberin/ des Auftraggebers sowie Benennung eines Ansprechpartners oder Ansprechpartnerin bei der Auftraggeberin/ beim Auftraggeber mit Telefonnummer
+- Kurzbeschreibung der erbrachten Leistungen 
+- Angaben zu Umfang der erbrachten Leistungen
+- Zeitraum der erbrachten Leistungen.
+Hinweis: Es sind nach Art und Umfang mit den hier zur Vergabe anstehenden Leistungen vergleichbare Leistungen nachzuweisen. Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft stimmt der Nachfrage beim Referenzgeber zu.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXSUYYDY1KZ8D47P/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Vertrag, Erklärung Sanktion 5k, ZVB der VBG, VOL/B</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Eine Nachforderung von leistungsbezogenen Unterlagen, die die Wirtschaftlichkeit der Angebote anhand der Zuschlagskriterien betreffen, ist ausgeschlossen. Dies gilt nicht für Preisangaben, wen es sich um unwesentliche Einzelpositionen handelt, deren Einzelpreise den Gesamtpreis nicht verändern oder die Wertungsreihenfolge und den Wettbewerb nicht beeinträchtigen.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Einzureichende Unterlagen und mit dem Angebot vorzulegen:
+ 1. Konzept zur Gefährdungsbeurteilung für Arbeiten nach  TRBS 1111/TRBS 2121. 30% Gewichtung,
+2. Zugangskonzept Fassadenreinigung nach FISAT Richtlinien. 50% Gewichtung,
+3. Rettungskonzept. 20% Gewichtung,
+- Nachweis - Höhenarbeiters nach FISAT Level 2,
+- csx 59 Eigenerklärung Informationen zum Bieter. Im Zuge der Einführung neuer Anforderungen für EU weit vergebene Aufträge (sog. eForms) sind öffentliche Auftraggeber ab dem 25.10.2023 verpflichtet, in Vergabebekanntmachungen die im Dokument CSX 59 aufgeführten Angaben zu den Auftragnehmern zu veröffentlichen,
+- Erklärung zu Ausschlussgründen ggf. inkl. Anlagen,
+- Erklärung zu Sanktion 5k,
+- Vertrag,
+- Verpflichtung auf das Daten- und Sozialgeheimnis zum Vertragsschluss,
+- Preisblatt,
+- Angebotsformblatt,
+- Kalkulation,
+- Ggf. Nachweis der Objektbesichtigung.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>18.0000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">1. Konzept zur Gefährdungsbeurteilung</cbc:Name>
+						<cbc:Description languageID="DEU">Bewertung des mit dem Angebot eingereichten Konzepts, welches die Planung von Seilzugangstechniken der eingesetzten Arbeitsverfahren überprüft, entstehende Gefährdungen ausgeschlossen oder auf ein akzeptables Maß reduziert, dargestellt. Die Vorgaben der Betriebssicherheitsverordnung und der TRBS 1111 "Gefähr-dungsbeurteilung und sicherheitstechnische Bewertung" bzw. TRBS 2121 "Gefährdung von Beschäftigten durch Absturz - Allgemeine Anforderungen" sind dabei maßgeblich. Bei der Erstellung des Konzeptes ist die Ermittlung der Gefahren, die Gefährdungsfaktoren, die Ermittlung und Dokumentation aller Gefährdungen, die Beurteilung der ermittelten Gefährdungen, die Risikoabschätzung, ob und in wel-chem Ausmaß die ermittelten Gefährdungen zu einem Zwischenfall oder Notfall führen können, die Maßnahmen als Ergebnis der Risikoabschätzung festlegen und umsetzen, mit geeigneten Maßnahmen muss versucht werden, die als riskant beurteilten Gefährdungen abzustellen oder auf ein vertretbares Maß zu reduzieren, Wirksamkeitskontrolle / Überwachung, ob die getroffenen Maßnahmen geeignet und ausreichend wirksam sind und ob sich daraus keine neuen Gefährdungen ergeben, zu berücksichtigen.
+
+Die nachfolgend, exemplarisch aufgeführten Punkte bieten einen Hinweis auf Struktur und Umfang des Konzeptes.
+
+- Welche Sicherheitsmaßnahmen werden getroffen, damit keine Gefahr für den Anwender von gewählten Arbeitsverfahren und eine sichere Benutzung mit Material, Ausrüstung und Werkzeuge besteht? 
+- Welche Sicherheitsmaßnahmen werden getroffen, um Gefahren durch die Umgebung des Arbeitsortes zu vermeiden?
+- Welche Sicherheitsmaßnahmen werden getroffen, damit während der Arbeit Material oder Ausrüstung gesichert ist und nicht herunterfallen kann?
+- Welche Sicherheitsmaßnahmen werden getroffen, damit die Arbeit Dritte nicht gefährdet?
+- Welche Sicherheitsmaßnahmen werden getroffen, damit eine Gefährdung durch Dritte nicht entsteht?
+- Beschreibung einer dokumentierten Gefährdungsbetrachtung mit den Teilen - Gefahrenanalyse, - Risikoabschätzung und - Gefahrenkontrolle.
+
+Bitte machen Sie Ihre Angaben auf einem gesonderten Dokument, damit diese bewertet werden können.
+
+Das Gefährdungsbeurteilungskonzept beschreibt im vollen Umfang und plausibel die Gefährdungsbeurteilung und sicherheitstechnische Bewertung, um Gefährdungen und Risikoabschätzungen nach den Vorgaben der Betriebssicherheitsverordnung und der TRBS 1111 / TRBS 2121 festzustellen, abzustellen oder zu reduzieren. Vorhandene kritische Wege wurden erkannt und berücksichtigt. Es ist eine klare Strategie und Struktur erkennbar. 7-9 Punkte.
+Das Gefährdungsbeurteilungskonzept beschreibt bedingt die Gefährdungsbeurteilung und sicherheitstechnische Bewertung, um Gefährdungen und Risikoabschätzungen nach den Vorgaben der Betriebssicherheitsverordnung und der TRBS 1111 / TRBS 2121 festzustellen, abzustellen oder zu reduzieren. Vorhandene kritische Wege wurden teilweise und dementsprechend berücksichtigt. Es ist eine Strategie und Struktur hinlänglich erkennbar.  4-6 Punkte.
+Das Gefährdungsbeurteilungskonzept beschreibt nur oberflächlich die Gefährdungsbeurteilung und sicherheitstechnische Bewertung, um Gefährdungen und Risikoabschätzungen nach den Vorgaben der Betriebssicherheitsverordnung und der TRBS 1111 / TRBS 2121 festzustellen, abzustellen oder zu reduzieren. Vorhandene kritische Wege wurden unzureichend und nicht genügend berücksichtigt. Es ist keine klare Strategie und Struktur erkennbar.  1-3 Punkte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>30.0000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">2. Zugangskonzept Fassadenreinigung nach FISAT Richtlinien</cbc:Name>
+						<cbc:Description languageID="DEU">Bewertung des mit dem Angebot eingereichten Konzepts, welches die vorbereitenden Maßnahmen des Zugangskonzepts Fassadenreinigung nach FISAT Richtlinien beschreibt. In der Konzepterstellung sind die vorbereitenden Maßnahmen vom Tag des Bekanntwerdens der Zuschlagserteilung bis zur Dienstleistung vor Ort mit den folgend aufgeführten Punkten:
+- Beschreibung der Einsatzplanung für die Reinigungsdauer. (gem. der Leistungsbeschreibung Punkt "Reinigungszeiten"), - wie ist die Aufgabenverteilung Ihres Teams in Verbindung mit den Arbeiten auf mehreren Ebenen, - wie dokumentieren Sie die auf der Baustelle verwendeten Ausrüstungen, Arbeitsmittel und Arbeitsmate-rialien, - welche Maßnahmen werden getroffen, um den Kantenschutz sicher zu stellen, - welches seilunterstützte Zugangs- und Positionierungsverfahren wollen Sie einsetzen, 
+auf Struktur und Umfang darzustellen.
+
+Bitte machen Sie Ihre Angaben auf einem gesonderten Dokument, damit diese bewertet werden können.
+
+Das Zugangskonzept "Fassadenreinigung nach FISAT Richtlinien" beschreibt im vollen Umfang und plausibel die Maßnahmen - der Einsatzplanung für die Reinigungsdauer, - Aufgabenverteilung des Teams in Verbindung mit den Arbeiten auf mehreren Ebenen, - Dokumentation auf der Baustelle sowie die verwendeten Ausrüstungen, - Arbeitsmittel und Arbeitsmaterialen, -Sicherstellung des Kantenschutzes und dem eingesetzten seilunterstützte Zugangs- und Positionierungsverfahren. Vorhandene kritische Wege wurden erkannt und berücksichtigt, sie sind vollständig und nachvollziehbar dargestellt.  7-9 Punkte.
+Das Zugangskonzept "Fassadenreinigung nach FISAT Richtlinien" beschreibt bedingt die Maßnahmen - der Einsatzplanung für die Reinigungsdauer, - Aufgabenverteilung des Teams in Verbindung mit den Arbeiten auf mehreren Ebenen, - Dokumentation auf der Baustelle sowie die verwendeten Ausrüstungen, - Arbeitsmittel und Arbeitsmaterialen, - Sicherstellung des Kantenschutzes und dem eingesetzten seilunterstützte Zugangs- und Positionierungsverfahren. Vorhandene kritische Wege wurden teilweise erkannt und dementsprechend berücksichtigt, sie sind partiell vollständig und nachvollziehbar dargestellt.  4-6 Punkte.
+Das Zugangskonzept "Fassadenreinigung nach FISAT Richtlinien" beschreibt nur zulänglich die Maßnahmen - der Einsatzplanung für die Reinigungsdauer, - Aufgabenverteilung des Teams in Verbindung mit den Arbeiten auf mehreren Ebenen, - Dokumentation auf der Baustelle sowie die verwendeten Ausrüstungen, - Arbeitsmittel und Arbeitsmaterialen, - Sicherstellung des Kantenschutzes und dem eingesetzten seilunterstützte Zugangs- und Positionierungsverfahren. Vorhandene kritische Wege wurden unzureichend erkannt und berücksichtigt, sie sind schlecht bzw. nicht vollständig und nicht nachvollziehbar dargestellt.  1-3 Punkte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>12.0000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">3. Rettungskonzept</cbc:Name>
+						<cbc:Description languageID="DEU">Bewertung des mit dem Angebot eingereichten Konzepts, welches die vorbereitenden Maßnahmen des Verhaltens von Mitarbeiter/Mitarbeiterinnen bei Unfällen vor Ort - Erste Hilfe-Regelungen, eines geeigneten Rettungsverfahrens, um jeden Anwender von jedem denkbaren Punkt bei der AG zu retten und dass vom Tag des Bekanntwerdens der Zuschlagserteilung bis zur Dienstleistung vor Ort ein Notfall- und Rettungsplan sowie einen Verantwortlichen, beschreibt.
+
+Bitte machen Sie Ihre Angaben auf einem gesonderten Dokument, damit diese bewertet werden können.
+
+Das Rettungskonzept beschreibt im vollem Umfang und nachvollziehbar die Maßnahmen des Verhaltens von Mitarbeiter/Mitarbeiterinnen bei Unfällen vor Ort - Erste-Hilfe-Regelungen, eines geeigneten Rettungsverfahrens, um jeden Anwender von jedem denkbaren Punkt bei der AG zu retten. Der Notfall- und Rettungsplan sowie einen Verantwortlichen ist klar und eindeutig dargestellt. 7-9 Punkte.
+Das Rettungskonzept beschreibt begrenzt die Maßnahmen des Verhaltens von Mitarbeiter/Mitarbeiterinnen bei Unfällen vor Ort - Erste-Hilfe-Regelungen, eines geeigneten Rettungsverfahrens, um jeden Anwender von jedem denkbaren Punkt bei der AG zu retten. Der Notfall- und Rettungsplan sowie einen Verantwortlichen ist erkennbar und verständlich dargestellt.  4-6 Punkte.
+Das Rettungskonzept beschreibt oberflächlich die Maßnahmen des Verhaltens von Mitarbeiter/Mitarbeiterinnen bei Unfällen vor Ort - Erste-Hilfe-Regelungen, eines geeigneten Rettungsverfahrens, um jeden Anwender von jedem denkbaren Punkt bei der AG zu retten. Der Notfall- und Rettungsplan sowie einen Verantwortlichen ist unzureichend erkennbar und dementsprechend nicht genügend dargestellt.  1-3 Punkte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXSUYYDY1KZ8D47P</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0006</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAYS">32</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Fristen für die Einlegung von Rechtsbehelfen und Rügen ergeben sich aus § 160 Abs. 3 GWB.
+Für die Einlegung von Rechtsbehelfen gelten u.a. die folgenden Regelungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB):
+§ 134, Informations- und Wartepflicht,
+§ 135, Unwirksamkeit,
+§ 160, Einleitung, Antrag.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXSUYYDY1KZ8D47P</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-07-05+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-06-25+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-07-05+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+				<cbc:Description languageID="DEU">Nur Mitarbeiter/-innen der VBG - Vergabestelle.</cbc:Description>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="DEU">VBG Hauptverwaltung, Vergabestelle.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">VBG/2024/02/6041</cbc:ID>
+			<cbc:Name languageID="DEU">Reinigung von Außenglasflächen und Fassadenelementen eines Verwaltungsgebäudes der VBG Hauptverwaltung (Hamburg-Barmbek) mit Industrie- bzw. Fassadenkletterer</cbc:Name>
+			<cbc:Description languageID="DEU">Die Ausschreibung umfasst die Reinigung der Außenglasflächen und Fassadenelementen eines Verwaltungsgebäudes der VBG Haupterwaltung (Hamburg-Barmbek) mit Industrie- bzw. Fassadenkletterer, Massaquoipassage 1 in 22305 Hamburg für 24 Monate ab 01.02.2025 mit einer einmaligen Verlängerungsoption um weitere 24 Monate ab dem 01.02.2027. Es sollen pro Jahr 3 Vollreinigungen erfolgen, d.h. eine im Frühjahr, eine im Sommer und eine im Herbst. Die Gesamtglasfläche incl. Rahmen beträgt ca. 5.042 m2. - Glasaußenflächen der Lochfenster (Prallscheiben und der mittleren Fensterflügel). - Glasaußenflächen der Pfosten-Riegel-Fassaden Im Bereich der erdgeschossigen Nutzung Einzelhandel, Gastronomie, Nebeneingänge und dem Haupteingang. Die zu reinigenden Flächen sind Außenglasflächen vom EG-14.OG, Reinigung der VBG-Logos. Reinigung des Lichtbandes mit Logos im EG, Reinigung der Unterschläge, Reinigung der Aluminiumelemente im Türbereich zum Müllaufzug und Lüftungsgitter, Reinigung der allen Oberflächen der Dachaufbauten, Reparaturarbeiten an der Fassade. Die Grundlage für die Abrechnung und den hier angegebenen Flächen, sowohl für die Glasflächenreinigung als auch die Rahmenreinigung, ist die Fensterfläche, berechnet aus der lichten Bauweite von Putzkante zu Putzkante. Die Fensterrahmenreinigung ist die Reinigung äußeren Fensterrahmen inklusive der Fensterfalze sowie der äußeren Fensterbänke mit dem Ziel optisch sauberer, trockener, staubfreier, schlieren freier und wasserfleckenfreier Flächen. Bei den Reingiungsgeräten und Reinigungsmittel verfolgt die VBG die Reinigungsform, die nachweislich die Umwelt am wenigsten belastet. Daher ist nach dem heutigen Stand der Technik die Reinigung der Außenverglasung durch Reversosmose-System (Umkehrosmose) mittels Waschbürste verpflichtend.
+Die Vergabestelle weist darauf hin, dass aus ihrer Sicht eine vorherige Objektbesichtigung für eine sachgerechte Kalkulation erforderlich ist, da trotz sorgfältiger Erstellung der Vergabeunterlagen Umstände vorliegen könnten, die im Hinblick auf die Arbeitsorganisation eines Bieters zu Mehr- oder Minderaufwand führen könnten.
+Sie haben die Möglichkeit, das Objekt zwischen dem 10.06.2024 und 21.06.2024 zu besichtigen. Termine sind mit Frau E. Fürle, Tel.: +49 (40) 51 46 - 25 81 (E-Mail: elena.fuerle@vbg.de) oder Herrn T. Pump, Tel.: +49 (40) 51 46 - 23 91 (E-Mail: tino.pump@vbg.de zu vereinbaren.
+Nachteile infolge einer versäumten Objektbesichtigung liegen im Risiko des Bieters; berechtigen insbesondere nicht zu Mehr- oder Ersatzansprüchen des Auftragnehmers und können keinen Anspruch des Auftragnehmers auf Vertragsanpassung oder -aufhebung begründen.
+
+Weitere Informationen sind den Vergabeunterlagen - insbesondere der Leistungsbeschreibung - zu entnehmen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Erklärung zum Umweltschutz: Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft reicht eine Eigenerklärung mit dem Angebot ein, aus der hervorgeht, wie das Unternehmen den Umweltschutz im Unternehmen anwendet und umsetzt. Entsorgung von Wertstoffen, Restmüll und Reinigungsmittelresten.</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">pollu-prev</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">water-mar</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">inn-pur</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Das Osmose-Verfahren ist eine innovative Wasseraufbereitungstechnik. Dabei wird ganz normales Leitungswasser zunächst entmineralisiert. Dieses demineralisierte Wasser besitzt nun die Fähigkeit, die Schmutzpartikel ohne Zusatz von chemischen Reinigungsmitteln zu binden.</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">prod-innov</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">soc-obj</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Feste Ansprechpersonen des AN für die Auftragsabwicklung. Erklärung zur Zahlung von Tarif- oder Mindestlohn. Erklärung Arbeits- und Gesundheitsschutz: Der Bieter/das geschäftsführende Mitglied der Bietergemeinschaft reicht eine Eigenerklärung mit dem Angebot ein, aus der hervorgeht, wie das Unternehmen den Arbeits- und Gesundheitsschutz im Unternehmen anwendet und umsetzt. Maßnahmen im Rahmen der Umsetzung des LkSG.</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="social-objective">hum-right</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="social-objective">work-cond</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="social-objective">other</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">90911300</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Verwaltungs-Berufsgenossenschaft (VBG) - Hauptverwaltung Hamburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Massaquoipassage 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:PostalZone>22305</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-02-01+01:00</cbc:StartDate>
+				<cbc:EndDate>2027-01-31+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Sonstige Optionen ergeben sich aus den Vergabeunterlagen.</cbc:OptionsDescription>
+				<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Sollte nicht sechs Monate vor Ablauf der Regelaufzeit (01.02.2025 bis 31.01.2027) der Vertrag schriftlich gekündigt werden, verlängert er sich automatisch um weitere 2 Jahre (Verlängerungsoption).
+
+Eine Vertragsverlängerung über den 31.01.2029 hinaus ist grundsätzlich ausgeschlossen, es sei denn, es treten unvorhergesehene Ereignisse ein, die eine weitere, kurzfristige Vertragsverlängerung bedingen, wie z. B. die Aufhebung einer für diesen Leistungsgegenstand durchgeführte neue Ausschreibung.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

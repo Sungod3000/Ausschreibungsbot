@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Land Hessen, vertreten durch das Hessische Competence Center -Zentrale Beschaffung-</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65203</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE212133546</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611 7038 4012</cbc:Telephone>
+                           <cbc:Telefax>+49 611 32 76 38 412</cbc:Telefax>
+                           <cbc:ElectronicMail>beschaffung@hcc.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE812056745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>06151126603</cbc:Telephone>
+                           <cbc:Telefax>0611327648534</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00549765-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">178/2024</efbc:GazetteID><efbc:PublicationDate>2024-09-12+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">deb147d0-ea73-47a0-9a81-57d44477ef7f</cbc:ID>
+   <cbc:ContractFolderID>ad3d114a-196d-4872-be75-6bbbdcdede03</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-09-11+02:00</cbc:IssueDate>
+   <cbc:IssueTime>13:34:25+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-09-11+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zur Eignung für Liefer- und Dienstleistungen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Bestätigung des Nichtvorliegens des Ausschlussgrundes durch Abgabe einer entsprechenden Eigenerklärung (Formular Eigenerklärung zu Russland-Sanktionen)</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0437-2024-0129</cbc:ID>
+      <cbc:Name languageID="DEU">Gewässermanagement als Unterstützungsleistung für Gewässerunterhaltungspflichtige 2025 ff. (HMLU)</cbc:Name>
+      <cbc:Description languageID="DEU">Unterstützung der Gewässerunterhaltspflichtigen bei Umsetzung der Vorgaben der europäischen Wasserrahmenrichtlinie im Jahr 2025 ff. für das Hessische Ministerium für Landwirtschaft und Umwelt, Weinbau, Forst, Jagd und Heimat.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Dem Angebot sind folgende Unterlagen beizufügen:
+- Angebotsschreiben,
+- Leistungsverzeichnis,
+- Verpflichtungserklärung zu Tariftreue und Mindestentgelt (bei Bietergemeinschaften von jedem Mitglied), 
+- Erklärung zur Eignung Liefer-/Dienstleistungen (bei Bietergemeinschaften von jedem Mitglied),
+- Erklärung zu Russland-Sanktionen (bei Bietergemeinschaften von jedem Mitglied),
+- Qualifikation der Projektverantwortlichen
+Die für die Leistung vorgesehenen Projektverantwortlichen inkl. Qualifikation sind im Rahmen des Angebots zu benennen. Mit dem Angebot ist zudem eine Eigenerklärung beizufügen, in welcher bestätigt wird, dass die im Angebot benannten Projektverantwortlichen über folgende Erfahrungen / Kenntnisse verfügen:
+a) umfangreiche Erfahrungen auf dem Gebiet der Projektsteuerung 
+b) umfangreiche Erfahrungen bei der Vergabe und Abrechnung öffentlicher Aufträge (Vergabe von Planungsleistungen (HOAI), Prüfung und Werten von Planungsangeboten, Nachtragsmanagement für Planungs- oder Bauleistungen oder Erstellung von Förderanträgen bzw. Verwendungsnachweisen oder Erstellung von z.B. Ing.-Verträgen, Bauverträgen, Kauf- oder Tauschverträgen) 
+c) Erfahrungen im Bereich Umsetzung von WRRL-Maßnahmen mit Bezug zur naturnahen Gewässerentwicklung (oder Hochwasserschutz soweit sich Synergien zur Umsetzung der naturnahen Gewässerentwicklungsmaßnahmen ergeben) 
+d) Kenntnisse der Verwaltungs- und Behördenstrukturen sowie der Abläufe von wasserrechtlichen Zulassungsverfahren in Deutschland.
+
+- Qualifikation der Projektleitungen
+Für jede vorgesehene Projektleitung ist im Angebot anhand eines Erfahrungsprofils gesondert darzustellen, inwieweit über eigene Kenntnisse, Qualifikationen und Vorerfahrungen in den nachfolgenden Kompetenzfeldern verfügt wird. 
+
+Kompetenzfelder:
+a) Kenntnisse der Verwaltungs- und Behördenstrukturen sowie der Abläufe von wasserrechtlichen Zulassungsverfahren in Deutschland
+b) Erfahrungen im Bereich Projektsteuerung 
+c) Erfahrungen in den Bereichen Vergabe und Abrechnung öffentlicher Aufträge (Vergabe von Planungsleistungen (HOAI), Prüfung und Werten von Planungsangeboten, Nachtragsmanagement für Planungs- oder Bauleistungen, Erstellung von Förderanträgen bzw. Verwendungsnachweisen, Erstellung von z.B. Ing.-Verträgen, Bauverträgen, Kauf- oder Tauschverträgen)
+d) Erfahrungen im Bereich Umsetzung von WRRL-Maßnahmen mit Bezug zur naturnahen Gewässerentwicklung (oder Hochwasserschutz soweit sich Synergien zur Umsetzung der naturnahen Gewässerentwicklungsmaßnahmen ergeben)
+e) Erfahrungen im Bereich des Flächenmanagements für wasserwirtschaftliche, naturschutzfachliche oder vergleichbare Projekte
+f) Erfahrungen im Bereich der Öffentlichkeitsarbeit für wasserwirtschaftliche oder naturschutzfachliche Projekte.
+
+Die o. g. Erfahrungsprofile sind nicht nur wesentlicher Bestandteil des Angebotes, sondern im Rahmen der Ermittlung des wirtschaftlichsten Angebotes durch das Zuschlagskriterium "Qualifikation Projektleitungen" Bestandteil der Angebotswertung (Gewichtung: 40 %); eine Nachforderung ist ausgeschlossen und ein Fehlen der Erfahrungsprofile führt zum Ausschluss des Angebots.
+
+
+Bei geplantem Einsatz von Nachunternehmern ist dem Angebot zusätzlich der Vordruck 235 (Verzeichnis der Leistungen anderer Unternehmen) beizufügen.
+
+Die Vergabeunterlagen werden ausschließlich elektronisch über die Vergabeplattform des Landes Hessen (http://www.vergabe.hessen.de) zur Verfügung gestellt.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">79410000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Hessen</cbc:StreetName>
+            <cbc:CityName>Hessen</cbc:CityName>
+            <cbc:PostalZone>verschiedene</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Eigenerklärung zur Eignung Liefer-/Dienstleistungen (alle Lose betreffend; siehe Vordruck "Eigenerklaerung_Eignung.pdf"). 
+Bei geplantem Einsatz von Unterauftragnehmern ist diese durch den Bieter zusätzlich von jedem Unterauftragnehmer einzureichen; bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Eigenerklärung (formfrei) über den Gesamtumsatz des Unternehmens und den Umsatz in den Tätigkeitsbereichen, die Gegenstand der Ausschreibung sind jeweils zum Abschluss des Bilanzjahres für die letzten drei Geschäftsjahre (2021-2023); bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+- Eigenerklärung (formfrei), dass eine Haftpflichtversicherung mit ausgewiesener Deckungssumme für Personen-, Sach- und Vermögensschäden besteht bzw. im Auftragsfall abgeschlossen wird. Die Höhe der Mindestversicherungssumme beträgt je 2 Mio. Euro für Personen-, Sach- und Vermögensschäden (insgesamt 4 Mio. Euro); bei Bietergemeinschaften ist diese in Summe durch die Bietergemeinschaft zu erbringen. 
+Anstatt der genannten Eigenerklärung kann auch ein Versicherungsschein oder ein Bestätigungsschreiben der Versicherungsgesellschaft über das Bestehen der Betriebshaftpflichtversicherung und ihre Laufzeit oder durch die genannte Eigenerklärung vorgelegt werden. Im Falle der Abgabe einer Eigenerklärung ist der Nachweis für eine Betriebshaftpflichtversicherung im oben angegebenen Umfang unverzüglich nach Zuschlagserteilung durch Vorlage des Versicherungsscheins zu erbringen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- eine Liste mit geeigneten Referenzen über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen mit folgenden Angaben:
+Art der Leistung (nachvollziehbare Beschreibung der erbrachten Leistungen, aus der sich Erfahrungsspektrum und -tiefe erkennen lassen), Empfänger (öffentliche und/oder private Empfänger) der Leistung, Ansprechpartner, Telefon, E-Mail-Adresse
+sowie Erbringungszeitpunkt.
+
+Aus den Referenzen müssen folgende Erfahrungen des Bieters hervorgehen:
+a) Erfahrungen auf dem Gebiet der Projektsteuerung und Maßnahmenumsetzung im Bereich naturnahe Gewässerentwicklung mit Bezug zur Umsetzung der Wasserrahmenrichtlinie (WRRL) in den naturräumlichen Gegebenheiten Hessens oder vergleichbaren Naturräumen,
+b) Erfahrungen im Bereich des Flächenmanagements für naturschutzfachliche, wasserwirtschaftliche oder vergleichbare Projekte,
+c) Erfahrungen im Bereich der Öffentlichkeitsarbeit und Kommunikation (z.B. Pres-seberichte, Runde Tische, Veranstaltungen u.ä.) für naturschutzfachliche oder wasserwirtschaftliche Projekte.
+Zu allen drei Erfahrungsfeldern (a) bis c)) sind jeweils zwei Referenzen vorzulegen.
+
+Um einen ausreichenden Wettbewerb sicherzustellen, werden auch Referenzen berücksichtigt, die bis zu 10 Jahre (bis 2013) zurückliegen. 
+Es besteht auch die Möglichkeit, zwei Referenzen aus einer Kombination der drei genannten Erfahrungsfelder (a) bis c)) aus den Jahren letzten 10 Jahren (bis 2013) einzureichen. In jedem Fall ist anzugeben, welches Erfahrungsfeld bzw. welche Erfahrungsfelder mit der Referenz jeweils abgedeckt werden soll bzw. sollen.
+Referenzen sind dann geeignet, wenn diese die vorgenannten Anforderungen erfüllen. Die oben stehenden Angaben können auch ohne Verwendung des beiliegenden Vordruckes auf einer eigenen Anlage des Bieters gemacht werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e181c0994-6d1a3409465c99b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualifikation der Projektleitung</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualifikationsbewertung der Projektleitung</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität Konzept</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualitätsbewertung des Konzepts</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-10-14+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-10-14+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="DEU">Fortsetzung zu den Angebotsinhalten:
+- Unternehmensdarstellung unter Angabe von Rechtsform, Sitz, Größe, Geschäftsfelder und Unternehmensschwerpunkten sowie Anzahl der zur Verfügung stehenden Arbeitskräfte; bei Bietergemeinschaften ist diese von jedem Mitglied der Bieter-gemeinschaft einzureichen.
+
+- Beschreibung der technischen Ausrüstung zur Durchführung des Auftrages, insbesondere:
+Büroausstattung im Hinblick auf das Management von umfangreichen Datenmengen, verwendete Software zur Projektbearbeitung und -Steuerung, Übernahme der vorhandenen Projekt- und Verfahrensdaten aus der bisherigen Bearbeitung / Arbeiten mit geographischen Informationssystemen, mediale Ausstattung / Expertise im Hinblick auf eine umfangreiche Öffentlichkeitsarbeit und Kommunikation und
+Informationen zum Fuhrpark, vor allem hinsichtlich geländegängiger Fahrzeuge für die Wahrnehmung von Vor-Ort-Terminen.
+
+- Bearbeitungskonzept
+Der Bieter hat unter Berücksichtigung der Inhalte der Leistungsbeschreibung ein Konzept zur geplanten Vorgehensweise zur Umsetzung des "Gewässermanagements als Unterstützungsleistung für Gewässerunterhaltungspflichtige" vorzulegen. 
+Das Konzept muss die nachstehend aufgezählten Bestandteile enthalten:
+1. Darstellung des geplanten Personaleinsatzes, der Kapazitäten, des Quali-tätsmanagements sowie ggf. Inanspruchnahme weiterer Dienstleister (Nachunternehmer) für die Bereiche Projekt- und Finanzmanagement, Flächenmanagement, Kommunikation und Öffentlichkeitsarbeit. 
+Pro oberer Wasserbehörde der Regierungspräsidien RPU Kassel, RPU Bad Hersfeld, RP Gießen, RPU Wiesbaden, RPU Frankfurt und RPU Darmstadt ist jeweils ein voraussichtlicher Ansprechpartner (Projektleitung) festzulegen. Des Weiteren ist ein Gewässerunterhaltungspflichtiger jeweils durch einen festen Ansprechpartner (Projektleitung) über die gesamte Projektlaufzeit zu betreuen. 
+
+2. Herangehensweise an das Projekt: insb. Darstellung des Gesamtprojektablaufs, der Projektsteuerung der einzelnen Gewässerentwicklungsprojekte, des geplanten Ablaufs des Flächenmanagements sowie der Öffentlichkeitsarbeit. 
+
+3. Darstellung, wie die umfangreiche Kommunikation zwischen der obersten, den oberen und unteren Wasserbehörden, den Gewässerunterhaltungspflichtigen sowie weiteren Behörden und Institutionen (z.B. ÄfB als Flurneuordnungsbehörden) gewährleistet werden soll.
+
+Das Bearbeitungskonzept ist dem AG im Hessischen Ministerium für Landwirtschaft und Umwelt, Weinbau, Forsten, Jagd und Heimat in Wiesbaden zu präsentieren. Der AG behält es sich vor, sich das Konzept online (via Zoom, Webex, o. Ä.) präsentieren zu lassen. Hierzu wird von Seiten des AG gesondert und kurzfristig eingeladen. Der Bieter verpflichtet sich, dass an diesem Präsentationstermin, die vom Bieter benannten Projektverantwortlichen und/oder deren Vertretungen sowie  mindestens eine als Ansprechpartner für die RPen vorgesehene Projektleitung teilnimmt.
+
+Der Bieter hat die Präsentation (Power-Point oder pdf) zum Bearbeitungskonzept bereits mit dem Angebot einzureichen. Eine Aufwandsentschädigung wird für das Bearbeitungskonzept nicht gewährt. Das Bearbeitungskonzept ist nicht nur wesentlicher Bestandteil des Angebotes, sondern im Rahmen der Ermittlung des wirtschaftlichsten Angebotes durch die Zuschlagskriterien "Qualität Bearbeitungskonzept" Bestandteil der Angebotswertung (Gewichtung: 40 %); eine Nachforderung ist ausgeschlossen und ein Fehlen des Bearbeitungskonzepts führt zum Ausschluss des Angebots.</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Los 1 Unterstützungsleistung 2025-2029</cbc:Name>
+         <cbc:Description languageID="DEU">Mit Hilfe des Gewässermanagements sollen die Gewässerunterhaltungspflichtigen (GUP) bei der Umsetzung der Vorgaben der europäischen Wasserrahmenrichtlinie (WRRL) unterstützt und die Umsetzung von Gewässerentwicklungsmaßnahmen an Fließgewässern beschleunigt werden. Vergleichbar mit dem Programm "100 Wilde Bäche für Hessen" sollen die GUP Beratungsleistungen wie Unterstützung beim Flächenmanagement, Antragstellung für öffentl.-rechtl. Zulassungen bis hin zur Abrechnung der Fördermaßnahmen oder der Öffentlichkeitsarbeit in Anspruch nehmen können. Hierfür beauftragt das Land Hessen einen Dienstleistenden, der neben der Unterstützung des Auftraggebers bei der Gesamtsteuerung als "Gewässermanagement" die Projektsteuerung potentiell von der Planung bis zur Umsetzung der einzelnen Gewässerentwicklungsmaßnahmen übernimmt. Die Beratungsleistungen sind zunächst bis zum 31.12.2027, dem Ende des dritten WRRL-Bewirtschaftungszyklus, zu erbringen. Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die dem Auftragnehmer (AN) spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss, zum 01.01.2028 und zum 01.01.2029 um jeweils ein Jahr, d. h. längstens bis zum 31.12.2029.
+
+Die Losaufteilung der zu betreuenden Kommunen erfolgt nach RP/RPU. Los 1 umfasst das RP Gießen sowie das RP Kassel (RPU Kassel und RPU Bad Herfeld).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79410000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hessen</cbc:StreetName>
+               <cbc:CityName>Hessen</cbc:CityName>
+               <cbc:PostalZone>65187</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71B</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE723</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE733</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE737</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2027-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag beginnt zum 01.01.2025, spätestens mit Zuschlagserteilung, und endet am 31.12.2027. Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des AG zum 01.01.2028 und zum 01.01.2029 um jeweils ein Jahr, d. h. längstens bis zum 31.12.2029.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Eigenerklärung zur Eignung Liefer-/Dienstleistungen (alle Lose betreffend; siehe Vordruck "Eigenerklaerung_Eignung.pdf"). 
+Bei geplantem Einsatz von Unterauftragnehmern ist diese durch den Bieter zusätzlich von jedem Unterauftragnehmer einzureichen; bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Eigenerklärung (formfrei) über den Gesamtumsatz des Unternehmens und den Umsatz in den Tätigkeitsbereichen, die Gegenstand der Ausschreibung sind jeweils zum Abschluss des Bilanzjahres für die letzten drei Geschäftsjahre (2021-2023); bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+- Eigenerklärung (formfrei), dass eine Haftpflichtversicherung mit ausgewiesener Deckungssumme für Personen-, Sach- und Vermögensschäden besteht bzw. im Auftragsfall abgeschlossen wird. Die Höhe der Mindestversicherungssumme beträgt je 2 Mio. Euro für Personen-, Sach- und Vermögensschäden (insgesamt 4 Mio. Euro); bei Bietergemeinschaften ist diese in Summe durch die Bietergemeinschaft zu erbringen. 
+Anstatt der genannten Eigenerklärung kann auch ein Versicherungsschein oder ein Bestätigungsschreiben der Versicherungsgesellschaft über das Bestehen der Betriebshaftpflichtversicherung und ihre Laufzeit oder durch die genannte Eigenerklärung vorgelegt werden. Im Falle der Abgabe einer Eigenerklärung ist der Nachweis für eine Betriebshaftpflichtversicherung im oben angegebenen Umfang unverzüglich nach Zuschlagserteilung durch Vorlage des Versicherungsscheins zu erbringen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- eine Liste mit geeigneten Referenzen über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen mit folgenden Angaben:
+Art der Leistung (nachvollziehbare Beschreibung der erbrachten Leistungen, aus der sich Erfahrungsspektrum und -tiefe erkennen lassen), Empfänger (öffentliche und/oder private Empfänger) der Leistung, Ansprechpartner, Telefon, E-Mail-Adresse
+sowie Erbringungszeitpunkt.
+
+Aus den Referenzen müssen folgende Erfahrungen des Bieters hervorgehen:
+a) Erfahrungen auf dem Gebiet der Projektsteuerung und Maßnahmenumsetzung im Bereich naturnahe Gewässerentwicklung mit Bezug zur Umsetzung der Wasserrahmenrichtlinie (WRRL) in den naturräumlichen Gegebenheiten Hessens oder vergleichbaren Naturräumen,
+b) Erfahrungen im Bereich des Flächenmanagements für naturschutzfachliche, wasserwirtschaftliche oder vergleichbare Projekte,
+c) Erfahrungen im Bereich der Öffentlichkeitsarbeit und Kommunikation (z.B. Pres-seberichte, Runde Tische, Veranstaltungen u.ä.) für naturschutzfachliche oder wasserwirtschaftliche Projekte.
+Zu allen drei Erfahrungsfeldern (a) bis c)) sind jeweils zwei Referenzen vorzulegen.
+
+Um einen ausreichenden Wettbewerb sicherzustellen, werden auch Referenzen berücksichtigt, die bis zu 10 Jahre (bis 2013) zurückliegen. 
+Es besteht auch die Möglichkeit, zwei Referenzen aus einer Kombination der drei genannten Erfahrungsfelder (a) bis c)) aus den Jahren letzten 10 Jahren (bis 2013) einzureichen. In jedem Fall ist anzugeben, welches Erfahrungsfeld bzw. welche Erfahrungsfelder mit der Referenz jeweils abgedeckt werden soll bzw. sollen.
+Referenzen sind dann geeignet, wenn diese die vorgenannten Anforderungen erfüllen. Die oben stehenden Angaben können auch ohne Verwendung des beiliegenden Vordruckes auf einer eigenen Anlage des Bieters gemacht werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e181c0994-6d1a3409465c99b</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualifikation Projektleitung</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualifikationsbewertung der Projektleitung</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualtität Konzept</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualitätsbewertung des Konzepts</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preisbewertung</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-10-14+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-10-14+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="DEU">Fortsetzung zu den Angebotsinhalten:
+- Unternehmensdarstellung unter Angabe von Rechtsform, Sitz, Größe, Geschäftsfelder und Unternehmensschwerpunkten sowie Anzahl der zur Verfügung stehenden Arbeitskräfte; bei Bietergemeinschaften ist diese von jedem Mitglied der Bieter-gemeinschaft einzureichen.
+
+- Beschreibung der technischen Ausrüstung zur Durchführung des Auftrages, insbesondere:
+Büroausstattung im Hinblick auf das Management von umfangreichen Datenmengen, verwendete Software zur Projektbearbeitung und -Steuerung, Übernahme der vorhandenen Projekt- und Verfahrensdaten aus der bisherigen Bearbeitung / Arbeiten mit geographischen Informationssystemen, mediale Ausstattung / Expertise im Hinblick auf eine umfangreiche Öffentlichkeitsarbeit und Kommunikation und
+Informationen zum Fuhrpark, vor allem hinsichtlich geländegängiger Fahrzeuge für die Wahrnehmung von Vor-Ort-Terminen.
+
+- Bearbeitungskonzept
+Der Bieter hat unter Berücksichtigung der Inhalte der Leistungsbeschreibung ein Konzept zur geplanten Vorgehensweise zur Umsetzung des "Gewässermanagements als Unterstützungsleistung für Gewässerunterhaltungspflichtige" vorzulegen. 
+Das Konzept muss die nachstehend aufgezählten Bestandteile enthalten:
+1. Darstellung des geplanten Personaleinsatzes, der Kapazitäten, des Quali-tätsmanagements sowie ggf. Inanspruchnahme weiterer Dienstleister (Nachunternehmer) für die Bereiche Projekt- und Finanzmanagement, Flächenmanagement, Kommunikation und Öffentlichkeitsarbeit. 
+Pro oberer Wasserbehörde der Regierungspräsidien RPU Kassel, RPU Bad Hersfeld, RP Gießen, RPU Wiesbaden, RPU Frankfurt und RPU Darmstadt ist jeweils ein voraussichtlicher Ansprechpartner (Projektleitung) festzulegen. Des Weiteren ist ein Gewässerunterhaltungspflichtiger jeweils durch einen festen Ansprechpartner (Projektleitung) über die gesamte Projektlaufzeit zu betreuen. 
+
+2. Herangehensweise an das Projekt: insb. Darstellung des Gesamtprojektablaufs, der Projektsteuerung der einzelnen Gewässerentwicklungsprojekte, des geplanten Ablaufs des Flächenmanagements sowie der Öffentlichkeitsarbeit. 
+
+3. Darstellung, wie die umfangreiche Kommunikation zwischen der obersten, den oberen und unteren Wasserbehörden, den Gewässerunterhaltungspflichtigen sowie weiteren Behörden und Institutionen (z.B. ÄfB als Flurneuordnungsbehörden) gewährleistet werden soll.
+
+Das Bearbeitungskonzept ist dem AG im Hessischen Ministerium für Landwirtschaft und Umwelt, Weinbau, Forsten, Jagd und Heimat in Wiesbaden zu präsentieren. Der AG behält es sich vor, sich das Konzept online (via Zoom, Webex, o. Ä.) präsentieren zu lassen. Hierzu wird von Seiten des AG gesondert und kurzfristig eingeladen. Der Bieter verpflichtet sich, dass an diesem Präsentationstermin, die vom Bieter benannten Projektverantwortlichen und/oder deren Vertretungen sowie  mindestens eine als Ansprechpartner für die RPen vorgesehene Projektleitung teilnimmt.
+
+Der Bieter hat die Präsentation (Power-Point oder pdf) zum Bearbeitungskonzept bereits mit dem Angebot einzureichen. Eine Aufwandsentschädigung wird für das Bearbeitungskonzept nicht gewährt. Das Bearbeitungskonzept ist nicht nur wesentlicher Bestandteil des Angebotes, sondern im Rahmen der Ermittlung des wirtschaftlichsten Angebotes durch die Zuschlagskriterien "Qualität Bearbeitungskonzept" Bestandteil der Angebotswertung (Gewichtung: 40 %); eine Nachforderung ist ausgeschlossen und ein Fehlen des Bearbeitungskonzepts führt zum Ausschluss des Angebots.</cbc:Description>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Los 2 Unterstützungsleistung 2025-2029</cbc:Name>
+         <cbc:Description languageID="DEU">Mit Hilfe des Gewässermanagements sollen die Gewässerunterhaltungspflichtigen (GUP) bei der Umsetzung der Vorgaben der europäischen Wasserrahmenrichtlinie (WRRL) unterstützt und die Umsetzung von Gewässerentwicklungsmaßnahmen an Fließgewässern beschleunigt werden. Vergleichbar mit dem Programm "100 Wilde Bäche für Hessen" sollen die GUP Beratungsleistungen wie Unterstützung beim Flächenmanagement, Antragstellung für öffentl.-rechtl. Zulassungen bis hin zur Abrechnung der Fördermaßnahmen oder der Öffentlichkeitsarbeit in Anspruch nehmen können. Hierfür beauftragt das Land Hessen einen Dienstleistenden, der neben der Unterstützung des Auftraggebers bei der Gesamtsteuerung als "Gewässermanagement" die Projektsteuerung potentiell von der Planung bis zur Umsetzung der einzelnen Gewässerentwicklungsmaßnahmen übernimmt. Die Beratungsleistungen sind zunächst bis zum 31.12.2027, dem Ende des dritten WRRL-Bewirtschaftungszyklus, zu erbringen. Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des Auftraggebers, die dem Auftragnehmer (AN) spätestens drei Monate vor Ablauf des Ausführungszeitraums zugegangen sein muss, zum 01.01.2028 und zum 01.01.2029 um jeweils ein Jahr, d. h. längstens bis zum 31.12.2029.
+
+Die Losaufteilung der zu betreuenden Kommunen erfolgt nach RP/RPU. Los 2 umfasst das RP Darmstadt (RPU Wiesbaden, RPU Frankfurt und RPU Darmstadt).</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">79410000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hessen</cbc:StreetName>
+               <cbc:CityName>Hessen</cbc:CityName>
+               <cbc:PostalZone>65187</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71B</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE723</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE733</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>verschiedene</cbc:CityName>
+               <cbc:PostalZone>verschiedene</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE737</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2027-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Vertrag beginnt zum 01.01.2025, spätestens mit Zuschlagserteilung, und endet am 31.12.2027. Der Vertrag verlängert sich durch einseitige schriftliche Erklärung des AG zum 01.01.2028 und zum 01.01.2029 um jeweils ein Jahr, d. h. längstens bis zum 31.12.2029.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

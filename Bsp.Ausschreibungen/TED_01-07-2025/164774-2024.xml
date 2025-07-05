@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.deges.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">DEGES Deutsche Einheit Fernstraßenplanungs- und -bau GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Zimmerstr. 54</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10117</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>999999</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30-20243-222</cbc:Telephone>
+                           <cbc:Telefax>+49 30-20243-791</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabe@deges.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Vergabekammern des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>---</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 228 94990</cbc:Telephone>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">DEGES - Abt. R5</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Zimmerstraße 54</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10117</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>999999</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 03020243222</cbc:Telephone>
+                           <cbc:Telefax>+49 03020243791</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabe@deges.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00164774-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">56/2024</efbc:GazetteID><efbc:PublicationDate>2024-03-19Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">145d6b0c-e81f-4dfb-afbd-2d34b823b2ca</cbc:ID>
+   <cbc:ContractFolderID>169ac135-f2d5-453b-b483-f8ce97b7a26b</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-03-18+01:00</cbc:IssueDate>
+   <cbc:IssueTime>11:12:54+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-03-18+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://vergabe.deges.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gem. § 123 &amp; § 124 GWB vorliegen; ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>AC31330106</cbc:ID>
+      <cbc:Name languageID="DEU">VKE C311;Ersatzneubau Talbrücke Uttrichshausen A7 - Baulärmmonitoring Bauphase</cbc:Name>
+      <cbc:Description languageID="DEU">VKE C311;Ersatzneubau Talbrücke Uttrichshausen A7
+Baulärmmonitoring Bauphase
+Vertragsnummer AC31330106</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Ein Bewerber oder ein Bieter ist von der Teilnahme an einem Vergabeverfahren wegen Unzuverlässigkeit auszuschließen, wenn der Auftraggeber Kenntnis davon hat, dass eine Person, deren Verhalten dem Unternehmen zu zurechnen ist, rechtskräftig verurteilt worden ist.
+A)	§ 129 des Strafgesetzbuches (StGB) (Bildung krimineller Vereinigungen), § 129a StGB (Bildung terroristischer Vereinigungen), § 129b StGB (kriminelle und terroristische Vereinigungen im Ausland)
+B)	§ 261 StGB (Geldwäsche, Verschleierung unrechtmäßig erlangter Vermögenswerte)
+C)	§ 262 StGB (Betrug), soweit sich die Straftat gegen den Haushalt der EG oder gegen Haushalte richtet, die von der EG oder in ihrem Auftrag verwaltet werden.
+D)	§ 265 StGB (Subventionsbetrug), soweit sich die Straftat gegen den Haushalt der EG oder Haushalte richtet, die von der EG in ihrem Auftrag verwaltet werden.
+E)	§ 334 StGB (Bestechung), auch in Verbindung mit Artikel 2 des EU-Bestechungsgesetzes, Artikel 2 § 1 des Gesetzes zur Bekämpfung internationaler Bestechung, Artikel 7 Absatz 2 Nummer 10des Vierten Strafrechtsänderungsgesetzes und § 2 des Gesetzes über das Ruhen der Verfolgungsverjährung und die Gleichstellung der Richter und Bediensteten des Internationalen Strafgerichtshofes
+F)	Artikel 2 § 2 des Gesetzes zur Bekämpfung internationaler Bestechung (Bestechung ausländischer Abgeordneter im Zusammenhang mit internationalem Geschäftsverkehr)
+G)	§ 370 der Abgabenordnung, auch in Verbindung mit § 12 des Gesetzes zur Durchführung der gemeinsamen Marktorganisationen und der Direktzahlungen (MOG), soweit sich die Straftat gegen den Haushalt der EG oder gegen Haushalte richtet, die von der EG oder in ihrem Auftrag verwaltet werden.
+Einem Verstoß gegen diese Vorschriften gleichgesetzt sind Verstöße gegen entsprechende Strafnormen anderer Staaten. Ein Verhalten einer rechtskräftig verurteilten Person ist einem Bewerber oder Bieter zuzurechnen, wenn sie für diesen Bewerber oder Bieter bei der Führung der Geschäfte selbst verantwortlich gehandelt hat oder ein Aufsichts- oder Organisationsverschulden gemäß § 130 des Gesetzes über Ordnungswidrigkeiten (OWiG) dieser Person im Hinblick auf das Verhalten einer anderen für den Bewerber oder Bieter handelnden, rechtskräftig verurteilten Person vorliegt [§ 123 (1) Nr. 1,2,3,4,5,6,7,8,9 und10 GWB sowie § 123 (4) Nr. 1 GWB].
+-	Angaben, ob ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren eröffnet oder die Eröffnung beantragt worden ist oder der Antrag mangels Masse abgelehnt wurde oder ein Insolvenzplan rechtskräftig bestätigt wurde, ob sich das Unternehmen in Liquidation befindet [§ 124 Abs. 2 GWB]
+-	dass der Bewerber nicht aufgrund eines rechtskräftigen Urteils aus Gründen bestraft worden ist, die seine berufliche Zuverlässigkeit in Frage stellt [§ 124 Abs. 3 GWB],
+-	dass nachweislich im Rahmen ihrer beruflichen Tätigkeit keine schweren Verfehlungen begangen wurden [§ 124 Abs. 3 GWB].
+-	dass die Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt wurde [§ 123 Abs. 4 GWB].
+
+Näheres siehe Aufforderung zur Angebotsabgabe.
+
+Ist der inländische Bewerber eine juristische Person, deren satzungsgemäßem Geschäftszweck die dem Projekt entsprechenden Fach- / Planungsleistungen gehören, ist dieser nur dann teilnahmeberechtigt, wenn durch die Erklärung des Bewerbers zu III.2.3 nachgewiesen wird, dass der verantwortliche Projektbearbeiter die an die natürliche Person gestellten Anforderungen erfüllt. Auswärtige Bewerber mit der Staatsangehörigkeit eines Mitgliedstaates der Europäischen Union oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum erfüllen die fachliche Voraussetzung für ihre Bewerbung, wenn ihre Berechtigung zur Führung ihrer oben genannten Berufsbezeichnung nach der Richtlinie 2005/36/EG über die Anerkennung von Berufsqualifikationen gewährleistet ist.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Eignungskriterien gemäß Aufforderung zur Angebotsabgabe</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Eignungskriterien gemäß Aufforderung zur Angebotsabgabe</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.deges.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e2d59e402-48792df828a65d9e</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">keine</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Konzept der Projektabwicklung</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.deges.de</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-04-23+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-04-23+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:15:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">VKE C311;Ersatzneubau Talbrücke Uttrichshausen A7 - Baulärmmonitoring Bauphase</cbc:Name>
+         <cbc:Description languageID="DEU">Im Auftrag der Autobahn GmbH plant die DEGES Deutsche Einheit Fernstraßen Planungs-und Bau GmbH den Ersatzneubau Talbrücke Uttrichshausen im Verlauf der BAB 7.
+
+Die Talbrücke überführt die BAB 7 über die Ortslage Uttrichshausen sowie über das
+Schmidtwasser, die Kreisstraße K938 und die Landesstraße L3430. Das bestehende
+Bauwerk befindet sich in der Gemarkung Kalbach und erstreckt sich über 880 m von
+Streckenkilometer 580,520 auf der Seite des Widerlagers Kassel (Nord) bis zum km 581,400 am Widerlager Würzburg (Süd). Laut Berechnung weißt das Bauwerk noch eine Restnutzungsdauer bis 2026 auf.
+Das bestehende Bauwerk ist durch einen Neubau mit je 2 Fahrstreifen in beide Richtungen als Brückenbauwerk zu ersetzen. Lärmschutzanlagen sind als Teil des Bauwerkes mit zu berücksichtigen. Im Rahmen der Maßnahme ist eine Verbreiterung der Fahrbahn von 2 x 11,50 m auf 2 x 12,50 m vorgesehen. Im Zuge des Ersatzneubaus wird eine Änderung der Gradiente erfolgen.
+
+Um sicherzustellen, dass die in den Gutachten prognostizierten Werte den Werten des
+tatsächlich erzeugten Baulärms entsprechen, wird ein Baulärmmonitoring vorgesehen.
+Hierdurch können Grenzwertüberschreitungen frühzeitig identifiziert und in Folge durch entsprechende Steuerung des Bauverfahrens vermieden werden. Zugleich dienen die Datenerhebung und ihre Aufbewahrung der Beweissicherung für etwaige, aus Überschreitungen resultierende Entschädigungsanspräche.
+Die Vertragsleistung umfasst die Durchführung eines Monitorings zum Baulärm für die Bauphase, die Datenauswertung, -aufbereitung und -Übermittlung sowie die Dokumentation und Aufbewahrung dieser Daten in geeigneter Form.
+Um Aussagen zur Geräuschsituation bedingt durch die betrachtete Baustelle auch an
+anderen Standorten (z.B. der Wohnung eines Beschwerdeführers) treffen zu können, soll ein dreidimensionales computergestütztes Berechnungsmodell erstellt werden. Dieses Berechnungsmodell soll es erlauben, im Fall von Beschwerden oder anderen
+Fragestellungen Rückschlüsse auf die Geräuschsituation einer beliebigen Wohnung im Umfeld der Baumaßnahme zu ziehen. Optional soll ebenfalls die Erarbeitung eines
+Kurzberichtes im konkreten Beschwerdefall angeboten werden</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:freelance#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-06-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-09-01+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

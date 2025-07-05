@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-8007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>true</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.hamburgwasser.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Hamburger Stadtentwässerung AöR</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Billhorner Deich 2</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>20539</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE173526990</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 40788881410</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabemanagement@hamburgwasser.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Behörde für Stadtentwicklung und Wohnen, Vergaberecht, Zivilrecht und Forderungsmanagement</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Neuenfelder Str. 19</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>21109</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>02000000-KBSW000001-97</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 40428403230</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@bsw.hamburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://lsbg.hamburg.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">FHH, Landesbetrieb Straßen, Brücken und Gewässer (LSBG)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Sachsenfeld 3-5</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>20097</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>02000000-LLSBG00001-97</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>000</cbc:Telephone>
+                           <cbc:ElectronicMail>info@lsbg.hamburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gasnetz-hamburg.de/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Gasnetz Hamburg GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Ausschläger Elbdeich 127</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>20539</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE270591364</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>000</cbc:Telephone>
+                           <cbc:ElectronicMail>info@gasnetz-hamburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.hamburgwasser.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Hamburger Wasserwerke GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Billhorner Deich 2</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>20539</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE118509750</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>000</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabemanagement@hamburgwasser.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.stromnetz-hamburg.de/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Stromnetz Hamburg GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Bramfelder Chaussee 130</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>22177</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE814588308</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>000</cbc:Telephone>
+                           <cbc:ElectronicMail>info@stromnetz-hamburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.dataport.de/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Dataport AöR, Niederlassung Hamburg</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Billstraße 82</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>20539</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE813840400</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>000</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabemanagement@hamburgwasser.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.vodafone.de/</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vodafone Kablel Deutschland GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Amsinckstraße 59</cbc:StreetName>
+                           <cbc:CityName>Hamburg</cbc:CityName>
+                           <cbc:PostalZone>20097</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE813702351</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>000</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabemanagement@hamburgwasser.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00672969-2023</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">213/2023</efbc:GazetteID><efbc:PublicationDate>2023-11-06Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">a7572d45-9ae8-45ee-abb4-60399d38c410</cbc:ID>
+   <cbc:ContractFolderID>db6e9e0c-9ee8-4376-8b8f-388d61027f57</cbc:ContractFolderID>
+   <cbc:IssueDate>2023-11-02+01:00</cbc:IssueDate>
+   <cbc:IssueTime>12:50:38+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-8007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8002</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8003</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8004</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8005</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8006</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vob-a-eu</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zusätzlich finden sämtliche Ausschlussgründe gemäß § 6e EU VOB/A Anwendung. Darüber hinaus geltende Ausschlussgründe und Eignungkriterien sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>NOV 03/23</cbc:ID>
+      <cbc:Name languageID="DEU">Straßen- und Leitungsbau Wellingsbütteler Landstraße</cbc:Name>
+      <cbc:Description languageID="DEU">Kooperationsprojekt Wellingsbütteler Landstraße - Grundinstandsetzung der Straßen einschl. Erneuerung von Sielen, Leitungen und Kabeln</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Hiermit wird zu einem Teilnahmewettbewerb aufgerufen. Sie werden hiermit gebeten, Ihre Nachweise zur Eignung gemäß FM Eignung VV-Bau Anlage 6-030 und Formular Eignungsnachweis einzureichen.&amp;#92;n&amp;#92;nDem Teilnahmewettbewerb liegt ein Rahmenterminplan bei. Die dort genannten Fristen Baubeginn und Bauende sind im Auftragsfall zwingend einzuhalten.  Bei Überschreitung der Frist Bauende wird eine Vertragsstrafe mit Begründung gem. § 9 VOB/A EU erhoben. Die Höhe der Vertragsstrafe wird auf max. 5 % der Netto-Auftragssumme begrenzt.&amp;#92;n&amp;#92;nAufgrund der zurzeit bestehenden geopolitischen Lage wird in den Bauvertrag eine Stoffpreisgleitklausel und Lohgleitklausel aufgenommen.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45233120</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45231000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">siehe  Formular VV Bau Anlage 6-030 Eignung</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">siehe  Formular VV Bau Anlage 6-030 Eignung</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">siehe Formular VV-Bau Anlage 6-030 Eignung&amp;#92;nAnforderungen an die Bewerber:&amp;#92;n&amp;#92;nMit dem öffentlichen Teilnahmewettbewerb soll ein bestimmter Kreis von Bieterfirmen ermittelt werden, die in der Lage sind folgende Leistungen im Straßenbau, wie Walzasphaltstraßenbau, Gussasphaltstraßenbau, Betonstraßenbau und Steinstraßenbau durchzuführen, Abwasserleitungen mittels Mikrotunneling bis DN 1400 herzustellen, und dabei in der Lage sind min. 2 Vortriebsmaschinen zeitgleich einzusetzen, Trinkwasserleitungen bis DN 400, Niederdruck Gas-Leitungen bis DN 300, Energieversorgungsleitungen bis 110 KV und Telekommunikationsleitungen in offener Bauweise herzustellen.&amp;#92;n&amp;#92;nDie Bieterfirmen, bzw. die Bietergemeinschaft, muss über ausreichend Mitarbeiterressourcen verfügen, sodass für jedes Gewerk min. 2 vollständige Kolonnen zeitgleich parallel für die Auftragsabwicklung zur Verfügung stehen und eingesetzt werden.&amp;#92;n&amp;#92;n1. Es werden nur Bewerber zugelassen, die entweder alle ausgeschriebenen Hauptgewerke, wie Straßenbau, Kanalbau, Rohr- und Leitungsbau sowei Tiefbau in eigener Regie ausführen können oder im Zusammenschluss als gesamtschuldnerisch haftende Arbeitsgemeinschaft mit einem bevollmächtigten Vertreter handeln. Dies kann z. B. in Form einer BGB-Gesellschaft nach § 705 ff BGB geschehen. Die Firmen, die sich zu einer ARGE zusammenschließen möchten, sind bei der Bewerbung namentlich mit Anschrift und entsprechenden Registereinträgen zu benennen. Der Nachweis der Gründung einer entsprechenden ARGE ist vor Baubeginn zu erbringen. Wesentliche Merkmale, die von einer Bau-ARGE gefordert werden:&amp;#92;n-Die vertragliche Dauerbeziehung der Gesellschafter zueinander für die Zeit der Bauausführung eines Bauauftrages.&amp;#92;n-Eine gemeinsame Bauleitung.&amp;#92;n-Die gegenseitige Verpflichtung, die vereinbarten Beiträge und Leistungen zur Erreichung des gemeinsamen Zwecks quantitativ und termingerecht zu erbringen.&amp;#92;n-Ein gemeinsamer Zweck als Erfüllung des eingegangenen Bauvertrages.&amp;#92;n-Die Treuebindung der Gesellschafter untereinander.&amp;#92;n-Die Benennung der Organe der ARGE im Sinne der Personen der Geschäftsführung.&amp;#92;n-Die gesamtschuldnerische Haftung gemäß § 421 ff des BGB als handlungsfähige Gruppe, wonach Gläubiger berechtigt sind, die Leistung nach ihrem Belieben von jedem Schuldner (Gesellschafter der ARGE) ganz oder zu einem Teil zu fordern.&amp;#92;n&amp;#92;n2. Der Bewerber, bzw. die Bietergemeinschaft, muss 2 Referenzen von Projekten nachweisen:&amp;#92;nStraßen- Leitungsbauprojekte oder weiträumige Erschließungen im innerstädtischen Bereich angrenzend an Straßen mit sehr hohem Verkehrsaufkommen bei denen mindestens vier verschiedene Ver- und Entsorgungsleitungen sowie Kabel (z. B. Gas, Trinkwasser, Strom und Telekommunikationsleitungen) verlegt wurden, komplette Straßenzüge (auf zusammen hängender Strecke min. 2,0 km) neu hergestellt wurden und der Sielbau/Leitungsbau mit Sohltiefen von größer 5,00 m hergestellt wurde. Zu jedem Projekt sind die Namen und Qualifikationen der beteiligten Projektleiter, Bauleiter und Poliere anzugeben, die zum heutigen Zeitpunkt noch für den Bewerber tätig sind.&amp;#92;n&amp;#92;n3. Die Ausführungsplanung und Ausführung ist mittels unten aufgeführter Qualitätssicherungssysteme sicherzustellen, zu überwachen und zu dokumentieren einschließlich der Erstellung, Überwachung und Fotschreibung von Bauzeitenplänen.&amp;#92;nFolgende Zertifizierungen sind der Bewerbung beizufügen:&amp;#92;n-ISO 14001 Umweltmanagement oder gleichgestellte andere Zertifizierung&amp;#92;n-ISO 45001 Arbeitsschutzmanagement oder gleichgestellte andere Zertifizierung&amp;#92;n-ISO 9001 Qualtitätsmanagement oder gleichgestellte andere Zertifizierung&amp;#92;n&amp;#92;n4. Bestandspläne und Aufmaßpläne für alle Gewerke, und Audführungspläne für den Sielbau, Leitungsbau und Kabelbau sind ausnahmslos mittels CAD in 3D im vorgegebenen Koordinatensystem zu erstellen. Bei Aufmaßplänen müssen alle nach Volumen abzurechnenden Leistungen und Materiallieferungen in 3D Volumenkörper nachgewiesen werden und prüfbar sein. Alle nach Flächen abzurechnende Leistungen und Materiallieferungen müssen durch eine Flächengeometrie nachgewiesen werden und prüfbar sein. Die 3D Volumenkörper müssen im entsprechenden Lageplan maßstabsgerecht und lagegenau dargestellt werden. Die Flächen müssen im entsprechenden Lageplan maßstabsgerecht und lagegenau als Flächen dargestellt werden.&amp;#92;nFolgende Nachweise sind zu erbringen:&amp;#92;nSchulungsnachweise der Mitarbeiter und Mitarbeiterinnen zu BIM.&amp;#92;nEs sind 2 Referenzen von Projekten, bei denen vergleichbare Pläne gefordert wurden, einzureichen.&amp;#92;n&amp;#92;n5.Für die Herstellung der Telekommunikationsleitungen sind die ZTV-TKNetz11 und ZTV-TKNetz40 der deutschen Telekom maßgebend (für Hauptauftragnehmer und Nachunternehmer erforderlich). Bitte reichen Sie als Nachweis der Eignung zwei Referenzen, bei denen die ZTV-TKNetz11 und die ZTV-TKNetz40 oder vergleichbare Vertragsbedingungen gefordert wurden, mit Ihrer Bwqerbung ein.&amp;#92;n&amp;#92;n6. Für die Herstellung der Gasleitungen sind die jeweiligen DVGW Regelwerke maßgebend. Folgende Nachweise sind zu erbringen:&amp;#92;nPrüfbescheinigung/Zertifizierung nach dem DVGW-Arbeitsblatt GW 301 Gruppe G 3 oder gleichwertig.&amp;#92;nPrüfbescheinigung gemäß DVGW GW 311 für PE-Schweßaufsicht und GW 330 für PE-Schweißer oder gleichwertig.&amp;#92;nDer Bewerber hat zwingend mit dem Teilnahmantrag zu bestätigen, dass im Fall einer Auftragsvergabe ein Vertragsverhältnis gemäß  &amp;quot;Vertrag über die Materialbeschaffung (GNH)&amp;quot; (siehe Anlage) bezüglich der Materialbeschaffung über den Logistikdienstleister der GNH akzeptiert wird.&amp;quot;&amp;#92;n&amp;#92;n7. bis 11. weiter bei &amp;quot;Zusätzliche Informationen&amp;quot;</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">par-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.domain.de/NetServer/TenderingProcedureDetails?function=_Details&amp;amp;TenderOID=54321-Tender-18a4ab912c5-136f892cdef31ff</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von fehlenden, unvollständigen oder fehlhaften Unterlagen erfolgt unter Einhaltung von § 16a VOB/A EU für Bieter, die für einen Zuschlag in Betracht kommen.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hamburgwasser.de/NetServer/</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, kann ein Nachprüfverfahren bei der Vergabekammer beantragt werden (§ 160 Abs. 3 Nr. 4 GWB).</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2023-12-01+01:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+01:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Straßen- und Leitungsbau Wellingsbütteler Landstraße</cbc:Name>
+         <cbc:Description languageID="DEU">Die Freie und Hansestadt Hamburg, vertreten durch die Behörde für Wirtschaft, Verkehr und Innovation, vertreten durch den Landesbetrieb Straßen, Brücken und Gewässer (LSBG), die Hamburger Stadtentwässerung (HSE), die Hamburger&amp;#92;nWasserwerke GmbH (HWW), die Stromnetz Hamburg GmbH (SNH) die Gasnetz Hamburg GmbH (GNH), die Vodafone Kabel Deutschland GmbH, die FFH Sondervermögen Hamburgisches TK-Netz vertreten durch Dataport AöR beabsichtigen eine umfangreiche Neugestaltung der Fahrbahn und Nebenflächen sowie die Instandsetzung und Anpassung der Ver- und Entsorgungsanlagen entlang der Wellingsbütteler Landstraße vorzunehmen. Um die Kosten für die Gesellschafter&amp;#92;nzu senken und die Bauvorhaben schnell und koordiniert durchführen zu können, haben sich die Gesellschafter zu einer umfangreichen Kooperation entschieden, die vor allem die gemeinsame Beschaffung von Bauleistungen vorsieht. Die Leistungsbeschreibung der Ausschreibung, bestehend aus Baubeschreibung und Leistungsverzeichnis, gliedert sich in Kapitel für gemeinschaftliche Leistungen und Leistungen, die den einzelnen Gesellschaftern zuzuordnen sind (Fachkapitel).&amp;#92;nGemeinschaftliche Leistungen sind nur solche Leistungen, die nicht eindeutig dem Anlagevermögen der einzelnen Gesellschafter zuzuordnen sind.&amp;#92;nDie Hamburger Stadtentwässerung vergibt für gemeinschaftliche Leistungen und Leistungen, die HSE zuzuordnen sind, Verträge in eigenem Namen. Für Leistungen,&amp;#92;ndie den übrigen Gesellschaftern zuzuordnen sind, vergibt die HSE Verträge in deren Namen und auf deren Rechnung an den Auftragnehmer.&amp;#92;nDieser Aufforderung zum öffentlichen Teilnahmewettbewerb liegen umfangreiche Leistungsbeschreibungen der jeweiligen Fachkapitel bei. Die Leistungsbeschreibungen beinhalten jeweils eine Baubeschreibung mit Angaben zu den wesentlichen Leistungen, sowie ein vorläufiges Leistungsverzeichnis, das für die Bewerber lediglich einen Überblick über den Umfang der Leistungen geben soll. Das&amp;#92;nLeistungsverzeichnis soll von den Bewerber im Rahmen des Teilnahmewettbewerbs nicht kalkuliert, bzw. mit Preisen abgegeben werden. Die zu erbringenden Bauleistungen können grob wie folgt zusammengefasst werden:&amp;#92;nStraßenbau:&amp;#92;n18.000m² Asphaltdeckschicht herstellen in Fahrbahn&amp;#92;n18.000m² Asphaltbinderschicht herstellen in Fahrbahn&amp;#92;n4.200m Entwässerungsrinne aus MA 8 S herstellen, 30 cm breit&amp;#92;n18.000m² Asphalttragschicht herstellen in Fahrbahn&amp;#92;n1.200m² Busverkehrsflächen in Beton herstellen&amp;#92;n19.750m² Nebenflächen erneuern&amp;#92;n2.500m Bordsteine Naturstein an Fahrbahnrand setzen&amp;#92;n250m Kasseler Sonderborde einbauen&amp;#92;n3.200m Bordsteine Beton setzen&amp;#92;n120 Stk. Straßenabläufe versetzen und neu anschließen&amp;#92;n450m Anschlussleitungen in offener Bauweise herstellen&amp;#92;n32 Stk. Schachtabdeckungen regulieren in Fahrbahn&amp;#92;n2.500m Längsmarkierungen herstellen&amp;#92;n250m Quermarkierungen herstellen&amp;#92;nSielbau:&amp;#92;n530m Sielbau mittels Vortrieb (Mikrotunneling) DN 1.400&amp;#92;n1066m Sielbau mittels Vortrieb (Mikrotunneling) DN 1.200&amp;#92;n240m Sielbau mittels Vortrieb (Mikrotunneling) DN 800&amp;#92;n530m Sielbau mittels Vortrieb (Mikrotunneling) DN 260&amp;#92;n20 Stk. Start- und Zielbaugruben bis 6,00m Tiefe&amp;#92;n1200m SW Hausanschlüsse DN 150 /200&amp;#92;nTrinkwasserleitungen:&amp;#92;n1.500m Rohrrelining Hauptleitung DN 400 im DN 600&amp;#92;n300m Neubau Hauptleitung DN 400&amp;#92;n2.200m Neubau Hauptleitung DN 300&amp;#92;n250m Neubau Versorgungsleitung DN 80 /DN 100 einschl. Hausanschlüsse&amp;#92;n1.000m Neubau Versorgungsleitung da125 aus PE im HDDVerfahren einschl. Hausanschlüsse in offener und geschlossener Bauweise. Unterquerung der Alster als Düker über eine Länge von ca. 150m mit Rohren aus PE da 500.&amp;#92;nGasleitungen:&amp;#92;n2.000m Neubau Leitungen d63; d110; d160&amp;#92;nStromleitungen:&amp;#92;n4.000m Neubau Leerohre für 110 KV (System)&amp;#92;n15.000m Neubau Leitungen einschl. Schutzrohre NS; MS; FM&amp;#92;nTelekomunikationsleitungen:&amp;#92;n15.000m Neubau Leitungen einschl. Schutzrohre</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">weiter von &amp;quot;Berufliche und technische Leistungsfähigkeit&amp;quot;&amp;#92;n&amp;#92;n7. Für die Herstellung der Wasserleitungen sind die jeweiligen DVGW Regelwerke maßgebend. Folgende Nachweise sind zu erbringen:&amp;#92;nPrüfbescheinigung /Zertifizierung nach dem DVGW-Arbeitsblatt GW 301 Gruppe W 1 oder gleichwertig, Prüfbescheinigung gemäß DVGW GW 331 für PESchweißaufsicht und GW 330 für PE-Schweißer.&amp;#92;nFür die Herstellung von Trinkwasserleitungen im HDDVerfahren müssen folgende Kriterien erfüllt werden:&amp;#92;nDie an einer HDD-Projekt-Ausschreibung beteiligten Bieter müssen Hamburg Wasser ihre Befähigung nachweisen, derartige HDD-Baumaßnahmen durchführen zu können. Die Befähigung gilt z. B. als nachgewiesen, wenn der Bieter über ein DVGW-Zertifikat nach den DVGW-Arbeitsblättern GW 301 bzw. GW 302 in der entsprechenden Gruppe GN 2 verfügt. Solange sich diese Qualifikationsnachweise noch in Vorbereitung befinden und /oder noch nicht praktiziert werden, weisen die Unternehmen ihre Qualifikation durch eine gültige Bescheinigung nach DVGW-Arbeitsblatt GW 301 oder GW 302 und einschlägige Referenzen nach. Der Bieter muss über qualifiziertes Fachpersonal verfügen. Gemäß Arbeitsblatt GW 329 des DVGW muss im beauftragten Unternehmen in Abhängigkeit von der Rückzugskraft der eingesetzten Bohrgeräte eine verantwortliche Fachaufsicht für&amp;#92;nSpülbohrverfahren vorgehalten werden:&amp;#92;nFür Spülbohrverfahren mit Bohrgeräten mit einer Zugkraft von kleiner gleich 400 KN gilt:&amp;#92;n-Eine mit Erfolg abgelegte Meisterprüfung, oder eine staatliche Technikerprüfung in einem einschlägigen Beruf mit mindestens 3-jähriger praktischer Tätigkeit im Bereich der grabenlosen Neulegung von Rohrleitungen und eine erfolgreiche Schulung&amp;#92;nnach dem DVGW Arbeitsblatt GW 329.&amp;#92;nFür Spülbohrverfahren mit Bohrgeräten mit einer Zugkraft von größer 400 KN gilt:&amp;#92;n-Eine abgeschlossene Ingenieur-Ausbildung, in einem einschlägigen technischen Fachbereich mit mindestens 3-jähriger praktischer Tätigkeit als ausführender oder leitender Ingenieur im Bereich der grabenlosen Neulegung von Rohrleitungen und eine erfolgreiche Schulung nach dem DVGW Arbeitsblatt GW 329. Darüber hinaus ist weiteres Fachpersonal wie z.B. Bauleiter und Geräteführer vorzuhalten.&amp;#92;n&amp;#92;n8. Der Einbau und die Montage der Energie- Versorgungsleitungen einschl. Leerrohre kann nur durch Firmen erfolgen die nachweislich bei Stromnetz Hamburg (früher Vattenfall Hamburg) als Leitungsbaufirma für oben angegebene Leitungen aus Kupfer zugelassen sind und sich bei Stromnetz Hamburg erfolgreich präqualifiziert haben (für Hauptauftragnehmer und Nachunternehmer gleichermaßen zwingend erforderlich)&amp;#92;nFolgende Nachweise sind zu erbringen:&amp;#92;nNachweis der Präqualifikation bei Stromnetz Hamburg (SNH) Zertifizierung in der Beurteilungsgruppe S21.1 und S21.3 (für Rohrrelining beim Einbau 110 KV in altes S-Siel). Nachweis über Montageberechtigungen durch erfolgreich bestandene Teilnahme an folgenden Montagekursen der Stromnetz Hamburg GmbH:&amp;#92;n-1-kV-Ausbildung (inkl. Arbeiten unter Spannung)&amp;#92;n-10-kV-Ausbildung&amp;#92;n-FM-Ausbildung&amp;#92;n&amp;#92;n9. Für die zu erbringenden Leistungen der Hamburger Stadtentwässerung (u.A. Sielbau, Vortrieb, Schächte, Hausanschlüsse, Vorflut Aufrechterhaltung) sind folgende&amp;#92;nZertifizierungen und Prüfungsbescheinigungen gem. Güteschutz Kanalbau oder gleichwertig sind zu erbringen. Aufgrund der engen Bauzeitfenster muss der&amp;#92;nLeistungserbringer zwingend in der Lage sein die Vortriebsarbeiten mit mindestens 2 Maschinen zeitgleich auszuführen.&amp;#92;n-AK1 -Verlegung und Prüfung von Abwasserleitungen und -kanälen aller Werkstoffe und Nennweiten, insbesondere auch in Tiefenlagen größer 5,00m mit den dazugehörigen Bauwerken in offener Bauweise unter erschwerten Bedingungen.&amp;#92;nZertifizierung in der Beurteilungsgruppe S21.1 und S21.3 (für Rohrrelining beim Einbau 110 KV in altes S-Siel&amp;#92;n-Zertifizierung in der Beurteilungsgruppe S27 (für Schlauchlining)&amp;#92;n-Ausführungsbereich VMD Grabenloser Einbau von Abwasserleitungen und -kanälen mit geschlossenen steuerbaren Schilden und Stützung der Ortsbrust durch Flüssigkeit mit Druckluft oder Erddruck (z.B. Mix- oder EPBSchild).&amp;#92;n-VP -Verlegung im gesteuerten Pilotrohrverfahren.&amp;#92;nZertifikat &amp;quot;Zertifizierte Fachkraft Kanalsanierung&amp;quot;&amp;#92;n&amp;#92;n10. Folgende Zertifizierungen der Qualitätsgemeinschaft Städtischer Straßenbau oder gleichwertige Nachweise sind nachzuweisen:&amp;#92;nZertifizierung für Walzasphaltstraßenbau WA1; WA2; WA3&amp;#92;nZertifizierung für Gussasphaltstraßenbau GA1; GA2&amp;#92;nZertifizierung für Betonstraßenbau B1; B2; B3&amp;#92;nZertifizierung für Steinstraßenbau S1; S2; S3&amp;#92;n&amp;#92;n11. Zusätzlich zu allen anderen Nachweisen bezüglich der jeweiligen Fachkapitel sind folgende Nachweise und Prüfbescheinigungen oder gleichwertig mit der Bewerbung&amp;#92;neinzureichen:&amp;#92;n-Die Qualifikation nach dem DVGW-Merkblatt GW 128&amp;#92;n-Umhüllerausweise nach DVGW-Arbeitsblatt GW 15&amp;#92;n-ISO 50001 Energiemanagement oder gleichgestellte andere Zertifizierung&amp;#92;n-Präqualifikation VOB&amp;#92;n-Sicherer Umgang mit der neuen Ersatzbaustoffverordnung / Mantelverordnung für Ersatzbaustoffe und Bodenschutz&amp;#92;nEs ist eine im Betrieb arbeitende Person zu benennen die sich federführend mit dem mit Thema beschäftigt und für die betriebliche Organisation verantwortlich ist.&amp;#92;nDarüber hinaus sind entsprechende, die Person betreffende, Schulungs- und Fortbildungsnachweise mit der Bewerbung einzureichen.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45233120</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45231000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-07-10+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

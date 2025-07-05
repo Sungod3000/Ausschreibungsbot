@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeResult>
+                  <cbc:TotalAmount currencyID="EUR">529558.95</cbc:TotalAmount>
+                  <efac:LotResult>
+                     <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                     <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                     <efbc:DPSTerminationIndicator>false</efbc:DPSTerminationIndicator>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:ReceivedSubmissionsStatistics>
+                        <efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+                        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                     </efac:ReceivedSubmissionsStatistics>
+                     <efac:SettledContract>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     </efac:SettledContract>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                  </efac:LotResult>
+                  <efac:LotTender>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     <cac:LegalMonetaryTotal>
+                        <cbc:PayableAmount currencyID="EUR">529558.95</cbc:PayableAmount>
+                     </cac:LegalMonetaryTotal>
+                     <efac:SubcontractingTerm>
+                        <efbc:TermCode listName="applicability">no</efbc:TermCode>
+                     </efac:SubcontractingTerm>
+                     <efac:TenderingParty>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     </efac:TenderingParty>
+                     <efac:TenderLot>
+                        <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                     </efac:TenderLot>
+                     <efac:TenderReference>
+                        <cbc:ID>TEN-0001</cbc:ID>
+                     </efac:TenderReference>
+                  </efac:LotTender>
+                  <efac:SettledContract>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                     <cbc:IssueDate>2025-03-31+02:00</cbc:IssueDate>
+                     <efac:ContractReference>
+                        <cbc:ID>CON-0001</cbc:ID>
+                     </efac:ContractReference>
+                     <efac:LotTender>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                     </efac:LotTender>
+                  </efac:SettledContract>
+                  <efac:TenderingParty>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                     <efac:Tenderer>
+                        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                     </efac:Tenderer>
+                  </efac:TenderingParty>
+               </efac:NoticeResult>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Land Hessen, vertreten durch die Hessische Zentrale für Datenverarbeitung</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Mainzer Straße 29</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65185</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>06-25153000-14</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611340-0</cbc:Telephone>
+                           <cbc:Telefax>+49 611340-1150</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabestelle@hzd.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.rp-darmstadt.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 812056745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151126603</cbc:Telephone>
+                           <cbc:Telefax>+49 611 327648534</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                     <efac:UltimateBeneficialOwner>
+                        <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                     </efac:UltimateBeneficialOwner>
+                     <efac:Company>
+                        <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">RICOH Deutschland GmbH</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Vahrenwalderstraße 315</cbc:StreetName>
+                           <cbc:CityName>Hannover</cbc:CityName>
+                           <cbc:PostalZone>30179</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 115 823 764</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 51167423260</cbc:Telephone>
+                           <cbc:Telefax>+49 51167422310</cbc:Telefax>
+                           <cbc:ElectronicMail>tender.procedure@service.ricoh.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+                     <cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+                  </efac:UltimateBeneficialOwner>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00222572-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">68/2025</efbc:GazetteID><efbc:PublicationDate>2025-04-07+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">a2289bd4-1d0c-4d60-90ad-2d3257df8b23</cbc:ID>
+   <cbc:ContractFolderID>3b951945-1b5c-447f-b3de-f4506476639e</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-04-04+02:00</cbc:IssueDate>
+   <cbc:IssueTime>11:47:40+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-04-04+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://vergabe.hessen.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cbc:TerminatedIndicator>false</cbc:TerminatedIndicator>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-3000-2025-0001</cbc:ID>
+      <cbc:Name languageID="DEU">Anmietung und Wartung von 92 fabrikneuen (1.Zulassung) und ver-netzten Kopier- und Drucksystemen mit Farbfunktion für den Geschäftsbereich des Regierungspräsidiums Kassel (Poolvertrag)  </cbc:Name>
+      <cbc:Description languageID="DEU">Die Anmietung und Wartung von 92 fabrikneuen (1. Zulassung) und vernetzten Kopier-, und Drucksystemen mit Farbfunktion (Poolvertrag) zur Aufstellung an verschiedenen Standorten des Regierungspräsidiums Kassel.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Eine Beschreibung der zu vergebenden Leistung steht auf der Vergabeplattform des Landes Hessen (https://vergabe.hessen.de) zur Verfügung und muss dort heruntergeladen werden.
+Ein Bewerber kann den Nachweis seiner Eignung und des Nichtvorliegens von Ausschlussgründen ganz oder teilweise durch die Teilnahme an Präqualifikationssystemen erbringen.
+
+Neben den in Ziffer 5.1.9 dieser EU-Bekanntmachung geforderten Unterla-gen zu Beleg der Eignung haben die Bieter zusätzlich die nachfolgenden Erklärungen und Nachweise mit dem Angebot einzureichen:
+
+(1) Eigenerklärungen zu Ausschlussgründen §§ 123, 124 GWB (Dateien "Eigenerklaerung_Par_123_GWB" und "Eigenerklaerung_Par_124_GWB"). Bei Bewerbergemeinschaften hat jedes Mitglied der Bewerbergemeinschaft die Erklärungen in der entsprechenden Form einzureichen. Bei Einsatz von (eignungsrelevanten) Unterauftragnehmern hat jeder Unterauftragnehmer die Erklärungen in der entsprechenden Form einzureichen.
+
+(2) Eigenerklärung Artikel 5k EU-Verordnung 833/2014
+Der Bieter hat die Eigenerklärung zum Artikel 5k der EU-Verordnung 833/2014 (Datei "Eigenerklaerung Artikel 5k EU-Verordnung 833-2014") aus-gefüllt mit seinem Angebot einzureichen.
+Bei Bietergemeinschaften hat jedes Mitglied der Bietergemeinschaft die Erklärung in der entsprechenden Form einzureichen.
+
+(3) Erklärung Unternehmensdaten (Datei "Erklaerung_Unternehmensdaten"). Diese Erklärung dient lediglich statistischen Zwecken. Sie stellt kein Eig-nungskriterium dar.
+
+(4) Verpflichtungserklärung nach dem Hessischen Vergabe- und Tariftreue-gesetz (HVTG): Bieter, jedes Mitglied einer Bietergemeinschaft sowie (eig-nungsrelevante) Unterauftragnehmer (§ 6 HVTG) haben die erforderliche Verpflichtungserklärung zu Tariftreue und Mindestlohn nach § 4 HVTG ab-zugeben (Datei "Verpflichtungserklaerung_oeff_AG").
+
+(5) Die Vergabestelle weist an dieser Stelle bereits darauf hin, dass für den für den Zuschlag in Aussicht genommenen Bieter, die Mitglieder einer Bietergemeinschaft sowie die im Vergabeverfahren gemeldeten Unterauftragnehmer eine Abfrage bei Korruptions- und Vergaberegistern, insbesondere bei der Informationsstelle nach § 17 Abs. 4 HVTG bei der Oberfinanzdirektion Frankfurt am Main, vorgenommen wird. Ebenso wird über den für den Zuschlag in Aussicht genommenen Bieter gemäß § 19 Abs. 4 MiLoG i.V.m. § 6 Abs. 1 WRegG vor Zuschlagserteilung eine Auskunft aus dem Wettbewerbsregister angefordert.
+
+(6) Wirtschaftlichkeitsprüfung/Zuschlagskriterien
+Der Zuschlag wird auf das wirtschaftlichste Angebot erteilt (§ 127 GWB, § 58 VgV).
+Das wirtschaftlichste ergibt sich aus dem "Energieverbrauchswert (TEC-Wert) der angebotenen Multifunktionssysteme" (= Zuschlagskriterium, Gewichtung 20%), dem angebotenen "Preis für die Anmietung / Wartung der Multifunktionsgeräte" (= Zuschlagskriterium, Gewichtung 60%) sowie dem Folgeseitenpreis s/w (= Zuschlagskriterium, Gewichtung 10%) und dem Folgeseitenpreis Farbe (= Zuschlagskriterium, Gewichtung 10%).</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">600000.00</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">30121000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34117</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Energieverbrauch (TEC-Wert)</cbc:Name>
+                  <cbc:Description languageID="DEU">Der TEC-Wert entspricht dem typischen wöchentlicher Stromver-brauch der angebotenen Druck- und Kopiersysteme.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis für Anmietung und Wartung der Kopier-und Drucksysteme</cbc:Name>
+                  <cbc:Description languageID="DEU">Ergibt sich aus Feld H11 in dem Preisblatt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Folgeseitenpreis s/w</cbc:Name>
+                  <cbc:Description languageID="DEU">Ergibt sich aus Feld D14 in dem Preisblatt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>10.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Folgeseitenpreis Farbe</cbc:Name>
+                  <cbc:Description languageID="DEU">Ergibt sich aus Feld D15 in dem Preisblatt</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:AppealTerms>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Anmietung und Wartung von 92 fabrikneuen (1.Zulassung) und ver-netzten Kopier- und Drucksystemen mit Farbfunktion für den Geschäftsbereich des Regierungspräsidiums Kassel (Poolvertrag)  </cbc:Name>
+         <cbc:Description languageID="DEU">Anmietung und Wartung von 92 fabrikneuen (1.Zulassung) und vernetzten Kopier-, und Drucksystemen mit Farbfunktion.
+Alle Geräte sind von einem Hersteller anzubieten.
+Die anzubietenden Maschinen müssen folgenden Mindestanforderungen entsprechen:
+- Den Sicherheitsregeln für Büroarbeitsplätze in der im Zeitpunkt der Angebotsabgabe
+gültigen Fassung.
+- Den allg.anerkannten Regeln der Technik (z. B. DIN 31000, DIN 31001
+oder gleichwertig). Der Anbieter sichert zu, dass die bei ihm bestellten Maschinen,
+Geräte und dgl. den in der BRD durch die gesetzlichen
+Unfallversicherungsträger in Kraft gesetzten Unfallverhütungsvorschriften
+(autonome Rechtsnormen), den Arbeitsschutzvorschriften sowie den allg.
+anerkannten sicherheitstechnischen und arbeitsmedizinischen Regeln
+entsprechen. 
+- Die einzelnen Anforderungen der Geräte ist der Anlage 1 ("DruckRPKS_Anlage
+1") zu entnehmen
+- Die Anforderungen an die Management Software sind der Anlage 2 ("Druck-
+RPKS_Anlage 2") zu entnehmen.
+Vorhandene Prüfzeugnisse, Unbedenklichkeitsbescheinigungen und die Sicherheitsdatenblätter für die angebotenen Maschinen sind dem Angebot beizufügen.
+Darüber hinaus gilt für alle Systeme folgendes:
+- Soweit Systeme mit Festplatte gefordert bzw. geliefert werden, sind die Kosten
+für ein Security Tool zur Festplatten Datenüberschreibung gemäß ISO 15408
+EAL 3 (oder gleichwertig) im Preis zu berücksichtigen
+- Anwenderdaten wie Druckdaten/Scandaten werden auf der internen Festplatte
+verschlüsselt abgelegt und nach Auftragsausführung automatisch gelöscht
+- Bei Außerbetriebnahme werden sämtliche Daten und die Konfiguration der Geräte
+vom Auftragnehmer sicher gelöscht (Wipen). Der Auftraggeber erhält über
+die BSI konforme (oder gleichwertige) Löschung eine schriftliche Bestätigung.
+Gleiches gilt bei einem Festplattendefekt während der Vertragslaufzeit
+- Schwarz/weiß Druck muss als Standard im Treiber voreinstellbar sein
+- Einheitlicher Druckertreiber für alle Systeme
+- Steuerbare / konfigurierbare Benutzerinterface Voreinstellungen müssen möglich
+sein
+- Soweit Systeme mit weiteren, nicht geforderten Schnittstellen und/oder Modulen
+(z.B. GSM/WLAN/Bluetooth/NFC/USB/etc.) angeboten werden, müssen
+diese Funktionen deaktiviert sein
+- Management-Software ergänzt zur Anlage 2 gilt folgendes:
+Mit anzubieten ist eine Software, die es den Administratoren ermöglicht, über
+ein Reporting- und Managementtool Informationen zu den einzelnen Geräten
+anzeigen zulassen (z.B. Systeminformationen, Zählerstände, Auslastung und
+Kostenstellenberichte).
+Die Software muss die Verwaltung von bis zu 2000 Usern ermöglichen. Die
+Software Aktualisierung ist in der Wartung enthalten. Benötigte Lizenzen(Managementsoftware, Wartungslizenzen, Drucksystemlizenzen, Scanlizenzen, OCR und ähnliches), muss das Angebot in ausreichender Anzahl enthalten.
+Die Software soll zentral auf zwei (zur ausfallsicheren Verwaltung) redundanten
+Serversystemen (vorhanden) installiert werden und muss das Drucken und z.T.
+auch das Scannen (Scan-to-Mail) an den verschiedenen Standorten ermöglichen
+(Stichwort: "follow me printing").
+Es muss eine standortübergreifende Funktionalität (Drucken über Standortgrenzen
+hinaus) gegeben sein (alle Standorte sind miteinander vernetzt).
+Die Authentifizierung der Bediensteten soll mittels berührungslosem Kartenleser
+(für vorhandene Legic-Chips (MIM256/MIM1024)) am Endgerät erfolgen
+und durch PIN Eingabe.
+- Im Rahmen der Ersteinrichtung ist durch den Auftragnehmer das Einrichten,
+bzw. die Grundkonfiguration (Netzwerk, Scan, FollowMe, Server) nach Vorgaben
+des Auftraggebers zu gewährleisten und auch weiterhin im Rahmen des
+Wartungsvertrages zu betreuen.
+- Das Gerät meldet automatisch per E-Mail, einem Remotetool, Appliance oder
+vergleichbar, Störungsmeldungen sowie den Bedarf von Verbrauchsmaterial
+(Toner) -außer Papier und Heftklammern- an den Auftragnehmer und an eine
+zentrale E-Mail-Adresse des Auftraggebers.
+- Verbrauchsmateriallieferungen werden (Mo.-Fr.) innerhalb von 2 Arbeitstagen
+nach Bestellung ausgeführt. Neben der grundsätzlich automatisiert erfolgenden
+Bestellung und Lieferung muss es möglich sein, Verbrauchsmaterial ohne zusätzliche
+Kosten auch telefonisch, per Email oder Weboberfläche zu bestellen.
+- Der Auftraggeber stellt sicher, dass an den Standorten der Systeme, für die eine
+Netzeinbindung vorgesehen ist, entsprechende Netzanschlüsse vorhanden
+sind. Er sorgt darüber hinaus für die erforderlichen Serverzugänge und die Unterstützung durch interne Administratoren, die mit der vorhandenen Infrastruktur
+vertraut sind.
+- Der Auftragnehmer verpflichtet sich zur zeitnahen Rücknahme gebrauchter Tonerbehälter, Kartuschen, Resttoner, Fotoleiter, Restentwickler, Ozonfilter bzw. Katalysatoren etc. und sorgt für deren Wieder-/Weiterverwendung bzw. ordnungsgemäße Entsorgung. Die Kosten sind im Preis enthalten. Der Auftraggeber wird vom Auftragnehmer über den Verfahrensablauf der Rücknahme in geeigneter Form unterrichtet. Die für die Rücknahme entstehenden Kosten sind im Preis enthalten.
+- Der Auftragnehmer verpflichtet sich, das Personal (Multiplikatoren) in die sachgemäße Benutzung der Systeme (Anwendung, Fehlerbehebung (Austausch von Verbrauchsmaterial, Papierstau)) einzuweisen und dabei auch auf die Nutzung der
+systemtechnisch angebotenen Energiesparfunktionen (Power-Management) hinzuweisen.
+Dazu ist eine Schulung je Organisationseinheit vor Ort erforderlich.
+- Zudem stellt der Bieter eine Kurz-Bedienungsanleitung für jedes Gerät zur Verfügung
+(PDF).
+- Darüber hinaus muss der Auftragnehmer eine gesonderte Schulung zur Verwaltung
+und Konfiguration der Systeme für die Systemadministratoren vor Ort am Standort Kassel durchführen.
+- Die Einweisung hat zentral pro Liegenschaft zu erfolgen (Am Alten Stadtschloss 1,
+z.B. ist eine Liegenschaft). Dazu sind an zwei Tagen, meherere Termine für jeweils
+ca. 10 Personen durchzuführen.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">600000.00</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">30121000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34117</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Ergänzungsbeschaffung und Teilkündigung einzelner Geräte
+Nachmietungen von zusätzlichen Geräten oder Zubehör während der Vertragslaufzeit müssen bis zu 15 % des ursprünglichen Auftragswertes möglich sein. Die Laufzeit des Poolvertrages bleibt durch evtl. Nachmietungen unberührt, d. h. die Vertragslaufzeit dieser Nachmietungen endet mit der des Poolvertrages. Die Nachmietungen werden Bestandteil des Poolvertrages. Sofern Nachmietungen erfolgen sollen, hat der Auftragnehmer unter Berücksichtigung der verkürzten Restlaufzeiten zeitnah ein Angebot vorzulegen. Die Berechnung des monatlichen Mietpreises der Ergänzungsgeräte erfolgt auf Grundlage des angebotenen Festpreises nach folgender Formel: Miete Ergänzungsgerät= (monatliche Miete pro Gerät x 48 Monate) / Restlaufzeit in Monaten. Bzw. Bei Verlängerung Miete Ergänzungsgerät = Miete Ergänzungsgerät= (monatliche Miete pro Gerät x 60 Monate) / Restlaufzeit in Monaten.
+Maximale Erhöhung der Miete um 100% der ursprünglichen Miete pro Gerät. Die Seitenabrechnung erfolgt auch für Nachmietungen zu den Konditionen der Ausschreibung.
+Neben der o.g. Möglichkeit der Ergänzungsbeschaffung hat der Auftraggeber das Recht auf Teilkündigungen einzelner Geräte. Aufgrund organisatorischer bzw. struktureller Veränderungen des Auftraggebers, wie z.B. der Zusammenlegung von Standorten kann die Anzahl der Geräte innerhalb der Vertragslaufzeit reduziert und vorzeitig gekündigt werden. Insgesamt können maximal 15% der Gerätestückzahl über die Vertragslaufzeit von 48 Monaten zurückgegeben werden. Ab dem Zeitpunkt der Rückgabe werden keine monatlichen Raten für jeweilige zurückgenommene Geräte mehr fällig. Die Zahl der Geräte, die zurückgegeben werden können, wird stets abgerundet, da der Wert von 15% einen Maximalwert darstellt. (vgl. Ziffer 9 der Leistungsbeschreibung)
+
+Der Mietvertrag wird beginnend mit dem 01. April 2025 bis 31. März 2029
+(48 Monate) abgeschlossen. Für die Herstellung der Funktions- und Betriebsbereitschaft seitens des Auftraggebers ist maximal ein Zeitraum von 10 Arbeitstagen einzuplanen und muss zum Beginn des Mietvertrages abgeschlossen sein.
+Die Laufzeit des Vertrages verlängert sich einmalig um 12 Monate, soweit der Vertrag
+nicht von einer der Vertragsparteien gekündigt wird (maximale Vertragslaufzeit 60 Monate).
+Kündigungsfrist: 6 Monate (schriftlich) vor Ablauf des Vertrages, ansonsten verlängert
+sich der Vertrag einmalig um 12 Monate.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:TenderResult>
+      <cbc:AwardDate>2000-01-01+01:00</cbc:AwardDate>
+   </cac:TenderResult>
+</ContractAwardNotice>

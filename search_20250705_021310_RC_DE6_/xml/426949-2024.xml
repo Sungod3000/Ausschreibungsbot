@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10557</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Abteilung Vergaberecht</cbc:Name>
+                           <cbc:Telephone>+4930640964901</cbc:Telephone>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Zuständiges Verwaltungsgericht</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>xxx</cbc:StreetName>
+                           <cbc:CityName>xxx</cbc:CityName>
+                           <cbc:PostalZone>xxx</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>N.N.</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30640960</cbc:Telephone>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10557</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt.-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30640960</cbc:Telephone>
+                           <cbc:Telefax>+49 30403680811</cbc:Telefax>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.autobahn.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Die Autobahn GmbH des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+                           <cbc:CityName>Berlin</cbc:CityName>
+                           <cbc:PostalZone>10557</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>USt.-ID DE329214156</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 30640960</cbc:Telephone>
+                           <cbc:ElectronicMail>recht@autobahn.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00426949-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">137/2024</efbc:GazetteID><efbc:PublicationDate>2024-07-16Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">ad13b8e9-6e93-44a8-a82c-5c62c9ed2279</cbc:ID>
+   <cbc:ContractFolderID>50f82209-6177-4fb2-ab2a-de2836c67a0b</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-07-15+02:00</cbc:IssueDate>
+   <cbc:IssueTime>14:41:06+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-07-15+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://vergabe.autobahn.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass die Verpflichtung zur Zahlung der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt wurde und insofern nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Auf gesondertes Verlangen: Vorlage einer Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, soweit Ihr Unternehmen beitragspflichtig ist.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 124 GWB vorliegen.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass die Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgemäß erfüllt wurde und insofern nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Auf gesondertes Verlangen: Vorlage einer Unbedenklichkeitsbescheinigung des Finanzamtes, soweit das Finanzamt derartige Bescheinigungen ausstellt.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gemäß § 123 GWB vorliegen. Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Angaben, dass nachweislich keine Ausschlussgründe gem. § 21 Arbeitnehmer-Entsendegesetz, § 98c Aufenthaltsgesetz, § 19 Mindestlohngesetz, § 21 Schwarzarbeitsbekämpfungsgesetz und § 22 Lieferkettensorgfaltspflichtengesetz vorliegen (§ 124 (2) GWB). Ggf. Nachweise hinsichtlich einer durchgeführten Selbstreinigung gem. § 125 GWB.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>OH-ZEN-2024_01</cbc:ID>
+      <cbc:Name languageID="DEU">Abschluss eines nicht-exklusiven Rahmenvertrags Planungsleistungen Ing.-Bw. 2024 ff. im Open-House-Verfahren der Autobahn GmbH des Bundes (OH-ZEN-2024_01)</cbc:Name>
+      <cbc:Description languageID="DEU">Gegenstand des Loses /Leistungsbereichs 01
+sind Planungsleistungen für Ingenieurbauwerke für ABW bis 50
+m Länge und Standard-ÜBW . Gegenstand des Loses /
+Leistungsbereichs 02 sind Planungsleistungen für
+Ingenieurbauwerke für ABW bis 100 m Länge. Gegenstand des
+Loses /Leistungsbereichs 03 sind Planungsleistungen für
+Ingenieurbauwerke für ÜBW mit komplexen Randbedingungen
+und speziellen Tragwerken/Bauweisen. Gegenstand des Loses
+/Leistungsbereichs 04 sind Planungsleistungen für
+Ingenieurbauwerke für Verkehrszeichenbrücken. Gegenstand
+des Loses /Leistungsbereichs 05 sind Planungsleistungen
+für Ingenieurbauwerke für Stützwände. Gegenstand des Loses /
+Leistungsbereichs 06 sind Planungsleistungen für
+Ingenieurbauwerke für Lärmschutzwände.
+Die Einzelheiten ergeben sich aus der Leistungsbeschreibung.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Fragen und Hinweise zu den Zulassungsunterlagen sind per Nachricht über die Vergabeplattform an die unter Ziff. 1.1. genannte Kontaktstelle zu richten. Sie sind in deutscher Sprache zu formulieren.
+
+Die Zulassungsunterlagen einschließlich des erforderlichen Zulassungsformulars werden über die unter Ziff. 5.1.11 bezeichnete elektronische Adresse zur Verfügung gestellt.
+
+Bei der vorliegenden Veröffentlichung handelt es sich NICHT um die Vergabe eines öffentlichen Auftrags im Sinne der Vergabekoordinierungsrichtlinie 2014/24/EU des Europäischen Parlaments und des Rates bzw. des Vergaberechts. Um ein weitestgehendes Maß an Transparenz für die beabsichtigten Vertragsabschlüsse zu gewährleisten, erfolgt die Veröffentlichung im Supplement zum Amtsblatt der
+Europäischen Union. In Ermangelung eines entsprechenden Veröffentlichungsformulars wird die Auftragsbekanntmachung genutzt. Die daraus resultierenden begrifflichen Vorgaben, wie bspw. die Verfahrensbezeichnung "offenes Verfahren" und die o. g. Verfahrensfristen, sind einzig der Nutzung dieses
+Bekanntmachungsformulars geschuldet. Damit die Bekanntmachung über die Vertragslaufzeit online bleibt, war der letzte Tag einer möglichen Zulassung als Angebotsfrist einzutragen. Da der Beitritt während der gesamten Laufzeit
+möglich ist, werden die eingereichten Unterlagen nach Eingang überprüft. Eine weitere Bedeutung, insbesondere eine Unterwerfung unter vergaberechtliche Regelungen, soweit sie nicht aus rechtlichen Gründen verpflichtend sind, ist damit nicht verbunden.
+
+Eine Auswahlentscheidung wird nicht getroffen. Jedes Unternehmen, das die Zulassungsvoraussetzungen erfüllt, kann dem Rahmenvertrag in Bezug auf den/die Leistungsbereich(e) beitreten, für die es die Erfüllung der Zulassungsanforderungen
+nachgewiesen hat. Die Nennung von Zuschlagskriterien innerhalb dieses Formulars erfolgt auch in Ermangelung eines entsprechenden Veröffentlichungsformulars.
+Voraussetzungen für den Abschluss bzw. den späteren Beitritt zu dem Rahmenvertrag ist der Nachweis der Zulassungsvoraussetzungen durch Einreichung eines
+Zulassungsantrags, für den zwingend das zur Verfügung gestellte Zulassungsformular einschließlich sämtlicher dort benannten Anlagen entsprechend den weiteren Vorgaben im Anschreiben (Bestandteil der Zulassungsunterlagen) zu
+verwenden ist. Die Modalitäten zum Einzelabruf ergeben sich aus dem
+Rahmenvertrag.
+
+Hinweis: Die Vergabekammer ist für die Nachprüfung des vorliegenden Open-House-Verfahrens, das nicht in den Anwendungsbereich der §§ 97 ff. GWB fällt, nicht zuständig. Im Falle von Rechtsbehelfen, mit dem Ziel, gegen die
+Bestimmungen und Bedingungen dieses Open-House-Verfahrens einschließlich der vertraglichen Bestimmungen vorzugehen, steht der Rechtsweg zu den
+Verwaltungsgerichten offen. Die Adress- und Kontaktdaten bei der Überprüfungsstelle dieser Bekanntmachung sind nicht korrekt (zwingende Angaben systemseitig).</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+            <cbc:CityName>Berlin</cbc:CityName>
+            <cbc:PostalZone>10557</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Nord, Heidenkamps weg 96-98</cbc:StreetName>
+            <cbc:CityName>Hamburg</cbc:CityName>
+            <cbc:PostalZone>20097</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Nordbayern, Flaschenhofstraße 55</cbc:StreetName>
+            <cbc:CityName>Nürnberg</cbc:CityName>
+            <cbc:PostalZone>90402</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE254</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Nordost, An der Autobahn 111</cbc:StreetName>
+            <cbc:CityName>Hohen Neuendorf</cbc:CityName>
+            <cbc:PostalZone>16540</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE40A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Nordwest, Gradestraße 18</cbc:StreetName>
+            <cbc:CityName>Hannover</cbc:CityName>
+            <cbc:PostalZone>30163</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Ost, Magdeburger Straße 51</cbc:StreetName>
+            <cbc:CityName>Halle (Saale)</cbc:CityName>
+            <cbc:PostalZone>06112</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Rheinland, Willy- Brandt-Platz 2</cbc:StreetName>
+            <cbc:CityName>Krefeld</cbc:CityName>
+            <cbc:PostalZone>47805</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEA14</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Südbayern, Seidlstraße 7 - 11</cbc:StreetName>
+            <cbc:CityName>München</cbc:CityName>
+            <cbc:PostalZone>80335</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Südwest, Augsburger Str. 748</cbc:StreetName>
+            <cbc:CityName>Stuttgart</cbc:CityName>
+            <cbc:PostalZone>70329</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung West, Bahnhofsplatz 1-3</cbc:StreetName>
+            <cbc:CityName>Montabaur</cbc:CityName>
+            <cbc:PostalZone>56410</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEB1B</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Niederlassung Westfalen, Lilienthalstraße 5</cbc:StreetName>
+            <cbc:CityName>Hamm</cbc:CityName>
+            <cbc:PostalZone>59065</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEA54</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">(1) Kein zwingender oder fakultativer Ausschluss unter entsprechender Anwendung der §§ 123, 124 GWB sowie entsprechender Berücksichtigung von §§ 125, 126 GWB. Zur
+Prüfung wird eine Eigenerklärung gemäß Vordruck im Zulassungsformular gefordert.
+(2) Erfüllung der gewerberechtlichen Voraussetzungen zur Ausführung der Leistung. Hierzu wird eine Eigenerklärung gemäß Vordruck im Zulassungsformular gefordert.
+(3) Nichtvorliegen einer Geldbuße nach § 21 MiLoG von wenigstens EUR 2.500,00 (vgl. § 19 Abs. 3 MiLoG). Hierzu wird eine Eigenerklärung gemäß Vordruck im Zulassungsformular gefordert sowie Angaben, die eine Überprüfung im
+Wettbewerbsregister ermöglichen.
+(4) Eintragung im einschlägigen Handels- oder Berufsregister.
+Hierzu ist eine aktuelle Kopie des Eintragungsnachweises beizufügen oder ein Nachweis, dass keine Eintragungspflicht in einem Register besteht. Der Eintragungsnachweis ist aktuell, wenn er den Stand der letzten Änderung an der Eintragung wiedergibt.
+(5) Nichtvorliegen von Gründen, die gemäß Artikel 5k Verordnung (EU) Nr. 833/2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren vom 31. Juli 2014, geändert durch Verordnung (EU) 2022/576 vom 8. April 2022 einem Vertragsabschluss oder einer Vertragserfüllung
+entgegenstehen. Hierzu wird eine Eigenerklärung gemäß Vordruck im Zulassungsformular gefordert</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">(1) Bestehen einer Betriebs-/Berufshaftpflichtversicherung und
+Erklärung, dass diese während der gesamten Vertragslaufzeit
+aufrechterhalten wird. Hierzu wird eine Eigenerklärung mit
+Angabe der Deckungssummen gemäß Vordruck im
+Zulassungsformular gefordert, aufgrund der sich die Erfüllung
+der nachfolgend genannten Mindeststandards prüfen lässt.
+
+Geforderte Mindeststandards:
+Schäden mit folgenden Mindestversicherungssummen müssen
+mindestens abgedeckt werden:
+-Für Personenschäden mindestens 3.000.000,00 EUR
+pauschal je Schadensfall zweifach maximiert pro Jahr
+-Für Sach- und Vermögensschäden mindestens 5.000.000,00
+EUR je Schadensfall zweifach maximiert pro Jahr.
+-oder sind im Rahmen einer bestehenden Versicherung für den
+Fall des Erhalts eines Einzelauftrags die Versicherungssummen
+auf v. g. Mindestversicherungssummen zu erhöhen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">(1) Erklärung über die Verfügbarkeit des Personals, das geeignet ist, die Planungsleistungen PL in den Leistungsbereichen und ergänzenden Angaben, für die ich/wir eine Zulassung bzw. ein Angebot auf Abschluss eines Rahmenvertrags gestellt habe/n, zu erbringen. 
+(2) Mindestanforderungen in Bezug auf ausgeführte Referenzaufträge je Leistungsbereich (LB)
+Gilt für LB 01, 02, 03: Werden mehrere Tragwerksarten zur Zulassung beantragt, müssen die nachstehenden Mindestanforderungen allesamt mindestens einmal für jede Tragwerksart erfüllt werden.
+LB 01: Vorlage von mindestens 2 vergleichbare Referenzen über abgeschlossene Leistungsphasen LP gemäß HOAI für Ingenieurbauwerke IBW (Objektplanung OP und Tragwerksplanung TWP) der letzten 10 Jahre vor dem Datum der Antragstellung zur Zulassung. Eine Referenz ist mit dem Auftragsgegenstand vergleichbar, wenn PL sowohl im Rahmen des Leistungsbildes IBW gem. HOAI § 43 und Anlage 12 sowie im Rahmen des Leistungsbildes Fachplanung TWP gem. HOAI § 51 und Anlage 14 für eine Brücke im Zuge einer Straße in der zur Zulassung beantragten Bauweise mit einer Einzelstützweite ≥ 10 m erbracht worden sind. Für jede Referenz ist nachzuweisen, dass für beide Leistungsbilder OP und TWP mindestens die LP 3 und/oder 5 in Eigenleistung erbracht wurden. 
+LB 02: Vorlage von mindestens 2 mit dem Auftragsgegenstand vergleichbare Referenzen über abgeschlossene LP gemäß HOAI für IBW (OP und TWP) der letzten 10 Jahre. Der Abschluss der LP darf nicht länger zurückliegen als 10 Jahre vor dem Datum der Antragstellung zur Zulassung. Eine Referenz ist mit dem Auftragsgegenstand vergleichbar, wenn Planungsleistungen sowohl im Rahmen des Leistungsbildes IBW gem. HOAI § 43 und Anlage 12 sowie im Rahmen des Leistungsbildes Fachplanung TWP gem. HOAI § 51 und Anlage 14 für eine Brücke im Zuge einer Autobahn oder autobahnähnlichen Bundesfernstraße in Stahlbeton-, Spannbeton- oder Stahlverbundbauweise mit einer Einzelstützweite ≥ 20 m und einer Gesamtstützweite ≥ 50 m erbracht worden sind. Für jede Referenz ist nachzuweisen, dass für beide Leistungsbilder OP und TWP mindestens die LP 3 und/oder 5 in Eigenleistung erbracht wurden. 
+LB 03: Vorlage von mindestens 2 mit dem Auftragsgegenstand vergleichbare Referenzen über abgeschlossene LP gemäß HOAI für IBW (OP und TWP) der letzten 10 Jahre. Der Abschluss der LP darf nicht länger zurückliegen als 10 Jahre vor dem Datum der Antragstellung zur Zulassung. Eine Referenz ist mit dem Auftragsgegenstand vergleichbar, wenn Planungsleistungen sowohl im Rahmen des Leistungsbildes Ingenieurbauwerke gem. HOAI § 43 und Anlage 12 sowie im Rahmen des Leistungsbildes Fachplanung TWP gem. HOAI § 51 und Anlage 14 für eine Brücke über eine Autobahn oder autobahnähnliche Bundesfernstraße in Spannbeton, Stahl- oder Stahlverbundbauweise mit einer Einzelstützweite ≥ 25 m und einer Gesamtstütz-weite ≥ 50 m erbracht worden sind. Als vergleichbare Referenz hinsichtlich besonderer / komplexerer Randbedingungen gelten eine Bauwerksschiefe von mindestens 65gon oder eine besondere Grundrissgeometrie oder weitere Kreuzungsbeteiligte. Als vergleichbare Referenz hinsichtlich besonderer Tragwerkskonstruktionen gelten Stahlüberbauten oder Schnellbauweisen mit Verwendung von Fertigteilen oder Halbfertigteilen für Über- und Unterbauten. 
+Für jede Referenz ist nachzuweisen, dass für beide Leistungsbilder Objekt- und Tragwerksplanung mindestens die HOAI-LP 3 und/oder 5 in Eigenleistung erbracht wurden.
+LB 04: Vorlage von mindestens 2 mit dem Auftragsgegenstand vergleichbare Referenzen über abgeschlossene LP gemäß HOAI für IBW (OP und TWP) der letzten 10 Jahre. Der Abschluss der LP darf nicht länger zurückliegen als 10 Jahre vor dem Datum der Antragstellung zur Zulassung. Eine Referenz ist mit dem Auftragsgegenstand vergleichbar, wenn PL sowohl im Rahmen des Leistungsbildes IBW gem. HOAI § 43 und Anlage 12 sowie im Rahmen des Leistungsbildes Fachplanung TWP gem. HOAI § 51 und Anlage 14 für eine Verkehrszeichen-/Schilderbrücke oder einen Verkehrszeichenkragarm erbracht worden sind. Für jede Referenz ist nachzuweisen, dass für beide Leistungsbilder OP und TWP mindestens die LP 3 und/oder 5 in Eigenleistung erbracht wurden.
+LB 05: Vorlage von mindestens 2 mit dem Auftragsgegenstand vergleichbare Referenzen über abgeschlossene LP gemäß HOAI für IBW (OP und TWP) der letzten 10 Jahre. Der Abschluss der Leistungsphase darf nicht länger zurückliegen als 10 Jahre vor dem Datum der Antragstellung zur Zulassung. Eine Referenz ist mit dem Auftragsgegenstand vergleichbar, wenn Planungsleistungen sowohl im Rahmen des Leistungsbildes IBW gem. HOAI § 43 und Anlage 12 sowie im Rahmen des Leistungsbildes Fachplanung TWP gem. HOAI § 51 und Anlage 14 für eine Stützwand mit einer Mindesthöhe von 1,5 m erbracht worden sind. Für jede Referenz ist nachzuweisen, dass für beide Leistungsbilder OP und TWP mindestens die LP 3 und/oder 5 in Eigenleistung erbracht wurden.
+LB 06: Vorlage von mindestens 2 mit dem Auftragsgegenstand vergleichbare Referenzen über abgeschlossene LP gemäß HOAI für Ingenieurbauwerke (OP und TWP) der letzten 10 Jahre. Der Abschluss der Leistungsphase darf nicht länger zurückliegen als 10 Jahre vor dem Datum der Antragstellung zur Zulassung. Eine Referenz ist mit dem Auftragsgegenstand vergleichbar, wenn Planungsleistungen sowohl im Rahmen des Leistungsbildes IBW gem. HOAI § 43 und Anlage 12 sowie im Rahmen des Leistungsbildes Fachplanung TWP gem. HOAI § 51 und Anlage 14 für eine Lärmschutzwand mit mindestens 2 m Höhe, reflektierenden oder hochabsorbierenden Wandeigenschaften und gestalterischen Merkmalen erbracht worden sind. Für jede Referenz ist nachzuweisen, dass für beide Leistungsbilder OP und TWP mindestens die LP 3 und/oder 5 in Eigenleistung erbracht wurden.
+Mindestanforderungen für eine Zulassung von PL einschl. Zusammenhangsleistungen Rückbauplanung, Streckenanbindung und/oder Planung von Instandsetzungs- und Verstärkungsmaßnahmen ergeben sich aus dem Zulassungsantrag.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.autobahn.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-190a57362c2-35ec917373ab9bbc</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-none</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Unvollständige Anträge werden abgelehnt und können vervollständigt neu eingereicht werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Es findet keine Auswahlentscheidung auf Grundlage eines Preis- und/oder Leistungs- und/oder Qualitätswettbewerbs statt. Leistungen werden entsprechend der Maßgaben unter Abschnitt VI.3 vergeben</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>0.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.autobahn.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://www.autobahn.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-12-31+01:00</cbc:EndDate>
+            <cbc:EndTime>23:59:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-12-31+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>23:59:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Abschluss eines nicht-exklusiven Rahmenvertrags Planungsleistungen Ing.-Bw. 2024 ff. im Open-House-Verfahren der Autobahn GmbH des Bundes (OH-ZEN-2024_01)</cbc:Name>
+         <cbc:Description languageID="DEU">Gegenstand des Rahmenvertrages ist die Durchführung von Planungsleistungen für Ingenieurbauwerke gemäß den Vorgaben der Leistungsbeschreibung.
+Die Planungsleistungen werden in die folgenden
+Leistungsbereiche aufgeteilt:
+-Leistungsbereich 01: ABW bis 50 m Länge und Standard-
+ÜBW (1-/2-Feld-Bw.)
+-Leistungsbereich 02: ABW bis 100 m Länge
+-Leistungsbereich 03: ÜBW mit komplexen Randbedingungen und speziellen Tragwerken/Bauweisen
+-Leistungsbereich 04: Verkehrszeichenbrücken
+-Leistungsbereich 05: Stützwände
+-Leistungsbereich 06: Lärmschutzwände
+
+Die Leistungsbereiche werden aufgrund der Vorgabe von Begrifflichkeiten in diesem Bekanntmachungsformular nachfolgend auch als "Lose" bezeichnet.
+
+Der Abschluss der Rahmenverträge über die Erbringung der in der Leistungsbeschreibung (Anlage 1 zum Rahmenvertrag) näher bezeichneten Leistungen erfolgt im Wege eines sogenannten "Open-House-Verfahren" (hierzu näheres unter Abschnitt Zusätzliche Angaben sowie im Anschreiben, dass
+über die unter Abschnitt Kommunikation angegebene elektronische Adresse abrufbar ist).
+
+Der abzuschließende Rahmenvertrag umfasst dabei je Auftragnehmer individuell diejenigen in der Leistungsbeschreibung (Anlage 1 zum Rahmenvertrag) näher
+dargestellten Leistungsbereiche, für die die Zulassungsvoraussetzungen mit dem Zulassungsantrag nachgewiesen wurden.
+
+Auf Grundlage des abgeschlossenen Rahmenvertrags erteilte Einzelaufträge können sämtliche Leistungen oder nur Teile einer oder mehrerer Leistungsbereiche umfassen, für die ein Auftragnehmer zugelassen wurde.
+
+Das Open-House-Verfahren läuft ab Veröffentlichung bis zum 31.12.2025 und kann zwei Mal um je 1 Jahr verlängert werden. Zulassungsanträge und somit auch der Abschluss eines Rahmenvertrags können während der gesamten Laufzeit des
+Open-House-Verfahrens erfolgen.
+
+Ein Rahmenvertrag tritt mit Zulassung eines Interessenten in Kraft und endet vorbehaltlich Verlängerungsoptionen am 31.12.2025. Der Rahmenvertrag kann - analog zum Open- House-Verfahren - aufgrund der Verlängerungsoption zwei Mal
+bis zum 31.12.2026 bzw. 31.12.2027 verlängert werden.
+Näheres regelt der Rahmenvertrag.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:freelance#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Heidestraße 15</cbc:StreetName>
+               <cbc:CityName>Berlin</cbc:CityName>
+               <cbc:PostalZone>10557</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE300</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Nord, Heidenkamps weg 96-98</cbc:StreetName>
+               <cbc:CityName>Hamburg</cbc:CityName>
+               <cbc:PostalZone>20097</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Nordbayern, Flaschenhofstraße 55</cbc:StreetName>
+               <cbc:CityName>Nürnberg</cbc:CityName>
+               <cbc:PostalZone>90402</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE254</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Nordost, An der Autobahn 111</cbc:StreetName>
+               <cbc:CityName>Hohen Neuendorf</cbc:CityName>
+               <cbc:PostalZone>16540</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE40A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Nordwest, Gradestraße 18</cbc:StreetName>
+               <cbc:CityName>Hannover</cbc:CityName>
+               <cbc:PostalZone>30163</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Ost, Magdeburger Straße 51</cbc:StreetName>
+               <cbc:CityName>Halle (Saale)</cbc:CityName>
+               <cbc:PostalZone>06112</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEE02</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Rheinland, Willy- Brandt-Platz 2</cbc:StreetName>
+               <cbc:CityName>Krefeld</cbc:CityName>
+               <cbc:PostalZone>47805</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEA14</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Südbayern, Seidlstraße 7 - 11</cbc:StreetName>
+               <cbc:CityName>München</cbc:CityName>
+               <cbc:PostalZone>80335</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Südwest, Augsburger Str. 748</cbc:StreetName>
+               <cbc:CityName>Stuttgart</cbc:CityName>
+               <cbc:PostalZone>70329</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung West, Bahnhofsplatz 1-3</cbc:StreetName>
+               <cbc:CityName>Montabaur</cbc:CityName>
+               <cbc:PostalZone>56410</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEB1B</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Niederlassung Westfalen, Lilienthalstraße 5</cbc:StreetName>
+               <cbc:CityName>Hamm</cbc:CityName>
+               <cbc:PostalZone>59065</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEA54</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-07-15+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Der Rahmenvertrag kann aufgrund der Verlängerungsoption zwei Mal bis zum 31.12.2026 bzw. 31.12.2027 verlängert werden. Näheres regelt der Rahmenvertrag</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

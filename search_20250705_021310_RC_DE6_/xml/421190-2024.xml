@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Deutsches Elektronen-Synchrotron DESY</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Notkestraße 85</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22607</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE118714904</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>GÖRG Partnerschaft von Rechtsanwälten mbB</cbc:Name>
+									<cbc:Telephone>+49 40500360485</cbc:Telephone>
+									<cbc:Telefax>+49 40500360444</cbc:Telefax>
+									<cbc:ElectronicMail>ojauch@goerg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">GÖRG Partnerschaft von Rechtsanwälten mbB</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Alter Wall 20-22</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>20457</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>PR1281</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Dr. Jan Scharf / Dr. Oliver Jauch</cbc:Name>
+									<cbc:Telephone>+49 40500360485</cbc:Telephone>
+									<cbc:Telefax>+49 40500360444</cbc:Telefax>
+									<cbc:ElectronicMail>ojauch@goerg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>T022894990</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 22894990</cbc:Telephone>
+									<cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00421190-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">136/2024</efbc:GazetteID><efbc:PublicationDate>2024-07-15Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">9ca3c1e1-b01f-48c2-9d0c-bb6dbf1ff3ad</cbc:ID>
+	<cbc:ContractFolderID>c5ea6130-c944-4989-89c5-6016d841e852</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-07-12+02:00</cbc:IssueDate>
+	<cbc:IssueTime>11:06:21+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-07-12+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">org-sub</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderValidityPeriod>
+			<cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+		</cac:TenderValidityPeriod>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">- § 134 Abs. 2 GWB - Informations- und Wartepflicht: Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach § 134 Abs. 1 GWB geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf 10 Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. - Das Vergabeverfahren unterliegt den Vorschriften über das Nachprüfungsverfahren vor der Vergabekammer (§ 155 ff. GWB). Gemäß § 160 Abs. 3 GWB ist der Antrag unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Abs. 2 GWB bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Der vorstehende Satz gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Abs. 1 Nr. 2 GWB. § 134 Abs. 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YMGH3UV</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">PR612649</cbc:ID>
+		<cbc:Name languageID="DEU">Leistungen der örtlichen Bauüberwachung für das Projekt "Campus Süd" von DESY in Hamburg</cbc:Name>
+		<cbc:Description languageID="DEU">Das Deutsche Elektronen Synchrotron "DESY" ist eine Forschungseinrichtung mit Standorten in Hamburg und Zeuthen (Brandenburg). Zur Sicherstellung der weiteren Versorgung des südlichen Campusbereichs in Hamburg-Bahrenfeld mit Medien sind umfangreiche Maßnahmen in der Bauunterhaltung erforderlich. Zudem sind zur Versorgung der neu geplanten Gebäude auch in Teilen Erweiterungen der vorhandenen Versorgungsnetze erforderlich. Hierzu wurde die Machbarkeitsstudie "DESY Campus Süd" durchgeführt, um die Bedingungen für die Umsetzung dieser Maßnahme zu untersuchen. Die Entwurfsplanung hat im Winter 2024 begonnen. DESY beabsichtigt insofern die bauliche Umsetzung verschiedener erforderlicher Maßnahmen. Zur Absicherung der auftraggeberseitigen Ziele beabsichtigt DESY die Vergabe der Leistungen der örtlichen Bauüberwachung. Gegenstand der hiesigen Ausschreibung ist die örtliche Bauüberwachung für die Projekte 1, 2 und 3 (Medientrassen und Verkehrsanlagen).</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4YMGH3UV
+
+
+1. Die Vergabeunterlagen können über die Vergabeplattform abgerufen werden. Die Verwendung der dort erhältlichen Vergabeunterlagen ist verbindlich. Sofern im Laufe des Vergabeverfahrens weitere Informationen oder Präzisierungen seitens von DESY erforderlich werden sollten, werden diese Zusatzinformationen ebenfalls unter der dort genannten Internetadresse veröffentlicht. Die Bieter müssen daher regelmäßig prüfen, ob unter der dort genannten Internetadresse weitere Informationen veröffentlicht wurden. Eine Registrierung bei der Vergabeplattform erleichtert den Zugang und die Information zu den Bieterinformationen. 2. Fragen zu den Anforderungen dieser Bekanntmachung und den Vergabeunterlagen sollen umgehend, jedoch spätestens bis zu der auf der Vergabeplattform genannten Frist für Bieterfragen an DESY gerichtet werden. 3. Angebote sind elektronisch über die Vergabeplattform zu übermitteln. Bis zum Ablauf der Angebotsfrist sind die Angebote verschlüsselt, so dass DESY keinen Zugriff auf sie hat. Dem Bieter steht es jedoch frei, sein Angebot bis zum Ablauf der Frist zu bearbeiten und neu hochzuladen. 4. Fremdsprachige Bescheinigungen oder Erklärungen sind in der Regel nur zu berücksichtigen, wenn sie mit Übersetzung in die deutsche Sprache vorgelegt worden sind. DESY kann Ausnahmen zulassen. Technische Dokumente und Zertifizierungen dürfen grundsätzlich in englischer Sprache vorgelegt werden. 5. DESY behält sich vor, das Verfahren aus sachlichen Gründen aufzuheben. Ersatzansprüche der Bieter sind - soweit rechtlich zulässig - ausgeschlossen. Mit dem Herunterladen der Vergabeunterlagen stimmt der Bieter dem zu. 6. Durch die Abgabe des Angebots verpflichtet sich der Bieter, alle ihm ggf. übersandten Unterlagen vertraulich zu behandeln und den Geheimwettbewerb auch ansonsten zu wahren; dies gilt auch im Hinblick auf das jeweilige Angebot. DESY seinerseits wird Unterlagen der Bieter nur für die Zwecke des Verfahrens verwenden. 7. Bietergemeinschaften haben mit ihrem Teilnahmeantrag eine von allen Mitgliedern unterschriebene rechtsverbindliche Erklärung gemäß dem entsprechenden Formblatt der Angebotsunterlagen abzugeben und die dort genannten Anforderungen zu beachten.</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71521000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Deutsches Elektronen-Synchrotron DESY</cbc:StreetName>
+				<cbc:AdditionalStreetName>Notkestraße 85</cbc:AdditionalStreetName>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:PostalZone>22607</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2024-12-15+01:00</cbc:StartDate>
+			<cbc:EndDate>2027-08-15+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cac:Renewal>
+				<cac:Period>
+					<cbc:Description languageID="DEU">Die Vergabeunterlagen enthalten weitere Regelungen über eine Verlängerung des Vertrags, insbesondere in Fällen von nicht vorhersehbaren Verlängerungen von Planungs- und Bauzeiten.</cbc:Description>
+				</cac:Period>
+			</cac:Renewal>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung (PL1 bis PL4)</cbc:Name>
+								<cbc:Description languageID="DEU">Nachfolgend sind die Erklärungen und Nachweise genannt, die der Bieter seinem Angebot für den Nachweis der Eignung beizufügen hat. Hierzu hat er die von DESY über die Vergabeplattform bereitgestellten Vordrucke und Formulare (Angebotsunterlagen) zu verwenden. Eingereichte Nachweise müssen noch gültig sein; soweit Anforderungen an die Aktualität gestellt werden, bezieht sich der Zeitpunkt auf den Tag der Veröffentlichung dieser Bekanntmachung. Mit ihrem Angebot haben die Bieter folgende Dokumente bzw. Unterlagen vorzulegen:  PL1. Eigenerklärung zum Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB. Ein Formblatt ist in den Angebotsunterlagen enthalten. PL2. Eigenerklärung zum Unternehmen mit Rechtsform, Sitz, Gegenstand, Geschäftsleitung des Unternehmens, Unternehmensstruktur (z. B. Muttergesellschaften, Konzernzugehörigkeit, Niederlassungen, Organigramm), mit Darstellung der Gesellschafts- und Kapitalverhältnisse des Bieters sowie ggf. zur zuständigen Niederlassung. Ein Formblatt ist in den Angebotsunterlagen enthalten. PL3. Bescheinigung über das Bestehen einer Berufshaftpflichtversicherung für Personen-, Sach-, Vermögens- und Umweltschäden mit einer handelsüblichen Deckungssumme oder Eigenerklärung, dass eine solche Versicherung im Auftragsfall abgeschlossen wird. Die Maximierung der Ersatzleistung muss mindestens das Zweifache der Versicherungssumme betragen. Ein Formblatt ist in den Angebotsunterlagen enthalten. Einzelheiten zur für den Vertrag erforderlichen Versicherung enthält das Vertragswerk. PL4. Eigenerklärung zum 5. EU-Sanktionspaket ("RUS-Sanktionen"). Ein Formblatt ist in den Angebotsunterlagen enthalten.  Im Fall von Bietergemeinschaften gelten die hier aufgeführten Eignungsanforderungen entsprechend für jedes einzelne Mitglied der Bietergemeinschaft.  Kann ein Bieter aus einem stichhaltigen Grund einen geforderten Nachweis nicht beibringen, so kann er seine Leistungsfähigkeit durch Vorlage anderer geeigneter Belege nachweisen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit (WL1 und WL2)</cbc:Name>
+								<cbc:Description languageID="DEU">WL1. Eigenerklärung über den jährlichen Gesamtumsatz (nach den Regelungen des deutschen Handelsgesetzbuches ermittelt) des Bieters in den letzten 3 abgeschlossenen Geschäftsjahren. Falls der Bieters noch keine 3 Jahre existiert, sind entsprechende Umsatzangaben für den Zeitraum des Bestehens anzugeben. Ein Formblatt ist in den Vergabeunterlagen enthalten.  WL2. Eigenerklärung über den jährlichen Umsatz (nach den Regelungen des deutschen Handelsgesetzbuches ermittelt) des Bieters für mit den ausgeschriebenen Leistungen vergleichbare Leistungen (Leistungen der örtlichen Bauüberwachung) in den letzten 3 abgeschlossenen Geschäftsjahren. Falls der Bieter noch keine 3 Jahre existiert, sind entsprechende Umsatzangaben für den Zeitraum des Bestehens anzugeben. Ein Formblatt ist in den Vergabeunterlagen enthalten.  Bei Bietergemeinschaften sind die Nachweise von jedem Mitglied der Bietergemeinschaft abzugeben.  DESY behält sich vor, eine Wirtschaftsauskunft über den Bieter einzuholen.  Kann ein Bieter aus einem stichhaltigen Grund einen geforderten Nachweis nicht beibringen, so kann er seine Leistungsfähigkeit durch Vorlage anderer, von DESY für geeignet erachteter Belege nachweisen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit (TL1 und TL2)</cbc:Name>
+								<cbc:Description languageID="DEU">TL1. Angabe der jahresdurchschnittlich beschäftigten Arbeitskräfte entsprechend der Definition des § 267 HGB (Eigenerklärung; gegliedert nach Aufgabenfeldern/ Qualifikationen gemäß Formblatt der letzten 3 abgeschlossenen Geschäftsjahre - Aufschlüsselung kaufmännisch, technisch, planerisch, sonstige). Bei Bietergemeinschaften ist die Eigenerklärung von jedem Mitglied der Bietergemeinschaft abzugeben. Ein Formblatt ist in den Angebotsunterlagen enthalten.  TL2. Umfangreiche Erfahrungen bei der Erbringung von vergleichbaren Leistungen, belegt durch Referenzen (Eigenerklärungen). Vergleichbar sind Leistungen der örtlichen Bauüberwachung bezogen auf Ingenieurbauwerke bzw. Verkehrsanlagen mit einem Gesamtbauvolumen von mind. 2 Mio. EUR netto.  Die Referenzprojekte müssen bereits abgeschlossen sein. Die Referenzprojekte dürfen nicht vor mehr als sieben Jahren nach Veröffentlichung dieser Bekanntmachung abgeschlossen worden sein.  Die Referenzen sind gemäß Formblatt aus den Angebotsunterlagen mit den dort genannten Angaben einzureichen.   Im Fall von Bietergemeinschaften können entsprechende Angaben für die Bietergemeinschaft insgesamt abgegeben werden. DESY kann in Einzelfällen die Vorlage von Referenzbescheinigungen des Referenzauftraggebers verlangen.  Mindestanforderungen:  Zu TL2: Es sind mindestens 3 Referenzen über die Erbringung vergleichbarer Leistungen (örtliche Bauüberwachung bezogen auf Ingenieurbauwerke bzw. Verkehrsanlagen mit einem Gesamtbauvolumen von mind. 2 Mio. EUR netto) vorzulegen.  Zu TL2: Es ist mindestens eine Referenz über Erfahrungen in der Arbeitsweise mit öffentlichen Auftraggebern vorzulegen.  Diese Mindestanforderungen können jeweils sowohl in einer Referenz als auch in verschiedenen Referenzen realisiert worden sein.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4YMGH3UV/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Fehlende Unterlagen, deren Vorlage mit dem Angebot gefordert waren, werden unter Beachtung von § 56 VgV nachgefordert.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Die Bieter haben mit ihrem Angebot die Eigenerklärung zum RUS-Sanktionspaket vorzulegen. Ein entsprechendes Formblatt für die Erklärung ist in den Angebotsunterlagen enthalten.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4YMGH3UV</cbc:EndpointID>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">- § 134 Abs. 2 GWB - Informations- und Wartepflicht: Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach § 134 Abs. 1 GWB geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf 10 Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. - Das Vergabeverfahren unterliegt den Vorschriften über das Nachprüfungsverfahren vor der Vergabekammer (§ 155 ff. GWB). Gemäß § 160 Abs. 3 GWB ist der Antrag unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Abs. 2 GWB bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Der vorstehende Satz gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Abs. 1 Nr. 2 GWB. § 134 Abs. 1 Satz 2 GWB bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4YMGH3UV</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-08-12+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+				<cbc:EndTime>00:00:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-08-12+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>12:01:00+02:00</cbc:OccurrenceTime>
+				<cbc:Description languageID="DEU">Bieter sind bei der Öffnung der Angebote nicht zugelassen.</cbc:Description>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="DEU">Die Öffnung der Angebote erfolgt elektronisch über die Vergabeplattform.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">PR612649</cbc:ID>
+			<cbc:Name languageID="DEU">Leistungen der örtlichen Bauüberwachung für das Projekt "Campus Süd" von DESY in Hamburg</cbc:Name>
+			<cbc:Description languageID="DEU">Die hier ausgeschriebene örtliche Bauüberwachung mit Blick auf die  Medientrassen und Verkehrsanlagen ist bezogen auf die folgenden Projekte:  Projekt 1: Ertüchtigung der Fernkälte- und Wassernetze Projekt 2: Ertüchtigung der IT- und Elektronetze Projekt 3: Außenanlagen und Freiflächen  Weitere Einzelheiten zu den hier ausgeschriebenen Leistungen der örtlichen Bauüberwachung ergeben sich aus der Leistungsbeschreibung.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">Die Angaben zur geschätzten Dauer / Laufzeit des Vertrags orientieren sich an den vsl. Ausführungsfristen. Nähere Einzelheiten sind  Ziff. 6.2 der Leistungsbeschreibung bzw. § 5.4 des Vertrags zu entnehmen.</cbc:Note>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71521000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Deutsches Elektronen-Synchrotron DESY</cbc:StreetName>
+					<cbc:AdditionalStreetName>Notkestraße 85</cbc:AdditionalStreetName>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:PostalZone>22607</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-12-15+01:00</cbc:StartDate>
+				<cbc:EndDate>2027-08-15+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Vergaben nach § 14 Abs. 4 Nr. 9 VgV (Wiederholung gleichartiger Leistungen) bleiben ausdrücklich vorbehalten.</cbc:OptionsDescription>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Die Vergabeunterlagen enthalten weitere Regelungen über eine Verlängerung des Vertrags, insbesondere in Fällen von nicht vorhersehbaren Verlängerungen von Planungs- und Bauzeiten.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

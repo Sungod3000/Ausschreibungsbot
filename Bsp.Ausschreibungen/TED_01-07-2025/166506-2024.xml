@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">LandesEnergieAgentur Hessen GmbH, Zentrale Beschaffung</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Mainzer Straße 118</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65189</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>06414000-4023800484-77</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Zentrale Beschaffung</cbc:Name>
+                           <cbc:Telephone>+49 611-95017-8257</cbc:Telephone>
+                           <cbc:Telefax>+49 611 95017-8415</cbc:Telefax>
+                           <cbc:ElectronicMail>beschaffung@hessen-agentur.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE812056745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+496151120</cbc:Telephone>
+                           <cbc:ElectronicMail>poststelle@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64295</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE812056745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151126603</cbc:Telephone>
+                           <cbc:Telefax>+49 6151125816</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64295</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE812056745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151126603</cbc:Telephone>
+                           <cbc:Telefax>+49 6151125816</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00166506-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">57/2024</efbc:GazetteID><efbc:PublicationDate>2024-03-20Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">9838d663-13db-446a-8aa6-28ce54b6288c</cbc:ID>
+   <cbc:ContractFolderID>48b29346-0bfb-4309-94b3-0d8cf649070a</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-03-19+01:00</cbc:IssueDate>
+   <cbc:IssueTime>10:19:10+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-03-19+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://www.lea-hessen.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Es gelten zusätzlich die gesetzlichen
+Ausschlussvoraussetzungen nach §§ 123 bis 126 GWB.
+Der Bieter hat anzugeben, ob Ausschlussgründe nach §§ 123,
+124 GWB vorliegen und ob er selbst bzw. ein nach Satzung
+oder Gesetz für den Bieter Vertretungsberechtigter in den
+letzten zwei Jahren
+• gem. § 21 Abs. 1 Satz 1 oder 2
+Schwarzarbeitsbekämpfungsgesetz oder
+• gem. § 21 Abs. 1 Arbeitnehmerentsendegesetz oder
+• gem. § 19 Abs. 1 Mindestlohngesetz mit einer Freiheitsstrafe
+von mehr als drei Monaten oder einer Geldstrafe von mehr als
+90 Tagessätzen oder einer Geldbuße von mehr als 2.500 Euro
+belegt worden ist.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>2024-V-0024rv</cbc:ID>
+      <cbc:Name languageID="DEU">Rahmenvereinbarung über die Erbringung von ingenieurstechnischen und planerischen Beratungsleistungen für kommunale Klimaquartiere</cbc:Name>
+      <cbc:Description languageID="DEU">Die LEA Hessen strebt  an, eine Rahmenvereinbarung über planungs- und ingenieurstechnische Beratungsleistungen im Bereich kommunaler Klimaquartiere sowie Beteiligungsmodelle zur Einbindung der Bevölkerung in ausgewählten Kommunen abzuschließen. Der Abschluss der Rahmenvereinbarung erfolgt im Auftrag und in enger Abstimmung mit dem Hessischen Ministerium für Landwirtschaft und Umwelt, Weinbau, Forsten, Jagd und Heimat (HMLU).
+Inhalt der Rahmenvereinbarung sind verschieden gelagerte Leistungen zur Information, Beratung und Unterstützung von hessischen Klima-Kommunen. Dabei geht es darum, kommunalpolitischen Akteuren und Fachpersonal der kommunalen Verwaltungen Handlungs- und Gestaltungsoptionen zur Integration des Klimaschutzes und der Anpassung an den Klimawandel im Rahmen der Quartierssanierung und Aufstellung von Bebauungsplänen aufzuzeigen. Der Auftragnehmer soll die ausgewählten Kommunen bei der Sanierung bzw. Planung von Gebieten konkret beraten und unterstützen. Dies beinhaltet sowohl fachliche Arbeiten als auch Projektmanagement sowie die Unterstützung bei Beteiligungsformaten, bei der Förderantragstellung und bei der Gewinnung und Steuerung weiterer Projektbeteiligter / Dienstleistender im Rahmen der kommunalen Projekte.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Im Rahmen des öffentlichen Teilnahmewettbewerbs darf neben den genannten Unterlagen ("Erklärung Vergabesperre" (Dok-Nr. 04) sowie VHB-Formular 234 (Bietergemeinschaftserklärung, Dok-Nr. 06), VHB-Formular 235 (Erklärung zum Nachunternehmereinsatz, Dok-Nr. 07), VHB-Formular 236 (Verpflichtungserklärung Nachunternehmer, Dok- Nr. 08) und der Leistungsbeschreibung (Dok-Nr.: 02)) ausschließlich das Teilnahmeantragsblatt (Dok-Nr. 03) verwendet werden. Alle genannten Unterlagen können bei dieser Bekanntmachung heruntergeladen werden.
+
+Hinweis:
+Sofern Sie sich nicht registriert haben für den Download der Unterlagen, kann Ihnen die Vergabestelle keine Nachricht zukommen lassen, wenn sich der Inhalt einzelner Dateien als falsch oder fehlerhaft herausstellen sollte. Sie müssen also selbst regelmäßig nachschauen, ob die Vergabestelle geänderte oder weitere Unterlagen zum Download bereitgestellt hat. Darüber hinaus können Sie sich auf der HAD Bekanntmachungsplattform freiwillig registrieren, damit Sie bei der Beantwortung von Bewerberfragen per E-Mail informiert werden können. Der Teilnahmeantrag ist ausschließlich elektronisch über die e-Vergabeplattform der hessischen Ausschreibungsdatenbank unter https://www.had.de unter Beifügung sämtlicher verlangter Nachweise und Unterlagen gemäß BT-17 bis zum unter BT-1311 angegebenen Termin zu übermitteln. Bewerber-/ Bieterfragen können ausschließlich über die AIBietercockpit Software gestellt werden, welche bei dieser Ausschreibung ebenso runtergeladen werden kann wie das zugehörige Benutzerhandbuch.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">1873200.00</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71313000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71314300</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">a) Der Auftraggeber verlangt, dass Bieter je nach den Rechtsvorschriften des Staats, in dem sie niedergelassen sind, entweder die Eintragung in einem Berufs- oder Handelsregister dieses Staats nachweisen oder auf andere Weise die erlaubte Berufsausübung nachweisen und nachfolgende Erklärungen abgeben (vgl. Dok-Nr. 03: Teilnahmeantragsblatt, herunterladbar bei dieser Bekanntmachung):
+b) Eigenerklärung, dass keine Ausschlussgründe nach §§ 123, 124 GWB n.F. vorliegen (vgl. Dok-Nr. 03: Teilnahmeantragsblatt, herunterladbar bei dieser Bekanntmachung).
+c) Erklärung des Bieters, dass der Bieter nicht nach dem gemeinsamen Runderlass über den "Ausschluss von Bewerbern und Bietern wegen schwerer Verfehlungen, die ihre Zuverlässigkeit in Frage stellen" i.d.F. vom vom 23. Oktober 2020 (StAnz. 48/2020 S. 1217) von der Teilnahme am Wettbewerb ausgeschlossen ist (vgl. Dok-Nr. 04: Erklärung Vergabesperre, herunterladbar bei dieser Bekanntmachung).
+d) Verpflichtungserklärung gemäß § 19 Mindestlohngesetz (MiLoG) über die Einhaltung von geltenden Tarifverträgen und gesetzlichem Mindestlohn (vgl. Dok-Nr. 05, herunterladbar bei dieser Bekanntmachung).
+e) Erklärung Russland als Eigenerklärung zum EU-Sanktionspaket im Zusammenhang mit dem Angriffskrieg Russlands auf die Ukraine (vgl. Dok-Nr. 18, herunterladbar bei dieser Bekanntmachung).
+
+Der Bieter hat zum Nachweis seiner Eignung mit dem Angebot die unter BT-747/BT-750 geforderten Erklärungen vorzulegen. Bei Bietergemeinschaften (Bietergemeinschaftserklärung, VHB Formular 234, Dok-Nr. 06, herunterladbar bei dieser Bekanntmachung) sind die geforderten Erklärungen -soweit einschlägig- grundsätzlich von allen Mitgliedern der Gemeinschaft einzureichen, bei den Erklärungen gemäß BT-747/BT-750 bezogen auf die vom jeweiligen Mitglied zu erbringende Teilleistung. Hinsichtlich der Inanspruchnahme von Nachunternehmen weist der Auftraggeber auf §§ 36, 47 VgV hin. Für die Darstellung der Nachunternehmertätigkeit können die VHB Formblätter 235 Erklärung zum Nachunternehmereinsatz (Dok-Nr.: 07) und 236 Verpflichtungserklärung Nachunternehmer (Dok-Nr.: 08) bei dieser Bekanntmachung heruntergeladen werden.
+
+Der Auftraggeber weist ferner darauf hin, dass die Nichtvorlage von Erklärungen gem. BT-747/BT-750 zum Ausschluss des Bieters führen kann. Der Bieter bzw. jedes Mitglied der Bietergemeinschaft hat zu erklären, dass keine Ausschlussgründe nach §§ 123, 124 GWB n.F. vorliegen, die seine Zuverlässigkeit als Bieter in Frage stellen und er sich auch im Übrigen gesetzestreu verhalten hat; hierzu ist eine entsprechende Erklärung abzugeben (vgl. Dok-Nr. 03: Teilnahmeantragsblatt).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Bitte füllen Sie sorgfältig das bei dieser Bekanntmachung herunterladbare Teilnahmeantragsblatt (Dok-Nr. 03) aus. Erforderliche Erklärungen (vgl. Teilnahmeantragsblatt, Dok-Nr. 03).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Die technische Leistungsfähigkeit ist anhand von mindestens drei Referenzen über erbrachte vergleichbare Leistungen mit dem hier zu vergebenden Auftrag, deren Durchführung nicht länger als drei Jahre zurückliegt, zu belegen. Eine Referenzleistung ist dann mit der ausgeschriebenen Leistung "vergleichbar", wenn sie hinsichtlich der technischen Ausführung und Organisation einen ähnlich hohen oder höheren Schwierigkeitsgrad wie die ausgeschriebene Leistung hat oder aber die durchgeführten Leistungen einen etwa gleich großen oder größeren Umfang aufweisen (Gewichtung: 100%).
+
+Die Referenzprojekte sollen mit Bezug zu den zu erbringenden Leistungen inhaltlich skizziert werden. Zudem sind pro Referenz die Bezeichnung der Leistung, der Leistungszeitraum und der Name des Auftraggebers zu nennen. Unterlagen, die vom Auftraggeber aus externen Quellen heruntergeladen werden müssen, gelten als nicht eingereicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">par-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e331d58e0-2fc557730372aade</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nicht eingereichte Unterlagen werden mit einer Frist von 6 Kalendertagen nachgefordert.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität der Konzeptskizze</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.had.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig. (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e331d58e0-2fc557730372aade</cbc:AccessToolsURI>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-05-07+02:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-04-18+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Regierungsbezirk Kassel</cbc:Name>
+         <cbc:Description languageID="DEU">Regierungsbezirk Kassel: Beratungsleistungen für voraussichtlich 5 Gebiete bzw. Kommunen</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Höchstmenge der Rahmenvereinbarung siehe Vergabeunterlagen.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+            <cbc:ProcurementType languageID="DEU">Integration Klimaschutz bei kommunaler Quartierssanierung und aufstellen von Bebauungsplänen.</cbc:ProcurementType>
+         </cac:ProcurementAdditionalType>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">clim-adapt</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">624400.00</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71313000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71314300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-08-26+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-08-25+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Zeitraum der Leistungserbringung dieser Rahmenvereinbarung beginnt schnellstmöglich nach Auftragserteilung (voraussichtlich zum 26.08.2024) und hat zunächst eine Laufzeit bis zum 25.08.2025, mit der Option für den Auftraggeber auf Verlängerung um jeweils 12 Monate bis längstens 25.08.2028 sofern der Vertrag vom Auftraggeber bis zum jeweiligen Stichtag am 25. Juni für das jeweils folgende Vertragsjahr verlängert wird. Dieser Vertrag endet spätestens am 25.08.2028, ohne dass es einer Kündigung bedarf.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">a) Der Auftraggeber verlangt, dass Bieter je nach den Rechtsvorschriften des Staats, in dem sie niedergelassen sind, entweder die Eintragung in einem Berufs- oder Handelsregister dieses Staats nachweisen oder auf andere Weise die erlaubte Berufsausübung nachweisen und nachfolgende Erklärungen abgeben (vgl. Dok-Nr. 03: Teilnahmeantragsblatt, herunterladbar bei dieser Bekanntmachung):
+b) Eigenerklärung, dass keine Ausschlussgründe nach §§ 123, 124 GWB n.F. vorliegen (vgl. Dok-Nr. 03: Teilnahmeantragsblatt, herunterladbar bei dieser Bekanntmachung).
+c) Erklärung des Bieters, dass der Bieter nicht nach dem gemeinsamen Runderlass über den "Ausschluss von Bewerbern und Bietern wegen schwerer Verfehlungen, die ihre Zuverlässigkeit in Frage stellen" i.d.F. vom vom 23. Oktober 2020 (StAnz. 48/2020 S. 1217) von der Teilnahme am Wettbewerb ausgeschlossen ist (vgl. Dok-Nr. 04: Erklärung Vergabesperre, herunterladbar bei dieser Bekanntmachung).
+d) Verpflichtungserklärung gemäß § 19 Mindestlohngesetz (MiLoG) über die Einhaltung von geltenden Tarifverträgen und gesetzlichem Mindestlohn (vgl. Dok-Nr. 05, herunterladbar bei dieser Bekanntmachung).
+e) Erklärung Russland als Eigenerklärung zum EU-Sanktionspaket im Zusammenhang mit dem Angriffskrieg Russlands auf die Ukraine (vgl. Dok-Nr. 18, herunterladbar bei dieser Bekanntmachung).
+
+Der Bieter hat zum Nachweis seiner Eignung mit dem Angebot die unter BT-747/BT-750 geforderten Erklärungen vorzulegen. Bei Bietergemeinschaften (Bietergemeinschaftserklärung, VHB Formular 234, Dok-Nr. 06, herunterladbar bei dieser Bekanntmachung) sind die geforderten Erklärungen -soweit einschlägig- grundsätzlich von allen Mitgliedern der Gemeinschaft einzureichen, bei den Erklärungen gemäß BT-747/BT-750 bezogen auf die vom jeweiligen Mitglied zu erbringende Teilleistung. Hinsichtlich der Inanspruchnahme von Nachunternehmen weist der Auftraggeber auf §§ 36, 47 VgV hin. Für die Darstellung der Nachunternehmertätigkeit können die VHB Formblätter 235 Erklärung zum Nachunternehmereinsatz (Dok-Nr.: 07) und 236 Verpflichtungserklärung Nachunternehmer (Dok-Nr.: 08) bei dieser Bekanntmachung heruntergeladen werden.
+
+Der Auftraggeber weist ferner darauf hin, dass die Nichtvorlage von Erklärungen gem. BT-747/BT-750 zum Ausschluss des Bieters führen kann. Der Bieter bzw. jedes Mitglied der Bietergemeinschaft hat zu erklären, dass keine Ausschlussgründe nach §§ 123, 124 GWB n.F. vorliegen, die seine Zuverlässigkeit als Bieter in Frage stellen und er sich auch im Übrigen gesetzestreu verhalten hat; hierzu ist eine entsprechende Erklärung abzugeben (vgl. Dok-Nr. 03: Teilnahmeantragsblatt).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Bitte füllen Sie sorgfältig das bei dieser Bekanntmachung herunterladbare Teilnahmeantragsblatt (Dok-Nr. 03) aus. Erforderliche Erklärungen (vgl. Teilnahmeantragsblatt, Dok-Nr. 03).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Die technische Leistungsfähigkeit ist anhand von mindestens drei Referenzen über erbrachte vergleichbare Leistungen mit dem hier zu vergebenden Auftrag, deren Durchführung nicht länger als drei Jahre zurückliegt, zu belegen. Eine Referenzleistung ist dann mit der ausgeschriebenen Leistung "vergleichbar", wenn sie hinsichtlich der technischen Ausführung und Organisation einen ähnlich hohen oder höheren Schwierigkeitsgrad wie die ausgeschriebene Leistung hat oder aber die durchgeführten Leistungen einen etwa gleich großen oder größeren Umfang aufweisen (Gewichtung: 100%).
+
+Die Referenzprojekte sollen mit Bezug zu den zu erbringenden Leistungen inhaltlich skizziert werden. Zudem sind pro Referenz die Bezeichnung der Leistung, der Leistungszeitraum und der Name des Auftraggebers zu nennen. Unterlagen, die vom Auftraggeber aus externen Quellen heruntergeladen werden müssen, gelten als nicht eingereicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">par-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e331d58e0-2fc557730372aade</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nicht eingereichte Unterlagen werden mit einer Frist von 6 Kalendertagen nachgefordert.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität der Konzeptskizze</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.had.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig. (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e331d58e0-2fc557730372aade</cbc:AccessToolsURI>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-05-07+02:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-04-18+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Regierungsbezirk Gießen</cbc:Name>
+         <cbc:Description languageID="DEU">Regierungsbezirk Gießen: Beratungsleistungen für voraussichtlich 5 Gebiete bzw. Kommunen</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Höchstmenge der Rahmenvereinbarung siehe Vergabeunterlagen.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+            <cbc:ProcurementType languageID="DEU">Integration Klimaschutz bei kommunaler Quartierssanierung und aufstellen von Bebauungsplänen.</cbc:ProcurementType>
+         </cac:ProcurementAdditionalType>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">clim-adapt</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">624400.00</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71313000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71314300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-08-26+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-08-25+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Zeitraum der Leistungserbringung bei dieser Rahmenvereinbarung beginnt schnellstmöglich nach Auftragserteilung (voraussichtlich zum 26.08.2024) und hat zunächst eine Laufzeit bis zum 25.08.2025, mit der Option für den Auftraggeber auf Verlängerung um jeweils 12 Monate bis längstens 25.08.2028 sofern der Vertrag vom Auftraggeber bis zum jeweiligen Stichtag am 25. Juni für das jeweils folgende Vertragsjahr verlängert wird. Dieser Vertrag endet spätestens am 25.08.2028, ohne dass es einer Kündigung bedarf.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">a) Der Auftraggeber verlangt, dass Bieter je nach den Rechtsvorschriften des Staats, in dem sie niedergelassen sind, entweder die Eintragung in einem Berufs- oder Handelsregister dieses Staats nachweisen oder auf andere Weise die erlaubte Berufsausübung nachweisen und nachfolgende Erklärungen abgeben (vgl. Dok-Nr. 03: Teilnahmeantragsblatt, herunterladbar bei dieser Bekanntmachung):
+b) Eigenerklärung, dass keine Ausschlussgründe nach §§ 123, 124 GWB n.F. vorliegen (vgl. Dok-Nr. 03: Teilnahmeantragsblatt, herunterladbar bei dieser Bekanntmachung).
+c) Erklärung des Bieters, dass der Bieter nicht nach dem gemeinsamen Runderlass über den "Ausschluss von Bewerbern und Bietern wegen schwerer Verfehlungen, die ihre Zuverlässigkeit in Frage stellen" i.d.F. vom vom 23. Oktober 2020 (StAnz. 48/2020 S. 1217) von der Teilnahme am Wettbewerb ausgeschlossen ist (vgl. Dok-Nr. 04: Erklärung Vergabesperre, herunterladbar bei dieser Bekanntmachung).
+d) Verpflichtungserklärung gemäß § 19 Mindestlohngesetz (MiLoG) über die Einhaltung von geltenden Tarifverträgen und gesetzlichem Mindestlohn (vgl. Dok-Nr. 05, herunterladbar bei dieser Bekanntmachung).
+e) Erklärung Russland als Eigenerklärung zum EU-Sanktionspaket im Zusammenhang mit dem Angriffskrieg Russlands auf die Ukraine (vgl. Dok-Nr. 18, herunterladbar bei dieser Bekanntmachung).
+
+Der Bieter hat zum Nachweis seiner Eignung mit dem Angebot die unter BT-747/BT-750 geforderten Erklärungen vorzulegen. Bei Bietergemeinschaften (Bietergemeinschaftserklärung, VHB Formular 234, Dok-Nr. 06, herunterladbar bei dieser Bekanntmachung) sind die geforderten Erklärungen -soweit einschlägig- grundsätzlich von allen Mitgliedern der Gemeinschaft einzureichen, bei den Erklärungen gemäß BT-747/BT-750 bezogen auf die vom jeweiligen Mitglied zu erbringende Teilleistung. Hinsichtlich der Inanspruchnahme von Nachunternehmen weist der Auftraggeber auf §§ 36, 47 VgV hin. Für die Darstellung der Nachunternehmertätigkeit können die VHB Formblätter 235 Erklärung zum Nachunternehmereinsatz (Dok-Nr.: 07) und 236 Verpflichtungserklärung Nachunternehmer (Dok-Nr.: 08) bei dieser Bekanntmachung heruntergeladen werden.
+
+Der Auftraggeber weist ferner darauf hin, dass die Nichtvorlage von Erklärungen gem. BT-747/BT-750 zum Ausschluss des Bieters führen kann. Der Bieter bzw. jedes Mitglied der Bietergemeinschaft hat zu erklären, dass keine Ausschlussgründe nach §§ 123, 124 GWB n.F. vorliegen, die seine Zuverlässigkeit als Bieter in Frage stellen und er sich auch im Übrigen gesetzestreu verhalten hat; hierzu ist eine entsprechende Erklärung abzugeben (vgl. Dok-Nr. 03: Teilnahmeantragsblatt).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Bitte füllen Sie sorgfältig das bei dieser Bekanntmachung herunterladbare Teilnahmeantragsblatt (Dok-Nr. 03) aus. Erforderliche Erklärungen (vgl. Teilnahmeantragsblatt, Dok-Nr. 03).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Die technische Leistungsfähigkeit ist anhand von mindestens drei Referenzen über erbrachte vergleichbare Leistungen mit dem hier zu vergebenden Auftrag, deren Durchführung nicht länger als drei Jahre zurückliegt, zu belegen. Eine Referenzleistung ist dann mit der ausgeschriebenen Leistung "vergleichbar", wenn sie hinsichtlich der technischen Ausführung und Organisation einen ähnlich hohen oder höheren Schwierigkeitsgrad wie die ausgeschriebene Leistung hat oder aber die durchgeführten Leistungen einen etwa gleich großen oder größeren Umfang aufweisen (Gewichtung: 100%).
+
+Die Referenzprojekte sollen mit Bezug zu den zu erbringenden Leistungen inhaltlich skizziert werden. Zudem sind pro Referenz die Bezeichnung der Leistung, der Leistungszeitraum und der Name des Auftraggebers zu nennen. Unterlagen, die vom Auftraggeber aus externen Quellen heruntergeladen werden müssen, gelten als nicht eingereicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">par-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e331d58e0-2fc557730372aade</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nicht eingereichte Unterlagen werden mit einer Frist von 6 Kalendertagen nachgefordert.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>70.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität der Konzeptskizze</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>30.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.had.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ergeht eine Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, kann der Bieter wegen Nichtbeachtung der Vergabevorschriften ein Nachprüfungsverfahren nur innerhalb von 15 Kalendertagen nach Eingang vor der Vergabekammer beantragen. Nach Ablauf der Frist ist der Antrag unzulässig. (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18e331d58e0-2fc557730372aade</cbc:AccessToolsURI>
+         <cac:InvitationSubmissionPeriod>
+            <cbc:StartDate>2024-05-07+02:00</cbc:StartDate>
+         </cac:InvitationSubmissionPeriod>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2024-04-18+02:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">Regierungsbezirk Darmstadt</cbc:Name>
+         <cbc:Description languageID="DEU">Regierungsbezirk Darmstadt: Beratungsleistungen für voraussichtlich 5 Gebiete bzw. Kommunen</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Höchstmenge der Rahmenvereinbarung siehe Vergabeunterlagen.</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+            <cbc:ProcurementType languageID="DEU">Integration Klimaschutz bei kommunaler Quartierssanierung und aufstellen von Bebauungsplänen.</cbc:ProcurementType>
+         </cac:ProcurementAdditionalType>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">clim-adapt</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">624400.00</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71313000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71314300</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-08-26+02:00</cbc:StartDate>
+            <cbc:EndDate>2025-08-25+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Der Zeitraum der Leistungserbringung bei dieser Rahmenvereinbarung beginnt schnellstmöglich nach Auftragserteilung (voraussichtlich zum 26.08.2024) und hat zunächst eine Laufzeit bis zum 25.08.2025, mit der Option für den Auftraggeber auf Verlängerung um jeweils 12 Monate bis längstens 25.08.2028 sofern der Vertrag vom Auftraggeber bis zum jeweiligen Stichtag am 25. Juni für das jeweils folgende Vertragsjahr verlängert wird. Dieser Vertrag endet spätestens am 25.08.2028, ohne dass es einer Kündigung bedarf.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

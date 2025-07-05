@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cbc:WebsiteURI>https://www.dbinfrago.com</cbc:WebsiteURI>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">DB InfraGO AG</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Adam-Riese-Straße 11-13</cbc:StreetName>
+                                    <cbc:CityName>Frankfurt am Main</cbc:CityName>
+                                    <cbc:PostalZone>60327</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Berichtseinheit-ID 00007427</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+49 6172 4868651</cbc:Telephone>
+                                    <cbc:ElectronicMail>vergaben@dva.net</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">DVA Deutsche Verkehrs-Assekuranz-Vermittlungs-GmbH</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Bad Homburg</cbc:CityName>
+                                    <cbc:PostalZone>61348</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Berichtseinheit-ID 00007427</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+49 6172 4868651</cbc:Telephone>
+                                    <cbc:ElectronicMail>vergaben@dva.net</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Die Vergabekammer des Bundes beim Bundeskartellamt</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:CityName>Bonn</cbc:CityName>
+                                    <cbc:PostalZone>52123</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>Leitweg ID: 991-02380-92</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+49 228 94990</cbc:Telephone>
+                                    <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00531221-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">172/2024</efbc:GazetteID><efbc:PublicationDate>2024-09-04+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">604a270c-c135-453e-afaa-37f391520493</cbc:ID>
+    <cbc:ContractFolderID>d22e5fc3-576e-44d7-8ad8-6b9a263dda49</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-09-02+02:00</cbc:IssueDate>
+    <cbc:IssueTime>18:42:35.124+02:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RequestedPublicationDate>2024-09-04+02:00</cbc:RequestedPublicationDate>
+    <cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="entity-activity">rail</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID>ORG-0002</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:ServiceProviderParty>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0003</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:Party>
+            </cac:ServiceProviderParty>
+        <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:ProcurementLegislationDocumentReference>
+            <cbc:ID>sektvo</cbc:ID>
+        </cac:ProcurementLegislationDocumentReference>
+        <cac:LotDistribution>
+            <cbc:MaximumLotsAwardedNumeric>1</cbc:MaximumLotsAwardedNumeric>
+            <cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+        </cac:LotDistribution>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">Kombipolice "EStW Gießen 2. Baustufe"</cbc:Name>
+        <cbc:Description languageID="DEU">Die DB InfraGO AG beabsichtigt, das EStW Gießen zu erneuern. Der Bahnhof Gießen befindet sich an der zweigleisigen elektrifizierten Hauptbahn Kassel Hbf – Frankfurt (Main) Hbf, Strecke 3900 und besteht aus den Bahnhofsteilen Personenbahnhof (Pbf), Güterbahnhof (Gbf) und Gießen-Bergwald. Im Bf Gießen endet die Strecke 2651 aus Köln-Deutz. Die Strecken 3700 und 3701 beginnen im Bf Gießen, jeweils in Richtung Fulda bzw. Gelnhausen. Im Knoten Gießen kommen derzeit diverse Stellwerkstechniken zum Einsatz, welche alters- und bauartbedingt durch eine technisch einheitliche und für die Betriebsabwicklung flexiblere EStW-Technik zu ersetzen sind. 
+Die Investitionssumme für dieses Projekt wird mit ca. EUR 190 Mio. veranschlagt. Hiervon sind bereits ca. EUR 16 Mio. über einen bestehenden Vertrag abgerechnet worden. Der hier neu ausgeschriebene Versicherungsvertrag wird den bestehenden Vertrag ablösen. Es wird mit einer derzeit geplanten Bauzeit bis zum 31.01.2028 gerechnet. Der Versicherungsvertrag beginnt nach Beendigung des Ausschreibungsverfahrens mit dem Datum des Zuschlages im Anschluss an eine derzeit bestehende Vorlaufdeckung.
+(Typ L-EU) In der Haftpflichtversicherung beträgt die Deckungssumme je Schadenfall EUR 25.000.000 pauschal für Personen-, Sach- und
+Vermögensschäden, einschließlich der Leistungen aus der Umwelthaftpflichtversicherung. In der Planungshaftpflichtversicherung steht eine
+separate Deckungssumme je Schadenfall von EUR10.000.000 pauschal für Sach- und Vermögensschäden zur Verfügung. Die vorgenannten Summen sind dreifach maximiert. Die Extendend Maintenance im Teil Bauleistungs- und Montageversicherung beträgt 42 Monate. Die Nachhaftung beträgt in der Haftpflichtversicherung 10 Jahre, in der Umwelthaftpflicht- und Umweltschadenversicherung 5 Jahre. Der generelle Selbstbehalt beträgt mindestens EUR 25 000. Für Personenschäden entfällt der Selbstbehalt. In der erweiterten Planungsdeckung beträgt der Selbstbehalt EUR 100.000.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">66513200</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Description languageID="DEU">1) Vorlage der vollständig ausgefüllten und rechtsverbindlichen Bewerbereigenerklärung zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit; 2) Die Unternehmen müssen in der Lage sein, für Los 1 eine Führungsquote von 30 % bzw. für Los 2 eine Beteiligungsquote von 5 % des Vertrags zeichnen zu können (Nachweis per Bewerbereigenklärung); 3) Die Unternehmen müssen als Risikoträger zum Betrieb der ausgeschriebenen Versicherungssparte(n) (Bauwesenversicherug / Haftpflichtversicherung / Schaden- o. Verlustversicherung) in einem Staat der EU zugelassen sein und die gesetzlichen Voraussetzungen zur Ausübung des Geschäftsbetriebs als Versicherungsunternehmen nach den gesetzlichen Bestimmungen des Versicherungsaufsichtsgesetzes (VAG), insbesondere die Erlaubnistatbestände der §§ 8 ff., 57 ff., 61 ff. und 67 ff. erfüllen, Nachweis per Bewerbereigenerklärung. Vertreter von Unternehmen, die außerhalb der Landesgrenzen der Bundesrepublik Deutschland ihren Geschäftssitz haben, geben die oben genannte(n) Erklärung(en) nach Maßgabe der Rechtsvorschriften des Staates ab, in dem das Unternehmen ansässig ist. Der Auftraggeber behält sich Rückfragen sowie die Anforderung zusätzlicher Nachweise in diesem Zusammenhang ausdrücklich vor; 4) Die Unternehmen müssen über ein aktuell gültiges Rating von mindestens A nach Standard &amp; Poor's oder eine vergleichbare Bewertung einer anderen unabhängigen Ratingagentur verfügen. Unternehmen, die kein Rating besitzen, müssen nachweisen, dass sie eine mit dem geforderten Rating vergleichbare finanzielle Leistungsfähigkeit besitzen (Bewerbereigenklärung). Der Auftraggeber behält sich die Anforderung eines aktuellen Nachweises des Ratings bzw. des vergleichbaren Nachweises der finanziellen Leistungsfähigkeit sowie eine Gegenprüfung der Nachweise vor. - Eine Vertretung der Unternehmen (Versicherungsgesellschaften) ist nur zugelassen, wenn der Vertreter/Bevollmächtigte über eine vom Versicherer rechtsverbindlich erteilte, uneingeschränkte Vollmacht für die Teilnahme am Vergabeverfahren verfügt. Der Vertreter/Bevollmächtigte handelt ausschließlich für die Versicherungsgesellschaft, für die die Vollmachtvorgelegt wird. Mehrfachbeteiligungen sind ausgeschlossen. Die Vollmacht ist mit dem Teilnahmeantrag vorzulegen. - Für die Erklärungen ist der Vordruck „Bewerbereigenklärung“ zu nutzen. Er steht als Bestandteil der Vergabeunterlagen zur Verfügung. Die Bewerbereigenerklärung ist vollständig ausgefüllt und rechtsverbindlich unterschrieben mit dem Teilnahmeantrag zwingend einzureichen. Sollte diese nicht vorliegen, kann dies zum Ausschluss vom Verfahren führen. Der Auftraggeber behält sich vor, Erklärungen gem. § 51 Abs. 2 SektVO nachzufordern. Ein Verweis auf frühere Bewerbungen wird nicht akzeptiert. Weitere erforderliche Unterlagen/Nachweise siehe VI.3).</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Description languageID="DEU">1) Die Unternehmen müssen in der Lage sein, den Geschäftsverkehr in deutscher Sprache abwickeln zu können (Nachweis per Bewerbereigenerklärung); 2) Die Unternehmen müssen über eine ausreichende personelle Ausstattung jeweils für die Vertrags- und Schadenbearbeitung im Bauleistungsteil und Haftpflichtteil verfügen (Nachweis per Bewerbereigenerklärung und per Erklärung zur personellen Ausstattung): - für die Vertragsbearbeitung: .. im Bauleistungsteil über einen verantwortlichen Mitarbeiter mit Entscheidungsbefugnis, einer Berufserfahrung von mindestens 3 Jahren und ausreichender Qualifikation (Versicherungskaufleute, Juristen, Ingenieure o. jeweils gleichwertige Ausbildung) sowie einen Vertreter für diesen Mitarbeiter. .. im Haftpflichtteil über einen weiteren verantwortlichen Mitarbeiter mit Entscheidungsbefugnis, einer Berufserfahrung von mindestens 3 Jahren und ausreichender Qualifikation (Versicherungskaufleute, Juristen, Ingenieure o. jeweils gleichwertige Ausbildung) sowie einen Vertreter für diesen Mitarbeiter. - für die Schadenbearbeitung: .. im Bauleistungsteil über mindestens einen weiteren verantwortlichen Mitarbeiter mit Entscheidungsbefugnis, einer Berufserfahrung von mindestens 3 Jahren und ausreichender Qualifikation (Versicherungskaufleute, Juristen, Ingenieure o. jeweils gleichwertige Ausbildung) sowie einen Vertreter für diesen 
+Mitarbeiter. .. im Haftpflicht- und Planungshaftpflichtteil über mindestens 2 weitere verantwortliche Mitarbeiter jeweils mit Entscheidungsbefugnis, einer Berufserfahrung von mindestens 3 Jahren und ausreichender Qualifikation (Versicherungskaufleute, Juristen, Ingenieure o. jeweils gleichwertige Ausbildung) sowie jeweils einen Vertreter für diese 2 Mitarbeiter. Mehrfachnennungen sind nicht zulässig. 3) Die Unternehmen müssen über Erfahrungen mit der Versicherung von Bauprojekten aus dem Infrastrukturbereich bzw. Hoch-/Tiefbau (öffentlich und/oder privat) verfügen, an denen das Unternehmen (risikotragende Stelle) als Führungs oder Alleinversicherer beteiligt war/ist und die jeweils ein Bausummenvolumen inklusive der Kosten für Neben- und Planungsleistungen von mindestens 50 Mio. EUR netto zum Gegenstand hatten/haben. Nachweis durch mindestens 2 Referenzen über die Zeichnung von vergleichbaren Versicherungsverträgen (kombinierte Bauleistungs-/ Betriebs- u. Berufshaftpflichtversicherung auch für Planungsleistungen) für Infrastrukturprojekte bzw. Hoch-/Tiefbau aus den vergangenen 6 Kalenderjahren vor Bekanntmachung (ohne ext. Maintenance/Nachhaftung) oder derzeit noch bestehen („Erklärung Referenzen“). 4) Die Unternehmen müssen über Erfahrung mit der Bearbeitung von Planungshaftpflichtschäden &gt; 100 TEUR als Führungs- oder
+Alleinversicherer verfügen und dies durch mind. 2 Referenzen zu Schadenmeldungen aus den vergangenen 6 Kalenderjahren vor Bekanntmachung nachweisen („Erklärung Referenzen“). 5) Das Unternehmen muss in der Lage sein, ein Schadenreporting in Form einer xls-Datei zu erstellen, die zum Ende eines jeden Quartals u. nach Anforderung innerhalb von 48 Stunden per E-Mail an die DVA Deutsche Verkehrs-Assekuranz-Vermittlungs-GmbH zu übermitteln (Nachweis per Bewerbereigenerklärung). - Für die Erklärungen sind die Vordrucke „Bewerbereigenklärung“, „Erklärung Referenzen“ und „Erklärung personelle Ausstattung“ zu nutzen. Sie stehen als Bestandteil der Vergabeunterlagen zur Verfügung. Die geforderten Erklärungen sind vollständig ausgefüllt mit dem Teilnahmeantrag zwingend einzureichen. Sollten diese nicht vorliegen, kann dies zum Ausschluss bei diesem Vergabeverfahren führen. Der Auftraggeber behält sich vor, Erklärungen gem. § 51 Abs. 2 SektVO nachzufordern. Ein Verweis auf frühere Bewerbungen wird nicht akzeptiert. Weitere erforderliche Unterlagen/Nachweise siehe VI.3).</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Description languageID="DEU">1. Wir weisen darauf hin, dass die VO (EU) 2022/576 zur Änderung der VO (EU) Nr. 833/2014 Anwendung findet und Unternehmen, die den Sanktionsmaßnahmen in Art. 5k der VO (EU) 2022/576 unterfallen, aus dem Vergabeverfahren ausgeschlossen werden. 2. Im Rahmen der Bewerbereigenerklärung verpflichten sich die Bewerber, dass sie den DB Verhaltenskodex für Geschäftspartner (Stand 01.02.2024) einhalten werden. Er steht als Bestandteil der Vergabeunterlagen zur Verfügung. Es kann auch ein eigener Verhaltenskodex, der im Wesentlichen vergleichbare Prinzipien für die Bewerber verbindlich festlegt, eingehalten werden. In diesem Fall ist eine geltende Fassung des eigenen Verhaltenskodex zur Überprüfung der Vergleichbarkeit mit dem DB Verhaltenskodex für Geschäftspartner mit dem Teilnahmeantrag einzureichen. 3. Der ausgefüllte Teilnahmeantrag ist mit allen geforderten, vollständig ausgefüllten Erklärungen (Bewerbereigenerklärung, Vertraulichkeitserklärung, Erklärung zu den Referenzen, ggfs. Bewerbergemeinschaftserklärung, ggfs. eigener Verhaltenskodex) vollständig und ausschließlich elektronisch über die Funktion „Teilnahmeantrag abgeben“ der e-Vergabeplattform „subreport ELViS“ in Textform nach § 126 b BGB einzureichen. (Bei der Bewerbung für mehrere (beide) Lose muss der Teilnahmeantrag für jedes Los separat hochgeladen werden.) 4. Alle geforderten Nachweise/Erklärungen sind mit dem Teilnahmeantrag zwingend einzureichen. Sollten diese nicht vorliegen, kann dies zum Ausschluss bei diesem Vergabeverfahren führen. Der Auftraggeber behält sich vor, Nachweise/Erklärungen gem. § 51 Abs.2 SektVO nachzufordern. Ein Verweis auf frühere Bewerbungen wird nicht akzeptiert. Nur diese Informationen werden für die Bieterauswahl berücksichtigt. Darüber hinausgehende Unterlagen sind nicht erwünscht. 5. Fragen zum Teilnahmewettbewerb/Vergabeverfahren sind unverzüglich,
+jedoch spätestens 10 Kalendertage vor Ablauf der Frist zur Abgabe der Teilnahmeanträge/Angebote zu stellen. Antworten werden über die e-
+Vergabeplattform „subreport ELViS“ zur Verfügung gestellt. Es liegt im Verantwortungsbereich der Unternehmen, regelmäßig Einsicht in ihr
+Postfach der e-Vergabeplattform zu nehmen und dort hinterlegte Informationen/Dokumente abzurufen. 6. Die Betreuung der Versicherungsverträge erfolgt courtagepflichtig durch die DVA Deutsche Verkehrs-Assekuranz-Vermittlungs-GmbH. Bei der Angebotskalkulation
+ist von allen Bietern die Vergütung einer in gleicher Höhe festgelegten Courtage an diese zu berücksichtigen. Sie wird mit der Aufforderung zur
+Angebotsabgabe bekannt gegeben.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E89125625</cbc:ID>
+                <cbc:DocumentType>restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E89125625</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:PaymentTerms>
+                <cbc:Note languageID="DEU">Die Prämie wird gemäß Zahlungsplan für die vorläufige Vertragslaufzeit in jährlichen Teilbeträgen nach Baufortschritt jeweils zum 1.7. erhoben. Die endgültige Prämienabrechnung erfolgt zum kaufmännischen Projektende auf Grundlage der dem Projekt zuzurechnenden versicherungspflichtigen tatsächlichen Gesamtprojektkosten.</cbc:Note>
+            </cac:PaymentTerms>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">keine</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                <cbc:Description languageID="DEU">keine</cbc:Description>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+                <cbc:Description languageID="DEU">Mit dem Teilnahmeantrag verpflichten sich die Unternehmen zur vertraulichen Behandlung der im Rahmen dieses Ausschreibungsverfahrens zur Verfügung gestellten Unterlagen/Informationen. Mit dem Teilnahmeantrag muss eine Vertraulichkeitserklärung abgeben werden. Ein Muster für die Vertraulichkeitserklärung ist Teil des Formulars für den Teilnahmeantrag. Sie ist mit dem Teilnahmeantrag einzureichen.
+Der Auftraggeber stellt die vertraulichen Vergabeunterlagen nicht bereits sofort mit Beginn des Vergabeverfahrens zur Verfügung. Die Unterlagen werden vielmehr erst nach Abschluss des Teilnahmewettbewerbs lediglich den ausgewählten geeigneten und zuverlässigen Unternehmen zum Download zur Verfügung gestellt, die dem Auftraggeber zuvor die vertrauliche Behandlung der Unterlagen mittels der Vertraulichkeitserklärung zugesichert haben.</cbc:Description>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E89125625</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Wenn der Zuschlag bereits wirksam erteilt worden ist, kann dieser nicht mehr vor der Vergabekammer angegriffen werden (§ 168 Abs. 2 Satz 1 GWB). Der Zuschlag darf erst 10 Kalendertage nach Absendung der Bekanntgabe der Vergabeentscheidung per Fax oder per E-Mail bzw. 15 Kalendertage nach Absendung der Bekanntgabe der Vergabeentscheidung per Post erteilt werden (§ 134 Abs. 2 GWB). Die Zulässigkeit eines Nachprüfungsantrags setzt ferner voraus, dass die geltend gemachten Vergabeverstöße innerhalb von 10 Kalendertagen nach Kenntnis bzw.
+– soweit die Vergabeverstöße aus der Bekanntmachung oder den Vergabeunterlagen erkennbar sind – bis zum Ablauf der Teilnahme- bzw.
+Angebotsfrist gerügt wurden (§ 160 Abs. 3 S. 1 Nr. 1 bis 3 GWB). Ein Nachprüfungsantrag ist ebenfalls unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind (§ 160 Abs. 3 S. 1 Nr. 4 GWB). Des Weiteren wird auf die in § 135 Abs. 2 GWB genannten Fristen verwiesen.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0004</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:ParticipationRequestReceptionPeriod>
+                <cbc:EndDate>2024-10-04+02:00</cbc:EndDate>
+                <cbc:EndTime>14:00:00.000+02:00</cbc:EndTime>
+            </cac:ParticipationRequestReceptionPeriod>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>TVK/PA/2484</cbc:ID>
+            <cbc:Name languageID="DEU">Vertragsführung der Projektversicherung für das benannte Bauvorhaben.</cbc:Name>
+            <cbc:Description languageID="DEU">Kombinierte Bauleistungs-, Montage-, Haftpflicht- und Planungshaftpflichtversicherung für das benannte Bauvorhaben für den Bauherrn und alle mit der Planung, Überwachung und Ausführung dieses Bauprojekts von der DB beauftragten Unternehmen. Der Auftrag umfasst in Los 1 die Vertragsführung und in Los 2 die Vertragsbeteiligung. Detaillierte Informationen zur Losaufteilung können den spezifischen Abschnitten dieser EU-Bekanntmachung entnommen werden.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">66513200</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-10-31+01:00</cbc:StartDate>
+                <cbc:EndDate>2028-01-31+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="DEU">Es handelt sich um eine Projektversicherung. Die vorläufige Vertragsdauer entspricht der voraussichtlichen / geplanten Projektlaufzeit (Bauzeit). Eine Verlängerung über die derzeit geplante Bauzeit hinaus, z.B. bei Verzögerungen im Planungs- und Bauablauf, ist nach den Bedingungen des Vertrages grundsätzlich mitversichert.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Description languageID="DEU">1) Vorlage der vollständig ausgefüllten und rechtsverbindlichen Bewerbereigenerklärung zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit; 2) Die Unternehmen müssen in der Lage sein, für Los 1 eine Führungsquote von 30 % bzw. für Los 2 eine Beteiligungsquote von 5 % des Vertrags zeichnen zu können (Nachweis per Bewerbereigenklärung); 3) Die Unternehmen müssen als Risikoträger zum Betrieb der ausgeschriebenen Versicherungssparte(n) (Bauwesenversicherung / Haftpflichtversicherung / Schaden- o. Verlustversicherung) in einem Staat der EU zugelassen sein und die gesetzlichen Voraussetzungen zur Ausübung des Geschäftsbetriebs als Versicherungsunternehmen nach den gesetzlichen Bestimmungen des Versicherungsaufsichtsgesetzes (VAG), insbesondere die Erlaubnistatbestände der §§ 8 ff., 57 ff., 61 ff. und 67 ff. erfüllen, Nachweis per Bewerbereigenerklärung. Vertreter von Unternehmen, die außerhalb der Landesgrenzen der Bundesrepublik Deutschland ihren Geschäftssitz haben, geben die oben genannte(n) Erklärung(en) nach Maßgabe der Rechtsvorschriften des Staates ab, in dem das Unternehmen ansässig ist. Der Auftraggeber behält sich Rückfragen sowie die Anforderung zusätzlicher Nachweise in diesem Zusammenhang ausdrücklich vor; 4) Die Unternehmen müssen über ein aktuell gültiges Rating von mindestens A nach Standard &amp; Poor's oder eine vergleichbare Bewertung einer anderen unabhängigen Ratingagentur verfügen. Unternehmen, die kein Rating besitzen, müssen nachweisen, dass sie eine mit dem geforderten Rating vergleichbare finanzielle Leistungsfähigkeit besitzen (Bewerbereigenklärung). Der Auftraggeber behält sich die Anforderung eines aktuellen Nachweises des Ratings bzw. des vergleichbaren Nachweises der finanziellen Leistungsfähigkeit sowie eine Gegenprüfung der Nachweise vor. - Eine Vertretung der Unternehmen (Versicherungsgesellschaften) ist nur zugelassen, wenn der Vertreter/Bevollmächtigte über eine vom Versicherer rechtsverbindlich erteilte, uneingeschränkte Vollmacht für die Teilnahme am Vergabeverfahren verfügt. Der Vertreter/Bevollmächtigte handelt ausschließlich für die Versicherungsgesellschaft, für die die Vollmachtvorgelegt wird. Mehrfachbeteiligungen sind ausgeschlossen. Die Vollmacht ist mit dem Teilnahmeantrag vorzulegen. - Für die Erklärungen ist der Vordruck „Bewerbereigenklärung“ zu nutzen. Er steht als Bestandteil der Vergabeunterlagen zur Verfügung. Die Bewerbereigenerklärung ist vollständig ausgefüllt und rechtsverbindlich unterschrieben mit dem Teilnahmeantrag zwingend einzureichen. Sollte diese nicht vorliegen, kann dies zum Ausschluss vom Verfahren führen. Der Auftraggeber behält sich vor, Erklärungen gem. § 51 Abs. 2 SektVO nachzufordern. Ein Verweis auf frühere Bewerbungen wird nicht akzeptiert. Weitere erforderliche Unterlagen/Nachweise siehe VI.3).</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Description languageID="DEU">1) Die Unternehmen müssen in der Lage sein, den Geschäftsverkehr in deutscher Sprache abwickeln zu können. 2) Die Unternehmen müssen die Schadenabwicklung ausschließlich durch den führenden Versicherer akzeptieren und die von ihm abgegebenen Erklärungen im Rahmen der Schadenabwicklung anerkennen. Die geforderten Erklärungen für Los 1 und/oder Los 2 sind vollständig ausgefüllt mit dem Teilnahmeantrag zwingend einzureichen. Sollten diese nicht vorliegen, kann dies zum Ausschluss von diesem Vergabeverfahren führen. Der Auftraggeber behält sich vor, Erklärungen gem. § 51 Abs. 2 SektVO nachzufordern. Ein Verweis auf frühere Bewerbungen wird nicht akzeptiert. Weitere erforderliche Unterlagen/Nachweise siehe VI.3).</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                <cbc:Description languageID="DEU">1. Wir weisen darauf hin, dass die VO (EU) 2022/576 zur Änderung der VO (EU) Nr. 833/2014 Anwendung findet und Unternehmen, die den Sanktionsmaßnahmen in Art. 5k der VO (EU) 2022/576 unterfallen, aus dem Vergabeverfahren ausgeschlossen werden. 2. Im Rahmen der Bewerbereigenerklärung verpflichten sich die Bewerber, dass sie den DB Verhaltenskodex für Geschäftspartner (Stand 01.02.2024) einhalten werden. Er steht als Bestandteil der Vergabeunterlagen zur Verfügung. Es kann auch ein eigener Verhaltenskodex, der im Wesentlichen vergleichbare Prinzipien für die Bewerber verbindlich festlegt, eingehalten werden. In diesem Fall ist eine geltende Fassung des eigenen Verhaltenskodex zur Überprüfung der Vergleichbarkeit mit dem DB Verhaltenskodex für Geschäftspartner mit dem Teilnahmeantrag einzureichen. 3. Der ausgefüllte Teilnahmeantrag ist mit allen geforderten, vollständig ausgefüllten Erklärungen (Bewerbereigenerklärung, Vertraulichkeitserklärung, Erklärung zu den Referenzen, ggfs. Bewerbergemeinschaftserklärung, ggfs. eigener Verhaltenskodex) vollständig und ausschließlich elektronisch über die Funktion „Teilnahmeantrag abgeben“ der e-Vergabeplattform „subreport ELViS“ in Textform nach § 126 b BGB einzureichen. (Bei der Bewerbung für mehrere (beide) Lose muss der Teilnahmeantrag für jedes Los separat hochgeladen werden.) 4. Alle geforderten Nachweise/Erklärungen sind mit dem Teilnahmeantrag zwingend einzureichen. Sollten diese nicht vorliegen, kann dies zum Ausschluss bei diesem Vergabeverfahren führen. Der Auftraggeber behält sich vor, Nachweise/Erklärungen gem. § 51 Abs.2 SektVO nachzufordern. Ein Verweis auf frühere Bewerbungen wird nicht akzeptiert. Nur diese Informationen werden für die Bieterauswahl berücksichtigt. Darüber hinausgehende Unterlagen sind nicht erwünscht. 5. Fragen zum Teilnahmewettbewerb/Vergabeverfahren sind unverzüglich,
+jedoch spätestens 10 Kalendertage vor Ablauf der Frist zur Abgabe der Teilnahmeanträge/Angebote zu stellen. Antworten werden über die e-
+Vergabeplattform „subreport ELViS“ zur Verfügung gestellt. Es liegt im Verantwortungsbereich der Unternehmen, regelmäßig Einsicht in ihr
+Postfach der e-Vergabeplattform zu nehmen und dort hinterlegte Informationen/Dokumente abzurufen. 6. Die Betreuung der Versicherungsverträge erfolgt courtagepflichtig durch die DVA Deutsche Verkehrs-Assekuranz-Vermittlungs-GmbH. Bei der Angebotskalkulation
+ist von allen Bietern die Vergütung einer in gleicher Höhe festgelegten Courtage an diese zu berücksichtigen. Sie wird mit der Aufforderung zur
+Angebotsabgabe bekannt gegeben.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:RequiredFinancialGuarantee>
+                <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+            </cac:RequiredFinancialGuarantee>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E89125625</cbc:ID>
+                <cbc:DocumentType>restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E89125625</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:PaymentTerms>
+                <cbc:Note languageID="DEU">Die Prämie wird gemäß Zahlungsplan für die vorläufige Vertragslaufzeit in jährlichen Teilbeträgen nach Baufortschritt jeweils zum 1.7. erhoben. Die endgültige Prämienabrechnung erfolgt zum kaufmännischen Projektende auf Grundlage der dem Projekt zuzurechnenden versicherungspflichtigen tatsächlichen Gesamtprojektkosten.</cbc:Note>
+            </cac:PaymentTerms>
+            <cac:TendererQualificationRequest>
+                <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">keine</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                <cbc:Description languageID="DEU">keine</cbc:Description>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+                <cbc:Description languageID="DEU">Mit dem Teilnahmeantrag verpflichten sich die Unternehmen zur vertraulichen Behandlung der im Rahmen dieses Ausschreibungsverfahrens zur Verfügung gestellten Unterlagen/Informationen. Mit dem Teilnahmeantrag muss eine Vertraulichkeitserklärung abgeben werden. Ein Muster für die Vertraulichkeitserklärung ist Teil des Formulars für den Teilnahmeantrag. Sie ist mit dem Teilnahmeantrag einzureichen.
+Der Auftraggeber stellt die vertraulichen Vergabeunterlagen nicht bereits sofort mit Beginn des Vergabeverfahrens zur Verfügung. Die Unterlagen werden vielmehr erst nach Abschluss des Teilnahmewettbewerbs lediglich den ausgewählten geeigneten und zuverlässigen Unternehmen zum Download zur Verfügung gestellt, die dem Auftraggeber zuvor die vertrauliche Behandlung der Unterlagen mittels der Vertraulichkeitserklärung zugesichert haben.</cbc:Description>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">s. Vergabeunterlagen</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:AdditionalInformationParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+            </cac:AdditionalInformationParty>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E89125625</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="MONTH">3</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Wenn der Zuschlag bereits wirksam erteilt worden ist, kann dieser nicht mehr vor der Vergabekammer angegriffen werden (§ 168 Abs. 2 Satz 1 GWB). Der Zuschlag darf erst 10 Kalendertage nach Absendung der Bekanntgabe der Vergabeentscheidung per Fax oder per E-Mail bzw. 15 Kalendertage nach Absendung der Bekanntgabe der Vergabeentscheidung per Post erteilt werden (§ 134 Abs. 2 GWB). Die Zulässigkeit eines Nachprüfungsantrags setzt ferner voraus, dass die geltend gemachten Vergabeverstöße innerhalb von 10 Kalendertagen nach Kenntnis bzw.
+– soweit die Vergabeverstöße aus der Bekanntmachung oder den Vergabeunterlagen erkennbar sind – bis zum Ablauf der Teilnahme- bzw.
+Angebotsfrist gerügt wurden (§ 160 Abs. 3 S. 1 Nr. 1 bis 3 GWB). Ein Nachprüfungsantrag ist ebenfalls unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind (§ 160 Abs. 3 S. 1 Nr. 4 GWB). Des Weiteren wird auf die in § 135 Abs. 2 GWB genannten Fristen verwiesen.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0004</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:ParticipationRequestReceptionPeriod>
+                <cbc:EndDate>2024-10-04+02:00</cbc:EndDate>
+                <cbc:EndTime>14:00:00.000+02:00</cbc:EndTime>
+            </cac:ParticipationRequestReceptionPeriod>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>TVK/PA/2484</cbc:ID>
+            <cbc:Name languageID="DEU">Vertragsbeteiligung an der Projektversicherung für das benannte Bauvorhaben.</cbc:Name>
+            <cbc:Description languageID="DEU">Kombinierte Bauleistungs-, Montage-, Haftpflicht- und Planungshaftpflichtversicherung für das benannte Bauvorhaben für den Bauherrn und alle mit der Planung, Überwachung und Ausführung dieses Bauprojekts von der DB beauftragten Unternehmen. Der Auftrag umfasst in Los 1 die Vertragsführung und in Los 2 die Vertragsbeteiligung. Detaillierte Informationen zur Losaufteilung können den spezifischen Abschnitten dieser EU-Bekanntmachung entnommen werden.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">66513200</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-10-31+01:00</cbc:StartDate>
+                <cbc:EndDate>2028-01-31+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="DEU">Es handelt sich um eine Projektversicherung. Die vorläufige Vertragsdauer entspricht der voraussichtlichen / geplanten Projektlaufzeit (Bauzeit). Eine Verlängerung über die derzeit geplante Bauzeit hinaus, z.B. bei Verzögerungen im Planungs- und Bauablauf, ist nach den Bedingungen des Vertrages grundsätzlich mitversichert.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hamburg Verkehrsanlagen GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Am Neumarkt 44</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>22041</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE266828669</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Einkauf</cbc:Name>
+									<cbc:Telephone>+49 4037023-0</cbc:Telephone>
+									<cbc:ElectronicMail>ausschreibungen@hhva.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer bei der Behörde für Stadtentwicklung und Wohnen, Amt für Verwaltung, Recht und Beteiligungen - Beschaffungsstelle</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Neuenfelder Straße 19</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>21109</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>keine Angabe</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 40-428403230</cbc:Telephone>
+									<cbc:ElectronicMail>vergabekammer@bsw.hamburg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer bei der Behörde für Stadtentwicklung und Wohnen, Amt für Verwaltung, Recht und Beteiligungen - Beschaffungsstelle</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Neuenfelder Straße 19</cbc:StreetName>
+									<cbc:CityName>Hamburg</cbc:CityName>
+									<cbc:PostalZone>21109</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE600</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>keine Angabe</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 40-428403230</cbc:Telephone>
+									<cbc:ElectronicMail>vergabekammer@bsw.hamburg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00304871-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">99/2024</efbc:GazetteID><efbc:PublicationDate>2024-05-23Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">b2ad9ff4-d56a-4cb6-944f-b3c7d96e5ddf</cbc:ID>
+	<cbc:ContractFolderID>37eeffd2-b81a-4fb0-a49c-9da72d18f7b0</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-05-22+02:00</cbc:IssueDate>
+	<cbc:IssueTime>10:02:17+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-05-22+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vob-a-eu</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+		<cac:TenderValidityPeriod>
+			<cbc:DurationMeasure unitCode="WEEKS">6</cbc:DurationMeasure>
+		</cac:TenderValidityPeriod>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Ist der Bieter der Auffassung, dass dieses Vergabeverfahren einen Verstoß gegen Vergabebestimmungen beinhaltet, kann er diesen Verstoß innerhalb einer Frist von 10 Kalendertagen nach Erkennen gegenüber dem Auftraggeber rügen. Sollte der Auftraggeber dieser Rüge nicht abhelfen wollen, kann der Bieter binnen 15 Tagen nach Eingang dieser Nichtabhilfeentscheidung einen Nachprüfungsantrag gemäß § 160 GWB schriftlich bei der Vergabekammer stellen.  (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht (3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+			<cac:MediationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:MediationParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+		<cac:LotDistribution>
+			<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+			<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+		</cac:LotDistribution>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+		<cac:FrameworkAgreement>
+			<cbc:MaximumOperatorQuantity>2</cbc:MaximumOperatorQuantity>
+		</cac:FrameworkAgreement>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">OV240419RX01</cbc:ID>
+		<cbc:Name languageID="DEU">Leuchtentausch 2024 - 2026: Erneuerung von 8.000 Stück abgängigen Leuchten bis zu einer Masthöhe von 9,5m</cbc:Name>
+		<cbc:Description languageID="DEU">Die Hamburg Verkehrsanlagen GmbH schreibt die Erneuerung von 8.000 Stück Leuchten im Stadtgebiet der Freien und Hansestadt Hamburg aus. Die altersbedingt abgängigen Leuchten der Beleuchtungsanlagen sind gegen neue LED-Leuchten auszuwechseln. Die Bestandsleuchten sind auf Geraden (GM) - und Auslegermasten (AM) auf Höhen von 2,5m - 9,5m montiert. Die Gesamtleistung wird in zwei Lose aufgeteilt. Es kann ein Angebot auf ein oder beide Lose eingereicht werden.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4DMNHSLK</cbc:Note>
+		<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45316110</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45311200</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CityName>Hamburg</cbc:CityName>
+				<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+			<cbc:EndDate>2026-03-31+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+			<cac:Renewal>
+				<cac:Period>
+					<cbc:Description languageID="DEU">Der Vertrag kann durch den Auftraggeber optional einmalig um 6 Monate verlängert werden.</cbc:Description>
+				</cac:Period>
+			</cac:Renewal>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">HR Auszug</cbc:Name>
+								<cbc:Description languageID="DEU">Wenn nach dem Recht des Herkunftsstaates des Bewerbers/Bieters für die Ausübung der ausgeschriebenen Tätigkeit eine Erlaubnis, Genehmigung, Konzession oder Zulassung erforderlich ist, ist dies mit dem Teilnahmeantrag / Angebot mitzuteilen und der entsprechende Nachweis zu erbringen. Der Nachweis darf nicht älter als 6 Monate, gerechnet ab Veröffentlichungstag der Bekanntmachung sein.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Berufs-/Betriebshaftpflichtversicherung</cbc:Name>
+								<cbc:Description languageID="DEU">Erklärung und Nachweis über das Vorliegen einer Berufs-/Betriebshaftpflichtversicherung mit der unter Mindestanforderung genannten Deckungshöhe durch Vorlage der Bestätigung des Versicherungsgebers, alternativ durch Vorlage einer rechtsverbindlichen Erklärung des Versicherungsgebers, im Auftragsfall eine Versicherung mit den geforderten Mindestdeckungssummen abzuschließen. Die Berufs-/Betriebshaftpflichtversicherung weist mindestens folgende Deckungssummen je Schadensfall auf: - 2.500.000 EUR für Sach- und Vermögensschäden</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Vergleichbare Aufträge</cbc:Name>
+								<cbc:Description languageID="DEU">Der Bieter muss in den letzten drei abgeschlossenen Geschäftsjahren Aufträge im vergleichbaren Umfang der zu vergebenen Leistung nachweisen. (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung). Angaben müssen Leistungen betreffen, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Referenzen</cbc:Name>
+								<cbc:Description languageID="DEU">Es sind mindestens zwei geeignete, unterschiedliche Referenzen zu benennen. (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung). Benennung von mindestens zwei unterschiedlichen Referenzen: a) die mit dem Ausschreibungsgegenstand (Art und Umfang) vergleichbar sind b) Die Referenzen müssen in den letzten drei abgeschlossenen Geschäftsjahren beendet worden sein. c) Auf gesondertes Verlangen des Auftraggebers ist von den Bietern, deren Angebote in die engere Wahl kommen, der Ansprechpartner des Auftraggebers einschl. Kontaktdaten anzugeben.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">fachliche Qualifikation</cbc:Name>
+								<cbc:Description languageID="DEU">Eigenerklärung zur fachlichen Qualifikation der vorgesehenen Mitarbeiter; auf gesondertes Verlangen des Auftraggebers sind von den Bietern, deren Angebote in die engere Wahl kommen, Bescheinigungen zur Bestätigung der Angaben vorzulegen (z.B. Ausbildungsnachweise, Zertifikate, Arbeitszeugnisse etc.) (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung und BVB). Mindestanforderung an die Kolonnenzusammensetzung pro Los:  - Nachweis einer Ausbildung zur Elektrofachkraft für mindestens einen Mitarbeiter. Die Überwachung der Arbeiten muss durch eine Elektrofachkraft sichergestellt werden. - Schaltberechtigung im ÖB-Stromnetz des Verteilnetzbetreibers. Ausbildung muss dem Auftraggeber spätestens 14 Tage vor Leistungsstart nachgewiesen sein!  - Nachweis der Qualifikation zur Sicherung von Arbeitsstätten gemäß dem "Merkblatt über Rahmenbedingungen für erforderliche Fachkenntnisse zur Verkehrssicherung von Arbeitsstellen an Straßen (MVAS 1999)" von mindestens einem verantwortlichen Mitarbeiter</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Ausreichende technische Ressourcen</cbc:Name>
+								<cbc:Description languageID="DEU">Eigenerklärung des Bieters, dass er zur Auftragsausführung über ausreichende technische Ressourcen verfügt (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung). Pro Los mindestens 1 Hubarbeitsbühne mit ausreichend Zuladungskapazitäten für das zur Leistungsausführung benötigte Material und Werkzeug, damit die Anforderungen gemäß Leistungsverzeichnis ausgeführt werden können. Sämtliche eingesetzte Fahrzeuge müssen über Warnmarkierungen nach DIN 30710 verfügen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vob-a-eu</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Zunächst werden alle fristgerechten eingegangenen Angebote auf Vollständigkeit und fachliche sowie rechnerische Richtigkeit überprüft (§ 16c VOB/A). Die Vergabestelle behält sich vor gemäß § 16a VOB/A fehlende oder unvollständige oder fehlerhafte unternehmens- sowie leistungsbezogene Unterlagen vom betreffenden Bieter nachzufordern.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Die nachfolgend genannten Anlagen beinhalten Ausführungsbedingungen als Mindestanforderungen, die zwingend erfüllt sein müssen. Bei Nichterfüllung führt dies zum Ausschluss der Angebotswertung. Folgende Anlagen sind mit dem Angebot einzureichen:  - Eigenerklärung zur Tariftreue und Mindestlohn (vgl. Anlage) - Erklärung zu EU-Sanktionen (vgl. Anlage)</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">ord-imp</efbc:ParameterCode>
+											<efbc:ParameterNumeric>1</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Description languageID="DEU">Der Zuschlag wird auf das unter Berücksichtigung aller Umstände wirtschaftlichste Angebot erteilt. Das alleinige Zuschlagskriterien ist der Preis zu 100 %. Der Preis (in EUR, ohne USt.) wird aus der Wertungssumme des Angebotes ermittelt. Wertungspreis = Summe LV (netto) für die Regelvertragslaufzeit - Summe LV (netto) +/- Nachlass für Angebot auf 2 Lose</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK</cbc:EndpointID>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="WEEKS">6</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Ist der Bieter der Auffassung, dass dieses Vergabeverfahren einen Verstoß gegen Vergabebestimmungen beinhaltet, kann er diesen Verstoß innerhalb einer Frist von 10 Kalendertagen nach Erkennen gegenüber dem Auftraggeber rügen. Sollte der Auftraggeber dieser Rüge nicht abhelfen wollen, kann der Bieter binnen 15 Tagen nach Eingang dieser Nichtabhilfeentscheidung einen Nachprüfungsantrag gemäß § 160 GWB schriftlich bei der Vergabekammer stellen.  (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht (3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+				<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-06-24+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-06-17+02:00</cbc:EndDate>
+				<cbc:EndTime>00:00:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-06-24+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:01:00+02:00</cbc:OccurrenceTime>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="DEU">Die Angebote werden nicht öffentlich verlesen.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>2</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">1</cbc:ID>
+			<cbc:Name languageID="DEU">Erneuerung von 3.000 Stück Ansatzleuchten für AM 7,5m - 9,5m</cbc:Name>
+			<cbc:Description languageID="DEU">Erneuerung von 8.000 Stück Leuchten im Stadtgebiet der Freien und Hansestadt Hamburg.  Zum Leistungsumfang zählen im Wesentlichen: Demontage und Montage von bis zu 8.000 Stück Ansatz- und Aufsatzleuchten inkl. Anschlussleitung mit einer Hubarbeitsbühne - Funktionsprüfung - Kontroll- und Zustandsprüfung - Entsorgung der demontierten Leuchten  - Der AG stellt dem AN Listen mit Maststandorten und weiteren zur Ausführung relevanten Daten zur Verfügung - Die Ausführung ist vom AN komplett selbstständig zu planen und auszuführen  Die Gesamtleistung wird in zwei Lose mit entsprechender Vertragslaufzeit aufgeteilt: Los 1: 3.000 Stück Ansatzleuchten für AM 7,5m - 9,5m / Ausführungszeitraum 07.2024 - 02.2025 Der Auftraggeber plant die Mengen wie folgt aufzuteilen: Jahresscheibe 2024: Erneuerung von voraussichtlich 2.500 Leuchten Jahresscheibe 2025: Erneuerung von voraussichtlich 500 Leuchten  Los 2: 5.000 Stück Aufsatzleuchten für GM 2,5m - 5,0m / Ausführungszeitraum 01.2025 - 03.2026 Der Auftraggeber plant die Mengen wie folgt aufzuteilen: Jahresscheibe 2025: Erneuerung von voraussichtlich 3.500 Leuchten Jahresscheibe 2026: Erneuerung von voraussichtlich 1.500 Leuchten  Der Leistungsstart kann nach einvernehmlicher Abstimmung mit dem AG vorgezogen werden.  Der Auftraggeber teilt die Gesamtleistung in zwei Lose auf und wird diese auf maximal zwei Auftragnehmer in Rahmenverträgen beauftragen. Bei den Losen handelt es sich um in Art und Umfang unterschiedliche Lose für die jeweils mindestens eine Kolonne vorgehalten werden muss. Die Vertragspartner werden anhand der Zuschlagskriterien ausgewählt. Die spätere Vergabe der Rahmenvertragsleistungen erfolgt gemäß den rahmenvertraglichen Regelungen, durch gesonderten Einzelabruf ohne, dass hierauf ein Rechtsanspruch des Auftragnehmers besteht.  Die Mengenangaben im Leistungsverzeichnis basieren auf einer Planung des Auftraggebers und es handelt sich nicht um verbindliche Mengen und verpflichtet nicht zum Abruf. Die tatsächlich beauftragten Mengen können über die Mengenangaben hinausgehen oder dahinter zurückbleiben. Der Auftraggeber behält sich vor, die genannten Mengen bei Bedarf bis zu 30% zu erhöhen.  Die Leistungen gemäß Leistungsverzeichnis sind in der Regelvertragslaufzeit vom Auftragnehmer zu erbringen und es gelten die nachfolgenden und beigefügten Bewerbungs-, Vergabe- und Vertragsbedingungen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45316110</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45311200</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-07-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2025-02-28+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Der Vertrag kann durch den Auftraggeber optional einmalig um 6 Monate verlängert werden.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">HR Auszug</cbc:Name>
+								<cbc:Description languageID="DEU">Wenn nach dem Recht des Herkunftsstaates des Bewerbers/Bieters für die Ausübung der ausgeschriebenen Tätigkeit eine Erlaubnis, Genehmigung, Konzession oder Zulassung erforderlich ist, ist dies mit dem Teilnahmeantrag / Angebot mitzuteilen und der entsprechende Nachweis zu erbringen. Der Nachweis darf nicht älter als 6 Monate, gerechnet ab Veröffentlichungstag der Bekanntmachung sein.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Berufs-/Betriebshaftpflichtversicherung</cbc:Name>
+								<cbc:Description languageID="DEU">Erklärung und Nachweis über das Vorliegen einer Berufs-/Betriebshaftpflichtversicherung mit der unter Mindestanforderung genannten Deckungshöhe durch Vorlage der Bestätigung des Versicherungsgebers, alternativ durch Vorlage einer rechtsverbindlichen Erklärung des Versicherungsgebers, im Auftragsfall eine Versicherung mit den geforderten Mindestdeckungssummen abzuschließen. Die Berufs-/Betriebshaftpflichtversicherung weist mindestens folgende Deckungssummen je Schadensfall auf: - 2.500.000 EUR für Sach- und Vermögensschäden</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Vergleichbare Aufträge</cbc:Name>
+								<cbc:Description languageID="DEU">Der Bieter muss in den letzten drei abgeschlossenen Geschäftsjahren Aufträge im vergleichbaren Umfang der zu vergebenen Leistung nachweisen. (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung). Angaben müssen Leistungen betreffen, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Referenzen</cbc:Name>
+								<cbc:Description languageID="DEU">Es sind mindestens zwei geeignete, unterschiedliche Referenzen zu benennen. (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung). Benennung von mindestens zwei unterschiedlichen Referenzen: a) die mit dem Ausschreibungsgegenstand (Art und Umfang) vergleichbar sind b) Die Referenzen müssen in den letzten drei abgeschlossenen Geschäftsjahren beendet worden sein. c) Auf gesondertes Verlangen des Auftraggebers ist von den Bietern, deren Angebote in die engere Wahl kommen, der Ansprechpartner des Auftraggebers einschl. Kontaktdaten anzugeben.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">fachliche Qualifikation</cbc:Name>
+								<cbc:Description languageID="DEU">Eigenerklärung zur fachlichen Qualifikation der vorgesehenen Mitarbeiter; auf gesondertes Verlangen des Auftraggebers sind von den Bietern, deren Angebote in die engere Wahl kommen, Bescheinigungen zur Bestätigung der Angaben vorzulegen (z.B. Ausbildungsnachweise, Zertifikate, Arbeitszeugnisse etc.) (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung und BVB). Mindestanforderung an die Kolonnenzusammensetzung pro Los:  - Nachweis einer Ausbildung zur Elektrofachkraft für mindestens einen Mitarbeiter. Die Überwachung der Arbeiten muss durch eine Elektrofachkraft sichergestellt werden. - Schaltberechtigung im ÖB-Stromnetz des Verteilnetzbetreibers. Ausbildung muss dem Auftraggeber spätestens 14 Tage vor Leistungsstart nachgewiesen sein!  - Nachweis der Qualifikation zur Sicherung von Arbeitsstätten gemäß dem "Merkblatt über Rahmenbedingungen für erforderliche Fachkenntnisse zur Verkehrssicherung von Arbeitsstellen an Straßen (MVAS 1999)" von mindestens einem verantwortlichen Mitarbeiter</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Ausreichende technische Ressourcen</cbc:Name>
+								<cbc:Description languageID="DEU">Eigenerklärung des Bieters, dass er zur Auftragsausführung über ausreichende technische Ressourcen verfügt (vgl. Anlage Erklärungen Angaben zur Eignungsprüfung). Pro Los mindestens 1 Hubarbeitsbühne mit ausreichend Zuladungskapazitäten für das zur Leistungsausführung benötigte Material und Werkzeug, damit die Anforderungen gemäß Leistungsverzeichnis ausgeführt werden können. Sämtliche eingesetzte Fahrzeuge müssen über Warnmarkierungen nach DIN 30710 verfügen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vob-a-eu</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Zunächst werden alle fristgerechten eingegangenen Angebote auf Vollständigkeit und fachliche sowie rechnerische Richtigkeit überprüft (§ 16c VOB/A). Die Vergabestelle behält sich vor gemäß § 16a VOB/A fehlende oder unvollständige oder fehlerhafte unternehmens- sowie leistungsbezogene Unterlagen vom betreffenden Bieter nachzufordern.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Die nachfolgend genannten Anlagen beinhalten Ausführungsbedingungen als Mindestanforderungen, die zwingend erfüllt sein müssen. Bei Nichterfüllung führt dies zum Ausschluss der Angebotswertung. Folgende Anlagen sind mit dem Angebot einzureichen:  - Eigenerklärung zur Tariftreue und Mindestlohn (vgl. Anlage) - Erklärung zu EU-Sanktionen (vgl. Anlage)</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">ord-imp</efbc:ParameterCode>
+											<efbc:ParameterNumeric>1</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Description languageID="DEU">Der Zuschlag wird auf das unter Berücksichtigung aller Umstände wirtschaftlichste Angebot erteilt. Das alleinige Zuschlagskriterien ist der Preis zu 100 %. Der Preis (in EUR, ohne USt.) wird aus der Wertungssumme des Angebotes ermittelt. Wertungspreis = Summe LV (netto) für die Regelvertragslaufzeit - Summe LV (netto) +/- Nachlass für Angebot auf 2 Lose</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK</cbc:EndpointID>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="WEEKS">6</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Ist der Bieter der Auffassung, dass dieses Vergabeverfahren einen Verstoß gegen Vergabebestimmungen beinhaltet, kann er diesen Verstoß innerhalb einer Frist von 10 Kalendertagen nach Erkennen gegenüber dem Auftraggeber rügen. Sollte der Auftraggeber dieser Rüge nicht abhelfen wollen, kann der Bieter binnen 15 Tagen nach Eingang dieser Nichtabhilfeentscheidung einen Nachprüfungsantrag gemäß § 160 GWB schriftlich bei der Vergabekammer stellen.  (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht (3) Der Antrag ist unzulässig, soweit 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+				<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4DMNHSLK</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-06-24+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-06-17+02:00</cbc:EndDate>
+				<cbc:EndTime>00:00:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-06-24+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:01:00+02:00</cbc:OccurrenceTime>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="DEU">Die Angebote werden nicht öffentlich verlesen.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>2</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2</cbc:ID>
+			<cbc:Name languageID="DEU">Erneuerung von 5.000 Stück Aufsatzleuchten für GM 2,5m - 5,0m</cbc:Name>
+			<cbc:Description languageID="DEU">Erneuerung von 8.000 Stück Leuchten im Stadtgebiet der Freien und Hansestadt Hamburg.  Zum Leistungsumfang zählen im Wesentlichen: Demontage und Montage von bis zu 8.000 Stück Ansatz- und Aufsatzleuchten inkl. Anschlussleitung mit einer Hubarbeitsbühne - Funktionsprüfung - Kontroll- und Zustandsprüfung - Entsorgung der demontierten Leuchten  - Der AG stellt dem AN Listen mit Maststandorten und weiteren zur Ausführung relevanten Daten zur Verfügung - Die Ausführung ist vom AN komplett selbstständig zu planen und auszuführen  Die Gesamtleistung wird in zwei Lose mit entsprechender Vertragslaufzeit aufgeteilt: Los 1: 3.000 Stück Ansatzleuchten für AM 7,5m - 9,5m / Ausführungszeitraum 07.2024 - 02.2025 Der Auftraggeber plant die Mengen wie folgt aufzuteilen: Jahresscheibe 2024: Erneuerung von voraussichtlich 2.500 Leuchten Jahresscheibe 2025: Erneuerung von voraussichtlich 500 Leuchten  Los 2: 5.000 Stück Aufsatzleuchten für GM 2,5m - 5,0m / Ausführungszeitraum 01.2025 - 03.2026 Der Auftraggeber plant die Mengen wie folgt aufzuteilen: Jahresscheibe 2025: Erneuerung von voraussichtlich 3.500 Leuchten Jahresscheibe 2026: Erneuerung von voraussichtlich 1.500 Leuchten  Der Leistungsstart kann nach einvernehmlicher Abstimmung mit dem AG vorgezogen werden.  Der Auftraggeber teilt die Gesamtleistung in zwei Lose auf und wird diese auf maximal zwei Auftragnehmer in Rahmenverträgen beauftragen. Bei den Losen handelt es sich um in Art und Umfang unterschiedliche Lose für die jeweils mindestens eine Kolonne vorgehalten werden muss. Die Vertragspartner werden anhand der Zuschlagskriterien ausgewählt. Die spätere Vergabe der Rahmenvertragsleistungen erfolgt gemäß den rahmenvertraglichen Regelungen, durch gesonderten Einzelabruf ohne, dass hierauf ein Rechtsanspruch des Auftragnehmers besteht.  Die Mengenangaben im Leistungsverzeichnis basieren auf einer Planung des Auftraggebers und es handelt sich nicht um verbindliche Mengen und verpflichtet nicht zum Abruf. Die tatsächlich beauftragten Mengen können über die Mengenangaben hinausgehen oder dahinter zurückbleiben. Der Auftraggeber behält sich vor, die genannten Mengen bei Bedarf bis zu 30% zu erhöhen.  Die Leistungen gemäß Leistungsverzeichnis sind in der Regelvertragslaufzeit vom Auftragnehmer zu erbringen und es gelten die nachfolgenden und beigefügten Bewerbungs-, Vergabe- und Vertragsbedingungen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45316110</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45311200</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CityName>Hamburg</cbc:CityName>
+					<cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-01-01+01:00</cbc:StartDate>
+				<cbc:EndDate>2026-03-31+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Der Vertrag kann durch den Auftraggeber optional einmalig um 6 Monate verlängert werden.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

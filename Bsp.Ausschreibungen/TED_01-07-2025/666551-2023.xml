@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Universität Kassel, Abteilung Bau Technik Liegenschaften, , Verfahrensabwicklung durch, Landesbetrieb Bau und Immobilien Hessen Niederlassung Mitte Zentrale Vergabe</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Dieselstraße 1-7</cbc:StreetName>
+                           <cbc:CityName>Bad Nauheim</cbc:CityName>
+                           <cbc:PostalZone>61231</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Leitweg-ID: 06-25930435-74</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Fachbereich Freiberufliche Leistungen</cbc:Name>
+                           <cbc:Telephone>+49 603288620</cbc:Telephone>
+                           <cbc:Telefax>+49 60328862126</cbc:Telefax>
+                           <cbc:ElectronicMail>info.fbt@lbih.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen bei dem Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Fristenbriefkasten: Luisenplatz 2</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Ust-Identifikationsnummer: DE 812 056 745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151120</cbc:Telephone>
+                           <cbc:Telefax>+49 6151126347</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00666551-2023</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">211/2023</efbc:GazetteID><efbc:PublicationDate>2023-11-02Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">7940ee07-8e75-4613-9768-6937e8370d5a</cbc:ID>
+   <cbc:ContractFolderID>fb673de4-53c5-45d2-8288-5b4fa30cad0b</cbc:ContractFolderID>
+   <cbc:IssueDate>2023-10-31+01:00</cbc:IssueDate>
+   <cbc:IssueTime>13:46:33+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Ausschlussgründe (namentlich §§ 123, 124 Gesetz gegen Wettbewerbsbeschränkungen, 19  Mindestlohngesetz, 21 Arbeitnehmerentsendegesetz, 98c Aufenthaltsgesetz, 21 Schwarzarbeitsbekämpfungsgesetz) werden dem nationalen Recht entsprechend geprüft.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-F-7000-2023-1878</cbc:ID>
+      <cbc:Name languageID="DEU">Generalplanungsleistungen Villa Rühl in Kassel (OP Geb, TWP, TA, OP Freianlagen)</cbc:Name>
+      <cbc:Description languageID="DEU">Sanierung und Umnutzung/Erweiterung sowie Energetische Sanierung zweier denkmalgeschützter Villen.&amp;#92;nGeneralplanungsleistungen für Objektplanung Gebäude, Fachplanung Tragwerksplanung, Fachplanung Technische Ausrüstung ( AG 1, 2, 3, 4, 5, 6, 8) und Objektplanung Freianlagen.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">A. Informationen über die zweite Stufe des Verfahrens:&amp;#92;n- Mindestzahl Bewerber, die zur zweiten Stufe des Verfahrens eingeladen werden: 3;&amp;#92;n- Höchstzahl der Bewerber, die zur zweiten Stufe des Verfahrens eingeladen werden: 5;&amp;#92;n&amp;#92;nDie Auswahl der Bewerber erfolgt anhand wirtschaftlicher und finanzieller Leistungsfähigkeit und der technischen und beruflichen Leistungsfähigkeit:&amp;#92;nsiehe Auswahlkriterien, sowie ergänzend in den anzufordernden Bewerbungsunterlagen.&amp;#92;nGewichtung gem. 743 EU Eignungskriterien mit Bewertungsmatrix:&amp;#92;njeweils für die Fachdisziplinen Objektplanung Gebäude, Fachplanung Tragwerksplanung und Fachplanung Technische Ausrüstung (AG 1, 2, 3, 4, 5, 6, 8):&amp;#92;nDurchschnittlicher Umsatz für entsprechende Leistungen (netto) der letzten drei Jahre: 14%;&amp;#92;nDurchschnittliche Anzahl der festangestellten mit vergleichbaren Leistungen betraute Dipl.-Ingenieure, Master- und Bachelorabsolventen in den letzten drei Jahren: 14 %;&amp;#92;nReferenzen: gemäß den benannten Auswahlkriterien (Referenzen 1, 2 und 3 mit jeweils 24 %): 72 %;&amp;#92;nIn der Zusammenfassung der einzelnen Fachdisziplinen erfolgt die Gewichtung für Objektplanung Gebäude mit 1,25, für die Fachplanung Tragwerksplanung mit 1,0 und für die  Fachplanung Technische Ausrüstung (AG 1, 2, 3, 4, 5, 6, 8) mit 1,15.&amp;#92;nGgfs. Losentscheid bei gleichermaßen geeigneten Bewerbern.&amp;#92;n&amp;#92;nB. Angaben und Formalitäten, die erforderlich sind, um die Einhaltung der Auflagen zu überprüfen:&amp;#92;nZur Abgabe der notwendigen Eigenerklärungen sind zwingend die vorgegebenen Vordrucke zu verwenden. Als vorläufigen Beleg der Eignung und des Nichtvorliegens von Ausschlussgründen akzeptiert der öffentliche Auftraggeber auch die Vorlage einer Einheitlichen Europäischen Eigenerklärung (EEE).&amp;#92;n&amp;#92;nDie ausgefüllten Unterlagen sind wie folgt einzureichen:&amp;#92;n1. Die Teilnahmeanträge sind form- und fristgerecht ausschließlich elektronisch über die Vergabeplattform des&amp;#92;nLandes Hessen (http://vergabe.hessen.de) zu übermitteln. Es genügt die Textform nach § 126b BGB mit Angabe des Namens der natürlichen Person, die die Erklärung abgibt.&amp;#92;n2. Eingereichte Bewerbungsunterlagen verbleiben beim Auftraggeber und werden nur auf Anforderung zurückgegeben.&amp;#92;n3. Im Falle von Bewerbergemeinschaften, Eignungsleihen durch andere Unternehmen (gem. § 47VgV) und Unterauftragnehmern (gem. § 36 VgV) sind die Formblätter &amp;quot;Bewerbungsbogen&amp;quot; inkl. der geforderten Anlagen und Nachweise von jedem Unternehmen einzeln einzureichen (734 EU).&amp;#92;n4. Im Falle von Bewerbergemeinschaften ist mit dem Teilnahmeantrag eine von allen Mitgliedern unterzeichnete Erklärung der Bewerbergemeinschaft einzureichen (740 EU).&amp;#92;n5. Im Falle von Unternehmen nach § 47 VgV (Eignungsleihe) und/oder im Falle von Unternehmen nach § 36 VgV (Unterauftragnehmer) ist mit dem Teilnahmeantrag Art und Umfang der Teilleistungen zu benennen, für welche sich der Bewerber der Kapazitäten anderer Unternehmen bedienen wird (741 EU). Weiterhin ist eine&amp;#92;nVerpflichtungserklärung der anderen Unternehmen nachzuweisen, dass dem Bewerber die erforderlichen Kapazitäten zur Verfügung stehen (742 EU).&amp;#92;n6. Der Landesbetrieb Bau und Immobilien Hessen (LBIH) ist zur elektronischen Kommunikation mit den Bewerbern und / oder Bietern verpflichtet. Teilnahmeanträge oder Angebote dürfen ausschließlich über die Vergabeplattform des Landes Hessen elektronisch in Textform abgegeben werden, es sei denn die schriftliche Angebotsabgabe ist ausdrücklich zugelassen. Die Nichtbeachtung dieser Vorgabe hat den Ausschluss vom Verfahren zur Folge. Interessenten, die an Verfahren des Landesbetriebs Bau und Immobilien Hessen (LBIH) teilnehmen&amp;#92;nwollen, registrieren sich bitte auf der Vergabeplattform des Landes Hessen. Hier erhalten Sie weitere Hinweise.&amp;#92;n&amp;#92;nC. Fortführung &amp;quot;Bedingungen für die Ausführung des Auftrags&amp;quot;&amp;#92;n&amp;#92;nDer Zulassungsbereich umfasst sämtliche EWR-Mitgliedstaaten sowie Staaten der  Vertragsparteien des WTO-Übereinkommens über das öffentliche Beschaffungswesen GPA. &amp;#92;nTeilnahmeberechtigt sind natürliche und juristische Personen, die die geforderten fachlichen Anforderungen erfüllen. Bei natürlichen Personen sind die fachlichen Anforderungen erfüllt, wenn sie gemäß Rechtsvorschrift ihres Heimatstaates berechtigt sind, am Tage der Bekanntmachung die Berufsbezeichnung Architekt oder Ingenieur zu führen.&amp;#92;nIst in dem Heimatstaat des Bewerbers die Berufszeichnung gesetzlich nicht geregelt, sind durch Vorlage von Befähigungsnachweisen vergleichbare fachliche Qualifikationen nachzuweisen, deren Anerkennung nach den Richtlinien 2005/36/EG und 2013/55/EU sowie aufgrund dieser Richtlinien ergangenem nationalem Recht gewährleistet ist.&amp;#92;nBei juristischen Personen sind die fachlichen Anforderungen erfüllt, wenn zu ihrem satzungsgemäßen Geschäftszweck Planungsleistungen gehören, die der anstehenden Planungsaufgabe entsprechen und wenn der bevollmächtigte Vertreter der juristischen Person die fachlichen Anforderungen erfüllt, die an die natürliche Person gestellt werden.</cbc:Note>
+      <cac:RequestedTenderTotal>
+         <cbc:EstimatedOverallContractAmount currencyID="EUR">847260.81</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Mönchebergstraße 40 und 42</cbc:StreetName>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34109</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgende Bewerbungsunterlagen sind in der unter &amp;quot;Zusätzliche Informationen&amp;quot; (siehe zuvor, Punkt B.) genannten Form einzureichen:&amp;#92;n&amp;#92;n1) Verbindliche Erklärung im Formular Bewerbungsbogen, dass keine Ausschlussgründe gemäß §123 Abs. 1 GWB und § 124 Abs. 1 und Abs. 2 GWB vorliegen und dass der Bewerber seiner Verpflichtung zur Zahlung von Steuern, Abgaben und Beiträgen zur Sozialversicherung nachgekommen ist;&amp;#92;n&amp;#92;n2) Verpflichtungserklärung zu Tariftreue und Mindestlohn bei öffentlichen Aufträgen nach dem Hessischen Vergabe- und Tariftreuegesetz (HVTG) vom 12. Juli 2021, GVBl. S.338;&amp;#92;n&amp;#92;n3) Erklärung zum EU-Sanktionspaket im Zusammenhang mit dem Angriffskrieg Russlands auf die Ukraine;&amp;#92;n&amp;#92;n4) sofern die Gesellschaftsform dies erfordert: Angabe der Befähigung zur Berufsausübung gemäß § 44 VgV und Eintragung in ein Berufs- und Handelsregister;&amp;#92;n&amp;#92;nGeforderte Eignungsnachweise (gem. §§ 122 ff. GWB, §§ 42 ff. VgV), die in Form anerkannter Präqualifikationsnachweise (u.a. HPQR) vorliegen, werden zugelassen und anerkannt, wenn die Präqualifikationsnachweise in Form und Inhalt den geforderten Eignungsnachweisen entsprechen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgende Bewerbungsunterlagen sind in der unter &amp;quot;Zusätzliche Informationen&amp;quot; (siehe zuvor, Punkt B.) genannten Form einzureichen:&amp;#92;n&amp;#92;n1) Verbindliche Erklärung zur Berufshaftpflichtversicherung gem. § 45 Abs. 1, S. 2, Nr. 3 VgV;&amp;#92;n&amp;#92;n2) Verbindliche Erklärung über den Gesamtumsatz des Bewerbers und seinen Umsatz für die entsprechenden Leistungen in den letzten 3 Jahren gem. § 45 Abs. 1, S. 2, Nr. 1 und Abs. 4, S.1, Nr. 4 VgV;&amp;#92;n&amp;#92;nGeforderte Mindeststandards:&amp;#92;nzu 1)&amp;#92;nMindestdeckung der Berufshaftpflichtversicherung bei einem in der EU zugelassenen &amp;#92;nHaftpflichtversicherer oder Kreditinstitut für Personenschäden 2.000.000,00 Euro, für sonstige Schäden (Sach- und Vermögensschäden) 2.000.000,00 Euro, jeweils 2-fach maximiert im Versicherungsjahr. Im Falle einer bestehenden Versicherung mit geringerer Versicherungssumme zusätzlich: Eigenerklärung, dass die Summen im Auftragsfall mindestens bis zu den geforderten Summen angehoben werden. Bei Bewerbergemeinschaften ist der Nachweis von jedem Mitglied der Bewerbergemeinschaft zu erbringen.&amp;#92;nzu 2)&amp;#92;nMindestanforderung an den Umsatz für entsprechende Leistungen pro Jahr:&amp;#92;n- 100.000 € netto durchschnittlicher Umsatz für entsprechende Leistungen der&amp;#92;nObjektplanung Gebäude;&amp;#92;n- 25.000 € netto durchschnittlicher Umsatz für entsprechende Leistungen der&amp;#92;nFachplanung Tragwerksplanung;&amp;#92;n- 100.000 € netto durchschnittlicher Umsatz für entsprechende Leistungen der&amp;#92;nFachplanung Technische Ausrüstung AG 1, 2, 3, 4, 5, 6, 8;&amp;#92;n&amp;#92;nGeforderte Eignungsnachweise (gem. §§ 122 ff. GWB, §§ 42 ff. VgV), die in Form anerkannter Präqualifikationsnachweise (u.a. HPQR) vorliegen, werden zugelassen und anerkannt, wenn die Präqualifikationsnachweise in Form und Inhalt den geforderten Eignungsnachweisen entsprechen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgende Bewerbungsunterlagen sind in der unter &amp;quot;Zusätzliche Informationen&amp;quot; (siehe zuvor, Punkt B.) genannten Form einzureichen:&amp;#92;n&amp;#92;n1) Erklärung aus der das jährliche Mittel der vom Bewerber beschäftigten Mitarbeiter, die Anzahl der Führungskräfte sowie die Anzahl an mit der Ausschreibung entsprechenden Leistungen betrauten festangestellten Personen, die berechtigt sind die Berufsbezeichnung Architekt oder Ingenieur zu führen, in den letzten drei Geschäftsjahren ersichtlich ist gem. § 46 Abs. 3, S. 1, Nr. 2 VgV;&amp;#92;n&amp;#92;n2) Angabe und Nachweis der beruflichen Befähigung und Qualifikation der Führungskräfte und der vorgesehenen Person für die Projektleitung durch die Berechtigung die Berufsbezeichnung Architekt oder Ingenieur führen zu dürfen gem. § 46 Abs. 3, S.1, Nr. 8 VgV;&amp;#92;n&amp;#92;n3) Darstellung von mind. drei Referenzen (je Fachdisziplin mind. eine) nach § 46 Abs. 3, S.1, Nr. 1 VgV für in den letzten acht Jahren erbrachte vergleichbare Leistungen. Es gehen maximal neun Referenzen, jeweils 3 Referenzen für Objektplanung Gebäude, Fachplanung Tragwerksplanung und Fachplanung Technische Ausrüstung (AG 1, 2, 3, 4, 5, 6, 8) und in die Wertung ein. &amp;#92;nKurzbeschreibung der Referenz mit folgenden Angaben:&amp;#92;n- Art der Maßnahme (Sanierung / Umbau, Neubau)&amp;#92;n- Art der Nutzung (Bürogebäude, Sonstiges, Hochschulbau);&amp;#92;n- Projektgröße, durch Angabe der Baukosten (Kostengruppe 300 und 400);&amp;#92;n- Projektgröße, durch Angabe der BGF, alternativ NF;&amp;#92;n- Projektdauer (Leistungszeitraum des Bewerbers und Bauzeit);&amp;#92;n- Alter der Referenz (Abschluss der Referenzleistung);&amp;#92;n- Leistungsumfang des Bewerbers (Angabe der beauftragten Anlagengruppen,&amp;#92;nAngabe der beauftragen und erbrachten Leistungsphasen nach HOAI);&amp;#92;n- Leistungsstand der Referenz;&amp;#92;n- Projektdurchführung nach öffentlichen Vergabevorschriften;&amp;#92;n- Benennung des Auftraggebers (Bezeichnung, Anschrift, Kontaktdaten) mit&amp;#92;nReferenzperson des Auftraggebers;&amp;#92;n&amp;#92;nDas Projektdatenblatt ist jeweils vollständig auszufüllen. Geforderte Anlagen sind beizulegen. Jede Referenz muss in Form von aussagekräftigen Bildern und Beschreibungen belegt werden. Hierbei ist die Darstellung je Referenzprojekt auf eine elektronische Datei in der Größe entsprechend von maximal 4 Blättern DIN A4 zu beschränken. Unterlagen, die unaufgefordert eingereicht werden, gehen nicht in die Wertung ein (z. B. Projektbroschüren).&amp;#92;nReferenzen, die als verantwortliche/r Projektleiter/in in einem früheren Arbeitsverhältnis erbracht wurden, werden gewertet, falls eine entsprechende Bestätigung des Auftraggebers oder des ehemaligen Arbeitgebers (in Textform) vorliegt.&amp;#92;n&amp;#92;nGeforderte Mindeststandards:&amp;#92;nzu 1) &amp;#92;nMindestanforderung an die Anzahl an mit der Ausschreibung entsprechenden Leistungen betrauten festangestellten Architekten / Ingenieure:&amp;#92;n- Objektplanung Gebäude: mind. 2,&amp;#92;n- Fachplanung Tragwerksplanung: mind. 1,&amp;#92;n- Fachplanung Technische Ausrüstung Anlagengruppe 1, 2, 3, 4, 5, 6, 8: mind. 2;&amp;#92;n&amp;#92;nzu 3)&amp;#92;nMindestanforderung an alle Referenzen:&amp;#92;n- Abschluss der Referenzleistung nach 30.06.2015 für erbrachte vergleichbare Leistungen&amp;#92;nMindestanforderung an Referenzen für Objektplanung Gebäude:&amp;#92;n- alle Referenzen: Umbau/Sanierung eines Bestandsobjektes;&amp;#92;nMindestanforderung an die Gesamtheit der wertbaren Referenzen Objektplanung Gebäude:&amp;#92;n- mind. 1 Referenz beinhaltet Energetische Gebäudesanierung;&amp;#92;n- mind. 1 Referenz weist eine Mindestgröße von 1.500 qm BGF auf (alternativ 800 qm NF 1-6);&amp;#92;n- mind. 1 Referenz aus Honorarzone III (3);&amp;#92;n- mind. 1 Referenz mit vergleichbarer Nutzung (Bürogebäude);&amp;#92;n&amp;#92;nMindestanforderung an die Gesamtheit der wertbaren Referenzen Fachplanung Tragwerksplanung:&amp;#92;n- mind. 1 Referenz beinhaltet die bauliche Umsetzung einer Maßnahme im Bestand;&amp;#92;n- mind. 1 Referenz weist eine Mindestgröße von 1.500 qm BGF auf (alternativ 800 qm NF 1-6);&amp;#92;n- mind. 1 Referenz aus Honorarzone III (3);&amp;#92;n- mind. 1 Referenz mit vergleichbarer Nutzung (Bürogebäude);&amp;#92;n&amp;#92;nMindestanforderung an Referenzen für Fachplanung Technische Ausrüstung (AG 1, 2, 3, 4, 5, 6, 8):&amp;#92;n- alle Referenzen: Umbau/Sanierung eines Bestandsobjektes;&amp;#92;nMindestanforderung an die Gesamtheit der wertbaren Referenzen Fachplanung Technische Ausrüstung (AG 1, 2, 3, 4, 5, 6, 8):&amp;#92;n- mind. 1 Referenz beinhaltet Energetische Gebäudesanierung;&amp;#92;n- mind. 1 Referenz weist eine Mindestgröße von 1.500 qm BGF auf (alternativ 800 qm NF 1-6);&amp;#92;n- mind. 1 Referenz mit 4 Anlagengruppen aus Honorarzone II (2);&amp;#92;n- mind. 1 Referenz mit vergleichbarer Nutzung (Büro-/Verwaltungsgebäude);&amp;#92;n&amp;#92;nBei Nichteinhaltung einer Mindestforderung an alle Referenzen wird die Referenz nicht gewertet.&amp;#92;nBei Nichteinhaltung der Mindestanforderungen an die Gesamtheit der wertbaren Referenzen wird die Bewerbung nicht gewertet.&amp;#92;nDie Bewertung der Referenzen erfolgt bei Erfüllung der Mindestanforderungen gem. Wertungsmatrix (743 EU).&amp;#92;n&amp;#92;nGeforderte Eignungsnachweise (gem. §§ 122 ff. GWB, §§ 42 ff. VgV), die in Form anerkannter Präqualifikationsnachweise (u.a. HPQR) vorliegen, werden zugelassen und anerkannt, wenn die Präqualifikationsnachweise in Form und Inhalt den geforderten Eignungsnachweisen &amp;#92;nentsprechen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;amp;TenderOID=54321-Tender-18b18d53c22-7fcb5efe854b534</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">gemäß nationalem Recht</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:Description languageID="DEU">Bewerbergemeinschaften (z.B. Arbeitsgemeinschaften) natürlicher und juristischer Personen sind ebenfalls teilnahmeberechtigt, wenn jedes Mitglied der&amp;#92;nBewerbergemeinschaft teilnahmeberechtigt ist. Mit der Bewerbung ist eine&amp;#92;nErklärung über die Rechtsform, den bevollmächtigten Vertreter sowie über die gesamtschuldnerische Haftung aller Mitglieder vorzulegen. Bietergemeinschaften müssen sämtliche geforderten Nachweise für alle Mitglieder der Bietergemeinschaft&amp;#92;nvorlegen. Die Leistungsabgrenzung innerhalb der Bietergemeinschaft ist darzustellen.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität, Kompetenzen und Erfahrung des Projektteams</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Projektorganisation zur Qualitätssicherung</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>20.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Herangehensweise an das konkrete Projekt</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>25.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Grundleistungen und Besondere Leistungen einschl. Nebenkosten</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>5.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Stundensätze</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">2</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Nr. 4 GWB: Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;amp;TenderOID=54321-Tender-18b18d53c22-7fcb5efe854b534</cbc:AccessToolsURI>
+         <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2023-12-01+01:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+         </cac:ParticipationRequestReceptionPeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Generalplanungsleistungen Villa Rühl in Kassel (OP Geb, TWP, TA, OP Freianlagen)</cbc:Name>
+         <cbc:Description languageID="DEU">Die Universität Kassel ist Eigentümer der Liegenschaft in der Mönchebergstraße 40 und 42 in Kassel. Es handelt sich um ein 5.100 qm großes Grundstück mit zwei denkmalgeschützten Gebäuden, Baujahr ca. 1871, und weiteren, abgängigen Gebäuden, die zum Abbruch vorgesehen sind.&amp;#92;nDie Liegenschaft ist für eine Nutzung durch das Forschungszentrum INCHER (Sozialwissenschaften), mit ca. 60 Arbeitsplätzen vorgesehen.&amp;#92;nDer schon entwickelte Raumbedarf soll auf die beiden historischen Villen übertragen werden. Der zusätzliche Flächenbedarf soll in einem Erweiterungsbau auf der Rückseite des Gebäudes Nr. 42 untergebracht werden.&amp;#92;n&amp;#92;nUmsetzung Raumbedarf:&amp;#92;nAbbruch von nicht denkmalgeschützten Gebäudebereichen&amp;#92;n- Mönchebergstraße 42; Anbau Kino&amp;#92;n- Mönchebergstraße 42; Hintergebäude (Kinosaal etc.)&amp;#92;n- Mönchebergstraße 40; Garagen und Werkstätten&amp;#92;n- Mönchebergstraße 40 und 42; Außenanlagen, abgängiger Belag, Freimachung Flächen Außenanlagen etc.&amp;#92;n&amp;#92;nSanierung der Villen Mönchebergstraße 40 und 42&amp;#92;n- Umbau und Anpassung der Gebäudestruktur auf die zukünftigen Bedarfe&amp;#92;n- Altlastensanierung&amp;#92;n- Statisch-konstruktive Sanierung, Erneuerung eines Dachstuhles&amp;#92;n- Grundsanierung und Ausbau der baulichen und technischen Infrastruktur &amp;#92;n- Bauliche Anpassung im Hinblick auf Barrierefreiheit im Außen- und Innenbereich&amp;#92;n- CO2-Minderungs- und Energieeffizienzprogramm für Hochschulen (COME-H)&amp;#92;n- Abdichtung der KG-Wände von außen&amp;#92;n&amp;#92;nIn den zwei Gebäuden sind sämtliche Büroräume, Besprechungsräume, WC-Anlagen, Teeküchen, Aufzüge zu planen.&amp;#92;n&amp;#92;nAnbau an das Gebäude Mönchebergstraße 42 &amp;#92;nIn dem noch zu entwickelnden, zweigeschossigen Erweiterungsbau in der Mönchebergstraße 42 wird eine Bibliothek und ein Konferenzsaal untergebracht, NUF 1-6: 250 qm, Gesamt NUF 1-6 Altbau + Neubau: 889 qm.&amp;#92;n&amp;#92;nDenkmalpflege&amp;#92;nDie beiden Villen sind Einzelkulturdenkmäler, daher muss die äußere Gebäudehülle erhalten werden. Das historische Erscheinungsbild des Vorgartens einschließlich der Einfriedung soll aus künstlerischen und städtebaulichen Gründen ebenfalls erhalten bleiben. Sanierungs- und Umbaumaßnahmen in den Innenräumen können in vollem Umfang ausgeführt werden.&amp;#92;n&amp;#92;nSchadstoffe und Tragwerk&amp;#92;nIm Vorfeld wurde eine orientierende Bausubstanzuntersuchung zur Ermittlung schadstoffbedingter Mehrkosten, sowie eine statisch-konstruktive Ersteinschätzung durchgeführt. &amp;#92;nStichprobenartige Untersuchungen zeigten keine größeren Mängel oder Schäden an statischen Haupttragwerken. Es sind weitere Untersuchungen durchzuführen, um eine zuverlässige Beurteilung der Tragfähigkeit der Bauteile zu ermöglichen.&amp;#92;nDie stichprobenartig untersuchten Bausubstanzproben enthielten Gebäudeschadstoffe, wie z.B. Asbestfasern. Es ist eine vertiefende Bausubstanzuntersuchung durchzuführen, um ein Sanierungs- und Entsorgungskonzept zu entwickeln.&amp;#92;n&amp;#92;nBarrierefreiheit&amp;#92;nBeide Gebäude werden barrierefrei umgestaltet. Hierbei wird auf ausreichende Breite der Zu- und Eingänge geachtet. In unmittelbarer Nähe der Eingänge im Erdgeschoss sind Hublifte vorzusehen, um den Höhenversprung zwischen Gelände und EG zu überwinden, wobei zu prüfen ist, ob Rampen eine Möglichkeit zur barrierefreien Erschließung bieten. Zur vertikalen Erschließung erhalten beide Villen jeweils einen Aufzug im Gebäudeinneren. Barrierefreie WC-Anlagen sind ebenfalls zu planen.&amp;#92;n&amp;#92;nEnergieeffizienz und Nachhaltigkeit&amp;#92;nDie COME-Maßnahme &amp;quot;Energetische Sanierung der Villa Rühl, Dach, Fenster, Fassade, Heizung&amp;quot; ist Bestandteil der Baumaßnahme, die Kosten hierfür sind in der Gesamtaufstellung bereits enthalten. Weiterhin soll im Zuge der Planungen als Alternative zum Fernwärmeanschluss der Einsatz von erneuerbaren Energieträgern oder Kraft-Wärme-Kopplung zur Energieversorgung überprüft werden. &amp;#92;nDie zwingende Abgrenzung der Kosten zwischen der COME-Maßnahme und der Sanierung der Villen Rühl erfolgt ab der Aufstellung der ES-Bau.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders geeignet für:freelance#
+</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:RequestedTenderTotal>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">847260.81</cbc:EstimatedOverallContractAmount>
+         </cac:RequestedTenderTotal>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Mönchebergstraße 40 und 42</cbc:StreetName>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34109</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-03-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2026-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">ja</cbc:OptionsDescription>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Mit Abschluss des Vertrages wird &amp;#92;n- bei Objektplanung Gebäude und Freianlagen die Leistungsphase 2-3 beauftragt. Die Leistungsphasen 4-9 und die Besonderen Leistungen sollen optional beauftragt werden, vorbehaltlich des Vorliegens der Haushaltsmittel. Ein Rechtsanspruch auf die Übertragung aller Leistungsphasen besteht nicht.&amp;#92;n- bei Fachplanung Tragwerksplanung die Leistungsphase 1-3 beauftragt. Die Leistungsphasen 4-6 und die Besonderen Leistungen sollen optional beauftragt werden, vorbehaltlich des Vorliegens der Haushaltsmittel. Ein Rechtsanspruch auf die Übertragung aller Leistungsphasen besteht nicht.&amp;#92;n- bei Fachplanung Technische Ausrüstung die Leistungsphase 1-3 beauftragt. Die Leistungsphasen 4-9 und die Besonderen Leistungen sollen optional beauftragt werden, vorbehaltlich des Vorliegens der Haushaltsmittel. Ein Rechtsanspruch auf die Übertragung aller Leistungsphasen besteht nicht.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

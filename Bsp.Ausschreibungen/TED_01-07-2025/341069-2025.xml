@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<efac:FieldsPrivacy>
+							<efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
+							<cbc:ReasonCode listName="non-publication-justification">fair-comp</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="DEU">Gemäß § 39 (6) 4 VgV werden die Angaben nicht veröffentlicht.</efbc:ReasonDescription>
+						</efac:FieldsPrivacy>
+						<cbc:TotalAmount currencyID="EUR">-1</cbc:TotalAmount>
+						<efac:LotResult>
+							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-med</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-small</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-micro</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-no-verif</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad-low</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							</efac:SettledContract>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-var</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">fair-comp</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="DEU">Gemäß § 39 (6) 4 VgV werden die Angaben nicht veröffentlicht.</efbc:ReasonDescription>
+							</efac:FieldsPrivacy>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">fair-comp</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="DEU">Gemäß § 39 (6) 4 VgV werden die Angaben nicht veröffentlicht.</efbc:ReasonDescription>
+							</efac:FieldsPrivacy>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<efbc:TenderVariantIndicator>0</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">-1</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tenderingparty">TPA-0001</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>HA-496134</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							<cbc:IssueDate>2025-05-21+02:00</cbc:IssueDate>
+							<cbc:Title languageID="DEU">BANDUKABEAT GmbH &amp; Co. KG</cbc:Title>
+							<efac:ContractReference>
+								<cbc:ID>1</cbc:ID>
+							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+							</efac:Tenderer>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">AOK - Die Gesundheitskasse in Hessen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Gernsheimer Straße 43</cbc:StreetName>
+									<cbc:CityName>Groß-Gerau</cbc:CityName>
+									<cbc:PostalZone>64521</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE717</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:00498000000255</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>00498000000255</cbc:Telephone>
+									<cbc:ElectronicMail>beschaffungsstelle@he.aok.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.bundeskartellamt.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Kaiser-Friedrich-Str. 16</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53113</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:004922894990</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>004922894990</cbc:Telephone>
+									<cbc:ElectronicMail>vk@bundeskartelamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID>UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">BANDUKABEAT GmbH &amp; Co. KG</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Schlüchtern</cbc:CityName>
+									<cbc:PostalZone>36381</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE719</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRA 93328 (Amtsgereich Hanau)</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>00496664 9110005</cbc:Telephone>
+									<cbc:ElectronicMail>mail@bandukabeat.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+							<cbc:ID>UBO-0001</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>DEU</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00341069-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">101/2025</efbc:GazetteID><efbc:PublicationDate>2025-05-27+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">3121aa33-d7b8-40c3-ba21-58a9e1eabcd0</cbc:ID>
+	<cbc:ContractFolderID>4c1af725-37ff-4faf-855a-d95b2cacc48c</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-05-26+02:00</cbc:IssueDate>
+	<cbc:IssueTime>13:25:34+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-05-26+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0004</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Einlegung von Rechtsbehelfen § 134 GWB Informations- und Wartepflicht. "(1) Öffentliche Auftraggeber haben die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. (2) Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf 10 Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. (3) Die Informationspflicht entfällt in Fällen, in denen das Verhandlungsverfahren ohne Teilnahmewettbewerb wegen besonderer Dringlichkeit gerechtfertigt ist..." § 135 GWB Unwirksamkeit. "(1) Ein öffentlicher Auftrag ist von Anfang an unwirksam, wenn der öffentliche Auftraggeber 1. gegen § 134 verstoßen hat..." § 160 GWB Einleitung, Antrag. (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt. 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt." § 168 GWB Entscheidung der Vergabekammer. "(1) Die Vergabekammer entscheidet, ob der Antragsteller in seinen Rechten verletzt ist und trifft die geeigneten Maßnahmen, um eine Rechtsverletzung zu beseitigen und eine Schädigung der betroffenen Interessen zu verhindern. Sie ist an die Anträge nicht gebunden und kann auch unabhängig davon auf die Rechtmäßigkeit des Vergabeverfahrens einwirken. (2) Ein wirksam erteilter Zuschlag kann nicht aufgehoben werden..."</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">VG_2024_075</cbc:ID>
+		<cbc:Name languageID="DEU">Kooperationsvertrag über WHEELUP! - ein Präventionsprogramm der AOK Hessen für weiterführende Schulen</cbc:Name>
+		<cbc:Description languageID="DEU">Die Auftraggeberin führt gemäß § 20a SGB V Programme zur Prävention und Gesundheitsförderung im Setting weiterführende Schule durch. Hier werden Jugendliche unabhängig von ihrer sozialen Herkunft erreicht. Die Schwerpunkte liegen in den Handlungsfeldern Bewegung, psychische Gesundheit/Resilienz und Ernährung. Für die Erfüllung  der Prävention und Gesundheitsförderung für die Handlungsfelder wird eine Rahmenvereinbarung mit einem hessenweit tätigen Dienstleistungsunternehmen (Auftragnehmer) abgeschlossen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS0Y5SYTEU37MHU
+
+
+Die Erklärung bzw. Verpflichtungserklärung des Bieters/Wirtschaftsteilnehmers zum Hessischen Vergabe- und Tariftreuegesetz (HVTG) (Eigenerklärung gemäß Ziffer 5 der Anlage B.04).
+
+Die Teilnahmeanträge/Angebote von Bietern/Wirtschaftsteilnehmern, bei denen ein nachweislich schuldhafter Verstoß gegen die Verpflichtung zum HVTG vorliegt, können vom Vergabeverfahren ausgeschlossen werden.
+
+Sofern eine Bewerber- oder Bietergemeinschaft vorliegt, dann ist die Erklärung bzw. Verpflichtungserklärung zum Hessischen Vergabe- und Tariftreuegesetz (HVTG) von jedem beteiligten Unternehmen einzureichen.
+Sofern sich der Eignungsleihe bedient wird, dann ist die Erklärung bzw. Verpflichtungserklärung zum Hessischen Vergabe- und Tariftreuegesetz (HVTG) von jedem eignungsleihendem Unternehmen einzureichen.
+Sofern Unterauftragnehmer/Nachunternehmer ohne Eignungsleihe eingesetzt werden, dann ist die Erklärung bzw. Verpflichtungserklärung zum Hessischen Vergabe- und Tariftreuegesetz (HVTG) von jedem Unterauftragnehmer/Nachunternehmer einzureichen.
+
++++
+
+Die Erklärung des Bieters/Wirtschaftsteilnehmers gemäß der Vorlage des Bundesministeriums für Wirtschaft und Klimaschutz (Eigenerklärung Russland Sanktionen gemäß Anlage B.04A).
+
+An Teilnahmeanträge/Angebote von Bietern/Wirtschaftsteilnehmern, die nicht die Eigenerklärung nach der Vorlage des Bundesministeriums für Wirtschaft und Klimaschutz auf Grundlage des Artikels 5 k Absatz 1 der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 vorweisen können, darf kein Zuschlag erteilt werden, so dass diese vom Verfahren ausgeschlossen werden.
+
+Sofern eine Bewerber- oder Bietergemeinschaft vorliegt, dann ist die Erklärung gemäß der Vorlage des Bundesministeriums für Wirtschaft und Klimaschutz von jedem beteiligten Unternehmen einzureichen.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">92620000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">92000000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">92600000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Darmstadt, kreisfreie Stadt</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Frankfurt am Main, kreisfreie Stadt</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Offenbach am Main, kreisfreie Stadt</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Wiesbaden, kreisfreie Stadt</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Bergstraße</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Darmstadt-Dieburg</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Groß-Gerau</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Hochtaunuskreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Main-Kinzig-Kreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Main-Taunus-Kreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE71A</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Odenwaldkreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE71B</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Offenbach, Landkreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Rheingau-Taunus-Kreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Wetteraukreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Gießen, Landkreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Lahn-Dill-Kreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Limburg-Weilburg</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE723</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Marburg-Biedenkopf</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Vogelsbergkreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kassel, kreisfreie Stadt</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Fulda</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Hersfeld-Rothenburg</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE733</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kassel, Landkreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Schwalm-Eder-Kreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Waldeck-Frankenberg</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Hessenweit - hier: Werra-Meißner-Kreis</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE737</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>30.00000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Wertungspreis: Gesamtpreis für ein Vertragsjahr (= Multiplikation der Einzelpreise mit der Schätzmenge p. a.</cbc:Name>
+						<cbc:Description languageID="DEU">- Pauschalpreis einmalige Initialaufgaben ohne Konzeptarbeit gemäß Ziffer 4.3 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Anpassung Umsetzungskonzept je Handlungsfeld gemäß Ziffer 5.1.1 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Entwicklung weiteres Handlungsfeld 5.1.1, 5.3 und 5.4 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Projektleitung je Vertragsjahr gemäß Ziffer 5.1.2 der Leistungsbeschreibung (Anl D.03)
+- Pauschalpreis Evaluation und Dokumentation je Vertragsjahr gemäß Ziffer 5.1.3 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Social Media gemäß Ziffer 5.1.7.1, Website gemäß Ziffer 5.1.7.2, Newsletter gemäß Ziffer 5.1.7.3 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Promotion-Material gemäß Ziffer 5.1.7.4 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Veranstaltung/Event je Vertragsjahr (ohne Personalaufwand) gemäß Ziffer 5.1.7.5 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz ein Trainer Veranstaltung/Event je Vertragsjahr gemäß Ziffer 5.1.7.5 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis pro Fahrt-Kilometer für Veranstaltungen/Events je Vertragsjahr gemäß Ziffer 5.1.7.5 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Betreuung Multiplikatoren je Vertragsjahr gemäß Ziffer 5.1.7.9 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Schulmaßnahme mit Einführungsveranstaltung je Veranstaltung gemäß Ziffer 5.2.1 und 5.2.2 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Schulmaßnahme ohne Einführungsveranstaltung je Veranstaltung gemäß Ziffer 5.2.2 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Fortbildung für Lehrkräfte je Veranstaltung gemäß Ziffer 5.2.3 und 5.2.3.1 der Leistungsbeschreibung (Anl D.03)
+- Pauschalpreis Fortbildung für Lehrkräfte im Vorbereitungsdienst je Veranstaltung gemäß Ziffer 5.2.3 und 5.2.3.2 der Leistungsbeschreibung (Anl D.03)
+- Pauschalpreis Fortbildung für Sportstudierende je Veranstaltung gemäß Ziffer 5.2.3 und 5.2.3.3 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Nutzung für Ausstattung bzw. Gerätschaften, Trainingshilfen, Aufbewahrungs- u. Transportmittel je Vertragsjahr gemäß Ziffer 5.2.7, 5.2.7.1, 5.2.7.2 und 5.2.7.3 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Materialwartung je Vertragsjahr gemäß Ziffer 5.2.8 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Entwicklung analoge Lernmaterialen gemäß Ziffern 5.2.9, 5.3 Nr. 5 und 5.4 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Entwicklung digitale Lernmedien gemäß Ziffern 5.2.10, 5.2.10.1, 5.3 Nr. 5 und 5.4 der Leistungsbeschreibung (Anl D.03) - Pauschalpreis Betrieb der App je Vertragsjahr gemäß Ziffer 5.2.10.2 der Leistungsbeschreibung (Anl D.03) 
+- Pauschalpreis Online-Kurs je Veranstaltung gemäß Ziffer 5.2.10.3 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Tätigkeiten der Projektleitung Fortbildung Mentoren Psychische Gesundheit/Resilienz und weitere Handlungsfelder gemäß Ziffer 5.3 Nr. 3 und 6 sowie 5.4 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Administration Fortbildung Mentoren Psychische Gesundheit/Resilienz und weitere Handlungsfelder gemäß Ziffer 5.3 Nr. 3 und 6 sowie 5.4 der Leistungsbeschreibung (Anl D.03)
+- Stundensatz Tätigkeiten der Projektleitung Schulmaßnahmen Psychische Gesundheit/Resilienz und weitere Handlungsfelder gemäß Ziffer 5.3 Nr. 4 und 7 sowie 5.4 der Leistungsbeschreibung (Anl D.03) 
+- Stundensatz Administration Schulmaßnahmen Psychische Gesundheit/Resilienz und weitere Handlungsfelder gemäß Ziffer 5.3 Nr. 4 und 7 sowie 5.4 der Leistungsbeschreibung (Anl D.03)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.10000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Zielgruppenanalyse</cbc:Name>
+						<cbc:Description languageID="DEU">Beschreibung der erreichten Zielgruppen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Maßnahmen an Schulen mit/ohne Einführungsveranstaltung</cbc:Name>
+						<cbc:Description languageID="DEU">Nachvollziehbare Beschreibung der Maßnahme/Veranstaltung und Überblick über den Ablauf.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>4.20000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Lernmedien</cbc:Name>
+						<cbc:Description languageID="DEU">Beschreibung der Lernmedien (digital und analog) und Einsatzmöglichkeiten derer (zur besseren Nachvollziehbarkeit können gerne beispielhaft Bilder und/oder, Grobentwürfe und/oder bereits vorhandene der Lernmaterialien ähnlicher Leistungen in das Konzept eingefügt wer-den).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.80000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Eqipment-Förderung</cbc:Name>
+						<cbc:Description languageID="DEU">Beschreibung der Equipment-Förderung, grobe Übersicht über den Ablauf und Nachvollziehbarkeit der Beschaffung von Equipment (z. B. Aufbau &amp; Pflege Händlernetzwerk).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.80000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Website, Newsletter und Social Media</cbc:Name>
+						<cbc:Description languageID="DEU">Beschreibung der Website, welche Inhalte werden dargestellt, welche Aktionen können durchgeführt werden (grobe Übersicht und/oder Mockups sind ausreichend).
+Beschreibung des Einsatzes eines E-Mail-Newsletters und Darstellung der Inhalte (grobe Übersicht ist ausreichend).
+Beschreibung der Nutzung von Social Media, insbesondere Facebook und Instagramm.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.10000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Timeline</cbc:Name>
+						<cbc:Description languageID="DEU">Ein grober Zeit-Maßnahmen-Plan, insbesondere für die Fortbildungsveranstaltungen und die Akquise ist aufzuführen/zu beschreiben.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Ausstattung (Gerätschaften, Trainigshilfen, Transportmittel)</cbc:Name>
+						<cbc:Description languageID="DEU">Beschreibung der vorgesehenen Ausstattung bzw. Gerätschaften, Trainingshilfen und Transportmittel inkl. Anzahl der einzusetzenden Gerätschaften, wünschenswert ist das Einreichen von beispielhaftem Bildmaterial im Konzept zur besseren Nachvollziehbarkeit.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.10000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Kommunikation mit den Teilnehmenden der Settings</cbc:Name>
+						<cbc:Description languageID="DEU">Nachvollziehbare Darstellung der Kontaktaufnahme zu Schulen/Lehrkräften zur Akquise, Zusammenarbeit mit Schulen und Betreuung der Multiplikatoren bei Fragen zum Präventionspro-gramm.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.80000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Akkreditierung</cbc:Name>
+						<cbc:Description languageID="DEU">Berücksichtigung der Akkreditierung von Fortbildungsveranstaltungen im Konzept (z. B. im Zeit-Maßnahmen-Plan oder an einer anderen Stelle im Konzept).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.80000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Hessisches Kultusministerium und ZFS</cbc:Name>
+						<cbc:Description languageID="DEU">Nachvollziehbare Darstellung der Zusammenarbeit mit dem hessischen Kultusministerium im Zusammenhang mit dem Programm "Gesundheit &amp; Bildung" sowie der Zentralstelle für Schulsport und Bewegungsförderung (ZFS).</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.10000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Programmziele</cbc:Name>
+						<cbc:Description languageID="DEU">Darstellung und Erläuterung von mindestens drei Programmzielen</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.10000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Zielgruppenanalyse</cbc:Name>
+						<cbc:Description languageID="DEU">Beschreibung der erreichten Zielgruppe.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Einführungsveranstaltung für Lehrkräfte</cbc:Name>
+						<cbc:Description languageID="DEU">Nachvollziehbare Beschreibung der Maßnahme/Veranstaltung und Überblick über den Ablauf und Inhalte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Maßnahme an Schulen für die Zielgruppe Schülerinnen und Schüler</cbc:Name>
+						<cbc:Description languageID="DEU">Nachvollziehbare Beschreibung der Veranstaltung/des Kurses, Überblick über Ablauf und Inhalte.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2.10000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Elternpartizipation</cbc:Name>
+						<cbc:Description languageID="DEU">Nachvollziehbare Beschreibung der Möglichkeiten der Elternpartizipation.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.60000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Berufserfahrung Projektleiter im Bereich Gesundheitsförderung (allgemein außerhalb der Rolle als Projektleiter)</cbc:Name>
+						<cbc:Description languageID="DEU">Berufserfahrung Projektleiter im Bereich Gesundheitsförderung (allgemein außerhalb der Rolle als Projektleiter)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>4.20000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Berufserfahrung Projektleiter im Bereich Gesundheitsförderung in der Rolle Projektleitung</cbc:Name>
+						<cbc:Description languageID="DEU">Berufserfahrung Projektleiter  im Bereich Gesundheitsförderung in der Rolle Projektleitung</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Berufserfahrung Projektleiter (Anzahl Maßnahmen im Bereich Gesundheitsföderung)</cbc:Name>
+						<cbc:Description languageID="DEU">Berufserfahrung Projektleiter (Anzahl Maßnahmen im Bereich Gesundheitsförderung)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Berufserfahrung Trainer 1 im Bereich Gesundheitsförderung</cbc:Name>
+						<cbc:Description languageID="DEU">Berufserfahrung Trainer 1 im Bereich Gesundheitsförderung</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Berufserfahrung Trainer 2 im Bereich Gesundheitsförderung</cbc:Name>
+						<cbc:Description languageID="DEU">Berufserfahrung Trainer 2 im Bereich Gesundheitsförderung</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3.50000000</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Nachhaltigkeit CO2-Reduktion</cbc:Name>
+						<cbc:Description languageID="DEU">Bitte beschreiben Sie ergänzend im Konzept zu den Kriterien 2.1.1 bis 2.1.10, wie Sie für ein Vertragsjahr die CO2-Emmissionen für den Transport der Gerätschaften/Trainingshilfen und der Trainer zu den einzelnen Maßnahmen erheben, vermeiden und ggf. reduzieren</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Einlegung von Rechtsbehelfen § 134 GWB Informations- und Wartepflicht. "(1) Öffentliche Auftraggeber haben die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. (2) Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf 10 Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an. (3) Die Informationspflicht entfällt in Fällen, in denen das Verhandlungsverfahren ohne Teilnahmewettbewerb wegen besonderer Dringlichkeit gerechtfertigt ist..." § 135 GWB Unwirksamkeit. "(1) Ein öffentlicher Auftrag ist von Anfang an unwirksam, wenn der öffentliche Auftraggeber 1. gegen § 134 verstoßen hat..." § 160 GWB Einleitung, Antrag. (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt. 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt." § 168 GWB Entscheidung der Vergabekammer. "(1) Die Vergabekammer entscheidet, ob der Antragsteller in seinen Rechten verletzt ist und trifft die geeigneten Maßnahmen, um eine Rechtsverletzung zu beseitigen und eine Schädigung der betroffenen Interessen zu verhindern. Sie ist an die Anträge nicht gebunden und kann auch unabhängig davon auf die Rechtmäßigkeit des Vergabeverfahrens einwirken. (2) Ein wirksam erteilter Zuschlag kann nicht aufgehoben werden..."</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">VG_2024_075</cbc:ID>
+			<cbc:Name languageID="DEU">Kooperationsvertrag über WHEELUP! - ein Präventionsprogramm der AOK Hessen für weiterführende Schulen</cbc:Name>
+			<cbc:Description languageID="DEU">Das AOK-Präventionsprogramm WHEELUP! wird seit 2015 im Handlungsfeld "Bewegung" umgesetzt. Es geht bisher fast ausschließlich um Trendsportarten aus dem Bewegungsfeld "Fahren, Rollen, Gleiten" und die niedrigschwellige Umsetzung in der Lebenswelt Schule. 
+
+Nun sollen weitere Handlungsfelder aus der Gesundheitsförderung und Prävention gemäß Leitfaden Prävention dazukommen, um die Maßnahmen aus dem Handlungsfeld Bewegung im Sinne der ganzheitlichen Gesundheitsförderung zu ergänzen. Hierbei ist die Verknüpfung der Handlungsfelder essenziell. Nur so kann eine ganzheitliche Präventionsarbeit gewährleistet und Synergien erzielt werden.
+Vorrangig ist nun die Verknüpfung mit Maßnahmen aus dem Handlungsfeld "Psychische Gesundheit" umzusetzen. Gefördert werden die mentale Gesundheit und die Resilienz-Fähigkeit von Jugendlichen. Im Fokus steht die Vermittlung von Wissen und Soft Skills. Die Implementierung eines dritten Handlungsfeldes (z. B. Ernährung) ist im Laufe der Kooperation denkbar. Auch weitere Scherpunktthemen, die künftig durch den Paragrafen 20 a SGB V und den Leitfaden Prävention gesetzt werden, können künftig besprochen und beplant werden unter dem Dach der Kooperationsvereinbarung.
+
+Alle konzipierten Präventionsmaßnamen für das Programm WHEELUP! werden im Umfeld "Schule" implementiert und befähigen Lehrkräfte in der Umsetzung der Inhalte, um alle Kinder und Jugendlichen zu erreichen. Dieses Vorgehen steht auch im Sinne einer Hilfe zur Selbsthilfe und ist gemäß Leitfaden Prävention befristet. Die Ansätze der Verhältnis- und Verhaltensprävention werden miteinander verknüpft.
+
+Zielgruppen sind Schüler im Setting weiterführende Schule (Klasse 5 bis 13), deren Lehrkräfte und Eltern, Lehrkräfte im Vorbereitungsdienst sowie Sportstudierende für die Sekundarstufe I und II. Die Umsetzung findet ausschließlich im Bundesland Hessen statt.
+
+Als Grundlage dafür wird eine 
+Rahmenvereinbarung mit einem hessenweit tätigen Dienstleistungsunternehmen (Auftragnehmer) abgeschlossen.
+
+Das Auftragsvolumen (Budget) und das Mengengerüst geht aus der Ziffer 4.2 der Leistungsbeschreibung (Anlage D.03) hervor:
+
+- Geschätztes Budget: 500.000,00 EUR (netto) p.
+a.
+
+Das aufgeführte netto Budget (ohne die gesetzlich geschuldete Umsatzsteuer) für den Auftragsgegenstand stellt lediglich eine Prognose dar, die auf Grundlage des vergangenen Umsetzungszeitraums von WHEELUP! und Erfahrungen mit anderen Präventionsprogrammen erstellt wurde. Es wird darauf hingewiesen, dass sich das Budget, besonders aufgrund von gesetzlichen Veränderungen auf dem Gesundheitsmarkt, der sich in einem stetigen Wandel befindet, ändern kann. Insbesondere ist das aufgeführte jährliche Budget nicht als Mindestvolumen zu verstehen (Mindestvolumen ist nicht garantiert). 
+
+- Einmalige Initialaufgaben ohne Konzeptarbeit - für das erste Jahr: Geschätzte Menge = 1 
+
+- Stunden Anpassung Umsetzungskonzept je Handlungsfeld: Geschätzter Stundenaufwand p. a. = 25 
+
+- Stunden Entwicklung weiteres Handlungsfeld: Geschätzter Stundenaufwand p. a. = 500
+
+- Anzahl Projektleitung: Geschätzte Menge p. a. = 1
+
+- Anzahl Evaluation und Dokumentation: Geschätzte Menge p. a. = 1
+
+- Stunden Social Media, Website, Newsletter: Geschätzter Stundenaufwand p. a. = 200
+
+- Stunden Promotion-Material = Geschätzter Stundenaufwand p. a. = 20
+
+- Stunden Veranstaltung/Event, ohne Personalaufwand: Geschätzter Stundenaufwand p. a. = 12
+
+- Stunden ein Trainer Veranstaltung/Event: Geschätzter Stundenaufwand p. a. = 24
+
+- Anzahl Fahrt-Kilometer für Veranstaltungen/Events: Geschätzte Menge km p. a. = 400
+
+- Anzahl Betreuung Multiplikatoren: Geschätzte Menge p. a. = 1
+
+- Anzahl Schulmaßnahme mit Einführungsveranstaltung: Geschätzte Menge p. a. = 30
+
+- Anzahl Schulmaßnahme ohne Einführungsveranstaltung: Geschätzte Menge p. a. = 30
+
+- Anzahl Fortbildung für Lehrkräfte je Veranstaltung: Geschätzte Menge p. a. = 4
+
+- Anzahl Fortbildung für Lehrkräfte im Vorbereitungsdienst: Geschätzte Menge p. a. = 8
+
+- Anzahl Fortbildung für Sportstudierende: Geschätzte Menge p. a. = 2
+
+- Anzahl Nutzung für Ausstattung bzw. Gerätschaften, Trainingshilfen, Aufbewahrungs- u. Transportmittel: Geschätzte Menge p. a. = 1
+
+- Anzahl Materialwartung: Geschätzte Menge p. a. = 1
+
+- Stunden Entwicklung analoge Lernmaterialen: Geschätzter Stundenaufwand p. a. = 40
+
+- Stunden Entwicklung digitale Lernmedien: Geschätzter Stundenaufwand p. a. = 60
+
+- Anzahl Betrieb der App: Geschätzte Menge p. a. = 1
+
+- Anzahl Online-Kurs: Geschätzte Menge p. a. = 1
+
+- Stunden Tätigkeiten der Projektleitung: Fortbildung Mentoren Psychische Gesundheit/Resilienz und weitere Handlungsfelder: Geschätzter Stundenaufwand p. a. = 60
+
+- Stunden Administration: Fortbildung Mentoren Psychische Gesundheit/Resilienz und weitere Handlungsfelder: Geschätzter Stundeaufwand p. a. = 40
+
+- Stunden Tätigkeiten der Projektleitung: Schulmaß-nahmen Psychische Gesundheit/Resilienz und weitere Handlungsfelder: Geschätzter Stundenaufwand p. a. = 300
+
+- Stunden Administration: Schulmaßnahmen Psychische Gesundheit/Resilienz und weitere Handlungsfelder: Geschätzter Stundenaufwand p. a. = 200     
+
+Die geschätzten Mengen in der oben stehenden Tabelle stellen lediglich eine Prognose dar, die auf Grundlage von Erfahrungswerten der vergangenen Jahre erstellt wurde. 
+
+Die prognostizierten Mengenangaben je Vertragsjahr dienen als Grundlage für die Kalkulation. Es wird darauf hingewiesen, dass die Auftraggeberin keinen Einfluss auf das Buchungsverhalten der Schulen oder Bedarf an Events/Veranstaltungen hat. Insbesondere sind die vorgenannten Angaben nicht als Mindestmengen zur verstehen (Mindestabnahmemengen sind nicht garantiert).</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+				<cbc:ProcurementType languageID="DEU">Leistungsbeschreibung (Ziffer 7, Anlage D.03):
+Der Auftragnehmer verpflichtet sich Nachhaltigkeit, Wirtschaftlichkeit und Sparsamkeit bei der Auswahl und Beauftragung von Unterauftragnehmern sowie bei der Beschaffung von Materialien zu berücksichtigen. Dies beinhaltet die Berücksichtigung von umweltfreundlichen Materialien und ressourcenschonenden Arbeitsweisen. Anwendung finden diese Prinzipien immer, wenn innerhalb des Programms externe Kosten an die Auftraggeberin in voller Höhe weitergegeben werden (vgl. 5.1.7.4, 5.2.9, 5.2.10 der Leistungsbeschreibung, Anlage D.03). Beide Parteien verpflichten sich, durch regelmäßige Überprüfungen und Kommunikation sicherzustellen, dass diese Prinzipien durchgängig eingehalten werden.
+
++++
+
+Zuschlagskriterien (Ziffer 2.6, Anlage B.06 und A.02):
+Qualitätskriterium 2.6: Nachhaltigkeit CO2-Reduktion
+Ziel des Qualitätskriteriums Nachhaltigkeit: Im Rahmen der Leistungserbringung soll neben der Gesundheitsförderung von Schülern auch der Umweltschutz als nachhaltiges qualitatives Kriterium berücksichtigt werden. 
+
+Bitte beschreiben Sie ergänzend im Konzept (Anlage B.06) zu den Kriterien 2.1.1 bis 2.1.10, wie Sie für ein Vertragsjahr die CO2-Emmissionen für den Transport der Gerätschaften/Trainingshilfen und der Trainer zu den einzelnen Maßnahmen erheben, vermeiden und ggf. reduzieren.</cbc:ProcurementType>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">92620000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">92000000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">92600000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Darmstadt, kreisfreie Stadt</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Frankfurt am Main, kreisfreie Stadt</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Offenbach am Main, kreisfreie Stadt</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE713</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Wiesbaden, kreisfreie Stadt</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Bergstraße</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE715</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Darmstadt-Dieburg</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE716</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Groß-Gerau</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE717</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Hochtaunuskreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE718</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Main-Kinzig-Kreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE719</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Main-Taunus-Kreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE71A</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Odenwaldkreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE71B</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Offenbach, Landkreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE71C</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Rheingau-Taunus-Kreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Wetteraukreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE71E</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Gießen, Landkreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Lahn-Dill-Kreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE722</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Limburg-Weilburg</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE723</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Marburg-Biedenkopf</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Vogelsbergkreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE725</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kassel, kreisfreie Stadt</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Fulda</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Hersfeld-Rothenburg</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE733</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kassel, Landkreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE734</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Schwalm-Eder-Kreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE735</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Kreis Waldeck-Frankenberg</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE736</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Hessenweit - hier: Werra-Meißner-Kreis</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE737</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Der Kooperationsvertrag beginnt am 01.08.2025. Die Laufzeit des Vertrags beträgt 24 Monate und kann zweimal um jeweils 12 Monate verlängert werden. Die maximal mögliche Vertragslaufzeit beträgt 48 Monate.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+	</cac:TenderResult>
+</ContractAwardNotice>

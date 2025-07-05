@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="EUR">102676.27</cbc:TotalAmount>
+						<efac:LotResult>
+							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:HigherTenderAmount currencyID="EUR">161735.75</cbc:HigherTenderAmount>
+							<cbc:LowerTenderAmount currencyID="EUR">102676.27</cbc:LowerTenderAmount>
+							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>18</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>18</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							</efac:SettledContract>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">102676.27</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<efbc:TermCode listName="applicability">no</efbc:TermCode>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tenderingparty">TPA-0001</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>EHS_16.01.2025</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							<cbc:AwardDate>2025-03-19+01:00</cbc:AwardDate>
+							<cbc:IssueDate>2025-04-02+02:00</cbc:IssueDate>
+							<cbc:Title languageID="DEU">Umbau / Erweiterung Grundschule Ergenzingen - Fachplanung Tragwerksplanung</cbc:Title>
+							<efac:ContractReference>
+								<cbc:ID>2478.1</cbc:ID>
+							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+							</efac:Tenderer>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.rottenburg.de/</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Rottenburg am Neckar</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Marktplatz 18</cbc:StreetName>
+									<cbc:CityName>Rottenburg am Neckar</cbc:CityName>
+									<cbc:PostalZone>72108</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE142</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE146889553</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>CPM GmbH / Frau Deniz Sunkak</cbc:Name>
+									<cbc:Telephone>+49 15158887374</cbc:Telephone>
+									<cbc:ElectronicMail>2478@cpm.gmbh</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.cpm.gmbh</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">CPM GmbH Gesellschaft für Projektmanagement</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Mercedesstraße 3/1</cbc:StreetName>
+									<cbc:CityName>Sindelfingen</cbc:CityName>
+									<cbc:PostalZone>71063</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE112</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRB 244170</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>CPM GmbH / Frau Deniz Sunkak</cbc:Name>
+									<cbc:Telephone>+49 15158887374</cbc:Telephone>
+									<cbc:ElectronicMail>2478@cpm.gmbh</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://rp.baden-wuerttemberg.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Baden-Württemberg beim Regierungspräsidium Karlsruhe</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Durlacher Allee 100</cbc:StreetName>
+									<cbc:CityName>Karlsruhe</cbc:CityName>
+									<cbc:PostalZone>76137</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE122</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>08-A9866-40</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 721-9268730</cbc:Telephone>
+									<cbc:Telefax>+49 721-9263985</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@rpk.bwl.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID>UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
+							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">EHS beratende Ingenieure f. Bauwesen GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Leuschner Straße 77</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34134</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>Umsatzsteuer-ID: DE811806502</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>0561-95088-0</cbc:Telephone>
+									<cbc:ElectronicMail>ausschreibung@ehs-ingenieure.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+							<cbc:ID>UBO-0001</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>DEU</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00246293-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">74/2025</efbc:GazetteID><efbc:PublicationDate>2025-04-15+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">e3789e11-a365-4a1d-a2c4-596d86e2f887</cbc:ID>
+	<cbc:ContractFolderID>91618b2b-35b6-49cf-a6c7-d9bda26be851</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-04-11+02:00</cbc:IssueDate>
+	<cbc:IssueTime>15:47:09+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-04-11+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Es gelten die Bestimmungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB). Demnach wird bezüglich der Einleitung von Nachprüfungsverfahren auf §160 GWB verwiesen: (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit 1.    der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2.    Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3.    Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4.    mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.  Bezüglich der Information nicht berücksichtigter Bieter und Bewerber gelten §§134, 135 GWB. Nach §134 Abs.1 GWB haben öffentliche Auftraggeber die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. Nach § 134 Abs.2 GWB darf ein Vertrag erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf zehn Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an.  Gemäß §135 Abs.2 Satz 1 GWB kann die Unwirksamkeit nach §135 Absatz 1 GWB nur festgestellt werden, wenn sie im Nachprüfungsverfahren innerhalb von 30 Kalendertagen nach der Information der betroffenen Bieter und Bewerber durch den öffentlichen Auftraggeber über den Abschluss des Vertrags, jedoch nicht später als sechs Monate nach Vertragsschluss geltend gemacht worden ist. Hat der Auftraggeber die Auftragsvergabe im Amtsblatt der Europäischen Union bekannt gemacht, endet die Frist zur Geltendmachung der Unwirksamkeit 30 Kalendertage nach Veröffentlichung der Bekanntmachung der Auftragsvergabe im Amtsblatt der Europäischen Union.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">2478.1</cbc:ID>
+		<cbc:Name languageID="DEU">Umbau / Erweiterung Grundschule Ergenzingen - Fachplanung Tragwerksplanung</cbc:Name>
+		<cbc:Description languageID="DEU">Die Stadt Rottenburg beabsichtigt den bestehende Schulstandort der Grundschule Ergenzingen zu einer modernen dreizügigen Schule mit Ganztages- und Essenbereich auszubauen. Dabei soll der Bestandsbau lediglich mit geringen baulichen Eingriffen in die Umstrukturierung einbezogen werden.  Bisher wurde für die Erweiterung und Umbau der Grundschule Ergenzingen ein Architektenwettbewerb durchgeführt.   Für den Neubau sind ca. 1.440 BGF geplant.  Für die Sanierung Umbau ca. 2.140 BGF geplant.  Das neue Gebäude soll in Holzbauweise geplant und realisiert werden. Die Holzbalkendecken sollen zwischen Außenwänden und Holzunterzügen in den Flurinnenwänden gespannt werden, die die Lasten aus den Decken an Holzstützen weiterleiten werden. Aus statischen, bzw. brandschutztechnischen Gründen können in Teilen alternative Bauweisen zum Einsatz kommen. Dabei wird es positiv gesehen, wenn sich die Holzbauweise auch in der Fassadengestaltung widerspiegelt.  Auf eine materialgerechte und wirtschaftliche Planung ist zu achten.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4DMZ5FU8
+
+
+Es werden lediglich Bieter/Bietergemeinschaften berücksichtigt, bei denen keine Ausschlussgründe nach §§123, 124 ff. GWB vorliegen und deren Eignung den Vorgaben des AGs entspricht.  Die eingegangenen Angebote werden auf Vollständigkeit, auf fachliche und rechnerische Richtigkeit geprüft. Der Auftraggeber überprüft die Eignung der Bieter anhand der festgelegten Eignungskriterien und das Nichtvorliegen von Ausschlussgründen nach den §§ 123 und 124 GWB. Der Zuschlag wird auf das wirtschaftlichste Angebot anhand der festgelegten Zuschlagskriterien erteilt. Hierzu werden die Angebote anhand der festgelegten Zuschlagskriterien geprüft und bewertet. Der Auftraggeber behält sich vor, fehlende Unterlagen im Rahmen des gesetzlich Zulässigen bis zum Ablauf einer zu bestimmenden Nachrist nachzufordern, ist hierzu jedoch nicht verpflichtet. Unvollständige Angebote, die trotz gegebenenfalls erfolgter Nachforderung von Unterlagen weiterhin unvollständig bleiben, können nicht berücksichtigt werden. Den Zuschlag erhält der Bieter mit der höchsten Gesamtpunktzahl. Bei Punktgleichheit erfolgt der Zuschlag auf das Angebot mit der niedrigsten Angebotssumme. Zur Ermittlung des wirtschaftlichsten Angebots anhand der Zuschlagskriterien und zur Bewertung der Zuschlagskriterien wird auf die Vergabeunterlagen verwiesen.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71327000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Königsberger Straße 50</cbc:StreetName>
+				<cbc:CityName>Rottenburg am Neckar</cbc:CityName>
+				<cbc:PostalZone>72108</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Honorar</cbc:Name>
+						<cbc:Description languageID="DEU">Bezüglich der preislichen Bewertung erhält der Bieter mit dem günstigsten Honorar (Gesamtangebotssumme EUR brutto des Angebotsformulars) die höchste Punktzahl. Angebote, deren Gesamtangebotssumme mindestens doppelt so hoch ist wie das günstigste Angebot, erhalten jeweils null Punkte. Die Honorarangebote der übrigen Angebote werden im Verhältnis zu der Punktzahl des günstigsten Bieters linear prozentual schlechter bewertet.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Referenzprojekte Projektleitung</cbc:Name>
+						<cbc:Description languageID="DEU">Mindestanforderungen Referenzprojekt 1:  - Nicht älter als 3 Jahre (Fertigstellung/Inbetriebnahme frühestens 01.12.2021) - Tragwerksplanung gemäß § 51 HOAI in Verbindung mit Anlage 14 zu § 51 Absatz 5, § 52 Absatz 2 - Herstellkosten größer gleich 1,5 Mio. netto (KG 300 und 400 nach DIN 276) - Sanierung, Umbau oder Modernisierung im Hochbau  Bepunktung Referenz 1:  A) Erbrachte Leistungsphasen LPH1= 1 Punkt, LPH2= 2 Punkte, LPH3= 2 Punkte, LPH4= 2 Punkte, LPH5= 2 Punkte, LPH6= 1 Punkt  B) Gebäudenutzungsart Schule, Kindergarten oder vergleichbare Nutzungsart = 5 Punkte Andere Nutzungsart = 3 Punkte  C) Öffentlicher Auftraggeber Referenzgeber ist öffentlicher Auftraggeber oder Sektorenauftraggeber = 5 Punkte Referenzgeber ist kein öffentlicher Auftraggeber oder kein Sektorenauftraggeber = 3 Punkte   Mindestanforderungen Referenzprojekt 2:  - Nicht älter als 3 Jahre (Fertigstellung/Inbetriebnahme frühestens 01.12.2021) - Tragwerksplanung gemäß § 51 HOAI in Verbindung mit Anlage 14 zu § 51 Absatz 5, § 52 Absatz 2 - Schule, Kindergarten oder vergleichbare Nutzungsart - Neubau oder Erweiterungsbau  Bepunktung Referenz 2:  A) Herstellkosten Herstellkosten (KG 300-400) kleiner gleich 1 Mio. EUR = 2 Punkte Herstellkosten (KG 300-400) größer 1 Mio. EUR = 3 Punkte Herstellkosten (KG 300-400) größer gleich 2 Mio. EUR = 4 Punkte  B) Erbrachte Leistungsphasen LPH1= 2 Punkte LPH2= 3 Punkte, LPH3= 3 Punkte, LPH4= 3 Punkte, LPH5= 3 Punkte, LPH6= 2 Punkte  Die Mindestanforderungen müssen erfüllt werden, ansonsten kann die jeweilige Referenz nicht berücksichtigt werden. Referenzprojekte dürfen nicht mehrfach aufgeführt werden.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Personalkonzept</cbc:Name>
+						<cbc:Description languageID="DEU">Die Bürostruktur bzw. die Organisation des Unternehmens und die Position des Teams im Unternehmen ist anhand eines Organigramms darzustellen. (max. 3 Punkte)  Das vorgesehene Projektteam ist vorzustellen. Dabei sind die Verantwortlichkeiten bzw. Aufgaben und die Kernkompetenzen der jeweiligen Teammitglieder sowie ihre Erfahrung und Qualifikationen aufzuzeigen. (max. 8 Punkte)      - Projektleiter Berufserfahrung =&gt;7 Jahre=5 Punkte, &lt; 7 Jahre= 2 Punkte      - Stellv. Projektleiter Berufserfahrung =&gt;4 Jahre= 2 Punkte, &lt;4 Jahre= 1 Punkt      - Darstellung Aufgabenteilung = 1 Punkt  Es sind die vorgesehenen, kalkulierten Personalkapazitäten über die gesamte Projektzeit darzustellen. (max. 3 Punkte)  Es ist aufzuzeigen, wie vor allem die Verfügbarkeit der Projektleitung über die gesamte Projektlaufzeit gewährleistet wird. Anhand eines Organigramms soll das Personalkonzept für das Projekt mit der Vertretungsregelung aufgeführt werden. Es soll ersichtlich sein, wie sich das Team im Falle von Urlaub, Krankheit etc. organisiert und die vollumfängliche Vertragsleistung gewährleistet wird. (max. 3 Punkte)  Insbesondere ist das Konzept zur vor Ort Präsenz während der Planungs- und Ausführungsphase darzustellen. Dabei soll auch auf die Präsenz beim Auftraggeber und auf der Baustelle sowie auf die Erreichbarkeit der Projektleitung eingegangen werden. (max. 3 Punkte)</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Es gelten die Bestimmungen des Gesetzes gegen Wettbewerbsbeschränkungen (GWB). Demnach wird bezüglich der Einleitung von Nachprüfungsverfahren auf §160 GWB verwiesen: (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht. Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. (3) Der Antrag ist unzulässig, soweit 1.    der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2.    Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3.    Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4.    mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.  Bezüglich der Information nicht berücksichtigter Bieter und Bewerber gelten §§134, 135 GWB. Nach §134 Abs.1 GWB haben öffentliche Auftraggeber die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. Nach § 134 Abs.2 GWB darf ein Vertrag erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf zehn Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an.  Gemäß §135 Abs.2 Satz 1 GWB kann die Unwirksamkeit nach §135 Absatz 1 GWB nur festgestellt werden, wenn sie im Nachprüfungsverfahren innerhalb von 30 Kalendertagen nach der Information der betroffenen Bieter und Bewerber durch den öffentlichen Auftraggeber über den Abschluss des Vertrags, jedoch nicht später als sechs Monate nach Vertragsschluss geltend gemacht worden ist. Hat der Auftraggeber die Auftragsvergabe im Amtsblatt der Europäischen Union bekannt gemacht, endet die Frist zur Geltendmachung der Unwirksamkeit 30 Kalendertage nach Veröffentlichung der Bekanntmachung der Auftragsvergabe im Amtsblatt der Europäischen Union.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2478.1</cbc:ID>
+			<cbc:Name languageID="DEU">Umbau / Erweiterung Grundschule Ergenzingen - Fachplanung Tragwerksplanung</cbc:Name>
+			<cbc:Description languageID="DEU">Für die Leistungen der Tragwerksplanung gem. §§49, 51 HOAI LPH 1-6 wird ein geeignetes Ingenieurbüro gesucht. Die Beauftragung soll stufenweise erfolgen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71327000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71300000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Königsberger Straße 50</cbc:StreetName>
+					<cbc:CityName>Rottenburg am Neckar</cbc:CityName>
+					<cbc:PostalZone>72108</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE142</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Die Planungsleistungen werden stufenweise beauftragt. Der AG überträgt dem AN mit Zuschlagserteilung die im Vertrag aufgeführte Leistung (LPH 1-4). Die weitere Beauftragung erfolgt jeweils durch schriftliche Mitteilung des AG. Die Beauftragung weiterer Leistungen steht dem AG frei. Dem AN steht kein Rechtsanspruch hierauf zu.  Beauftragungsstufen:  Stufe 1: LPH 1-4 Stufe 2: LPH 5-6 gemäß § 51 HOAI in Verbindung mit Anlage 14 zu § 51 Absatz 5, § 52 Absatz 2</cbc:OptionsDescription>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+	</cac:TenderResult>
+</ContractAwardNotice>

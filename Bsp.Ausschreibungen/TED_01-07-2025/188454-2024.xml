@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:NoticeSubType>
+                        <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                    </efac:NoticeSubType>
+                    <efac:Organizations>
+                        <efac:Organization>
+                            <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">IKK eGK-Post 2024 Beschaffung GbR</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Kölner Straße 3</cbc:StreetName>
+                                    <cbc:CityName>Bergisch Gladbach</cbc:CityName>
+                                    <cbc:PostalZone>51429</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DEA2B</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>0085388807</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+49 2204 912344021</cbc:Telephone>
+                                    <cbc:ElectronicMail>Sabine.Altenhain@telematikk.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                        <efac:Organization>
+                            <efac:Company>
+                                <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                </cac:PartyIdentification>
+                                <cac:PartyName>
+                                    <cbc:Name languageID="DEU">Vergabekammern des Bundes</cbc:Name>
+                                </cac:PartyName>
+                                <cac:PostalAddress>
+                                    <cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+                                    <cbc:CityName>Bonn</cbc:CityName>
+                                    <cbc:PostalZone>53123</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                                    </cac:Country>
+                                </cac:PostalAddress>
+                                <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>004922894990</cbc:CompanyID>
+                                </cac:PartyLegalEntity>
+                                <cac:Contact>
+                                    <cbc:Telephone>+49 228 94990</cbc:Telephone>
+                                    <cbc:Telefax>+49 228 9499163</cbc:Telefax>
+                                    <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                                </cac:Contact>
+                            </efac:Company>
+                        </efac:Organization>
+                    <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+                <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00188454-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">64/2024</efbc:GazetteID><efbc:PublicationDate>2024-03-29Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+    <cbc:ID schemeName="notice-id">bf880f71-1632-4735-812e-bf8b7c37a1de</cbc:ID>
+    <cbc:ContractFolderID>6461bca6-ea5b-411a-a043-18f4eed8ee28</cbc:ContractFolderID>
+    <cbc:IssueDate>2024-03-27+01:00</cbc:IssueDate>
+    <cbc:IssueTime>16:02:32.506+01:00</cbc:IssueTime>
+    <cbc:VersionID>01</cbc:VersionID>
+    <cbc:RequestedPublicationDate>2024-03-29+01:00</cbc:RequestedPublicationDate>
+    <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+    <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+    <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+    <cac:ContractingParty>
+        <cac:ContractingPartyType>
+            <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+        </cac:ContractingPartyType>
+        <cac:ContractingActivity>
+            <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+        </cac:ContractingActivity>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cac:ProcurementLegislationDocumentReference>
+            <cbc:ID>vgv</cbc:ID>
+        </cac:ProcurementLegislationDocumentReference>
+        <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+                <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Eigenerklärung, dass keine Ausschlussgründe nach § 123 und § 124 GWB vorliegen</cbc:Description>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name languageID="DEU">Briefbeförderung eGK und PIN-Briefe</cbc:Name>
+        <cbc:Description languageID="DEU">Gegenstand dieser Ausschreibung ist die Abholung, Beförderung und Zustellung der täglich anfallenden adressierten Briefsendungen der Auftraggeber gemäß den Bestimmungen des Postgesetzes (PostG) in Verbindung mit der Post-Universaldienstleistungsverordnung (PUDLV) und dieser Leistungsbeschreibung. Die Tagespost umfasst Briefe mit konfektionierter Gesundheitskarte bzw. PIN-Briefe. Die Briefsendungen können Beilagen enthalten. Presseerzeugnisse und inhaltsgleiche Massensendungen mit verlängerten Zustellfristen sind nicht Bestandteil dieser Leistungsbeschreibung. Das jährliche Briefvolumen schwankt zwischen ca. 2.000.000 und ca. 6.000.000 Briefsendungen. Die Zustellung beim Empfänger erfolgt grundsätzlich im Inland. In geringem Umfang sind Auslandsbriefe zu befördern. Die Briefbeförderung ist mit Wirkung zum 1. November 2024 zu erbringen.</cbc:Description>
+        <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+        <cbc:Note languageID="DEU">Die IKK eGK-Post 2024 Beschaffung GbR handelt in dem Vergabeverfahren als zentrale Vergabestelle und damit im Namen und auf Rechnung ihrer Gesellschafter. Gesellschafter der IKK eGK-Post 2024 Beschaffung GbR sind: 1) BundesInnungskrankenkasse Gesundheit, kurz: BIG direkt gesund, Rheinische Straße 1, 44137 Dortmund; 2) IKK - Die Innovationskasse, Lachswehrallee 1, 23558 Lübeck; 3) IKK gesund plus, Umfassungsstraße 85, 39124 Magdeburg; 4) IKK Brandenburg und Berlin, Ziolkowskistraße 6, 14480 Potsdam; 5) IKK classic, Tannenstraße 4 b, 01099 Dresden; 6) IKK Südwest, Europaallee 3-4, 66113 Saarbrücken; 7) KNAPPSCHAFT, Pieperstraße 14-28, 44789 Bochum; 8) Sozialversicherung für Landwirtschaft, Forsten und Gartenbau als Landwirtschaftliche Krankenkasse (LKK), Weißensteinstraße 70-72, 34131 Kassel. Mit Zuschlagserteilung durch die Gesellschaft werden unmittelbar Leistungsverträge zwischen dem Auftragnehmer und den einzelnen Gesellschaftern begründet, soweit sich die ausgeschriebenen Leistungen auf die dort Versicherten beziehen. Die IKK eGK-Post 2024 Beschaffung GbR bedient sich zur Durchführung des Verfahrens in organisatorischer Hinsicht der Arbeitsgemeinschaft ARGE TelematiKK (Kölner Straße 3, 51429 Bergisch Gladbach).</cbc:Note>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">64110000</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">64112000</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cac:Address>
+                <cbc:CountrySubentityCode listName="nuts">DEF0B</cbc:CountrySubentityCode>
+                <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        <cac:TenderingTerms>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+                                <cbc:Description languageID="DEU">1) Der Bieter muss über eine gültige Lizenz der Bundesnetzagentur zur Beförderung von Briefsendungen im Gebiet der Bundesrepublik Deutschland verfügen. 2) Der Bieter muss seinen Arbeitnehmerinnen und Arbeitnehmern den gesetzlichen Mindestlohn zahlen. 3) Der Bieter muss durch eine Eigenerklärung seine Zuverlässigkeit nachweisen. 4) Der Bieter muss durch Eigenerklärung versichern, nicht mit der Organisation „Scientology“ zusammen zu arbeiten oder ihr anzugehören. 5) Der Bieter muss durch Eigenerklärung versichern, entsprechend der Verordnung (EU) 2022/576 die ausgeschriebene Dienstleistung nicht mit russischen Unternehmen zu erbringen. Weitere Einzelheiten und entsprechende Formblätter sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+                                <cbc:Description languageID="DEU">1) Der Bieter muss über eine Betriebshaftpflichtversicherung verfügen (oder sich im Falle des Zuschlags zum Abschluss einer solchen Versicherung verpflichten) mit einer Deckungssumme von a) mindestens € 1.000.000 für Sachschäden, b) mindestens € 3.000.000 für Personenschäden und c) mindestens € 1.000.000 für Vermögensschäden, alle vorgenannten Werte mindestens 2-fach maximiert pro Kalenderjahr. 2) Der Bieter muss mit vergleichbaren Leistungen in den letzten drei Jahren einen Umsatz von mindestens € 5.000.000,00 p.a. erzielt haben. Weitere Einzelheiten und entsprechende Formblätter sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:SelectionCriteria>
+                                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                <cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+                                <cbc:Description languageID="DEU">1) Der Bieter muss über mindestens 2 Referenzen der letzten 3 Jahre verfügen, die nach Art und Umfang mit der angefragten Leistung vergleichbar sind. Vergleichbar ist, wenn folgende Kriterien erfüllt sind: a) das Versandvolumen E+1 oder E+2 (anteilig mit mindestens 95%) mindestens 2.000.000 Sendungen p.a. beträgt, b) eine werktägliche Abholung erfolgt, c) ein bestehender Vertrag mit mindestens einem Jahr Bestand bei Angebotsabgabe oder beendeter Vertrag mit mindestens 2 Jahren Vertragslaufzeit, der nicht vom Auftraggeber aus wichtigem Grund gekündigt wurde, vorliegt. 2) Der Bieter muss zum Zeitpunkt der Angebotsabgabe über ein gültiges Zertifikat zur Qualitätssicherung gemäß DIN ISO 9001 oder vergleichbar verfügen. 3) Der Bieter muss zum Zeitpunkt der Angebotsabgabe über ein gültiges Zertifikat zur Laufzeitmessung gemäß DIN EN 13850 oder vergleichbar verfügen. Hinweis: Die DIN EN 13850 ist ein genormtes Verfahren zur Messung der Laufzeit von Briefsendungen „end-to-end“. Das genormte Messverfahren stellt ein einheitliches Verfahren für die Messung der Laufzeit von Ende zu Ende der Postsendungen zur Verfügung. Die Vergabestelle bezweckt mit diesem Eignungskriterium den Nachweis der Zuverlässigkeit und Leistungsfähigkeit des Bieters in Bezug auf die Sendungslaufzeit, wie sie sich aus den Anforderungen der Leistungsbeschreibung ergibt. Nur durch den Nachweis der Norm oder eines gleichwertigen Zertifikates ist sichergestellt, dass die Eignung des Bieters auf Basis eines verlässlichen Messverfahrens geprüft werden kann. Darüber hinaus wird nur über die Normierung gewährleistet, dass die Messungen von einer externen unabhängigen und zertifizierten Prüfstelle überwacht werden und somit die Objektivität der Messung garantiert ist. Das erhebliche Sendungsvolumen in Verbindung mit den Anforderungen an die Sendungslaufzeit erfordern den Nachweis einer gesicherten Laufzeitmessung. Weitere Einzelheiten und entsprechende Formblätter sind den Vergabeunterlagen zu entnehmen.</cbc:Description>
+                            </efac:SelectionCriteria>
+                            <efac:StrategicProcurement>
+                                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                            </efac:StrategicProcurement>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+            <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+            <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+            <cac:CallForTendersDocumentReference>
+                <cbc:ID>E61523572</cbc:ID>
+                <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                <cbc:LanguageID>DEU</cbc:LanguageID>
+                <cac:Attachment>
+                    <cac:ExternalReference>
+                        <cbc:URI>https://www.subreport.de/E61523572</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:Attachment>
+            </cac:CallForTendersDocumentReference>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:TendererQualificationRequest>
+                <cac:SpecificTendererRequirement>
+                    <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+                    <cbc:Description languageID="DEU">Alle geforderten Unterlagen sind mit dem Angebot vorzulegen. Sollten geforderte Unterlagen bis zum Ablauf der Angebotsfrist nicht oder nicht vollständig vorgelegt worden sein, behält sich der Auftraggeber die Nachforderung der fehlenden Unterlagen unter Setzung einer angemessenen, nach dem Kalender bestimmten Frist vor (§ 56 Abs. 2 VgV). Die Frist zur Nachreichung beginnt am Tag nach der elektronischen Absendung der Nachforderung. Die Nachforderung von leistungsbezogenen Unterlagen, die die Wirtschaftlichkeitsbewertung der Angebote anhand der Zuschlagskriterien betreffen, ist ausgeschlossen. Preisangaben können nur nachgefordert werden, wenn es sich um unwesentliche Einzelpositionen handelt, deren Einzelpreise den Gesamtpreis nicht verändern oder die Wertungsreihenfolge und den Wettbewerb nicht beeinträchtigen (§ 56 Abs. 3 VgV). Werden die fehlenden Nachweise und Erklärungen nicht innerhalb der Nachforderungsfrist eingereicht, wird das Angebot ausgeschlossen (§ 57 Abs. 1 Nr. 2 VgV).</cbc:Description>
+                </cac:SpecificTendererRequirement>
+            </cac:TendererQualificationRequest>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:ContractExecutionRequirement>
+                <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+            </cac:ContractExecutionRequirement>
+            <cac:AwardingTerms>
+                <cac:AwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Preis (Gewichtung: 50 %)</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Logistikkonzept (Gewichtung: 10 %)</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Laufzeitversprechen (Gewichtung: 10 %)</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Nationale Abholmöglichkeiten (Gewichtung: 10 %)</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Notfallkonzept (Gewichtung: 10 %)</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                    <cac:SubordinateAwardingCriterion>
+                        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                        <cbc:Description languageID="DEU">Umweltschutzkonzept (Gewichtung: 10 %)</cbc:Description>
+                    </cac:SubordinateAwardingCriterion>
+                </cac:AwardingCriterion>
+            </cac:AwardingTerms>
+            <cac:TenderRecipientParty>
+                <cbc:EndpointID>https://www.subreport.de/E61523572</cbc:EndpointID>
+            </cac:TenderRecipientParty>
+            <cac:TenderValidityPeriod>
+                <cbc:DurationMeasure unitCode="DAY">63</cbc:DurationMeasure>
+            </cac:TenderValidityPeriod>
+            <cac:AppealTerms>
+                <cac:PresentationPeriod>
+                    <cbc:Description languageID="DEU">Nach § 160 Abs. 3 S. 1 Nr. 1 bis 4 GWB ist der Antrag auf Einleitung eines Nachprüfungsverfahrens unzulässig, soweit 1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat, 2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Angebotsabgabe oder zur Bewerbung gegenüber dem Auftraggeber gerügt werden, 4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+                </cac:PresentationPeriod>
+                <cac:AppealInformationParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealInformationParty>
+                <cac:AppealReceiverParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID>ORG-0002</cbc:ID>
+                    </cac:PartyIdentification>
+                </cac:AppealReceiverParty>
+            </cac:AppealTerms>
+            <cac:Language>
+                <cbc:ID>DEU</cbc:ID>
+            </cac:Language>
+            <cac:PostAwardProcess>
+                <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+            </cac:PostAwardProcess>
+        </cac:TenderingTerms>
+        <cac:TenderingProcess>
+            <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+            <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+            <cac:TenderSubmissionDeadlinePeriod>
+                <cbc:EndDate>2024-04-29+02:00</cbc:EndDate>
+                <cbc:EndTime>11:00:00.000+02:00</cbc:EndTime>
+            </cac:TenderSubmissionDeadlinePeriod>
+            <cac:AdditionalInformationRequestPeriod>
+                <cbc:EndDate>2024-04-23+02:00</cbc:EndDate>
+                <cbc:EndTime>11:00:00.000+01:00</cbc:EndTime>
+            </cac:AdditionalInformationRequestPeriod>
+            <cac:OpenTenderEvent>
+                <cbc:OccurrenceDate>2024-04-29+02:00</cbc:OccurrenceDate>
+                <cbc:OccurrenceTime>11:00:00.000+02:00</cbc:OccurrenceTime>
+                <cbc:Description languageID="DEU">1) Fragen zum Vergabeverfahren sind in deutscher Sprache ausschließlich elektronisch über die Funktion „Bieterkommunikation“ des Bieterbereichs auf der Vergabeplattform zu stellen. 2) Antworten auf Fragen zum Vergabeverfahren erfolgen in anonymisierter Form. Die Fragen und Antworten sowie mögliche Änderungen der Vergabeunterlagen werden über die Funktion „Bieterkommunikation“ im Bieterbereich auf der Vergabeplattform zur Verfügung gestellt. Soweit Sie sich registriert haben, erhalten Sie automatisch eine Benachrichtigung an die von Ihnen angegebene E-Mailadresse. 3) Angebote sind in deutscher Sprache ausschließlich elektronisch über die Angebotsfunktion im Bieterbereich der Vergabeplattform einzureichen. 4) Die Bindefrist endet am 30.06.2024. Dies entspricht der obigen Angabe zur Gültigkeit des Angebots von 63 Tagen.</cbc:Description>
+            </cac:OpenTenderEvent>
+            <cac:AuctionTerms>
+                <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+            </cac:AuctionTerms>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+            <cac:ContractingSystem>
+                <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+            </cac:ContractingSystem>
+        </cac:TenderingProcess>
+        <cac:ProcurementProject>
+            <cbc:ID>E61523572</cbc:ID>
+            <cbc:Name languageID="DEU">Briefbeförderung eGK und PIN-Briefe</cbc:Name>
+            <cbc:Description languageID="DEU">Gegenstand dieser Ausschreibung ist die Abholung, Beförderung und Zustellung der täglich anfallenden adressierten Briefsendungen der Auftraggeber gemäß den Bestimmungen des Postgesetzes (PostG) in Verbindung mit der Post-Universaldienstleistungsverordnung (PUDLV) und dieser Leistungsbeschreibung. Die Tagespost umfasst Briefe mit konfektionierter Gesundheitskarte bzw. PIN-Briefe. Die Briefsendungen können Beilagen enthalten. Presseerzeugnisse und inhaltsgleiche Massensendungen mit verlängerten Zustellfristen sind nicht Bestandteil dieser Leistungsbeschreibung. Das jährliche Briefvolumen schwankt zwischen ca. 2.000.000 und ca. 6.000.000 Briefsendungen. Die Zustellung beim Empfänger erfolgt grundsätzlich im Inland. In geringem Umfang sind Auslandsbriefe zu befördern. Die Briefbeförderung ist mit Wirkung zum 1. November 2024 zu erbringen.</cbc:Description>
+            <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+            <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+            <cac:ProcurementAdditionalType>
+                <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+            </cac:ProcurementAdditionalType>
+            <cac:MainCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">64110000</cbc:ItemClassificationCode>
+            </cac:MainCommodityClassification>
+            <cac:AdditionalCommodityClassification>
+                <cbc:ItemClassificationCode listName="cpv">64112000</cbc:ItemClassificationCode>
+            </cac:AdditionalCommodityClassification>
+            <cac:RealizedLocation>
+                <cac:Address>
+                    <cbc:CountrySubentityCode listName="nuts">DEF0B</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:Address>
+            </cac:RealizedLocation>
+            <cac:PlannedPeriod>
+                <cbc:StartDate>2024-11-01+01:00</cbc:StartDate>
+                <cbc:EndDate>2026-11-30+01:00</cbc:EndDate>
+            </cac:PlannedPeriod>
+            <cac:ContractExtension>
+                <cbc:OptionsDescription languageID="DEU">Die Leistungsverträge verlängern sich jeweils automatisch um jeweils 12 Monate, wenn sie nicht spätestens 6 Monate vor Ablauf der Grundlaufzeit bzw. des Verlängerungszeitpunkts durch den jeweiligen Auftraggeber gekündigt werden (einseitige Option). Die Leistungsverträge enden, ohne dass es einer gesonderten Kündigung bedarf, spätestens nach der zweiten Verlängerung am 30.11.2028.</cbc:OptionsDescription>
+                <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+            </cac:ContractExtension>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ContractNotice>

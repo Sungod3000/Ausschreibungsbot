@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:Changes>
+                  <efbc:ChangedNoticeIdentifier>8a47ca8b-d305-460a-96f8-43bccb58aaaa-01</efbc:ChangedNoticeIdentifier>
+                  <efac:Change>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                  </efac:Change>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="change-corrig-justification">cor-buy</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="DEU">Leistungsbeschreibung und Ergänzung zur Angebotsaufforderung wurden angepasst.</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:Changes>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://vergabe.hessen.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Land Hessen, vertreten durch das Hessische Competence Center -Zentrale Beschaffung-</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Rheingaustraße 186</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65203</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 212 133 546</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 611 7038 4012</cbc:Telephone>
+                           <cbc:Telefax>+49 611 32 76 38 412</cbc:Telefax>
+                           <cbc:ElectronicMail>beschaffung@hcc.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64283</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 812 056 745</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151 126603</cbc:Telephone>
+                           <cbc:Telefax>+49 611 327 648534</cbc:Telefax>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00653536-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">210/2024</efbc:GazetteID><efbc:PublicationDate>2024-10-28+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">5e0c1571-b84a-4ff5-8b19-6754d10c8776</cbc:ID>
+   <cbc:ContractFolderID>fc9743a5-3956-444b-b9e0-03cdb60daeb6</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-10-25+02:00</cbc:IssueDate>
+   <cbc:IssueTime>12:46:39+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-10-25+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="DEU">.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>VG-0437-2024-0318</cbc:ID>
+      <cbc:Name languageID="DEU">Rückmeldeverfahren Corona-Soforthilfen</cbc:Name>
+      <cbc:Description languageID="DEU">Rückmeldeverfahren Corona-Soforthilfen</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Neben den verlangten Nachweisen sind folgende Unterlagen einzureichen:
+
+- Verpflichtungserklärung Tariftreue/Mindestlohn (siehe Vordruck "Verpflichtungserklaerung_Tariftreue.pdf");
+Bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+
+- Erklärung zu Russland-Sanktionen (siehe Vordruck "Erklaerung_RUS_Sanktionen.pdf")
+Bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+
+-Erklärung über das Bestehen einer Berufshaftpflichtversicherung
+Es ist eine Versicherungsbestätigung einer bestehenden Berufshaftpflichtversicherung bei einem in einem Mitgliedsstaat der EU oder eines Vertragsstaates des Abkommens für den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmen oder eine Erklärung, dass eine entsprechende Versicherung im Falle der Auftragserteilung abgeschlossen wird, vorzulegen. Die Berufshaftpflichtversicherung hat eine Mindestdeckungssumme für Personenschäden, Sachschäden und Vermögensschäden i.H.v. 1.500.000 EUR je Schadensfall und Versicherungsjahr aufzuweisen.
+Bei Bewerber-/Bietergemeinschaften ist dies in der Gesamtheit zu erbringen.
+Im Falle der Abgabe einer Eigenerklärung ist der Nachweis für eine branchenübliche Berufshaftpflichtversicherung unverzüglich nach Zuschlagserteilung durch Vorlage des Versicherungsscheins zu erbringen.
+
+- Erklärung über den Gesamtumsatz des Unternehmens jeweils zum Abschluss des Bilanzjahres für die letzten drei Geschäftsjahre (2021 - 2023). Sollte der Gesamtumsatz für das Jahr 2023 noch nicht testiert sein, so genügt hier eine Schätzung. Der Umsatz zumindest in einem Geschäftsjahr muss mindestens 10 Mio. EUR betragen.
+Bei Bietergemeinschaften ist dies in der Gesamtheit zu erbringen.
+
+- Konzept
+Der Bieter hat mit seinem Angebot ein fachliches Konzept zur Leistungserbringung vorzulegen. In diesem ist auf der Grundlage der Leistungsbeschreibung die konkrete konzeptionelle Vorgehensweise zur Ausführung der Leistung darzustellen. Auf die folgenden Punkte ist einzugehen:
+•Interner Projektaufbau und Organisationsstruktur
+•Darstellung wirksamer Kommunikations-, Entscheidungs- und Eskalationswege
+•Qualitätssicherungsmaßnahmen und Berichtswesen
+•Personalverfügbarkeit und Planung der notwendigen Kapazitäten
+•Vorschlag eines Zeitplans für die Leistungserbringung.
+Das Konzept selbst ist nicht nur wesentlicher Bestandteil des Angebotes, sondern neben dem Preis auch ein wesentliches Zuschlagskriterium (Gewichtung Konzept mit 60 %). Das Konzept ist in einem gängigen Dateiformat (Word, Excel, PDF, Powerpoint o.ä.) mit dem Angebot zwingend einzureichen. Eine Nachforderung ist ausgeschlossen. Ein fehlendes Konzept führt zum Ausschluss des Angebotes
+
+- Kostenplan 
+Für das durchzuführende Rückmeldeverfahren Corona Soforthilfen beträgt der maximale Finanzrahmen insgesamt - einschließlich der optionalen Leistung "Sachbearbeitung und Entscheidung" - 9.120.000 Euro brutto. 
+In der Kostenplanung sind sämtliche Kosten für die Leistungserbringung aufzuschlüsseln. Die Kosten sind durch den Auftragnehmer vollständig und realistisch unter Beachtung der Anforderungen zu kalkulieren und im Kostenplan entsprechend aufzuzeigen. 
+Dabei sind sämtliche Personal-, Sach- und Nebenkosten einschließlich Fahrt- und Reisekosten, die von Seiten des Bieters zu Erfüllung des Auftrags über die gesamte Vertragslaufzeit erforderlich sind, zu berücksichtigen und im Ergebnis ein Stundenverrechnungssatz für die jeweilige Leistung anzusetzen. Hinsichtlich des voraussichtlichen Umfangs der Leistung wird auf Punkt 4.3 der Leistungsbeschreibung Bezug genommen. Zudem ist Ziffer 2.3.11 des Dokumentes Ergänzung zur Angebotsaufforderung Version 2 zu beachten.
+Der Kostenplan geht in die Wertung des Angebots (Zuschlagskriterium: "Preis"; Gewichtung: 40 %) ein. Eine Nachforderung ist ausgeschlossen. Ein fehlender Kostenplan führt zum Ausschluss des Angebotes.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">75130000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34117</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Folgende Unterlagen sind mit dem Angebot einzureichen:
+
+-Erklärung zur Eignung Liefer-/Dienstleistungen (u.a. Vorliegen von Ausschlussgründen nach § 123 und 124 GWB, Insolvenzverfahren (siehe Vordruck "Erklaerung_Eignung.pdf")) 
+Bei Bietergemeinschaften ist diese von jedem Mitglied der Bietergemeinschaft einzureichen.
+
+- Eigenerklärung Sprachniveau
+Die Projektsprache ist Deutsch. Sämtliche Kommunikation und Dokumentation muss in Deutsch erfolgen. Es ist eine Eigenerklärung einzureichen, dass das eingesetzte Personal Sprachkenntnisse auf Muttersprachenniveau besitzt (mindestens Niveau C2).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Referenzen (siehe Vordruck): 
+Eine Liste mit geeigneten Referenzen über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen mit folgenden Angaben:
+Einzureichen sind mindestens zwei vom Bieter für deutsche Bewilligungsstellen durchgeführte Projekte im Zuschussgeschäft. Davon muss mindestens eines der Projekte sich mit einem der nachfolgenden Programme beschäftigt haben: Soforthilfe Zuschuss, Überbrückungshilfe I, II, III, III Plus oder IV, Novemberhilfe, Dezemberhilfe.
+Weiterhin ist mindestens ein Projekt einzureichen, welches die Erfahrung in der Weiterbearbeitung von Förderdarlehen oder Zuschüssen, inclusive Bearbeitung nach Kündigung bzw. Widerruf, nachweist.
+Bei jeder Referenz sind die folgenden Angaben zu machen:
+•Art der Leistung
+•Umfang
+•Empfänger (öffentliche und/oder private Empfänger) der Leistung
+•Ansprechpartner, Telefon, E-Mail-Adresse
+•Erbringungszeitpunkt
+•Wert
+Referenzen sind dann geeignet, wenn diese in Art und Umfang mit dem hier zu vergebenden Auftrag vergleichbar sind. Für die Vergleichbarkeit einer Referenz müssen mindestens 20.000 Bewilligungen/Vorgänge durchgeführt worden sein.
+Die obenstehenden Angaben können auch ohne Verwendung des beiliegenden Vordruckes auf einer eigenen Anlage des Bieters gemacht werden.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://vergabe.hessen.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1915550c927-2917fcce0be1519a</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Nachforderung im Rahmen der rechtlichen Möglichkeiten des § 56 VgV</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+            <cbc:Description languageID="DEU">Es wird ausdrücklich darauf hingewiesen, dass die Bewerber/Bieter die nach § 5 HVTG erforderliche Verpflichtungserklärung abzugeben haben.</cbc:Description>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Qualität Konzept</cbc:Name>
+                  <cbc:Description languageID="DEU">Qualität Konzept</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Preis</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://vergabe.hessen.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Rügepflichten gemäß § 160 Abs. 3 Satz 1 Nrn. 1 bis 4 GWB wird ausdrücklich hingewiesen, insbesondere auf die Frist des § 160 Abs. 3 Satz 1 Nr. 4 GWB. Danach ist ein Antrag auf Nachprüfung unzulässig, soweit nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, mehr als 15 Kalendertage vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-11-08+01:00</cbc:EndDate>
+            <cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:NoticeDocumentReference>
+            <cbc:ID>588298-2024</cbc:ID>
+         </cac:NoticeDocumentReference>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-11-08+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>12:00:00+01:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Rückmeldeverfahren Corona-Soforthilfen</cbc:Name>
+         <cbc:Description languageID="DEU">Zu den Aufgaben des AN im Rahmen der unter Ziffer 1.1 der Leistungsbeschreibung erfolgten Projektbeschreibung und der unter Ziffer 4.1 der Leistungsbeschreibung genannten Zielsetzung gehört eine kompetente und effiziente administrative sowie fachliche Unterstützung des AG vornehmlich im Bereich der unter Ziffer 2. genannten gesetzlichen Bestimmungen. Der AG erstellt hierzu im Vorfeld Vorgaben und Leitfäden, die als Grundlage für die erforderlichen Unterstützungsleistungen dienen und zwingend zu beachten sind. Zu den Unterstützungsleistungen zählen insbesondere Leistungen in folgenden Bereichen:
+1.Vorbereitende Leistungen
+Die Bearbeitung erfolgt über EDV-Lösungen der ekom21. Diese sind bereits beim AG implementiert und im Antragsverfahren genutzt worden. 
+Insgesamt sind ca. 95.000 betroffene Personen zu kontaktieren. 
+•Schaffung der auf Seiten des AN erforderlichen technischen Voraussetzungen
+•Bereitstellung der erforderlichen Personalressourcen
+•Schulung des vom AN eingesetzten Personals unter Anleitung und Unterstützung des AG 
+•Einteilung der Kontaktaufnahmen
+2.Administrative Bearbeitungsschritte im Anschreibeverfahren
+Die betroffenen Personen werden in einem ersten Anlauf über die aus dem Antragsverfahren bekannten und im System hinterlegten E-Mailadressen angeschrieben. Im Falle nicht zustellbarer oder nach einer festgelegten Frist nicht beantworteter E-Mails werden die Anfragen in einem zweiten Anlauf mittels einfachem Brief versandt. Erfolgt nach einer festgelegten Frist erneut keine Rückantwort wird in einem dritten Anlauf mittels Zustellungsurkunde versandt. Dieser Ablauf erfolgt voraussichtlich automatisiert, bis ein Adressat postalisch nicht erreichbar ist, eine Rückmeldung vorliegt oder endgültig nicht vorliegt.
+•Überprüfung der Rückmeldungen
+•Überprüfung des Zustellungsadressaten
+•Dokumentation der Ergebnisse aus dem Anschreibeverfahren
+3.Aufklärung von Zahlungseingängen
+Nach Versand der Rücknahme-/Rückforderungsbescheide fallen Aufgaben im Zusammenhang mit dem Forderungsmanagement an:
+•Recherche und Aufklärung bei nicht automatischer Zuordnung
+•Veranlassung bei Überzahlung
+•Ggf. Aufforderung und Nachprüfung bei Unterzahlung
+4.Forderungsmanagement
+Die Zahlungseingänge sind zu beobachten. Bei Ausbleiben von Zahlungseingängen erfolgt vollautomatisiert die Abgabe an das zuständige Finanzamt. Im Falle der Beantragung von Stundungen (Ratenzahlungen) sind die Voraussetzungen manuell zu prüfen und entsprechende Ratenzahlungsvereinbarungen zu erstellen. In laufenden Insolvenzverfahren ist die Anmeldung der Forderungen zu prüfen bzw. veranlassen.
+•Vollstreckungsrückläufer: Entscheidungsempfehlung für weiteres Vorgehen
+•Bearbeitung von Stundungsanträgen (Ratenzahlungsanträge)
+•Forderungsmanagement in Insolvenzverfahren
+5.Im Fall von Klagen
+•Im Falle von Klagen: Vorbereitung und Abgabe von Vorgängen an zu-ständige Stellen (Rechtsdienstleister, Gerichte etc.)
+6.Kontakt und Beschwerdemanagement
+•Einrichtung und Bewirtschaftung einer Hotline für die Dauer des Rückmeldeverfahrens
+•Bearbeitung von E-Mail-Anfragen während des Rückmeldeverfahrens
+7.Auswertungen und Berichte
+•Auswertung und Aufbereitung des Bearbeitungsstatus nach unterschiedlichen Kategorien
+•Fertigung von und Zuarbeit zu Berichten
+8.Projektbegleitung
+Der AN muss die Projektgestaltung durch den AG begleiten, indem er aus operativer Sicht und mit seiner Projekterfahrung die Projektstruktur und den -ablauf auf Machbarkeit und Zweckmäßigkeit gegenprüft.
+Im Übrigen muss der AN stets in der Lage sein, dem AG Auskunft über den Verfahrensstand zu geben. Einige, gemeinsam abzustimmende Arbeitsschritte meldet er dem AG proaktiv. 
+9.Option: Sachbearbeitung und Entscheidung
+Im Fokus des Rückmeldeverfahrens steht ausschließlich die nachträgliche Überprüfung des im Betrachtungszeitraum der Corona-Soforthilfe (11. März 2020 bis 10. Juni 2020) tatsächlich entstandenen Liquiditätsengpasses und der Abgleich mit der aufgrund des Soforthilfeantrags beim Regierungspräsidium Kassel in 2020 beantragten und ausgezahlten Fördersumme. Hierzu sind vom den betroffenen Personen im Rückmeldeverfahren die maßgeblichen betrieblichen Daten über Einnahmen und Ausgaben sowie die vorhandenen liquiden betrieblichen Mittel in einer Berechnungstabelle auf einem Internetportal einzugeben. Das Programm ist so konzipiert, dass es daraus den tatsächlichen Wert des Liquiditätsengpasses errechnet. Durch automatisierten Abgleich mit dem in 2020 ausgezahlten Betrag wird das Vorliegen und die Höhe einer Überzahlung ausgewiesen. Sofern dieser Betrag positiv ist, erfolgt daraufhin eine teilweise oder vollständige Rücknahme des Bewilligungsbescheides, verbunden mit der entsprechenden Rückforderung. Sofern sich aus der Berechnung keine Rückzahlungsverpflichtung ergibt, erfolgt (ggfs. automatisiert) eine formlose Mitteilung an die betroffenen Personen. Die hierfür zu verwendenden Dokumente einschließlich der Bescheidentwürfe und Mustertexte werden vom AG im Vorfeld als zwingend zu nutzende Vorlagen zur Verfügung gestellt und je nach Fallkonstellation durch das System erzeugt und versandt. 
+Die Plausibilitätsprüfung vor der Erstellung eines Rücknahme- und Rückforderungsbescheides sowie die Veranlassung der Erstellung und des Versands werden von der Sachbearbeitung vorgenommen. Die hier anfallenden Leistungen sind nachfolgend aufgelistet. Ihre Inanspruchnahme durch den AG ist optional.
+•Überprüfung der Eingaben auf Vollständigkeit Überprüfung der Berechnungstabelle
+•Kommunikation mit betroffenen Personen
+•Entscheidung mit Unterstützung der Bescheiderstellung und Mitteilung 
+
+Es wird ausdrücklich darauf hingewiesen, dass für den zu vergebenden Auftrag -einschließlich der optionalen Leistung "Sachbearbeitung und Entscheidung"-  ein maximaler Finanzrahmen von 9.120.000,00 Euro (netto) vorhanden ist, der nicht überschritten werden darf. Eine Überschreitung führt zum Ausschluss des Angebots.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">75130000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34117</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-01-01+01:00</cbc:StartDate>
+            <cbc:EndDate>2025-12-31+01:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Es besteht die Option zur Vertragsverlängerung um jeweils einen Monat bis zu max. einem Jahr.
+
+Option: Sachbearbeitung und Entscheidung</cbc:OptionsDescription>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Option: Sachbearbeitung und Entscheidung
+Im Fokus des Rückmeldeverfahrens steht ausschließlich die nachträgliche Überprüfung des im Betrachtungszeitraum der Corona-Soforthilfe (11. März 2020 bis 10. Juni 2020) tatsächlich entstandenen Liquiditätsengpasses und der Abgleich mit der aufgrund des Soforthilfeantrags beim Regierungspräsidium Kassel in 2020 beantragten und ausgezahlten Fördersumme. Hierzu sind vom den betroffenen Personen im Rückmeldeverfahren die maßgeblichen betrieblichen Daten über Einnahmen und Ausgaben sowie die vorhandenen liquiden betrieblichen Mittel in einer Berechnungstabelle auf einem Internetportal einzugeben. Das Programm ist so konzipiert, dass es daraus den tatsächlichen Wert des Liquiditätsengpasses errechnet. Durch automatisierten Abgleich mit dem in 2020 ausgezahlten Betrag wird das Vorliegen und die Höhe einer Überzahlung ausgewiesen. Sofern dieser Betrag positiv ist, erfolgt daraufhin eine teilweise oder vollständige Rücknahme des Bewilligungsbescheides, verbunden mit der entsprechenden Rückforderung. Sofern sich aus der Berechnung keine Rückzahlungsverpflichtung ergibt, erfolgt (ggfs. automatisiert) eine formlose Mitteilung an die betroffenen Personen. Die hierfür zu verwendenden Dokumente einschließlich der Bescheidentwürfe und Mustertexte werden vom AG im Vorfeld als zwingend zu nutzende Vorlagen zur Verfügung gestellt und je nach Fallkonstellation durch das System erzeugt und versandt. 
+Die Plausibilitätsprüfung vor der Erstellung eines Rücknahme- und Rückforderungsbescheides sowie die Veranlassung der Erstellung und des Versands werden von der Sachbearbeitung vorgenommen. Die hier anfallenden Leistungen sind nachfolgend aufgelistet. Ihre Inanspruchnahme durch den AG ist optional.
+•Überprüfung der Eingaben auf Vollständigkeit Überprüfung der Berechnungstabelle
+•Kommunikation mit betroffenen Personen
+•Entscheidung mit Unterstützung der Bescheiderstellung und Mitteilung</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

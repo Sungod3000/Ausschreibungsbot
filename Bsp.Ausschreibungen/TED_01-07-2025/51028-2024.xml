@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations><efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Beschaffungsamt des BMI</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.ausschreibungen.ls.brandenburg.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Landesbetrieb Straßenwesen Brandenburg Dienststätte Cottbus</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Von-Schön-Straße 11</cbc:StreetName>
+                           <cbc:CityName>Cottbus</cbc:CityName>
+                           <cbc:PostalZone>03050</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE402</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>12</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 3342-249-1710</cbc:Telephone>
+                           <cbc:Telefax>+49 331-275484-047</cbc:Telefax>
+                           <cbc:ElectronicMail>LS-Vergabestelle-Sued@ls.brandenburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammern des Landes Brandenburg beim Ministerium für Wirtschaft und Energie</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Heinrich-Mann-Allee 107</cbc:StreetName>
+                           <cbc:CityName>Potsdam</cbc:CityName>
+                           <cbc:PostalZone>14473</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE40B</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:03318661719</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 331-866-1719</cbc:Telephone>
+                           <cbc:ElectronicMail>Vergabekammer@MWAE.brandenburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Landesbetrieb Straßenwesen Brandenburg Dienststätte Cottbus</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Von-Schön-Straße 11</cbc:StreetName>
+                           <cbc:CityName>Cottbus</cbc:CityName>
+                           <cbc:PostalZone>03050</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE402</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>12</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 3342-249-1710</cbc:Telephone>
+                           <cbc:ElectronicMail>LS-vergabestelle-sued@ls.brandenburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Ministerium für Infrastruktur und Landesplanung, Abt. 4, Ref. 47</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Henning-von-Tresckow-Straße 2-8</cbc:StreetName>
+                           <cbc:CityName>Potsdam</cbc:CityName>
+                           <cbc:PostalZone>14467</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE404</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>12</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 331-866-0</cbc:Telephone>
+                           <cbc:ElectronicMail>poststelle@mil.brandenburg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00051028-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">18/2024</efbc:GazetteID><efbc:PublicationDate>2024-01-25Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">84a09728-fe84-4222-8dc8-1128f5976863</cbc:ID>
+   <cbc:ContractFolderID>1bc97c47-b192-48c7-8789-933014d5d476</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-01-24+01:00</cbc:IssueDate>
+   <cbc:IssueTime>14:25:14+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-01-24+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7007</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vob-a-eu</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Es gelten die Ausschlussgründe nach §§ 123 &amp; 124
+GWB, § 16EU &amp; § 13 EU VOB/A</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>C-2024-0001</cbc:ID>
+      <cbc:Name languageID="DEU">L54 OD Vetschau Los 2 Straßenbau</cbc:Name>
+      <cbc:Description languageID="DEU">Grundhafter Ausbau der bestehenden Fahrbahn mit Nebenanlagen und Entwässerung L54 Abs 060 in der Ortslage Vetschau in der Wilhelm-Pieck-Straße u. der Juri-Gagarin-Straße im Tiefeinbau sowie die Deckenerneuerung der KVP Hospitalplatz NK 4250009.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Elektronisch übermittelte Angebote sind mit einer fortgeschrittenen elektronischen oder mit einer qualifizierten elektronischen Signatur nach dem Signaturgesetz zu versehen und über das auf der Internetseite http://www.ausschreibungen.ls.brandenburg.de zum Download bereitgestellte Bietercockpit auf http://www.ausschreibungen.ls.brandenburg.de einzureichen.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">45233000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Vetschau</cbc:CityName>
+            <cbc:PostalZone>03226</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE40B</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Angaben, dass nachweislich keine schwere Verfehlung
+begangen wurde, die die Zuverlässigkeit in Frage stellt
+- Angaben zur Zahlung von Steuern, Abgaben und Beiträgen
+zur Sozialversicherung
+- Angaben zu Insolvenzverfahren und Liquidation
+- Angaben zur Eintragung in das Berufs- oder Handelsregister
+oder der Handwerksrolle ihres Sitzes oder Wohnsitzes
+- Angaben zur Mitgliedschaft bei der Berufsgenossenschaft
+Bietergemeinschaften müssen alle o. g. Nachweise und
+Erklärungen für jedes Mitlied der Bietergemeinschaft vorlegen</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Erklärung über den Umsatz des Unternehmens jeweils
+bezogen auf die letzten drei abgeschlossenen Geschäftsjahre,
+soweit er Bauleistungen und andere Leistungen betrifft, die mit
+der zu vergebenden Leistung vergleichbar ist, unter Einschluss
+des Anteils bei gemeinsam mit anderen Unternehmen
+ausgeführten Aufträgen</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">- Angaben über die Ausführung von Leistungen in den letzten
+bis zu fünf abgeschlossenen Kalenderjahren, die mit der zu
+vergebenden Leistung vergleichbar sind, wobei für die
+wichtigsten Bauleistungen Bescheinigungen über die
+ordnungsgemäße Ausführung und das Ergebnis beizufügen
+sind
+- Angaben zu Arbeitskräften
+- Angaben der technischen Fachkräfte oder der technischen
+Stellen, die im Zusammenhang mit der Leistungserbringung
+eingesetzt werden sollen
+- Erklärung der für die Ausführung des Auftrages zur Verfügung
+stehenden Geräte und technischen Ausrüstung
+- Angaben, welche Teile des Auftrags der Unternehmer unter
+Umständen als Unteraufträge zu vergeben beabsichtigt
+- Nachweis der Qualifikation des zu benennenden
+Verantwortlichen für die Sicherungsarbeiten an Arbeitsstellen
+gemäß MVAS. Bei ausländischen Bietern wird ein
+gleichwertiger Qualifikationsnachweis verlangt
+- Nachweis der Qualifikation der geprüften Fachkraft für
+Fahrbahnmarkierungen sowie Nachweis der Qualifikation des
+Unternehmens gemäß ZTV M. Bei ausländischen Bietern wird
+ein gleichwertiger Qualifikationsnachweis verlangt.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">nyk</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.ausschreibungen.ls.brandenburg.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-18cc962e461-375359413423764d</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">1.) Elektronisch übermittelte Angebote sind in Textform, mit
+einer fortgeschrittenen elektronischen oder mit einer
+qualifizierten elektronischen Signatur nach dem Signaturgesetz
+zu versehen und über das auf der Internetseite https://
+www.ausschreibungen.ls.brandenburg.de zum Download
+bereitgestellte Bietercockpit auf https://
+www.ausschreibungen.ls.brandenburg.de einzureichen.
+2.) Einreichung Eigenerklärung russischer Bieter/Beteiliger mit
+dem Angebot
+3.) Die Vergabestelle wird vom Bieter, auf dessen Angebot der
+Zuschlag erteilt werden soll - vor Zuschlagserteilung, einen
+Auszug aus dem Gewerbezentralregister gem. § 150a GewO
+beim Bundesamt für Justiz und vom Wettbewerbsregister
+anfordern.
+4.) Ergänzung zu Eignungskriteren (Eignung zur
+Berufsausübung, wrtschaftliche und finanzielle
+Leistungsfähigkeit, technisch und berufliche
+Leistungsfähigkeit):
+Bei Einsatz von Unterauftragnehmer /anderen Unternehmen
+sind entsprechende Erklärungen bzw. Eignungskriterin
+(Eignung zur Berufsausübung, wirtschaftliche und finanzielle
+Leistungsfähigkeit, technische und
+beruflicheLeistungsfähigkeit):
+Bei Einsatz von Unterauftragnehmer /anderen Unternehmen
+sind entsprechende Erklärungen bzw. Nachweise auf
+gesondertes Verlangen vorzulegen, ggf. ergänzt durch
+geforderte auftragsspezifische Einzelnachweise.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.bietercockpit.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Auf die Unzulässigkeit eines Nachprüfungsantrages nach
+Ablauf der Frist des § 160 Abs. 3 Nr. 4 GWB (15 Tage nach
+Eingang des Nichtabhilfebescheides auf eine Rüge) wird
+hingewiesen.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+            <cac:MediationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7006</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:MediationParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-02-29+01:00</cbc:EndDate>
+            <cbc:EndTime>09:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-02-29+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>09:00:00+01:00</cbc:OccurrenceTime>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="DEU">Landesbetrieb Straßenwesen Brandenburg Dienststätte Cottbus
+Von-Schön-Straße 11
+03050 Cottbus</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">L54 OD Vetschau Los 2 Straßenbau</cbc:Name>
+         <cbc:Description languageID="DEU">1 Psch Baustelleneinrichtung, 1 Psch. Verkehrssicherung, 
+ca. 300m Rückbau Regenwasserkanal bis DN 250,
+ca. 190m Rückbau Regenwasserkanal DN 250 - 500,
+ca. 520 m Regenwasserkanal DN 300 Kunststoff herstellen,
+ca.  380 m Regenwasserkanal DN 400 Kunststoff herstellen,
+ca. 250 m Regenwasserkanal DN 500 Kunststoff herstellen,
+ca. 160 m Regenwasserkanal DN 600 Kunststoff herstellen,
+ca. 170 m Regenwasserkanal DN 700 Beton herstellen,
+ca.  25 St. Fertigteilschacht DU 1000 Beton herstellen,
+ca.   4 St. Fertigteilschacht DU 1200 Beton herstellen,
+ca.  1 St. Fertigteilschacht DU 1500 Beton herstellen,
+ca.    2 St. Sedimentationsanlagen herstellen,
+ca.  60 m Staukanal RE 2000/1000,
+ca. 73 St. Straßenabläufe abbrechen,
+ca.  210 m Anschlussleitungen (Abläufe) abbrechen,
+ca.  157 St. Straßenabläufe herstellen,
+ca.  600 m Anschlussleitungen (Abläufe) herstellen,
+ca.3.720 m² Asphalt fräsen,
+ca. 5.420 m² Asphaltbefestigung aufbrechen u. aufnehmen,
+ca. 6.240 m² Betondecke aufnehmen,
+ca. 3.000 m Fugenfüllung ausbauen,
+ca.  10t Fugenausbaumaterial laden und entsorgen (gefährlicher Abfall),
+ca.2.500 m² Natursteinpflasterdecke aufnehmen,
+ca.1.760 m Rinnen und Streifen aus Betonsteinen aufnehmen,
+ca.1.830 m² Pflasterdecke aus Betonsteinen aufnehmen,
+ca.1.175 m² Betonplatten aufnehmen,
+ca.5.125 m Bordsteine aufnehmen,
+ca.5.400 m³ Schicht ohne Bindemittel (&lt;Z2) aufnehmen,
+ca.1.900 m³ Schicht ohne Bindemittel (Z2) aufnehmen,
+ca.18.890 m² Planum herstellen,
+ca. 4.500 m³ Bodenaustausch,
+ca. 8.100 m² Asphalttragschicht 1. Lage, d=13 cm herstellen,
+ca. 8.100 m² Asphalttragschicht 2. Lage, d=13 cm herstellen,
+ca.  635 m² Asphalttragschicht 1. Lage, d=15 cm herstellen,
+ca.   635 m² Asphalttragschicht 2. Lage, d=15 cm herstellen,
+ca. 9.760 m² Asphaltbinderschicht, d=9 cm herstellen,
+ca. 7.270 m² Asphaltdeckschicht (Asphaltbeton) aus hellem Naturstein, d=3 cm herstellen,
+ca. 1.260 m² Asphaltdeckschicht (Asphaltbeton), d=3 cm herstellen,
+ca. 1.540 m² Asphaltdeckschicht (Gussasphalt) aus hellem Naturstein, d=3 cm, herstellen,
+ca. 8.100 m² Schottertragschicht, d=28 cm herstellen,
+ca. 1.000 m² Schottertragschicht, d=32 cm herstellen,
+ca. 920 m² Schottertragschicht, d=34 cm herstellen,
+ca. 2.635 m Granitbordstein A5 (inkl. Radiensteine) setzen,
+ca.   470 m Granitrundbordstein setzen,
+ca.   50 m Granitübergangssteine setzen,
+ca. 2.570 m Betontiefbordsteine setzen,
+ca.   690 m Granitschrägbordsteine (inkl. Übergangssteine) setzen,
+ca.   45 m Kasseler Sonderbord (Granit) setzen,
+ca.  143m Flachbordstein aus Granit inkl. Radiensteine setzen,
+ca.   50m Tastbordstein aus Granit setzen,
+ca.  54 m Rollbordstein aus Granit setzen,
+ca.  250m² Natursteinpflasterdecke (geb. Bauweise) herstellen,
+ca. 2.270m² Natursteinpflasterdecke (ungeb. Bauweise) herstellen,
+ca. 7.170m² Betonsteinpflasterdecke herstellen,
+ca.  105m² Dränbetontragschicht herstellen,
+ca.1.970 St. Begleitplatte anthrazit setzen,
+ca. 970 St. Rippenplatte setzen,
+ca.  535 St. Noppenplatte setzen,
+ca. 2.510 m Rinne aus Naturstein (2-zeilig) setzen,
+ca. 150 m Rinne aus Naturstein (3-zeilig) setzen,
+ca. 680 m Pendelrinne aus Naturstein (2-zeilig) setzen,
+ca.  550 m³Oberboden abtragen,
+ca. 1.000 m³ Oberboden liefern,
+ca. 5.000 m² Rasenansaat herstellen,
+ca. 805 m² Asphaltdecke fräsen,
+ca.805 m² Asphaltbinder fräsen,
+ca. 420m² Asphaltdeckschicht MA 8 S herstellen im KVP,
+ca. 420m² Asphaltbinderschicht AC 16 BS SG herstellen im KVP,
+ca. 385 m² Asphaltdeckschicht AC 8 DS Zufahrt,
+ca.385 m² Asphaltbinderschicht AC 16 BS SG Zufahrt
+ca. 500 m Markierung herstellen</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">45233000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Vetschau</cbc:CityName>
+               <cbc:PostalZone>03226</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE40B</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-06-03+02:00</cbc:StartDate>
+            <cbc:EndDate>2026-08-28+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

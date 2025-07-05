@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Städtische Werke Energie + Wärme GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Königstor 3 - 13</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34117</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>HRB 4795 Amtsgericht Kassel</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+495617822612</cbc:Telephone>
+									<cbc:ElectronicMail>vergabe@wr-legal.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Wilhelminenstr. 1-3 (Fristenbriefkasten: Luisenplatz 2)</cbc:StreetName>
+									<cbc:CityName>Darmstadt</cbc:CityName>
+									<cbc:PostalZone>64283</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE711</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>06151126603</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+496151126603</cbc:Telephone>
+									<cbc:Telefax>+49611327648534</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00132689-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">41/2025</efbc:GazetteID><efbc:PublicationDate>2025-02-27+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">c6ef1075-ea76-407c-b7b3-d49b85213639</cbc:ID>
+	<cbc:ContractFolderID>d39001bf-796f-43fa-a9a6-8cad90ae3500</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-02-26+01:00</cbc:IssueDate>
+	<cbc:IssueTime>13:55:21+01:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-02-26+01:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="entity-activity">gas-heat</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>sektvo</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Die EWG weist darauf hin, dass ein Nachprüfungsantrag nur zulässig ist, soweit  1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber der Vergabestelle innerhalb von spätestens 10 Kalendertagen gerügt hat,  2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber der Vergabestelle gerügt werden,  3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, spätestens bis zum Ablauf der in der EU-Bekanntmachung genannten Teilnahmefrist oder der in den Vergabeunterlagen jeweils benannten Frist zur Abgabe der Angebote gegenüber der Vergabestelle gerügt werden,  4. der Antrag auf Einleitung eines Nachprüfungsverfahrens innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, gestellt wird. Weitere Einzelheiten können § 160 GWB entnommen werden.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Die EWG führt ein Verhandlungsverfahren mit vorgeschaltetem europaweitem Teilnahmewettbewerb nach § 13 Abs. 1, § 15 SektVO durch. In der ersten Stufe des Verhandlungsverfahrens, diesem Teilnahmewettbewerb, wählt die EWG die Bewerber nach ihrer Eignung aus. Sie wird voraussichtlich 3 bis 5 Bewerber zur Abgabe eines indikativen Erstangebotes auffordern. Die EWG stellt potenziellen Bewerbern eine Anlage A zur Verfügung, die als Eignungsformular mit weiteren Vorgaben dient. Die Bewerber können diese Anlage A auf der elektronischen Vergabeplattform unter dem Projektraum/-zugang dieses Vergabeverfahrens abrufen. Die Anlage A enthält für den Teilnahmewettbewerb Ausschlusskriterien, die zwingend einzuhalten sind, sowie Vorgaben zu den Bewertungskriterien. Anhand der Bewertungskriterien, die allen Bewerbern in der elektronisch abrufbaren Bewertungsmatrix zur Anlage A transparent bekanntgegeben werden, trifft die EWG die Auswahl der Bewerber, mit denen sie das  Verhandlungsverfahren fortsetzen will. Die Einzelheiten dazu sowie zum gesamten Ablauf des Vergabeverfahrens ergeben sich aus den abrufbaren Vergabeunterlagen.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D545CZ5</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">003</cbc:ID>
+		<cbc:Name languageID="DEU">Errichtung einer Entstaubungsanlage für Altholzbunker für Biomasse (Altholz AI bis AIII) am Fernwärmekraftwerk Kassel</cbc:Name>
+		<cbc:Description languageID="DEU">Die Städtische Werke Energie + Wärme GmbH (EWG) plant, baut und betreibt das Fernwärmenetz sowie Erzeugungsanlagen in der Stadt Kassel. Der Vertrieb der Fernwärme liegt bei der Muttergesellschaft Städtische Werke AG (STW). Das Fernwärmenetz mit ca. 182 km Trassenlänge und einer Anschlussleistung von 447 MW deckt heute etwa 21 % des Wärmebedarfs in der Stadt Kassel ab. Die EWG und STW haben sich das Ziel gesetzt, die Fernwärmeversorgung durch Erweiterung und Verdichtung gezielt auszubauen und die leitungsgebundene Wärmebereitstellung im Versorgungsgebiet bis spätestens 2045 zu dekarbonisieren.   Ein relevanter und bereits sehr zeitnah vorgesehener Schritt in diese Richtung ist der Kohleausstieg im Fernwärmekraftwerk. Damit soll der Energieträger Braunkohle durch Klärschlamm und Altholz (AI bis AIII) ersetzt werden. Die EWG betreibt seit dem Jahr 1988 am Standort Dennhäuser Straße in Kassel ein Fernwärmekraftwerk, welches mit einer maximalen Feuerungswärmeleistung von 150 MW eine elektrische Leistung von ca. 40 MW erzeugt. Zusätzlich können als thermische Leistung bis zu 80 MW an das städtische Fernwärmenetz abgegeben werden. Der Kraftwerkskessel wird mit einer zirkulierenden Wirbelschichtfeuerung betrieben. Heute eingesetzte Brennstoffe sind u.a. Braunkohle, Hartbraunkohle sowie getrockneter und entwässerter kommunaler Klärschlamm. Der im Naturumlauf betriebene Wirbelschichtkessel erzeugt dabei bis zu 180 t/h Frischdampf mit 74 bar und 503 °C.  Die EWG plant, zukünftig Klärschlamm und Altholz der Klassen AI bis AIII für die Energieerzeugung zu nutzen. Bedingt durch die Verbrennung von Altholz ergeben sich veränderte Anforderungen an die Anlagentechnik des Fernwärmekraftwerks, wofür entsprechende Baumaßnahmen zu planen und durchzuführen sind. Eine der Baumaßnahmen ist die Errichtung von Lager- und Transporteinrichtungen für die Versorgung des vorhandenen Wirbelschichtkessel mit Biomasse (Altholz).  Die im vorliegenden Vergabeverfahren zu vergebende Entstaubungsanlage ist für eine durch die EWG neu zu errichtende, geschlossene Brennstofflagerhalle (Altholzbunker) vorgesehen. Die zu reinigende Luft wird aus dem inneren Lagerbereich des Altholzbunkers sowie den beiden Abwurfschächten der Zugböden abgesaugt und, über eine Filteranlage gereinigt, in einen Abluftkamin mit Auslasshöhe +50 m eingeleitet. Der durch die Filteranlage abgeschiedene Staub soll den beiden Förderern auf der Brennstoffförderbrücke zum bestehenden Kraftwerksgebäude Block 2 zugeführt werden.  In einer Phase 1 (ab September 2026) erfolgt der Betrieb der Wirbelschichtfeuerung nach Inbetriebsetzung mit der neuen Brennstoffversorgung für Altholz zunächst noch zusammen mit den bisherigen Brennstoffen Kohle und Klärschlamm. Nach einer weiteren Anpassung der Altholz-Fördertechnik in Phase 2 (ab September 2027) basiert die Brennstoffversorgung des Wirbelschichtkessels dann komplett auf den Brennstoffen Altholz und Klärschlamm.  Bei einer Zuschlagserteilung bis zum 01.08.2025 wird die Entstaubungsanlage im Sommer-Stillstand 2026 durch den Auftragnehmer umgesetzt. Gegenstand des vorliegenden Vergabeverfahrens sind alle notwendigen Planungs- und Ingenieursleistungen, alle erforderlichen Maschinen- und Komponentenlieferungen, Montage sowie die Inbetriebnahme der maschinentechnischen Ausrüstung für die Entstaubungsanlage. Die weiteren Einzelheiten sowie die konkreten Leistungen sind insbesondere der Technischen Spezifikation mit Anlagen zu entnehmen.  Mit diesem europaweiten Vergabeverfahren will die EWG ein zuverlässiges, leistungsfähiges und qualifiziertes Unternehmen auswählen, das die erforderlichen Planungs- und Bauleistungen nach den Vorgaben der Vergabeunterlagen rechtzeitig bis zum 13.11.2026 erstellt.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4D545CZ5</cbc:Note>
+		<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45350000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45251000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">45331210</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Dennhäuser Str.</cbc:StreetName>
+				<cbc:CityName>Kassel</cbc:CityName>
+				<cbc:PostalZone>34134</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2025-08-01+02:00</cbc:StartDate>
+			<cbc:EndDate>2026-11-13+01:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Zuverlässigkeit (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Die Zuverlässigkeit des Bewerbers muss vorliegen (siehe Anlage A).</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Betriebshaftpflichtversicherung (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Betriebshaftpflichtversicherung mit Deckungssummen für Personen-, Sach- und Vermögensschäden in Höhe von mindestens EUR 10 Mio. muss vorliegen bzw. alternativ die Bereitschaft, die bestehende Betriebshaftpflichtversicherung gemäß den vorstehenden Vorgaben im Auftragsfall aufzustocken.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Qualitätssicherung (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Zertifikat nach DIN EN ISO 9001:2015 oder ein gleichwertiges Qualitätssicherungssystem, welches der Bewerber auf einer einzureichenden Anlage detailliert erläutern muss und womit er die Gleichwertigkeit nachweist.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Mindestreferenzen (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Mindestens zwei unterschiedliche Referenzen über die Errichtung und Inbetriebnahme einer Entstaubungsanlage für eine geschlossene Brennstofflagerhalle zur Lagerung von Biomasse. Zu den vertraglichen Leistungen (Leistungszeitraum 2018 - Februar 2025 inkl. bauvertraglicher Abnahme) des jeweiligen Referenzprojektes müssen mindestens folgende Leistungen gehört haben:   o Errichtung und Inbetriebnahme einer Entstaubungsanlage für eine geschlossene Brennstofflagerhalle zur Lagerung von Biomasse; o Errichtung und Inbetriebnahme der für die Entstaubungsanlage notwendigen Elektro- und Steuerungstechnik.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wertungsrelevante Referenzen</cbc:Name>
+								<cbc:Description languageID="DEU">Zwei unterschiedliche Referenzen über die Errichtung und Inbetriebnahme einer Entstaubungsanlage für eine geschlossene Brennstofflagerhalle zur Lagerung von Biomasse, Leistungszeitraum 2018 - Februar 2025 inkl. bauvertraglicher Abnahme. Die EWG wertet die eingereichten wertungsrelevanten Referenzen nach der Bewertungsmatrix zur Anlage A. Die Einzelheiten dazu sind der Anlage A zu entnehmen.</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4D545CZ5/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Siehe Vergabeunterlagen.</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">Gesamtschuldnerisch haftend mit bevollmächtigten Vertreter.</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die Nachforderung von Unterlagen richtet sich nach § 51 SektVO.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>45.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Pauschalfestpreis</cbc:Name>
+						<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>15.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Qualität des Konzeptes für Service und Wartung</cbc:Name>
+						<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>10.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Statischer und räumlicher Einfluss auf den Altholzbunker</cbc:Name>
+						<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Stromverbrauch pro Jahr</cbc:Name>
+						<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>10.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Qualität des Montagekonzeptes</cbc:Name>
+						<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4D545CZ5</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die EWG weist darauf hin, dass ein Nachprüfungsantrag nur zulässig ist, soweit  1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber der Vergabestelle innerhalb von spätestens 10 Kalendertagen gerügt hat,  2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber der Vergabestelle gerügt werden,  3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, spätestens bis zum Ablauf der in der EU-Bekanntmachung genannten Teilnahmefrist oder der in den Vergabeunterlagen jeweils benannten Frist zur Abgabe der Angebote gegenüber der Vergabestelle gerügt werden,  4. der Antrag auf Einleitung eines Nachprüfungsverfahrens innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Vergabestelle, einer Rüge nicht abhelfen zu wollen, gestellt wird. Weitere Einzelheiten können § 160 GWB entnommen werden.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D545CZ5</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-04-07+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-03-31+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-03-19+01:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+01:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">003</cbc:ID>
+			<cbc:Name languageID="DEU">Errichtung einer Entstaubungsanlage für Altholzbunker für Biomasse (Altholz AI bis AIII) am Fernwärmekraftwerk Kassel</cbc:Name>
+			<cbc:Description languageID="DEU">Gegenstand des vorliegenden Vergabeverfahrens sind alle notwendigen Planungs- und Ingenieursleistungen, alle erforderlichen Maschinen- und Komponentenlieferungen, Montage sowie die Inbetriebnahme der maschinentechnischen Ausrüstung für die Entstaubungsanlage. Die weiteren Einzelheiten sowie die konkreten Leistungen sind insbesondere der Technischen Spezifikation mit Anlagen zu entnehmen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#
+
+
+Die EWG stellt potenziellen Bewerbern die Anlage A sowie die zugehörige Bewertungsmatrix elektronisch zur Verfügung. Die Anlage A enthält für den Teilnahmewettbewerb Ausschlusskriterien, die zwingend einzuhalten sind, sowie Vorgaben zu den Bewertungskriterien. Anhand der Bewertungskriterien trifft die EWG die Auswahl aus den grundsätzlich geeigneten Bewerbern, mit denen sie das Verhandlungsverfahren fortsetzen will.  Fragen zur EU-Bekanntmachung, den Vergabeunterlagen oder der Anlage A dürfen die Bewerber bis zum 19.03.2025 über die elektronische Vergabeplattform einreichen.  Die EWG wird ergänzende und berichtigende Angaben in einem Fragen- und Antworten Katalog zusammenfassen und diesen auf der elektronische Vergabeplattform veröffentlichen. Die letzte Aktualisierung des Fragen- und Antworten Katalogs erfolgt im Teilnahmewettbewerb voraussichtlich bis zum 21.03.2025, 20:00 Uhr. Die Bewerber sind verpflichtet, den Fragen- und Antworten Katalog regelmäßig zu prüfen und die sich hieraus ergebenden Anforderungen zu berücksichtigen.  Die späteren Bieter müssen spätestens vor Erstellung ihres letztverbindlichen Angebotes mindestens eine Ortsbesichtigung durchführen.</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">pollu-prev</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45350000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45251000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">45331210</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Dennhäuser Str.</cbc:StreetName>
+					<cbc:CityName>Kassel</cbc:CityName>
+					<cbc:PostalZone>34134</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-08-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2026-11-13+01:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Osnabrück</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Luisenstrasse 18</cbc:StreetName>
+									<cbc:CityName>Düsseldorf</cbc:CityName>
+									<cbc:PostalZone>49074</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE944</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:495413233213</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 5413233213</cbc:Telephone>
+									<cbc:ElectronicMail>oeffentlicheauftraege@osnabrueck.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Bamberg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Untere Sandstraße 34</cbc:StreetName>
+									<cbc:CityName>Bamberg</cbc:CityName>
+									<cbc:PostalZone>96049</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE241</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:0951871130</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49951871130</cbc:Telephone>
+									<cbc:ElectronicMail>vergabestelle@stadt.bamberg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Haßfurt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Hauptstraße 5</cbc:StreetName>
+									<cbc:CityName>Haßfurt</cbc:CityName>
+									<cbc:PostalZone>97437</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE267</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:095216880</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4995216880</cbc:Telephone>
+									<cbc:ElectronicMail>info@hassfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Jena</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Am Anger 15</cbc:StreetName>
+									<cbc:CityName>Jena</cbc:CityName>
+									<cbc:PostalZone>07743</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEG03</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:03641 492085</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+493641492085</cbc:Telephone>
+									<cbc:ElectronicMail>vergabe-jena@jena.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Kassel</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Obere Karlstraße 15</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34117</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:05617876007</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+495617876007</cbc:Telephone>
+									<cbc:ElectronicMail>vergabemanagement@kassel.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Mönchengladbach</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Markt 11</cbc:StreetName>
+									<cbc:CityName>Mönchengladbach</cbc:CityName>
+									<cbc:PostalZone>41236</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA15</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:02161258012</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+492161258012</cbc:Telephone>
+									<cbc:ElectronicMail>Zentrale-Vergabestelle-DezernatVI@moenchengladbach.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0007</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Münster</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Münster</cbc:CityName>
+									<cbc:PostalZone>48143</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA33</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:02514923010</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+492514923010</cbc:Telephone>
+									<cbc:ElectronicMail>vergaben@stadt-muenster.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0008</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Paderborn</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Am Hoppenhof 33</cbc:StreetName>
+									<cbc:CityName>Paderborn</cbc:CityName>
+									<cbc:PostalZone>33104</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA47</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:052518811440</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+4952518811440</cbc:Telephone>
+									<cbc:ElectronicMail>m.kerkhoff@paderborn.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0009</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Niedersachsen   beim Niedersächsischen Ministerium für Wirtschaft, Verkehr, Bauen und Digitalisierung</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Auf der Hude 2</cbc:StreetName>
+									<cbc:CityName>Lüneburg</cbc:CityName>
+									<cbc:PostalZone>21339</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE935</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:04131153308</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+494131153306</cbc:Telephone>
+									<cbc:Telefax>+494131152943</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@mw.niedersachsen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0010</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00110250-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">35/2025</efbc:GazetteID><efbc:PublicationDate>2025-02-19+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">afdbd33e-e9b9-48c3-b5ba-1b882fe9745a</cbc:ID>
+	<cbc:ContractFolderID>16da6c75-d551-4e16-ac15-4f8c701619a1</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-02-17+01:00</cbc:IssueDate>
+	<cbc:IssueTime>16:33:37+01:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-02-17+01:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0010</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0002</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0003</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0004</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0005</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0006</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0007</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0008</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>CrossBorderLaw</cbc:ID>
+			<cbc:DocumentDescription languageID="DEU">Für das Vergabeverfahren gelten einheitlich die Vorschirften des Kartellvergaberechts, insbesondere des GWB und der VgV. Die Stadt Osnabrück führt  die gemeinsame Beschaffung im Namen der übrigen Auftraggeber durch. Soweit neben dem Kartellvergaberecht länderspezifische Besonderheiten greifen sollten, gelten für das Vergabeverfahren die Vorgaben des niedersächsischen Vergaberechts. Für die Vertragsabwicklung gelten davon unabhängig die für den jeweiligen Auftraggeber einschlägigen Bestimmungen, bspw. die landesspezifischen Tariftreue- und Vergabegesetze.</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Die Auftraggeber weisen darauf hin, dass ein Nachprüfungsantrag nur zulässig ist, soweit 1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber den Auftraggebern innerhalb von spätestens 10 Kalendertagen gerügt hat, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber den Auftraggebern gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, spätestens bis zum Ablauf der in der EU-Bekanntmachung genannten Teilnahmefrist oder der in den Vergabeunterlagen jeweils benannten Frist zur Abgabe der Angebote gegenüber den Auftraggebern gerügt werden, 4. der Antrag auf Einleitung eines Nachprüfungsverfahrens innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Auftraggeber, einer Rüge nicht abhelfen zu wollen, gestellt wird. Weitere Einzelheiten können §§ 160 ff. GWB entnommen werden.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Die Auftraggeber führen ein Verhandlungsverfahren mit vorgeschaltetem europaweitem Teilnahmewettbewerb nach § 14 Abs. 3 Nr. 2, 3 VgV, § 17 VgV durch.  In der ersten Stufe des Verhandlungsverfahrens, diesem Teilnahmewettbewerb, wählen die Auftraggeber die Bewerber nach ihrer Eignung aus. Die Auftraggeber stellen potenziellen Bewerbern eine Anlage A1 für das Los Software-Architektur sowie eine Anlage A2 für das Los Realisierung modellzentrierter Datenfluss zur Verfügung, die als Eignungsformulare mit weiteren Vorgaben dienen. Die Bewerber können diese Anlagen A1 und A2 auf der elektronischen Vergabeplattform unter dem Projektraum/-zugang dieses Vergabeverfahrens abrufen. Die Anlagen A1 und A2 enthalten für den Teilnahmewettbewerb Ausschlusskriterien, die zwingend einzuhalten sind, sowie Vorgaben zu den Bewertungskriterien. Anhand der Bewertungskriterien, die allen Bewerbern in der elektronisch abrufbaren Bewertungsmatrix zur Anlage A1 bzw. A2 transparent bekanntgegeben werden, treffen die Auftraggeber die Auswahl der Bewerber, mit denen sie das Verhandlungsverfahren in dem jeweiligen Los fortsetzen wollen.  Nach Abschluss des Teilnahmewettbewerbs beginnt mit der Aufforderung der ausgewählten Bieter das eigentliche Verhandlungsverfahren. Die Auftraggeber werden voraussichtlich 3 bis 5 Bewerber bzw. Bieter je Los zur Abgabe eines indikativen Angebotes auffordern. Die Einzelheiten dazu sowie zum gesamten Ablauf des Vergabeverfahrens ergeben sich aus den abrufbaren Vergabeunterlagen.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D545426</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">Civitas001</cbc:ID>
+		<cbc:Name languageID="DEU">CIVITAS/CORE 2.0 - Software-Architektur &amp; Realisierung modellzentrierter Datenfluss</cbc:Name>
+		<cbc:Description languageID="DEU">Die Kommunen Bamberg, Haßfurt, Jena, Kassel, Mönchengladbach, Münster, Osnabrück und Paderborn (im Folgenden: Auftraggeber) wurden im Rahmen des Förderprogramms "Modellprojekte Smart Cities" (MPSC) des Bundesministeriums für Wohnen, Stadtentwicklung und Bauwesen als Modellprojekte ausgewählt. Sie erhalten daher Fördermittel, um ihre Smart-City-Entwicklung voranzutreiben. Die Förderzeiträume variieren dabei und enden, je nach Kommune, zwischen 2026 und 2028.   Die Auftraggeber sind Mitglieder im Verein Civitas Connect e. V. und Teil der vereinsinternen Entwicklungsgemeinschaft von CIVITAS/CORE, der sog. CIVITAS/CORE Community. Diese Entwicklungsgemeinschaft aus mehreren Städten und Stadtwerken treibt kollaborativ die Entwicklung und Weiterentwicklung einer Open Source - Software für urbane Datenplattformen voran.  Urbane Datenplattformen sollen einen grundlegenden Teil der Dateninfrastruktur in Kommunen realisieren. Sie dienen dazu, eine Vielzahl von heterogenen Datenquellen anzubinden, diese Daten an zentraler Stelle zu konsolidieren, eine Rechteverwaltung zur Datennutzung zu etablieren und Daten über standardisierte Schnittstellen zur Verfügung zu stellen, um eine effiziente und sichere fach- und institutionsübergreifende Datennutzung zu ermöglichen.    CIVITAS/CORE stellt den Kern einer urbanen Datenplattform dar.  CIVITAS/CORE ist aktuell in der Version 1 veröffentlicht. Ziel der in diesem Verfahren zu vergebenden Aufträge ist die Weiterentwicklung von CIVITAS/CORE. Die finanziellen Mittel für diese Ausschreibung werden von den Auftraggebern gemeinschaftlich aufgebracht.  Die Aufträge werden durch die Auftraggeber gemeinsam vergeben. Im Auftragsfall schließt jeder Auftraggeber für das jeweilige Los eine gesonderte Rahmenvereinbarung mit dem obsiegenden Bieter. Die Stadt Osnabrück führt das Vergabeverfahren im Namen aller Auftraggeber durch. Bei der Vorbereitung und Durchführung des Vergabeverfahrens werden die Auftraggeber von dem Verein Civitas Connect e. V. unterstützt.    Mit diesem europaweiten Vergabeverfahren wollen die Auftraggeber jeweils einen zuverlässigen, leistungsfähigen und erfahrenen Softwarespezialisten als Auftragnehmer auswählen, welcher die je Los notwendigen Leistungen der Softwareentwicklung und -pflege für CIVITAS/CORE 2.0 effizient und unter Beachtung des Wirtschaftlichkeitsgrundsatzes erbringt. Die Auftraggeber erwarten ein hohes Verständnis für ihre Ziele und Zielgruppen sowie eine lösungsorientierte Herangehensweise, um ihnen bestmögliche Ideen aufzuzeigen und diese dann umzusetzen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="eforms-contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4D545426
+
+
+Die Nachforderung von Erklärungen und Nachweisen unter Fristsetzung steht im Ermessen der Auftraggeber. Die Auftraggeber werden ihr Ermessen unter Beachtung des Gleichbehandlungsgrundsatzes diskriminierungsfrei ausüben (vgl. § 56 VgV).  Fragen zur EU-Bekanntmachung, den Vergabeunterlagen oder den Anlagen A1 und A2 dürfen die Bewerber bis zum 10.03.2025 über die elektronische Vergabeplattform einreichen. Die Auftraggeber werden ergänzende und berichtigende Angaben in einem Fragen- und Antwortenkatalog zusammenfassen und diesen auf der elektronischen Vergabeplattform veröffentlichen.  Die letzte Aktualisierung des Fragen- und Antwortenkatalogs erfolgt im Teilnahmewettbewerb voraussichtlich bis zum 13.03.2025. Die Bewerber sind verpflichtet, den Fragen- und Antwortenkatalog regelmäßig zu prüfen und die sich hieraus ergebenden Anforderungen zu berücksichtigen.</cbc:Note>
+		<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+		<cac:RequestedTenderTotal>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:FrameworkMaximumAmount currencyID="EUR">990000.00</efbc:FrameworkMaximumAmount>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72212100</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">In der Regel wird die Leistung digital ("remote") erbracht. Die Auftraggeber behalten sich vor, mit angemessener Vorlaufzeit zu physischen Treffen an einem von den Auftraggebern festgelegten Ort bestimmte Personen einzuladen.</cbc:Description>
+			<cac:Address>
+				<cbc:Region>anyw</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2025-07-02+02:00</cbc:StartDate>
+			<cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cac:Renewal>
+				<cac:Period>
+					<cbc:Description languageID="DEU">Die Auftraggeber haben jeweils die Option, die Rahmenvereinbarung einmalig um maximal ein Jahr zu verlängern.</cbc:Description>
+				</cac:Period>
+			</cac:Renewal>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Zuverlässigkeit (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Die Zuverlässigkeit des Bewerbers muss vorliegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Betriebshaftpflichtversicherung (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Betriebs- bzw. Berufshaftpflichtversicherung mit Deckungssummen für Personen- und Sachschäden in Höhe von mindestens EUR 3 Mio. und für Vermögensschäden von mindestens EUR 3 Mio. bzw. alternativ die Bereitschaft, im Auftragsfall die bestehende Betriebshaftpflichtversicherung gemäß den vorstehenden Vorgaben zu den Versicherungssummen aufzustocken.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Mindestreferenzen (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Los Software-Architektur: Mindestens 3 Referenzen, die jeweils folgende Anforderungen erfüllen müssen:  - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Der Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).  - Die Leistung muss im Bereich Software-Architektur erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Referenzen müssen in der Gesamtschau folgende Anforderungen erfüllen:   - In mindestens einer Referenz umfasste die erbrachte Leistung die (Weiter-) Entwicklung von Datenplattformen oder anderen generischen Systemen zur Datenverwaltung.   - In mindestens einer Referenz umfasste die erbrachte Leistung die Konzeption und Weiterentwicklung von Software-Architektur im Bereich moderner Webanwendungen oder von Cloud Native Systemen nach der in der Leistungsbeschreibung (Anlage 1a) gegebenen Definition.    - In mindestens einer Referenz hat der Bewerber Leistungen durch die Beteiligung an einem Open Source Projekt (für einen Auftraggeber/ Kunden oder auf eigene Rechnung) durch jeweils mindestens 10 Commits oder 5 Merge/ Pull-Requests an aktiv gepflegten Repositories erbracht, wobei   - die Repositories "aktiv gepflegt" sein, im Sinne von mindestens 1 Commit pro Quartal seit Veröffentlichung des Repositories aufweisen müssen;   - die Repositories mindestens 12 Monate vor der Veröffentlichung dieses Vergabeverfahrens (Auftragsbekanntmachung) erstellt worden sein müssen;   - die Repositories unter einer von der Open Source Initiative (OSI, https://opensource.org) freigegebenen Open Source Lizenz veröffentlicht sein worden müssen;   - maximal ein Referenzprojekt auf eigene Rechnung statt für einen Auftraggeber als Referenz zugelassen ist.   Die weiteren Einzelheiten ergeben sich aus der Anlage A1.  Los Realisierung modellzentrierter Datenfluss:  Mindestens 3 Referenzen, die jeweils folgende Anforderungen erfüllen müssen:   - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).  - Die Leistung muss im Bereich Software-Architektur und/oder Prototyping erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Referenzen müssen in der Gesamtschau folgende Anforderungen erfüllen:   - In mindestens einem Fall umfasste die erbrachte Leistung die Software-Entwicklung oder Software-Konzeption unter Einsatz von Datenmodellierungs-Frameworks und -Standards.    - In mindestens einem Fall hat der Bewerber Leistungen durch die Beteiligung an einem Open Source Projekt (für einen Auftraggeber/ Kunden oder auf eigene Rechnung) durch jeweils mindestens 10 Commits oder 5 Merge/ Pull-Requests an aktiv gepflegten Repositories erbracht, wobei   - die Repositories "aktiv gepflegt" sein, im Sinne von mindestens 1 Commit pro Quartal seit Veröffentlichung des Repositories aufweisen müssen;   - die Repositories mindestens 12 Monate vor der Veröffentlichung dieses Vergabeverfahrens (Auftragsbekanntmachung) erstellt worden sein müssen;   - die Repositories unter einer von der Open Source Initiative (OSI, https://opensource.org) freigegebenen Open Source Lizenz veröffentlicht worden sein müssen;   - maximal ein Referenzprojekt auf eigene Rechnung statt für einen Auftraggeber als Referenz zugelassen ist.  Die weiteren Einzelheiten ergeben sich aus der Anlage A2.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Mindestausstattung mit Fachpersonal (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Los Software-Architektur:  - 2 Senior Software-Architekt:innen (ab 4 Jahre Berufserfahrung in dieser Rolle, Vollzeit-Äquivalente)   - 1 Principal Software-Architekt:in (ab 7 Jahren Berufserfahrung im Bereich Software-Entwicklung/-Konzeption/-Design, Vollzeit-Äquivalent)   - Die Berufserfahrung bezieht sich ebenfalls auf Vollzeitäquivalente: Wenn ein:e Mitarbeiter:in bspw. über 2 Jahre eine 50%-Stelle innehatte, wird das als 1 Jahr Berufserfahrung gezählt.   Los Realisierung modellzentrierter Datenfluss:  - 1 Senior Software-Architekt:in (ab 4 Jahren Berufserfahrung in dieser Rolle, Vollzeitäquivalent)   - 1 Principal Software-Architekt:in (ab 7 Jahren Berufserfahrung im Bereich Software-Entwicklung/ -Konzeption/ -Design, Vollzeitäquivalent)   - 2 Senior Backend-Engineers (ab 4 Jahren Berufserfahrung in dieser Rolle, Vollzeitäquivalente)   - Die Berufserfahrung bezieht sich ebenfalls auf Vollzeitäquivalente: Wenn ein:e Mitarbeiter:in bspw. über 2 Jahre eine 50%-Stelle innehatte, wird das als 1 Jahr Berufserfahrung gezählt.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wertungsrelevante Referenzen</cbc:Name>
+								<cbc:Description languageID="DEU">Los Software-Architektur:  3 Referenzen, welche die folgenden Mindestanforderungen erfüllen:  - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).   - Die Leistung muss im Bereich Software-Architektur erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Auftraggeber werten die eingereichten wertungsrelevanten Referenzen nach der Bewertungsmatrix zur Anlage A1. Die Einzelheiten dazu sind der Anlage A1 zu entnehmen.  Los Realisierung modellzentrierter Datenfluss:  3 Referenzen, welche die folgenden Mindestanforderungen erfüllen:  - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).   - Die Leistung muss im Bereich Software-Architektur und/oder Prototyping erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Auftraggeber werten die eingereichten wertungsrelevanten Referenzen nach der Bewertungsmatrix zur Anlage A2. Die Einzelheiten dazu sind der Anlage A2 zu entnehmen.</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4D545426/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter.</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die Nachforderung von Erklärungen und Nachweisen unter Fristsetzung steht im Ermessen der Auftraggeber. Die Auftraggeber werden ihr Ermessen unter Beachtung des Gleichbehandlungsgrundsatzes diskriminierungsfrei ausüben (vgl. § 56 VgV).</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>35.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Angebotspreis (netto)</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird der Angebotspreis, der aus der Summe der angebotenen Stundensätze (jeweils multipliziert mit festgelegten Faktoren) besteht.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Qualität der angebotenen Leistung</cbc:Name>
+						<cbc:Description languageID="DEU">Die Qualität der angebotenen Leistung wird anhand folgender von den Bietern einzureichenden Unterlagen gewertet: - Konzept "Herangehensweise und Teamaufstellung"  - Konzept "Eventbasierte Architektur für Datendrehscheibe / Datenmanagement" - Konzept "Berechtigungssystem für Datenzugriff"</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Berufserfahrung der Teammitlgieder in Jahren</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird die Berufserfahrung der benannten Projektteammitglieder</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Fachliche Qualifikation der Teammitglieder</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird die fachliche Qualifikation der benannten Projektteammitglieder</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4D545426</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die Auftraggeber weisen darauf hin, dass ein Nachprüfungsantrag nur zulässig ist, soweit 1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber den Auftraggebern innerhalb von spätestens 10 Kalendertagen gerügt hat, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber den Auftraggebern gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, spätestens bis zum Ablauf der in der EU-Bekanntmachung genannten Teilnahmefrist oder der in den Vergabeunterlagen jeweils benannten Frist zur Abgabe der Angebote gegenüber den Auftraggebern gerügt werden, 4. der Antrag auf Einleitung eines Nachprüfungsverfahrens innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Auftraggeber, einer Rüge nicht abhelfen zu wollen, gestellt wird. Weitere Einzelheiten können §§ 160 ff. GWB entnommen werden.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D545426</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-03-28+01:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-03-20+01:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-03-10+01:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+01:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">1</cbc:ID>
+			<cbc:Name languageID="DEU">CIVITAS/CORE 2.0 - Software-Entwicklung</cbc:Name>
+			<cbc:Description languageID="DEU">Die Auftraggeber haben die für die Weiterentwicklung von CIVITAS/CORE notwendigen Leistungen in 5 Lose aufgeteilt:    - Los Software-Architektur    - Los Realisierung modellzentrierter Datenfluss   - Los Frontend, Backend, DevOps    - Los UX- &amp; UI-Design    - Los IT-Security    Dieses Verhandlungsverfahren mit vorgeschaltetem Teilnahmewettbewerb bezieht sich lediglich auf die Lose:    -Los Software-Architektur    -Los Realisierung modellzentrierter Datenfluss   Die übrigen Lose schreiben die Auftraggeber separat, voraussichtlich in einem nicht offenen Verfahren, aus.  Zwischen den hier zu vergebenden Leistungen und den separat zu vergebenden Leistungen bestehen Schnittstellen.    Die Einzelheiten sind insbesondere den Leistungsbeschreibungen (Anlage 1a, 1b und 1c der Vergabeunterlagen) zu entnehmen. Sie stellen den aktuellen Planungsstand dar, der sich im Laufe des Vergabeverfahrens und insbesondere während der Ausführung der Leistungen weiterentwickeln und verändern kann.  Die Rahmenvereinbarung hat jeweils eine vorgesehene Laufzeit bis zum 30.06.2028. Den Auftraggebern steht jeweils ein jährliches Kündigungsrecht zum Jahresende zu (erstmalig zum 31.12.2025). Hinzu kommt jeweils ein ordentliches Kündigungsrecht des Auftraggebers, falls der Förderzeitraum früher endet. Die Auftraggeber haben außerdem jeweils die Option, die Rahmenvereinbarung einmalig um maximal ein Jahr zu verlängern.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:selbst#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:RequestedTenderTotal>
+				<cbc:EstimatedOverallContractAmount currencyID="EUR">350000.00</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72212100</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">In der Regel wird die Leistung digital ("remote") erbracht. Die Auftraggeber behalten sich vor, mit angemessener Vorlaufzeit zu physischen Treffen an einem von den Auftraggebern festgelegten Ort bestimmte Personen einzuladen.</cbc:Description>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-07-02+02:00</cbc:StartDate>
+				<cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Die Auftraggeber haben jeweils die Option, die Rahmenvereinbarung einmalig um maximal ein Jahr zu verlängern.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Zuverlässigkeit (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Die Zuverlässigkeit des Bewerbers muss vorliegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Betriebshaftpflichtversicherung (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Betriebs- bzw. Berufshaftpflichtversicherung mit Deckungssummen für Personen- und Sachschäden in Höhe von mindestens EUR 3 Mio. und für Vermögensschäden von mindestens EUR 3 Mio. bzw. alternativ die Bereitschaft, im Auftragsfall die bestehende Betriebshaftpflichtversicherung gemäß den vorstehenden Vorgaben zu den Versicherungssummen aufzustocken.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Mindestreferenzen (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Los Software-Architektur: Mindestens 3 Referenzen, die jeweils folgende Anforderungen erfüllen müssen:  - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Der Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).  - Die Leistung muss im Bereich Software-Architektur erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Referenzen müssen in der Gesamtschau folgende Anforderungen erfüllen:   - In mindestens einer Referenz umfasste die erbrachte Leistung die (Weiter-) Entwicklung von Datenplattformen oder anderen generischen Systemen zur Datenverwaltung.   - In mindestens einer Referenz umfasste die erbrachte Leistung die Konzeption und Weiterentwicklung von Software-Architektur im Bereich moderner Webanwendungen oder von Cloud Native Systemen nach der in der Leistungsbeschreibung (Anlage 1a) gegebenen Definition.    - In mindestens einer Referenz hat der Bewerber Leistungen durch die Beteiligung an einem Open Source Projekt (für einen Auftraggeber/ Kunden oder auf eigene Rechnung) durch jeweils mindestens 10 Commits oder 5 Merge/ Pull-Requests an aktiv gepflegten Repositories erbracht, wobei   - die Repositories "aktiv gepflegt" sein, im Sinne von mindestens 1 Commit pro Quartal seit Veröffentlichung des Repositories aufweisen müssen;   - die Repositories mindestens 12 Monate vor der Veröffentlichung dieses Vergabeverfahrens (Auftragsbekanntmachung) erstellt worden sein müssen;   - die Repositories unter einer von der Open Source Initiative (OSI, https://opensource.org) freigegebenen Open Source Lizenz veröffentlicht sein worden müssen;   - maximal ein Referenzprojekt auf eigene Rechnung statt für einen Auftraggeber als Referenz zugelassen ist.   Die weiteren Einzelheiten ergeben sich aus der Anlage A1.  Los Realisierung modellzentrierter Datenfluss:  Mindestens 3 Referenzen, die jeweils folgende Anforderungen erfüllen müssen:   - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).  - Die Leistung muss im Bereich Software-Architektur und/oder Prototyping erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Referenzen müssen in der Gesamtschau folgende Anforderungen erfüllen:   - In mindestens einem Fall umfasste die erbrachte Leistung die Software-Entwicklung oder Software-Konzeption unter Einsatz von Datenmodellierungs-Frameworks und -Standards.    - In mindestens einem Fall hat der Bewerber Leistungen durch die Beteiligung an einem Open Source Projekt (für einen Auftraggeber/ Kunden oder auf eigene Rechnung) durch jeweils mindestens 10 Commits oder 5 Merge/ Pull-Requests an aktiv gepflegten Repositories erbracht, wobei   - die Repositories "aktiv gepflegt" sein, im Sinne von mindestens 1 Commit pro Quartal seit Veröffentlichung des Repositories aufweisen müssen;   - die Repositories mindestens 12 Monate vor der Veröffentlichung dieses Vergabeverfahrens (Auftragsbekanntmachung) erstellt worden sein müssen;   - die Repositories unter einer von der Open Source Initiative (OSI, https://opensource.org) freigegebenen Open Source Lizenz veröffentlicht worden sein müssen;   - maximal ein Referenzprojekt auf eigene Rechnung statt für einen Auftraggeber als Referenz zugelassen ist.  Die weiteren Einzelheiten ergeben sich aus der Anlage A2.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Mindestausstattung mit Fachpersonal (Ausschlusskriterium)</cbc:Name>
+								<cbc:Description languageID="DEU">Los Software-Architektur:  - 2 Senior Software-Architekt:innen (ab 4 Jahre Berufserfahrung in dieser Rolle, Vollzeit-Äquivalente)   - 1 Principal Software-Architekt:in (ab 7 Jahren Berufserfahrung im Bereich Software-Entwicklung/-Konzeption/-Design, Vollzeit-Äquivalent)   - Die Berufserfahrung bezieht sich ebenfalls auf Vollzeitäquivalente: Wenn ein:e Mitarbeiter:in bspw. über 2 Jahre eine 50%-Stelle innehatte, wird das als 1 Jahr Berufserfahrung gezählt.   Los Realisierung modellzentrierter Datenfluss:  - 1 Senior Software-Architekt:in (ab 4 Jahren Berufserfahrung in dieser Rolle, Vollzeitäquivalent)   - 1 Principal Software-Architekt:in (ab 7 Jahren Berufserfahrung im Bereich Software-Entwicklung/ -Konzeption/ -Design, Vollzeitäquivalent)   - 2 Senior Backend-Engineers (ab 4 Jahren Berufserfahrung in dieser Rolle, Vollzeitäquivalente)   - Die Berufserfahrung bezieht sich ebenfalls auf Vollzeitäquivalente: Wenn ein:e Mitarbeiter:in bspw. über 2 Jahre eine 50%-Stelle innehatte, wird das als 1 Jahr Berufserfahrung gezählt.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wertungsrelevante Referenzen</cbc:Name>
+								<cbc:Description languageID="DEU">Los Software-Architektur:  3 Referenzen, welche die folgenden Mindestanforderungen erfüllen:  - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).   - Die Leistung muss im Bereich Software-Architektur erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Auftraggeber werten die eingereichten wertungsrelevanten Referenzen nach der Bewertungsmatrix zur Anlage A1. Die Einzelheiten dazu sind der Anlage A1 zu entnehmen.  Los Realisierung modellzentrierter Datenfluss:  3 Referenzen, welche die folgenden Mindestanforderungen erfüllen:  - Der Auftrag muss in den letzten drei Jahren abgeschlossen worden sein (2022-2025).   - Die Auftragssumme muss mindestens 50.000 EUR (netto) betragen haben.   - Bewerber war an dem Auftrag im Durchschnitt über die Laufzeit des Auftragsverhältnisses mit mind. 0,5 Vollzeitäquivalenten beteiligt (Vollzeit = 40 Stunden / Woche).   - Die Leistung muss im Bereich Software-Architektur und/oder Prototyping erbracht worden und mit den hier zu vergebenden Leistungen vergleichbar sein.   Die Auftraggeber werten die eingereichten wertungsrelevanten Referenzen nach der Bewertungsmatrix zur Anlage A2. Die Einzelheiten dazu sind der Anlage A2 zu entnehmen.</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.0</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXP4D545426/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalForm languageID="DEU">Gesamtschuldnerisch haftend mit bevollmächtigtem Vertreter.</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die Nachforderung von Erklärungen und Nachweisen unter Fristsetzung steht im Ermessen der Auftraggeber. Die Auftraggeber werden ihr Ermessen unter Beachtung des Gleichbehandlungsgrundsatzes diskriminierungsfrei ausüben (vgl. § 56 VgV).</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>35.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Angebotspreis (netto)</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird der Angebotspreis, der aus der Summe der angebotenen Stundensätze (jeweils multipliziert mit festgelegten Faktoren) besteht.</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Qualität der angebotenen Leistung</cbc:Name>
+						<cbc:Description languageID="DEU">Die Qualität der angebotenen Leistung wird anhand der folgenden von den Bietern einzureichenden Unterlagen gewertet: - Konzept "Herangehensweise und Teamaufstellung"  - Konzept "Umsetzung modellzentrierter Datenfluss"  - Konzept "Konnektoren-Baukasten / Anschluss an kommunale Fachsysteme"</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Berufserfahrung der Teammitglieder in Jahren</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird die Berufserfahrung der benannten Teammitglieder in Jahren</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Fachliche Qualifikation der Teammitglieder</cbc:Name>
+						<cbc:Description languageID="DEU">Gewertet wird die fachliche Qualifikation der benannten Teammitglieder</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXP4D545426</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Die Auftraggeber weisen darauf hin, dass ein Nachprüfungsantrag nur zulässig ist, soweit 1. der Antragsteller den gerügten Verstoß gegen Vergabevorschriften im Vergabeverfahren erkannt und gegenüber den Auftraggebern innerhalb von spätestens 10 Kalendertagen gerügt hat, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Angebotsabgabe oder zur Bewerbung gegenüber den Auftraggebern gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, spätestens bis zum Ablauf der in der EU-Bekanntmachung genannten Teilnahmefrist oder der in den Vergabeunterlagen jeweils benannten Frist zur Abgabe der Angebote gegenüber den Auftraggebern gerügt werden, 4. der Antrag auf Einleitung eines Nachprüfungsverfahrens innerhalb von 15 Kalendertagen nach Eingang der Mitteilung der Auftraggeber, einer Rüge nicht abhelfen zu wollen, gestellt wird. Weitere Einzelheiten können §§ 160 ff. GWB entnommen werden.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXP4D545426</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-03-28+01:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-03-20+01:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-03-10+01:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+01:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2</cbc:ID>
+			<cbc:Name languageID="DEU">CIVITAS/CORE 2.0 - Realisierung modellzentrierter Datenfluss</cbc:Name>
+			<cbc:Description languageID="DEU">Die Auftraggeber haben die für die Weiterentwicklung von CIVITAS/CORE notwendigen Leistungen in 5 Lose aufgeteilt:    - Los Software-Architektur    - Los Realisierung modellzentrierter Datenfluss   - Los Frontend, Backend, DevOps    - Los UX- &amp; UI-Design    - Los IT-Security    Dieses Verhandlungsverfahren mit vorgeschaltetem Teilnahmewettbewerb bezieht sich lediglich auf die Lose:    -Los Software-Architektur    -Los Realisierung modellzentrierter Datenfluss   Die übrigen Lose schreiben die Auftraggeber separat, voraussichtlich in einem nicht offenen Verfahren, aus.  Zwischen den hier zu vergebenden Leistungen und den separat zu vergebenden Leistungen bestehen Schnittstellen.    Die Einzelheiten sind insbesondere den Leistungsbeschreibungen (Anlage 1a, 1b und 1c der Vergabeunterlagen) zu entnehmen. Sie stellen den aktuellen Planungsstand dar, der sich im Laufe des Vergabeverfahrens und insbesondere während der Ausführung der Leistungen weiterentwickeln und verändern kann.  Die Rahmenvereinbarung hat jeweils eine vorgesehene Laufzeit bis zum 30.06.2028. Den Auftraggebern steht jeweils ein jährliches Kündigungsrecht zum Jahresende zu (erstmalig zum 31.12.2025). Hinzu kommt jeweils ein ordentliches Kündigungsrecht des Auftraggebers, falls der Förderzeitraum früher endet. Die Auftraggeber haben außerdem jeweils die Option, die Rahmenvereinbarung einmalig um maximal ein Jahr zu verlängern.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:selbst#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:RequestedTenderTotal>
+				<cbc:EstimatedOverallContractAmount currencyID="EUR">310000.00</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72212100</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">In der Regel wird die Leistung digital ("remote") erbracht. Die Auftraggeber behalten sich vor, mit angemessener Vorlaufzeit zu physischen Treffen an einem von den Auftraggebern festgelegten Ort bestimmte Personen einzuladen.</cbc:Description>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2025-07-02+02:00</cbc:StartDate>
+				<cbc:EndDate>2028-06-30+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Die Auftraggeber haben jeweils die Option, die Rahmenvereinbarung einmalig um maximal ein Jahr zu verlängern.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

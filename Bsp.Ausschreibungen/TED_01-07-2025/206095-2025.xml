@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<efac:LotResult>
+							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>15</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">part-req</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>83</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>15</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-no-verif</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="review-decision-type">t-verif-inad-low</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							</efac:SettledContract>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tenderingparty">TPA-0001</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>1006</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							<cbc:AwardDate>2024-09-12+02:00</cbc:AwardDate>
+							<cbc:Title languageID="DEU">01</cbc:Title>
+							<efac:LotTender>
+								<cbc:ID>TEN-0001</cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+							</efac:Tenderer>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">36</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://goettingen.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Stadt Göttingen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Hiroshimaplatz 1-4</cbc:StreetName>
+									<cbc:CityName>Göttingen</cbc:CityName>
+									<cbc:PostalZone>37083</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE91C</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>entfällt</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>FB Gebäude, FD Hochbau</cbc:Name>
+									<cbc:Telephone>+49551400 2924</cbc:Telephone>
+									<cbc:ElectronicMail>gebaeude@goettingen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.carstenmeier.com</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">carsten meier architekten stadtplaner bda</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Campestraße 29</cbc:StreetName>
+									<cbc:CityName>Braunschweig</cbc:CityName>
+									<cbc:PostalZone>38102</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE911</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>USt-ID: DE264451771</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 5312273437</cbc:Telephone>
+									<cbc:ElectronicMail>vgv@carstenmeier.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.mw.niedersachsen.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer beim Niedersächsischen Ministerium für Wirtschaft, Arbeit und Verkehr - Regierungsvertretung Lüneburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Auf der Hude 2</cbc:StreetName>
+									<cbc:CityName>Lüneburg</cbc:CityName>
+									<cbc:PostalZone>21339</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE935</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:04131153308</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 413115-3308</cbc:Telephone>
+									<cbc:ElectronicMail>vergabekammer@mw.niedersachsen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID>UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.papeundpape.de</cbc:WebsiteURI>
+								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">pape+pape architekten</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Oderweg 31</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34131</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 295 514 661</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 561506255-40</cbc:Telephone>
+									<cbc:ElectronicMail>info@papeundpape.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization><efac:UltimateBeneficialOwner>
+							<cbc:ID>UBO-0001</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>DEU</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
+					</efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00206095-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">63/2025</efbc:GazetteID><efbc:PublicationDate>2025-03-31+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">7b8b7a7d-c42e-4aed-9d50-77593eaf54f9</cbc:ID>
+	<cbc:ContractFolderID>2cc7aca5-a432-4bc7-8048-f38dd71a1749</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-03-27+01:00</cbc:IssueDate>
+	<cbc:IssueTime>15:56:47+01:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-03-27+01:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">can-desg</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cbc:BuyerProfileURI>https://goettingen.de</cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Gemäß § 160 Abs. 1 GWB leitet die Vergabekammer ein Nachprüfungsverfahren nur auf Antrag ein. Der Antrag ist unzulässig, soweit der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt (§ 160 Abs. 3 Nr. 1 GWB). Der Nachprüfungsantrag ist gemäß § 160 Abs. 3 Nr. 2 GWB ebenfalls unzulässig, soweit Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. Der Vergabenachprüfungsantrag ist ferner nach § 160 Abs. 3 Nr. 3 GWB unzulässig, soweit Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. Der Nachprüfungsantrag ist gemäß § 160 Abs. 3 Nr. 4 GWB schließlich dann unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Für die weiteren Voraussetzungen der Zulässigkeit wird auf §§ 160 und 161 GWB verwiesen.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:Description languageID="DEU">Der Wettbewerb wird als nichtoffener hochbaulich- freiraumplanerischer Realisierungswettbewerb gemäß RPW 2013 und §§ 78 - 80 VgV mit 15 teilnehmenden Teams und vorgeschaltetem Bewerbungsverfahren zur Auswahl von 12 Arbeitsgemeinschaften ausgelobt. Der Architektenkammer Niedersachsen hat die Auslobung vorgelegen, sie hat die Übereinstimmung mit der Richtlinie bestätigt und den Wettbewerb unter der Nummer 215-32-24/04 registriert. Von der Ausloberin wird eine Teilnehmendenzahl von maximal 15 festgelegt. Die Büros bzw. Arbeitsgemeinschaften werden in einem Bewerbungsverfahren bestimmt. Erfüllen mehr als 12 Bewerbende die Anforderungen zur Teilnahme, wird unter den entsprechenden Büros gelost. Drei Arbeitsgemeinschaften, die alle Bewerbungsbedingungen und Eignungskriterien erfüllen, wurden von der Ausloberin vorab gesetzt. Teilnahmeberechtigt sind aufgrund der Anforderungen an die Bauaufgabe zwingend zu bildende Teams aus Architekt:innen, Landschaftsarchitekt:innen, Tragwerksplaner:innen und Ingenieur:innen der Technischen Ausrüstung. Es wird eine Arbeitsgemeinschaft mit Innenarchitekt:innen empfohlen. Die Bewerbungsbedingungen und Eignungskriterien sind den Bewerbungsunterlagen zu entnehmen.</cbc:Description>
+		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">2024/145</cbc:ID>
+		<cbc:Name languageID="DEU">Realisierungswettbewerb Ersatzneubau Hainberg-Gymnasium Göttingen</cbc:Name>
+		<cbc:Description languageID="DEU">Die Stadt Göttingen beabsichtigt, einen Ersatzneubau mit ca. 5.800 m2 BGF für das Hainberg-Gymnasium zu erstellen, da der jetzige Oberstufentrakt (4-geschossiger Flachdachbau) nicht wirtschaftlich saniert werden kann. Der Ersatzneubau mit integrierter Mensa soll den aktuellen Raumbedarf abdecken und eine zukunfts- orientierte pädagogische Lernwelt ermöglichen. Der Ersatzneubau wird auf dem vorhandenen Sportplatz entstehen, der abgängige Sportplatz soll nach dem Abriss des veralteten Oberstufentraktes mit gleicher Funktionalität dort auf ca. 4.000 m2 Grundstücksfläche neu gestaltet werden. Um auch die Gebäudehülle und Gebäudetechnik zukunftsorientiert zu planen, wird der Passivhausstandard angestrebt. Eine DGNB-Zertifizierung wird erwogen. Die Sanierung des Bestandsgebäudes wird Auftragsbestandteil, ist jedoch nicht Teil der Wettbewerbsleistungen. Weiteres ist der Auslobung zur Bekanntmachung in den Teilnahmeunterlagen zu entnehmen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXP4YZH5L3U
+
+
+Es wird ausdrücklich darauf hingewiesen, dass die Kommunikation im Teilnahmewettbewerb dieser Ausschreibung über das elektronische Vergabeportal "dtvp.de" (https:// www.dtvp.de) erfolgt. Für die bloße Einsicht in das Verfahren ist eine Registrierung nicht notwendig, jedoch wird es angeraten, sich kostenfrei zu registrieren und sich zu dem Verfahren freizuschalten. Nur durch eine Freischaltung zu dem Verfahren werden Sie auf sämtliche Bieterinformationen bzw. auf Änderungen an den Vergabeunterlagen oder neu eingestellte Bieterinformationen hingewiesen. Für die Abgabe eines Teilnahmeantrags in elektronischer Form muss jedoch eine Registrierung erfolgen. Die geforderten Erklärungen und Angaben werden u. a. im Rahmen der zu verwendenden Formblätter präzisiert und abgefordert und sind nicht separat zu erklären/abzugeben. Bei den Formblättern handelt es sich um PDF- Dateien, die im Internet - Link siehe diese Bekanntmachung - heruntergeladen werden können. /// Die Formblätter sind unter Beachtung der Maßgaben dieser Bekanntmachung zwingend zu verwenden und vollständig auszufüllen und einschließlich der zusätzlich geforderten Nachweise entsprechend der Bekanntmachung bis zu der genannten Frist einzureichen. Je Bewerbung ist nur ein Bewerbungsbogen zugelassen. Die/der bevollmächtigte Vertreter:in der Bewerbergemeinschaft füllt das Bewerbungsformular aus und signiert das Bewerbungsformular. Als Signatur reicht bei elektronischen Bewerbungen wie hier die Textform gem. § 126b BGB.  /// Eine Bewerbung mittels postalischer Papierform, E-Mail oder Fax ist nicht zulässig! /// Die Bewerbungsunterlagen verbleiben bei dem Auftraggeber. Ein Anspruch auf Kostenerstattung besteht nicht. Weitere Auskünfte sind nur auf schriftliche Anfrage über die Vergabeplattform erhältlich. Die Anfragen sind so zu formulieren, dass eine klare Antwort möglich ist. Die anonymisierten Anfragen werden mit den Antworten im Internet auf der zugangsbeschränkten Verfahrensseite kontinuierlich veröffentlicht, so dass alle potentiellen Bewerbenden und Bewerbendengemeinschaften über den gleichen Informationsstand verfügen können. Die Bewerbenden haben sich durch regelmäßige Kontrolle der Internetseite selbst über Antworten auf Rückfragen oder Änderungen der Bewerbungsunterlagen zu informieren. Es werden nur Anfragen zugelassen und beantwortet, die so rechtzeitig eingehen, dass der Auftraggeber 7 Tage vor Ablauf der Bewerbungsfrist die zusätzlichen Auskünfte erteilen kann. . Sollten mehr als 12 Bewerbungen eingehen, welche die Bewerbungskriterien erfüllen, entscheidet das Los. Die Ausloberin behält sich vor, bei mehr als 12 wertungsfähigen Bewerbungen auf Nachforderungen zu verzichten.</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE91C</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cbc:Description languageID="DEU">Wettbewerb gemäß RPW mit Preisgericht</cbc:Description>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">ord-imp</efbc:ParameterCode>
+											<efbc:ParameterNumeric>1</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Urteil des Preisgerichtes</cbc:Name>
+						<cbc:Description languageID="DEU">Gemäß der Beurteilungskriterien in der Auslobung: - Städtebaulich-freiräumliches Konzept und Einfügung in das Ortsbild - Architektonisches Konzept und Gestaltungsqualität - Innenräumliches Konzept und Raumqualitäten - Umsetzung des pädagogischen Konzeptes - Funktionalität und Erfüllung des Raumprogramms - Wirtschaftlichkeit und Realisierbarkeit - Nachhaltigkeit und Ressourceneffizienz</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Gemäß § 160 Abs. 1 GWB leitet die Vergabekammer ein Nachprüfungsverfahren nur auf Antrag ein. Der Antrag ist unzulässig, soweit der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt (§ 160 Abs. 3 Nr. 1 GWB). Der Nachprüfungsantrag ist gemäß § 160 Abs. 3 Nr. 2 GWB ebenfalls unzulässig, soweit Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. Der Vergabenachprüfungsantrag ist ferner nach § 160 Abs. 3 Nr. 3 GWB unzulässig, soweit Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden. Der Nachprüfungsantrag ist gemäß § 160 Abs. 3 Nr. 4 GWB schließlich dann unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Für die weiteren Voraussetzungen der Zulässigkeit wird auf §§ 160 und 161 GWB verwiesen.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2024/145</cbc:ID>
+			<cbc:Name languageID="DEU">Realisierungswettbewerb Ersatzneubau Hainberg-Gymnasium Göttingen</cbc:Name>
+			<cbc:Description languageID="DEU">Bei der Umsetzung des Projekts beabsichtigt die Ausloberin unter Würdigung der Empfehlungen des Preisgerichts den ersten Preisträger mit den Planungsleistungen für die - Leistungsphasen 1 bis 5 sowie optional 6 bis 9 gemäß § 34, Honorarzone IV, HOAI 2021, - Leistungsphasen 1 bis 5 sowie optional 6 bis 9 gemäß § 39, Honorarzone IV, HOAI 2021 - Leistungsphasen 1 bis 6 gemäß § 51, HOAI 2021 - Leistungsphasen 1, 2, 3 sowie optional 5 bis 9 gemäß § 55 HOAI 2021 zu beauftragen, - sofern kein wichtiger Grund einer Beauftragung entgegensteht, - soweit und sobald die dem Wettbewerb zugrunde liegende Aufgabe realisiert werden soll, - soweit die haushaltsrechtlichen Gegebenheiten erfüllt sind und - soweit mindestens eine/r der teilnahmeberechtigten Wettbewerbsteilnehmenden, dessen Wettbewerbsarbeit mit einem Preis ausgezeichnet wurde, eine einwandfreie Ausführung der zu übertragenden Leistungen gewährleistet. Die Beauftragung erfolgt stufenweise. Die Beauftragung der jeweils nächsten Stufe kann nur beim Vorliegen der haushaltsrechtlichen Voraussetzungen erfolgen. Ein Rechtsanspruch auf Beauftragung dieser Leistungen besteht nicht. Im Falle einer Beauftragung werden durch den Wettbewerb bereits erbrachte Leistungen des Büros bis zur Höhe des zuerkannten Preises oder Anerkennung nicht erneut vergütet, wenn der Wettbewerbsentwurf in seinen wesentlichen Teilen unverändert der weiteren Bearbeitung zugrunde gelegt wird (RPW 2013 § 8 Abs.2). Ein Verhandlungsverfahren gemäß § 14 VgV im Anschluss an den Wettbewerb mit allen Preisträgern soll nur durchgeführt werden, wenn die Auftraggeberin aus wichtigen Gründen vom Votum des Preisgerichts abweicht (RPW 2013, §8(2)). Der Zuschlag soll dann an das wirtschaftlich günstigste Angebot entsprechend der in der Einladung zur Verhandlung genannten Kriterien erfolgen. Das Wettbewerbsergebnis bzw. die Empfehlung des Preisgerichts würde dann bei den Bewertungskriterien mit 50 % berücksichtigt werden. Die Kriterien werden mit der Aufforderung zur Angebotsabgabe im Rahmen des VgV-Verfahrens detailliert mitgeteilt. Im Regelfall beabsichtigt die Auftraggeberin, nur mit den Verfasser:innen des ersten Preises über die Auftragsvergabe zu verhandeln.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE91C</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+	</cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.svlfg.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Weißensteinstr. 70 -72</cbc:StreetName>
+                           <cbc:CityName>Kassel</cbc:CityName>
+                           <cbc:PostalZone>34131</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>Leitweg-ID 9930176733</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 561 785-0</cbc:Telephone>
+                           <cbc:ElectronicMail>ausschreibung@svlfg.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53123</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>0</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+4922894990</cbc:Telephone>
+                           <cbc:Telefax>+492289499163</cbc:Telefax>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00312066-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">93/2025</efbc:GazetteID><efbc:PublicationDate>2025-05-15+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+   <cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+   <cbc:ID schemeName="notice-id">bd9ea7bd-4546-47fe-90e6-52e4538dc860</cbc:ID>
+   <cbc:ContractFolderID>2f7a7c14-4430-49c0-8771-5b8353ee7e4f</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-05-13+02:00</cbc:IssueDate>
+   <cbc:IssueTime>13:16:49+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-05-15+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>http://www.svlfg.de/ausschreibungen</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+         <cbc:DocumentDescription languageID="DEU">Offenes Verfahren gem. § 15 VgV</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§123 bis 126 GWB gem. Eigenerklärung zum Nichtvorliegen von Ausschlussgründen und Maßnahmen zur Selbstreinigung. Bezug des Bieters zu Russland: Eigenerklärung zu Artikel 5k der Verordnung (EU) Nr. 833/2014.
+
+Erklärung, dass der Bieter nicht zu den in Artikel 5 k) Absatz 1 der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 08.April 2022 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, genannten Personen oder Unternehmen, die einen Bezug zu Russland im Sinne der Vorschrift aufweisen, a) durch die russische Staatsangehörigkeit des Bewerbers/Bieters oder die Niederlassung des Bewerbers/Bieters in Russland, b) durch die Beteiligung einer natürlichen Person oder eines Unternehmens, auf die eines der Kriterien nach Buchstabe a zutrifft, am Bewerber/Bieter über das Halten
+von Anteilen im Umfang von mehr als 50%, c) durch das Handeln der Bewerber/Bieter im Namen oder auf Anweisung von Personen oder Unternehmen, auf die die Kriterien der Buchstaben a und/oder b zutrifft, sowie eine Erklärung, dass am Auftrag als Unterauftragnehmer, Lieferanten oder Unternehmen, deren Kapazitäten Kapazitäten im Zusammenhang mit der Erbringung des Eignungsnachweises in Anspruch genommen werden, beteiligten Unternehmen, auf die mehr als 10 % des Auftragswerts entfällt, ebenfalls nicht zu dem in der Vorschrift genannten Personenkreis mit einem Bezug zu Russland im Sinne der Vorschrift gehören. Bestätigung und Sicherstellung, dass auch während der
+Vertragslaufzeit keine als Unterauftragnehmer, Lieferanten oder Unternehmen, deren Kapazitäten im Zusammenhang mit der Erbringung des
+Eignungsnachweises in Anspruch genommen werden, beteiligten Unternehmen eingesetzt werden, auf die mehr als 10 % des Auftragswerts entfällt.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>5</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>5</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">AB1535/2024 - 05/2025</cbc:ID>
+      <cbc:Name languageID="DEU">Winter- und Streudienstleistungen für die SVLFG</cbc:Name>
+      <cbc:Description languageID="DEU">Gegenstand dieser Leistung ist die Winter- und Streudienstleistung an den Liegenschaften der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau an verschiedenen Standorten bundesweit während der Wintersaison (jeweils im Zeitraum 01. Oktober bis 30. April) gemäß der jeweils gültigen Verordnung (Ortssatzung) über die Reinhaltung und Reinigung der öffentlichen Straßen (Lagepläne) bzw. der sonstigen Angaben. Im Auftragsfall finden die aktuell gültigen Verordnungen/Ortssatzungen der u. g. Standorte Anwendung.
+Die Leistung ist in 5 Lose regional aufgeteilt:
+Los 1: Nord (Niedersachsen und Hessen)
+Los 2: West (Nordrheinwestfalen und Rheinland-Pfalz)
+Los 3: Südwest (Baden-Württemberg und Bayern-West)
+Los 4: Südost (Bayern-Mitte und -Ost)
+Los 5: Ost (Sachsen)</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">1) Mit Angebotsabgabe sind neben dem Preisblatt eine Eigenerklärung zur Eignung, eine Eigenerklärung zum Nichtvorliegen von Ausschlussgründen und Maßnahmen zur Selbstreinigung, sowie eine Eigenerklärung zu Artikel 5k der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 abzugeben. 
+2) Es gelten die Bewerbungsbedingungen des Auftraggebers (Bestandteil der Vergabeunterlagen). 
+3) Der Auftraggeber wird während der Angebotsfrist eingehende Bieterfragen/Antworten sowie evtl. Aktualisierungen und zusätzliche Informationenausschließlich über die Vergabeplattform unter der jeweiligen ELViS-ID zur Verfügung stellen. Unternehmen, die sich auf der Vergabeplattform registriert haben, erhalten hierüber eine Mitteilung über die Vergabeplattform. Unternehmen, die sich nicht auf der
+Vergabeplattform registriert haben, erhalten keine solche Mitteilung. Sie müssen sich selbsttätig auf der Vergabeplattform über Bieterfragen/Antworten sowie evtl. Aktualisierungen und zusätzliche Informationen unter der genannten ELViS-ID informieren.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90630000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Im Haspelfelde 24</cbc:StreetName>
+            <cbc:CityName>Hannover</cbc:CityName>
+            <cbc:PostalZone>30173</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Weißensteinstr. 70-72,</cbc:StreetName>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34131</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Frankfurter Str. 126</cbc:StreetName>
+            <cbc:CityName>Kassel</cbc:CityName>
+            <cbc:PostalZone>34121</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Hoher Heckenweg 76-80</cbc:StreetName>
+            <cbc:CityName>Münster</cbc:CityName>
+            <cbc:PostalZone>48147</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEA33</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Theodor-Heuss-Str. 1</cbc:StreetName>
+            <cbc:CityName>Speyer</cbc:CityName>
+            <cbc:PostalZone>67346</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEB38</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Vogelrainstr. 25 und 27</cbc:StreetName>
+            <cbc:CityName>Stuttgart</cbc:CityName>
+            <cbc:PostalZone>70199</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Friedrich-Ebert-Ring 33</cbc:StreetName>
+            <cbc:CityName>Würzburg</cbc:CityName>
+            <cbc:PostalZone>97072</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE263</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Dammwäldchen 4</cbc:StreetName>
+            <cbc:CityName>Bayreuth</cbc:CityName>
+            <cbc:PostalZone>95444</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE242</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Tunnelstr. 29</cbc:StreetName>
+            <cbc:CityName>Augsburg</cbc:CityName>
+            <cbc:PostalZone>86156</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE271</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Neumarkter Str. 35 und 41</cbc:StreetName>
+            <cbc:CityName>München</cbc:CityName>
+            <cbc:PostalZone>81673</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Dr.-Georg-Heim-Allee 1</cbc:StreetName>
+            <cbc:CityName>Landshut</cbc:CityName>
+            <cbc:PostalZone>84036</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE221</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Schillerstr. 33</cbc:StreetName>
+            <cbc:CityName>Mühldorf</cbc:CityName>
+            <cbc:PostalZone>84453</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE21G</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>Bahnhofstr. 16/18</cbc:StreetName>
+            <cbc:CityName>Neukieritzsch</cbc:CityName>
+            <cbc:PostalZone>04575</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DED52</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe über die Eintragung in das Berufs-/Handelsregister ihres Sitzes oder Wohnsitzes. 
+Soweit es dem öffentlichen Auftraggeber möglich ist, den Registerauszug über das öffentliche Registerportal der Länder in Deutschland kostenfrei abzurufen, wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, eigenständig abrufen.
+Die Vergabestelle behält sich vor, falls der Registerauszug nicht öffentlich über das Registerportal der Länder in Deutschland abrufbar ist oder der Bieter nicht zur Eintragung in ein entsprechendes Register verpflichtet ist oder aus einem Mitgliedstaat der EU oder des EWR stammt, einen geeigneten Registerauszug oder einen vergleichbaren Nachweis (nicht älter als 12 Monate ab dem Tag der Veröffentlichung der Auftragsbekanntmachung) im Bedarfsfall nachzufordern. Eine Verpflichtung zur Nachforderung besteht für die Vergabestelle nicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Gesamtjahresumsatz der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Teiljahresumsatz bezogen auf den Tätigkeitsbereich des Auftrages der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung über eine aktuelle Betriebs-, Berufs- oder Industriehaftpflichtversicherung mindestens mit den geforderten Deckungssummen je
+Versicherungsfall für Personen- und Sachschäden sowie für sämtliche Vermögensschäden.
+Deckungssummen für Sachschäden: 5.000.000 Euro 
+Deckungssummen für Personenschäden: 5.000.000 Euro 
+Deckungssummen für Vermögensschäden: 2.500.000 Euro
+Deckungssummen für Allmählichkeits- und Abwasserschäden: 2.500.000 Euro
+Deckungssummen für Tätigkeitsschäden: 2.500.000 Euro
+Deckungssummen für Schlüsselverlust: 100.000,00 Euro
+Alternativ Bietererklärung über eine entsprechende Betriebs-, Berufs- oder Industriehaftpflichtversicherung, welche daher eine entsprechende Versicherung mit den geforderten Deckungssummen im Falle der Zuschlagserteilung betrifft.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bankerklärung (Finanzielle Eigenmittel):
+Bietererklärung, dass für eine vertragsgemäße Leistungserbringung ausreichende finanzielle Eigenmittel vorhanden sind.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es sind ein bis drei Referenzen aus den letzten drei Jahren (ausgehend vom Tag der Veröffentlichung der Auftragsbekanntmachung) anzugeben, die hinsichtlich Art, Umfang und Dauer mit dem ausgeschriebenen Auftrag vergleichbar sind. Sofern es sich bei der Referenz um den Auftraggeber (SVLFG) handelt, ist mindestens eine weitere Referenz eines anderen Referenzgebers zu benennen. Die Referenzen müssen nachfolgende Angaben enthalten. 
+1.	Beschreibung der Leistung.
+2.	Zeitraum der Leistungserbringung.
+3.	Referenzgeber (mit Kontaktdaten).
+4.	Auftragswert (ca.).
+Kann kein in Art, Umfang und Dauer vergleichbares Referenzprojekt angegeben werden, besteht die Möglichkeit mehrere Referenzprojekte, welche jeweils nach Art, Umfang und Dauer der Leistungserbringung dem Gegenstand der ausgeschriebenen Leistung und zusammengenommen dem Umfang entsprechen, zu benennen. Die durchgeführten Aufträge sind zu beschreiben (insbesondere Inhalte, Branche, Dauer, Umfang).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über ausreichende und geeignete technische Ausrüstung für die Auftragsausführung gem. Leistungsbeschreibung Ziff. 3.1 entsprechend für jeden Losbestandteil (Standort) verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über die personellen und sachlichen Ressourcen zur ordnungsgemäßen Erfüllung des Auftrags verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe, welche Teile des Auftrags das Unternehmen unter Umständen als Unteraufträge zu vergeben beabsichtigt.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>E95649196</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.subreport.de/E95649196</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Fehlende oder Unvollständige Angaben, welche nicht wertungsrelevant sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden. Unterlagen, welche auf Verlangen einzureichen sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="DEU">Grundlage der Bewertung des Zuschlagskriteriums Preis ist der im Preisblatt ausgewiesene kalkulatorische Gesamtangebotspreis gegebenenfalls unter Berücksichtigung eines im Angebotsschreiben eingetragenen Preisnachlasses ohne Bedingungen.  Angebotene Preisnachlässe gelten ohne Bedingungen über die gesamte Vertragslaufzeit.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.subreport.de/E95649196</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">105</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (§ 160 Abs.1 GWB). Der Antrag auf Nachprüfung ist gemäß § 160 Abs. 3 Satz 1 Nr. 4 GWB unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-17+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-17+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">LOT-0001 05/2025</cbc:ID>
+         <cbc:Name languageID="DEU">Winter- und Streudienstleistungen für die SVLFG - Los 1: Nord</cbc:Name>
+         <cbc:Description languageID="DEU">Gegenstand dieser Leistung ist die Winter- und Streudienstleistung an den Liegenschaften der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau an den Standorten:
+- Im Haspelfelde 24, 30173 Hannover
+- Weißensteinstr. 70-72, 34131 Kassel
+- Frankfurter Str. 126, 34121 Kassel
+während der Wintersaison (jeweils im Zeitraum 01. Oktober bis 30. April) gemäß der jeweils gültigen Verordnung (Ortssatzung) über die Reinhaltung und Reinigung der öffentlichen Straßen (Lagepläne) bzw. der sonstigen Angaben. Im Auftragsfall finden die aktuell gültigen Verordnungen/Ortssatzungen der u. g. Standorte Anwendung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#, #Besonders auch geeignet für:selbst#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90630000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Im Haspelfelde 24</cbc:StreetName>
+               <cbc:CityName>Hannover</cbc:CityName>
+               <cbc:PostalZone>30173</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Weißensteinstr. 70-72</cbc:StreetName>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34131</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Frankfurter Str. 126</cbc:StreetName>
+               <cbc:CityName>Kassel</cbc:CityName>
+               <cbc:PostalZone>34121</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe über die Eintragung in das Berufs-/Handelsregister ihres Sitzes oder Wohnsitzes. 
+Soweit es dem öffentlichen Auftraggeber möglich ist, den Registerauszug über das öffentliche Registerportal der Länder in Deutschland kostenfrei abzurufen, wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, eigenständig abrufen.
+Die Vergabestelle behält sich vor, falls der Registerauszug nicht öffentlich über das Registerportal der Länder in Deutschland abrufbar ist oder der Bieter nicht zur Eintragung in ein entsprechendes Register verpflichtet ist oder aus einem Mitgliedstaat der EU oder des EWR stammt, einen geeigneten Registerauszug oder einen vergleichbaren Nachweis (nicht älter als 12 Monate ab dem Tag der Veröffentlichung der Auftragsbekanntmachung) im Bedarfsfall nachzufordern. Eine Verpflichtung zur Nachforderung besteht für die Vergabestelle nicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Gesamtjahresumsatz der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Teiljahresumsatz bezogen auf den Tätigkeitsbereich des Auftrages der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung über eine aktuelle Betriebs-, Berufs- oder Industriehaftpflichtversicherung mindestens mit den geforderten Deckungssummen je
+Versicherungsfall für Personen- und Sachschäden sowie für sämtliche Vermögensschäden.
+Deckungssummen für Sachschäden: 5.000.000 Euro 
+Deckungssummen für Personenschäden: 5.000.000 Euro 
+Deckungssummen für Vermögensschäden: 2.500.000 Euro
+Deckungssummen für Allmählichkeits- und Abwasserschäden: 2.500.000 Euro
+Deckungssummen für Tätigkeitsschäden: 2.500.000 Euro
+Deckungssummen für Schlüsselverlust: 100.000,00 Euro
+Alternativ Bietererklärung über eine entsprechende Betriebs-, Berufs- oder Industriehaftpflichtversicherung, welche daher eine entsprechende Versicherung mit den geforderten Deckungssummen im Falle der Zuschlagserteilung betrifft.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bankerklärung (Finanzielle Eigenmittel):
+Bietererklärung, dass für eine vertragsgemäße Leistungserbringung ausreichende finanzielle Eigenmittel vorhanden sind.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es sind ein bis drei Referenzen aus den letzten drei Jahren (ausgehend vom Tag der Veröffentlichung der Auftragsbekanntmachung) anzugeben, die hinsichtlich Art, Umfang und Dauer mit dem ausgeschriebenen Auftrag vergleichbar sind. Sofern es sich bei der Referenz um den Auftraggeber (SVLFG) handelt, ist mindestens eine weitere Referenz eines anderen Referenzgebers zu benennen. Die Referenzen müssen nachfolgende Angaben enthalten. 
+1.	Beschreibung der Leistung.
+2.	Zeitraum der Leistungserbringung.
+3.	Referenzgeber (mit Kontaktdaten).
+4.	Auftragswert (ca.).
+Kann kein in Art, Umfang und Dauer vergleichbares Referenzprojekt angegeben werden, besteht die Möglichkeit mehrere Referenzprojekte, welche jeweils nach Art, Umfang und Dauer der Leistungserbringung dem Gegenstand der ausgeschriebenen Leistung und zusammengenommen dem Umfang entsprechen, zu benennen. Die durchgeführten Aufträge sind zu beschreiben (insbesondere Inhalte, Branche, Dauer, Umfang).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über ausreichende und geeignete technische Ausrüstung für die Auftragsausführung gem. Leistungsbeschreibung Ziff. 3.1 entsprechend für jeden Losbestandteil (Standort) verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über die personellen und sachlichen Ressourcen zur ordnungsgemäßen Erfüllung des Auftrags verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe, welche Teile des Auftrags das Unternehmen unter Umständen als Unteraufträge zu vergeben beabsichtigt.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>E95649196</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.subreport.de/E95649196</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Fehlende oder Unvollständige Angaben, welche nicht wertungsrelevant sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden. Unterlagen, welche auf Verlangen einzureichen sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="DEU">Grundlage der Bewertung des Zuschlagskriteriums Preis ist der im Preisblatt ausgewiesene kalkulatorische Gesamtangebotspreis gegebenenfalls unter Berücksichtigung eines im Angebotsschreiben eingetragenen Preisnachlasses ohne Bedingungen.  Angebotene Preisnachlässe gelten ohne Bedingungen über die gesamte Vertragslaufzeit.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.subreport.de/E95649196</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">105</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (§ 160 Abs.1 GWB). Der Antrag auf Nachprüfung ist gemäß § 160 Abs. 3 Satz 1 Nr. 4 GWB unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-17+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-17+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">LOT-0002 05/2025</cbc:ID>
+         <cbc:Name languageID="DEU">Winter- und Streudienstleistungen für die SVLFG - Los 2: West</cbc:Name>
+         <cbc:Description languageID="DEU">Gegenstand dieser Leistung ist die Winter- und Streudienstleistung an den Liegenschaften der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau an den Standorten:
+- Hoher Heckenweg 76-80, 48147 Münster 
+- Theodor-Heuss-Str. 1, 67346 Speyer
+während der Wintersaison (jeweils im Zeitraum 01. Oktober bis 30. April) gemäß der jeweils gültigen Verordnung (Ortssatzung) über die Reinhaltung und Reinigung der öffentlichen Straßen (Lagepläne) bzw. der sonstigen Angaben. Im Auftragsfall finden die aktuell gültigen Verordnungen/Ortssatzungen der u. g. Standorte Anwendung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#, #Besonders auch geeignet für:selbst#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90630000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Hoher Heckenweg 76-80</cbc:StreetName>
+               <cbc:CityName>Münster</cbc:CityName>
+               <cbc:PostalZone>48147</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEA33</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Theodor-Heuss-Str. 1</cbc:StreetName>
+               <cbc:CityName>Speyer</cbc:CityName>
+               <cbc:PostalZone>67346</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEB38</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Sonderpauschale für gesonderte Beauftragungen für die Flächen mit Priorität 2 b an den Standorten Münster und Speyer.
+Die Abrechnung erfolgt nach tatsächlichem Aufwand, es besteht keine Abnahmeverpflichtung.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe über die Eintragung in das Berufs-/Handelsregister ihres Sitzes oder Wohnsitzes. 
+Soweit es dem öffentlichen Auftraggeber möglich ist, den Registerauszug über das öffentliche Registerportal der Länder in Deutschland kostenfrei abzurufen, wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, eigenständig abrufen.
+Die Vergabestelle behält sich vor, falls der Registerauszug nicht öffentlich über das Registerportal der Länder in Deutschland abrufbar ist oder der Bieter nicht zur Eintragung in ein entsprechendes Register verpflichtet ist oder aus einem Mitgliedstaat der EU oder des EWR stammt, einen geeigneten Registerauszug oder einen vergleichbaren Nachweis (nicht älter als 12 Monate ab dem Tag der Veröffentlichung der Auftragsbekanntmachung) im Bedarfsfall nachzufordern. Eine Verpflichtung zur Nachforderung besteht für die Vergabestelle nicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Gesamtjahresumsatz der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Teiljahresumsatz bezogen auf den Tätigkeitsbereich des Auftrages der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung über eine aktuelle Betriebs-, Berufs- oder Industriehaftpflichtversicherung mindestens mit den geforderten Deckungssummen je
+Versicherungsfall für Personen- und Sachschäden sowie für sämtliche Vermögensschäden.
+Deckungssummen für Sachschäden: 5.000.000 Euro 
+Deckungssummen für Personenschäden: 5.000.000 Euro 
+Deckungssummen für Vermögensschäden: 2.500.000 Euro
+Deckungssummen für Allmählichkeits- und Abwasserschäden: 2.500.000 Euro
+Deckungssummen für Tätigkeitsschäden: 2.500.000 Euro
+Deckungssummen für Schlüsselverlust: 100.000,00 Euro
+Alternativ Bietererklärung über eine entsprechende Betriebs-, Berufs- oder Industriehaftpflichtversicherung, welche daher eine entsprechende Versicherung mit den geforderten Deckungssummen im Falle der Zuschlagserteilung betrifft.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bankerklärung (Finanzielle Eigenmittel):
+Bietererklärung, dass für eine vertragsgemäße Leistungserbringung ausreichende finanzielle Eigenmittel vorhanden sind.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es sind ein bis drei Referenzen aus den letzten drei Jahren (ausgehend vom Tag der Veröffentlichung der Auftragsbekanntmachung) anzugeben, die hinsichtlich Art, Umfang und Dauer mit dem ausgeschriebenen Auftrag vergleichbar sind. Sofern es sich bei der Referenz um den Auftraggeber (SVLFG) handelt, ist mindestens eine weitere Referenz eines anderen Referenzgebers zu benennen. Die Referenzen müssen nachfolgende Angaben enthalten. 
+1.	Beschreibung der Leistung.
+2.	Zeitraum der Leistungserbringung.
+3.	Referenzgeber (mit Kontaktdaten).
+4.	Auftragswert (ca.).
+Kann kein in Art, Umfang und Dauer vergleichbares Referenzprojekt angegeben werden, besteht die Möglichkeit mehrere Referenzprojekte, welche jeweils nach Art, Umfang und Dauer der Leistungserbringung dem Gegenstand der ausgeschriebenen Leistung und zusammengenommen dem Umfang entsprechen, zu benennen. Die durchgeführten Aufträge sind zu beschreiben (insbesondere Inhalte, Branche, Dauer, Umfang).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über ausreichende und geeignete technische Ausrüstung für die Auftragsausführung gem. Leistungsbeschreibung Ziff. 3.1 entsprechend für jeden Losbestandteil (Standort) verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über die personellen und sachlichen Ressourcen zur ordnungsgemäßen Erfüllung des Auftrags verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe, welche Teile des Auftrags das Unternehmen unter Umständen als Unteraufträge zu vergeben beabsichtigt.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>E95649196</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.subreport.de/E95649196</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Fehlende oder Unvollständige Angaben, welche nicht wertungsrelevant sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden. Unterlagen, welche auf Verlangen einzureichen sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="DEU">Grundlage der Bewertung des Zuschlagskriteriums Preis ist der im Preisblatt ausgewiesene kalkulatorische Gesamtangebotspreis gegebenenfalls unter Berücksichtigung eines im Angebotsschreiben eingetragenen Preisnachlasses ohne Bedingungen.  Angebotene Preisnachlässe gelten ohne Bedingungen über die gesamte Vertragslaufzeit.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.subreport.de/E95649196</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">105</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (§ 160 Abs.1 GWB). Der Antrag auf Nachprüfung ist gemäß § 160 Abs. 3 Satz 1 Nr. 4 GWB unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-17+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-17+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">LOT-0003 05/2025</cbc:ID>
+         <cbc:Name languageID="DEU">Winter- und Streudienstleistungen für die SVLFG - Los 3: Südwest</cbc:Name>
+         <cbc:Description languageID="DEU">Gegenstand dieser Leistung ist die Winter- und Streudienstleistung an den Liegenschaften der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau an den Standorten:
+- Vogelrainstr. 25 und 27, 70199 Stuttgart
+- Friedrich-Ebert-Ring 33, 97072 Würzburg
+- Dammwäldchen 4, 95444 Bayreuth
+während der Wintersaison (jeweils im Zeitraum 01. Oktober bis 30. April) gemäß der jeweils gültigen Verordnung (Ortssatzung) über die Reinhaltung und Reinigung der öffentlichen Straßen (Lagepläne) bzw. der sonstigen Angaben. Im Auftragsfall finden die aktuell gültigen Verordnungen/Ortssatzungen der u. g. Standorte Anwendung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#, #Besonders auch geeignet für:selbst#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90630000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Vogelrainstr. 25 und 27</cbc:StreetName>
+               <cbc:CityName>Stuttgart</cbc:CityName>
+               <cbc:PostalZone>70199</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE111</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Friedrich-Ebert-Ring 33</cbc:StreetName>
+               <cbc:CityName>Würzburg</cbc:CityName>
+               <cbc:PostalZone>97072</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE263</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Dammwäldchen 4</cbc:StreetName>
+               <cbc:CityName>Bayreuth</cbc:CityName>
+               <cbc:PostalZone>95444</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE242</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Sonderpauschale für gesonderte Beauftragungen für die Flächen mit Priorität 2 b am Standort Würzburg.
+Die Abrechnung erfolgt nach tatsächlichem Aufwand, es besteht keine Abnahmeverpflichtung.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe über die Eintragung in das Berufs-/Handelsregister ihres Sitzes oder Wohnsitzes. 
+Soweit es dem öffentlichen Auftraggeber möglich ist, den Registerauszug über das öffentliche Registerportal der Länder in Deutschland kostenfrei abzurufen, wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, eigenständig abrufen.
+Die Vergabestelle behält sich vor, falls der Registerauszug nicht öffentlich über das Registerportal der Länder in Deutschland abrufbar ist oder der Bieter nicht zur Eintragung in ein entsprechendes Register verpflichtet ist oder aus einem Mitgliedstaat der EU oder des EWR stammt, einen geeigneten Registerauszug oder einen vergleichbaren Nachweis (nicht älter als 12 Monate ab dem Tag der Veröffentlichung der Auftragsbekanntmachung) im Bedarfsfall nachzufordern. Eine Verpflichtung zur Nachforderung besteht für die Vergabestelle nicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Gesamtjahresumsatz der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Teiljahresumsatz bezogen auf den Tätigkeitsbereich des Auftrages der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung über eine aktuelle Betriebs-, Berufs- oder Industriehaftpflichtversicherung mindestens mit den geforderten Deckungssummen je
+Versicherungsfall für Personen- und Sachschäden sowie für sämtliche Vermögensschäden.
+Deckungssummen für Sachschäden: 5.000.000 Euro 
+Deckungssummen für Personenschäden: 5.000.000 Euro 
+Deckungssummen für Vermögensschäden: 2.500.000 Euro
+Deckungssummen für Allmählichkeits- und Abwasserschäden: 2.500.000 Euro
+Deckungssummen für Tätigkeitsschäden: 2.500.000 Euro
+Deckungssummen für Schlüsselverlust: 100.000,00 Euro
+Alternativ Bietererklärung über eine entsprechende Betriebs-, Berufs- oder Industriehaftpflichtversicherung, welche daher eine entsprechende Versicherung mit den geforderten Deckungssummen im Falle der Zuschlagserteilung betrifft.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bankerklärung (Finanzielle Eigenmittel):
+Bietererklärung, dass für eine vertragsgemäße Leistungserbringung ausreichende finanzielle Eigenmittel vorhanden sind.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es sind ein bis drei Referenzen aus den letzten drei Jahren (ausgehend vom Tag der Veröffentlichung der Auftragsbekanntmachung) anzugeben, die hinsichtlich Art, Umfang und Dauer mit dem ausgeschriebenen Auftrag vergleichbar sind. Sofern es sich bei der Referenz um den Auftraggeber (SVLFG) handelt, ist mindestens eine weitere Referenz eines anderen Referenzgebers zu benennen. Die Referenzen müssen nachfolgende Angaben enthalten. 
+1.	Beschreibung der Leistung.
+2.	Zeitraum der Leistungserbringung.
+3.	Referenzgeber (mit Kontaktdaten).
+4.	Auftragswert (ca.).
+Kann kein in Art, Umfang und Dauer vergleichbares Referenzprojekt angegeben werden, besteht die Möglichkeit mehrere Referenzprojekte, welche jeweils nach Art, Umfang und Dauer der Leistungserbringung dem Gegenstand der ausgeschriebenen Leistung und zusammengenommen dem Umfang entsprechen, zu benennen. Die durchgeführten Aufträge sind zu beschreiben (insbesondere Inhalte, Branche, Dauer, Umfang).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über ausreichende und geeignete technische Ausrüstung für die Auftragsausführung gem. Leistungsbeschreibung Ziff. 3.1 entsprechend für jeden Losbestandteil (Standort) verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über die personellen und sachlichen Ressourcen zur ordnungsgemäßen Erfüllung des Auftrags verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe, welche Teile des Auftrags das Unternehmen unter Umständen als Unteraufträge zu vergeben beabsichtigt.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>E95649196</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.subreport.de/E95649196</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Fehlende oder Unvollständige Angaben, welche nicht wertungsrelevant sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden. Unterlagen, welche auf Verlangen einzureichen sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="DEU">Grundlage der Bewertung des Zuschlagskriteriums Preis ist der im Preisblatt ausgewiesene kalkulatorische Gesamtangebotspreis gegebenenfalls unter Berücksichtigung eines im Angebotsschreiben eingetragenen Preisnachlasses ohne Bedingungen.  Angebotene Preisnachlässe gelten ohne Bedingungen über die gesamte Vertragslaufzeit.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.subreport.de/E95649196</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">105</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (§ 160 Abs.1 GWB). Der Antrag auf Nachprüfung ist gemäß § 160 Abs. 3 Satz 1 Nr. 4 GWB unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-17+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-17+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">LOT-0004 05/2025</cbc:ID>
+         <cbc:Name languageID="DEU">Winter- und Streudienstleistungen für die SVLFG - Los 4: Südost</cbc:Name>
+         <cbc:Description languageID="DEU">Gegenstand dieser Leistung ist die Winter- und Streudienstleistung an den Liegenschaften der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau an den Standorten:
+- Tunnelstr. 29, 86156 Augsburg
+- Neumarkter Str. 35 und 41, 81673 München
+- Dr.-Georg-Heim-Allee 1, 84036 Landshut
+- Schillerstr. 33, 84453 Mühldorf
+während der Wintersaison (jeweils im Zeitraum 01. Oktober bis 30. April) gemäß der jeweils gültigen Verordnung (Ortssatzung) über die Reinhaltung und Reinigung der öffentlichen Straßen (Lagepläne) bzw. der sonstigen Angaben. Im Auftragsfall finden die aktuell gültigen Verordnungen/Ortssatzungen der u. g. Standorte Anwendung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#, #Besonders auch geeignet für:selbst#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90630000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Tunnelstr. 29</cbc:StreetName>
+               <cbc:CityName>Augsburg</cbc:CityName>
+               <cbc:PostalZone>86156</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE271</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Neumarkter Str. 35 und 41</cbc:StreetName>
+               <cbc:CityName>München</cbc:CityName>
+               <cbc:PostalZone>81673</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE212</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Dr.-Georg-Heim-Allee 1</cbc:StreetName>
+               <cbc:CityName>Landshut</cbc:CityName>
+               <cbc:PostalZone>84036</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE221</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Schillerstr. 33</cbc:StreetName>
+               <cbc:CityName>Mühldorf</cbc:CityName>
+               <cbc:PostalZone>84453</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE21G</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Sonderpauschale für gesonderte Beauftragungen für die Flächen mit Priorität 2 b an den Standorten Augsburg, Landshut und Mühldorf.
+Die Abrechnung erfolgt nach tatsächlichem Aufwand, es besteht keine Abnahmeverpflichtung.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe über die Eintragung in das Berufs-/Handelsregister ihres Sitzes oder Wohnsitzes. 
+Soweit es dem öffentlichen Auftraggeber möglich ist, den Registerauszug über das öffentliche Registerportal der Länder in Deutschland kostenfrei abzurufen, wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, eigenständig abrufen.
+Die Vergabestelle behält sich vor, falls der Registerauszug nicht öffentlich über das Registerportal der Länder in Deutschland abrufbar ist oder der Bieter nicht zur Eintragung in ein entsprechendes Register verpflichtet ist oder aus einem Mitgliedstaat der EU oder des EWR stammt, einen geeigneten Registerauszug oder einen vergleichbaren Nachweis (nicht älter als 12 Monate ab dem Tag der Veröffentlichung der Auftragsbekanntmachung) im Bedarfsfall nachzufordern. Eine Verpflichtung zur Nachforderung besteht für die Vergabestelle nicht.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-gen</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Gesamtjahresumsatz der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-spec</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angaben zum Teiljahresumsatz bezogen auf den Tätigkeitsbereich des Auftrages der letzten drei abgeschlossenen Geschäftsjahre</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung über eine aktuelle Betriebs-, Berufs- oder Industriehaftpflichtversicherung mindestens mit den geforderten Deckungssummen je
+Versicherungsfall für Personen- und Sachschäden sowie für sämtliche Vermögensschäden.
+Deckungssummen für Sachschäden: 5.000.000 Euro 
+Deckungssummen für Personenschäden: 5.000.000 Euro 
+Deckungssummen für Vermögensschäden: 2.500.000 Euro
+Deckungssummen für Allmählichkeits- und Abwasserschäden: 2.500.000 Euro
+Deckungssummen für Tätigkeitsschäden: 2.500.000 Euro
+Deckungssummen für Schlüsselverlust: 100.000,00 Euro
+Alternativ Bietererklärung über eine entsprechende Betriebs-, Berufs- oder Industriehaftpflichtversicherung, welche daher eine entsprechende Versicherung mit den geforderten Deckungssummen im Falle der Zuschlagserteilung betrifft.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bankerklärung (Finanzielle Eigenmittel):
+Bietererklärung, dass für eine vertragsgemäße Leistungserbringung ausreichende finanzielle Eigenmittel vorhanden sind.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Es sind ein bis drei Referenzen aus den letzten drei Jahren (ausgehend vom Tag der Veröffentlichung der Auftragsbekanntmachung) anzugeben, die hinsichtlich Art, Umfang und Dauer mit dem ausgeschriebenen Auftrag vergleichbar sind. Sofern es sich bei der Referenz um den Auftraggeber (SVLFG) handelt, ist mindestens eine weitere Referenz eines anderen Referenzgebers zu benennen. Die Referenzen müssen nachfolgende Angaben enthalten. 
+1.	Beschreibung der Leistung.
+2.	Zeitraum der Leistungserbringung.
+3.	Referenzgeber (mit Kontaktdaten).
+4.	Auftragswert (ca.).
+Kann kein in Art, Umfang und Dauer vergleichbares Referenzprojekt angegeben werden, besteht die Möglichkeit mehrere Referenzprojekte, welche jeweils nach Art, Umfang und Dauer der Leistungserbringung dem Gegenstand der ausgeschriebenen Leistung und zusammengenommen dem Umfang entsprechen, zu benennen. Die durchgeführten Aufträge sind zu beschreiben (insbesondere Inhalte, Branche, Dauer, Umfang).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über ausreichende und geeignete technische Ausrüstung für die Auftragsausführung gem. Leistungsbeschreibung Ziff. 3.1 entsprechend für jeden Losbestandteil (Standort) verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Bietererklärung, dass über die personellen und sachlichen Ressourcen zur ordnungsgemäßen Erfüllung des Auftrags verfügt wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-subc</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="DEU">Angabe, welche Teile des Auftrags das Unternehmen unter Umständen als Unteraufträge zu vergeben beabsichtigt.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>E95649196</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.subreport.de/E95649196</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Fehlende oder Unvollständige Angaben, welche nicht wertungsrelevant sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden. Unterlagen, welche auf Verlangen einzureichen sind, können innerhalb einer von dem Auftraggeber vorgegebenen Frist auf Anforderung nachgereicht werden.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="DEU">Grundlage der Bewertung des Zuschlagskriteriums Preis ist der im Preisblatt ausgewiesene kalkulatorische Gesamtangebotspreis gegebenenfalls unter Berücksichtigung eines im Angebotsschreiben eingetragenen Preisnachlasses ohne Bedingungen.  Angebotene Preisnachlässe gelten ohne Bedingungen über die gesamte Vertragslaufzeit.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.subreport.de/E95649196</cbc:EndpointID>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">105</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein (§ 160 Abs.1 GWB). Der Antrag auf Nachprüfung ist gemäß § 160 Abs. 3 Satz 1 Nr. 4 GWB unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-06-17+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-06-17+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">LOT-0005 05/2025</cbc:ID>
+         <cbc:Name languageID="DEU">Winter- und Streudienstleistungen für die SVLFG - Los 5: Ost</cbc:Name>
+         <cbc:Description languageID="DEU">Gegenstand dieser Leistung ist die Winter- und Streudienstleistung an den Liegenschaften der Sozialversicherung für Landwirtschaft, Forsten und Gartenbau am Standorten:
+- Bahnhofstr. 16/18, 04575 Neukieritzsch
+während der Wintersaison (jeweils im Zeitraum 01. Oktober bis 30. April) gemäß der jeweils gültigen Verordnung (Ortssatzung) über die Reinhaltung und Reinigung der öffentlichen Straßen (Lagepläne) bzw. der sonstigen Angaben. Im Auftragsfall finden die aktuell gültigen Verordnungen/Ortssatzungen der u. g. Standorte Anwendung.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">#Besonders auch geeignet für:freelance#, #Besonders auch geeignet für:startup#, #Besonders auch geeignet für:other-sme#, #Besonders auch geeignet für:selbst#</cbc:Note>
+         <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90630000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>Bahnhofstr. 16/18</cbc:StreetName>
+               <cbc:CityName>Neukieritzsch</cbc:CityName>
+               <cbc:PostalZone>04575</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DED52</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2029-09-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">Sonderpauschale für gesonderte Beauftragungen für die Flächen mit Priorität 2 b am Standort Neukieritzsch.
+Die Abrechnung erfolgt nach tatsächlichem Aufwand, es besteht keine Abnahmeverpflichtung.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

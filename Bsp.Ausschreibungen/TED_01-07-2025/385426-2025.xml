@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.gascade.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">GASCADE Gastransport GmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Kölnische Str. 108-112</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34119</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 815 216 431</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 561934-0</cbc:Telephone>
+									<cbc:ElectronicMail>vergabe@gascade.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.bundeskartellamt.de</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer des Bundes</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Villemombler Straße 76</cbc:StreetName>
+									<cbc:CityName>Bonn</cbc:CityName>
+									<cbc:PostalZone>53123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DEA22</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>+49 22894990</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 22894990</cbc:Telephone>
+									<cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00385426-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">113/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-16+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:ProfileID>eforms-sdk-1.12</cbc:ProfileID>
+	<cbc:ID schemeName="notice-id">9d54f48d-7dcc-47a5-acd8-37467bded7a4</cbc:ID>
+	<cbc:ContractFolderID>55c11df5-bae7-415c-ac65-9224bc13a6f9</cbc:ContractFolderID>
+	<cbc:IssueDate>2025-06-13+02:00</cbc:IssueDate>
+	<cbc:IssueTime>10:11:14+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2025-06-13+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="entity-activity">gas-heat</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>sektvo</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:OfficialLanguages>
+								<cac:Language>
+									<cbc:ID>DEU</cbc:ID>
+								</cac:Language>
+							</efac:OfficialLanguages>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-ssc</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-as-susp</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-other</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-distortion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Siehe Unterlagen.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Keine Angabe</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+		<cac:LotDistribution>
+			<cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+		</cac:LotDistribution>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">2025-006</cbc:ID>
+		<cbc:Name languageID="DEU">PFV/ÖBB (GDRM Lampertheim 5, HYLU, HYBOR)</cbc:Name>
+		<cbc:Description languageID="DEU">Die GASCADE Gastransport GmbH plant in den nächsten Jahren die Durchführung von drei (3) Bauprojekten. Dazu werden Ingenieurleistungen für die Erstellung von Unterlagen für Planfeststellungsverfahren und jeweils eine ökologische Baubegleitung benötigt. Die GASCADE Gastransport GmbH plant die o.g. Leistungen in drei (3) Losen zu vergeben. Die Losaufteilung sieht wie folgt aus:
+Los 1: GDRM Lampertheim 5
+Los 2: HYLU (Wasserstoffleitung Lampertheim - Ludwigshafen)
+Los 3: HYBOR (Wasserstoffleitung Bobbau - Rückersdorf)
+
+Der Auftraggeber geht davon aus, dass sich bei den Losen 1 und 2 Synergieeffekte ergeben, die zu wirtschaftlicheren Angeboten führen können. Daher werden Kombinationsangebote als Nebenangebote zugelassen; Details können dem frei abrufbaren Verfahrensbrief entnommen werden.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXVHYH0YTMU974WL</cbc:Note>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis der Eintragung in das Berufs- oder Handelsregister (Mit dem Teilnahmeantrag; Mittels Dritterklärung): PL1: Nachweis der Eintragung in das Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bieter ansässig ist (in nicht beglaubigter Kopie), sofern der Bieter in das Berufs- oder Handelsregister eingetragen ist.
+
+Für den Fall der Nichteintragung:  
+Die Vorlage einer Gewerbeanmeldung (für ausländische Bieter: Oder vergleichbar). Der Nachweis muss mindestens die vertretungsberechtigten Personen ausweisen.
+
+Der Nachweis kann in (nicht beglaubigter) Fotokopie/Ablichtung (PDF) vorgelegt werden, muss jedoch eindeutig lesbar sein. Der Nachweis darf zum Zeitpunkt der Veröffentlichung dieser Bekanntmachung nicht älter als 12 Monate sein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): PL2: Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB. Der Nachweis von Selbstreinigungsmaßnahmen nach § 125 GWB ist möglich.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung zur Verordnung (EU) 2022/576 (Sanktionen Russland) (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): PL3: Eigenerklärung zur Verordnung (EU) 2022/576 (Sanktionen Russland)</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung über den durchschnittlichen Umsatz des Unternehmens in den letzten 3 (drei) abgeschlossenen Geschäftsjahren (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): WL1: Eigenerklärung über den durchschnittlichen Umsatz des Unternehmens in den letzten 3 (drei) abgeschlossenen Geschäftsjahren
+
+Sofern ein Unternehmen erst innerhalb der letzten drei Jahre gegründet wurde und daher noch keine drei abgeschlossenen Geschäftsjahre aufweist, legt es für die fehlenden Jahre eine Unternehmensplanung für die Zukunft unter Angabe der erwarteten Jahresumsätze vor.
+
+Mindestanforderung (Nichterfüllung führt zum Ausschluss): Der durchschnittliche Umsatz muss in EUR (netto) für jedes der letzten 3 (drei) abgeschlossenen Geschäftsjahre, getrennt je Los, für
+
+- Los 1 mindestens 320.000,00 EUR betragen.
+- Los 2 mindestens 850.000,00 EUR betragen.
+- Los 3 mindestens 3.200.000,00 EUR betragen.
+
+Der Nachweis ist für jedes Los getrennt zu erbringen. Wünscht der Bewerber auf mehrere Lose ein Angebot abzugeben, so sind die Mindestanforderungen kumulativ zu er-füllen. Das hieße bei einem Angebot für alle drei Lose müsste ein durchschnittlicher Umsatz i.H.v. 4.370.000,00 EUR (netto) für jedes der letzten 3 (drei) abgeschlossenen Geschäftsjahre nachgewiesen werden.
+
+Siehe Anlage A.1 Vordrucke und Nachweise (Eignung), Vordruck 6.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis einer bestehenden Berufs- oder Betriebshaftpflichtversicherung oder einer vergleichbaren marktüblichen Versicherung für Personen-, Sach- und Vermögensschäden (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): WL2: Nachweis einer bestehenden Berufs- oder Betriebshaftpflichtversicherung oder einer vergleichbaren marktüblichen Versicherung für Personen-, Sach- und Vermögensschäden.
+
+Mindestanforderung (Nichterfüllung führt zum Ausschluss):
+Die Haftpflichtdeckungshöhe muss jeweils einzeln für Personen-, Sach- und Vermögensschäden mindestens EUR 10 Mio. je Versicherungsjahr betragen. 
+
+Falls eine Versicherung mit diesen Deckungshöhen derzeit nicht besteht, genügt die Vorlage von 
+1. einer Eigenerklärung des Bieters, dass er im Auftragsfall bereit ist, eine entsprechende Versicherung auf erstes Anfordern des Auftraggebers abzuschließen  
+und
+2. die unwiderrufliche Erklärung eines Versicherers (in nicht beglaubigte Kopie), dass dieser zum Abschluss einer entsprechenden Versicherung bereit ist.
+
+Der Nachweis kann in Fotokopie/Ablichtung (PDF) vorgelegt werden, muss jedoch eindeutig lesbar sein. Der Nachweis darf zum Zeitpunkt des Ablaufs der Frist zur Einreichung der Angebote nicht älter als 12 Monate sein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-qual</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Darlegung der fachlichen Qualifikation der für das Projekt verantwortlichen und handelnden Personen. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL2: Darlegung der fachlichen Qualifikation der für das Projekt verantwortlichen und handelnden Personen.
+
+Mindestanforderungen an Referenzen (Nichterfüllung führt zum Ausschluss):
+
+1. Zwei (2) verantwortliche Mitarbeiter mit
+
+- der Qualifikation eines Ingenieurs (oder entsprechend) und
+- sehr guten Kenntnissen der deutschen Sprache (mindestens Niveau C1).
+
+2. Nachweis für mindestens eine (1) Person im Unternehmen, nicht älter als drei (3) Jahre sein, gerechnet ab dem Tag, an dem die Bekanntmachung veröffentlicht wurde
+
+- einer umweltfachlicher Weiterbildungen in Sachen "Naturschutzrechtliche Eingriffsregelung", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 3;
+- Nachweis einer umweltfachlicher Weiterbildungen in Sachen "Artenschutz", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 4;
+- Nachweis einer umweltfachlicher Weiterbildungen in Sachen "Umweltverträglichkeitsprüfung", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 5.
+
+Die Nachweise müssen nicht zwingend in derselben Person erbracht werden.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Angaben über die Ausführung vergleichbarer Leistungen (Referenzen) in den letzten maximal fünf (5) Jahren seit Veröffentlichung der Bekanntmachung. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL1: Angaben über die Ausführung vergleichbarer Leistungen (Referenzen) in den letzten maximal fünf (5) Jahren seit Veröffentlichung der Bekanntmachung.
+
+Eine Vergleichbarkeit setzt voraus, dass die aufgeführten Referenzen sowohl leistungs- als auch themenspezifisch mit dem geforderten Leistungspaket vergleichbar sind. Vergleichbar ist eine Referenz insbesondere dann, wenn es sich um Leistungen handelt, die hinsichtlich Größe und Komplexität auf eine entsprechende Eignung des Bewerbers schließen lassen.
+Die Referenz muss zum Nachweis der Vergleichbarkeit mindestens folgende Angaben enthalten:
+
+1. Referenztitel
+2. Auftraggeber
+(Sollte der Auftraggeber aus datenschutzrechtlichen Gründen nicht benannt wer-den dürfen, so genügt eine Kategorisierung des Auftraggebers (Forschung, Industrie, andere Sektoren Auftraggeber) und eine Bestätigung, dass die Referenz mit der ausgeschriebenen Leistung vergleichbar ist.)
+3. Ansprechpartner inkl. Kontaktdaten (z.B. E-Mail, Telefonnummer)
+(Sollte der Ansprechpartner aus datenschutzrechtlichen Gründen nicht benannt werden dürfen, so genügt eine Kategorisierung des Auftraggebers (Forschung, Industrie, andere Sektoren Auftraggeber) und eine Bestätigung, dass die Referenz mit der ausgeschriebenen Leistung vergleichbar ist.)
+4. Kurzbeschreibung der ausgeführten Leistung
+5. Auftragswert in EUR (netto)
+6. Ausführungszeitraum.
+
+Siehe Anlage A.1 Vordrucke und Nachweise (Eignung), Vordruck 7.
+
+Mindestanforderungen an Referenzen (Nichterfüllung führt zum Ausschluss):
+
+Es ist wegen der Referenzlage nachzuweisen:
+
+1. mindestens drei (3) vergleichbare und einschlägige Referenzen, in denen das Referenzprojekt folgende Punkte erfüllt;
+- planerische Projektbearbeitungen im Bereich erdverlegte Leitungsinfrastruktur einschließlich technischer Anlagen und
+- planerischen Begleitung eines Vorhabenträgers/einer Vorhabenträgerin der leitungs-gebundenen Energiewirtschaft (Erdgas, Wasserstoff, Strom)
+
+2. Es ist ferner mindestens eine (1) vergleichbare und einschlägige Referenzen zwecks Qualifizierung für das jeweilige Los zu Erfahrungen mit den im Planungsraum verantwortlichen Behörden im Zuge von planerischer Projektbearbeitung oder Projektbegleitung zu den Planungsräumen nachzuweisen:
+
+- für Lose 1 und 2:
+- Planungsraum Südhessen / RP Darmstadt oder
+- Planungsraum Baden-Württemberg / RP Karlsruhe oder
+- Planungsraum Rheinland-Pfalz / Struktur- und Genehmigungsdirektion Süd und Nord
+
+- für Los 3
+- Planungsraum Sachsen-Anhalt / Landesverwaltungsamt Sachsen-Anhalt (Halle) oder
+- Planungsraum Sachsen / LDS Sachsen (Leipzig) oder
+- Planungsraum Thüringen / TLVwA Weimar</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich ist. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL 4: Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich ist.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Beschreibung der technischen Ausrüstung für die Ausführung des Auftrages. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL 3: Beschreibung der technischen Ausrüstung für die Ausführung des Auftrages; verwendete IT (insb. Softwarelösungen).</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Anzahl der Referenzen (TL1, Mindestanforderung Nr. 1)</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>600.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Durchschnittliches Auftragsvolumen der Referenzen (TL1, Mindestanforderung Nr. 1))</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>300.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Durchschnittliches Alter der Referenzen (TL1, Mindestanforderung Nr. 1)</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Keine Angabe</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Siehe Verfahrensbrief.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Keine Angabe</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Keine Angabe</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-07-29+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-15+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-07-03+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>4</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>4</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">1</cbc:ID>
+			<cbc:Name languageID="DEU">GDRM Lampertheim 5</cbc:Name>
+			<cbc:Description languageID="DEU">Die erforderliche Ausbaumaßnahme GDRM Lampertheim 5 ist Bestandteil des Netzentwick-lungsplans 2022-2032 (ID 630-01). Die geplante Fertigstellung dieser Maßnahmen verschiebt sich gegenüber dem Netzentwicklungsplan von Oktober 2027 auf Oktober 2028. 
+Ein großer Teil der zukünftigen Verbrauchsmengen in Baden-Württemberg und entlang der MIDAL-Süd Trasse soll nicht mehr mit Erdgas, sondern mit Wasserstoff gedeckt werden. Aus diesem Grund soll die Ferngasleitung MIDAL Süd (Abschnitt Reckrod -Lampertheim) nach Fertigstellung der erdgastransportierenden Spessart-Odenwald-Leitung (SPO-Leitung der terranets bw GmbH), welche von Wirtheim bis nach Lampertheim führen wird, voraussichtlich ab dem Jahr 2028 als Wasserstofftransportleitung umgestellt werden. 
+Über den MIDAL Süd Loop und die SPO-Leitung wird ab diesem Zeitpunkt die Methan-Versorgung bis nach Lampertheim erfolgen. Über die GDRM-Anlage Lampertheim 5 erfolgt die Verbindung der SPO-Leitung zur MIDAL Süd (Lampertheim - Ludwigshafen) und zur bestehenden AL RG (DN 400). Um die Funktionalität der GDRM-Anlage sicherzustellen, ist die Einbindung einer bestehenden DN 400 Leitung (AL RG) und der bestehenden MIDAL Süd (DN 800, Lampertheim - Ludwigshafen), eine übergangsweise Einbindung der anfangs noch erdgasführenden MIDAL Süd (DN 800, Reckrod - Lampertheim) sowie die Einbindung der kurzen Verbindungsleitung zwischen SPO-Leitung und GDRM-Anlage notwendig.
+Die Einreichung der Planfeststellungsantrags ist für Ende 2026 geplant. Der geplante Baubeginn liegt im Oktober 2027.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Arbeiten vor Ort: DE715</cbc:Description>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Wird im entsprechenden Los beschrieben.</cbc:OptionsDescription>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis der Eintragung in das Berufs- oder Handelsregister (Mit dem Teilnahmeantrag; Mittels Dritterklärung): PL1: Nachweis der Eintragung in das Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bieter ansässig ist (in nicht beglaubigter Kopie), sofern der Bieter in das Berufs- oder Handelsregister eingetragen ist.
+
+Für den Fall der Nichteintragung:  
+Die Vorlage einer Gewerbeanmeldung (für ausländische Bieter: Oder vergleichbar). Der Nachweis muss mindestens die vertretungsberechtigten Personen ausweisen.
+
+Der Nachweis kann in (nicht beglaubigter) Fotokopie/Ablichtung (PDF) vorgelegt werden, muss jedoch eindeutig lesbar sein. Der Nachweis darf zum Zeitpunkt der Veröffentlichung dieser Bekanntmachung nicht älter als 12 Monate sein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): PL2: Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB. Der Nachweis von Selbstreinigungsmaßnahmen nach § 125 GWB ist möglich.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung zur Verordnung (EU) 2022/576 (Sanktionen Russland) (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): PL3: Eigenerklärung zur Verordnung (EU) 2022/576 (Sanktionen Russland)</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung über den durchschnittlichen Umsatz des Unternehmens in den letzten 3 (drei) abgeschlossenen Geschäftsjahren (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): WL1: Eigenerklärung über den durchschnittlichen Umsatz des Unternehmens in den letzten 3 (drei) abgeschlossenen Geschäftsjahren
+
+Sofern ein Unternehmen erst innerhalb der letzten drei Jahre gegründet wurde und daher noch keine drei abgeschlossenen Geschäftsjahre aufweist, legt es für die fehlenden Jahre eine Unternehmensplanung für die Zukunft unter Angabe der erwarteten Jahresumsätze vor.
+
+Mindestanforderung (Nichterfüllung führt zum Ausschluss): Der durchschnittliche Umsatz muss in EUR (netto) für jedes der letzten 3 (drei) abgeschlossenen Geschäftsjahre, getrennt je Los, für
+
+- Los 1 mindestens 320.000,00 EUR betragen.
+- Los 2 mindestens 850.000,00 EUR betragen.
+- Los 3 mindestens 3.200.000,00 EUR betragen.
+
+Der Nachweis ist für jedes Los getrennt zu erbringen. Wünscht der Bewerber auf mehrere Lose ein Angebot abzugeben, so sind die Mindestanforderungen kumulativ zu er-füllen. Das hieße bei einem Angebot für alle drei Lose müsste ein durchschnittlicher Umsatz i.H.v. 4.370.000,00 EUR (netto) für jedes der letzten 3 (drei) abgeschlossenen Geschäftsjahre nachgewiesen werden.
+
+Siehe Anlage A.1 Vordrucke und Nachweise (Eignung), Vordruck 6.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis einer bestehenden Berufs- oder Betriebshaftpflichtversicherung oder einer vergleichbaren marktüblichen Versicherung für Personen-, Sach- und Vermögensschäden (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): WL2: Nachweis einer bestehenden Berufs- oder Betriebshaftpflichtversicherung oder einer vergleichbaren marktüblichen Versicherung für Personen-, Sach- und Vermögensschäden.
+
+Mindestanforderung (Nichterfüllung führt zum Ausschluss):
+Die Haftpflichtdeckungshöhe muss jeweils einzeln für Personen-, Sach- und Vermögensschäden mindestens EUR 10 Mio. je Versicherungsjahr betragen. 
+
+Falls eine Versicherung mit diesen Deckungshöhen derzeit nicht besteht, genügt die Vorlage von 
+1. einer Eigenerklärung des Bieters, dass er im Auftragsfall bereit ist, eine entsprechende Versicherung auf erstes Anfordern des Auftraggebers abzuschließen  
+und
+2. die unwiderrufliche Erklärung eines Versicherers (in nicht beglaubigte Kopie), dass dieser zum Abschluss einer entsprechenden Versicherung bereit ist.
+
+Der Nachweis kann in Fotokopie/Ablichtung (PDF) vorgelegt werden, muss jedoch eindeutig lesbar sein. Der Nachweis darf zum Zeitpunkt des Ablaufs der Frist zur Einreichung der Angebote nicht älter als 12 Monate sein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-qual</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Darlegung der fachlichen Qualifikation der für das Projekt verantwortlichen und handelnden Personen. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL2: Darlegung der fachlichen Qualifikation der für das Projekt verantwortlichen und handelnden Personen.
+
+Mindestanforderungen an Referenzen (Nichterfüllung führt zum Ausschluss):
+
+1. Zwei (2) verantwortliche Mitarbeiter mit
+
+- der Qualifikation eines Ingenieurs (oder entsprechend) und
+- sehr guten Kenntnissen der deutschen Sprache (mindestens Niveau C1).
+
+2. Nachweis für mindestens eine (1) Person im Unternehmen, nicht älter als drei (3) Jahre sein, gerechnet ab dem Tag, an dem die Bekanntmachung veröffentlicht wurde
+
+- einer umweltfachlicher Weiterbildungen in Sachen "Naturschutzrechtliche Eingriffsregelung", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 3;
+- Nachweis einer umweltfachlicher Weiterbildungen in Sachen "Artenschutz", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 4;
+- Nachweis einer umweltfachlicher Weiterbildungen in Sachen "Umweltverträglichkeitsprüfung", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 5.
+
+Die Nachweise müssen nicht zwingend in derselben Person erbracht werden.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Angaben über die Ausführung vergleichbarer Leistungen (Referenzen) in den letzten maximal fünf (5) Jahren seit Veröffentlichung der Bekanntmachung. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL1: Angaben über die Ausführung vergleichbarer Leistungen (Referenzen) in den letzten maximal fünf (5) Jahren seit Veröffentlichung der Bekanntmachung.
+
+Eine Vergleichbarkeit setzt voraus, dass die aufgeführten Referenzen sowohl leistungs- als auch themenspezifisch mit dem geforderten Leistungspaket vergleichbar sind. Vergleichbar ist eine Referenz insbesondere dann, wenn es sich um Leistungen handelt, die hinsichtlich Größe und Komplexität auf eine entsprechende Eignung des Bewerbers schließen lassen.
+Die Referenz muss zum Nachweis der Vergleichbarkeit mindestens folgende Angaben enthalten:
+
+1. Referenztitel
+2. Auftraggeber
+(Sollte der Auftraggeber aus datenschutzrechtlichen Gründen nicht benannt wer-den dürfen, so genügt eine Kategorisierung des Auftraggebers (Forschung, Industrie, andere Sektoren Auftraggeber) und eine Bestätigung, dass die Referenz mit der ausgeschriebenen Leistung vergleichbar ist.)
+3. Ansprechpartner inkl. Kontaktdaten (z.B. E-Mail, Telefonnummer)
+(Sollte der Ansprechpartner aus datenschutzrechtlichen Gründen nicht benannt werden dürfen, so genügt eine Kategorisierung des Auftraggebers (Forschung, Industrie, andere Sektoren Auftraggeber) und eine Bestätigung, dass die Referenz mit der ausgeschriebenen Leistung vergleichbar ist.)
+4. Kurzbeschreibung der ausgeführten Leistung
+5. Auftragswert in EUR (netto)
+6. Ausführungszeitraum.
+
+Siehe Anlage A.1 Vordrucke und Nachweise (Eignung), Vordruck 7.
+
+Mindestanforderungen an Referenzen (Nichterfüllung führt zum Ausschluss):
+
+Es ist wegen der Referenzlage nachzuweisen:
+
+1. mindestens drei (3) vergleichbare und einschlägige Referenzen, in denen das Referenzprojekt folgende Punkte erfüllt;
+- planerische Projektbearbeitungen im Bereich erdverlegte Leitungsinfrastruktur einschließlich technischer Anlagen und
+- planerischen Begleitung eines Vorhabenträgers/einer Vorhabenträgerin der leitungs-gebundenen Energiewirtschaft (Erdgas, Wasserstoff, Strom)
+
+2. Es ist ferner mindestens eine (1) vergleichbare und einschlägige Referenzen zwecks Qualifizierung für das jeweilige Los zu Erfahrungen mit den im Planungsraum verantwortlichen Behörden im Zuge von planerischer Projektbearbeitung oder Projektbegleitung zu den Planungsräumen nachzuweisen:
+
+- für Lose 1 und 2:
+- Planungsraum Südhessen / RP Darmstadt oder
+- Planungsraum Baden-Württemberg / RP Karlsruhe oder
+- Planungsraum Rheinland-Pfalz / Struktur- und Genehmigungsdirektion Süd und Nord
+
+- für Los 3
+- Planungsraum Sachsen-Anhalt / Landesverwaltungsamt Sachsen-Anhalt (Halle) oder
+- Planungsraum Sachsen / LDS Sachsen (Leipzig) oder
+- Planungsraum Thüringen / TLVwA Weimar</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich ist. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL 4: Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich ist.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Beschreibung der technischen Ausrüstung für die Ausführung des Auftrages. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL 3: Beschreibung der technischen Ausrüstung für die Ausführung des Auftrages; verwendete IT (insb. Softwarelösungen).</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Anzahl der Referenzen (TL1, Mindestanforderung Nr. 1)</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>600.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Durchschnittliches Auftragsvolumen der Referenzen (TL1, Mindestanforderung Nr. 1))</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>300.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Durchschnittliches Alter der Referenzen (TL1, Mindestanforderung Nr. 1)</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Keine Angabe</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Siehe Verfahrensbrief.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Keine Angabe</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Keine Angabe</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-07-29+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-15+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-07-03+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>4</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>4</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2</cbc:ID>
+			<cbc:Name languageID="DEU">HYLU</cbc:Name>
+			<cbc:Description languageID="DEU">Die erforderliche Ausbaumaßnahme Wasserstoffleitung Lampertheim - Ludwigshafen (Antrags-ID KLN013-01) ist Bestandteil des Wasserstoff-Kernnetzes, welches mit der Entscheidung der Bundesnetzagentur (BNetzA) am 22.10.2024 genehmigt wurde. Die geplante Wasserstoffleitung hat eine Nennweite von DN 800 und schließt in Lampertheim im Bereich der bestehenden GDRM-Anlage Lampertheim der GASCADE an die zukünftig auf den Wasserstofftransport umgestellte MIDAL-Süd an. Nach rund 600 Metern ist eine Absperrstation mit der Vorrichtung für den Einsatz zweier mobiler Molchschleusen geplant. Diese Absperrstation (WAS) ist Bestandteil einer Wasserstoffdruckregel- und Messanlagen (WDRM-Anlage) zum Messen von Gasmengen sowie zur Druckregelung, welche jedoch erst im Anschluss an die Inbetriebnahme der Wasserstoffleitung gebaut und in Betrieb genommen wird. In diese WDRM-Anlage wird eine künftige Wasserstoffleitung der Open Grid Europe GmbH eingebunden. Die Funktionalität der WDRM-Anlage soll sicherstellen, dass die an dieser Stelle übernommene Wasserstoffmenge in alle angebundenen Leitungsabschnitte eingespeist wer-den kann. Dieser Energieknotenpunkt für Wasserstoff nimmt damit eine zentrale Rolle bei der geplanten Netzverknüpfung der zukünftigen Wasserstoffleitungen ein. Ab der geplanten WAS/WDRM-Anlage Lampertheim verläuft die Trasse noch rund 1,1 km im Bundesland Hessen in Richtung Westen. Der weitere rd. 5,1 km lange Trassenverlauf in Richtung Rhein wird im Norden der Stadt Mannheim, Baden-Württemberg geführt und kreuzt den Rhein mittels eines unterirdisch verlaufenden Kreuzungsbauwerks. Ab Mitte des Rhein-Stromes erreicht die Wasserstoffleitung Rheinland-Pfalz im Bereich des Stadtgebietes Frankenthal. Die Wasserstoffleitung endet mit der geplanten Absperrstation Frankenthal. Hier entsteht zukünftig der nächste Energieknotenpunkt durch eine spätere Einbindung von Leitungen Dritter, als auch die Weiterführung der Wasserstoffleitung in Richtung Wörth/Karlsruhe. 
+Aufgrund der Leitungsführung durch drei Bundesländer, gibt es drei getrennte Planfeststellungsabschnitte mit jeweils einer zuständigen Planfeststellungsbehörde.
+Diese Leitungsverknüpfungen im Bereich der WAS Frankenthal sind planerisch zu berücksichtigen, aber sind nicht Gegenstand des Genehmigungsverfahrens in Rheinland-Pfalz.
+Die Einreichung der drei (3) Planfeststellungsanträge ist für das erste Quartal 2027 geplant. Der geplante Baubeginn liegt im ersten Quartal 2028.
+
+OPTIONAL: Es ist nicht auszuschließen, dass sich die hier gegenständliche Wasserstoffleitung um rund 5 km in Richtung Süden verlängern wird, um im Stadtgebiet von Ludwigshafen zu enden. Die Trasse führt über landwirtschaftliche Flächen und ist ansonsten räumlich im Wesentlichen durch Naherholungsbereiche und eine verdichtete Verkehrs- und Industrieinfrastruktur geprägt.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Arbeiten vor Ort: DE715, DEB31, DE126</cbc:Description>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">OPTIONAL: Es ist nicht auszuschließen, dass sich die hier gegenständliche Wasserstoffleitung um rund 5 km in Richtung Süden verlängern wird, um im Stadtgebiet von Ludwigshafen zu enden. Die Trasse führt über landwirtschaftliche Flächen und ist ansonsten räumlich im Wesentlichen durch Naherholungsbereiche und eine verdichtete Verkehrs- und Industrieinfrastruktur geprägt.</cbc:OptionsDescription>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis der Eintragung in das Berufs- oder Handelsregister (Mit dem Teilnahmeantrag; Mittels Dritterklärung): PL1: Nachweis der Eintragung in das Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Landes, in dem der Bieter ansässig ist (in nicht beglaubigter Kopie), sofern der Bieter in das Berufs- oder Handelsregister eingetragen ist.
+
+Für den Fall der Nichteintragung:  
+Die Vorlage einer Gewerbeanmeldung (für ausländische Bieter: Oder vergleichbar). Der Nachweis muss mindestens die vertretungsberechtigten Personen ausweisen.
+
+Der Nachweis kann in (nicht beglaubigter) Fotokopie/Ablichtung (PDF) vorgelegt werden, muss jedoch eindeutig lesbar sein. Der Nachweis darf zum Zeitpunkt der Veröffentlichung dieser Bekanntmachung nicht älter als 12 Monate sein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): PL2: Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB. Der Nachweis von Selbstreinigungsmaßnahmen nach § 125 GWB ist möglich.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-trade</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung zur Verordnung (EU) 2022/576 (Sanktionen Russland) (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): PL3: Eigenerklärung zur Verordnung (EU) 2022/576 (Sanktionen Russland)</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Eigenerklärung über den durchschnittlichen Umsatz des Unternehmens in den letzten 3 (drei) abgeschlossenen Geschäftsjahren (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): WL1: Eigenerklärung über den durchschnittlichen Umsatz des Unternehmens in den letzten 3 (drei) abgeschlossenen Geschäftsjahren
+
+Sofern ein Unternehmen erst innerhalb der letzten drei Jahre gegründet wurde und daher noch keine drei abgeschlossenen Geschäftsjahre aufweist, legt es für die fehlenden Jahre eine Unternehmensplanung für die Zukunft unter Angabe der erwarteten Jahresumsätze vor.
+
+Mindestanforderung (Nichterfüllung führt zum Ausschluss): Der durchschnittliche Umsatz muss in EUR (netto) für jedes der letzten 3 (drei) abgeschlossenen Geschäftsjahre, getrennt je Los, für
+
+- Los 1 mindestens 320.000,00 EUR betragen.
+- Los 2 mindestens 850.000,00 EUR betragen.
+- Los 3 mindestens 3.200.000,00 EUR betragen.
+
+Der Nachweis ist für jedes Los getrennt zu erbringen. Wünscht der Bewerber auf mehrere Lose ein Angebot abzugeben, so sind die Mindestanforderungen kumulativ zu er-füllen. Das hieße bei einem Angebot für alle drei Lose müsste ein durchschnittlicher Umsatz i.H.v. 4.370.000,00 EUR (netto) für jedes der letzten 3 (drei) abgeschlossenen Geschäftsjahre nachgewiesen werden.
+
+Siehe Anlage A.1 Vordrucke und Nachweise (Eignung), Vordruck 6.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Nachweis einer bestehenden Berufs- oder Betriebshaftpflichtversicherung oder einer vergleichbaren marktüblichen Versicherung für Personen-, Sach- und Vermögensschäden (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): WL2: Nachweis einer bestehenden Berufs- oder Betriebshaftpflichtversicherung oder einer vergleichbaren marktüblichen Versicherung für Personen-, Sach- und Vermögensschäden.
+
+Mindestanforderung (Nichterfüllung führt zum Ausschluss):
+Die Haftpflichtdeckungshöhe muss jeweils einzeln für Personen-, Sach- und Vermögensschäden mindestens EUR 10 Mio. je Versicherungsjahr betragen. 
+
+Falls eine Versicherung mit diesen Deckungshöhen derzeit nicht besteht, genügt die Vorlage von 
+1. einer Eigenerklärung des Bieters, dass er im Auftragsfall bereit ist, eine entsprechende Versicherung auf erstes Anfordern des Auftraggebers abzuschließen  
+und
+2. die unwiderrufliche Erklärung eines Versicherers (in nicht beglaubigte Kopie), dass dieser zum Abschluss einer entsprechenden Versicherung bereit ist.
+
+Der Nachweis kann in Fotokopie/Ablichtung (PDF) vorgelegt werden, muss jedoch eindeutig lesbar sein. Der Nachweis darf zum Zeitpunkt des Ablaufs der Frist zur Einreichung der Angebote nicht älter als 12 Monate sein.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-qual</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Darlegung der fachlichen Qualifikation der für das Projekt verantwortlichen und handelnden Personen. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL2: Darlegung der fachlichen Qualifikation der für das Projekt verantwortlichen und handelnden Personen.
+
+Mindestanforderungen an Referenzen (Nichterfüllung führt zum Ausschluss):
+
+1. Zwei (2) verantwortliche Mitarbeiter mit
+
+- der Qualifikation eines Ingenieurs (oder entsprechend) und
+- sehr guten Kenntnissen der deutschen Sprache (mindestens Niveau C1).
+
+2. Nachweis für mindestens eine (1) Person im Unternehmen, nicht älter als drei (3) Jahre sein, gerechnet ab dem Tag, an dem die Bekanntmachung veröffentlicht wurde
+
+- einer umweltfachlicher Weiterbildungen in Sachen "Naturschutzrechtliche Eingriffsregelung", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 3;
+- Nachweis einer umweltfachlicher Weiterbildungen in Sachen "Artenschutz", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 4;
+- Nachweis einer umweltfachlicher Weiterbildungen in Sachen "Umweltverträglichkeitsprüfung", Anlage A.1 Vordrucke und Nachweise (Eignung), Nachweis 5.
+
+Die Nachweise müssen nicht zwingend in derselben Person erbracht werden.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Angaben über die Ausführung vergleichbarer Leistungen (Referenzen) in den letzten maximal fünf (5) Jahren seit Veröffentlichung der Bekanntmachung. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL1: Angaben über die Ausführung vergleichbarer Leistungen (Referenzen) in den letzten maximal fünf (5) Jahren seit Veröffentlichung der Bekanntmachung.
+
+Eine Vergleichbarkeit setzt voraus, dass die aufgeführten Referenzen sowohl leistungs- als auch themenspezifisch mit dem geforderten Leistungspaket vergleichbar sind. Vergleichbar ist eine Referenz insbesondere dann, wenn es sich um Leistungen handelt, die hinsichtlich Größe und Komplexität auf eine entsprechende Eignung des Bewerbers schließen lassen.
+Die Referenz muss zum Nachweis der Vergleichbarkeit mindestens folgende Angaben enthalten:
+
+1. Referenztitel
+2. Auftraggeber
+(Sollte der Auftraggeber aus datenschutzrechtlichen Gründen nicht benannt wer-den dürfen, so genügt eine Kategorisierung des Auftraggebers (Forschung, Industrie, andere Sektoren Auftraggeber) und eine Bestätigung, dass die Referenz mit der ausgeschriebenen Leistung vergleichbar ist.)
+3. Ansprechpartner inkl. Kontaktdaten (z.B. E-Mail, Telefonnummer)
+(Sollte der Ansprechpartner aus datenschutzrechtlichen Gründen nicht benannt werden dürfen, so genügt eine Kategorisierung des Auftraggebers (Forschung, Industrie, andere Sektoren Auftraggeber) und eine Bestätigung, dass die Referenz mit der ausgeschriebenen Leistung vergleichbar ist.)
+4. Kurzbeschreibung der ausgeführten Leistung
+5. Auftragswert in EUR (netto)
+6. Ausführungszeitraum.
+
+Siehe Anlage A.1 Vordrucke und Nachweise (Eignung), Vordruck 7.
+
+Mindestanforderungen an Referenzen (Nichterfüllung führt zum Ausschluss):
+
+Es ist wegen der Referenzlage nachzuweisen:
+
+1. mindestens drei (3) vergleichbare und einschlägige Referenzen, in denen das Referenzprojekt folgende Punkte erfüllt;
+- planerische Projektbearbeitungen im Bereich erdverlegte Leitungsinfrastruktur einschließlich technischer Anlagen und
+- planerischen Begleitung eines Vorhabenträgers/einer Vorhabenträgerin der leitungs-gebundenen Energiewirtschaft (Erdgas, Wasserstoff, Strom)
+
+2. Es ist ferner mindestens eine (1) vergleichbare und einschlägige Referenzen zwecks Qualifizierung für das jeweilige Los zu Erfahrungen mit den im Planungsraum verantwortlichen Behörden im Zuge von planerischer Projektbearbeitung oder Projektbegleitung zu den Planungsräumen nachzuweisen:
+
+- für Lose 1 und 2:
+- Planungsraum Südhessen / RP Darmstadt oder
+- Planungsraum Baden-Württemberg / RP Karlsruhe oder
+- Planungsraum Rheinland-Pfalz / Struktur- und Genehmigungsdirektion Süd und Nord
+
+- für Los 3
+- Planungsraum Sachsen-Anhalt / Landesverwaltungsamt Sachsen-Anhalt (Halle) oder
+- Planungsraum Sachsen / LDS Sachsen (Leipzig) oder
+- Planungsraum Thüringen / TLVwA Weimar</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-yrly-avg-mp</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich ist. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL 4: Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich ist.</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-facil-tools</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Beschreibung der technischen Ausrüstung für die Ausführung des Auftrages. (Mit dem Teilnahmeantrag; Mittels Eigenerklärung): TL 3: Beschreibung der technischen Ausrüstung für die Ausführung des Auftrages; verwendete IT (insb. Softwarelösungen).</cbc:Description>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Anzahl der Referenzen (TL1, Mindestanforderung Nr. 1)</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>600.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Durchschnittliches Auftragsvolumen der Referenzen (TL1, Mindestanforderung Nr. 1))</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>300.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="DEU">Durchschnittliches Alter der Referenzen (TL1, Mindestanforderung Nr. 1)</cbc:Description>
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+									<efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Keine Angabe</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Siehe Verfahrensbrief.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Keine Angabe</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="fsr">false</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Keine Angabe</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+			<cac:SecurityClearanceTerm>
+				<cbc:Code listName="required">false</cbc:Code>
+			</cac:SecurityClearanceTerm>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXVHYH0YTMU974WL</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2025-07-29+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2025-07-15+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2025-07-03+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:59+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:EconomicOperatorShortList>
+				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>4</cbc:MaximumQuantity>
+				<cbc:MinimumQuantity>4</cbc:MinimumQuantity>
+			</cac:EconomicOperatorShortList>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">3</cbc:ID>
+			<cbc:Name languageID="DEU">HYBOR</cbc:Name>
+			<cbc:Description languageID="DEU">Die erforderliche Ausbaumaßnahme Wasserstoffleitung HYBOR (Hydrogen Bobbau-Rückersdorf Leitung) mit der Antrags-ID KLN107-01 ist Bestandteil des Wasserstoff-Kernnetzes, welches mit der Entscheidung der Bundesnetzagentur (BNetzA) am 22.10.2024 genehmigt wurde. Die geplante Wasserstoffleitung hat eine Nennweite von DN 500 und schließt nordwestlich von Bobbau im Bereich der bestehenden Absperrstation (AS) Bobbau-JAGAL des Auftraggebers an die zukünftig auf den Wasserstofftransport umgestellte JAGAL an. Neben der bestehenden AS soll einen neue Wasserstoffabsperr- und Molchstation (WAS) Bobbau-HYBOR entstehen. 
+Von der WAS Bobbau-HYBOR soll die neu zu errichtende Leitung in Parallellage zur bestehenden Erdgasfernleitung JAGAL DN 1200 geplant werden. Dabei sollte ein Achsabstand von 8 m zur JAGAL im Verlauf der Trassierung eingehalten werden. Dies ist ggf. aufgrund von Bebauungen, Fremdleitungen, Baumbeständen und Schutzgebieten nicht immer möglich, so dass der Achsabstand auf kurzer Strecke in Abstimmung mit dem AG auch verringert wer-den kann. Östlich von Halle wird die Parallellage auf einer Länge von ca. 3,5 km verlassen, um ein Gewerbegebiet und für die Naherholung gewidmete Flächen zu umgehen.
+
+Die Gesamtlänge der geplanten Wasserstoffleitung von der WAS Bobbau-HYBOR bis zur VS Rückersdorf hat eine voraussichtliche Gesamtlänge von ca. 120 km. Im Verlauf der Trasse sollen neben den bestehenden Absperrstationen der JAGAL insgesamt 9 Wasserstoffabsperrstationen errichtet werden. 
+HYBOR endet südlich der bestehenden Verdichterstation Rückersdorf und wird mit der zu-künftig auf den Wasserstofftransport umgestellten Anschlussleitung (AL) Rückersdorf-West verbunden. An dem Standtort soll ebenfalls eine neue Wasserstoffabsperr- und Molchstation (WAS) Rückersdorf-HYBOR entstehen.
+Aufgrund der Leitungsführung durch drei Bundesländer, gibt es drei getrennte Planfeststellungsabschnitte mit jeweils einer zuständigen Planfeststellungsbehörde.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Arbeiten vor Ort: DED, DEE, DEG</cbc:Description>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DescriptionCode listName="duration">UNKNOWN</cbc:DescriptionCode>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="DEU">Wird im entsprechenden Los beschrieben.</cbc:OptionsDescription>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

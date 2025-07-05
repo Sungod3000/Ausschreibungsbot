@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2024-11-22+01:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>13:37:21+01:00</efbc:TransmissionTime>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>true</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.vbuzrt.hu</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HUN">Védelmi Beszerzési Ügynökség Zártkörűen Működő Részvénytársaság</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Schweidel Utca 2-4.</cbc:StreetName>
+                  <cbc:CityName>Budapest</cbc:CityName>
+                  <cbc:PostalZone>1118</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HU110</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>27084377251</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Holl Richárd</cbc:Name>
+                  <cbc:Telephone>+36 13819400</cbc:Telephone>
+                  <cbc:Telefax>+36 13819401</cbc:Telefax>
+                  <cbc:ElectronicMail>beszerzes@vbuzrt.hu</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.honvedelem.hu</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HUN">Magyar Honvédség Logisztikai Támogató Parancsnokság</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Soroksári Út 152</cbc:StreetName>
+                  <cbc:CityName>Budapest</cbc:CityName>
+                  <cbc:PostalZone>1095</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HU110</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>15845357251</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Solymosi Ferenc</cbc:Name>
+                  <cbc:Telephone>+36 14346011</cbc:Telephone>
+                  <cbc:Telefax>+36 14346011</cbc:Telefax>
+                  <cbc:ElectronicMail>mh.ttp@mil.hu</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.honvedelem.hu</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HUN">Magyar Honvédség Nagysándor József 51. Híradó- és Vezetésbiztosító</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mészáros Lázár Utca 2 3906</cbc:StreetName>
+                  <cbc:CityName>Székesfehérvár</cbc:CityName>
+                  <cbc:PostalZone>8000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HU211</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>15703651251</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Kása István</cbc:Name>
+                  <cbc:Telephone>+36 22542811</cbc:Telephone>
+                  <cbc:Telefax>+36 22542835</cbc:Telefax>
+                  <cbc:ElectronicMail>mh.51hirvezbiztdd@mil.hu</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://kozbeszerzes.hu</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HUN">Közbeszerzési Hatóság Közbeszerzési Döntőbizottság</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Riadó u. 5</cbc:StreetName>
+                  <cbc:CityName>Budapest</cbc:CityName>
+                  <cbc:PostalZone>1026</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HU110</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>EKRSZ_40664534_2</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+36 18828592</cbc:Telephone>
+                  <cbc:Telefax>+36 18828593</cbc:Telefax>
+                  <cbc:ElectronicMail>dontobizottsag@kt.hu</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://kozbeszerzes.hu</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HUN">Közbeszerzési Hatóság Közbeszerzési Döntőbizottság</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Riadó u. 5</cbc:StreetName>
+                  <cbc:CityName>Budapest</cbc:CityName>
+                  <cbc:PostalZone>1026</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HU110</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>15329190-2-41</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+36 18828592</cbc:Telephone>
+                  <cbc:Telefax>+36 18828593</cbc:Telefax>
+                  <cbc:ElectronicMail>dontobizottsag@kt.hu</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://kozbeszerzes.hu</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HUN">Közbeszerzési Hatóság</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Riadó utca 5.</cbc:StreetName>
+                  <cbc:CityName>Budapest</cbc:CityName>
+                  <cbc:PostalZone>1026</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HU110</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>EKRSZ_40664534</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+36 18828635</cbc:Telephone>
+                  <cbc:ElectronicMail>hirdetmeny@kt.hu</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00726082-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">232/2024</efbc:GazetteID><efbc:PublicationDate>2024-11-28+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">37b6076a-11c6-4fea-b4bf-f23fe781fc69</cbc:ID>
+  <cbc:ContractFolderID>4897591a-9bf9-40aa-969e-1cc064d5cca0</cbc:ContractFolderID>
+  <cbc:IssueDate>2024-11-26+01:00</cbc:IssueDate>
+  <cbc:IssueTime>16:37:00+01:00</cbc:IssueTime>
+  <cbc:VersionID>02</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>HUN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">defence</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">defence</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">defence</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Az eljárásban nem lehet AT, alvállalkozó (továbbiakban: AV) és nem vehet részt az alkalmasság igazolásában olyan gazdasági szereplő, aki a Kbt. 62. § (1)-(2) bekezdéseiben meghatározott kizáró okok hatálya alatt áll. Kbt. 74. § (1) bekezdés a) és b) pontjai irányadók. A kizáró okok fenn nem állását AT(k), valamint adott esetben az alkalmasság igazolásában részt vevő szervezet előzetesen az egységes európai közbeszerzési dokumentummal (EEKD) köteles igazolni a 321/2015.(X.30.) Korm. rendelet (továbbiakban: Kr.) II. fejezetében foglaltak szerint. AK felhívja a figyelmet a Kbt. 41/A. § (1), (3)-(5), 64.§, és a Kr. 4. § (3) rendelkezéseire. Azon AV(k) vonatkozásában, amelyek nem vesznek részt az alkalmasság igazolásában a Kbt. 67.§ (4), ill. a Kr. 15. § (2) bekezdés alapján AT-nek be kell nyújtania arra vonatkozó nyilatkozatát, hogy nem vesz igénybe a Kbt. 62. § (1)-(2) szerinti kizáró okok hatálya alá eső AV-t (EKR űrlap). AT-nek EKR űrlap benyújtásával nyilatkoznia kell, hogy vonatkozásában folyamatban van-e változásbejegyzési eljárás. Folyamatban lévő változásbejegyzési eljárás esetében az AT az ajánlathoz köteles csatolni a cégbírósághoz benyújtott változásbejegyzési kérelmet és az annak érkezéséről a cégbíróság által megküldött igazolást. A Kbt. 69. § (4)-(7) alapján a felhívott AT-nek a Kr. 1.-8. §, 10.§, 12.-16.§ szerint kell igazolnia, hogy nem tartozik a kizáró okok hatálya alá. AK felhívja a figyelmet a Kbt. 69. § (11)-(11a) és a Kr. 1. § (7) rendelkezéseire. A Kr. 1.§ (5) bekezdése alapján, a nem Magyarországon letelepedett gazdasági szereplő esetén az Ajánlatkérő az igazolások hitelességét a VI. Fejezetnek megfelelően ellenőrzi.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HUN">Kbt. 62. § (1) és (2) bekezdéseiben és a 321/2015. (X. 30.) Korm. rendelet 1. § - 16. §-aiban rögzítettek szerint.</cbc:Description>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">EKR001890912024</cbc:ID>
+    <cbc:Name languageID="HUN">AEG típusú szünetmentes berendezések fenntartása</cbc:Name>
+    <cbc:Description languageID="HUN">Vállalkozási keretszerződés "AEG típusú szünetmentes berendezések fenntartása" tárgyban A Magyar Honvédség Kormányzati Célú Elkülönült Hírközlő Hálózatban üzemelő AEG típusú szünetmentes berendezések fenntartása (2025-2027). A Magyar Honvédség Kormányzati Célú Elkülönült Hírközlő Hálózatban üzemeltetés biztonsága érdekében, a hálózat részét képező, egyes híradó és informatikai központokban üzemelő szünetmentes energiaellátó rendszerek és berendezések fenntartása.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cbc:Note languageID="HUN">1. Az ajánlatot kizárólag elektronikus úton, az EKR rendszeren (www.ekr.gov.hu) keresztül kell és lehet benyújtani. Kérjük, hogy az EKR-ben a dokumentumok/nyilatkozatok egyszerű elektronikus másolatait – azaz a nem elektronikus űrlap formájában rendelkezésre álló nyilatkozatokat – szkennelt, .pdf vagy .xls fájlformátumban, (tömörített formátum: .zip vagy .rar) benyújtani szíveskedjenek. Alkalmazandó a Kbt. 41/A. §-a. 2. Az eljárás nyelve a magyar. Ha az ajánlatban valamely dokumentum nem magyar nyelven került csatolásra, úgy azt az AT magyar nyelvű fordításban is köteles benyújtani. AK AT általi fordítását elfogadja. AK hivatkozik a Kbt. 47. § (2) bekezdésére. 3. Közös ajánlattétel esetén a Kbt. 35. §-ban foglaltak szerint kell eljárni, továbbá az ajánlathoz csatolni kell a közös AT-k erre vonatkozó megállapodását. 4. AT köteles benyújtani a KD 18.1. A) pontja szerinti dokumentumokat. A benyújtandó dokumentumok részletes listáját a KD tartalmazza. 5. A 2011. évi CXCV. törvény 41.§ (6) szerinti átláthatósági nyilatkozat benyújtása a szerződéskötés feltétele. Ennek elmaradása szerződéskötéstől való visszalépésének minősül. 6. AT nyújtsa be az ajánlatban szereplő nyilatkozatokat aláíró, az AT és az alkalmasság igazolásában résztvevő gazdasági szereplő írásbeli képviseletére jogosult személy aláírási címpéldányát vagy ügyvéd vagy kamarai jogtanácsos által ellenjegyzett aláírás mintáját, adott esetben meghatalmazást. 7. A Kr. 13. § alapján AT köteles ajánlatához csatolni a folyamatban lévő változásbejegyzési eljárás esetében a cégbírósághoz benyújtott változásbejegyzési kérelmet és az annak érkezéséről a cégbíróság által megküldött igazolást. 8. AK az ajánlatokat a Kbt. 76. § (2) bekezdés c) pontja alapján, a legalacsonyabb ár elve alapján értékeli. 9. AK a Kbt. 71. §-a szerint biztosítja a hiánypótlást. AK a Kbt. 71. § (6) bek. szerinti korlátozást nem alkalmazza. 10. Az M1.) pont szerinti alkalmassági feltétel és az előírt igazolási módja a minősített AT-k hivatalos jegyzékébe történő felvétel feltételét képező minősítési szempontokhoz képest szigorúbb. 11. AK nem alkalmazza a Kbt. 75. § (2) bekezdés e) pontját. Előzetes piaci konzultáció elérési útvonala: www.ekr.gov.hu Előzetes piaci konzultáció EKR azonosítója: EKR001630662024 12. Az eljárás során valamennyi órában megadott határidő közép-európai helyi idő szerint értendő (CET). 13. AK a Kbt. 35. § (8) bekezdése alapján nem követeli meg és nem teszi lehetővé gazdálkodó szervezet létrehozását a szerződés teljesítéséhez. 14. AT a - Kr. 1. § (9) bekezdése alapján - a 833/2014/EU tanácsi rendelet 5k. cikk (1) bekezdése szerinti tilalom vonatkozásában a KD 7. sz. melléklete szerinti nyilatkozatot köteles benyújtani az ajánlatban. 15. ÁKSZ: Dr. Mondschein Anita (lajstromszám: 00556), helyettes: Dr. Sebestyén Sára (lajstromszám: 00813)</cbc:Note>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">50532000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="HUN">M1.) referencia</cbc:Name>
+                <cbc:Description languageID="HUN">M1.) AT - figyelemmel a Kbt. 65. § (1) bekezdés b) pontjára - a Kr. 21. § (3) bekezdés a) pontja alapján rendelkezzen az eljárást megindító felhívás feladásától visszafelé számított 3 évben (36 hónapban) befejezett, de max. 6 éven (72 hónapon) belül megkezdett, a közbeszerzés tárgyához illeszkedő (szünetmentes berendezések karbantartása és javítása) szerződésszerű teljesítést igazoló referenciával. Igazolás módja: Referencianyilatkozat vagy igazolás benyújtása, amely legalább az alábbiakat tartalmazza: a szolgáltatás tárgya és az ellenszolgáltatás összege (úgy, hogy abból az előírt alkalmassági minimumkövetelmény teljesülése egyértelműen megállapítható legyen); szerződést kötő másik fél megnevezése; a teljesítés ideje (kezdő és befejező időpontja (év/hónap/napban), továbbá nyilatkozni kell arról, hogy a teljesítés az előírásoknak és a szerződésnek megfelelően történt-e. A Kr. 2. § (5) bekezdés alapján Ajánlatkérő előírja, hogy az EEKD IV. részének az α (alfa) „Az összes kiválasztási szempont általános jellemzése” pont kitöltésével kell előzetesen igazolni a felhívásban meghatározott alkalmassági minimumkövetelménynek való megfelelést. Ajánlatkérő nem kéri a formanyomtatvány IV. részében szereplő részletes információk megadását. A referenciát a Kr. 22. § (1) - (2) bekezdése szerint kell igazolni. Ajánlatkérő hivatkozik a Kr. 21/A. § és a Kr. 21. § (3a) bekezdésére. AK felhívja a figyelmet a Kbt. 41/A. § (1), (4)-(5), 65. § (7), (9), (11)-(12), 67. § (3), 69. § (11)-(11a), (14) bekezdésben foglaltakra. M1.) AT alkalmatlan, ha nem rendelkezik az eljárást megindító felhívás feladásától visszafelé számított 3 évben (36 hónapban) befejezett, de maximum 6 éven (72 hónapon) belül megkezdett a közbeszerzés tárgyához illeszkedő (szünetmentes berendezések karbantartása és javítása) szerződésszerű teljesítést igazoló referenciával, legalább minimum nettó 5.000.000 Ft értékben.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+      <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+      </cac:RequiredFinancialGuarantee>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>HUN</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>DOC-01</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://ekr.gov.hu/portal/kozbeszerzes/eljarasok/EKR001890912024/reszletek</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:PaymentTerms>
+        <cbc:Note languageID="HUN">Az ajánlattétel, a szerződés és számlázás, valamint a kifizetések devizaneme: magyar forint (HUF). AK előleget nem fizet. Szerződést biztosító mellékkötelezettségek: késedelmi és meghiúsulási kötbér, jótállás. A szerződés teljesítésével kapcsolatos feltételeket, a fizetési – és kötbér feltételeket a KD részeként kiadott Vállalkozási keretszerződés tervezet tartalmazza. Ajánlatkérő hivatkozik a Kbt. 135. § (1), (6) bekezdéseire, a Ptk. 6:130. § (1)-(2) bekezdéseire.</cbc:Note>
+      </cac:PaymentTerms>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+        <cbc:CompanyLegalForm languageID="HUN">Kbt. 35. § (8) bekezdésére figyelemmel nem követeli meg és nem teszi lehetővé gazdálkodó szervezet létrehozását a szerződés teljesítéséhez.</cbc:CompanyLegalForm>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="nda">false</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>1</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="HUN">Mindösszesen nettó ár (Ft)</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://ekr.gov.hu/portal/kozbeszerzes/eljarasok/EKR001890912024/reszletek</cbc:EndpointID>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderRecipientParty>
+      <cac:TenderEvaluationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderEvaluationParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="DAY">30</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="HUN">A Kbt. 148. § szerint.</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealInformationParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealInformationParty>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>HUN</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-01-03+01:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-01-03+01:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>12:00:00+01:00</cbc:OccurrenceTime>
+        <cbc:Description languageID="HUN">A bontás időpontjában az ajánlatok az EKR rendszerben AK számára hozzáférhetővé válnak. A Kbt. 68. § (4) bekezdése szerinti adatokat az EKR a bontás időpontjától kezdve azonnal - elektronikusan - azzal a tartalommal, ahogyan azok az ajánlatban szerepelnek az AT-k részére elérhetővé teszi.</cbc:Description>
+        <cac:OccurenceLocation>
+          <cbc:Description languageID="HUN">A 424/2017. (XII.19.) Korm. rendelet 15. § (2) bekezdése alapján az ajánlatokat tartalmazó iratok felbontását az EKR az ajánlattételi határidő lejártát követően, kettő órával később kezdi meg.</cbc:Description>
+        </cac:OccurenceLocation>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">EKR001890912024/1</cbc:ID>
+      <cbc:Name languageID="HUN">AEG típusú szünetmentes berendezések fenntartása</cbc:Name>
+      <cbc:Description languageID="HUN">A közbeszerzés mennyisége: Vállalkozási keretszerződés: A Magyar Honvédség Kormányzati Célú Elkülönült Hírközlő Hálózatban üzemelő AEG típusú szünetmentes berendezések fenntartása (2025-2027). A Magyar Honvédség Kormányzati Célú Elkülönült Hírközlő Hálózatban üzemeltetés biztonsága érdekében, a hálózat részét képező, egyes híradó és informatikai központokban üzemelő szünetmentes energiaellátó rendszerek és berendezések fenntartása. Szolgáltatás, üzemeltetés, fenntartási, karbantartási és javítási feladatok a rendelkezésre álló nettó 133.858.267,-Ft. keretösszeg erejéig. A keretösszeg tervezett felhasználása: 2025. év vonatkozásában: nettó 39.370.079,- Ft. 2026. év vonatkozásában: nettó 47.244.094,- Ft. 2027. év vonatkozásában: nettó 47.244.094,- Ft. A részletes műszaki követelményeket a Műszaki leírás tartalmazza. Ajánlatkérő a nettó keretösszeg minimum 70%-os felhasználására vállal megrendelési kötelezettséget. A keretösszeg ezt meghaladó lehívásának elmaradásából Ajánlattevő semmilyen igényt nem támaszt Ajánlatkérővel szemben.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="HUN">A II.2.7) pontban (BT-536 mezőben) feltüntetett szerződés kezdő időpontja tervezett időpont, a közbeszerzési eljárás eredményeként kötött szerződés az aláírása napján lép hatályba. A II.1.6) pont szerint a közbeszerzési eljárás nem kerül megbontásra részajánlati körökre, tekintettel arra, hogy a beszerzés tárgyát képező szolgáltatás olyan szünetmentes berendezések fenntartására vonatkozik amelyek egységes rendszert alkotnak, azok üzemképességének, technikai paramétereinek fenntartása, karbantartása, javítása egységes fenntartói tevékenységet igényel.</cbc:Note>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">50532000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Budapest</cbc:CityName>
+          <cbc:PostalZone>1055</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU110</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Pápa</cbc:CityName>
+          <cbc:PostalZone>8500</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU213</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Kecskemét</cbc:CityName>
+          <cbc:PostalZone>6000</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU331</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Medina</cbc:CityName>
+          <cbc:PostalZone>7057</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU233</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Tata</cbc:CityName>
+          <cbc:PostalZone>2890</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU212</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Szolnok</cbc:CityName>
+          <cbc:PostalZone>5000</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU322</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Kaposvár</cbc:CityName>
+          <cbc:PostalZone>7400</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU232</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:CityName>Szentendre</cbc:CityName>
+          <cbc:PostalZone>2000</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">HU120</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HUN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-01-31+01:00</cbc:StartDate>
+        <cbc:EndDate>2027-11-30+01:00</cbc:EndDate>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

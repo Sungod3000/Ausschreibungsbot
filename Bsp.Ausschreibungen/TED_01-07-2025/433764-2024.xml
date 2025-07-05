@@ -1,0 +1,2292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							<efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Justus-Liebig-Universität Gießen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Goethestraße 58</cbc:StreetName>
+									<cbc:CityName>Gießen</cbc:CityName>
+									<cbc:PostalZone>35390</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE721</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 112 591 322</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6419912411</cbc:Telephone>
+									<cbc:Telefax>+49 6419912419</cbc:Telefax>
+									<cbc:ElectronicMail>Materialwirtschaft@admin.uni-giessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">DIPLOMA Hochschule</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Herminestraße 17</cbc:StreetName>
+									<cbc:CityName>Bad Bückeburg</cbc:CityName>
+									<cbc:PostalZone>31675</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE928</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE317871258</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 565258777-17</cbc:Telephone>
+									<cbc:ElectronicMail>frank.thesing@diploma.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">European Business School</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Gustav-Stresemann-Ring 3</cbc:StreetName>
+									<cbc:CityName>Wiesbaden</cbc:CityName>
+									<cbc:PostalZone>65189</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE714</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE815692242</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6117102-163</cbc:Telephone>
+									<cbc:ElectronicMail>guenther.prager@ebs.edu</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Evangelische Hochschule Darmstadt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Zweifalltor 12</cbc:StreetName>
+									<cbc:CityName>Darmstadt</cbc:CityName>
+									<cbc:PostalZone>64293</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE711</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE275478788</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 61518798-949</cbc:Telephone>
+									<cbc:ElectronicMail>steffen.stock@eh-darmstadt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Frankfurt School of Finance &amp; Management gGmbH</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Adickesallee 32-34</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60322</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE255319815</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 69154008-216</cbc:Telephone>
+									<cbc:ElectronicMail>r.fromme@fs.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Frankfurt University</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Nibelungenplatz 1</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60318</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE114110370</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 691533-2474</cbc:Telephone>
+									<cbc:ElectronicMail>ruppel@cit.fra-uas.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0007</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Goethe Universität Frankfurt/Main</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Grüneburgplatz 1</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60323</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE114 110511</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 69798-77773</cbc:Telephone>
+									<cbc:ElectronicMail>kappatsch@rz.uni-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0008</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hessische Hochschule für öffentliches Management und Sicherheit</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Schönbergstraße 100</cbc:StreetName>
+									<cbc:CityName>Wiesbaden</cbc:CityName>
+									<cbc:PostalZone>65199</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE714</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE353317864</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6115829-141</cbc:Telephone>
+									<cbc:ElectronicMail>carsten.burgdorf@hoems.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0009</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hochschule Darmstadt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Haardtring 100</cbc:StreetName>
+									<cbc:CityName>Darmstadt</cbc:CityName>
+									<cbc:PostalZone>64295</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE711</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE811763762</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6151163-8886</cbc:Telephone>
+									<cbc:ElectronicMail>ingo.wolters@h-da.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0010</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hochschule Fulda</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Leipziger Str. 123</cbc:StreetName>
+									<cbc:CityName>Fulda</cbc:CityName>
+									<cbc:PostalZone>36037</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE732</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE166496730</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6619640-1300</cbc:Telephone>
+									<cbc:ElectronicMail>Eduard.Thomas@rz.hs-fulda.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0011</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hochschule für Musik und Darstellende Kunst</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Eschersheimer Landstraße 29-39</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60322</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE283713160</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 69154007-159</cbc:Telephone>
+									<cbc:ElectronicMail>gisbert.weiss@hfmdk-frankfurt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0012</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hochschule Geisenheim</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Von-Lade-Straße 1</cbc:StreetName>
+									<cbc:CityName>Geisenheim</cbc:CityName>
+									<cbc:PostalZone>65366</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE71D</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE113823585</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6722502-389</cbc:Telephone>
+									<cbc:ElectronicMail>eike.kaim@hs-gm.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0013</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hochschule RheinMain</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Kurt-Schumacher-Ring 18</cbc:StreetName>
+									<cbc:CityName>Wiesbaden</cbc:CityName>
+									<cbc:PostalZone>65197</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE714</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE811490955</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6119495-1708</cbc:Telephone>
+									<cbc:ElectronicMail>andreas.frahn@hs-rm.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0014</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Klinikum der Goethe Universität Frankfurt/Main</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Theodor-Stern-Kai 7</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60590</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE212137461</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 696301-83708</cbc:Telephone>
+									<cbc:ElectronicMail>uta.holz@ukffm.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0015</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Phillips Universität Marburg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Hans-Meerwein-Straße 6</cbc:StreetName>
+									<cbc:CityName>Marburg</cbc:CityName>
+									<cbc:PostalZone>35032</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE724</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE112590692</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 642128-21553</cbc:Telephone>
+									<cbc:ElectronicMail>schuh@hrz.uni-marburg.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0016</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Philosophisch-Theologische Hochschule Sankt Georgen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Offenbacher Landstraße 224</cbc:StreetName>
+									<cbc:CityName>Frankfurt am Main</cbc:CityName>
+									<cbc:PostalZone>60599</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE712</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE163077400</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 696061-254</cbc:Telephone>
+									<cbc:ElectronicMail>muth@sankt-georgen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0017</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Technische Hochschule Mittelhessen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Wiesenstraße 14</cbc:StreetName>
+									<cbc:CityName>Gießen</cbc:CityName>
+									<cbc:PostalZone>35390</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE721</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE813885934</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 641309-1276</cbc:Telephone>
+									<cbc:ElectronicMail>marina.horn@its.thm.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0018</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Technische Universität Darmstadt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Karolinenplatz 5</cbc:StreetName>
+									<cbc:CityName>Darmstadt</cbc:CityName>
+									<cbc:PostalZone>64289</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE711</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE111608628</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 615116-71230</cbc:Telephone>
+									<cbc:ElectronicMail>evelyn.ehrich@tu-darmstadt.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0019</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Hochschule Fresenius</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Limburger Straße 2</cbc:StreetName>
+									<cbc:CityName>Idstein</cbc:CityName>
+									<cbc:PostalZone>65510</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE71D</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE196697659</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 151 40753266</cbc:Telephone>
+									<cbc:ElectronicMail>msarnoch@cognos-ag.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0020</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Universität Kassel</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Mönchebergstraße 19</cbc:StreetName>
+									<cbc:CityName>Kassel</cbc:CityName>
+									<cbc:PostalZone>34125</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE731</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE113057055</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 561804-3982</cbc:Telephone>
+									<cbc:ElectronicMail>gabriel.herr@uni-kassel.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0021</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Justus-Liebig-Universität Gießen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Goethestraße 58</cbc:StreetName>
+									<cbc:CityName>Gießen</cbc:CityName>
+									<cbc:PostalZone>35390</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE721</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 112 591 322</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6419912411</cbc:Telephone>
+									<cbc:Telefax>+49 6419912419</cbc:Telefax>
+									<cbc:ElectronicMail>Materialwirtschaft@admin.uni-giessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0022</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Justus-Liebig-Universität Gießen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Goethestraße 58</cbc:StreetName>
+									<cbc:CityName>Gießen</cbc:CityName>
+									<cbc:PostalZone>35390</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE721</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 112 591 322</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6419912411</cbc:Telephone>
+									<cbc:Telefax>+49 6419912419</cbc:Telefax>
+									<cbc:ElectronicMail>Materialwirtschaft@admin.uni-giessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0023</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammern des Landes Hessen bei dem Regierungspräsidium Darmstadt</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Wilhelminenstraße 1 - 3</cbc:StreetName>
+									<cbc:CityName>Darmstadt</cbc:CityName>
+									<cbc:PostalZone>64283</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE711</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>06-22630029-17</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6151-126603</cbc:Telephone>
+									<cbc:Telefax>+49 6151-125816</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@rpda.hessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0024</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Justus-Liebig-Universität Gießen</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Goethestraße 58</cbc:StreetName>
+									<cbc:CityName>Gießen</cbc:CityName>
+									<cbc:PostalZone>35390</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE721</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>DE 112 591 322</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 6419912411</cbc:Telephone>
+									<cbc:Telefax>+49 6419912419</cbc:Telefax>
+									<cbc:ElectronicMail>Materialwirtschaft@admin.uni-giessen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0025</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00433764-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">140/2024</efbc:GazetteID><efbc:PublicationDate>2024-07-19Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">e55ae67f-8761-43b0-8bb7-d78bf849f574</cbc:ID>
+	<cbc:ContractFolderID>ae9e486a-0cd1-499d-88be-bc8cacc2a442</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-07-18+02:00</cbc:IssueDate>
+	<cbc:IssueTime>11:43:26+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-07-18+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0025</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0002</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0003</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0004</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0005</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0006</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0007</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0008</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0009</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0010</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0011</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0012</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0013</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0014</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0015</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0016</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0017</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0018</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0019</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0020</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:PaymentTerms>
+			<cbc:Note languageID="DEU">Es gelten die Zahlungsbedingungen nach § 17 VOL/B.</cbc:Note>
+		</cac:PaymentTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0024</cbc:ID>
+			</cac:PartyIdentification>
+		</cac:TenderRecipientParty>
+		<cac:TenderValidityPeriod>
+			<cbc:DurationMeasure unitCode="DAY">25</cbc:DurationMeasure>
+		</cac:TenderValidityPeriod>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Gemäß § 160 Abs. 3 GWB ist ein Antrag unzulässig, soweit
+1. der Antragsteller den geltend gemachten Verstoß gegen
+Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und
+gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn
+Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt
+unberührt,
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung
+erkennbar sind, nicht spätestens bis zum Ablauf der in der
+Bekanntmachung benannten Frist zur Bewerbung oder zur
+Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen
+erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung
+oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers,
+einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0022</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealInformationParty>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0023</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+		<cac:LotDistribution>
+			<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+			<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+		</cac:LotDistribution>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXS0YDKY17M7QG6Q</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">UGI-2024-098-OV-D61</cbc:ID>
+		<cbc:Name languageID="DEU">SPSS-Landeslizenzvertrag Hessen</cbc:Name>
+		<cbc:Description languageID="DEU">Ausgeschrieben wird ein Landeslizenzvertrag der Softwarelösungen IBM SPSS Statistics Premium &amp; IBM SPSS AMOS für alle Hessischen Hochschulen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXS0YDKY17M7QG6Q
+
+
+Die geforderten Nachweise zur Leistungsfähigkeit können auch durch ein Zertifikat eines Präqualifizierungsregisters (z.  B. www.hpqr.de) erbracht werden.</cbc:Note>
+		<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hochschulrechenzentrum der JLU Gießen, Herr Heiko Müller</cbc:StreetName>
+				<cbc:AdditionalStreetName>Heinrich-Buff-Ring 44</cbc:AdditionalStreetName>
+				<cbc:CityName>Gießen</cbc:CityName>
+				<cbc:PostalZone>35392</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>DIPLOMA Hochschule</cbc:StreetName>
+				<cbc:AdditionalStreetName>Herminestraße 17</cbc:AdditionalStreetName>
+				<cbc:CityName>Bad Bückeburg</cbc:CityName>
+				<cbc:PostalZone>31675</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE928</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>European Business School</cbc:StreetName>
+				<cbc:AdditionalStreetName>Gustav-Stresemann-Ring  3</cbc:AdditionalStreetName>
+				<cbc:CityName>Wiesbaden</cbc:CityName>
+				<cbc:PostalZone>65189</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Evangelische Hochschule Darmstadt</cbc:StreetName>
+				<cbc:AdditionalStreetName>Zweifalltor 12</cbc:AdditionalStreetName>
+				<cbc:CityName>Darmstadt</cbc:CityName>
+				<cbc:PostalZone>64293</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Frankfurt School of Finance &amp; Management gGmbH</cbc:StreetName>
+				<cbc:AdditionalStreetName>Adickesallee 32-34</cbc:AdditionalStreetName>
+				<cbc:CityName>Frankfurt am Main</cbc:CityName>
+				<cbc:PostalZone>60322</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Frankfurt University</cbc:StreetName>
+				<cbc:AdditionalStreetName>Nibelungenplatz 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Frankfurt am Main</cbc:CityName>
+				<cbc:PostalZone>60318</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Goethe Universität Frankfurt</cbc:StreetName>
+				<cbc:AdditionalStreetName>Grüneburgplatz 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Frankfurt am Main</cbc:CityName>
+				<cbc:PostalZone>60323</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hessische Hochschule für öffentliches Management und Sicherheit</cbc:StreetName>
+				<cbc:AdditionalStreetName>Schönbergstraße 100</cbc:AdditionalStreetName>
+				<cbc:CityName>Wiesbaden</cbc:CityName>
+				<cbc:PostalZone>65199</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hochschule Darmstadt</cbc:StreetName>
+				<cbc:AdditionalStreetName>Haardtring 100</cbc:AdditionalStreetName>
+				<cbc:CityName>Darmstadt</cbc:CityName>
+				<cbc:PostalZone>64295</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hochschule Fresenius</cbc:StreetName>
+				<cbc:AdditionalStreetName>Limburger Straße 2</cbc:AdditionalStreetName>
+				<cbc:CityName>Idstein</cbc:CityName>
+				<cbc:PostalZone>65510</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hochschule Fulda</cbc:StreetName>
+				<cbc:AdditionalStreetName>Leipziger Str. 123</cbc:AdditionalStreetName>
+				<cbc:CityName>Fulda</cbc:CityName>
+				<cbc:PostalZone>36037</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hochschule für Musik und Darstellende Kunst</cbc:StreetName>
+				<cbc:AdditionalStreetName>Eschersheimer Landstraße 29-39</cbc:AdditionalStreetName>
+				<cbc:CityName>Frankfurt am Main</cbc:CityName>
+				<cbc:PostalZone>60322</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hochschule Geisenheim</cbc:StreetName>
+				<cbc:AdditionalStreetName>Von-Lade-Straße 1</cbc:AdditionalStreetName>
+				<cbc:CityName>Geisenheim</cbc:CityName>
+				<cbc:PostalZone>65366</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Hochschule RheinMain</cbc:StreetName>
+				<cbc:AdditionalStreetName>Kurt-Schumacher-Ring 18</cbc:AdditionalStreetName>
+				<cbc:CityName>Wiesbaden</cbc:CityName>
+				<cbc:PostalZone>65197</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Klinikum der Goethe Universität Frankfurt/Main</cbc:StreetName>
+				<cbc:AdditionalStreetName>Theodor-Stern-Kai 7</cbc:AdditionalStreetName>
+				<cbc:CityName>Frankfurt am Main</cbc:CityName>
+				<cbc:PostalZone>60590</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Phillips Universität Marburg</cbc:StreetName>
+				<cbc:AdditionalStreetName>Hans-Meerwein-Straße 6</cbc:AdditionalStreetName>
+				<cbc:CityName>Marburg</cbc:CityName>
+				<cbc:PostalZone>35032</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Philosophisch-Theologische Hochschule Sankt Georgen</cbc:StreetName>
+				<cbc:AdditionalStreetName>Offenbacher Landstraße 224</cbc:AdditionalStreetName>
+				<cbc:CityName>Frankfurt am Main</cbc:CityName>
+				<cbc:PostalZone>60599</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Technische Hochschule Mittelhessen</cbc:StreetName>
+				<cbc:AdditionalStreetName>Wiesenstraße 14</cbc:AdditionalStreetName>
+				<cbc:CityName>Gießen</cbc:CityName>
+				<cbc:PostalZone>35390</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Technische Universität Darmstadt</cbc:StreetName>
+				<cbc:AdditionalStreetName>Karolinenplatz 5</cbc:AdditionalStreetName>
+				<cbc:CityName>Darmstadt</cbc:CityName>
+				<cbc:PostalZone>64289</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:StreetName>Universität Kassel</cbc:StreetName>
+				<cbc:AdditionalStreetName>Mönchebergstraße 5</cbc:AdditionalStreetName>
+				<cbc:CityName>Kassel</cbc:CityName>
+				<cbc:PostalZone>34125</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+			<cbc:EndDate>2027-09-30+02:00</cbc:EndDate>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+			<cac:Renewal>
+				<cac:Period>
+					<cbc:Description languageID="DEU">Es ist eine einmalige Verlängerung um 1 Jahr möglich.</cbc:Description>
+				</cac:Period>
+			</cac:Renewal>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Bitte fügen Sie dem Angebot bei:
+- Erklärung mit Angabe des jährlichen Gesamtumsatzes, der in den letzten 3 Geschäftsjahren erzielt wurde (sofern nicht bereits in anderen vorgelegten Dokumenten eingearbeitet).</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Bitte fügen Sie dem Angebot bei:
+- Kurzdarstellung des Unternehmens
+- Bestätigung, dass sich der Bieter nicht in Konkurs, Liquidation, Einstellung der Geschäftstätigkeit, Zwangsvergleich, Vergleich oder in einer ähnlichen Lage befindet (Enthalten in Eigenerklärung zur Eignung).
+- Bescheinigung in Steuersachen des zuständigen Finanzamtes,
+- Handelsregisterauszug (Kopie)</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Bitte fügen Sie dem Angebot bei:
+- Zu den Referenzen beachten Sie bitte den separaten Fragebogen zu den Referenzen und fügen diesen dem Angebot bei!</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXS0YDKY17M7QG6Q/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Es gelten die Zahlungsbedingungen nach § 17 VOL/B.</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Der Auftraggeber fordert fehlende Unterlagen eines Teilnahmewettbewerbs oder Angebots nach der Maßgabe des § 56 VgV nach. Leistungsbezogene Unterlagen, die die Wirtschaftlichkeitsbewertung der Angebote anhand der Zuschlagskriterien betreffen, dürfen nicht nachgefordert werden, § 56 Abs. 3 VgV findet Anwendung.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Eigenerklärung zur Eignung (Formular 930) (mit dem Angebot mittels Eigenerklärung vorzulegen): über Formular 930 - 124_LD_Eigenerklaerung_zur_Eignung_Liefer-u_Dienstleistungen
+- Erklärung HVTG (Formular 931) (mit dem Angebot mittels Eigenerklärung vorzulegen): Erklärung zur Einhaltung der Tariftreue nach dem Hessischen Vergabe- und Tariftreuegesetz (HVTG), Formular "931 - Verpflichtungserklaerung_Tariftreue_2021-07-28.pdf
+- Erklärung zum Runderlass (Formular 934) (mit dem Angebot mittels Eigenerklärung vorzulegen): Erklärung zum Runderlass "Ausschluss wegen schwerer Verfehlungen, s. Erlass in Dokument 922 - ..., Erklärung über Formular "934 - Vergabesperren Eigenerklärung 1577 Stand 2021-01-06"
+</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">SPSS2024-Zuschlagskriterien_Campuslizenzen</cbc:Name>
+						<cbc:Description languageID="DEU">SPSS2024-Zuschlagskriterien_Campuslizenzen</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0021</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXS0YDKY17M7QG6Q</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0024</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">25</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Gemäß § 160 Abs. 3 GWB ist ein Antrag unzulässig, soweit
+1. der Antragsteller den geltend gemachten Verstoß gegen
+Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und
+gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn
+Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt
+unberührt,
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung
+erkennbar sind, nicht spätestens bis zum Ablauf der in der
+Bekanntmachung benannten Frist zur Bewerbung oder zur
+Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen
+erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung
+oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers,
+einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0022</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0023</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+				<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXS0YDKY17M7QG6Q</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-08-22+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-08-14+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-08-22+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">1</cbc:ID>
+			<cbc:Name languageID="DEU">SPSS Landeslizenzvertrag (Hessen) 2024 - LOS 1 (Campuslizenzen)</cbc:Name>
+			<cbc:Description languageID="DEU">Es werden SPSS-Lizenzen für einen Campusvertrag für 5 große Hochschulen angeschafft sowie 1.178 Lizenzen für kleinere Hochschulen nach einem Volumenlizenzmodell.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders geeignet für:selbst#</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschulrechenzentrum der JLU Gießen, Herr Heiko Müller</cbc:StreetName>
+					<cbc:AdditionalStreetName>Heinrich-Buff-Ring 44</cbc:AdditionalStreetName>
+					<cbc:CityName>Gießen</cbc:CityName>
+					<cbc:PostalZone>35392</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>DIPLOMA Hochschule</cbc:StreetName>
+					<cbc:AdditionalStreetName>Herminestraße 17</cbc:AdditionalStreetName>
+					<cbc:CityName>Bad Bückeburg</cbc:CityName>
+					<cbc:PostalZone>31675</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE928</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>European Business School</cbc:StreetName>
+					<cbc:AdditionalStreetName>Gustav-Stresemann-Ring  3</cbc:AdditionalStreetName>
+					<cbc:CityName>Wiesbaden</cbc:CityName>
+					<cbc:PostalZone>65189</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Evangelische Hochschule Darmstadt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Zweifalltor 12</cbc:AdditionalStreetName>
+					<cbc:CityName>Darmstadt</cbc:CityName>
+					<cbc:PostalZone>64293</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Frankfurt School of Finance &amp; Management gGmbH</cbc:StreetName>
+					<cbc:AdditionalStreetName>Adickesallee 32-34</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60322</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Frankfurt University</cbc:StreetName>
+					<cbc:AdditionalStreetName>Nibelungenplatz 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60318</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Goethe Universität Frankfurt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Grüneburgplatz 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60323</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hessische Hochschule für öffentliches Management und Sicherheit</cbc:StreetName>
+					<cbc:AdditionalStreetName>Schönbergstraße 100</cbc:AdditionalStreetName>
+					<cbc:CityName>Wiesbaden</cbc:CityName>
+					<cbc:PostalZone>65199</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Darmstadt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Haardtring 100</cbc:AdditionalStreetName>
+					<cbc:CityName>Darmstadt</cbc:CityName>
+					<cbc:PostalZone>64295</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Fresenius</cbc:StreetName>
+					<cbc:AdditionalStreetName>Limburger Straße 2</cbc:AdditionalStreetName>
+					<cbc:CityName>Idstein</cbc:CityName>
+					<cbc:PostalZone>65510</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Fulda</cbc:StreetName>
+					<cbc:AdditionalStreetName>Leipziger Str. 123</cbc:AdditionalStreetName>
+					<cbc:CityName>Fulda</cbc:CityName>
+					<cbc:PostalZone>36037</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule für Musik und Darstellende Kunst</cbc:StreetName>
+					<cbc:AdditionalStreetName>Eschersheimer Landstraße 29-39</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60322</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Geisenheim</cbc:StreetName>
+					<cbc:AdditionalStreetName>Von-Lade-Straße 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Geisenheim</cbc:CityName>
+					<cbc:PostalZone>65366</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule RheinMain</cbc:StreetName>
+					<cbc:AdditionalStreetName>Kurt-Schumacher-Ring 18</cbc:AdditionalStreetName>
+					<cbc:CityName>Wiesbaden</cbc:CityName>
+					<cbc:PostalZone>65197</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Klinikum der Goethe Universität Frankfurt/Main</cbc:StreetName>
+					<cbc:AdditionalStreetName>Theodor-Stern-Kai 7</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60590</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Phillips Universität Marburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Hans-Meerwein-Straße 6</cbc:AdditionalStreetName>
+					<cbc:CityName>Marburg</cbc:CityName>
+					<cbc:PostalZone>35032</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Philosophisch-Theologische Hochschule Sankt Georgen</cbc:StreetName>
+					<cbc:AdditionalStreetName>Offenbacher Landstraße 224</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60599</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Technische Hochschule Mittelhessen</cbc:StreetName>
+					<cbc:AdditionalStreetName>Wiesenstraße 14</cbc:AdditionalStreetName>
+					<cbc:CityName>Gießen</cbc:CityName>
+					<cbc:PostalZone>35390</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Technische Universität Darmstadt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Karolinenplatz 5</cbc:AdditionalStreetName>
+					<cbc:CityName>Darmstadt</cbc:CityName>
+					<cbc:PostalZone>64289</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Universität Kassel</cbc:StreetName>
+					<cbc:AdditionalStreetName>Mönchebergstraße 5</cbc:AdditionalStreetName>
+					<cbc:CityName>Kassel</cbc:CityName>
+					<cbc:PostalZone>34125</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2027-09-30+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Es ist eine einmalige Verlängerung um 1 Jahr möglich.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Wirtschaftliche und finanzielle Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Bitte fügen Sie dem Angebot bei:
+- Erklärung mit Angabe des jährlichen Gesamtumsatzes, der in den letzten 3 Geschäftsjahren erzielt wurde (sofern nicht bereits in anderen vorgelegten Dokumenten eingearbeitet).</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Eignung zur Berufsausübung</cbc:Name>
+								<cbc:Description languageID="DEU">Bitte fügen Sie dem Angebot bei:
+- Kurzdarstellung des Unternehmens
+- Bestätigung, dass sich der Bieter nicht in Konkurs, Liquidation, Einstellung der Geschäftstätigkeit, Zwangsvergleich, Vergleich oder in einer ähnlichen Lage befindet (Enthalten in Eigenerklärung zur Eignung).
+- Bescheinigung in Steuersachen des zuständigen Finanzamtes,
+- Handelsregisterauszug (Kopie)</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Name languageID="DEU">Technische und berufliche Leistungsfähigkeit</cbc:Name>
+								<cbc:Description languageID="DEU">Bitte fügen Sie dem Angebot bei:
+- Zu den Referenzen beachten Sie bitte den separaten Fragebogen zu den Referenzen und fügen diesen dem Angebot bei!</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.dtvp.de/Satellite/notice/CXS0YDKY17M7QG6Q/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:PaymentTerms>
+				<cbc:Note languageID="DEU">Es gelten die Zahlungsbedingungen nach § 17 VOL/B.</cbc:Note>
+			</cac:PaymentTerms>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Der Auftraggeber fordert fehlende Unterlagen eines Teilnahmewettbewerbs oder Angebots nach der Maßgabe des § 56 VgV nach. Leistungsbezogene Unterlagen, die die Wirtschaftlichkeitsbewertung der Angebote anhand der Zuschlagskriterien betreffen, dürfen nicht nachgefordert werden, § 56 Abs. 3 VgV findet Anwendung.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Einzureichende Unterlagen:
+    - Eigenerklärung zur Eignung (Formular 930) (mit dem Angebot mittels Eigenerklärung vorzulegen): über Formular 930 - 124_LD_Eigenerklaerung_zur_Eignung_Liefer-u_Dienstleistungen
+- Erklärung HVTG (Formular 931) (mit dem Angebot mittels Eigenerklärung vorzulegen): Erklärung zur Einhaltung der Tariftreue nach dem Hessischen Vergabe- und Tariftreuegesetz (HVTG), Formular "931 - Verpflichtungserklaerung_Tariftreue_2021-07-28.pdf
+- Erklärung zum Runderlass (Formular 934) (mit dem Angebot mittels Eigenerklärung vorzulegen): Erklärung zum Runderlass "Ausschluss wegen schwerer Verfehlungen, s. Erlass in Dokument 922 - ..., Erklärung über Formular "934 - Vergabesperren Eigenerklärung 1577 Stand 2021-01-06"
+</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">SPSS2024-Zuschlagskriterien_Volumenlizenzen</cbc:Name>
+						<cbc:Description languageID="DEU">SPSS2024-Zuschlagskriterien_Volumenlizenzen</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0021</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.dtvp.de/Satellite/notice/CXS0YDKY17M7QG6Q</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0024</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="DAY">25</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Gemäß § 160 Abs. 3 GWB ist ein Antrag unzulässig, soweit
+1. der Antragsteller den geltend gemachten Verstoß gegen
+Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und
+gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn
+Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt
+unberührt,
+2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung
+erkennbar sind, nicht spätestens bis zum Ablauf der in der
+Bekanntmachung benannten Frist zur Bewerbung oder zur
+Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen
+erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung
+oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,
+4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers,
+einer Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0022</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0023</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:LotDistribution>
+				<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+				<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+			</cac:LotDistribution>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://www.dtvp.de/Satellite/notice/CXS0YDKY17M7QG6Q</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-08-22+02:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-08-14+02:00</cbc:EndDate>
+				<cbc:EndTime>23:59:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-08-22+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>12:00:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">2</cbc:ID>
+			<cbc:Name languageID="DEU">SPSS Landeslizenzvertrag (Hessen) 2024 - LOS 2 (Volumenlizenzen)</cbc:Name>
+			<cbc:Description languageID="DEU">Es werden SPSS-Lizenzen für einen Campusvertrag für 5 große Hochschulen angeschafft sowie 1.178 Lizenzen für kleinere Hochschulen nach einem Volumenlizenzmodell.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders geeignet für:selbst#</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschulrechenzentrum der JLU Gießen, Herr Heiko Müller</cbc:StreetName>
+					<cbc:AdditionalStreetName>Heinrich-Buff-Ring 44</cbc:AdditionalStreetName>
+					<cbc:CityName>Gießen</cbc:CityName>
+					<cbc:PostalZone>35392</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>DIPLOMA Hochschule</cbc:StreetName>
+					<cbc:AdditionalStreetName>Herminestraße 17</cbc:AdditionalStreetName>
+					<cbc:CityName>Bad Bückeburg</cbc:CityName>
+					<cbc:PostalZone>31675</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE928</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>European Business School</cbc:StreetName>
+					<cbc:AdditionalStreetName>Gustav-Stresemann-Ring  3</cbc:AdditionalStreetName>
+					<cbc:CityName>Wiesbaden</cbc:CityName>
+					<cbc:PostalZone>65189</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Evangelische Hochschule Darmstadt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Zweifalltor 12</cbc:AdditionalStreetName>
+					<cbc:CityName>Darmstadt</cbc:CityName>
+					<cbc:PostalZone>64293</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Frankfurt School of Finance &amp; Management gGmbH</cbc:StreetName>
+					<cbc:AdditionalStreetName>Adickesallee 32-34</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60322</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Frankfurt University</cbc:StreetName>
+					<cbc:AdditionalStreetName>Nibelungenplatz 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60318</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Goethe Universität Frankfurt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Grüneburgplatz 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60323</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hessische Hochschule für öffentliches Management und Sicherheit</cbc:StreetName>
+					<cbc:AdditionalStreetName>Schönbergstraße 100</cbc:AdditionalStreetName>
+					<cbc:CityName>Wiesbaden</cbc:CityName>
+					<cbc:PostalZone>65199</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Darmstadt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Haardtring 100</cbc:AdditionalStreetName>
+					<cbc:CityName>Darmstadt</cbc:CityName>
+					<cbc:PostalZone>64295</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Fresenius</cbc:StreetName>
+					<cbc:AdditionalStreetName>Limburger Straße 2</cbc:AdditionalStreetName>
+					<cbc:CityName>Idstein</cbc:CityName>
+					<cbc:PostalZone>65510</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Fulda</cbc:StreetName>
+					<cbc:AdditionalStreetName>Leipziger Str. 123</cbc:AdditionalStreetName>
+					<cbc:CityName>Fulda</cbc:CityName>
+					<cbc:PostalZone>36037</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule für Musik und Darstellende Kunst</cbc:StreetName>
+					<cbc:AdditionalStreetName>Eschersheimer Landstraße 29-39</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60322</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule Geisenheim</cbc:StreetName>
+					<cbc:AdditionalStreetName>Von-Lade-Straße 1</cbc:AdditionalStreetName>
+					<cbc:CityName>Geisenheim</cbc:CityName>
+					<cbc:PostalZone>65366</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Hochschule RheinMain</cbc:StreetName>
+					<cbc:AdditionalStreetName>Kurt-Schumacher-Ring 18</cbc:AdditionalStreetName>
+					<cbc:CityName>Wiesbaden</cbc:CityName>
+					<cbc:PostalZone>65197</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Klinikum der Goethe Universität Frankfurt/Main</cbc:StreetName>
+					<cbc:AdditionalStreetName>Theodor-Stern-Kai 7</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60590</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Phillips Universität Marburg</cbc:StreetName>
+					<cbc:AdditionalStreetName>Hans-Meerwein-Straße 6</cbc:AdditionalStreetName>
+					<cbc:CityName>Marburg</cbc:CityName>
+					<cbc:PostalZone>35032</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Philosophisch-Theologische Hochschule Sankt Georgen</cbc:StreetName>
+					<cbc:AdditionalStreetName>Offenbacher Landstraße 224</cbc:AdditionalStreetName>
+					<cbc:CityName>Frankfurt am Main</cbc:CityName>
+					<cbc:PostalZone>60599</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Technische Hochschule Mittelhessen</cbc:StreetName>
+					<cbc:AdditionalStreetName>Wiesenstraße 14</cbc:AdditionalStreetName>
+					<cbc:CityName>Gießen</cbc:CityName>
+					<cbc:PostalZone>35390</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Technische Universität Darmstadt</cbc:StreetName>
+					<cbc:AdditionalStreetName>Karolinenplatz 5</cbc:AdditionalStreetName>
+					<cbc:CityName>Darmstadt</cbc:CityName>
+					<cbc:PostalZone>64289</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:StreetName>Universität Kassel</cbc:StreetName>
+					<cbc:AdditionalStreetName>Mönchebergstraße 5</cbc:AdditionalStreetName>
+					<cbc:CityName>Kassel</cbc:CityName>
+					<cbc:PostalZone>34125</cbc:PostalZone>
+					<cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+				<cbc:EndDate>2027-09-30+02:00</cbc:EndDate>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Es ist eine einmalige Verlängerung um 1 Jahr möglich.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

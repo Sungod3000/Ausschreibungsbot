@@ -1,0 +1,2827 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:Changes>
+                  <efbc:ChangedNoticeIdentifier>77664f1b-3d6b-4f4a-9e3e-a774c8b0cbf5-01</efbc:ChangedNoticeIdentifier>
+                  <efac:Change>
+                     <efac:ChangedSection>
+                        <efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
+                     </efac:ChangedSection>
+                  </efac:Change>
+                  <efac:ChangeReason>
+                     <cbc:ReasonCode listName="change-corrig-justification">update-add</cbc:ReasonCode>
+                     <efbc:ReasonDescription languageID="DEU">Anpassung der Beschreibung hinsichtlich der Ausschlussgründe unter den Bedingungen für die Einreichung eines Angebots.</efbc:ReasonDescription>
+                  </efac:ChangeReason>
+               </efac:Changes>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.evergabe-online.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Regensburger Str. 104</cbc:StreetName>
+                           <cbc:CityName>Nürnberg</cbc:CityName>
+                           <cbc:PostalZone>90478</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE254</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811458858</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 911-179-5722</cbc:Telephone>
+                           <cbc:Telefax>+49 911-179-908811</cbc:Telefax>
+                           <cbc:ElectronicMail>Service-Haus.Einkauf-Infrastruktur@arbeitsagentur.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundeskartellamt, Vergabekammern des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Villemomblerstr. 76</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53123</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>---</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 228 9499-0</cbc:Telephone>
+                           <cbc:Telefax>+49 228-9499-163</cbc:Telefax>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.Bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.evergabe-online.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Regensburger Str. 104</cbc:StreetName>
+                           <cbc:CityName>Nürnberg</cbc:CityName>
+                           <cbc:PostalZone>90478</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE254</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811458858</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 911-179-5722</cbc:Telephone>
+                           <cbc:Telefax>+49 911-179-908811</cbc:Telefax>
+                           <cbc:ElectronicMail>Service-Haus.Einkauf-Infrastruktur@arbeitsagentur.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00465130-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">150/2024</efbc:GazetteID><efbc:PublicationDate>2024-08-02+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">621cad61-dff4-4b5e-93ee-9ba2996940f2</cbc:ID>
+   <cbc:ContractFolderID>ab745126-5b93-40fa-bb1f-9e30d239a1ab</cbc:ContractFolderID>
+   <cbc:IssueDate>2024-07-31+02:00</cbc:IssueDate>
+   <cbc:IssueTime>16:21:27+02:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2024-07-31+02:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">soc-pro</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7006</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Vordrucke D.7 und D.8 (Erklärung zwingende und fakultative Ausschlussgründe): Eigenerklärungen des Bieters/des bevollmächtigten Mitglieds der Bietergemeinschaft (BG) zum Nichtvorliegen von Ausschlussgründen gemäß §§ 123, 124 GWB im Zusammenhang mit einer strafrechtlichen Verur-teilung, Zahlung von Steuern oder Sozialversicherungsbeiträgen, sozial- und arbeitsrechtlichen Verpflichtungen, Insolvenz, anderen schweren beruflichen Verfehlungen, wettbewerbsverzerrenden Verhaltensweisen, Interessenkonflikt aus Beratungstätigkeiten, Auskünften und Informationen. Bei Bildung von Bieter- bzw. Bewerbergemeinschaften ist hinsichtlich des Nichtvorliegens von zwingenden bzw. fakultativen Ausschlussgründen (§§ 123, 124 GWB) auf alle Teilnehmer der Bieter- bzw. Bewerbergemeinschaft abzustellen. Bei Bildung von Bewerber- bzw. Bietergemeinschaften müssen die Erklärungen für alle Teilnehmer der Bewerber- bzw. Bietergemeinschaft abgegeben werden. Sollte bei einem Teilnehmer oder mehreren Teilnehmern der Bewerber- bzw. Bietergemeinschaft ein einschlägiger Ausschlusstatbestand vorliegen, ist dessen Name bzw. sind deren Namen auf der gesondert beizufügenden Anlage zu vermerken und zu erläutern, warum dennoch eine Teilnahme an dem gegenständlichen Vergabeverfahren möglich sein soll.
+Vordruck D.6 (Erklärung Eignungsleihe) und Vordruck D.2 (Erklärung Unterauftrag): Angabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer. Bestätigung, dass im Hinblick auf die angegebenen Unterneh-men keine Ausschlusstatbestände im Sinne der in den Vordrucken D.7 und D.8 angegebenen Tatbestände vorliegen bzw. dass die Vergabestelle entsprechend informiert wird, wenn derartige Ausschlussgründe vorliegen und die entsprechenden Nachweise (z.B. Verpflichtungserklärungen) beigefügt sind oder spätestens nach entsprechender Aufforderung vor Zuschlagserteilung eingereicht werden.
+Vordruck D.0 (Angebotsschreiben): Bei Aufträgen ab einer Höhe von 30.000 € ohne Mwst. fordert die Vergabestelle für den Bieter/jedes Mitglied einer BG, der/die den Zuschlag erhalten soll, vor Zuschlagserteilung eine Auskunft aus dem Wettbewerbsregister nach § 6 des Wettbewerbsregister-gesetzes (WRegG) an. Dafür sind mit dem Vordruck D.0 die benötigten Angaben zu übermitteln.
+Vordruck Eigenerklärung Russland (Erklärung bzgl. Art. 5k der Verordnung (EU) Nr. 2022/576):Es ist gemäß Artikel 5k der Verordnung (EU) 2022/576 verboten, öffentliche Aufträge oder Konzessionen an folgende Personen, Organisationen oder Einrichtungen zu vergeben bzw. Verträge mit solchen Personen, Organisationen oder Einrichtungen weiterhin zu erfüllen: a) russische Staatsangehörige oder in Russland niedergelassene natürliche oder juristische Personen, Organisationen oder Einrichtungen, b) juristische Personen, Organisationen oder Einrichtungen, deren Anteile zu über 50 % unmittelbar oder mittelbar von einer der unter Buchstabe a genannten Organisationen
+gehalten werden, oder c) natürliche oder juristische Personen, Organisationen oder Einrichtungen, die im Namen oder auf Anweisung einer der unter Buchstabe a oder b genannten Organisationen handeln, auch solche, auf die mehr als 10 % des Auftragswerts entfällt, Unterauftragnehmer, Lieferanten oder Unternehmen, deren Kapazitäten im Sinne der Richtlinien über die öffentliche Auftragsvergabe in Anspruch genommen werden.</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:LotDistribution>
+         <cbc:MaximumLotsAwardedNumeric>12</cbc:MaximumLotsAwardedNumeric>
+         <cbc:MaximumLotsSubmittedNumeric>12</cbc:MaximumLotsSubmittedNumeric>
+      </cac:LotDistribution>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>13-24-00177</cbc:ID>
+      <cbc:Name languageID="DEU">Winterdienst RIM Kiel</cbc:Name>
+      <cbc:Description languageID="DEU">Winterdienst RIM Kiel</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CountrySubentityCode listName="nuts">DEF02</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Heide</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE938</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Itzehoe</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF0E</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Lütjenburg</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF0A</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Rendsburg</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF0B</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Region Neumünster</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF04</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Flendsburg</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF01</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Region Kiel</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF02</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Lübeck</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF03</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Timmendorfer Strand</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF08</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Bad Oldesloe</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF0F</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Elmshorn</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DEF09</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hamburg</cbc:CityName>
+            <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0001</cbc:ID>
+         <cbc:Name languageID="DEU">Heide</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+LOS 1:  Agentur für Arbeit Heide, Rungholtstr. 1, 25746 Heide
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE938</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0002</cbc:ID>
+         <cbc:Name languageID="DEU">Itzehoe</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+LOS 2:  Geschäftsstelle Itzehoe, Fehrsstraße 19, 25524 Itzehoe
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF0E</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0003</cbc:ID>
+         <cbc:Name languageID="DEU">Lütjenburg</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 3:  Geschäftsstelle Lütjenburg, Auf dem Kamp 41-43, 24321 Lütjenburg
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF0A</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0004</cbc:ID>
+         <cbc:Name languageID="DEU">Rendsburg</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 4: 1. Geschäftsstelle Rendsburg, Am Gerhardsdamm 4, 24768 Rendsburg
+            2. Geschäftsstelle Eckernförde, Riesebyer Str. 6, 24340 Eckernförde
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF0B</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0005</cbc:ID>
+         <cbc:Name languageID="DEU">Region Neumünster</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 5: 1. Agentur für Arbeit Neumünster, Wittorfer Str. 22-26, 24534 Neumünster
+            2. Service Center Neumünster, Wittorfer Str. 39, 24534 Neumünster
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF04</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0006</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0006</cbc:ID>
+         <cbc:Name languageID="DEU">Flensburg</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 6: Agentur für Arbeit Flensburg, Waldstr. 2, 24939 Flensburg
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF01</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0007</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0007</cbc:ID>
+         <cbc:Name languageID="DEU">Region Kiel</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 7: 1.  Agentur für Arbeit Kiel, Adolf-Westphal-Str. 2, 24143 Kiel
+            2. Regionaldirektion Nord, Projensdorfer Str. 82, 24106 Kiel
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF02</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0008</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0008</cbc:ID>
+         <cbc:Name languageID="DEU">Lübeck</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 8:  Agentur für Arbeit Lübeck, Hans-Böckler-Str. 1, 23560 Lübeck
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF03</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0009</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0009</cbc:ID>
+         <cbc:Name languageID="DEU">Timmendorfer Strand</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 9:  Bildungs- und Tagungsstätte Timmendorfer Strand, Rodenbergstr. 34, 23669
+             Timmendorfer Strand
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF08</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0010</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0010</cbc:ID>
+         <cbc:Name languageID="DEU">Bad Oldesloe</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 10: 1. AA Bad Oldesloe, Haus A, Berliner Ring 8-10, 23843 Bad Oldesloe
+              2. AA Bad Oldesloe, Haus B, Berliner Ring 8-10, 23843 Bad Oldesloe
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF0F</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0011</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0011</cbc:ID>
+         <cbc:Name languageID="DEU">Hamburg</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 11: 1. AA Hamburg, Kurt-Schumacher-Allee 16, 20097 Hamburg
+              2. AA Hamburg, Norderstr. 103, 20097 Hamburg
+              3. AA Hamburg, GSt. Altona, Kieler Str. 39, 22767 Hamburg
+              4. AA Hamburg, GSt. Bergedorf, Johann-Meyer-Str. 55, 21031 Hamburg
+              5. JBA Harburg, Neue Str. 50, 21073 Hamburg
+
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DEF09</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0012</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">entfällt</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Abschluss einer ausreichenden Berufshaftpflicht;
+nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).
+
+Mindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Vorhandensein ausreichender Berufserfahrung;
+nachgewiesen durch Vorlage einer geeigneten Referenz in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Eigenerklärung und Nachweis zur Eignung mittels einer
+Referenz (Vordruck D.9);
+
+Leistungsart /-gegenstand: Winterdienst
+
+Leistungszeitraum /-dauer: zwei aufeinander folgende Wintersaisons (1 Saison: Oktober - März)
+
+Die Referenz über vergleichbare Leistungen muss innerhalb der letzten drei Jahre vor dem Tag der Angebotsaufforderung erbracht worden sein.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cbc:LanguageID>DEU</cbc:LanguageID>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=699014</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Die Nachforderung von Unterlagen erfolgt gemäß § 56 VgV.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Ein Antrag auf Nachprüfung ist innerhalb von 15 Kalendertagen nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, schriftlich bei der zuvor genannten Vergabekammer zu stellen (§ 160 Abs. 3 Nr. 4 GWB)</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7005</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cbc:AccessToolsURI>http://www.evergabe-online.de</cbc:AccessToolsURI>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2024-08-05+02:00</cbc:EndDate>
+            <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2024-08-05+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0012</cbc:ID>
+         <cbc:Name languageID="DEU">Elmshorn</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel der Vergabe ist der Abschluss eines Vertrages über Winterdienst für folgende durch den RIM Kiel betreute Liegenschaften:
+
+
+LOS 12: 1. AA Elmshorn, Bauerweg 23, 25335 Elmshorn
+              2. AA Elmshorn, GSt. Norderstedt, Rathausallee 92, 22846 Norderstedt
+
+Die Leistung wird in 12 Losen vergeben. 
+
+Es können im Verlauf des Vertrages Liegenschaften/ Liegenschaftsteile hinzukommen oder wegfallen.
+Der Preis für neue Liegenschaften wird zwischen Auftraggeber (AG) und Auftragnehmer (AN) einvernehmlich mindestes in Textform vereinbart. Basis bilden dabei die Konditionen einer im Umfang der Leistungen und Lage vergleichbaren Liegenschaft.
+Das Vertragsverhältnis kommt mit Zuschlag zustande und endet, ohne dass es einer Kündigung bedarf am 30.04.2028. Die Leistungserbringung beginnt am 01.10.2024. Es wird eine Kündigungsoption für beide Parteien zum 31.07.2026 (Hälfte der Laufzeit) mit einer Frist von 8 Monaten vereinbart.
+
+Der vertraglich vereinbarte Winterdienst ist so auszuführen, dass der Verkehrssicherungspflicht entsprochen wird und dass von den Flächen keine Gefahr für Gesundheit und Leben der Nutzer ausgeht.
+Der (AN) muss sowohl personell als auch technisch in der Lage sein die Leistung auftragsgerecht zu erbringen.
+Die Winterdienstperiode umfasst grundsätzlich den Zeitraum vom 1.Oktober bis 31. März jeden Jahres (witterungsbedingt erforderliche Winterdiensteinsätze außerhalb dieses Zeitraums sind nicht ausgeschlossen).
+
+Durch den AN insbesondere zu erbringenden Leistungen für öffentliche -und Nutzerflächen:
+- Räumdienst zur Beseitigung von Schnee- und Eisglätte auf allen begeh- und 
+   befahrbaren Flächen (insbesondere Gehwege, Straßen, Parkplatzflächen,
+   Garagenzufahrten und -rampen, Eingänge, Außentreppen, Zugänge zu Hydranten)
+- Räumung der Rollstuhlrampen
+- Sichern der Gebäudeumgebung vor Dachlawinen und herunterfallenden Eiszapfen
+- Bereitstellung von Streumitteln/ Streugut, sofern dies bei einzelnen Liegenschaften
+  gewünscht wird und entsprechende Lagemöglichkeiten vorhanden sind.
+   Diesbezügliche Absprachen erfolgen im Einzelnen mit dem zuständigen RIM.
+- Ausbringen von erlaubtem Streugut gemäß der jeweils geltenden Ortssatzung
+   (bspw. Sand, Asche oder Splitt)
+- Komplettes Entfernen/ fachgerechte Entsorgung des Streugutes (mind. 2x je
+   Wintersaison)
+- Kontrollfahrten zur Prüfung der Einsatznotwendigkeit
+- Touren- und Einsatzplanung sowie Einsatznachweise
+- Endreinigung Ende Monat April (inkl. Ablaufsysteme, Gullys)
+
+Objektbesichtigung
+Es ist erforderlich vor Erstellung und Abgabe des Angebotes die Örtlichkeiten der Leistungserbringung zu besichtigen. Die Objektbesichtigungen bilden die Grundlage für die Kalkulation des Bieters und sind daher zwingend.
+Mit dem Angebotsschreiben D.0 bestätigt der Bieter, die Objektbesichtigung durchgeführt zu haben. Spätere Einreden, aufgrund örtlicher Besonderheiten, sind nicht zulässig.
+
+Nähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und dem Leistungsverzeichnis.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">90620000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CountrySubentityCode listName="nuts">DE600</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2024-10-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2028-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

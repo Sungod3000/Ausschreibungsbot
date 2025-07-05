@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                     <efbc:AcquiringCPBIndicator>true</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">PSITA eG - Public Sector IT Alliance eG</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Mainzer Straße 29</cbc:StreetName>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65185</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>GnR-ID 419</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">ekom21 - KGRZ Hessen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Kassel</cbc:CityName>
+                           <cbc:PostalZone>34134</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>06-EKOM21KGRZ0001-43</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Vergabestelle</cbc:Name>
+                           <cbc:Telephone>+49 561 204 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.ekom21.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">ekom21 - KGRZ Hessen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Kassel</cbc:CityName>
+                           <cbc:PostalZone>34134</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>06-EKOM21KGRZ0001-43</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Landes Hessen beim Regierungspräsidium Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Wilhelminenstraße 1-3</cbc:StreetName>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64295</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:06151126603</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 6151125816</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabekammer@rpda.hessen</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Johann Wolfgang Goethe - Universität, Frankfurt am Main</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Frankfurt am Main</cbc:CityName>
+                           <cbc:PostalZone>60629</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 114 110 511</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Frankfurt University of Applied Sciences</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Frankfurt am Main</cbc:CityName>
+                           <cbc:PostalZone>60318</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE712</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 114110370</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8003</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Technische Hochschule Mittelhessen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Gießen</cbc:CityName>
+                           <cbc:PostalZone>35390</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 813885934</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Hochschule RheinMain</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Wiesbaden</cbc:CityName>
+                           <cbc:PostalZone>65187</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811490955</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8005</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">h_da / EUT+ hochschule Darmstadt - University of Applied Sciences</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64295</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE811763762</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8006</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Hochschule Fulda</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Fulda</cbc:CityName>
+                           <cbc:PostalZone>36037</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE732</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 166 496 730</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8007</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Philipps-Universität Marburg</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Marburg</cbc:CityName>
+                           <cbc:PostalZone>35037</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE724</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 112590692</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8008</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Universität Kassel</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Kassel</cbc:CityName>
+                           <cbc:PostalZone>34125</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE731</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 113057055</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8009</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Justus-Liebig-Universität Gießen</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Gießen</cbc:CityName>
+                           <cbc:PostalZone>35394</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE721</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 112591322</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8010</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Technische Universität Darmstadt</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Darmstadt</cbc:CityName>
+                           <cbc:PostalZone>64289</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE711</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 111 608 628</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-8011</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Hochschule Geisenheim University (HGU)</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Geisenheim</cbc:CityName>
+                           <cbc:PostalZone>65366</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DE71D</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>DE 113823585</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 641 9830 0</cbc:Telephone>
+                           <cbc:ElectronicMail>vergabestelle@ekom21.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-8012</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00154432-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">48/2025</efbc:GazetteID><efbc:PublicationDate>2025-03-10+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">59e46e7e-6c92-411f-aae6-df22bea854d3</cbc:ID>
+   <cbc:ContractFolderID>7c17ec0d-cf6b-44eb-bc5a-eff3624c0f14</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-03-06+01:00</cbc:IssueDate>
+   <cbc:IssueTime>17:10:10+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-03-06+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://www.ekom21.de</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-8012</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8001</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8002</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8003</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8004</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8005</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8006</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8007</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8008</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8009</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8010</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-8011</cbc:ID>
+         </cac:PartyIdentification>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>CrossBorderLaw</cbc:ID>
+         <cbc:DocumentDescription languageID="DEU">Es gilt das Recht des Landes Hessen.</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
+         <cbc:ProcessReason languageID="DEU">Es liegt eine hinreichend begründete Dringlichkeit gemäß § 15 Abs. 3 VgV vor. Ein beschleunigtes Verfahren ist zwingend notwendig.</cbc:ProcessReason>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>ekom21-2025-0004</cbc:ID>
+      <cbc:Name languageID="DEU">Beschaffung von Softwarelizenzen aus dem Microsoft-Volumenlizenzprogramm</cbc:Name>
+      <cbc:Description languageID="DEU">Ziel dieser Ausschreibung ist der Abschluss eines Handelspartner-
+Rahmenvertrages für den Bezug von Softwarelizenzen aus dem Microsoft-
+Volumenlizenzprogramm.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">1. Fragen im Rahmen des Vergabeverfahrens können längstens bis zum 18.03.2025, 10.00 Uhr, gestellt werden.
+2. Alle in der Bekanntmachung oder in der Vergabeunterlage geforderten Unterlagen (Nachweise, Erklärungen und sonstige Dokumente) müssen — soweit bei dem betreffenden Nachweis nicht ausdrücklich anders angegeben — fristgerecht und in der vorgegebenen Form — z. B. unter Verwendung der Erfassungsformulare — mit dem Angebot eingereicht werden.
+3. Der Bieter hat die Eigenerklärung zum Artikel 5k der EU-Verordnung 833/2014 (Datei "Erklärung Art. 5k EU Verordnung 833-2014") ausgefüllt mit seinem Angebot einzureichen.
+4. Zusätzlich zu den in der Vergabebekanntmachung getroffenen Vorgaben gelten die für dieses Vergabeverfahren aufgestellten Bewerbungsbedingungen, die Teil der elektronisch bereitgestellten Vergabeunterlagen sind.
+5. Die weiteren Erfüllungsorte liegen am Sitz und am Standort der Bezugsberechtigten gem. dieser Bekanntmachung.
+6. Näheres ist den Vergabeunterlagen zu entnehmen.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Wiesbaden</cbc:CityName>
+            <cbc:PostalZone>65185</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Erklärung des Unternehmens, zur Befähigung und Erlaubnis zur Berufsausübung nach § 44 VgV [Eigenerklärung Befähigung und Erlaubnis zur Berufsausübung]. Nachweis der Eintragung im Berufs- oder Handelsregister, ggf. eidesstattliche Erklärung oder vergleichbare Bescheinigung einer Behörde des Mitgliedsstaates, in dem der Bewerber ansässig ist (Vorlage Kopie). Gewerbean- und ggf. - ummeldung, wenn keine Eintragungspflicht im Handels- bzw. Berufsregister besteht (Vorlage Kopie).</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">1. Eigenerklärung zum Unternehmen mit aussagekräftiger Darstellung des Unternehmens insbesondere im Hinblick auf den ausgeschriebenen Auftrag (Kenndaten und Kennzahlen, aktuelle Geschäftsbereiche, Tätigkeitsfelder und Marktpositionierung etc.) [Eigenerklärung zum Unternehmen].
+2. Erklärung des Unternehmens, dass für den Fall des Zuschlags eine Berufs- oder Betriebshaftpflichtversicherung mit den aufgestellten Mindeststandards für die Dauer der Vertragslaufzeit abgeschlossen wird bzw. - falls bereits vorhanden - eine solche besteht und für die Dauer der Auftragsausführung aufrechterhalten wird [Eigenerklärung zur Berufs- oder Betriebshaftpflichtversicherung].
+3. Erklärung über den Gesamtumsatz des Unternehmens sowie den Umsatz im Tätigkeitsbereich des ausgeschriebenen Auftrags, jeweils bezogen auf die letzten drei Geschäftsjahre [Eigenerklärung zum Umsatz].
+Zu den geforderten Nachweisen werden für alle geforderten Erklärungen Erfassungsformulare zur Verfügung gestellt, die unter Beachtung der Ausfüllhinweise zu verwenden sind.
+
+Mindestanforderungen:
+Zu: 3.:
+Der Umsatz muss in jedem Geschäftsjahr mindestens 500.000,00 EUR netto betragen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">1. Eigenerklärung aus der die durchschnittliche jährliche Anzahl der fest angestellten Beschäftigten des Unternehmens in den letzten drei Jahren ersichtlich ist [Eigenerklärung zur Personenkennzahlen].
+2. Erklärung zu geeigneten Referenzleistungen über früher ausgeführte Liefer- und Dienstleistungen die mit Bezug auf die ausgeschriebenen Leistungen Aufschluss über die technische und berufliche Leistungsfähigkeit geben [Eigenerklärung zu geeigneten Referenzen] mit. Zu jeder Referenz müssen mindestens folgende Angaben gemacht werden: — Kurzbezeichnung der Referenz, — vollständiger Name einschließlich Postadresse und Kontaktdaten des Auftraggebers (=Referenzauftraggeber), — Auftragswert, — öffentlicher oder privater Auftraggeber, — Leistungszeitraum (Liefer- bzw. Erbringungszeitpunkt), — termingerechter Projektabschluss, — Beschreibung des Leistungsanteils des Ausführenden am Referenzprojekt in Prozent, — Stellung des Ausführenden im Referenzprojekt (Alleinunternehmer, Generalunternehmer, Ressourcengeber, Mitglied einer Bietergemeinschaft, — Anzahl der für den Bewerber im Rahmen des Projektes tätigen Personen. Aus der Beschreibung der Referenz muss klar erkennbar sein, welche Leistungen der Bewerber, was Mitglied einer Bewerbergemeinschaft oder ein Dritter, auf dessen technische und berufliche Leistungsfähigkeit abgestellt wird, selbst durchgeführt hat. Die bloße untergeordnete Mitwirkung bzw. die Überwachung eines Referenzprojekts sind hierbei nicht ausreichend. Die vorzulegenden Referenzen müssen eindeutig demjenigen Unternehmen als Auftragnehmer/Durchführungsverantwortlichen zugeordnet werden können, der sie zum Nachweis seiner technischen und beruflichen Leistungsfähigkeit mit dem Angebot vorlegt. Die Einreichung einer Bescheinigung des Referenzauftraggebers ist nicht erforderlich. Der Auftraggeber behält sich aber die Überprüfung der gemachten Angaben bei Referenzauftraggebern sowie eigene Ermittlungen vor, deren Ergebnisse Berücksichtigung im Rahmen der Eignungsprüfung berücksichtigt werden. Zu den geforderten Nachweisen werden für alle geforderten Erklärungen Erfassungsformulare zur Verfügung gestellt, die unter Beachtung der Ausfüllhinweise zu verwenden sind. Geforderte Eignungsnachweise (gem. §§ 122 ff. GWB, §§ 42 ff. VgV), die in Form anerkannter Präqualifikationsnachweise (u. a. HPQR) vorliegen, werden zugelassen und anerkannt, wenn die Präqualifikationsnachweise in Form und Inhalt den geforderten Eignungsnachweisen entsprechen.
+3. Eigenerklärung über die geplant einzusetzenden Nachunternehmer unter Angabe deren Leistungsumfangs und Aufgaben. Beabsichtigt der Bewerber eine Eignungsleihe, sind diese Nachunternehmer zwingend zu nennen, unter Angabe der übernommenen Eignungskriterien und ggf. Vorlage entsprechender Nachweise. Zusätzlich ist eine Verpflichtungserklärung des Eignungsverleihers vorzulegen, mit der bestätigt wird, dass dieser die für die Eignungsleihe relevanten Leistungen im Auftragsfall leisten wird [Eigenerklärung über den Einsatz von Nachunternehmern].
+4. Nachweis von Zertifizierungen und Spezialisierungen.
+
+Mindestanforderungen:
+Zu 1.:
+Der Ansprechpartner muss folgende Zertifizierungen besitzen: MS-900 Microsoft 365 Fundamentals, AZ-900 Azure Fundamentals und AI-900 Azure AI Fundamentals.
+
+Zu 2.:
+Zum Nachweis der technischen und beruflichen Leistungsfähigkeit sind mindestens drei (3) geeigneten Referenzen aus den letzten drei Jahren, die nach Art und Umfang jeweils den nachfolgend aufgeführten Anforderungen entsprechen. Art: Lieferung von Microsoft-Softwareprodukten aus einem zwischen dem Leibniz-Rechenzentrum und Microsoft abgeschlossenen Campus- und School Subscription-Rahmenvertrag, wobei bereits mindestens sechs Monate, der zwischen Bieter und Referenzgeber vereinbarten Vertragslaufzeit, unter Leistungserbringung des Auftragnehmers, verstrichen sind Umfang: mindestens 1 000 Lizenzen.
+
+Zu 4.:
+Der Anbieter muss die Autorisierung als Licensing Solutions Partner in der EU/EFTA nachweisen. Nachweis über Azure Expert Managed Services Provider (MSP).
+Mitglied Microsoft Intelligent Security Association (MISA). Mitglieder können auf exklusive Ressourcen, Schulungen und Unterstützung von Microsoft zugreifen. Das ermöglicht, bessere Sicherheitslösungen und Dienstleistungen für Kunden bereitzustellen. Auftragnehmer muss Microsoft Solutions Provider sein (Infrastructure (Azure), Digital &amp; App Innovation (Azure), Data &amp; AI (Azure), Modern Work, Security,
+Business Applications).
+Microsoft FastTrack Programm. Microsoft positioniert das FastTrack Programm als Nachfolger der Microsoft Software Assurance Benefits. Ausschließlich autorisierte Microsoft Fasttrack Ready Approved Partner können für Kunden zusätzlichen Support und die Ressourcen, um einen reibungslosen Übergang der Kunden zu Cloud-Diensten zu ermöglichen, kostenfrei bereitstellen. Diese zusätzlichen Ressourcen umfassen z.B. Planungsstrategien, Onboarding-Support und Hilfestellung zur Erhöhung der Benutzerakzeptanz (Adoption und Change Management). Der zukünftige Auftragnehmer sollte daher als Microsoft Fasttrack Ready Approved Partner aus Deutschland autorisiert sein und somit über das Fasttrack-Programm finanzierte Leistungen für den Kunden kostenfrei erbringen können. Dies ist nachzuweisen.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&amp;TenderOID=54321-Tender-1956a9af7d8-16bd95d97d01ced9</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">Siehe Vergabeunterlagen.</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7003</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://www.had.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7002</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Hinsichtlich der Fristen zur Einlegung von Rechtsbehelfen wird auf § 160 Abs. 3 des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) verwiesen. § 160 Einleitung, Antrag (1) Die Vergabekammer leitet ein Nachprüfungsverfahren nur auf Antrag ein. (2) Antragsbefugt ist jedes Unternehmen, das ein Interesse an dem öffentlichen Auftrag oder der Konzession hat und eine Verletzung in seinen Rechten nach § 97 Absatz 6 durch Nichtbeachtung von Vergabevorschriften geltend macht.
+Dabei ist darzulegen, dass dem Unternehmen durch die behauptete Verletzung der Vergabevorschriften ein Schaden entstanden ist oder zu entstehen droht. 
+(3) Der Antrag ist unzulässig, soweit: 
+1) der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 
+2) Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 
+3) Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 
+4) mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-03-26+01:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+01:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>0</cbc:MaximumOperatorQuantity>
+            <cbc:Justification languageID="DEU">Die Laufzeit der Rahmenvereinbarung ist an der Laufzeit der zwischen LRZ und Microsoft abgeschlossene Campus- und School Subscription-Rahmenvereinbarung angeglichen.</cbc:Justification>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Beschaffung von Softwarelizenzen aus dem Microsoft-Volumenlizenzprogramm</cbc:Name>
+         <cbc:Description languageID="DEU">Ziel dieses Vergabeverfahrens ist der Abschluss eines Handelspartner-Rahmenvertrages für den Bezug von Softwarelizenzen aus dem Microsoft-Volumenlizenzprogramm.
+Die Produktpalette wird in eine Hauptleistung:
+Bezug von "Education-Plattformprodukten":
+-Microsoft - Artikelnummer: AAA-73004, Artikelname: M365 A3 Orig Edu (FAC)
+-Microsoft - Artikelnummer: AAD-38391, Artikelname: M365 A3 Unified Edu (FAC)
+-Microsoft - Artikelnummer: AAA-72992, Artikelname: M365 A5 Orig Edu (FAC)
+-Microsoft - Artikelnummer: AAD-38400, Artikelname: M365 A5 Unified Edu (FAC)
+-Microsoft - Artikelnummer: AAA-73003, Artikelname: M365 A5 Original Edu SU M365 A3 Sub Per User (FAC)
+-Microsoft - Artikelnummer: AAD-38401, Artikelname: M365 A5 Unified Edu SU M365 A3 Sub Per User (FAC)
+-Microsoft - Artikelnummer: AAA-72992, Artikelname: M365 A5 Orig Edu (ACP)
+-Microsoft - Artikelnummer: AAD-38400, Artikelname: M365 A5 Unified Edu (ACP)
+-Microsoft - Artikelnummer: AAA-73003, Artikelname: M365 A5 Original Edu SU M365 A3 Sub Per User (ACP)
+-Microsoft - Artikelnummer: AAD-38401, Artikelname: M365 A5 Unified Edu SU M365 A3 Sub Per User (ACP)
+
+und eine Nebenleistung (mit einem Wert von maximal 20% des Gesamtbetrags der Hauptleistung):
+Bezug von zusätzlichen Produkten, aus der unter dem Beitritt des Auftraggebers für Bildungslösungen, lizenzierten Microsoft-Produktpalette, ausgenommen die in der Hauptleistung enthaltenen Produkte unterteilt. Die Produkte der Hauptleistung wird der Auftraggeber im gesamten Vertragszeitraum ausschließlich über den Auftragnehmer beziehen (Exklusivbezug). Bezüglich der Produkte aus der Nebenleistung ist der Auftraggeber nicht zu einem exklusiven Bezug über den Auftragnehmer verpflichtet. Es besteht insofern kein Anspruch des Auftragnehmers auf eine bestimmte Abnahmemenge insgesamt bzw. die Abnahme bestimmter Produkte aus der Nebenleistung.
+
+Grundlage für dieses Vergabeverfahren und den daraus entstehenden Handelspartner-Rahmenvertrag bilden:
+1. Der zwischen dem Leibniz-Rechenzentrum (LRZ) und Microsoft abgeschlossene Campus- und School Subscription-Rahmenvertrag (Die Vertragsnummer wird dem Auftragnehmer nach Bekanntgabe durch Microsoft mitgeteilt),
+2. Die zwischen dem LRZ und Microsoft geschlossene Zusatzvereinbarung zum vorgenannten Rahmenvertrag,
+3. Der Beitrittsvertrag (EES, Beitritt für Bildungslösungen) in der zum Zeitpunkt dieser Ausschreibung gültigen Version,
+4. Die Zutrittsvereinbarung des Auftraggebers zu den oben genannten Verträgen.
+Die Kenntnis der oben genannten Vertragsgrundlagen beim Auftragnehmer - als zertifizierter Lizenzpartner/ Reseller (LSP) der Firma Microsoft - wird vorausgesetzt.
+
+Bezugsmenge: Die Auftraggeber schätzen über die Vertragslaufzeit die Auftragsmenge auf 165.000 A3-Lizenzen und/oder auf 205.000 A5-Lizenzen. Die Höchstmenge ist auf 200.000 A3-Lizenzen und/oder 250.000 A5-Lizenzen festgesetzt.
+
+Eine Zurverfügungstellung eines dedizierten Ansprechpartners für die Betreuung der Auftraggeber im Außenvertrieb (Rolle: Account Manager, Key Account Manager; Kundenbetreuer) wird erwartet. Dieser Ansprechpartner ist erste Anlaufstelle für Fragen zu Produkten, Verträgen, Nutzungsrechte und steht mit seinen Leistungen remote und vor Ort zur Verfügung. Die Beratung muss kostenfrei (im Lizenzpreis inkludiert) mindestens remote erfolgen. Der Auftragnehmer muss proaktiv bei Produkt-, Lizenz-, Preisänderungen seitens des Lizenzgebers unterstützen. Um diese Aufgaben qualitativ hochwertig durchführen zu können sind Erfahrung und Zertifizierungen nötig und nachzuweisen.
+Dieser Ansprechpartner steht den Auftraggebern im Außenvertrieb für Koordinierung von Angeboten und Preisauskünften, für die Beantwortung von Fragen zur Lizenzierung und zu Verträgen zur Verfügung.
+
+Da der Hersteller Microsoft die Software Assurance Benefits  24/7 Problem Resolution abgekündigt hat, wird als optionale Leistung ein separater technischer Support benötigt. Der Auftragnehmer verpflichtet sich, einen erweiterten technischen Support bereitzustellen, der vom Auftraggeber im Bedarfsfall kostenpflichtig in Anspruch genommen werden kann.
+Der technische Support soll für reaktive Supportleistungen durch den Auftragnehmer (2nd Level) und für reaktive Supportleistungen durch den Hersteller Microsoft (3rd Level) zur Verfügung stehen. Eskalationen an den Hersteller sollen in Abstimmung mit dem Auftraggeber erfolgen.
+Der Auftraggeber geht davon aus, dass eine Grundgebühr pro Jahr und Servicestunden je für 2nd und 3rd Level als Kontingent beauftragt werden können. Nicht für reaktiven technischen Support genutzte Servicestunden müssen für weitere Leistungen genutzt werden können, damit die Investition nicht ungenutzt bleibt.
+Anforderungen:
+-Bereitstellung eines deutschsprachigen 2nd Level technischer Support für den Hersteller Microsoft
+-Bereitstellung eines deutschsprachigen 3rd Level technischer Support für den Hersteller Microsoft
+-Bestehender Premier Support Vertrags zwischen Microsoft und Auftragnehmer
+-Bereitstellung eines deutschsprachigen telefonischen technische Support an Arbeitstagen in der Zeit von 8-17 Uhr
+-telefonisch Eröffnung von Problemtickets</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Wiesbaden</cbc:CityName>
+               <cbc:PostalZone>65185</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DE714</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:StartDate>2025-05-01+02:00</cbc:StartDate>
+            <cbc:EndDate>2030-04-30+02:00</cbc:EndDate>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cac:Renewal>
+               <cac:Period>
+                  <cbc:Description languageID="DEU">Die Rahmenvereinbarung enthält Regelungen,
+— die Angaben zu Art, Umfang und Voraussetzungen möglicher Auftragsänderungen enthalten, insbesondere einem einseitigen Erweiterungsrecht als Mehrbedarf bis zu 20 % des geschäftzten Auftragswert,
+
+Näheres ist den Vergabeunterlagen zu entnehmen.</cbc:Description>
+               </cac:Period>
+            </cac:Renewal>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>
