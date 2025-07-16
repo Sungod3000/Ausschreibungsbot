@@ -61,12 +61,14 @@ def ted_search(
         total_pages = min(total_pages, max_pages + page - 1)
     
     while current_page <= total_pages:
-        # Build request payload – use caller-provided fields, fallback to safe minimal defaults
+        # Build request payload
         payload = {
             "query": query,
-            "fields": fields if fields else ["publication-date"],
             "page": current_page,
-            "limit": limit
+            "limit": limit,
+            # Always include at least one valid field - 'notice-type' is a safe choice
+            # The API requires the fields parameter to be present and not empty
+            "fields": fields if fields else ["notice-type"]
         }
         
         try:

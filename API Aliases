@@ -1,0 +1,27 @@
+| #  | Advanced-search label (UI wording)              | **API alias** (use *exactly* this in `query`) | Allowed value examples / hints               |
+| -- | ----------------------------------------------- | --------------------------------------------- | -------------------------------------------- |
+| 1  | **Full text / Keywords**                        | **`FT`**                                      | phrases, wildcards: `FT~("school building")` |
+| 2  | **Notice publication no.**                      | `publication-number` (`ND`)                   | `"12345678-2025"`                            |
+| 3  | **OJ S issue (Nr/Year)**                        | `gazette-issue-id`                            | `180-2025`                                   |
+| 4  | **Place of performance** (country / NUTS / ZIP) | **`RC`**                                      | `"DE"` · `"DE71"` · `"34117"`                |
+| 5  | **Buyer country**                               | `buyer-country` (`CY`)                        | `"DE"`                                       |
+| 6  | **Buyer name**                                  | `buyer-name` (`AU`)                           | `"Stadt Kassel"`                             |
+| 7  | **Authority main activity**                     | `authority-main-activity`                     | `education` · `housing`                      |
+| 8  | **CPV main code**                               | `classification-cpv` (`PC`)                   | `"45214200"`                                 |
+| 9  | **CPV additional (lot)**                        | `classification-cpv-lot`                      | `"71320000"`                                 |
+| 10 | **Contract nature**                             | **`NC`**                                      | `works` \| `supplies` \| `services`          |
+| 11 | **Procedure type**                              | `procedure-type` (`PR`)                       | `OPEN` / `RESTRICTED` …                      |
+| 12 | **Notice type / Form type**                     | `notice-type` (`form-type`)                   | `cn-standard` / `can-standard` …             |
+| 13 | **Legal basis**                                 | `legal-basis-notice`                          | `"2014/24/EU"`                               |
+| 14 | **Publication date**                            | `publication-date` (`PD`)                     | `>=20250101`                                 |
+| 15 | **Tender deadline**                             | `deadline-receipt-tender-date-lot`            | `<=20251231`                                 |
+| 16 | **Estimated value (lot)**                       | `estimated-value-lot`                         | `>=1000000`                                  |
+| 17 | **Estimated value currency**                    | `estimated-value-cur-lot`                     | `"EUR"`                                      |
+| 18 | **Framework agreement flag**                    | `framework-agreement-lot`                     | `true` / `false`                             |
+| 19 | **EU-funded project**                           | `eu-fund-lot`                                 | `true`                                       |
+| 20 | **Environmental criteria**                      | `environmental-impact-lot`                    | `true`                                       |
+| 21 | **Innovation / BIM flag**                       | `innovative-acquisition-lot`                  | `true`                                       |
+| 22 | **Award criterion type**                        | `award-criterion-type-lot`                    | `priceOnly` / `qualityOnly`                  |
+| 23 | **Lots present?**                               | `lot-included-proc`                           | `>0` (procedures with lots)                  |
+| 24 | **Framework – number of lots**                  | `lots-max-allowed-proc`                       | `<10`                                        |
+| 25 | **Form subtype** (eForms)                       | `notice-subtype`                              | `cn-desg`, `pin-only`, …                     |
