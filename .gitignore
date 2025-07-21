@@ -4,6 +4,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Download folder contents (keep folder structure, exclude files)
+downloads/*/
+!downloads/.gitkeep
+
 # Example data folders
 Bsp.Ausschreibungen/
 search_*/
