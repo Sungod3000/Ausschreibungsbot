@@ -245,75 +245,97 @@ SEARCH_FIELD_ALIASES = {
 }
 
 def build_expert_query(
-    region_code: str = None,
-    cpv: str = None,
-    cpv_lot: str = None,
+    full_text: str = None,
     notice_type: str = None,
-    procedure_type: str = None,
+    cpv: str = None,
+    place_of_performance: str = None,
     contract_type: str = None,
-    legal_basis: str = None,
-    pub_date_from: str = None,
-    pub_date_to: str = None,
-    deadline_to: str = None,
-    buyer_name: str = None,
-    buyer_country: str = None,
-    authority_activity: str = None,
-    lot_no: str = None,
-    pub_number: str = None,
-    gazette_id: str = None,
     value_min: int = None,
     value_max: int = None,
-    full_text: str = None,
+    pub_date_from: str = None,
+    pub_date_to: str = None,
+    deadline_from: str = None,
+    deadline_to: str = None,
+    buyer_name: str = None,
+    buyer_town: str = None,
+    buyer_country: str = None,
+    buyer_type: str = None,
+    authority_activity: str = None,
 ) -> str:
+    """Build TED API expert query from simplified parameters."""
     parts: List[str] = []
-    if full_text:
-        parts.append(f"FT~(\"{full_text}\")")
-    if region_code and region_code.strip():
-        parts.append(f"RC=\"{region_code}\"")
-    if cpv:
-        parts.append(f"PC=\"{cpv}\"")
-    if cpv_lot:
-        parts.append(f"classification-cpv-lot=\"{cpv_lot}\"")
+    
+    # 1. Free text search
+    if full_text and full_text.strip():
+        parts.append(f'FT~("{full_text.strip()}")')
+    
+    # 2. Notice type (business opportunities)
     if notice_type:
-        parts.append(f"notice-type=\"{notice_type}\"")
-    if procedure_type:
-        parts.append(f"PR=\"{procedure_type}\"")
+        parts.append(f'NT="{notice_type}"')
+    
+    # 3. CPV code (business section)
+    if cpv and cpv.strip():
+        parts.append(f'PC="{cpv.strip()}"')
+    
+    # 4. Place of performance (where the work will be done)
+    if place_of_performance and place_of_performance.strip():
+        parts.append(f'RC="{place_of_performance.strip()}"')
+    
+    # 5. Contract type (nature of contract)
     if contract_type:
-        parts.append(f"NC=\"{contract_type}\"")
-    if legal_basis:
-        parts.append(f"legal-basis-notice=\"{legal_basis}\"")
+        parts.append(f'NC="{contract_type}"')
     
-    # Add a default query if no parts are added
-    if not parts:
-        parts.append("PD>="+datetime.now().strftime("%Y%m%d"))
+    # 5. Procurement value
+    if value_min is not None and value_max is not None:
+        parts.append(f'VR=[{value_min} TO {value_max}]')
+    elif value_min is not None:
+        parts.append(f'VR>={value_min}')
+    elif value_max is not None:
+        parts.append(f'VR<={value_max}')
+    
+    # 6. Publication date
     if pub_date_from and pub_date_to:
-        parts.append(f"PD=[{pub_date_from} TO {pub_date_to}]")
+        # Use separate >= and <= operators instead of TO syntax
+        parts.append(f'PD>={pub_date_from}')
+        parts.append(f'PD<={pub_date_to}')
     elif pub_date_from:
-        parts.append(f"PD>={pub_date_from}")
+        parts.append(f'PD>={pub_date_from}')
     elif pub_date_to:
-        parts.append(f"PD<={pub_date_to}")
-    if deadline_to:
-        parts.append(f"deadline-receipt-tender-date-lot<={deadline_to}")
-    if buyer_name:
-        parts.append(f"AU=\"{buyer_name}\"")
-    if buyer_country:
-        parts.append(f"CY=\"{buyer_country}\"")
-    if authority_activity:
-        parts.append(f"authority-main-activity=\"{authority_activity}\"")
-    if lot_no:
-        parts.append(f"lot-included-proc=\"{lot_no}\"")
-    if pub_number:
-        parts.append(f"ND=\"{pub_number}\"")
-    if gazette_id:
-        parts.append(f"gazette-issue-id=\"{gazette_id}\"")
-    # if value_min is not None and value_max is not None:
-    #     parts.append(f"VR=[{value_min} TO {value_max}]")
-    # elif value_min is not None:
-    #     parts.append(f"VR>={value_min}")
-    # elif value_max is not None:
-    #     parts.append(f"VR<={value_max}")
+        parts.append(f'PD<={pub_date_to}')
     
-    return " AND ".join(parts)
+    # 7. Deadline
+    if deadline_from and deadline_to:
+        # Use separate >= and <= operators instead of TO syntax
+        parts.append(f'DD>={deadline_from}')
+        parts.append(f'DD<={deadline_to}')
+    elif deadline_from:
+        parts.append(f'DD>={deadline_from}')
+    elif deadline_to:
+        parts.append(f'DD<={deadline_to}')
+    
+    # 8. Buyer information
+    if buyer_name and buyer_name.strip():
+        parts.append(f'AU~("{buyer_name.strip()}")')
+    
+    if buyer_town and buyer_town.strip():
+        parts.append(f'buyer-town~("{buyer_town.strip()}")')
+    
+    if buyer_country:
+        parts.append(f'CY="{buyer_country}"')  # Use CY for country
+    
+    if buyer_type:
+        parts.append(f'buyer-type="{buyer_type}"')
+    
+    if authority_activity:
+        parts.append(f'authority-main-activity="{authority_activity}"')
+    
+    # If no conditions specified, return empty query (this shouldn't happen with default dates)
+    if not parts:
+        # This should not happen since we have default publication dates
+        print("WARNING - No search criteria specified, this should not happen!")
+        return ""
+    
+    return ' AND '.join(parts)
 
 def create_info_tooltip(field_info):
     """Create tooltip text for a field"""
@@ -377,46 +399,329 @@ def download_button(object_to_download, download_filename, button_text):
     
     return dl_link
 
-def check_result_count(query: str) -> Optional[int]:
-    """Fetch all results and count them."""
+def get_total_count_from_api(query: str) -> Optional[int]:
+    """Get the true total count from TED API without fetching all results."""
     try:
-        # Show a loading message
-        with st.spinner('Suche läuft... Ergebnisse werden gezählt...'):
-            # Call TED API to get all results and count them
-            # Use a reasonable limit per page
-            limit_per_page = 100
-            max_pages = 10  # Limit to 10 pages (1000 results) for performance
-            
-            # Call ted_search function to get all results
-            print(f"DEBUG - Fetching results for query: {query}")
-            
-            # Store the results in session state for later use
+        # Make a single API call with minimal data to get totalNotices
+        payload = {
+            "query": query,
+            "page": 1,
+            "limit": 1,  # Minimal limit to get count
+            "fields": ["notice-type"]  # Minimal field set
+        }
+        
+        print(f"DEBUG - Getting total count for query: {query}")
+        print(f"DEBUG - Payload: {json.dumps(payload, indent=2)}")
+        
+        response = requests.post(
+            f"{BASE_URL}/v3/notices/search",
+            json=payload,
+            timeout=30
+        )
+        
+        print(f"DEBUG - Response status: {response.status_code}")
+        
+        response.raise_for_status()
+        data = response.json()
+        
+        # Get total count from API response
+        total_count = data.get("totalNotices")
+        print(f"DEBUG - API returned totalNotices: {total_count}")
+
+        # Fallback: if API did not supply totalNotices, return None so caller can decide
+        return total_count
+    except Exception as e:
+        print(f"DEBUG - Error getting total count: {str(e)}")
+        return None
+
+def create_download_folder_name(query: str, download_types: list) -> str:
+    """Create a folder name based on search parameters."""
+    import re
+    from datetime import datetime
+    
+    # Extract key search terms from query
+    folder_parts = []
+    
+    # Add timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    folder_parts.append(timestamp)
+    
+    # Extract key terms from query
+    if "RC=" in query:
+        rc_match = re.search(r'RC="([^"]+)"', query)
+        if rc_match:
+            folder_parts.append(f"RC_{rc_match.group(1)}")
+    
+    if "PD>=" in query:
+        pd_match = re.search(r'PD>=([0-9]+)', query)
+        if pd_match:
+            folder_parts.append(f"from_{pd_match.group(1)}")
+    
+    if "PD<=" in query:
+        pd_match = re.search(r'PD<=([0-9]+)', query)
+        if pd_match:
+            folder_parts.append(f"to_{pd_match.group(1)}")
+    
+    if "NT=" in query:
+        nt_match = re.search(r'NT="([^"]+)"', query)
+        if nt_match:
+            folder_parts.append(f"NT_{nt_match.group(1)}")
+    
+    # Add download types
+    if download_types:
+        folder_parts.append("_".join(download_types))
+    
+    # Join with underscores and limit length
+    folder_name = "_".join(folder_parts)
+    # Replace invalid characters
+    folder_name = re.sub(r'[<>:"/\\|?*]', '_', folder_name)
+    # Limit length
+    if len(folder_name) > 100:
+        folder_name = folder_name[:100]
+    
+    return folder_name
+
+def fetch_results():
+    """Fetch and download all results in selected formats."""
+    import os
+    import requests
+    from urllib.parse import urlparse
+    
+    print("DEBUG - fetch_results() called!")
+    st.info("Download gestartet...")
+    
+    try:
+        print("DEBUG - Step 1: Checking session state...")
+    
+        if not st.session_state.get('current_query'):
+            print("DEBUG - ERROR: No current_query in session state")
+            st.error("Keine Suchanfrage gefunden. Bitte führen Sie zuerst eine Suche durch.")
+            return
+        
+        print("DEBUG - Step 2: Getting parameters from session state...")
+    
+        query = st.session_state.current_query
+        download_types = st.session_state.get('current_download_types', [])
+        max_results = st.session_state.get('current_max_results', 1000)
+        
+        print(f"DEBUG - Query: {query}")
+        print(f"DEBUG - Download types: {download_types}")
+        print(f"DEBUG - Max results: {max_results}")
+        
+        print("DEBUG - Step 3: Checking download types...")
+    
+        if not download_types:
+            print("DEBUG - ERROR: No download types selected")
+            st.error("Bitte wählen Sie mindestens ein Download-Format aus.")
+            return
+        
+        print("DEBUG - Step 4: Creating download folder...")
+    
+        # Create download folder
+        folder_name = create_download_folder_name(query, download_types)
+        print(f"DEBUG - Folder name: {folder_name}")
+        
+        download_folder = os.path.join(os.getcwd(), "downloads", folder_name)
+        print(f"DEBUG - Full download path: {download_folder}")
+        
+        os.makedirs(download_folder, exist_ok=True)
+        print(f"DEBUG - Folder created successfully: {os.path.exists(download_folder)}")
+        
+        st.info(f"Download-Ordner erstellt: {download_folder}")
+        
+        print("DEBUG - Step 5: Getting results...")
+        
+        # Use prefetched results if available, otherwise fetch fresh
+        if st.session_state.prefetched_results:
+            results = st.session_state.prefetched_results[:max_results]
+            st.info(f"Verwende bereits abgerufene Ergebnisse ({len(results)} Treffer)")
+            print(f"DEBUG - Using {len(results)} prefetched results")
+        else:
+            st.info("Lade Ergebnisse vom TED API...")
+            print("DEBUG - Fetching fresh results from API")
             results = ted_search(
                 query=query,
-                fields=["notice-type"],  # Minimal field set
+                fields=["notice-type", "publication-number", "publication-date", "buyer-name", "title", "cpv-code", "buyer-country"],
                 page=1,
-                limit=limit_per_page,
-                max_pages=max_pages
-            )
+                limit=100,
+                max_pages=None
+            )[:max_results]
+        
+        if not results:
+            st.warning("Keine Ergebnisse zum Herunterladen gefunden.")
+            print("DEBUG - No results found!")
+            return
+        
+        # Debug: Show structure of first result
+        if results:
+            print(f"DEBUG - First result structure: {json.dumps(results[0], indent=2)[:500]}...")
+            first_links = results[0].get('links', {})
+            print(f"DEBUG - First result links: {json.dumps(first_links, indent=2)}")
+        
+        # Store results for display
+        st.session_state.search_results = results
+        
+        # Download files
+        progress_bar = st.progress(0)
+        status_text = st.empty()
+        
+        downloaded_count = 0
+        total_files = 0
+        
+        # Count total files to download
+        for result in results:
+            links = result.get("links", {})
+            print(f"DEBUG - Result links: {links.keys() if links else 'No links'}")
+            if "pdf" in links:
+                print(f"DEBUG - PDF languages available: {list(links['pdf'].keys())}")
+                for lang in links["pdf"]:
+                    lang_lower = lang.lower()
+                    if ("pdf_de" in download_types and lang_lower in ['deu', 'de', 'ger']) or \
+                       ("pdf_en" in download_types and lang_lower in ['eng', 'en', 'english']):
+                        total_files += 1
+                        print(f"DEBUG - Will download PDF in {lang}")
+            if "json" in links:
+                print(f"DEBUG - JSON languages available: {list(links['json'].keys())}")
+                for lang in links["json"]:
+                    lang_lower = lang.lower()
+                    if ("json_de" in download_types and lang_lower in ['deu', 'de', 'ger']) or \
+                       ("json_en" in download_types and lang_lower in ['eng', 'en', 'english']):
+                        total_files += 1
+                        print(f"DEBUG - Will download JSON in {lang}")
+        
+        st.info(f"Beginne Download von {total_files} Dateien...")
+        
+        # Download files
+        for i, result in enumerate(results):
+            pub_number = result.get("publication-number", f"notice_{i}")
+            links = result.get("links", {})
             
-            # Store results for later download
-            st.session_state.prefetched_results = results
+            # Download PDFs
+            if "pdf" in links:
+                for lang, url in links["pdf"].items():
+                    lang_lower = lang.lower()
+                    should_download = False
+                    file_suffix = ""
+                    
+                    if "pdf_de" in download_types and lang_lower in ['deu', 'de', 'ger']:
+                        should_download = True
+                        file_suffix = "_DE.pdf"
+                    elif "pdf_en" in download_types and lang_lower in ['eng', 'en', 'english']:
+                        should_download = True
+                        file_suffix = "_EN.pdf"
+                    
+                    if should_download:
+                        try:
+                            filename = f"{pub_number}{file_suffix}"
+                            filepath = os.path.join(download_folder, filename)
+                            
+                            response = requests.get(url, timeout=30)
+                            response.raise_for_status()
+                            
+                            with open(filepath, 'wb') as f:
+                                f.write(response.content)
+                            
+                            downloaded_count += 1
+                            status_text.text(f"Heruntergeladen: {filename} ({downloaded_count}/{total_files})")
+                            progress_bar.progress(downloaded_count / total_files)
+                            
+                        except Exception as e:
+                            st.warning(f"Fehler beim Herunterladen von {filename}: {str(e)}")
             
-            # Count results
-            total_results = len(results)
-            print(f"DEBUG - Found {total_results} results")
-            
-            return total_results
+            # Download JSONs (if available)
+            if "json" in links:
+                for lang, url in links["json"].items():
+                    lang_lower = lang.lower()
+                    should_download = False
+                    file_suffix = ""
+                    
+                    if "json_de" in download_types and lang_lower in ['deu', 'de', 'ger']:
+                        should_download = True
+                        file_suffix = "_DE.json"
+                    elif "json_en" in download_types and lang_lower in ['eng', 'en', 'english']:
+                        should_download = True
+                        file_suffix = "_EN.json"
+                    
+                    if should_download:
+                        try:
+                            filename = f"{pub_number}{file_suffix}"
+                            filepath = os.path.join(download_folder, filename)
+                            
+                            response = requests.get(url, timeout=30)
+                            response.raise_for_status()
+                            
+                            with open(filepath, 'wb') as f:
+                                f.write(response.content)
+                            
+                            downloaded_count += 1
+                            status_text.text(f"Heruntergeladen: {filename} ({downloaded_count}/{total_files})")
+                            progress_bar.progress(downloaded_count / total_files)
+                            
+                        except Exception as e:
+                            st.warning(f"Fehler beim Herunterladen von {filename}: {str(e)}")
+        
+        progress_bar.progress(1.0)
+        status_text.text(f"Download abgeschlossen! {downloaded_count} Dateien heruntergeladen.")
+        st.success(f"Alle Dateien wurden erfolgreich in '{download_folder}' gespeichert.")
+        
     except Exception as e:
-        error_msg = f"Fehler beim Abrufen der Ergebnisse: {str(e)}"
+        print(f"DEBUG - EXCEPTION in fetch_results: {str(e)}")
+        print(f"DEBUG - Exception type: {type(e).__name__}")
+        import traceback
+        print(f"DEBUG - Full traceback: {traceback.format_exc()}")
+        st.error(f"Fehler beim Herunterladen: {str(e)}")
+
+def check_result_count(query: str) -> Optional[int]:
+    """Get total count and optionally prefetch some results."""
+    try:
+        with st.spinner('Ergebnisse werden gezählt...'):
+            # First, get the true total count from API
+            total_count = get_total_count_from_api(query)
+            
+            if total_count is None:
+                # Fallback – API did not provide count. Fetch ALL results and count manually
+                print("DEBUG - totalNotices is None – falling back to manual counting of ALL results …")
+                results = ted_search(
+                    query=query,
+                    fields=["notice-type"],
+                    page=1,
+                    limit=100,
+                    max_pages=None  # fetch ALL pages, no limit
+                )
+                st.session_state.prefetched_results = results
+                total_count = len(results)
+                print(f"DEBUG - Fallback fetched ALL {total_count} results")
+            else:
+                print(f"DEBUG - Total count from API: {total_count}")
+            
+            # If there are results and not too many, prefetch them for faster download
+            if total_count > 0 and total_count <= 2000:  # Reasonable limit for prefetching
+                print(f"DEBUG - Prefetching ALL {total_count} results...")
+                results = ted_search(
+                    query=query,
+                    fields=["notice-type"],  # Minimal field set for prefetch
+                    page=1,
+                    limit=100,  # Reasonable page size
+                    max_pages=None  # Get ALL pages
+                )
+                st.session_state.prefetched_results = results
+                print(f"DEBUG - Prefetched ALL {len(results)} results")
+            else:
+                # Too many results to prefetch, will fetch on demand
+                st.session_state.prefetched_results = None
+                print(f"DEBUG - Too many results ({total_count}) to prefetch - will fetch on demand")
+            
+            return total_count
+    except Exception as e:
+        error_msg = f"Fehler beim Abrufen der Ergebnisanzahl: {str(e)}"
         print(f"DEBUG - Error: {error_msg}")
         st.session_state.search_error = error_msg
         return None
 
 def run_search(
-    full_text, region, cpv, cpv_lot, notice_type, procedure_type, contract_type,
-    legal_basis, pub_from, pub_to, deadline, buyer, buyer_country, authority_activity,
-    lot_no, pub_number, gazette_id, value_range, download_types, max_results
+    full_text, notice_type, cpv, place_of_performance, contract_type, value_min, value_max,
+    pub_from, pub_to, deadline_from, deadline_to, buyer_name, buyer_town, 
+    buyer_country, buyer_type, authority_activity, download_types, max_results
 ):
     """Run search with the given parameters"""
     st.session_state.search_results = None
@@ -424,49 +729,38 @@ def run_search(
     st.session_state.search_query = None
     
     try:
-        # Parse value range
-        value_min = None
-        value_max = None
-        if value_range and len(value_range) == 2:
-            value_min, value_max = value_range
+        # Convert dates to strings if provided
+        pub_from_str = pub_from.strftime("%Y%m%d") if pub_from else None
+        pub_to_str = pub_to.strftime("%Y%m%d") if pub_to else None
+        deadline_from_str = deadline_from.strftime("%Y%m%d") if deadline_from else None
+        deadline_to_str = deadline_to.strftime("%Y%m%d") if deadline_to else None
         
-        # Format dates
-        pub_date_from = pub_from.replace("-", "") if pub_from else None
-        pub_date_to = pub_to.replace("-", "") if pub_to else None
-        deadline_to = deadline.replace("-", "") if deadline else None
-        
-        # For testing, use a simple date-based query instead of country code
-        # This will help us verify if the API is working correctly
-        if region and region.strip():
-            # Use a date-based query for now to test API connectivity
-            query = "PD>=20250101"
-            print(f"DEBUG - Using test query: {query}")
-        else:
-            # Build expert query from UI inputs
-            query = build_expert_query(
-                region_code=None,  # Skip region code for now
-                cpv=cpv.strip() if cpv else None,
-                cpv_lot=cpv_lot.strip() if cpv_lot else None,
-                notice_type=notice_type or None,
-                procedure_type=procedure_type or None,
-                contract_type=contract_type or None,
-                legal_basis=legal_basis or None,
-                pub_date_from=pub_date_from,
-                pub_date_to=pub_date_to,
-                deadline_to=deadline_to,
-                buyer_name=buyer.strip() if buyer else None,
-                buyer_country=buyer_country.strip() if buyer_country else None,
-                authority_activity=authority_activity or None,
-                lot_no=lot_no.strip() if isinstance(lot_no, str) else str(lot_no) if lot_no else None,
-                pub_number=pub_number.strip() if pub_number else None,
-                gazette_id=gazette_id.strip() if gazette_id else None,
-                value_min=value_min if value_min else None,
-                value_max=value_max if value_max else None,
-                full_text=full_text.strip() if full_text else None,
-            )
+        # Build query
+        query = build_expert_query(
+            full_text=full_text,
+            notice_type=notice_type,
+            cpv=cpv,
+            place_of_performance=place_of_performance,
+            contract_type=contract_type,
+            value_min=value_min if value_min > 0 else None,
+            value_max=value_max if value_max > 0 else None,
+            pub_date_from=pub_from_str,
+            pub_date_to=pub_to_str,
+            deadline_from=deadline_from_str,
+            deadline_to=deadline_to_str,
+            buyer_name=buyer_name,
+            buyer_town=buyer_town,
+            buyer_country=buyer_country,
+            buyer_type=buyer_type,
+            authority_activity=authority_activity
+        )
         
         # Store query for display
         st.session_state.search_query = query
+        
+        # Debug: Show the constructed query
+        print(f"DEBUG - Constructed query: {query}")
+        st.info(f"Suchanfrage: {query}")
         
         # Store query in session state for later use
         st.session_state.current_query = query
@@ -475,18 +769,23 @@ def run_search(
         
         # Check result count and fetch results
         result_count = check_result_count(query)
-        if result_count is None:
-            return
-            
-        # Store result count
+        
+        # Store result count (even if None)
         st.session_state.result_count = result_count
         
-        # Show result count and download button
-        st.success(f"Es wurden {result_count} Ergebnisse gefunden.")
-        
-        # Add download button if results were found
-        if result_count > 0 and st.session_state.prefetched_results:
-            st.session_state.show_download_button = True
+        if result_count is None:
+            st.error("Fehler beim Abrufen der Ergebnisanzahl. Bitte versuchen Sie es erneut.")
+            return
+        elif result_count == 0:
+            st.info("Keine Ergebnisse gefunden.")
+            return
+        else:
+            # Show result count - download button will appear in main section below
+            st.success(f"Es wurden {result_count} Ergebnisse gefunden.")
+            
+            # Set search_results to prefetched results so the results table appears
+            if st.session_state.prefetched_results:
+                st.session_state.search_results = st.session_state.prefetched_results
         
     except Exception as e:
         error_msg = f"Fehler bei der Suche: {str(e)}"
@@ -521,12 +820,17 @@ def main():
                     download_types = st.session_state.current_download_types
                     max_results = st.session_state.current_max_results
                     
-                    # Call ted_search function
+                    print(f"DEBUG - Fetching {max_results} results for download...")
+                    # Call ted_search function with full fields for download
                     results = ted_search(
                         query=query,
-                        fields=None,  # Use default fields
-                        limit=max_results
+                        fields=None,  # Use all available fields for download
+                        limit=100,  # Reasonable page size
+                        max_pages=max_results // 100 + 1 if max_results else None
                     )
+                    # Limit to requested max_results
+                    if max_results and len(results) > max_results:
+                        results = results[:max_results]
                 
                 # Store results
                 st.session_state.search_results = results
@@ -578,206 +882,175 @@ def main():
     with st.sidebar:
         st.header("Suchparameter")
         
-        # Full text search
-        ft_info = SEARCH_FIELD_ALIASES["FT"]
+        # 1. Free text search
         full_text = st.text_input(
-            "Volltextsuche", 
-            help=create_info_tooltip(ft_info)
+            "Volltext", 
+            help="Volltextsuche in allen Feldern"
         )
         
-        # Geographic info
-        st.subheader("Geografische Informationen")
-        
-        rc_info = SEARCH_FIELD_ALIASES["RC"]
-        
-        # Create options with labels for dropdown
-        nuts_options = [""]
-        nuts_labels = {"":"Keine Auswahl"}
-        
-        if rc_info["options"]:
-            nuts_options.extend(rc_info["options"])
-            if rc_info.get("option_labels"):
-                for code, label in rc_info["option_labels"].items():
-                    nuts_labels[code] = f"{code} - {label}"
-                    
-            # Add labels for codes without explicit labels
-            for code in rc_info["options"]:
-                if code not in nuts_labels:
-                    nuts_labels[code] = code
-        
-        # Use selectbox instead of text_input
-        region = st.selectbox(
-            "Region (NUTS-Code)",
-            options=nuts_options,
-            format_func=lambda x: nuts_labels.get(x, x),
-            help=create_info_tooltip(rc_info)
-        )
-        
-        bc_info = SEARCH_FIELD_ALIASES["buyer-country"]
-        buyer_country = st.selectbox(
-            "Land des Auftraggebers",
-            options=[""] + bc_info["options"],
-            help=create_info_tooltip(bc_info)
-        )
-        
-        # CPV & Procedure
-        st.subheader("CPV & Verfahren")
-        
-        pc_info = SEARCH_FIELD_ALIASES["PC"]
-        cpv = st.text_input(
-            "CPV-Code", 
-            help=create_info_tooltip(pc_info)
-        )
-        
-        cpv_lot_info = SEARCH_FIELD_ALIASES["classification-cpv-lot"]
-        cpv_lot = st.text_input(
-            "CPV-Code für Los", 
-            help=create_info_tooltip(cpv_lot_info)
-        )
-        
-        # Notice type
-        nt_info = SEARCH_FIELD_ALIASES["NT"]
+        # 2. Business opportunities (Notice type)
+        st.subheader("Geschäftsmöglichkeiten")
         notice_type_display = {v: k for k, v in _NOTICE_TYPE_MAP.items()}
         notice_type = st.selectbox(
             "Art der Bekanntmachung",
             options=[""] + list(_NOTICE_TYPE_MAP.values()),
             format_func=lambda x: notice_type_display.get(x, x) if x else "",
-            help=create_info_tooltip(nt_info)
+            help="Wählen Sie die Art der Geschäftsmöglichkeit"
         )
         
-        # Procedure type
-        pr_info = SEARCH_FIELD_ALIASES["PR"]
-        procedure_type_display = {v: k for k, v in _PROCEDURE_TYPE_MAP.items()}
-        procedure_type = st.selectbox(
-            "Verfahrensart",
-            options=[""] + list(_PROCEDURE_TYPE_MAP.values()),
-            format_func=lambda x: procedure_type_display.get(x, x) if x else "",
-            help=create_info_tooltip(pr_info)
+        # 3. Business section (CPV)
+        st.subheader("Geschäftsbereich")
+        cpv = st.text_input(
+            "CPV-Code", 
+            help="CPV-Code (Common Procurement Vocabulary), z.B. 45000000 für Bauarbeiten"
         )
         
-        # Contract type
-        nc_info = SEARCH_FIELD_ALIASES["NC"]
+        # 4. Place of performance (where the work will be done)
+        st.subheader("Ausführungsort")
+        place_of_performance = st.text_input(
+            "Ort der Leistungserbringung",
+            help="Land (DE), NUTS-Code (DE71) oder PLZ (34117) wo die Arbeit ausgeführt wird"
+        )
+        
+        # 5. Nature of contract
+        st.subheader("Auftragsart")
         contract_type_display = {v: k for k, v in _CONTRACT_TYPE_MAP.items()}
         contract_type = st.selectbox(
             "Art des Auftrags",
             options=[""] + list(_CONTRACT_TYPE_MAP.values()),
             format_func=lambda x: contract_type_display.get(x, x) if x else "",
-            help=create_info_tooltip(nc_info)
+            help="Wählen Sie die Art des Auftrags"
         )
         
-        # Legal basis
-        lb_info = SEARCH_FIELD_ALIASES["LB"]
-        legal_basis = st.selectbox(
-            "Rechtsgrundlage",
-            options=[""] + lb_info["options"],
-            help=create_info_tooltip(lb_info)
-        )
+        # 6. Procurement value (min/max)
+        st.subheader("Auftragswert")
+        col1, col2 = st.columns(2)
+        with col1:
+            value_min = st.number_input(
+                "Mindestbetrag (EUR)",
+                min_value=0,
+                value=0,
+                step=1000,
+                help="Mindestauftragswert in Euro"
+            )
+        with col2:
+            value_max = st.number_input(
+                "Höchstbetrag (EUR)",
+                min_value=0,
+                value=0,
+                step=1000,
+                help="Höchstauftragswert in Euro (0 = unbegrenzt)"
+            )
         
-        # Dates
-        st.subheader("Termine")
+        # 7. Publication date (from/to)
+        st.subheader("Veröffentlichungsdatum")
         
-        pd_info = SEARCH_FIELD_ALIASES["PD"]
-        pub_from = st.date_input(
-            "Veröffentlichungsdatum von",
-            value=None,
-            help=create_info_tooltip(pd_info)
-        )
-        pub_from = pub_from.strftime("%Y-%m-%d") if pub_from else ""
+        # Default to one month before today until today
+        from datetime import datetime, timedelta
+        today = datetime.now().date()
+        one_month_ago = today - timedelta(days=30)
         
-        pub_to = st.date_input(
-            "Veröffentlichungsdatum bis",
-            value=None,
-            help=create_info_tooltip(pd_info)
-        )
-        pub_to = pub_to.strftime("%Y-%m-%d") if pub_to else ""
+        col1, col2 = st.columns(2)
+        with col1:
+            pub_from = st.date_input(
+                "Von",
+                value=one_month_ago,
+                help="Veröffentlichungsdatum ab"
+            )
+        with col2:
+            pub_to = st.date_input(
+                "Bis",
+                value=today,
+                help="Veröffentlichungsdatum bis"
+            )
         
-        dd_info = SEARCH_FIELD_ALIASES["DD"]
-        deadline = st.date_input(
-            "Einreichungsfrist bis",
-            value=None,
-            help=create_info_tooltip(dd_info)
-        )
-        deadline = deadline.strftime("%Y-%m-%d") if deadline else ""
+        # 8. Deadline (from/to)
+        st.subheader("Einreichungsfrist")
+        col1, col2 = st.columns(2)
+        with col1:
+            deadline_from = st.date_input(
+                "Von",
+                value=None,
+                help="Einreichungsfrist ab"
+            )
+        with col2:
+            deadline_to = st.date_input(
+                "Bis",
+                value=None,
+                help="Einreichungsfrist bis"
+            )
         
-        # Buyer info
+        # 9. Buyer information
         st.subheader("Auftraggeber")
         
-        au_info = SEARCH_FIELD_ALIASES["AU"]
-        buyer = st.text_input(
-            "Name des Auftraggebers",
-            help=create_info_tooltip(au_info)
+        buyer_name = st.text_input(
+            "Name des Auftraggebers", 
+            help="Name oder Teil des Namens des Auftraggebers"
         )
         
-        ama_info = SEARCH_FIELD_ALIASES["authority-main-activity"]
-        # Create a dictionary for display values
-        activity_options = [""] + ama_info["options"]
-        activity_format = lambda x: ama_info["option_labels"].get(x, x) if x else ""
+        buyer_town = st.text_input(
+            "Stadt des Auftraggebers", 
+            help="Stadt oder Ort des Auftraggebers"
+        )
+        
+        buyer_country = st.selectbox(
+            "Land des Auftraggebers",
+            options=["", "AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GR", "HR", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE", "SI", "SK"],
+            help="Land des Auftraggebers (ISO-Code)"
+        )
+        
+        buyer_type = st.selectbox(
+            "Art des Auftraggebers",
+            options=["", "body-public", "ministry", "national-agency", "regional-agency", "regional-authority", "local-authority", "body-governed-public-law", "eu-institution", "international-organisation", "other"],
+            help="Typ/Art des Auftraggebers"
+        )
         
         authority_activity = st.selectbox(
             "Haupttätigkeit des Auftraggebers",
-            options=activity_options,
-            format_func=activity_format,
-            help=create_info_tooltip(ama_info)
-        )
-        
-        # Lot number and publication number
-        st.subheader("Weitere Informationen")
-        
-        ln_info = SEARCH_FIELD_ALIASES["LN"]
-        lot_no = st.text_input(
-            "Losnummer",
-            help=create_info_tooltip(ln_info)
-        )
-        
-        pn_info = SEARCH_FIELD_ALIASES["PN"]
-        pub_number = st.text_input(
-            "Bekanntmachungsnummer",
-            help=create_info_tooltip(pn_info)
-        )
-        
-        gi_info = SEARCH_FIELD_ALIASES["GI"]
-        gazette_id = st.text_input(
-            "Amtsblatt-Ausgabe ID",
-            help=create_info_tooltip(gi_info)
-        )
-        
-        # Value range
-        vr_info = SEARCH_FIELD_ALIASES["VR"]
-        value_range = st.slider(
-            "Auftragswert-Bereich (EUR)",
-            min_value=0,
-            max_value=10000000,
-            value=(0, 10000000),
-            step=10000,
-            help=create_info_tooltip(vr_info)
+            options=["", "airport", "defence", "econ-aff", "education", "electricity", "env-pro", "gas-heat", "gas-oil", "gen-pub", "hc-am", "health", "port", "post", "pub-os", "rail", "rcr", "soc-pro", "solid-fuel", "urttb", "water"],
+            format_func=lambda x: {
+                "airport": "Flughafen", "defence": "Verteidigung", "econ-aff": "Wirtschaft", 
+                "education": "Bildung", "electricity": "Elektrizität", "env-pro": "Umweltschutz",
+                "gas-heat": "Gas/Wärme", "gas-oil": "Gas/Öl", "gen-pub": "Öffentliche Verwaltung",
+                "hc-am": "Wohnen/Gemeinde", "health": "Gesundheit", "port": "Hafen",
+                "post": "Post", "pub-os": "Öffentliche Sicherheit", "rail": "Eisenbahn",
+                "rcr": "Erholung/Kultur", "soc-pro": "Sozialschutz", "solid-fuel": "Feste Brennstoffe",
+                "urttb": "Stadtverkehr", "water": "Wasser"
+            }.get(x, x) if x else "",
+            help="Haupttätigkeit des Auftraggebers"
         )
         
         # Download options
         st.subheader("Download-Optionen")
         
         download_types = st.multiselect(
-            "Download-Formate",
-            options=["xml", "pdf_de", "pdf_en", "pdf_fr"],
-            default=["pdf_de"],
-            help="Wählen Sie die Formate für den Download aus"
+            "Dateiformate",
+            options=["pdf_de", "pdf_en", "json_de", "json_en"],
+            default=["pdf_de", "json_de"],
+            format_func=lambda x: {
+                "pdf_de": "PDF (Deutsch)",
+                "pdf_en": "PDF (English)", 
+                "json_de": "JSON (Deutsch)",
+                "json_en": "JSON (English)"
+            }.get(x, x),
+            help="Wählen Sie die gewünschten Dateiformate und Sprachen für den Download."
         )
         
         max_results = st.number_input(
-            "Maximale Ergebnisse",
+            "Maximale Anzahl Ergebnisse",
             min_value=1,
-            max_value=1000,
-            value=25,
-            help="Maximale Anzahl der Ergebnisse"
+            max_value=10000,
+            value=1000,
+            step=100,
+            help="Begrenzen Sie die Anzahl der heruntergeladenen Ergebnisse."
         )
         
         # Search button
-        search_button = st.button("Suche starten", type="primary", use_container_width=True)
-        
-        if search_button:
+        if st.button("Suche starten", type="primary"):
             run_search(
-                full_text, region, cpv, cpv_lot, notice_type, procedure_type, contract_type,
-                legal_basis, pub_from, pub_to, deadline, buyer, buyer_country, authority_activity,
-                lot_no, pub_number, gazette_id, value_range, download_types, max_results
+                full_text, notice_type, cpv, place_of_performance, contract_type, value_min, value_max,
+                pub_from, pub_to, deadline_from, deadline_to, buyer_name, buyer_town, 
+                buyer_country, buyer_type, authority_activity, download_types, max_results
             )
     
     # Main content area
@@ -788,20 +1061,26 @@ def main():
     if st.session_state.search_error:
         st.error(f"Fehler bei der Suche: {st.session_state.search_error}")
     
-    # Display result count and download button if available
+    # Independent download section - always show after search
+    if st.session_state.get('current_query'):
+        st.subheader("🔽 Download")
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("📥 Alle Ergebnisse herunterladen", type="primary", key="download_button"):
+                fetch_results()
+        with col2:
+            download_types = st.session_state.get('current_download_types', [])
+            if download_types:
+                st.write(f"Lädt alle Ergebnisse herunter in: {', '.join(download_types)}")
+            else:
+                st.write("Lädt alle gefundenen Ergebnisse in den ausgewählten Formaten herunter.")
+    
+    # Separate results info section
     if "result_count" in st.session_state and st.session_state.result_count is not None:
         result_count = st.session_state.result_count
-        
-        # Show download button if we have prefetched results
-        if result_count > 0 and st.session_state.prefetched_results:
-            st.subheader(f"Gefundene Ergebnisse: {result_count}")
-            
-            col1, col2 = st.columns(2)
-            with col1:
-                if st.button(f"Alle {result_count} Ergebnisse herunterladen", type="primary", key="download_button"):
-                    fetch_results()
-            with col2:
-                st.write("Hinweis: Die Ergebnisse wurden bereits abgerufen und können jetzt heruntergeladen werden.")
+        if result_count > 0:
+            st.info(f"Gefundene Ergebnisse: {result_count}")
         elif result_count == 0:
             st.info("Keine Ergebnisse gefunden.")
         else:
@@ -827,14 +1106,36 @@ def main():
                     "Land": notice.get("buyer-country", "")
                 }
                 
-                # Add links if available
+                # Add links if available - only for requested formats/languages
                 links = notice.get("links", {})
+                download_types = st.session_state.get('current_download_types', [])
+                
                 if links:
                     if "ted" in links:
                         row["TED Link"] = links["ted"]
+                    
+                    # Add PDF links only for requested languages
                     if "pdf" in links and links["pdf"]:
                         for lang, url in links["pdf"].items():
-                            row[f"PDF ({lang})"] = url
+                            lang_lower = lang.lower()
+                            if f"pdf_de" in download_types and lang_lower in ['deu', 'de', 'ger']:
+                                row["PDF (Deutsch)"] = url
+                            elif f"pdf_en" in download_types and lang_lower in ['eng', 'en', 'english']:
+                                row["PDF (English)"] = url
+                    
+                    # Add JSON links only for requested languages  
+                    if "json" in links and links["json"]:
+                        for lang, url in links["json"].items():
+                            lang_lower = lang.lower()
+                            if f"json_de" in download_types and lang_lower in ['deu', 'de', 'ger']:
+                                row["JSON (Deutsch)"] = url
+                            elif f"json_en" in download_types and lang_lower in ['eng', 'en', 'english']:
+                                row["JSON (English)"] = url
+                    
+                    # Add XML link if available (always show)
+                    if "xml" in links and links["xml"]:
+                        if "MUL" in links["xml"]:
+                            row["XML"] = links["xml"]["MUL"]
                 
                 data.append(row)
             

@@ -125,9 +125,6 @@ def ted_search(
             if lang_filter:
                 results = [r for r in results if r.get('links', {}).get('pdf', {}).get(lang_filter)]
             all_results.extend(results)
-            # Stop if we've reached desired total limit
-            if len(all_results) >= limit:
-                return all_results[:limit]
             
             # Stop if no more results or reached max pages
             if not results:
