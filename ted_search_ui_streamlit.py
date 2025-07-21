@@ -482,194 +482,278 @@ def create_download_folder_name(query: str, download_types: list) -> str:
     return folder_name
 
 def fetch_results():
-    """Fetch and download all results in selected formats."""
+    """Download files from prefetched results with verbose debugging and rate limiting."""
     import os
     import requests
-    from urllib.parse import urlparse
+    import time
+    from datetime import datetime
     
-    print("DEBUG - fetch_results() called!")
-    st.info("Download gestartet...")
+    print("\n" + "="*60)
+    print("🔥 FETCH_RESULTS STARTED")
+    print("="*60)
+    
+    # STEP 1: Check if we have results
+    print("\n📋 STEP 1: Checking for prefetched results...")
+    if not hasattr(st.session_state, 'prefetched_results'):
+        print("❌ ERROR: No 'prefetched_results' attribute in session state")
+        st.error("Keine Ergebnisse gefunden. Bitte führen Sie zuerst eine Suche durch.")
+        return
+    
+    if not st.session_state.prefetched_results:
+        print("❌ ERROR: prefetched_results is empty")
+        st.error("Keine Ergebnisse zum Herunterladen gefunden.")
+        return
+    
+    results = st.session_state.prefetched_results
+    print(f"✅ Found {len(results)} prefetched results")
+    
+    # STEP 2: Get download types and search parameters
+    print("\n📋 STEP 2: Getting download parameters...")
+    download_types = st.session_state.get('current_download_types', ['pdf_de'])
+    query = st.session_state.get('current_query', 'unknown_query')
+    
+    print(f"📥 Download types: {download_types}")
+    print(f"🔍 Search query: {query}")
+    
+    if not download_types:
+        print("❌ ERROR: No download types selected")
+        st.error("Bitte wählen Sie mindestens ein Download-Format aus.")
+        return
+    
+    # STEP 3: Create folder with search parameters in name
+    print("\n📋 STEP 3: Creating download folder...")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Extract key search parameters for folder name
+    folder_parts = [timestamp]
+    
+    # Add query parts to folder name
+    if 'RC=' in query:
+        import re
+        rc_match = re.search(r'RC="?([^"\s]+)"?', query)
+        if rc_match:
+            folder_parts.append(f"RC_{rc_match.group(1)}")
+    
+    if 'PD>=' in query:
+        pd_matches = re.findall(r'PD[><=]+([0-9]{8})', query)
+        if len(pd_matches) >= 2:
+            folder_parts.append(f"PD_{pd_matches[0]}_to_{pd_matches[1]}")
+        elif pd_matches:
+            folder_parts.append(f"PD_{pd_matches[0]}")
+    
+    # Add download types
+    types_str = "_".join(sorted(download_types))
+    folder_parts.append(types_str)
+    
+    folder_name = "_".join(folder_parts)
+    # Limit folder name length
+    if len(folder_name) > 100:
+        folder_name = folder_name[:100]
+    
+    download_folder = os.path.join(os.getcwd(), "downloads", folder_name)
+    
+    print(f"📁 Creating folder: {folder_name}")
+    print(f"📁 Full path: {download_folder}")
     
     try:
-        print("DEBUG - Step 1: Checking session state...")
-    
-        if not st.session_state.get('current_query'):
-            print("DEBUG - ERROR: No current_query in session state")
-            st.error("Keine Suchanfrage gefunden. Bitte führen Sie zuerst eine Suche durch.")
-            return
-        
-        print("DEBUG - Step 2: Getting parameters from session state...")
-    
-        query = st.session_state.current_query
-        download_types = st.session_state.get('current_download_types', [])
-        max_results = st.session_state.get('current_max_results', 1000)
-        
-        print(f"DEBUG - Query: {query}")
-        print(f"DEBUG - Download types: {download_types}")
-        print(f"DEBUG - Max results: {max_results}")
-        
-        print("DEBUG - Step 3: Checking download types...")
-    
-        if not download_types:
-            print("DEBUG - ERROR: No download types selected")
-            st.error("Bitte wählen Sie mindestens ein Download-Format aus.")
-            return
-        
-        print("DEBUG - Step 4: Creating download folder...")
-    
-        # Create download folder
-        folder_name = create_download_folder_name(query, download_types)
-        print(f"DEBUG - Folder name: {folder_name}")
-        
-        download_folder = os.path.join(os.getcwd(), "downloads", folder_name)
-        print(f"DEBUG - Full download path: {download_folder}")
-        
         os.makedirs(download_folder, exist_ok=True)
-        print(f"DEBUG - Folder created successfully: {os.path.exists(download_folder)}")
-        
-        st.info(f"Download-Ordner erstellt: {download_folder}")
-        
-        print("DEBUG - Step 5: Getting results...")
-        
-        # Use prefetched results if available, otherwise fetch fresh
-        if st.session_state.prefetched_results:
-            results = st.session_state.prefetched_results[:max_results]
-            st.info(f"Verwende bereits abgerufene Ergebnisse ({len(results)} Treffer)")
-            print(f"DEBUG - Using {len(results)} prefetched results")
-        else:
-            st.info("Lade Ergebnisse vom TED API...")
-            print("DEBUG - Fetching fresh results from API")
-            results = ted_search(
-                query=query,
-                fields=["notice-type", "publication-number", "publication-date", "buyer-name", "title", "cpv-code", "buyer-country"],
-                page=1,
-                limit=100,
-                max_pages=None
-            )[:max_results]
-        
-        if not results:
-            st.warning("Keine Ergebnisse zum Herunterladen gefunden.")
-            print("DEBUG - No results found!")
-            return
-        
-        # Debug: Show structure of first result
-        if results:
-            print(f"DEBUG - First result structure: {json.dumps(results[0], indent=2)[:500]}...")
-            first_links = results[0].get('links', {})
-            print(f"DEBUG - First result links: {json.dumps(first_links, indent=2)}")
-        
-        # Store results for display
-        st.session_state.search_results = results
-        
-        # Download files
-        progress_bar = st.progress(0)
-        status_text = st.empty()
-        
-        downloaded_count = 0
-        total_files = 0
-        
-        # Count total files to download
-        for result in results:
-            links = result.get("links", {})
-            print(f"DEBUG - Result links: {links.keys() if links else 'No links'}")
-            if "pdf" in links:
-                print(f"DEBUG - PDF languages available: {list(links['pdf'].keys())}")
-                for lang in links["pdf"]:
-                    lang_lower = lang.lower()
-                    if ("pdf_de" in download_types and lang_lower in ['deu', 'de', 'ger']) or \
-                       ("pdf_en" in download_types and lang_lower in ['eng', 'en', 'english']):
-                        total_files += 1
-                        print(f"DEBUG - Will download PDF in {lang}")
-            if "json" in links:
-                print(f"DEBUG - JSON languages available: {list(links['json'].keys())}")
-                for lang in links["json"]:
-                    lang_lower = lang.lower()
-                    if ("json_de" in download_types and lang_lower in ['deu', 'de', 'ger']) or \
-                       ("json_en" in download_types and lang_lower in ['eng', 'en', 'english']):
-                        total_files += 1
-                        print(f"DEBUG - Will download JSON in {lang}")
-        
-        st.info(f"Beginne Download von {total_files} Dateien...")
-        
-        # Download files
-        for i, result in enumerate(results):
-            pub_number = result.get("publication-number", f"notice_{i}")
-            links = result.get("links", {})
-            
-            # Download PDFs
-            if "pdf" in links:
-                for lang, url in links["pdf"].items():
-                    lang_lower = lang.lower()
-                    should_download = False
-                    file_suffix = ""
-                    
-                    if "pdf_de" in download_types and lang_lower in ['deu', 'de', 'ger']:
-                        should_download = True
-                        file_suffix = "_DE.pdf"
-                    elif "pdf_en" in download_types and lang_lower in ['eng', 'en', 'english']:
-                        should_download = True
-                        file_suffix = "_EN.pdf"
-                    
-                    if should_download:
-                        try:
-                            filename = f"{pub_number}{file_suffix}"
-                            filepath = os.path.join(download_folder, filename)
-                            
-                            response = requests.get(url, timeout=30)
-                            response.raise_for_status()
-                            
-                            with open(filepath, 'wb') as f:
-                                f.write(response.content)
-                            
-                            downloaded_count += 1
-                            status_text.text(f"Heruntergeladen: {filename} ({downloaded_count}/{total_files})")
-                            progress_bar.progress(downloaded_count / total_files)
-                            
-                        except Exception as e:
-                            st.warning(f"Fehler beim Herunterladen von {filename}: {str(e)}")
-            
-            # Download JSONs (if available)
-            if "json" in links:
-                for lang, url in links["json"].items():
-                    lang_lower = lang.lower()
-                    should_download = False
-                    file_suffix = ""
-                    
-                    if "json_de" in download_types and lang_lower in ['deu', 'de', 'ger']:
-                        should_download = True
-                        file_suffix = "_DE.json"
-                    elif "json_en" in download_types and lang_lower in ['eng', 'en', 'english']:
-                        should_download = True
-                        file_suffix = "_EN.json"
-                    
-                    if should_download:
-                        try:
-                            filename = f"{pub_number}{file_suffix}"
-                            filepath = os.path.join(download_folder, filename)
-                            
-                            response = requests.get(url, timeout=30)
-                            response.raise_for_status()
-                            
-                            with open(filepath, 'wb') as f:
-                                f.write(response.content)
-                            
-                            downloaded_count += 1
-                            status_text.text(f"Heruntergeladen: {filename} ({downloaded_count}/{total_files})")
-                            progress_bar.progress(downloaded_count / total_files)
-                            
-                        except Exception as e:
-                            st.warning(f"Fehler beim Herunterladen von {filename}: {str(e)}")
-        
-        progress_bar.progress(1.0)
-        status_text.text(f"Download abgeschlossen! {downloaded_count} Dateien heruntergeladen.")
-        st.success(f"Alle Dateien wurden erfolgreich in '{download_folder}' gespeichert.")
-        
+        print(f"✅ Folder created successfully")
     except Exception as e:
-        print(f"DEBUG - EXCEPTION in fetch_results: {str(e)}")
-        print(f"DEBUG - Exception type: {type(e).__name__}")
-        import traceback
-        print(f"DEBUG - Full traceback: {traceback.format_exc()}")
-        st.error(f"Fehler beim Herunterladen: {str(e)}")
+        print(f"❌ ERROR creating folder: {e}")
+        st.error(f"Konnte Download-Ordner nicht erstellen: {e}")
+        return
+    
+    if not os.path.exists(download_folder):
+        print(f"❌ ERROR: Folder does not exist after creation")
+        st.error(f"Download-Ordner wurde nicht erstellt: {download_folder}")
+        return
+    
+    st.success(f"📁 Download-Ordner erstellt: {folder_name}")
+    
+    # STEP 4: Count and analyze available files
+    print("\n📋 STEP 4: Analyzing available files...")
+    
+    total_files = 0
+    file_analysis = []
+    
+    for i, result in enumerate(results):
+        pub_number = result.get("publication-number", f"notice_{i}")
+        links = result.get("links", {})
+        
+        print(f"\n📄 Result {i+1}/{len(results)}: {pub_number}")
+        print(f"   Available link types: {list(links.keys()) if links else 'No links'}")
+        
+        result_files = []
+        
+        # Check PDF links
+        if "pdf" in links and isinstance(links["pdf"], dict):
+            print(f"   📕 PDF languages: {list(links['pdf'].keys())}")
+            for lang, url in links["pdf"].items():
+                should_download = False
+                file_suffix = ""
+                
+                if "pdf_de" in download_types and lang.upper() in ['DEU', 'DE']:
+                    should_download = True
+                    file_suffix = "_DE.pdf"
+                    print(f"   ✅ Will download PDF (German): {lang}")
+                elif "pdf_en" in download_types and lang.upper() in ['ENG', 'EN']:
+                    should_download = True
+                    file_suffix = "_EN.pdf"
+                    print(f"   ✅ Will download PDF (English): {lang}")
+                else:
+                    print(f"   ⏭️  Skipping PDF language: {lang}")
+                
+                if should_download:
+                    filename = f"{pub_number}{file_suffix}"
+                    result_files.append({
+                        'filename': filename,
+                        'url': url,
+                        'type': 'PDF',
+                        'lang': lang
+                    })
+                    total_files += 1
+        
+        # Check JSON links
+        if "json" in links and isinstance(links["json"], dict):
+            print(f"   📗 JSON languages: {list(links['json'].keys())}")
+            for lang, url in links["json"].items():
+                should_download = False
+                file_suffix = ""
+                
+                if "json_de" in download_types and lang.upper() in ['DEU', 'DE']:
+                    should_download = True
+                    file_suffix = "_DE.json"
+                    print(f"   ✅ Will download JSON (German): {lang}")
+                elif "json_en" in download_types and lang.upper() in ['ENG', 'EN']:
+                    should_download = True
+                    file_suffix = "_EN.json"
+                    print(f"   ✅ Will download JSON (English): {lang}")
+                else:
+                    print(f"   ⏭️  Skipping JSON language: {lang}")
+                
+                if should_download:
+                    filename = f"{pub_number}{file_suffix}"
+                    result_files.append({
+                        'filename': filename,
+                        'url': url,
+                        'type': 'JSON',
+                        'lang': lang
+                    })
+                    total_files += 1
+        
+        file_analysis.append({
+            'pub_number': pub_number,
+            'files': result_files
+        })
+    
+    print(f"\n📊 ANALYSIS COMPLETE:")
+    print(f"   📄 Total results: {len(results)}")
+    print(f"   📥 Total files to download: {total_files}")
+    print(f"   📁 Download folder: {folder_name}")
+    
+    if total_files == 0:
+        print("❌ No files to download!")
+        st.warning("Keine Dateien zum Herunterladen gefunden. Überprüfen Sie die ausgewählten Formate.")
+        return
+    
+    # STEP 5: Download files with rate limiting
+    print("\n📋 STEP 5: Starting downloads with rate limiting (max 5/sec)...")
+    
+    progress_bar = st.progress(0)
+    status_text = st.empty()
+    
+    downloaded_count = 0
+    failed_count = 0
+    last_request_time = 0
+    
+    st.info(f"📥 Beginne Download von {total_files} Dateien...")
+    
+    for result_info in file_analysis:
+        pub_number = result_info['pub_number']
+        files = result_info['files']
+        
+        if not files:
+            continue
+            
+        print(f"\n📄 Downloading files for: {pub_number}")
+        
+        for file_info in files:
+            filename = file_info['filename']
+            url = file_info['url']
+            file_type = file_info['type']
+            lang = file_info['lang']
+            
+            # Rate limiting: max 5 requests per second
+            current_time = time.time()
+            time_since_last = current_time - last_request_time
+            if time_since_last < 0.2:  # 0.2 seconds = 5 requests per second
+                sleep_time = 0.2 - time_since_last
+                print(f"⏱️  Rate limiting: sleeping {sleep_time:.2f}s")
+                time.sleep(sleep_time)
+            
+            filepath = os.path.join(download_folder, filename)
+            
+            print(f"\n🔽 Downloading: {filename}")
+            print(f"   📎 URL: {url[:80]}...")
+            print(f"   📁 Path: {filepath}")
+            
+            try:
+                last_request_time = time.time()
+                response = requests.get(url, timeout=30)
+                print(f"   📡 HTTP Status: {response.status_code}")
+                print(f"   📏 Content Length: {len(response.content)} bytes")
+                
+                response.raise_for_status()
+                
+                with open(filepath, 'wb') as f:
+                    f.write(response.content)
+                
+                # Verify file was written
+                if os.path.exists(filepath):
+                    file_size = os.path.getsize(filepath)
+                    print(f"   ✅ SUCCESS: {filename} ({file_size} bytes)")
+                    downloaded_count += 1
+                else:
+                    print(f"   ❌ ERROR: File not found after writing: {filename}")
+                    failed_count += 1
+                
+            except Exception as e:
+                print(f"   ❌ ERROR downloading {filename}: {e}")
+                st.warning(f"Fehler beim Herunterladen von {filename}: {str(e)}")
+                failed_count += 1
+            
+            # Update progress
+            progress = downloaded_count / total_files if total_files > 0 else 1
+            progress_bar.progress(progress)
+            status_text.text(f"📥 Heruntergeladen: {downloaded_count}/{total_files} ({failed_count} Fehler)")
+    
+    # FINAL STATUS
+    print("\n" + "="*60)
+    print("🎉 DOWNLOAD COMPLETE")
+    print(f"✅ Successfully downloaded: {downloaded_count} files")
+    print(f"❌ Failed downloads: {failed_count} files")
+    print(f"📁 Saved to: {download_folder}")
+    print("="*60)
+    
+    progress_bar.progress(1.0)
+    status_text.text(f"✅ Download abgeschlossen! {downloaded_count} Dateien heruntergeladen.")
+    
+    if downloaded_count > 0:
+        st.success(f"🎉 {downloaded_count} Dateien erfolgreich heruntergeladen in: {folder_name}")
+    
+    if failed_count > 0:
+        st.warning(f"⚠️ {failed_count} Dateien konnten nicht heruntergeladen werden.")
+    
+    # Show folder contents
+    try:
+        folder_files = os.listdir(download_folder)
+        print(f"\n📁 Folder contents ({len(folder_files)} files):")
+        for f in folder_files[:10]:  # Show first 10 files
+            print(f"   📄 {f}")
+        if len(folder_files) > 10:
+            print(f"   ... and {len(folder_files) - 10} more files")
+    except Exception as e:
+        print(f"Error listing folder contents: {e}")
 
 def check_result_count(query: str) -> Optional[int]:
     """Get total count and optionally prefetch some results."""
@@ -801,58 +885,7 @@ def main():
     )
     st.title("TED Expert-Search UI")
     
-    # Define fetch_results function
-    def fetch_results():
-        """Fetch results based on current query and download settings"""
-        if not st.session_state.current_query:
-            st.error("Keine Suchanfrage vorhanden. Bitte führen Sie zuerst eine Suche durch.")
-            return
-        
-        try:
-            with st.spinner('Ergebnisse werden abgerufen...'):
-                # Check if we already have prefetched results
-                if st.session_state.prefetched_results:
-                    results = st.session_state.prefetched_results
-                    print(f"DEBUG - Using {len(results)} prefetched results")
-                else:
-                    # Get current settings
-                    query = st.session_state.current_query
-                    download_types = st.session_state.current_download_types
-                    max_results = st.session_state.current_max_results
-                    
-                    print(f"DEBUG - Fetching {max_results} results for download...")
-                    # Call ted_search function with full fields for download
-                    results = ted_search(
-                        query=query,
-                        fields=None,  # Use all available fields for download
-                        limit=100,  # Reasonable page size
-                        max_pages=max_results // 100 + 1 if max_results else None
-                    )
-                    # Limit to requested max_results
-                    if max_results and len(results) > max_results:
-                        results = results[:max_results]
-                
-                # Store results
-                st.session_state.search_results = results
-                
-                if results:
-                    st.success(f"{len(results)} Ergebnisse erfolgreich abgerufen.")
-                    
-                    # Generate download links
-                    if "excel" in st.session_state.current_download_types:
-                        excel_path = export_to_excel(results, "ted_results")
-                        excel_link = create_download_link(excel_path, "Excel-Datei herunterladen")
-                        st.markdown(excel_link, unsafe_allow_html=True)
-                    
-                    if "json" in st.session_state.current_download_types:
-                        json_path = export_to_json(results, "ted_results")
-                        json_link = create_download_link(json_path, "JSON-Datei herunterladen")
-                        st.markdown(json_link, unsafe_allow_html=True)
-                else:
-                    st.warning("Keine Ergebnisse gefunden.")
-        except Exception as e:
-            st.error(f"Fehler beim Abrufen der Ergebnisse: {str(e)}")
-            return False
+    # fetch_results function is now defined globally above main()
     
     # Initialize session state variables if they don't exist
     if "search_results" not in st.session_state:
