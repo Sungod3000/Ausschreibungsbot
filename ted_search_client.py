@@ -10,13 +10,13 @@ Dependencies: requests, pandas, openpyxl
 import requests
 import json
 import pandas as pd
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Callable
 import os
 from datetime import datetime
 import time
 
 # ------------------ global rate limiter ------------------
-_MIN_API_INTERVAL = 0.3   # seconds – ~3 requests/second
+_MIN_API_INTERVAL = 0.35  # seconds – ~2.9 requests/second (cap at ~3 rps per API limits)
 _last_api_call = 0.0
 
 def _throttle_api() -> None:
@@ -38,6 +38,7 @@ def ted_search(
     limit: int = 20,
     max_pages: Optional[int] = None,
     lang_filter: Optional[str] = None,
+    progress_cb: Optional[Callable[[int, Optional[int], int, Optional[int]], None]] = None,
 ) -> List[Dict[str, Any]]:
     """Search TED notices with pagination support.
     
@@ -52,15 +53,13 @@ def ted_search(
     Returns:
         List of notice results
     """
-    all_results = []
+    all_results: List[Dict[str, Any]] = []
     current_page = page
-    total_pages = float('inf')  # unknown yet; will update after first response
+    start_page = page
+    total_pages: Optional[int] = None  # unknown yet; will update after first response
+    total_results: Optional[int] = None
     
-    # Set the maximum pages to retrieve if specified
-    if max_pages is not None:
-        total_pages = min(total_pages, max_pages + page - 1)
-    
-    while current_page <= total_pages:
+    while True:
         # Build request payload
         payload = {
             "query": query,
@@ -108,28 +107,39 @@ def ted_search(
             response.raise_for_status()
             data = response.json()
             
-            # Update total pages after first response if API sent totalNotices
-            if total_pages == float('inf'):
+            # Update total pages after first response if API sent total count
+            if total_pages is None:
                 total_results = data.get("totalNotices")
+                if total_results is None:
+                    total_results = data.get("totalNoticeCount")
                 if total_results is not None:
-                    total_pages = (total_results + limit - 1) // limit
-                    if max_pages is not None:
-                        total_pages = min(total_pages, max_pages + page - 1)
+                    tp = (int(total_results) + limit - 1) // limit
+                    total_pages = tp
                     print(f"Found {total_results} results, expecting {total_pages} pages")
                 else:
-                    # API did not return totalNotices – fall back to iterative until empty or max_pages
-                    total_pages = max_pages + page - 1 if max_pages is not None else float('inf')
+                    # API did not return total count – we'll continue until an empty page
+                    total_pages = None
             
             # Add results to our collection
             results = data.get("notices", data.get("results", []))
             if lang_filter:
                 results = [r for r in results if r.get('links', {}).get('pdf', {}).get(lang_filter)]
             all_results.extend(results)
+            if progress_cb:
+                progress_cb(current_page, total_pages, len(all_results), total_results)
             
-            # Stop if no more results or reached max pages
+            # Stop if no more results
             if not results:
                 break
-                
+            
+            # Enforce max_pages if set (relative to start_page)
+            if max_pages is not None and (current_page - start_page + 1) >= max_pages:
+                break
+            
+            # Stop if we reached the computed last page
+            if total_pages is not None and current_page >= (start_page + total_pages - 1):
+                break
+            
             current_page += 1
             
         except requests.RequestException as e:

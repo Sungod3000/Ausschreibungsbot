@@ -19,6 +19,7 @@ from config.constants import (
     PROCEDURE_TYPE_MAP as _PROCEDURE_TYPE_MAP,
     CONTRACT_TYPE_MAP as _CONTRACT_TYPE_MAP,
 )
+from config.nuts import load_nuts_de
 import logging
 from config.logging import setup_logging
 
@@ -309,20 +310,47 @@ def fetch_results():
     logger.info("🔥 FETCH_RESULTS STARTED")
     logger.info("="*60)
     
-    # STEP 1: Check if we have results
+    # STEP 1: Check if we have results (prefetched or fetch limited on-demand)
     logger.info("\n📋 STEP 1: Checking for prefetched results...")
-    if not hasattr(st.session_state, 'prefetched_results'):
-        logger.error("❌ ERROR: No 'prefetched_results' attribute in session state")
-        st.error("Keine Ergebnisse gefunden. Bitte führen Sie zuerst eine Suche durch.")
-        return
-    
-    if not st.session_state.prefetched_results:
-        logger.error("❌ ERROR: prefetched_results is empty")
-        st.error("Keine Ergebnisse zum Herunterladen gefunden.")
-        return
-    
-    results = st.session_state.prefetched_results
-    logger.info(f"✅ Found {len(results)} prefetched results")
+    results = None
+    if hasattr(st.session_state, 'prefetched_results') and st.session_state.prefetched_results:
+        results = st.session_state.prefetched_results
+        logger.info(f"✅ Found {len(results)} prefetched results")
+    else:
+        # Fallback: fetch first N results on-demand according to max_results
+        query = st.session_state.get('current_query')
+        desired_max = st.session_state.get('current_max_results', 100)
+        if not query:
+            logger.error("❌ ERROR: No query available for on-demand fetch")
+            st.error("Keine Ergebnisse gefunden. Bitte führen Sie zuerst eine Suche durch.")
+            return
+        st.info(f"Prefetch war deaktiviert. Lade die ersten {desired_max} Ergebnisse…")
+        logger.info(f"Prefetch disabled – fetching first {desired_max} results for download")
+        from math import ceil
+        pages_needed = max(1, ceil(int(desired_max) / 100))
+        # Use progress callback to surface progress to UI
+        page_progress = st.progress(0.0)
+        page_info = st.empty()
+        res_info = st.empty()
+        def _progress_cb(current_page, total_pages, results_so_far, total_results):
+            if pages_needed:
+                page_progress.progress(min(current_page / pages_needed, 1.0))
+            page_info.text(f"Seiten: {current_page}/{pages_needed}")
+            res_info.text(f"Ergebnisse gesammelt: {results_so_far}")
+        results = ted_search(
+            query=query,
+            fields=["publication-number", "links", "notice-type"],
+            page=1,
+            limit=100,
+            max_pages=pages_needed,
+            progress_cb=_progress_cb,
+        )
+        st.session_state.prefetched_results = results
+        try:
+            page_progress.progress(1.0)
+        except Exception:
+            pass
+        logger.info(f"✅ Fetched {len(results)} results for download")
     
     # STEP 2: Get download types and search parameters
     logger.info("\n📋 STEP 2: Getting download parameters...")
@@ -360,6 +388,14 @@ def fetch_results():
     
     st.success(f"📁 Download-Ordner erstellt: {folder_name}")
     
+    # Respect max results limit before analysis
+    limit_for_download = st.session_state.get('current_max_results')
+    if limit_for_download is not None and isinstance(limit_for_download, int) and limit_for_download > 0:
+        if len(results) > limit_for_download:
+            results = results[:limit_for_download]
+            st.warning(f"Es wurden mehr Ergebnisse gefunden als erlaubt. Es werden nur die ersten {limit_for_download} Ergebnisse heruntergeladen.")
+            logger.info(f"Truncating results to max_results={limit_for_download} for download")
+
     # STEP 4: Count and analyze available files
     logger.info("\n📋 STEP 4: Analyzing available files...")
     
@@ -447,7 +483,7 @@ def fetch_results():
         return
     
     # STEP 5: Download files with rate limiting
-    logger.info("\n📋 STEP 5: Starting downloads with rate limiting (max 5/sec)...")
+    logger.info("\n📋 STEP 5: Starting downloads with rate limiting (max ~3/sec)…")
     
     progress_bar = st.progress(0)
     status_text = st.empty()
@@ -456,7 +492,7 @@ def fetch_results():
     failed_count = 0
     last_request_time = 0
     
-    st.info(f"📥 Beginne Download von {total_files} Dateien...")
+    st.info(f"📥 Beginne Download von {total_files} Dateien… (Rate-Limit ~3/s)")
     
     for result_info in file_analysis:
         pub_number = result_info['pub_number']
@@ -480,7 +516,12 @@ def fetch_results():
             logger.debug(f"   📁 Path: {filepath}")
 
             success, file_size, error_msg, last_request_time = download_with_rate_limit(
-                url, filepath, last_request_time, min_interval=0.2, timeout=30
+                url,
+                filepath,
+                last_request_time,
+                min_interval=0.5,  # ~2 req/s base; downloader will backoff further on 429
+                timeout=60,
+                max_retries=7,
             )
             if success:
                 logger.info(f"   ✅ SUCCESS: {filename} ({file_size} bytes)")
@@ -527,42 +568,81 @@ def check_result_count(query: str) -> Optional[int]:
     """Get total count and optionally prefetch some results."""
     try:
         with st.spinner('Ergebnisse werden gezählt...'):
+            # Progress UI elements
+            st.caption("Rate limit aktiv: 3 Anfragen/Sekunde; 429 mit Retry-After")
+            page_progress = st.progress(0.0)
+            page_info = st.empty()
+            res_info = st.empty()
+            
+            def _progress_cb(current_page: int, total_pages: Optional[int], results_so_far: int, total_results: Optional[int]):
+                if total_pages and total_pages > 0:
+                    pct = min(current_page / total_pages, 1.0)
+                    page_progress.progress(pct)
+                    page_info.text(f"Seiten: {current_page}/{total_pages}")
+                else:
+                    page_progress.progress(0.0)
+                    page_info.text(f"Seiten: {current_page} (Gesamt unbekannt)")
+                if total_results is not None:
+                    res_info.text(f"Ergebnisse gesammelt: {results_so_far}/{total_results}")
+                else:
+                    res_info.text(f"Ergebnisse gesammelt: {results_so_far}")
             # First, get the true total count from API
             total_count = get_total_count_from_api(query)
             
             if total_count is None:
-                # Fallback – API did not provide count. Fetch ALL results and count manually
-                logger.debug("totalNotices is None – falling back to manual counting of ALL results …")
+                # Fallback – API did not provide count. Fetch up to max_results then count
+                logger.debug("totalNotices is None – falling back to manual counting up to max_results …")
+                max_results_limit = st.session_state.get('current_max_results', 100)
+                from math import ceil
+                pages_needed = max(1, ceil(int(max_results_limit) / 100)) if max_results_limit else None
                 results = ted_search(
                     query=query,
-                    fields=["notice-type"],
+                    fields=["publication-number", "links", "notice-type"],
                     page=1,
                     limit=100,
-                    max_pages=None  # fetch ALL pages, no limit
+                    max_pages=pages_needed,  # limit by max_results if available
+                    progress_cb=_progress_cb
                 )
                 st.session_state.prefetched_results = results
-                total_count = len(results)
-                logger.debug(f"Fallback fetched ALL {total_count} results")
+                total_count = len(results)  # unknown true total; we know how many we fetched
+                logger.debug(f"Fallback fetched {total_count} results (true total unbekannt)")
             else:
                 logger.info(f"Total count from API: {total_count}")
             
-            # If there are results and not too many, prefetch them for faster download
-            if total_count > 0 and total_count <= 2000:  # Reasonable limit for prefetching
-                logger.debug(f"Prefetching ALL {total_count} results...")
-                results = ted_search(
-                    query=query,
-                    fields=["notice-type"],  # Minimal field set for prefetch
-                    page=1,
-                    limit=100,  # Reasonable page size
-                    max_pages=None  # Get ALL pages
-                )
-                st.session_state.prefetched_results = results
-                logger.debug(f"Prefetched ALL {len(results)} results")
+            # If there are results and not too many, prefetch up to max_results (and not beyond a reasonable cap)
+            if total_count and total_count > 0:
+                max_results_limit = st.session_state.get('current_max_results', 100)
+                target = min(int(total_count), int(max_results_limit)) if max_results_limit else int(total_count)
+                from math import ceil
+                pages_needed = ceil(target / 100)
+                if target <= 2000:
+                    logger.debug(f"Prefetching up to {target} results (pages: {pages_needed})…")
+                    results = ted_search(
+                        query=query,
+                        fields=["publication-number", "links", "notice-type"],  # Minimal but sufficient for downloads
+                        page=1,
+                        limit=100,
+                        max_pages=pages_needed,
+                        progress_cb=_progress_cb
+                    )
+                    # Truncate safety (in case last page over-fetches)
+                    if len(results) > target:
+                        results = results[:target]
+                    st.session_state.prefetched_results = results
+                    logger.debug(f"Prefetched {len(results)} results (target {target})")
+                else:
+                    # Too many results to prefetch, will fetch on demand
+                    st.session_state.prefetched_results = None
+                    logger.info(f"Too many results ({total_count}) to prefetch - will fetch on demand (limit {max_results_limit})")
             else:
-                # Too many results to prefetch, will fetch on demand
                 st.session_state.prefetched_results = None
-                logger.info(f"Too many results ({total_count}) to prefetch - will fetch on demand")
+                logger.info("No results to prefetch")
             
+            # finalize progress bar
+            try:
+                page_progress.progress(1.0)
+            except Exception:
+                pass
             return total_count
     except Exception as e:
         error_msg = f"Fehler beim Abrufen der Ergebnisanzahl: {str(e)}"
@@ -606,6 +686,21 @@ def run_search(
             buyer_type=buyer_type,
             authority_activity=authority_activity
         )
+
+        # If Germany-wide override active, expand RC="DE" into OR of NUTS1 codes
+        try:
+            if st.session_state.get("rc_override") == "DE":
+                nuts = load_nuts_de()
+                if nuts and isinstance(nuts, dict) and "NUTS1" in nuts:
+                    nuts1_codes = sorted(nuts["NUTS1"].keys())
+                    rc_clause = "(" + " OR ".join([f'RC="{c}"' for c in nuts1_codes]) + ")"
+                    if 'RC="DE"' in query:
+                        query = query.replace('RC="DE"', rc_clause)
+                    elif 'RC=' not in query:
+                        query = f"{query} AND {rc_clause}"
+        except Exception:
+            # If anything goes wrong, fall back to the built query
+            pass
         
         # Store query for display
         st.session_state.search_query = query
@@ -633,7 +728,14 @@ def run_search(
             return
         else:
             # Show result count - download button will appear in main section below
-            st.success(f"Es wurden {result_count} Ergebnisse gefunden.")
+            cap = int(max_results) if max_results else result_count
+            if result_count > cap:
+                st.warning(f"Es wurden {result_count} Ergebnisse gefunden, es werden jedoch nur die ersten {cap} berücksichtigt.")
+                st.success(f"Es wurden {result_count} Ergebnisse gefunden (Anzeige/Download bis {cap}).")
+            else:
+                st.success(f"Es wurden {result_count} Ergebnisse gefunden.")
+            # store for later UI use
+            st.session_state.display_cap = cap
             
             # Set search_results to prefetched results so the results table appears
             if st.session_state.prefetched_results:
@@ -641,6 +743,7 @@ def run_search(
         
     except Exception as e:
         error_msg = f"Fehler bei der Suche: {str(e)}"
+        logger.error(f"Error: {error_msg}")
         st.session_state.search_error = error_msg
         st.error(error_msg)
         return
@@ -673,6 +776,10 @@ def main():
         st.session_state.current_download_types = None
     if "current_max_results" not in st.session_state:
         st.session_state.current_max_results = None
+    if "rc_override" not in st.session_state:
+        st.session_state.rc_override = None
+    if "rc_version" not in st.session_state:
+        st.session_state.rc_version = 0
     
     # Create sidebar for search parameters
     with st.sidebar:
@@ -703,10 +810,100 @@ def main():
         
         # 4. Place of performance (where the work will be done)
         st.subheader("Ausführungsort")
-        place_of_performance = st.text_input(
-            "Ort der Leistungserbringung",
-            help="Land (DE), NUTS-Code (DE71) oder PLZ (34117) wo die Arbeit ausgeführt wird"
-        )
+        # Quick actions for country-wide search and reset
+        rc_col1, rc_col2 = st.columns(2)
+        with rc_col1:
+            if st.button("🇩🇪 Ganz Deutschland (DE)"):
+                st.session_state.rc_override = "DE"
+                st.session_state.rc_version += 1
+                try:
+                    if hasattr(st, "rerun"):
+                        st.rerun()
+                    else:
+                        st.experimental_rerun()
+                except Exception:
+                    pass
+        with rc_col2:
+            if st.button("Auswahl löschen"):
+                st.session_state.rc_override = None
+                st.session_state.rc_version += 1
+                try:
+                    if hasattr(st, "rerun"):
+                        st.rerun()
+                    else:
+                        st.experimental_rerun()
+                except Exception:
+                    pass
+        if st.session_state.get("rc_override") == "DE":
+            st.info("Deutschland (DE) ausgewählt – Suche umfasst ganz Deutschland.")
+        nuts_data = load_nuts_de()
+        if nuts_data and isinstance(nuts_data, dict) and "NUTS1" in nuts_data:
+            # NUTS1 (Bundesland)
+            nuts1_nodes = nuts_data["NUTS1"]
+            nuts1_codes = sorted(nuts1_nodes.keys())
+            nuts1_labels = {c: f"{c} – {nuts1_nodes[c]['name']}" for c in nuts1_codes}
+            selected_nuts1 = st.selectbox(
+                "Bundesland (NUTS 1)",
+                options=[""] + nuts1_codes,
+                format_func=lambda c: nuts1_labels.get(c, "") if c else "",
+                key=f"nuts1_{st.session_state['rc_version']}",
+                help="Wählen Sie ein Bundesland"
+            )
+
+            selected_nuts2 = ""
+            selected_nuts3 = ""
+
+            # NUTS2 (Region) depends on NUTS1
+            if selected_nuts1:
+                nuts2_nodes = nuts1_nodes[selected_nuts1].get("children", {})
+                nuts2_codes = sorted(nuts2_nodes.keys())
+                nuts2_labels = {c: f"{c} – {nuts2_nodes[c]['name']}" for c in nuts2_codes}
+                selected_nuts2 = st.selectbox(
+                    "Region (NUTS 2)",
+                    options=[""] + nuts2_codes,
+                    format_func=lambda c: nuts2_labels.get(c, "") if c else "",
+                    key=f"nuts2_{st.session_state['rc_version']}",
+                    help="Optional: Wählen Sie eine Region"
+                )
+
+                # NUTS3 (Kreis/Stadt) depends on NUTS2
+                if selected_nuts2:
+                    nuts3_nodes = nuts2_nodes[selected_nuts2].get("children", {})
+                    nuts3_codes = sorted(nuts3_nodes.keys())
+                    nuts3_labels = {c: f"{c} – {nuts3_nodes[c]['name']}" for c in nuts3_codes}
+                    selected_nuts3 = st.selectbox(
+                        "Kreis/Stadt (NUTS 3)",
+                        options=[""] + nuts3_codes,
+                        format_func=lambda c: nuts3_labels.get(c, "") if c else "",
+                        key=f"nuts3_{st.session_state['rc_version']}",
+                        help="Optional: Wählen Sie Kreis/Stadt"
+                    )
+
+            # Determine the code to search with (prefer deepest selection)
+            if selected_nuts3:
+                place_of_performance = selected_nuts3
+            elif selected_nuts2:
+                place_of_performance = selected_nuts2
+            elif selected_nuts1:
+                place_of_performance = selected_nuts1
+            else:
+                # No selection; allow manual fallback
+                place_of_performance = st.text_input(
+                    "Ort der Leistungserbringung (Fallback)",
+                    help="Land (DE), NUTS-Code (DE71) oder PLZ (34117) wo die Arbeit ausgeführt wird"
+                )
+        else:
+            # Fallback to manual input if NUTS config is missing
+            place_of_performance = st.text_input(
+                "Ort der Leistungserbringung",
+                help="Land (DE), NUTS-Code (DE71) oder PLZ (34117) wo die Arbeit ausgeführt wird"
+            )
+        
+        # Apply Germany override if set
+        rc_override = st.session_state.get("rc_override")
+        if rc_override:
+            place_of_performance = rc_override
+            st.caption("Ausführungsort: Deutschland (DE)")
         
         # 5. Nature of contract
         st.subheader("Auftragsart")
@@ -745,36 +942,98 @@ def main():
         from datetime import datetime, timedelta
         today = datetime.now().date()
         one_month_ago = today - timedelta(days=30)
+        # Initialize date defaults and version once
+        if "pub_from_default" not in st.session_state:
+            st.session_state["pub_from_default"] = one_month_ago
+        if "pub_to_default" not in st.session_state:
+            st.session_state["pub_to_default"] = today
+        if "pub_date_version" not in st.session_state:
+            st.session_state["pub_date_version"] = 0
         
+        # Quick selections BEFORE the date inputs so state is set first
+        qcol1, qcol2, qcol3, qcol4 = st.columns(4)
+        def _apply_date_range(days: int):
+            st.session_state["pub_from_default"] = today - timedelta(days=days)
+            st.session_state["pub_to_default"] = today
+            st.session_state["pub_date_version"] += 1
+            try:
+                if hasattr(st, "rerun"):
+                    st.rerun()
+                else:
+                    st.experimental_rerun()
+            except Exception:
+                pass
+        with qcol1:
+            if st.button("Letzter Tag"):
+                _apply_date_range(1)
+        with qcol2:
+            if st.button("Letzte 3 Tage"):
+                _apply_date_range(3)
+        with qcol3:
+            if st.button("Letzte Woche"):
+                _apply_date_range(7)
+        with qcol4:
+            if st.button("Letzter Monat"):
+                _apply_date_range(30)
+
+        # Helper: date input with German format if supported by Streamlit
+        def _date_input_de(label: str, value, key=None, help: str | None = None):
+            try:
+                # Streamlit newer versions support 'format' argument
+                return st.date_input(label, value=value, key=key, help=help, format="DD.MM.YYYY")
+            except TypeError:
+                # Fallback for older Streamlit versions
+                return st.date_input(label, value=value, key=key, help=help)
+
         col1, col2 = st.columns(2)
         with col1:
-            pub_from = st.date_input(
+            pub_from = _date_input_de(
                 "Von",
-                value=one_month_ago,
+                value=st.session_state.get("pub_from_default", one_month_ago),
+                key=f"pub_from_date_{st.session_state['pub_date_version']}",
                 help="Veröffentlichungsdatum ab"
             )
+            try:
+                st.caption(f"Ausgewählt: {pub_from.strftime('%d.%m.%Y')}")
+            except Exception:
+                pass
         with col2:
-            pub_to = st.date_input(
+            pub_to = _date_input_de(
                 "Bis",
-                value=today,
+                value=st.session_state.get("pub_to_default", today),
+                key=f"pub_to_date_{st.session_state['pub_date_version']}",
                 help="Veröffentlichungsdatum bis"
             )
+            try:
+                st.caption(f"Ausgewählt: {pub_to.strftime('%d.%m.%Y')}")
+            except Exception:
+                pass
         
         # 8. Deadline (from/to)
         st.subheader("Einreichungsfrist")
         col1, col2 = st.columns(2)
         with col1:
-            deadline_from = st.date_input(
+            deadline_from = _date_input_de(
                 "Von",
                 value=None,
                 help="Einreichungsfrist ab"
             )
+            if deadline_from:
+                try:
+                    st.caption(f"Ausgewählt: {deadline_from.strftime('%d.%m.%Y')}")
+                except Exception:
+                    pass
         with col2:
-            deadline_to = st.date_input(
+            deadline_to = _date_input_de(
                 "Bis",
                 value=None,
                 help="Einreichungsfrist bis"
             )
+            if deadline_to:
+                try:
+                    st.caption(f"Ausgewählt: {deadline_to.strftime('%d.%m.%Y')}")
+                except Exception:
+                    pass
         
         # 9. Buyer information
         st.subheader("Auftraggeber")
@@ -818,25 +1077,32 @@ def main():
         
         # Download options
         st.subheader("Download-Optionen")
-        
-        download_types = st.multiselect(
-            "Dateiformate",
-            options=["pdf_de", "pdf_en", "json_de", "json_en"],
-            default=["pdf_de", "json_de"],
-            format_func=lambda x: {
-                "pdf_de": "PDF (Deutsch)",
-                "pdf_en": "PDF (English)", 
-                "json_de": "JSON (Deutsch)",
-                "json_en": "JSON (English)"
-            }.get(x, x),
-            help="Wählen Sie die gewünschten Dateiformate und Sprachen für den Download."
-        )
+        lang_col, fmt_col = st.columns(2)
+        with lang_col:
+            lang_de = st.checkbox("Deutsch", value=True)
+            lang_en = st.checkbox("Englisch", value=False)
+        with fmt_col:
+            fmt_pdf = st.checkbox("PDF", value=True)
+            fmt_json = st.checkbox("JSON", value=False)
+
+        # Build download types from language/format checkboxes
+        download_types = []
+        if fmt_pdf:
+            if lang_de:
+                download_types.append("pdf_de")
+            if lang_en:
+                download_types.append("pdf_en")
+        if fmt_json:
+            if lang_de:
+                download_types.append("json_de")
+            if lang_en:
+                download_types.append("json_en")
         
         max_results = st.number_input(
             "Maximale Anzahl Ergebnisse",
             min_value=1,
             max_value=10000,
-            value=1000,
+            value=100,
             step=100,
             help="Begrenzen Sie die Anzahl der heruntergeladenen Ergebnisse."
         )
@@ -868,7 +1134,11 @@ def main():
         with col2:
             download_types = st.session_state.get('current_download_types', [])
             if download_types:
-                st.write(f"Lädt alle Ergebnisse herunter in: {', '.join(download_types)}")
+                cap = st.session_state.get('display_cap') or st.session_state.get('current_max_results')
+                if st.session_state.get('result_count') and cap and st.session_state['result_count'] > cap:
+                    st.write(f"Lädt bis zu {cap} Ergebnisse herunter in: {', '.join(download_types)}")
+                else:
+                    st.write(f"Lädt alle Ergebnisse herunter in: {', '.join(download_types)}")
             else:
                 st.write("Lädt alle gefundenen Ergebnisse in den ausgewählten Formaten herunter.")
     
@@ -876,7 +1146,11 @@ def main():
     if "result_count" in st.session_state and st.session_state.result_count is not None:
         result_count = st.session_state.result_count
         if result_count > 0:
-            st.info(f"Gefundene Ergebnisse: {result_count}")
+            cap = st.session_state.get('display_cap') or st.session_state.get('current_max_results')
+            if cap and result_count > cap:
+                st.info(f"Gefundene Ergebnisse: {result_count} (Anzeige/Download bis {cap})")
+            else:
+                st.info(f"Gefundene Ergebnisse: {result_count}")
         elif result_count == 0:
             st.info("Keine Ergebnisse gefunden.")
         else:
@@ -887,12 +1161,17 @@ def main():
     if st.session_state.search_results:
         results = st.session_state.search_results
         
-        st.subheader(f"Suchergebnisse ({len(results)} Treffer)")
+        cap = st.session_state.get('display_cap') or st.session_state.get('current_max_results')
+        display_results = results
+        if cap and isinstance(cap, int) and len(results) > cap:
+            display_results = results[:cap]
+            st.warning(f"Anzeige auf die ersten {cap} Ergebnisse begrenzt.")
+        st.subheader(f"Suchergebnisse ({len(display_results)} Treffer)")
         
-        if results:
+        if display_results:
             # Create DataFrame from results
             data = []
-            for notice in results:
+            for notice in display_results:
                 row = {
                     "Nummer": notice.get("publication-number", ""),
                     "Datum": notice.get("publication-date", ""),

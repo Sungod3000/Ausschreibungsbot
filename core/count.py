@@ -2,7 +2,7 @@ from typing import Optional
 import json
 import requests
 
-from ted_search_client import BASE_URL
+from ted_search_client import BASE_URL, _throttle_api
 
 
 def get_total_count_from_api(query: str) -> Optional[int]:
@@ -21,22 +21,47 @@ def get_total_count_from_api(query: str) -> Optional[int]:
         print(f"DEBUG - Getting total count for query: {query}")
         print(f"DEBUG - Payload: {json.dumps(payload, indent=2)}")
 
-        response = requests.post(
-            f"{BASE_URL}/v3/notices/search",
-            json=payload,
-            timeout=30,
-        )
+        # throttle to ~3 req/s and handle 429
+        retries = 0
+        backoff = 5
+        while True:
+            _throttle_api()
+            response = requests.post(
+                f"{BASE_URL}/v3/notices/search",
+                json=payload,
+                timeout=30,
+            )
+            if response.status_code != 429:
+                break
+            retry_after = int(response.headers.get("Retry-After", backoff))
+            print(f"DEBUG - Count got 429; sleeping {retry_after}s…")
+            import time as _t
+            _t.sleep(retry_after)
+            retries += 1
+            backoff = min(backoff * 2, 60)
+            if retries >= 5:
+                response.raise_for_status()
 
         print(f"DEBUG - Response status: {response.status_code}")
 
         response.raise_for_status()
         data = response.json()
 
-        # Get total count from API response
-        total_count = data.get("totalNotices")
-        print(f"DEBUG - API returned totalNotices: {total_count}")
+        # Get total count from API response (support both keys)
+        raw_total = data.get("totalNotices")
+        src = "totalNotices"
+        if raw_total is None:
+            raw_total = data.get("totalNoticeCount")
+            src = "totalNoticeCount"
+        print(f"DEBUG - API returned {src}: {raw_total}")
 
-        # Fallback: if API did not supply totalNotices, return None so caller can decide
+        # Coerce to int when possible; otherwise None
+        try:
+            total_count = int(raw_total) if raw_total is not None else None
+        except (TypeError, ValueError):
+            total_count = None
+
+        # Fallback: if API did not supply a usable total, return None so caller can decide
         return total_count
     except Exception as e:
         print(f"DEBUG - Error getting total count: {str(e)}")

@@ -8,7 +8,7 @@ def make_download_folder_name(query: str, download_types: List[str], timestamp: 
     This mirrors the logic previously embedded in fetch_results() to preserve behavior.
     Pattern example: YYYYMMDD_HHMMSS_RC_DE1_PD_20250720_to_20250722_pdf_de_json_en
     """
-    ts = timestamp or datetime.now().strftime("%Y%m%d_%H%M%S")
+    ts = timestamp or datetime.now().strftime("%d.%m.%Y_%H%M%S")
     folder_parts = [ts]
 
     # RC part
@@ -17,13 +17,21 @@ def make_download_folder_name(query: str, download_types: List[str], timestamp: 
         if rc_match:
             folder_parts.append(f"RC_{rc_match.group(1)}")
 
-    # PD part (from/to or single)
+    # PD part (from/to or single) with German dd.mm.yyyy formatting
     if 'PD>=' in query or 'PD<=' in query:
         pd_matches = re.findall(r'PD[><=]+([0-9]{8})', query)
+        def _fmt(d: str) -> str:
+            try:
+                from datetime import datetime as _dt
+                return _dt.strptime(d, "%Y%m%d").strftime("%d.%m.%Y")
+            except Exception:
+                return d  # fallback: keep as-is
         if len(pd_matches) >= 2:
-            folder_parts.append(f"PD_{pd_matches[0]}_to_{pd_matches[1]}")
+            d1 = _fmt(pd_matches[0])
+            d2 = _fmt(pd_matches[1])
+            folder_parts.append(f"PD_{d1}_to_{d2}")
         elif pd_matches:
-            folder_parts.append(f"PD_{pd_matches[0]}")
+            folder_parts.append(f"PD_{_fmt(pd_matches[0])}")
 
     # download types (sorted for stability)
     if download_types:

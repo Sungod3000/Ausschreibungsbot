@@ -15,13 +15,17 @@ def test_create_download_folder_name_contains_expected_parts():
     query = 'RC="DE1" AND PD>=20250720 AND PD<=20250722 AND NT="cn-standard"'
     folder = make_download_folder_name(query, ["pdf_de", "json_en"])
 
-    # Timestamp prefix: YYYYMMDD_HHMMSS
-    assert re.match(r"^\d{8}_\d{6}_", folder), folder
+    # Timestamp prefix: accept legacy YYYYMMDD_HHMMSS_ or new DD.MM.YYYY_HHMMSS_
+    ts_ok = bool(re.match(r"^\d{8}_\d{6}_", folder)) or bool(re.match(r"^\d{2}\.\d{2}\.\d{4}_\d{6}_", folder))
+    assert ts_ok, folder
 
     # Contains RC, dates and formats (order may vary slightly depending on code)
     assert "RC_DE1" in folder
-    assert ("from_20250720" in folder) or ("PD_20250720" in folder)  # support both existing patterns
-    assert ("to_20250722" in folder) or ("_to_20250722" in folder)
+    # Support legacy YYYYMMDD and new German dd.mm.yyyy patterns
+    has_from = ("from_20250720" in folder) or ("PD_20250720" in folder) or ("PD_20.07.2025" in folder)
+    has_to = ("to_20250722" in folder) or ("_to_20250722" in folder) or ("_to_22.07.2025" in folder)
+    assert has_from, folder
+    assert has_to, folder
     assert "pdf_de" in folder and "json_en" in folder
 
 
