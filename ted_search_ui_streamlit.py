@@ -10,44 +10,28 @@ from io import BytesIO
 
 # Import the ted_search function and BASE_URL from ted_search_client
 from ted_search_client import ted_search, BASE_URL
+from core.query_builder import build_expert_query
+from core.count import get_total_count_from_api
+from core.downloader import download_with_rate_limit
+from core.naming import make_download_folder_name
+from config.constants import (
+    NOTICE_TYPE_MAP as _NOTICE_TYPE_MAP,
+    PROCEDURE_TYPE_MAP as _PROCEDURE_TYPE_MAP,
+    CONTRACT_TYPE_MAP as _CONTRACT_TYPE_MAP,
+)
+import logging
+from config.logging import setup_logging
 
-# Constants and mappings
-_NOTICE_TYPE_MAP = {
-    "Contract notice": "cn-standard",
-    "Contract award notice": "can-standard",
-    "Prior information notice": "pin-standard",
-    "Design contest notice": "cn-desg",
-    "Design contest results": "can-desg",
-    "Modification notice": "can-modif",
-    "Social and other specific services – public contracts": "cn-social",
-    "Social and other specific services – utilities": "cn-social",
-    "Social and other specific services – concessions": "cn-social",
-    "Result of contest": "can-social",
-    "Concession notice": "cn-standard",
-    "Concession award notice": "can-standard",
-    "Voluntary ex ante transparency notice": "veat",
-    "Buyer profile": "pin-buyer",
-    "Qualification system – utilities": "pin-standard",
-    "Periodic indicative notice – utilities": "pin-standard"
-}
+# Initialize root logging once, then get module logger
+setup_logging()
+logger = logging.getLogger(__name__)
 
-_PROCEDURE_TYPE_MAP = {
-    "Open procedure": "pt-open",
-    "Restricted procedure": "pt-restricted",
-    "Competitive procedure with negotiation": "pt-competitive-negotiation",
-    "Competitive dialogue": "pt-competitive-dialogue",
-    "Innovation partnership": "pt-innovation",
-    "Negotiated procedure without prior publication": "pt-negotiated-without-call",
-    "Award of a contract without prior publication": "pt-award-wo-prior-call",
-    "Not specified": None
-}
-
-_CONTRACT_TYPE_MAP = {
-    "Works": "works",
-    "Supplies": "supplies",
-    "Services": "services",
-    "Not specified": None
-}
+# Streamlit page config must be the first Streamlit command
+st.set_page_config(
+    page_title="TED Expert-Search UI",
+    page_icon="🇪🇺",
+    layout="wide",
+)
 
 # Search field aliases with descriptions and options
 SEARCH_FIELD_ALIASES = {
@@ -244,98 +228,7 @@ SEARCH_FIELD_ALIASES = {
     }
 }
 
-def build_expert_query(
-    full_text: str = None,
-    notice_type: str = None,
-    cpv: str = None,
-    place_of_performance: str = None,
-    contract_type: str = None,
-    value_min: int = None,
-    value_max: int = None,
-    pub_date_from: str = None,
-    pub_date_to: str = None,
-    deadline_from: str = None,
-    deadline_to: str = None,
-    buyer_name: str = None,
-    buyer_town: str = None,
-    buyer_country: str = None,
-    buyer_type: str = None,
-    authority_activity: str = None,
-) -> str:
-    """Build TED API expert query from simplified parameters."""
-    parts: List[str] = []
-    
-    # 1. Free text search
-    if full_text and full_text.strip():
-        parts.append(f'FT~("{full_text.strip()}")')
-    
-    # 2. Notice type (business opportunities)
-    if notice_type:
-        parts.append(f'NT="{notice_type}"')
-    
-    # 3. CPV code (business section)
-    if cpv and cpv.strip():
-        parts.append(f'PC="{cpv.strip()}"')
-    
-    # 4. Place of performance (where the work will be done)
-    if place_of_performance and place_of_performance.strip():
-        parts.append(f'RC="{place_of_performance.strip()}"')
-    
-    # 5. Contract type (nature of contract)
-    if contract_type:
-        parts.append(f'NC="{contract_type}"')
-    
-    # 5. Procurement value
-    if value_min is not None and value_max is not None:
-        parts.append(f'VR=[{value_min} TO {value_max}]')
-    elif value_min is not None:
-        parts.append(f'VR>={value_min}')
-    elif value_max is not None:
-        parts.append(f'VR<={value_max}')
-    
-    # 6. Publication date
-    if pub_date_from and pub_date_to:
-        # Use separate >= and <= operators instead of TO syntax
-        parts.append(f'PD>={pub_date_from}')
-        parts.append(f'PD<={pub_date_to}')
-    elif pub_date_from:
-        parts.append(f'PD>={pub_date_from}')
-    elif pub_date_to:
-        parts.append(f'PD<={pub_date_to}')
-    
-    # 7. Deadline
-    if deadline_from and deadline_to:
-        # Use separate >= and <= operators instead of TO syntax
-        parts.append(f'DD>={deadline_from}')
-        parts.append(f'DD<={deadline_to}')
-    elif deadline_from:
-        parts.append(f'DD>={deadline_from}')
-    elif deadline_to:
-        parts.append(f'DD<={deadline_to}')
-    
-    # 8. Buyer information
-    if buyer_name and buyer_name.strip():
-        parts.append(f'AU~("{buyer_name.strip()}")')
-    
-    if buyer_town and buyer_town.strip():
-        parts.append(f'buyer-town~("{buyer_town.strip()}")')
-    
-    if buyer_country:
-        parts.append(f'CY="{buyer_country}"')  # Use CY for country
-    
-    if buyer_type:
-        parts.append(f'buyer-type="{buyer_type}"')
-    
-    if authority_activity:
-        parts.append(f'authority-main-activity="{authority_activity}"')
-    
-    # If no conditions specified, return empty query (this shouldn't happen with default dates)
-    if not parts:
-        # This should not happen since we have default publication dates
-        print("WARNING - No search criteria specified, this should not happen!")
-        return ""
-    
-    return ' AND '.join(parts)
+# build_expert_query is now imported from core.query_builder
 
 def create_info_tooltip(field_info):
     """Create tooltip text for a field"""
@@ -399,87 +292,11 @@ def download_button(object_to_download, download_filename, button_text):
     
     return dl_link
 
-def get_total_count_from_api(query: str) -> Optional[int]:
-    """Get the true total count from TED API without fetching all results."""
-    try:
-        # Make a single API call with minimal data to get totalNotices
-        payload = {
-            "query": query,
-            "page": 1,
-            "limit": 1,  # Minimal limit to get count
-            "fields": ["notice-type"]  # Minimal field set
-        }
-        
-        print(f"DEBUG - Getting total count for query: {query}")
-        print(f"DEBUG - Payload: {json.dumps(payload, indent=2)}")
-        
-        response = requests.post(
-            f"{BASE_URL}/v3/notices/search",
-            json=payload,
-            timeout=30
-        )
-        
-        print(f"DEBUG - Response status: {response.status_code}")
-        
-        response.raise_for_status()
-        data = response.json()
-        
-        # Get total count from API response
-        total_count = data.get("totalNotices")
-        print(f"DEBUG - API returned totalNotices: {total_count}")
-
-        # Fallback: if API did not supply totalNotices, return None so caller can decide
-        return total_count
-    except Exception as e:
-        print(f"DEBUG - Error getting total count: {str(e)}")
-        return None
+"""get_total_count_from_api is now imported from core.count"""
 
 def create_download_folder_name(query: str, download_types: list) -> str:
-    """Create a folder name based on search parameters."""
-    import re
-    from datetime import datetime
-    
-    # Extract key search terms from query
-    folder_parts = []
-    
-    # Add timestamp
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    folder_parts.append(timestamp)
-    
-    # Extract key terms from query
-    if "RC=" in query:
-        rc_match = re.search(r'RC="([^"]+)"', query)
-        if rc_match:
-            folder_parts.append(f"RC_{rc_match.group(1)}")
-    
-    if "PD>=" in query:
-        pd_match = re.search(r'PD>=([0-9]+)', query)
-        if pd_match:
-            folder_parts.append(f"from_{pd_match.group(1)}")
-    
-    if "PD<=" in query:
-        pd_match = re.search(r'PD<=([0-9]+)', query)
-        if pd_match:
-            folder_parts.append(f"to_{pd_match.group(1)}")
-    
-    if "NT=" in query:
-        nt_match = re.search(r'NT="([^"]+)"', query)
-        if nt_match:
-            folder_parts.append(f"NT_{nt_match.group(1)}")
-    
-    # Add download types
-    if download_types:
-        folder_parts.append("_".join(download_types))
-    
-    # Join with underscores and limit length
-    folder_name = "_".join(folder_parts)
-    # Replace invalid characters
-    folder_name = re.sub(r'[<>:"/\\|?*]', '_', folder_name)
-    # Limit length
-    if len(folder_name) > 100:
-        folder_name = folder_name[:100]
-    
-    return folder_name
+    """Compatibility wrapper for tests; delegates to core.naming.make_download_folder_name."""
+    return make_download_folder_name(query, download_types)
 
 def fetch_results():
     """Download files from prefetched results with verbose debugging and rate limiting."""
@@ -488,90 +305,63 @@ def fetch_results():
     import time
     from datetime import datetime
     
-    print("\n" + "="*60)
-    print("🔥 FETCH_RESULTS STARTED")
-    print("="*60)
+    logger.info("\n" + "="*60)
+    logger.info("🔥 FETCH_RESULTS STARTED")
+    logger.info("="*60)
     
     # STEP 1: Check if we have results
-    print("\n📋 STEP 1: Checking for prefetched results...")
+    logger.info("\n📋 STEP 1: Checking for prefetched results...")
     if not hasattr(st.session_state, 'prefetched_results'):
-        print("❌ ERROR: No 'prefetched_results' attribute in session state")
+        logger.error("❌ ERROR: No 'prefetched_results' attribute in session state")
         st.error("Keine Ergebnisse gefunden. Bitte führen Sie zuerst eine Suche durch.")
         return
     
     if not st.session_state.prefetched_results:
-        print("❌ ERROR: prefetched_results is empty")
+        logger.error("❌ ERROR: prefetched_results is empty")
         st.error("Keine Ergebnisse zum Herunterladen gefunden.")
         return
     
     results = st.session_state.prefetched_results
-    print(f"✅ Found {len(results)} prefetched results")
+    logger.info(f"✅ Found {len(results)} prefetched results")
     
     # STEP 2: Get download types and search parameters
-    print("\n📋 STEP 2: Getting download parameters...")
+    logger.info("\n📋 STEP 2: Getting download parameters...")
     download_types = st.session_state.get('current_download_types', ['pdf_de'])
     query = st.session_state.get('current_query', 'unknown_query')
     
-    print(f"📥 Download types: {download_types}")
-    print(f"🔍 Search query: {query}")
+    logger.info(f"📥 Download types: {download_types}")
+    logger.info(f"🔍 Search query: {query}")
     
     if not download_types:
-        print("❌ ERROR: No download types selected")
+        logger.error("❌ ERROR: No download types selected")
         st.error("Bitte wählen Sie mindestens ein Download-Format aus.")
         return
     
     # STEP 3: Create folder with search parameters in name
-    print("\n📋 STEP 3: Creating download folder...")
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
-    # Extract key search parameters for folder name
-    folder_parts = [timestamp]
-    
-    # Add query parts to folder name
-    if 'RC=' in query:
-        import re
-        rc_match = re.search(r'RC="?([^"\s]+)"?', query)
-        if rc_match:
-            folder_parts.append(f"RC_{rc_match.group(1)}")
-    
-    if 'PD>=' in query:
-        pd_matches = re.findall(r'PD[><=]+([0-9]{8})', query)
-        if len(pd_matches) >= 2:
-            folder_parts.append(f"PD_{pd_matches[0]}_to_{pd_matches[1]}")
-        elif pd_matches:
-            folder_parts.append(f"PD_{pd_matches[0]}")
-    
-    # Add download types
-    types_str = "_".join(sorted(download_types))
-    folder_parts.append(types_str)
-    
-    folder_name = "_".join(folder_parts)
-    # Limit folder name length
-    if len(folder_name) > 100:
-        folder_name = folder_name[:100]
-    
+    logger.info("\n📋 STEP 3: Creating download folder...")
+    folder_name = make_download_folder_name(query, download_types)
     download_folder = os.path.join(os.getcwd(), "downloads", folder_name)
     
-    print(f"📁 Creating folder: {folder_name}")
-    print(f"📁 Full path: {download_folder}")
+    logger.info(f"📁 Creating folder: {folder_name}")
+    logger.info(f"📁 Full path: {download_folder}")
     
     try:
         os.makedirs(download_folder, exist_ok=True)
-        print(f"✅ Folder created successfully")
+        logger.info("✅ Folder created successfully")
     except Exception as e:
-        print(f"❌ ERROR creating folder: {e}")
+        logger.error(f"❌ ERROR creating folder: {e}")
         st.error(f"Konnte Download-Ordner nicht erstellen: {e}")
         return
     
     if not os.path.exists(download_folder):
-        print(f"❌ ERROR: Folder does not exist after creation")
+        logger.error("❌ ERROR: Folder does not exist after creation")
         st.error(f"Download-Ordner wurde nicht erstellt: {download_folder}")
         return
     
     st.success(f"📁 Download-Ordner erstellt: {folder_name}")
     
     # STEP 4: Count and analyze available files
-    print("\n📋 STEP 4: Analyzing available files...")
+    logger.info("\n📋 STEP 4: Analyzing available files...")
     
     total_files = 0
     file_analysis = []
@@ -580,14 +370,14 @@ def fetch_results():
         pub_number = result.get("publication-number", f"notice_{i}")
         links = result.get("links", {})
         
-        print(f"\n📄 Result {i+1}/{len(results)}: {pub_number}")
-        print(f"   Available link types: {list(links.keys()) if links else 'No links'}")
+        logger.info(f"\n📄 Result {i+1}/{len(results)}: {pub_number}")
+        logger.debug(f"   Available link types: {list(links.keys()) if links else 'No links'}")
         
         result_files = []
         
         # Check PDF links
         if "pdf" in links and isinstance(links["pdf"], dict):
-            print(f"   📕 PDF languages: {list(links['pdf'].keys())}")
+            logger.debug(f"   📕 PDF languages: {list(links['pdf'].keys())}")
             for lang, url in links["pdf"].items():
                 should_download = False
                 file_suffix = ""
@@ -595,13 +385,13 @@ def fetch_results():
                 if "pdf_de" in download_types and lang.upper() in ['DEU', 'DE']:
                     should_download = True
                     file_suffix = "_DE.pdf"
-                    print(f"   ✅ Will download PDF (German): {lang}")
+                    logger.info(f"   ✅ Will download PDF (German): {lang}")
                 elif "pdf_en" in download_types and lang.upper() in ['ENG', 'EN']:
                     should_download = True
                     file_suffix = "_EN.pdf"
-                    print(f"   ✅ Will download PDF (English): {lang}")
+                    logger.info(f"   ✅ Will download PDF (English): {lang}")
                 else:
-                    print(f"   ⏭️  Skipping PDF language: {lang}")
+                    logger.debug(f"   ⏭️  Skipping PDF language: {lang}")
                 
                 if should_download:
                     filename = f"{pub_number}{file_suffix}"
@@ -615,7 +405,7 @@ def fetch_results():
         
         # Check JSON links
         if "json" in links and isinstance(links["json"], dict):
-            print(f"   📗 JSON languages: {list(links['json'].keys())}")
+            logger.debug(f"   📗 JSON languages: {list(links['json'].keys())}")
             for lang, url in links["json"].items():
                 should_download = False
                 file_suffix = ""
@@ -623,13 +413,13 @@ def fetch_results():
                 if "json_de" in download_types and lang.upper() in ['DEU', 'DE']:
                     should_download = True
                     file_suffix = "_DE.json"
-                    print(f"   ✅ Will download JSON (German): {lang}")
+                    logger.info(f"   ✅ Will download JSON (German): {lang}")
                 elif "json_en" in download_types and lang.upper() in ['ENG', 'EN']:
                     should_download = True
                     file_suffix = "_EN.json"
-                    print(f"   ✅ Will download JSON (English): {lang}")
+                    logger.info(f"   ✅ Will download JSON (English): {lang}")
                 else:
-                    print(f"   ⏭️  Skipping JSON language: {lang}")
+                    logger.debug(f"   ⏭️  Skipping JSON language: {lang}")
                 
                 if should_download:
                     filename = f"{pub_number}{file_suffix}"
@@ -646,18 +436,18 @@ def fetch_results():
             'files': result_files
         })
     
-    print(f"\n📊 ANALYSIS COMPLETE:")
-    print(f"   📄 Total results: {len(results)}")
-    print(f"   📥 Total files to download: {total_files}")
-    print(f"   📁 Download folder: {folder_name}")
+    logger.info(f"\n📊 ANALYSIS COMPLETE:")
+    logger.info(f"   📄 Total results: {len(results)}")
+    logger.info(f"   📥 Total files to download: {total_files}")
+    logger.info(f"   📁 Download folder: {folder_name}")
     
     if total_files == 0:
-        print("❌ No files to download!")
+        logger.warning("❌ No files to download!")
         st.warning("Keine Dateien zum Herunterladen gefunden. Überprüfen Sie die ausgewählten Formate.")
         return
     
     # STEP 5: Download files with rate limiting
-    print("\n📋 STEP 5: Starting downloads with rate limiting (max 5/sec)...")
+    logger.info("\n📋 STEP 5: Starting downloads with rate limiting (max 5/sec)...")
     
     progress_bar = st.progress(0)
     status_text = st.empty()
@@ -675,7 +465,7 @@ def fetch_results():
         if not files:
             continue
             
-        print(f"\n📄 Downloading files for: {pub_number}")
+        logger.info(f"\n📄 Downloading files for: {pub_number}")
         
         for file_info in files:
             filename = file_info['filename']
@@ -683,43 +473,21 @@ def fetch_results():
             file_type = file_info['type']
             lang = file_info['lang']
             
-            # Rate limiting: max 5 requests per second
-            current_time = time.time()
-            time_since_last = current_time - last_request_time
-            if time_since_last < 0.2:  # 0.2 seconds = 5 requests per second
-                sleep_time = 0.2 - time_since_last
-                print(f"⏱️  Rate limiting: sleeping {sleep_time:.2f}s")
-                time.sleep(sleep_time)
-            
             filepath = os.path.join(download_folder, filename)
             
-            print(f"\n🔽 Downloading: {filename}")
-            print(f"   📎 URL: {url[:80]}...")
-            print(f"   📁 Path: {filepath}")
-            
-            try:
-                last_request_time = time.time()
-                response = requests.get(url, timeout=30)
-                print(f"   📡 HTTP Status: {response.status_code}")
-                print(f"   📏 Content Length: {len(response.content)} bytes")
-                
-                response.raise_for_status()
-                
-                with open(filepath, 'wb') as f:
-                    f.write(response.content)
-                
-                # Verify file was written
-                if os.path.exists(filepath):
-                    file_size = os.path.getsize(filepath)
-                    print(f"   ✅ SUCCESS: {filename} ({file_size} bytes)")
-                    downloaded_count += 1
-                else:
-                    print(f"   ❌ ERROR: File not found after writing: {filename}")
-                    failed_count += 1
-                
-            except Exception as e:
-                print(f"   ❌ ERROR downloading {filename}: {e}")
-                st.warning(f"Fehler beim Herunterladen von {filename}: {str(e)}")
+            logger.info(f"\n🔽 Downloading: {filename}")
+            logger.debug(f"   📎 URL: {url[:80]}...")
+            logger.debug(f"   📁 Path: {filepath}")
+
+            success, file_size, error_msg, last_request_time = download_with_rate_limit(
+                url, filepath, last_request_time, min_interval=0.2, timeout=30
+            )
+            if success:
+                logger.info(f"   ✅ SUCCESS: {filename} ({file_size} bytes)")
+                downloaded_count += 1
+            else:
+                logger.error(f"   ❌ ERROR: {filename} - {error_msg}")
+                st.warning(f"Fehler beim Herunterladen von {filename}: {error_msg}")
                 failed_count += 1
             
             # Update progress
@@ -728,12 +496,12 @@ def fetch_results():
             status_text.text(f"📥 Heruntergeladen: {downloaded_count}/{total_files} ({failed_count} Fehler)")
     
     # FINAL STATUS
-    print("\n" + "="*60)
-    print("🎉 DOWNLOAD COMPLETE")
-    print(f"✅ Successfully downloaded: {downloaded_count} files")
-    print(f"❌ Failed downloads: {failed_count} files")
-    print(f"📁 Saved to: {download_folder}")
-    print("="*60)
+    logger.info("\n" + "="*60)
+    logger.info("🎉 DOWNLOAD COMPLETE")
+    logger.info(f"✅ Successfully downloaded: {downloaded_count} files")
+    logger.info(f"❌ Failed downloads: {failed_count} files")
+    logger.info(f"📁 Saved to: {download_folder}")
+    logger.info("="*60)
     
     progress_bar.progress(1.0)
     status_text.text(f"✅ Download abgeschlossen! {downloaded_count} Dateien heruntergeladen.")
@@ -747,13 +515,13 @@ def fetch_results():
     # Show folder contents
     try:
         folder_files = os.listdir(download_folder)
-        print(f"\n📁 Folder contents ({len(folder_files)} files):")
+        logger.info(f"\n📁 Folder contents ({len(folder_files)} files):")
         for f in folder_files[:10]:  # Show first 10 files
-            print(f"   📄 {f}")
+            logger.info(f"   📄 {f}")
         if len(folder_files) > 10:
-            print(f"   ... and {len(folder_files) - 10} more files")
+            logger.info(f"   ... and {len(folder_files) - 10} more files")
     except Exception as e:
-        print(f"Error listing folder contents: {e}")
+        logger.error(f"Error listing folder contents: {e}")
 
 def check_result_count(query: str) -> Optional[int]:
     """Get total count and optionally prefetch some results."""
@@ -764,7 +532,7 @@ def check_result_count(query: str) -> Optional[int]:
             
             if total_count is None:
                 # Fallback – API did not provide count. Fetch ALL results and count manually
-                print("DEBUG - totalNotices is None – falling back to manual counting of ALL results …")
+                logger.debug("totalNotices is None – falling back to manual counting of ALL results …")
                 results = ted_search(
                     query=query,
                     fields=["notice-type"],
@@ -774,13 +542,13 @@ def check_result_count(query: str) -> Optional[int]:
                 )
                 st.session_state.prefetched_results = results
                 total_count = len(results)
-                print(f"DEBUG - Fallback fetched ALL {total_count} results")
+                logger.debug(f"Fallback fetched ALL {total_count} results")
             else:
-                print(f"DEBUG - Total count from API: {total_count}")
+                logger.info(f"Total count from API: {total_count}")
             
             # If there are results and not too many, prefetch them for faster download
             if total_count > 0 and total_count <= 2000:  # Reasonable limit for prefetching
-                print(f"DEBUG - Prefetching ALL {total_count} results...")
+                logger.debug(f"Prefetching ALL {total_count} results...")
                 results = ted_search(
                     query=query,
                     fields=["notice-type"],  # Minimal field set for prefetch
@@ -789,16 +557,16 @@ def check_result_count(query: str) -> Optional[int]:
                     max_pages=None  # Get ALL pages
                 )
                 st.session_state.prefetched_results = results
-                print(f"DEBUG - Prefetched ALL {len(results)} results")
+                logger.debug(f"Prefetched ALL {len(results)} results")
             else:
                 # Too many results to prefetch, will fetch on demand
                 st.session_state.prefetched_results = None
-                print(f"DEBUG - Too many results ({total_count}) to prefetch - will fetch on demand")
+                logger.info(f"Too many results ({total_count}) to prefetch - will fetch on demand")
             
             return total_count
     except Exception as e:
         error_msg = f"Fehler beim Abrufen der Ergebnisanzahl: {str(e)}"
-        print(f"DEBUG - Error: {error_msg}")
+        logger.error(f"Error: {error_msg}")
         st.session_state.search_error = error_msg
         return None
 
@@ -843,7 +611,7 @@ def run_search(
         st.session_state.search_query = query
         
         # Debug: Show the constructed query
-        print(f"DEBUG - Constructed query: {query}")
+        logger.debug(f"Constructed query: {query}")
         st.info(f"Suchanfrage: {query}")
         
         # Store query in session state for later use
@@ -878,11 +646,6 @@ def run_search(
         return
 
 def main():
-    st.set_page_config(
-        page_title="TED Expert-Search UI",
-        page_icon="🇪🇺",
-        layout="wide"
-    )
     st.title("TED Expert-Search UI")
     
     # fetch_results function is now defined globally above main()
